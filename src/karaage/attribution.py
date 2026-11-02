@@ -144,8 +144,12 @@ def run_attribution(segments: list, start: int, end: int, max_context_tokens: in
     if verbose:
         print("  → calling LLM", end="")
 
+    # Cap the answer at what fits in the context: with no limit, a model caught in a
+    # repetition loop keeps generating until the request times out.
+    max_tokens = max(RESERVED_TOKENS_ATTRIBUTION,
+                     max_context_tokens - estimate_tokens(SYSTEM_PROMPT_ATTRIBUTION + prompt))
     content = llm.complete_json(SYSTEM_PROMPT_ATTRIBUTION, prompt, ATTRIBUTION_SCHEMA,
-                                name="AttributionResult", strict=False)
+                                name="AttributionResult", strict=False, max_tokens=max_tokens)
     return AttributionResult.model_validate_json(content)
 
 
