@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-j77pawtsn3hmzmw81ioctr",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"re-enabled public access to the youtube-dl repository on November 16\", \"rephrased\": \"The code-sharing platform GitHub re-enabled public access to the youtube-dl repository on November 16, reversing a previous suspension that had blocked the tool following a copyright dispute with the Recording Industry Association of America. This decision restores the ability for users to download videos from various websites via command-line, a function previously halted due to concerns over circumventing technological protection measures.\", \"summary\": \"GitHub restored access to the youtube-dl repository on November 16 after a copyright dispute.\"}, \"1\": {\"original\": \"blocked the youtube-dl repository on October 23 after receiving a DMCA takedown\", \"rephrased\": \"The code-sharing platform GitHub blocked the youtube-dl repository on October 23 after receiving a Digital Millennium Copyright Act takedown notice from the Recording Industry Association of America. This action was taken in response to allegations that the software, which can download videos from the internet, was intended to circumvent the technological protection measures of streaming services and redistribute music without authorization.\", \"summary\": \"GitHub blocked the youtube-dl repository on October 23 following a DMCA takedown notice from the RIAA.\"}, \"2\": {\"original\": \"restored public access to the youtube-dl repository following the dispute\", \"rephrased\": \"The code-sharing platform GitHub restored public access to the youtube-dl repository following a legal dispute, reversing its earlier decision to block the tool after receiving a copyright infringement notice. This move allows users to resume downloading videos from various websites, effectively ending the temporary suspension caused by the conflict with the Recording Industry Association of America.\", \"summary\": \"GitHub restored public access to the youtube-dl repository following the dispute.\"}, \"3\": {\"original\": \"sent a letter to GitHub on behalf of youtube-dl's maintainers\", \"rephrased\": \"Mitchell Stoltz, a Senior Staff Attorney for the Electronic Frontier Foundation, sent a formal letter to the code-sharing platform GitHub on behalf of the youtube-dl maintainers to argue for the restoration of the tool's public access. The letter contends that the software's unit tests constitute fair use and do not violate copyright laws, urging GitHub to reverse its decision to block the repository based on a Digital Millennium Copyright Act takedown notice from the Recording Industry Association of America.\", \"summary\": \"Mitchell Stoltz sent a letter to GitHub on behalf of youtube-dl's maintainers.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647808,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 523,
+  "prompt_tokens": 2194,
+  "total_tokens": 2717,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

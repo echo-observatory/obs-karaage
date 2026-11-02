@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-lmahywomxlh42zq3pq0ms",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"Protecting user rights requires that all software be free. This condition guarantees four specific freedoms. First, users have the liberty to run the program for any purpose. Second, users possess the right to study and modify the source code. Third, users enjoy the freedom to make exact copies. Finally, users hold the ability to distribute modified versions to others.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647988,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 80,
+  "prompt_tokens": 293,
+  "total_tokens": 373,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

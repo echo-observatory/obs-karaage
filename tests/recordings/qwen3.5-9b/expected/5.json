@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Three states are suing Sony BMG over its music CD software, which secretly installs a dangerous rootkit that compromises computer security and violates consumer protection laws.",
+  "main_point_method": "single",
   "source_text_length_chars": 2047,
   "source_text_length_segments": 29,
   "actors": [

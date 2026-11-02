@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "A class action lawsuit led by the estate of jazz musician Chet Baker and collective societies alleges that major Canadian record labels have failed to pay royalties for hundreds of thousands of works, potentially resulting in billions in penalties, while the industry defends its practices by citing a 'pending list' of unlicensed works and dismissing the lawsuit as exaggerated.",
+  "main_point_method": "single",
   "source_text_length_chars": 10018,
   "source_text_length_segments": 130,
   "actors": [

@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Brittany Phelps, administrator of the revived United States Pirate Party, argues that the party must cultivate state-level organizations to survive financially while advocating for government transparency, privacy, and ballot reform to challenge the two-party system.",
+  "main_point_method": "single",
   "source_text_length_chars": 4040,
   "source_text_length_segments": 97,
   "actors": [

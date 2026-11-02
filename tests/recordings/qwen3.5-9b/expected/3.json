@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Protesters staged a symbolic act by having MPAA president Jack Valenti sign Betamax tapes, highlighting the irony that he previously condemned the VCR as a 'Boston strangler' despite the technology's legal protection, drawing a parallel to the current Supreme Court case over digital file-sharing.",
+  "main_point_method": "single",
   "source_text_length_chars": 1876,
   "source_text_length_segments": 21,
   "actors": [

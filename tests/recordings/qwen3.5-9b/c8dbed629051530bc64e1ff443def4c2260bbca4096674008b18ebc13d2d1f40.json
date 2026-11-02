@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-pntjin987vg8inr3whkcif",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"base_author\": [\"DMCA 1201's prohibition on distributing tools that break DRM is the worst part, forcing users into an underground market for forbidden devices.\", \"I propose eliminating anti-circumvention laws entirely and making it a crime to make, sell, lease, or import any product with DRM.\", \"I refuse to accept the concepts of 'piracy' and 'protected' content, viewing them as smears used to restrict sharing and support businesses that harm artists.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647798,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 101,
+  "prompt_tokens": 1407,
+  "total_tokens": 1508,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "The MPAA publicly sued BitTorrent and Usenet sites without notifying them first, causing outrage among administrators who claim they are legitimate services that would have cooperated with proper legal process.",
+  "main_point_method": "single",
   "source_text_length_chars": 8482,
   "source_text_length_segments": 173,
   "actors": [

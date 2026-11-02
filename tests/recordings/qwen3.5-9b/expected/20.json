@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "The Open Rights Group held its first conference to educate activists on reforming intellectual property laws, emphasizing a shift from 'information wants to be free' to a focus on digital rights management and sustainable copyright systems.",
+  "main_point_method": "single",
   "source_text_length_chars": 2609,
   "source_text_length_segments": 43,
   "actors": [

@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "The Pirate Party argues that current copyright laws are unsustainable and criminalize ordinary citizens, proposing to reform them to protect digital privacy and balance power in the Swedish parliament.",
+  "main_point_method": "single",
   "source_text_length_chars": 13988,
   "source_text_length_segments": 320,
   "actors": [

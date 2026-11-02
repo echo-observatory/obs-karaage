@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Michael Moore faces a federal investigation for filming a segment in Cuba for his upcoming documentary 'SiCKO,' which contrasts the U.S. healthcare system with other nations and highlights the lack of affordable care in America.",
+  "main_point_method": "single",
   "source_text_length_chars": 3146,
   "source_text_length_segments": 43,
   "actors": [

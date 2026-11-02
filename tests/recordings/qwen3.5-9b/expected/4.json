@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "The U.S. Supreme Court ruled that companies intentionally designed to facilitate copyright infringement are liable for users' violations, a strong but legally vague decision that could stifle innovation while offering hope for defendants in lower courts.",
+  "main_point_method": "single",
   "source_text_length_chars": 1707,
   "source_text_length_segments": 27,
   "actors": [

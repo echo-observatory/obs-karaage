@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Wikipedia is conducting a 24-hour blackout to protest U.S. anti-piracy laws, aiming to raise awareness and pressure lawmakers, while its executive director defends the protest's effectiveness and the community's decision-making process despite concerns about commercial participation and future precedents.",
+  "main_point_method": "single",
   "source_text_length_chars": 5401,
   "source_text_length_segments": 100,
   "actors": [

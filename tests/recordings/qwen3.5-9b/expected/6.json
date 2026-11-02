@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Suprnova founder Andrej Preston reveals that after his site was raided in 2004 and he faced police pressure, the matter was eventually dropped, though his failed attempt to launch a decentralized alternative, eXeem, due to adware issues, highlights the legal and technical challenges of peer-to-peer file sharing.",
+  "main_point_method": "single",
   "source_text_length_chars": 3150,
   "source_text_length_segments": 70,
   "actors": [

@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, arguing that its vague terms threatened internet freedom, privacy, and access to medicines.",
+  "main_point_method": "single",
   "source_text_length_chars": 3229,
   "source_text_length_segments": 40,
   "actors": [

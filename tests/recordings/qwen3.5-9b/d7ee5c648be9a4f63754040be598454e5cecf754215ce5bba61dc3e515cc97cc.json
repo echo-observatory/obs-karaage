@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-nksbnv6kd5ceutephmqwar",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"56\": {\"original\": \"That's a bad thing. That's a bad thing. It's a foolish thing. It's hard to trust\", \"rephrased\": \"The adoption of Snap and Flatpak application packaging platforms represents a dangerous regression for digital freedom, as these systems distribute non-free software that users cannot inspect or modify. By locking applications in binary formats, these platforms prevent the community from verifying the complete source code, effectively stripping away the collective control that free operating systems are designed to provide. Consequently, relying on such mechanisms undermines the fundamental principle that users must retain the ability to audit and alter the software they run.\", \"summary\": \"Snap and Flatpak platforms undermine digital freedom by distributing untrustworthy, non-free software that prevents source code verification.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647973,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 2518,
+  "total_tokens": 2677,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}
