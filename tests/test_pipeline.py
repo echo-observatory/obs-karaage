@@ -6,6 +6,11 @@ model loaded in LM Studio:
 
     rm -rf tests/recordings/qwen3.5-9b
     KARAAGE_LLM_MODE=record uv run pytest tests/test_pipeline.py
+
+After a change to the output alone, which changes no LLM request, rewrite the
+expected outputs from a replay instead:
+
+    KARAAGE_UPDATE_EXPECTED=1 uv run pytest tests/test_pipeline.py
 """
 
 import json
@@ -40,7 +45,7 @@ def comparable(result) -> dict:
 def test_pipeline(article_id, articles, resources):
     output = comparable(karaage.run(articles[article_id]["text"], resources))
     expected = EXPECTED / f"{article_id}.json"
-    if resources.client.mode == "record":
+    if resources.client.mode == "record" or os.environ.get("KARAAGE_UPDATE_EXPECTED"):
         expected.parent.mkdir(parents=True, exist_ok=True)
         expected.write_text(json.dumps(output, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     else:
