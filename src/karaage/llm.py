@@ -8,6 +8,7 @@ reasoning is turned off.
 For tests, KARAAGE_LLM_MODE=record saves every response in KARAAGE_RECORDINGS
 (default tests/recordings), and KARAAGE_LLM_MODE=replay answers from those
 files instead of calling the backend (docs/design-1.1.0.md, section 7.1).
+Responses are grouped in one file per recording, e.g. one per test article.
 
 We call client.chat.completions.create() rather than the SDK's parse helpers,
 because those return nothing when a model mixes reasoning tokens with its JSON
@@ -63,6 +64,19 @@ class LLMClient:
             raise ValueError(f"KARAAGE_LLM_MODE must be one of: {', '.join(LLM_MODES)}.")
         self.recordings = (Path(os.environ.get("KARAAGE_RECORDINGS", "tests/recordings"))
                            / profile.label.replace(":", "-"))
+        self._recording = None       # record mode: name and responses of the file being written
+        self._replayed = None        # replay mode: every recorded response, by request key
+        if self.mode == "record":
+            self.use_recording("default")
+
+    def use_recording(self, name: str) -> None:
+        """Record the next responses in `<recordings>/<name>.json`, written from scratch.
+
+        In replay mode it changes nothing: responses are looked up in every recording.
+        """
+        if self.mode == "record":
+            self._recording = (self.recordings / f"{name}.json", {})
+            self._recording[0].unlink(missing_ok=True)
 
     def check(self) -> None:
         """Check that the backend serves the profile's model, and on LM Studio record and check its build."""
@@ -129,31 +143,40 @@ class LLMClient:
         """Call the backend, or record or replay its response, depending on the mode."""
         if self.mode == "live":
             return self.client.chat.completions.create(**kwargs)
-        key = json.dumps({"backend": self.backend, **kwargs}, sort_keys=True, ensure_ascii=False)
-        path = self.recordings / f"{hashlib.sha256(key.encode()).hexdigest()}.json"
+        key = hashlib.sha256(
+            json.dumps({"backend": self.backend, **kwargs}, sort_keys=True, ensure_ascii=False).encode()
+        ).hexdigest()
         if self.mode == "replay":
-            if not path.exists():
+            if self._replayed is None:
+                self._replayed = {}
+                for path in sorted(self.recordings.glob("*.json")):
+                    self._replayed.update(json.loads(path.read_text(encoding="utf-8")))
+            if key not in self._replayed:
                 raise ReplayMissError(
                     f"No recorded response for this request in {self.recordings}. Re-record when prompts, "
                     "schemas or the profile change (docs/design-1.1.0.md, section 7.1)."
                 )
-            recorded = json.loads(path.read_text(encoding="utf-8"))
+            recorded = self._replayed[key]
             if "error" in recorded:
                 # Raise it under its original class name, so that step errors read as in the recording.
                 error = recorded["error"]
                 raise type(error["type"], (RecordedError,), {})(error["message"])
             return ChatCompletion.model_validate(recorded)
-        path.parent.mkdir(parents=True, exist_ok=True)
         try:
             response = self.client.chat.completions.create(**kwargs)
         except APIStatusError as e:
             # An HTTP error from the backend (e.g. a prompt longer than the context) is part of
             # the recorded behaviour; connection errors and timeouts are not recorded.
-            path.write_text(json.dumps({"error": {"type": type(e).__name__, "message": str(e)}}, indent=1) + "\n",
-                            encoding="utf-8")
+            self._record(key, {"error": {"type": type(e).__name__, "message": str(e)}})
             raise
-        path.write_text(response.model_dump_json(indent=1) + "\n", encoding="utf-8")
+        self._record(key, response.model_dump(mode="json"))
         return response
+
+    def _record(self, key: str, recorded: dict) -> None:
+        path, responses = self._recording
+        responses[key] = recorded
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(responses, indent=1, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
 
     def complete_json(self, system: str, user: str, schema: dict, *, name: str,
                       strict: bool = True, max_tokens: int | None = None) -> str:

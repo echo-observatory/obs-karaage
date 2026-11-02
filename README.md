@@ -77,9 +77,10 @@ The tests need the models (`uv run karaage download-models`) but no LLM: they re
 After a change to prompts, schemas or the default profile, record again, with the profile's model loaded in LM Studio:
 
 ```bash
-rm -rf tests/recordings/qwen3.5-9b
 KARAAGE_LLM_MODE=record uv run pytest tests/test_pipeline.py
 ```
+
+Each article's responses are in one file, `tests/recordings/qwen3.5-9b/<id>.json`, rewritten from scratch when the article is recorded again; `"tests/test_pipeline.py::test_pipeline[30]"` records article 30 alone.
 
 Then check the changed outputs in `tests/recordings/qwen3.5-9b/expected/` before committing them.
 

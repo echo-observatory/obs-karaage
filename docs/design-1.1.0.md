@@ -308,7 +308,7 @@ The profile settings go under `snapshot.statement_inference` in the bundle descr
 
 Tests run without an LLM server by replaying recorded responses.
 - **Mode:** `KARAAGE_LLM_MODE` is `live` (default), `record` or `replay`.
-- **Storage:** recordings are one JSON file per call in `tests/recordings/<profile>/` (`KARAAGE_RECORDINGS` sets the root), named by the SHA-256 of the request (backend, model id, messages, schema, generation parameters). One file per call keeps merges between branches simple.
+- **Storage:** recordings are one JSON file per test article in `tests/recordings/<profile>/` (`KARAAGE_RECORDINGS` sets the root), holding the article's responses keyed by the SHA-256 of the request (backend, model id, messages, schema, generation parameters). Recording an article rewrites its file from scratch, so a full re-recording changes at most 60 files, and unused responses disappear. Replay looks requests up in all the files of the profile.
 - **Expected outputs:** recording also saves each article's output in `tests/recordings/<profile>/expected/`. In `replay` mode, the pipeline test compares the output with it, so any change in behaviour shows up as a failing test, and as a diff of the expected outputs when recorded again.
 - **Same results on any machine:** the embedding model runs on the CPU, so that results do not depend on the machine's GPU.
 - **Missing recording:** in `replay` mode, a missing recording fails the test with a clear message. It never falls back to a live call.
