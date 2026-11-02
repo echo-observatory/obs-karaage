@@ -1,0 +1,16 @@
+name = "qwen3.5-9b"
+description = "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model."
+
+context_tokens = 8000   # LM Studio must load the model with a context length of at least this
+temperature = 0
+embedding_model = "intfloat/multilingual-e5-large-instruct"
+
+# LM Studio's own build of the model: MLX 4-bit on Apple silicon, GGUF on other systems.
+# `/no_think` has no effect on this build; the `reasoning_effort` request parameter does.
+[backends.lmstudio]
+model = "qwen/qwen3.5-9b"
+reasoning_off = "request-parameter"
+
+[backends.openrouter]
+model = "qwen/qwen3.5-9b"
+reasoning_off = "request-parameter"

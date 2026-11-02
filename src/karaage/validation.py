@@ -1,7 +1,8 @@
 import html as html_lib
 from pydantic import BaseModel
 from typing import Literal
-from karaage.rephrasing import query
+import time
+from karaage import llm
 from karaage.paraphrasing import ROUGE2_THRESHOLD
 
 verbose = False
@@ -22,20 +23,17 @@ Respond with:
 "base_author" means the article's narrator/journalist, not a quoted source."""
 
 
-def run_validation(statements: list, model: str) -> list[dict]:
+def run_validation(statements: list) -> list[dict]:
     validated = []
     failed_ids = []
     for s in statements:
         final_summary = s.get("paraphrased_summary") if s.get("summary_paraphrased") else s["summary"]
         user_prompt = f'Passage:\n{s["passage"]}\n\nStatement: "{final_summary}"\nAttributed to: {s["actor"]}'
         try:
-            result, response, elapsed = query(
-                model,
-                SYSTEM_PROMPT_VALIDATION,
-                user_prompt,
-                thinking=False,
-                output_schema=StatementValidation,
-            )
+            t0 = time.perf_counter()
+            result = llm.complete_model(SYSTEM_PROMPT_VALIDATION, user_prompt, StatementValidation,
+                                        max_tokens=llm.context_tokens())
+            elapsed = time.perf_counter() - t0
             validated.append({**s, "in_text": result.in_text, "actor_correct": result.actor_correct})
             if verbose:
                 print(f"[{s['id']:2d}] {s['actor']:<35} in_text={result.in_text:<9} actor={result.actor_correct:<9}  ({elapsed:.1f}s)")
@@ -95,8 +93,8 @@ def apply_validation_filter(validated_statements: list) -> list[dict]:
             print(f"  [{s['id']:2d}] {status:<42}  {s['actor']}: {s['statement'][:60]}...")
     return validated_statements
 
-def step_7_validate(paraphrased_statements, MODEL):
-    validated_statements = run_validation(paraphrased_statements, MODEL)
+def step_7_validate(paraphrased_statements):
+    validated_statements = run_validation(paraphrased_statements)
     filtered_statements = apply_validation_filter(validated_statements)
     html_validation_content = validation_monitoring_html(filtered_statements)
     return filtered_statements, html_validation_content

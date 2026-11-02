@@ -112,17 +112,19 @@ The distribution name is `obs-karaage`, because `karaage` on PyPI is an unrelate
 ### 4.1 Backend
 
 The backend says where the model runs. It is local configuration and not part of the method.
-Settings are read from environment variables, or from a `.env` file through python-dotenv, into a frozen dataclass.
-`load_settings(**overrides)` returns it, with keyword arguments overriding the environment.
+Settings are read from environment variables, or from a `.env` file through python-dotenv, into a frozen dataclass (`karaage.config`).
+`load_settings(**overrides)` returns it, with keyword arguments overriding the environment. The `.env` file is looked for in the working directory and its parents.
 
 | Variable | Meaning | Default |
 | --- | --- | --- |
 | `KARAAGE_BACKEND` | `lmstudio`, `openrouter` or `openai` (any other OpenAI-compatible server) | `lmstudio` |
-| `KARAAGE_BASE_URL` | API base URL | `http://localhost:1234/v1` for `lmstudio`, `https://openrouter.ai/api/v1` for `openrouter`, none for `openai` |
+| `KARAAGE_BASE_URL` | API base URL | `http://127.0.0.1:1234/v1` for `lmstudio`, `https://openrouter.ai/api/v1` for `openrouter`, none for `openai` |
 | `KARAAGE_API_KEY` | API key | `lm-studio` for `lmstudio`, required otherwise |
 | `KARAAGE_PROFILE` | name of a shipped profile, or path to a profile file | the release's default profile |
 
-For `openrouter`, requests set the provider options `require_parameters: true` and `data_collection: "deny"`.
+For `openrouter`, requests set the provider options `require_parameters: true` and `data_collection: "deny"`. With `require_parameters`, only providers that support every parameter sent are used, which is one reason why profiles send no seed at temperature 0.
+
+For `lmstudio`, `setup()` also reads LM Studio's own API (`/api/v1/models`) to record the loaded build of the model: publisher, format, quantisation and context length. It warns when the model is not loaded, because LM Studio would then load it with its own default settings, and when the loaded context is shorter than the profile's `context_tokens`.
 Retriever data must never be sent to OpenRouter or any other external API; this is a team rule that the code does not enforce.
 
 ### 4.2 Profile
@@ -132,49 +134,52 @@ The same model can have different ids, and need a different way of turning reaso
 
 ```toml
 name = "qwen3.5-9b"
-description = "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0."
+description = "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model."
 
-context_tokens = 8000        # LM Studio must load the model with at least this context length
+context_tokens = 8000        # LM Studio must load the model with a context length of at least this
 temperature = 0
-seed = 0                     # sent when the backend supports it
 embedding_model = "intfloat/multilingual-e5-large-instruct"
+# seed = 0                   # optional; sent with every request when set
 
 [backends.lmstudio]
-model = "qwen/qwen3.5-9b"
-reasoning_off = "prefill-empty-think"
+model = "qwen/qwen3.5-9b"    # LM Studio's own build: MLX 4-bit on Apple silicon, GGUF on other systems
+reasoning_off = "request-parameter"
 
-# [backends.openrouter]
-# model = "..."              # to be set in the profiles issue, if this model is available there
-# reasoning_off = "request-parameter"
+[backends.openrouter]
+model = "qwen/qwen3.5-9b"
+reasoning_off = "request-parameter"
 ```
+
+Unknown keys are errors, so that a typo cannot silently fall back to a default. `seed` is optional: at temperature 0 it changes nothing, and on OpenRouter it would exclude providers that do not support it.
 
 `reasoning_off` is one of:
 - `none`: the model does not reason;
 - `no-think-tag`: prepend `/no_think` to the system prompt;
 - `prefill-empty-think`: add an assistant turn `<think>\n\n</think>\n\n`;
-- `request-parameter`: use the backend's reasoning parameter.
+- `request-parameter`: use the backend's reasoning parameter: top-level `reasoning_effort: "none"` on LM Studio and other OpenAI-compatible servers, `reasoning: {"effort": "none"}` on OpenRouter.
 
-Today the code mixes these per step (section 4.3).
+On LM Studio's `qwen/qwen3.5-9b` build (November 2026), only `request-parameter` and `prefill-empty-think` turn reasoning off. `/no_think` is ignored: a one-word question still produced 156 reasoning tokens. Measured with LM Studio's native `reasoning` and `chat_template_kwargs` options too, which are also ignored on the OpenAI-compatible endpoint.
 
-The default profile copies the pre-1.1.0 settings: model `qwen/qwen3.5-9b` on LM Studio, 8,000-token context, temperature 0, and the embedding model above.
+The default profile keeps the pre-1.1.0 settings: model `qwen/qwen3.5-9b`, 8,000-token context, temperature 0, and the embedding model above. Qwen3.5 9B stays the default for 1.1.0 because the prompts were written for it; other models may get profiles in later releases.
 
 ### 4.3 LLM calls
 
-All LLM calls go through one function. It:
+All LLM calls go through one client (`karaage.llm`), activated by `setup()`. It:
 - applies the profile: the model id for the backend, temperature, seed and reasoning switch-off;
 - requests JSON output against a schema;
-- retries with backoff through the OpenAI SDK's `max_retries`, replacing the immediate retry in `_context.py`;
+- retries with backoff through the OpenAI SDK's `max_retries`, replacing the pre-1.1.0 immediate retry;
+- raises a clear error when the answer is cut off by the token limit, instead of failing later on invalid JSON;
 - falls back to `reasoning_content` when `content` is empty, and strips `<think>` blocks, as LM Studio sometimes requires;
 - records or replays responses for tests (section 7.1).
 
 Two problems in the pre-1.1.0 code that this resolves:
-- **Inconsistent reasoning switch-off.** Attribution prepends `/no_think`; rephrasing, paraphrasing and validation pre-fill an empty `<think>` block; extraction (main point and passages) does neither. Main-point output is capped at 250 tokens, so any reasoning output would exhaust it. This may explain the truncated main points.
+- **Inconsistent reasoning switch-off.** Attribution prepends `/no_think`, which the current LM Studio build ignores (section 4.2); rephrasing, paraphrasing and validation pre-fill an empty `<think>` block; extraction (main point and passages) does neither. So on this build, attribution and extraction ran with reasoning on. Main-point output is capped at 250 tokens, so reasoning output would exhaust it. This may explain the truncated main points.
 - **Token budgets that ignore the profile.** Budget constants assume an 8,000-token context; rephrasing even asks for up to 8,000 output tokens. Budgets that depend on the context size must derive from the profile's `context_tokens`.
 
 ## 5. Input
 
 The Python API keeps its current shape:
-- `karaage.setup(...)` loads the NLP models, the embedding model and the LLM client once, from the backend settings and a profile.
+- `karaage.setup(profile=None, backend=None, base_url=None, api_key=None)` loads the NLP models, the embedding model and the LLM client once, from the backend settings and a profile; the keyword arguments override the environment (section 4.1).
 - `karaage.run(document, resources)` processes one document.
 - `karaage.save(...)` writes the output files.
 
@@ -247,7 +252,9 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
     "profile": "qwen3.5-9b",
     "profile_settings": {},
     "backend": "lmstudio",
+    "model": "qwen/qwen3.5-9b",
     "model_reported": "qwen/qwen3.5-9b",
+    "model_build": {"publisher": "qwen", "format": "mlx", "quantization": "4bit", "loaded": true, "context_length": 8192},
     "inferred_at": "2026-11-02T10:11:00Z",
     "step_seconds": {}
   }
@@ -269,7 +276,8 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
 - **Provenance:**
   - `commit` is the git commit Karaage was built from, recorded at build time, so that installed releases carry it too;
   - `profile_settings` is the resolved profile;
-  - `model_reported` is the model id the server returns.
+  - `model` is the id the profile asks for on this backend, and `model_reported` the id the server returns;
+  - `model_build` is the loaded build as LM Studio reports it (section 4.1), or `null` on other backends.
 - **`inferred_at`:** UTC in the snapshot format `YYYY-MM-DDTHH:MM:SSZ`.
 
 ### 6.4 Mapping to the snapshot specification

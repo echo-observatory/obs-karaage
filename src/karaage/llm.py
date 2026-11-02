@@ -1,0 +1,180 @@
+"""The single path for LLM calls (docs/design-1.1.0.md, section 4.3).
+
+Every step asks for JSON matching a schema through `complete_json` or
+`complete_model`. They use the client activated by `karaage.setup()`, which
+applies the profile: model id for the backend, temperature, seed and how
+reasoning is turned off.
+
+We call client.chat.completions.create() rather than the SDK's parse helpers,
+because those return nothing when a model mixes reasoning tokens with its JSON
+(an LM Studio quirk); the JSON is extracted and parsed here instead.
+"""
+
+import json
+import re
+import urllib.request
+
+from openai import OpenAI
+
+from karaage.config import Settings
+from karaage.profile import Profile
+
+MAX_RETRIES = 3          # the SDK retries connection errors, timeouts, 429 and 5xx, with exponential backoff
+TIMEOUT_SECONDS = 600    # a local model can take minutes on a long prompt
+
+_THINK_BLOCK = re.compile(r"<think>.*?</think>", re.DOTALL)
+
+
+class LLMClient:
+    """An OpenAI-compatible client set up for one backend and one profile."""
+
+    def __init__(self, settings: Settings, profile: Profile):
+        backend_model = profile.for_backend(settings.backend)
+        self.backend = settings.backend
+        self.base_url = settings.base_url
+        self.profile = profile
+        self.model = backend_model.model
+        self.reasoning_off = backend_model.reasoning_off
+        self.client = OpenAI(base_url=settings.base_url, api_key=settings.api_key,
+                             max_retries=MAX_RETRIES, timeout=TIMEOUT_SECONDS)
+        self.model_reported = None   # model id given by the server in its latest response
+        self.model_build = None      # LM Studio only: the build that is loaded (lmstudio_build)
+
+    def check(self) -> None:
+        """Check that the backend serves the profile's model, and on LM Studio record and check its build."""
+        available = {m.id for m in self.client.models.list().data}
+        if self.model not in available:
+            raise ValueError(
+                f"Model {self.model!r} of profile {self.profile.label!r} is not available "
+                f"on {self.backend} at {self.base_url}."
+            )
+        if self.backend != "lmstudio":
+            return
+        self.model_build = lmstudio_build(self.base_url, self.model)
+        if self.model_build is None:
+            print(f"⚠️  Could not read the build of {self.model} from LM Studio's API; it will not be recorded.")
+        elif not self.model_build["loaded"]:
+            print(f"⚠️  {self.model} is not loaded in LM Studio: it would load with LM Studio's default settings. "
+                  f"Load it with a context length of at least {self.profile.context_tokens}.")
+        elif self.model_build["context_length"] < self.profile.context_tokens:
+            print(f"⚠️  {self.model} is loaded with a context length of {self.model_build['context_length']}, "
+                  f"below the {self.profile.context_tokens} tokens of profile {self.profile.label!r}.")
+
+    def request(self, system: str, user: str, schema: dict, *, name: str,
+                strict: bool = True, max_tokens: int | None = None):
+        """Send one chat request asking for JSON that matches `schema`, and return the raw response."""
+        messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]
+        extra_body = {}
+        if self.reasoning_off == "no-think-tag":
+            messages[0]["content"] = "/no_think\n" + system
+        elif self.reasoning_off == "prefill-empty-think":
+            messages.append({"role": "assistant", "content": "<think>\n\n</think>\n\n"})
+        elif self.reasoning_off == "request-parameter":
+            # LM Studio honours only the top-level parameter; OpenRouter documents the object.
+            if self.backend == "openrouter":
+                extra_body["reasoning"] = {"effort": "none"}
+            else:
+                extra_body["reasoning_effort"] = "none"
+        if self.backend == "openrouter":
+            extra_body["provider"] = {"require_parameters": True, "data_collection": "deny"}
+
+        kwargs = dict(
+            model=self.model,
+            messages=messages,
+            temperature=self.profile.temperature,
+            response_format={
+                "type": "json_schema",
+                "json_schema": {"name": name, "schema": schema, "strict": strict},
+            },
+        )
+        if max_tokens is not None:
+            kwargs["max_tokens"] = max_tokens
+        if self.profile.seed is not None:
+            kwargs["seed"] = self.profile.seed
+        if extra_body:
+            kwargs["extra_body"] = extra_body
+        response = self.client.chat.completions.create(**kwargs)
+        self.model_reported = response.model
+        return response
+
+    def complete_json(self, system: str, user: str, schema: dict, *, name: str,
+                      strict: bool = True, max_tokens: int | None = None) -> str:
+        """Ask for JSON that matches `schema` and return the JSON text."""
+        choice = self.request(system, user, schema, name=name, strict=strict, max_tokens=max_tokens).choices[0]
+        # With reasoning on, LM Studio may put the JSON in reasoning_content and leave content empty.
+        content = choice.message.content or getattr(choice.message, "reasoning_content", None) or ""
+        content = _THINK_BLOCK.sub("", content).strip()
+        if choice.finish_reason == "length":
+            raise ValueError(f"The answer was cut off by the token limit (max_tokens={max_tokens}).")
+        if not content:
+            raise ValueError(f"The model returned no content. Full message: {choice.message!r}")
+        return content
+
+    def complete_model(self, system: str, user: str, model_cls, *,
+                       strict: bool = True, max_tokens: int | None = None):
+        """Ask for JSON matching a pydantic model and return an instance of it."""
+        content = self.complete_json(system, user, model_cls.model_json_schema(), name=model_cls.__name__,
+                                     strict=strict, max_tokens=max_tokens)
+        return model_cls.model_validate_json(content)
+
+    def provenance(self) -> dict:
+        """What the output records about the model (docs/design-1.1.0.md, section 6.3)."""
+        return {
+            "profile": self.profile.label,
+            "profile_settings": self.profile.to_dict(),
+            "backend": self.backend,
+            "model": self.model,
+            "model_reported": self.model_reported,
+            "model_build": self.model_build,
+        }
+
+
+def lmstudio_build(base_url: str, model: str) -> dict | None:
+    """Ask LM Studio's own API which build of `model` it has, and how it is loaded.
+
+    Returns None when that API is not available (older LM Studio, or another server).
+    """
+    root = base_url.rstrip("/").removesuffix("/v1")
+    try:
+        with urllib.request.urlopen(f"{root}/api/v1/models", timeout=10) as response:
+            models = json.load(response)["models"]
+    except Exception:
+        return None
+    for entry in models:
+        if entry.get("key") == model:
+            instances = entry.get("loaded_instances") or []
+            return {
+                "publisher": entry.get("publisher"),
+                "format": entry.get("format"),
+                "quantization": (entry.get("quantization") or {}).get("name"),
+                "loaded": bool(instances),
+                "context_length": instances[0].get("config", {}).get("context_length") if instances else None,
+            }
+    return None
+
+
+_active: LLMClient | None = None
+
+
+def activate(client: LLMClient) -> None:
+    global _active
+    _active = client
+
+
+def active() -> LLMClient:
+    if _active is None:
+        raise RuntimeError("No LLM client is set up: call karaage.setup() first.")
+    return _active
+
+
+def complete_json(system: str, user: str, schema: dict, **kwargs) -> str:
+    return active().complete_json(system, user, schema, **kwargs)
+
+
+def complete_model(system: str, user: str, model_cls, **kwargs):
+    return active().complete_model(system, user, model_cls, **kwargs)
+
+
+def context_tokens() -> int:
+    """Context size of the active profile, for token budgets that depend on it."""
+    return active().profile.context_tokens

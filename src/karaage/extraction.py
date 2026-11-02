@@ -5,7 +5,7 @@ import html as html_lib
 from html import unescape
 from tqdm.auto import tqdm
 from pydantic import BaseModel, Field
-from karaage._context import llm_create
+from karaage import llm
 
 verbose = False
 
@@ -64,41 +64,19 @@ Rules:
 '''
 
 
-def extract_main_point(segments: list, model: str) -> str:
+def extract_main_point(segments: list) -> str:
     article_text = "\n".join(f"[{seg['id']}] {seg['text']}" for seg in segments)
     t0 = time.perf_counter()
-    response = llm_create(
-        model=model,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT_MAIN_POINT},
-            {"role": "user", "content": article_text},
-        ],
-        response_format={
-            "type": "json_schema",
-            "json_schema": {
-                "name": "MainPoint",
-                "schema": MainPoint.model_json_schema(),
-                "strict": True,
-            },
-        },
-        max_tokens=RESERVED_TOKENS_MAIN_POINT,
-        temperature=0,
-    )
+    result = llm.complete_model(SYSTEM_PROMPT_MAIN_POINT, article_text, MainPoint,
+                                max_tokens=RESERVED_TOKENS_MAIN_POINT)
     elapsed = time.perf_counter() - t0
-    msg = response.choices[0].message
-    # LM Studio routes output to reasoning_content for some Qwen3 configurations;
-    # fall back to it if content is empty.
-    content = msg.content or getattr(msg, "reasoning_content", None) or ""
-    if not content:
-        raise ValueError(f"Model returned no content. Full message: {msg!r}")
-    result = MainPoint.model_validate_json(content)
     if verbose:
         print(result.main_point)
         print(f"  ({len(result.main_point)} chars, {elapsed:.1f}s)")
     return result.main_point
 
 
-def analyze_passage(passages, passage_index, main_point, model: str,
+def analyze_passage(passages, passage_index, main_point,
                     actor_contribution_threshold=40.0,
                     min_actor_chars=150,
                     offset_before=1, offset_after=1,
@@ -177,37 +155,18 @@ def analyze_passage(passages, passage_index, main_point, model: str,
         print(prompt, "\n\n\n")
 
     t0 = time.perf_counter()
-    response = llm_create(
-        model=model,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT_PASSAGE},
-            {"role": "user",   "content": prompt},
-        ],
-        response_format={
-            "type": "json_schema",
-            "json_schema": {"name": "PassageAnalysis", "schema": schema, "strict": True},
-        },
-        max_tokens=2000,
-        temperature=0,
-    )
+    content = llm.complete_json(SYSTEM_PROMPT_PASSAGE, prompt, schema, name="PassageAnalysis", max_tokens=2000)
     elapsed = time.perf_counter() - t0
-
-    msg = response.choices[0].message
-    # LM Studio routes output to reasoning_content for some Qwen3 configurations;
-    # fall back to it if content is empty.
-    content = msg.content or getattr(msg, "reasoning_content", None) or ""
-    if not content:
-        raise ValueError(f"Model returned no content. Full message: {msg!r}")
 
     return json.loads(content), elapsed
 
 
-def extract_statements(passages: list, main_point: str, model: str) -> list[dict]:
+def extract_statements(passages: list, main_point: str) -> list[dict]:
     all_statements = []
     errors = []
     for i in tqdm(range(len(passages)), desc="Extracting statements"):
         try:
-            result, elapsed = analyze_passage(passages, i, main_point, model)
+            result, elapsed = analyze_passage(passages, i, main_point)
             all_statements.append({"passage_index": i, "statements": result})
         except Exception as e:
             errors.append({"passage_index": i, "error": str(e)})
@@ -262,8 +221,8 @@ def key_statements_monitoring_html(all_statements: list, passages: list, main_po
         + "\n"
     )
 
-def step_4_key_statements(segments, passages, MODEL):
-    main_point = extract_main_point(segments, MODEL)
-    all_statements = extract_statements(passages, main_point, MODEL)
+def step_4_key_statements(segments, passages):
+    main_point = extract_main_point(segments)
+    all_statements = extract_statements(passages, main_point)
     html_statements_content = key_statements_monitoring_html(all_statements, passages, main_point)
     return all_statements, main_point, html_statements_content
