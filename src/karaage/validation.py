@@ -27,6 +27,11 @@ def run_validation(statements: list) -> list[dict]:
     validated = []
     failed_ids = []
     for s in statements:
+        if "rephrasing_error" in s:
+            # The statement's rephrasing batch failed: there is nothing to validate,
+            # and validate_statement rejects it as a rephrasing error.
+            validated.append({**s, "in_text": None, "actor_correct": None})
+            continue
         final_summary = s.get("paraphrased_summary") if s.get("summary_paraphrased") else s["summary"]
         user_prompt = f'Passage:\n{s["passage"]}\n\nStatement: "{final_summary}"\nAttributed to: {s["actor"]}'
         try:

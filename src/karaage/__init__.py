@@ -53,6 +53,7 @@ class PipelineResult:
     all_statements: list
     passages: list
     main_point: str
+    failures: list          # parts of steps that failed without stopping the pipeline, e.g. a passage
     provenance: dict        # profile, backend and model, for the output (llm.LLMClient.provenance)
 
 
@@ -126,7 +127,7 @@ def run(text: str, resources: Resources) -> PipelineResult:
     segments,       html_seg  = _timed("Segmentation",              lambda: step_1_segment(text, resources.nlp))
     sources,        html_attr = _timed("Attribution",         lambda: step_2_attribute_authors(segments, model, resources.max_context_tokens))
     passages_list,  html_pass = _timed("Passages",        lambda: step_3_passages(segments, sources))
-    all_stmts, main_point, html_extr = _timed("Key statements extraction", lambda: step_4_key_statements(segments, passages_list), n_returns=3)
+    all_stmts, main_point, html_extr, passage_errors = _timed("Key statements extraction", lambda: step_4_key_statements(segments, passages_list), n_returns=4)
     rephrased,      html_reph = _timed("Rephrasing",                 lambda: step_5_rephrase(all_stmts, passages_list, main_point))
     paraphrased,    html_para = _timed("Paraphrasing",               lambda: step_6_paraphrase(rephrased, resources.embedding_model, resources.sim_model))
     filtered,       html_val  = _timed("Validation",                 lambda: step_7_validate(paraphrased))
@@ -171,6 +172,7 @@ def run(text: str, resources: Resources) -> PipelineResult:
         all_statements=all_stmts or [],
         passages=passages_list or [],
         main_point=main_point or "",
+        failures=[{"step": "Key statements extraction", **e} for e in passage_errors or []],
         provenance=resources.client.provenance(),
     )
 
