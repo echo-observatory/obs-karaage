@@ -14,7 +14,6 @@ Do not copy its content into this repo.
 
 ## Conventions
 
-- Work starts from an issue on the Kanban board.
 - Branch from `main` as `<issue-number>-short-description`. Never commit directly to `main`.
 - Commit messages are short and imperative. No agent attribution (no `Co-Authored-By`, no "Generated with ..." lines) in commits or PRs.
 - Never commit secrets, `.env` files or raw corpus data (the test datasets below are the exception).
