@@ -25,3 +25,6 @@ dist/
 # Run outputs and logs (see Data in AGENTS.md)
 temp/
 *.log
+
+# Generated at install time by hatch-vcs
+src/karaage/_version.py
