@@ -26,5 +26,6 @@ dist/
 temp/
 *.log
 
-# Generated at install time by hatch-vcs
+# Generated at build time (hatch-vcs, hatch_build.py)
 src/karaage/_version.py
+src/karaage/_build_info.py

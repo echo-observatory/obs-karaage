@@ -3,6 +3,11 @@ try:
     from karaage._version import __version__
 except ImportError:  # source tree that was never installed
     __version__ = "0+unknown"
+try:
+    # Written by hatch_build.py: the git commit the package was built from.
+    from karaage._build_info import commit as __commit_id__
+except ImportError:
+    __commit_id__ = None
 
 import html as html_lib
 import time
