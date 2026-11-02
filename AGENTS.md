@@ -39,3 +39,5 @@ This repo will be public, including its history.
 `README.md` is the documentation for this repo: purpose, inputs, outputs, and how to set up, run and test.
 Read it before working here, and keep it up to date as part of every change that affects it.
 Do not repeat that content in this file.
+
+Until 1.1.0 is released, also read `docs/design-1.1.0.md`: it holds the decisions every 1.1.0 issue relies on.

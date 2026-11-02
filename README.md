@@ -5,6 +5,7 @@ It is the "Extract positions" step of the pipeline; see the `pipeline` repo for 
 
 **Status:** being restructured into a versioned Python package. The first release will be 1.1.0.
 Until then, the code is the pre-1.1.0 version and its interface will change.
+The decisions behind the restructuring are in [`docs/design-1.1.0.md`](docs/design-1.1.0.md).
 
 ## Inputs
 
