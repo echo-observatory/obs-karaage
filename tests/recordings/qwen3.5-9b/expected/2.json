@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "The Supreme Court's upcoming ruling in MGM v. Grokster will determine whether software companies can be held legally responsible for copyright infringement by users of peer-to-peer technology, a decision that could either affirm the legality of such networks or overturn the precedent set by the 1984 Betamax case, thereby impacting billions in future revenues.",
+  "main_point_method": "single",
   "source_text_length_chars": 2715,
   "source_text_length_segments": 37,
   "actors": [

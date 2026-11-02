@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-b9xx5c3mnlr3i3beipwfmw",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"base_author\": [\"Refuses to accept terms like 'piracy' and 'protected,' defining sharing as good and restriction as evil.\", \"Argues the current copyright system is hypocritical for supporting businesses over artists.\", \"Proposes replacing the existing system with alternative models to support artists without DRM.\", \"States it is wrong to stop people from sharing art non-commercially and that free browsers cannot support DRM.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647801,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 84,
+  "prompt_tokens": 1430,
+  "total_tokens": 1514,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

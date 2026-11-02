@@ -83,6 +83,8 @@ KARAAGE_LLM_MODE=record uv run pytest tests/test_pipeline.py
 
 Then check the changed outputs in `tests/recordings/qwen3.5-9b/expected/` before committing them.
 
+A change to the output alone, which sends no new request to the LLM, needs no recording: `KARAAGE_UPDATE_EXPECTED=1 uv run pytest tests/test_pipeline.py` rewrites the expected outputs from a replay.
+
 ## Test dataset
 
 `data/test-datasets/wikinews-piracy-30/` holds 30 English Wikinews articles about piracy, file sharing and DRM, under CC BY 2.5 or in the public domain.

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-4omaz3s8hxl8biwo7su35j",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Mitchell Stoltz\": [\"This file contains automated tests verifying youtube-dl functionality, not permanent song copies.\", \"Streaming a small portion of a song to test independently created software is fair use.\", \"youtube-dl does not decrypt video streams encrypted with commercial DRM technologies.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647753,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 58,
+  "prompt_tokens": 1176,
+  "total_tokens": 1234,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

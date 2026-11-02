@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-nscd6r6x9hmyu65e4doch",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Richard Stallman\": [\"You'll likely surrender to restrictive systems like Blu-ray DRM if you don't firmly refuse to buy them, as publishers coordinate to eliminate competition and enforce a single standard that prevents copying.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647770,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 44,
+  "prompt_tokens": 1678,
+  "total_tokens": 1722,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Following an FCC investigation into Comcast's data restrictions, major ISPs like Comcast and Time Warner Cable are testing plans to slow speeds or charge extra fees for heavy internet usage, sparking debate over whether these measures unfairly target consumers and prioritize profit over network management.",
+  "main_point_method": "single",
   "source_text_length_chars": 3399,
   "source_text_length_segments": 50,
   "actors": [

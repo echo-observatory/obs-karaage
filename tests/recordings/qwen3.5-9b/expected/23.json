@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Wikipedia is staging a 24-hour global blackout to protest proposed U.S. anti-piracy laws, arguing they threaten the site's existence, while opponents claim the action undermines Wikipedia's political neutrality and is irresponsible.",
+  "main_point_method": "single",
   "source_text_length_chars": 3143,
   "source_text_length_segments": 54,
   "actors": [

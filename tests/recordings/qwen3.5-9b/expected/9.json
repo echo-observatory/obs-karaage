@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "France is passing a controversial copyright law that mandates digital locks and fines for file sharing, sparking intense political debate over industry lobbying, the threat of criminalizing ordinary users, and potential constitutional challenges.",
+  "main_point_method": "single",
   "source_text_length_chars": 5219,
   "source_text_length_segments": 65,
   "actors": [

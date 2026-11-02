@@ -1,11 +1,13 @@
 import time
 import json
+import math
 import re
 import html as html_lib
 from html import unescape
 from tqdm.auto import tqdm
 from pydantic import BaseModel, Field
 from karaage import llm
+from karaage.attribution import estimate_tokens
 
 verbose = False
 
@@ -30,6 +32,29 @@ class MainPoint(BaseModel):
     main_point: str = Field(description=f"The central argument of the article. Under {main_point_length} characters.",
                             #max_length=main_point_length # Note: we intentionally don't enforce the length here as it's not a priority.
                             )
+
+
+# A text longer than the context is summarised part by part, and the main point is
+# taken from the summaries (docs/design-1.1.0.md, section 3.5).
+part_summary_length = 1000
+RESERVED_TOKENS_PART_SUMMARY = part_summary_length // 3 + 150
+RESERVED_TOKENS_HEADER = 100   # title and publication date, when given
+
+SYSTEM_PROMPT_PART_SUMMARY = f'''You are a journalist-analyst summarising one part of a longer text.
+
+Your task:
+Summarise this part of the text: the situation it describes, the claims and arguments made in it, who makes them, and what is at stake.
+
+Rules:
+- Make a summary of under {part_summary_length} characters.
+- Keep the names of the people and organisations involved.
+- Use well-formed, everyday language.
+- Your answer must be derived from the text, not from these instructions.
+'''
+
+
+class PartSummary(BaseModel):
+    summary: str = Field(description=f"Summary of this part of the text. Under {part_summary_length} characters.")
 
 
 # Step-level configuration
@@ -64,16 +89,73 @@ Rules:
 '''
 
 
-def extract_main_point(segments: list) -> str:
-    article_text = "\n".join(f"[{seg['id']}] {seg['text']}" for seg in segments)
+def format_segments(segments: list) -> str:
+    return "\n".join(f"[{seg['id']}] {seg['text']}" for seg in segments)
+
+
+def with_header(text: str, title=None, published_at=None) -> str:
+    """Put the title and publication date, when known, before the text."""
+    header = "".join(f"{label}: {value}\n" for label, value in (("Title", title), ("Published", published_at)) if value)
+    return f"{header}\n{text}" if header else text
+
+
+def split_into_parts(segments: list, passages: list, budget: int) -> list[str]:
+    """Group consecutive passages into parts of similar size, each within `budget` tokens.
+
+    Parts are cut at the passage boundaries closest to evenly spaced points of the
+    text; when a part would exceed the budget, the text is cut into one more part.
+    """
+    texts = [format_segments([segments[i] for i in p["segments"]]) for p in passages]
+    sizes = [estimate_tokens(t) for t in texts]
+    n_parts = math.ceil(sum(sizes) / budget)
+    while True:
+        target = sum(sizes) / n_parts
+        parts, current, size, before = [], [], 0, 0
+        for text, n in zip(texts, sizes):
+            middle = before + n / 2
+            if current and (size + n > budget or middle > (len(parts) + 1) * target):
+                parts.append("\n".join(current))
+                current, size = [], 0
+            current.append(text)
+            size += n
+            before += n
+        parts.append("\n".join(current))
+        if len(parts) <= n_parts:
+            return parts
+        n_parts += 1
+
+
+def extract_main_point(segments: list, passages: list, title=None, published_at=None) -> tuple[str, str, list[str]]:
+    """Return the main point, how it was obtained (`single` or `chunked`), and the part summaries.
+
+    A text that fits the context is read in one call. A longer one is split at passage
+    boundaries into parts that fit; each part is summarised, and the main point is
+    taken from the summaries.
+    """
     t0 = time.perf_counter()
-    result = llm.complete_model(SYSTEM_PROMPT_MAIN_POINT, article_text, MainPoint,
-                                max_tokens=RESERVED_TOKENS_MAIN_POINT)
+    article_text = with_header(format_segments(segments), title, published_at)
+    if estimate_tokens(SYSTEM_PROMPT_MAIN_POINT + article_text) + RESERVED_TOKENS_MAIN_POINT <= llm.context_tokens():
+        method, summaries, prompt = "single", [], article_text
+    else:
+        method = "chunked"
+        budget = (llm.context_tokens() - estimate_tokens(SYSTEM_PROMPT_PART_SUMMARY)
+                  - RESERVED_TOKENS_PART_SUMMARY - RESERVED_TOKENS_HEADER)
+        summaries = [
+            llm.complete_model(SYSTEM_PROMPT_PART_SUMMARY, with_header(part, title, published_at), PartSummary,
+                               max_tokens=RESERVED_TOKENS_PART_SUMMARY).summary
+            for part in split_into_parts(segments, passages, budget)
+        ]
+        prompt = with_header(
+            "The text is too long to be read at once. Below are summaries of its consecutive parts, in order.\n\n"
+            + "\n\n".join(f"[Part {i}] {s}" for i, s in enumerate(summaries, 1)),
+            title, published_at,
+        )
+    result = llm.complete_model(SYSTEM_PROMPT_MAIN_POINT, prompt, MainPoint, max_tokens=RESERVED_TOKENS_MAIN_POINT)
     elapsed = time.perf_counter() - t0
     if verbose:
         print(result.main_point)
-        print(f"  ({len(result.main_point)} chars, {elapsed:.1f}s)")
-    return result.main_point
+        print(f"  ({len(result.main_point)} chars, {method}, {elapsed:.1f}s)")
+    return result.main_point, method, summaries
 
 
 def analyze_passage(passages, passage_index, main_point,
@@ -180,9 +262,12 @@ def extract_statements(passages: list, main_point: str) -> tuple[list[dict], lis
     return all_statements, errors
 
 
-def key_statements_monitoring_html(all_statements: list, passages: list, main_point: str) -> str:
+def key_statements_monitoring_html(all_statements: list, passages: list, main_point: str,
+                                   main_point_method: str = "single", part_summaries=()) -> str:
     """Return statements_content for the monitoring report."""
     method_description = (
+        "The article's central argument is extracted first, from the whole text; "
+        "when the text is longer than the context, from summaries of its consecutive parts. "
         "Each passage is sent to an LLM together with one passage of context on each side "
         "and the article's central argument as an anchor. "
         "The model extracts key statements per actor "
@@ -216,15 +301,21 @@ def key_statements_monitoring_html(all_statements: list, passages: list, main_po
                 statements_html += f"<br>— <em>{html_lib.escape(actor)}</em><br><br>"
         content_parts.append(f"<section>{passage_html}{statements_html}</section>")
 
+    parts_html = ""
+    if main_point_method == "chunked":
+        items = "".join(f"<li>{html_lib.escape(s)}</li>" for s in part_summaries)
+        parts_html = (f"<details><summary>Taken from summaries of {len(part_summaries)} parts of the text, "
+                      f"which is longer than the context</summary><ol>{items}</ol></details>\n")
     return (
         f"\n<article><h3>Method</h3>{method_description}</article>\n"
         f'<p><mark><strong>Central argument: </strong>{html_lib.escape(main_point)}</mark></p>\n'
+        + parts_html
         + "".join(content_parts)
         + "\n"
     )
 
-def step_4_key_statements(segments, passages):
-    main_point = extract_main_point(segments)
+def step_4_key_statements(segments, passages, title=None, published_at=None):
+    main_point, method, part_summaries = extract_main_point(segments, passages, title, published_at)
     all_statements, errors = extract_statements(passages, main_point)
-    html_statements_content = key_statements_monitoring_html(all_statements, passages, main_point)
-    return all_statements, main_point, html_statements_content, errors
+    html_statements_content = key_statements_monitoring_html(all_statements, passages, main_point, method, part_summaries)
+    return all_statements, main_point, html_statements_content, errors, method

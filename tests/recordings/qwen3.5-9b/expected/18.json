@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Oxford University banned the peer-to-peer music service Spotify to prevent network slowdowns, sparking student complaints about discrimination and inconsistent enforcement, while the university argues the restriction is necessary to preserve bandwidth for academic purposes.",
+  "main_point_method": "single",
   "source_text_length_chars": 2085,
   "source_text_length_segments": 38,
   "actors": [

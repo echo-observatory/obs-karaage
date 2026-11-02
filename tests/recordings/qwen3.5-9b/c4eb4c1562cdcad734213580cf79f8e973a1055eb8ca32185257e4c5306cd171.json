@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-djp0vc7o2kry9962g96ifk",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Richard Stallman\": [\"The DMCA's goal is to stop people from sharing, which is an attack on society.\", \"DRM increases control by large companies by forcing everyone to follow the same restrictive standard.\", \"Competition between diverse systems would allow people to bypass DRM, but a conspiracy forces uniformity.\", \"If you hate DRM, you should refuse to buy products that use it rather than surrendering to the restrictions.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647767,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 88,
+  "prompt_tokens": 1367,
+  "total_tokens": 1455,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

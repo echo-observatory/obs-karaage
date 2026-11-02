@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "The EFF argues that government-mandated digital restrictions like the Broadcast Flag and anti-circumvention laws represent dangerous overreach that threatens online privacy, free speech, and open-source development, while emphasizing the need for stronger advocacy resources to counter industry lobbying.",
+  "main_point_method": "single",
   "source_text_length_chars": 19964,
   "source_text_length_segments": 443,
   "actors": [

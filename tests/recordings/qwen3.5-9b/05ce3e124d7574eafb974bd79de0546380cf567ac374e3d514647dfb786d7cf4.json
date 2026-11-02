@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-57y6j409cn3pjeyv6il6z",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"base_author\": [\"DRM and restrictive contracts are oppressive tools that subjugate users by preventing sharing and repair.\", \"No company should control what books you own or stop you from copying and redistributing them.\", \"EULAs exist solely to restrict people and limit user freedom.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647792,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 1235,
+  "total_tokens": 1294,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

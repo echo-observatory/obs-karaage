@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "GitHub blocked the open-source video downloader youtube-dl following an RIAA DMCA notice alleging copyright circumvention, a move criticized by digital rights advocates as disproportionate because the tool has legitimate uses for public domain and licensed content, prompting users to bypass the ban by hosting the code elsewhere.",
+  "main_point_method": "single",
   "source_text_length_chars": 9098,
   "source_text_length_segments": 178,
   "actors": [

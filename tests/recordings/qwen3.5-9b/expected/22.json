@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Aaron Swartz, an open source programmer and Harvard fellow, faces federal fraud charges for downloading millions of academic papers from JSTOR, an act that has sparked a public debate over copyright enforcement and access to knowledge.",
+  "main_point_method": "single",
   "source_text_length_chars": 1640,
   "source_text_length_segments": 20,
   "actors": [

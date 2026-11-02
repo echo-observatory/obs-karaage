@@ -29,6 +29,7 @@ def build_results(
     segments: list,
     sources,
     main_point: str,
+    main_point_method: str,
 ) -> dict:
     from karaage import __version__
     source_list = list(getattr(sources, "sources", sources))
@@ -36,6 +37,7 @@ def build_results(
         "karaage_version": __version__,
         "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "source_text_main_point": main_point,
+        "main_point_method": main_point_method,
         "source_text_length_chars": sum(len(seg["text"]) for seg in segments),
         "source_text_length_segments": len(segments),
         "actors": [

@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "As iPod sales have hit a historic low, the music industry fears the decline of its primary digital distribution driver, though experts remain cautiously optimistic that new app-based models could eventually replace the dying device and the struggling album format.",
+  "main_point_method": "single",
   "source_text_length_chars": 7099,
   "source_text_length_segments": 114,
   "actors": [

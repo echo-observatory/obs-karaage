@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Startup Joost is advancing the Internet TV model by securing content deals with major studios and leveraging peer-to-peer technology to offer free, on-demand programming, aiming to balance consumer flexibility with industry control despite challenges regarding content quality and bandwidth efficiency.",
+  "main_point_method": "single",
   "source_text_length_chars": 4055,
   "source_text_length_segments": 62,
   "actors": [

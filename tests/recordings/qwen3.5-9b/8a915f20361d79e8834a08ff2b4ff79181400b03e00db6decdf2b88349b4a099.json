@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-43iefvkp2yjad3rkms02y",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"GitHub\": [\"blocked the youtube-dl repository on October 23 after receiving a DMCA takedown notice from the RIAA\", \"restored public access to the youtube-dl repository following the dispute\"], \"Mitchell Stoltz\": [\"sent a letter to GitHub on behalf of youtube-dl's maintainers\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647750,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 68,
+  "prompt_tokens": 838,
+  "total_tokens": 906,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

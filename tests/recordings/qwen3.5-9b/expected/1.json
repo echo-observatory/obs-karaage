@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Police raids and voluntary closures across Europe are dismantling major BitTorrent and ed2k link sites, proving that hosting such sites is illegal and exposing operators to prosecution, despite their claims of legal loopholes.",
+  "main_point_method": "single",
   "source_text_length_chars": 6008,
   "source_text_length_segments": 101,
   "actors": [

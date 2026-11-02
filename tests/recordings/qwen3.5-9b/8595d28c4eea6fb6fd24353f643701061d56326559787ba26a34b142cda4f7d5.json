@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-f5o66pddzs7mkt4hry887l",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"summary\": \"On November 16, GitHub restored public access to the youtube-dl repository, a free tool for downloading videos, after it had been blocked on October 23 following a DMCA takedown notice from the Recording Industry Association of America (RIAA). The RIAA claimed the software violated copyright law by circumventing digital rights management (DRM). The Electronic Frontier Foundation (EFF), represented by Senior Staff Attorney Mitchell Stoltz, intervened by arguing that the software's unit tests, which temporarily stream short clips to verify functionality, constitute 'fair use' and do not involve permanent distribution or decryption of copyrighted material. GitHub agreed, citing the software's legitimate uses for accessibility, journalism, and public domain content, and pledged to scrutinize future takedown notices more carefully. The maintainers thanked GitHub, EFF, and their host Uberspace for their support. Following the restoration, the article features an interview with Richard Stallman, founder of the Free Software Foundation, who condemns DRM as a system of oppression and the DMCA as a tool for corporate control. Stallman argues that the term 'intellectual property' is misleading, conflating distinct legal frameworks like copyright, patents, and trade secrets, and asserts that software should be free for users to modify, criticizing the legal system for prioritizing corporate power over public interest and user freedom.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793647728,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 277,
+  "prompt_tokens": 6941,
+  "total_tokens": 7218,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

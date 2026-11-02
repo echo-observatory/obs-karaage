@@ -3,6 +3,7 @@
  "failures": [],
  "data": {
   "source_text_main_point": "Anonymous launched a decentralized, largely opportunistic cyber-attack campaign called 'Operation Baylout' to disrupt websites of entities prosecuting The Pirate Bay, though the group's true motives remain ambiguous as participants may be acting for entertainment rather than genuine activism.",
+  "main_point_method": "single",
   "source_text_length_chars": 5206,
   "source_text_length_segments": 81,
   "actors": [
