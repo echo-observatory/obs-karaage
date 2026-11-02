@@ -21,7 +21,7 @@ import re
 import urllib.request
 from pathlib import Path
 
-from openai import OpenAI
+from openai import APIStatusError, OpenAI
 from openai.types.chat import ChatCompletion
 
 from karaage.config import Settings
@@ -37,6 +37,10 @@ LLM_MODES = ("live", "record", "replay")
 
 class ReplayMissError(RuntimeError):
     """Replay mode found no recorded response for a request."""
+
+
+class RecordedError(RuntimeError):
+    """An HTTP error recorded from the backend, raised again in replay mode."""
 
 
 class LLMClient:
@@ -133,9 +137,21 @@ class LLMClient:
                     f"No recorded response for this request in {self.recordings}. Re-record when prompts, "
                     "schemas or the profile change (docs/design-1.1.0.md, section 7.1)."
                 )
-            return ChatCompletion.model_validate_json(path.read_text(encoding="utf-8"))
-        response = self.client.chat.completions.create(**kwargs)
+            recorded = json.loads(path.read_text(encoding="utf-8"))
+            if "error" in recorded:
+                # Raise it under its original class name, so that step errors read as in the recording.
+                error = recorded["error"]
+                raise type(error["type"], (RecordedError,), {})(error["message"])
+            return ChatCompletion.model_validate(recorded)
         path.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            response = self.client.chat.completions.create(**kwargs)
+        except APIStatusError as e:
+            # An HTTP error from the backend (e.g. a prompt longer than the context) is part of
+            # the recorded behaviour; connection errors and timeouts are not recorded.
+            path.write_text(json.dumps({"error": {"type": type(e).__name__, "message": str(e)}}, indent=1) + "\n",
+                            encoding="utf-8")
+            raise
         path.write_text(response.model_dump_json(indent=1) + "\n", encoding="utf-8")
         return response
 
