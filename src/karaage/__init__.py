@@ -57,7 +57,9 @@ class PipelineResult:
 
 
 def load_embedding_model(model_name: str) -> SentenceTransformer:
-    return SentenceTransformer(model_name)
+    # On the CPU everywhere, so that results don't depend on the machine's GPU (Apple MPS, CUDA).
+    # The model only embeds a few sentences per document.
+    return SentenceTransformer(model_name, device="cpu")
 
 
 def set_verbose(value: bool) -> None:
