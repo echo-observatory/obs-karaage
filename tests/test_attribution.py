@@ -1,6 +1,7 @@
 """Range resolution: overlapping and nested attribution ranges (moved from attribution.py)."""
 
-from karaage.attribution import AttributionResult, Source, resolve_source_ranges
+from karaage.attribution import (ATTRIBUTION_SCHEMA, MAX_ALIASES, MAX_RANGES, MAX_SOURCES, AttributionResult,
+                                 Source, normalize_answer, resolve_source_ranges)
 
 
 def test_range_resolution():
@@ -97,3 +98,41 @@ def test_range_resolution():
     assert _ranges(test_output, "Kim")    == [[110, 115]],            f"Kim: {_ranges(test_output, 'Kim')}"
     assert _ranges(test_output, "Leo")    is None,                    "Leo should have been removed"
     assert _ranges(test_output, "Mike")   == [[120, 124], [135, 139]], f"Mike: {_ranges(test_output, 'Mike')}"
+
+
+def test_schema_bounds_every_list():
+    # Unbounded lists let a looping model generate until the token limit (articles 11, 17 and 24).
+    sources = ATTRIBUTION_SCHEMA["properties"]["sources"]
+    source = sources["items"]["properties"]
+    assert sources["maxItems"] == MAX_SOURCES and source["segments"]["maxItems"] == MAX_RANGES
+    assert source["segments"]["items"]["minItems"] == source["segments"]["items"]["maxItems"] == 2
+    assert source["other"]["maxItems"] == MAX_ALIASES
+
+
+def test_normalize_answer():
+    # Ranges as a backend that ignores the schema may return them (pre-1.1.0 runs crashed on these).
+    raw = AttributionResult(sources=[
+        Source(main="Ann", other=[], segments=[[4], [6, 8]]),
+        Source(main="Bob", other=[], segments=[[]]),
+        Source(main="Cy", other=[], segments=[[10, 12, 14]]),
+    ])
+    normalized = normalize_answer(raw)
+    assert [s.segments for s in normalized.sources] == [[[4, 4], [6, 8]], [], [[10, 10], [12, 12], [14, 14]]]
+
+    segments = [{"id": i, "text": "XXXXXXXXXX", "start": i * 10, "end": (i + 1) * 10} for i in range(20)]
+    resolved = resolve_source_ranges(normalized, segments)
+    assert {s.main: s.segments for s in resolved.sources} == {"Ann": [[4, 8]], "Cy": [[10, 14]]}
+
+
+def test_repeated_actors_and_aliases_are_merged():
+    # A looping model may list the same actor again and again (article 24).
+    raw = AttributionResult(sources=[
+        Source(main="Ann", other=["A.", "we", "A."], segments=[[1, 2]]),
+        Source(main="Bob", other=[], segments=[[5, 5]]),
+        Source(main="Ann", other=["Dr Ann"], segments=[[1, 2], [8, 9]]),
+    ])
+    merged = normalize_answer(raw)
+    assert [(s.main, s.other, s.segments) for s in merged.sources] == [
+        ("Ann", ["A.", "we", "Dr Ann"], [[1, 2], [1, 2], [8, 9]]),
+        ("Bob", [], [[5, 5]]),
+    ]
