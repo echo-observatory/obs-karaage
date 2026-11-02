@@ -1,0 +1,1150 @@
+{
+ "03555337efec58bf94fd936c474e171090b44396947211a51c148afe37744cb8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651102,
+  "id": "chatcmpl-djfojhuq7rjjewrtf8awp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 257,
+   "prompt_tokens_details": null,
+   "total_tokens": 272
+  }
+ },
+ "122156ef7d18ab7d066fb01f51e1977d7a2d4198010acc5d470b66b71c8108a7": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Free Press\": [\"Comcast practices are discriminatory towards users of legal technology.\"], \"Ben Scott\": [\"Cable companies are scrambling to reduce the appearance of wrongdoing.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651064,
+  "id": "chatcmpl-oeigwpjf2rj4a3ujbryc14",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 36,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 828,
+   "prompt_tokens_details": null,
+   "total_tokens": 864
+  }
+ },
+ "13e50e3e23377c4524b6f68b11384dafb9f9b7935f83fea728f3b13aa852a4d4": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Alex Dudley\": [\"It is clearly the fairest way to fund the investment that is going to be required to support that use.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651069,
+  "id": "chatcmpl-ja6aqx8ursn3epgpwdwg6n",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 29,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 946,
+   "prompt_tokens_details": null,
+   "total_tokens": 975
+  }
+ },
+ "153a353e085f95dcdafc9b5ea4b18648ef40438f9cdd27ab909044da2a15011f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651102,
+  "id": "chatcmpl-qmung7v52zdwws5vmlsxo",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 261,
+   "prompt_tokens_details": null,
+   "total_tokens": 276
+  }
+ },
+ "15e826d04924d8adbd15a088ec6a03e7095d61acc9e131fc18cade07e3022ff9": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"To pay for the infrastructure needed to provide internet access, charging users based on how much data they consume is the most equitable method.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651098,
+  "id": "chatcmpl-2fy26islspdud8ho32tns",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 36,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 180,
+   "prompt_tokens_details": null,
+   "total_tokens": 216
+  }
+ },
+ "1ed5ebcf4df8a402d4a5fdc9a3762389b79b5de0584c4eb1df1f91707bce211b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Sena Fitzmaurice\": [\"Comcast will not filter traffic types but still needs to manage the network.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651067,
+  "id": "chatcmpl-2kbx7uzypb8rirqby4zsfa",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 26,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 847,
+   "prompt_tokens_details": null,
+   "total_tokens": 873
+  }
+ },
+ "202861767a73fc9dc1d98f162174b26c65981ed22dae229d960015cb34f0138c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Internet service charges based on actual data consumption represent the most equitable method for financing the necessary network upgrades. This approach guarantees that users who download or stream large amounts of information pay their fair share toward building and maintaining the infrastructure.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651096,
+  "id": "chatcmpl-p65ukpnw9n8i15y35s668",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 54,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 195,
+   "prompt_tokens_details": null,
+   "total_tokens": 249
+  }
+ },
+ "2ebfdfd08a6a062a48baef1228e860791e401b4e61dd0e5c21b20912abb15c35": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"On June 3rd, 2008, two major US ISPs announced tests to slow web access for active customers and charge extra fees.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651062,
+  "id": "chatcmpl-3bgd2216jlcnxmedgfgha",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 37,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 678,
+   "prompt_tokens_details": null,
+   "total_tokens": 715
+  }
+ },
+ "50ee43d5a1ba5622fdd664c282971374b9121c5dd4710c03c418748d6a3e59a0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Time Warner Cable plans to meter and bill clients for faster speeds and larger data amounts, functioning like a traditional public utility.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651068,
+  "id": "chatcmpl-man33sg39hnbx8b0ydye4r",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 31,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 858,
+   "prompt_tokens_details": null,
+   "total_tokens": 889
+  }
+ },
+ "536214d393958c8c60ac7d7c09cc85d4877af199783b34ae43df240c04a7b530": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651100,
+  "id": "chatcmpl-7jbvrwlon86trxul7gf3wn",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 233,
+   "prompt_tokens_details": null,
+   "total_tokens": 248
+  }
+ },
+ "584f5ac797c16777da9182c1a5646ec1c3427c81304f9b771297b93a2993d0fd": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651099,
+  "id": "chatcmpl-1zdhlz8d66le9yb7ynv14l",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 245,
+   "prompt_tokens_details": null,
+   "total_tokens": 260
+  }
+ },
+ "61d118583f6015f6ecbe4dad31dddfa7bc38b7ce25e3ae915e470375ccae838a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Time Warner Cable intends to charge customers based on usage levels and speed tiers, operating as a standard utility like an electric provider or mobile carrier, instead of providing unlimited flat-rate internet access.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651093,
+  "id": "chatcmpl-xr5us1knpohwjbuv81ekf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 47,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 202,
+   "prompt_tokens_details": null,
+   "total_tokens": 249
+  }
+ },
+ "689858355cf899ee275095d97cc225eba53ea6cfe6dcbd2602e1b62c70ea6553": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"Following an FCC investigation into Comcast's data restrictions, major ISPs like Comcast and Time Warner Cable are testing plans to slow speeds or charge extra fees for heavy internet usage, sparking debate over whether these measures unfairly target consumers and prioritize profit over network management.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651060,
+  "id": "chatcmpl-0ddn74ndlkjj5rkzqaakt1k",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 56,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1068,
+   "prompt_tokens_details": null,
+   "total_tokens": 1124
+  }
+ },
+ "8e4eb459ae74d505b6ff33aad1213aab67f0b9ed20d0ac388a4dcb87a6eff9c8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651099,
+  "id": "chatcmpl-swg2gig4mqnn7tchfpwge",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 210,
+   "prompt_tokens_details": null,
+   "total_tokens": 225
+  }
+ },
+ "9cef879b627ea0a9d8b10e82760b9af9e6afee1fcc562faf78a79e86c0bccc09": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Art Brodsky\": [\"Time Warner Cable's plan is a rationing scheme that protects inadequate infrastructure rather than relieving congestion.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651070,
+  "id": "chatcmpl-njar5vhz5rjm4osywqxgr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 29,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 835,
+   "prompt_tokens_details": null,
+   "total_tokens": 864
+  }
+ },
+ "aed0b472286d7b1e7034d7f176adfb991d3c017f2da87e66aee77a0211317013": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651101,
+  "id": "chatcmpl-jytmm31v7gbet9hqxm6w8n",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 218,
+   "prompt_tokens_details": null,
+   "total_tokens": 233
+  }
+ },
+ "b2a5399834274f3808be05943c00a447ea7ad78ce670695d06c61995df6b8213": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"8\": {\"original\": \"Time Warner Cable's plan is a rationing scheme that protects inadequate infrastr\", \"rephrased\": \"The proposed plan by Time Warner Cable to charge extra fees for heavy data usage functions as a rationing scheme designed to protect an inadequate infrastructure, rather than a strategy intended to relieve network congestion. This approach limits high-definition movie viewing and other essential content, effectively prioritizing the preservation of limited network capacity over meeting consumer demand for faster speeds and larger data allowances.\", \"summary\": \"Time Warner Cable's fee-based data plan prioritizes protecting inadequate infrastructure over relieving network congestion.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651089,
+  "id": "chatcmpl-5419ui46mnmkp2zbikja1",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 125,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1744,
+   "prompt_tokens_details": null,
+   "total_tokens": 1869
+  }
+ },
+ "b4dd9500025c98b0eb3292209db043b4ef6e04185ed443cb43958d1624d981b2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651101,
+  "id": "chatcmpl-c0a5f2uyzc8nx6c1g9jvxp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 235,
+   "prompt_tokens_details": null,
+   "total_tokens": 250
+  }
+ },
+ "b958cf8bbe2700015748d4a25ba6e325e8d768a054f6a834ce48e73ed34096a6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Roger Entner\": [\"As little as 5% of users consume 50% of bandwidth, making current network management tactics a 'politically correct' way to prioritize profit over fairness.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651065,
+  "id": "chatcmpl-zhh4l1ykpmnqvngjwaeeo",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 42,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 805,
+   "prompt_tokens_details": null,
+   "total_tokens": 847
+  }
+ },
+ "bd4ade5d2670a22d922cc084ac9d9a85727b721ac645438903d4f06a0db3d695": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651100,
+  "id": "chatcmpl-irozv98pdwbdvgs6opv27",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 222,
+   "prompt_tokens_details": null,
+   "total_tokens": 237
+  }
+ },
+ "c41701c7cecd250a79d1cbdcf0c7b9f16e304f10c9ef17991940cd532ac8da6a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"FCC investigation into Comcast's data restrictions sparked a US Congress debate over ISP control of customer data flow.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651063,
+  "id": "chatcmpl-k425f22l8goxa8igbzj8yn",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 28,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 787,
+   "prompt_tokens_details": null,
+   "total_tokens": 815
+  }
+ },
+ "d0134d4a4897da40e8f9e201620dd70863b8aeaec529cf2858484a3d54377fe3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"To avoid regulatory investigation, cable firms are changing their approach from simple speed limits to usage-based charging plans, which makes their actions seem less like misconduct.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651092,
+  "id": "chatcmpl-bqbdotti66u3bugcms7njl",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 40,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 182,
+   "prompt_tokens_details": null,
+   "total_tokens": 222
+  }
+ },
+ "d523803a3e3a849286c90eef62a2e505319f3d75e3274fce9db8d8b69ab8f647": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Comcast\", \"other\": [\"two of the largest ISPs in North America\"], \"kind\": \"organisation\", \"segments\": [[0, 1], [2, 3]]}, {\"main\": \"Time Warner Cable\", \"other\": [\"two of the largest ISPs in North America\"], \"kind\": \"organisation\", \"segments\": [[2, 3], [28, 29], [39, 40]]}, {\"main\": \"Federal Communications Commission\", \"other\": [\"FCC\"], \"kind\": \"organisation\", \"segments\": [[4, 5], [6, 7]]}, {\"main\": \"US Congress\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[6, 7]]}, {\"main\": \"Free Press\", \"other\": [\"an advocacy group\", \"that pushes for better oversight of cable operators such as Comcast\"], \"kind\": \"organisation\", \"segments\": [[12, 15]]}, {\"main\": \"Ben Scott\", \"other\": [\"head of the group\"], \"kind\": \"person\", \"segments\": [[16, 17]]}, {\"main\": \"Roger Entner\", \"other\": [\"a senior vice president from Nielsen IAG\"], \"kind\": \"person\", \"segments\": [[18, 21]]}, {\"main\": \"Sena Fitzmaurice\", \"other\": [\"a Comcast spokesperson\"], \"kind\": \"person\", \"segments\": [[22, 24]]}, {\"main\": \"Alex Dudley\", \"other\": [\"a Time Warner Cable spokesman\"], \"kind\": \"person\", \"segments\": [[34, 37]]}, {\"main\": \"Associated Press\", \"other\": [\"report\"], \"kind\": \"document\", \"segments\": [[38, 39]]}, {\"main\": \"Art Brodsky\", \"other\": [\"communications director of Public Knowledge\", \"a consumer advocacy group in Washington D.C.\"], \"kind\": \"person\", \"segments\": [[41, 44], [45, 49]]}, {\"main\": \"Public Knowledge\", \"other\": [\"a consumer advocacy group in Washington D.C.\"], \"kind\": \"organisation\", \"segments\": [[41, 44], [45, 49]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651049,
+  "id": "chatcmpl-50vmsqisuhj12pnex5xc9k",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 489,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1400,
+   "prompt_tokens_details": null,
+   "total_tokens": 1889
+  }
+ },
+ "e274cdca46e602c5b294c212ff2f1fd831166a26828d1a7ba0d0607d410ded6c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Time Warner Cable will start measuring internet usage and sending invoices for higher speeds and bigger data packages.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651095,
+  "id": "chatcmpl-dy7wnzq9p2vaomek35es",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 29,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 219,
+   "prompt_tokens_details": null,
+   "total_tokens": 248
+  }
+ },
+ "e389c7f8e41697c2af6da43d825c6b83bbc991880800467433d80fab6a45ac7a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651103,
+  "id": "chatcmpl-d2p0rrax5rjoqjt1c3f1ss",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 308,
+   "prompt_tokens_details": null,
+   "total_tokens": 323
+  }
+ },
+ "e3b50f37c4e5ce97562bbe6bca701677db9fa7ca84168dd620db46b3c7d8818f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"As little as 5% of users consume 50% of bandwidth, making current network管理tacts\", \"rephrased\": \"Because a tiny fraction of internet users consumes the majority of available bandwidth, network management strategies that throttle specific applications are effectively a politically correct method for prioritizing profit over fairness, unfairly penalizing the minority of users who generate the most traffic.\", \"summary\": \"Heavy internet usage by a small minority justifies prioritizing profit over fairness in network management.\"}, \"5\": {\"original\": \"Comcast will not filter traffic types but still needs to manage the network.\", \"rephrased\": \"Comcast will not filter traffic types but still needs to manage the network.\", \"summary\": \"Comcast will not filter traffic types but still needs to manage the network.\"}, \"6\": {\"original\": \"Time Warner Cable plans to meter and bill clients for faster speeds and larger\", \"rephrased\": \"Time Warner Cable plans to meter and bill clients for faster speeds and larger data amounts, functioning like a traditional public utility, such as an electric company or cell phone service, rather than offering flat-rate access to the internet.\", \"summary\": \"Time Warner Cable plans to meter and bill clients for faster speeds and larger data amounts.\"}, \"7\": {\"original\": \"It is clearly the fairest way to fund the investment that is going to be\", \"rephrased\": \"Metered billing for internet usage is clearly the fairest way to fund the investment required to support that use, ensuring that customers who consume excessive data contribute proportionally to the infrastructure costs.\", \"summary\": \"Metered billing for internet usage is clearly the fairest way to fund the investment required to support that use.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651080,
+  "id": "chatcmpl-odtsewu15tbq1bxqdb7oap",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 364,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2272,
+   "prompt_tokens_details": null,
+   "total_tokens": 2636
+  }
+ },
+ "fade0dd27799d6c95afa475443fda12d31c40e49770ef7915530a76ccf853b55": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"On June 3rd, 2008, two major US ISPs announced tests to slow web access for\", \"rephrased\": \"Following the Federal Communications Commission's investigation into data restrictions, two of the largest North American internet service providers, Comcast and Time Warner Cable, announced plans to throttle speeds or charge extra fees for heavy usage, raising concerns that these measures unfairly target consumers to protect network management rather than prioritize user needs.\", \"summary\": \"Two major North American ISPs announced speed throttling and extra fees for heavy users following an FCC investigation, sparking debate over consumer fairness.\"}, \"1\": {\"original\": \"FCC investigation into Comcast's data restrictions sparked a US Congress debate\", \"rephrased\": \"The Federal Communications Commission's inquiry into whether Comcast restricted customers from sharing files has ignited a congressional debate regarding the extent of control internet service providers should have over customer data flow, highlighting a growing conflict between regulatory oversight and corporate network management strategies.\", \"summary\": \"An FCC investigation into Comcast's data restrictions has sparked a congressional debate over how much control internet service providers should have over customer data.\"}, \"2\": {\"original\": \"Comcast practices are discriminatory towards users of legal technology.\", \"rephrased\": \"Comcast's network management practices unfairly discriminate against users of legal technology by specifically targeting customers who utilize file-sharing systems like BitTorrent, even when those users are accessing content they have the right to view, thereby penalizing lawful behavior.\", \"summary\": \"Comcast's network management practices unfairly discriminate against users of legal technology by targeting file-sharing systems.\"}, \"3\": {\"original\": \"Cable companies are scrambling to reduce the appearance of wrongdoing.\", \"rephrased\": \"Facing the threat of regulatory scrutiny, cable companies are frantically devising new strategies to alter their network management approaches, aiming to reduce the appearance of wrongdoing by shifting from blunt throttling to more nuanced, utility-style metered billing models.\", \"summary\": \"Facing regulatory scrutiny, cable companies are shifting from blunt throttling to metered billing models to reduce the appearance of wrongdoing.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651071,
+  "id": "chatcmpl-x4w1n85yif4cd4fz71y9l",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 432,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2027,
+   "prompt_tokens_details": null,
+   "total_tokens": 2459
+  }
+ },
+ "fcd5b04051fcb15bf3e5f7c35652f0d1a662fc0e9b8b30e1b49f33ea52a6ab02": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Time Warner Cable intends to charge customers based on usage levels and speed tiers.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651095,
+  "id": "chatcmpl-ob997s1t8grixz91yod",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 25,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 175,
+   "prompt_tokens_details": null,
+   "total_tokens": 200
+  }
+ }
+}

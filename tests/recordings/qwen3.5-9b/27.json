@@ -1,0 +1,699 @@
+{
+ "0b51149dea8276ffc224b2d59bffe30bdb901a29cd436fd5d9e36f46181fb0e3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"The Delhi High Court has restored a copyright infringement case against Delhi University's photocopy service, ruling that the legality of distributing course packs depends on expert evidence to determine if the practice constitutes fair use rather than absolute violation.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651758,
+  "id": "chatcmpl-g1n8aehf0m60fj69weg3a",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 50,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 766,
+   "prompt_tokens_details": null,
+   "total_tokens": 816
+  }
+ },
+ "1481fc0ab6886e9ae84ba27e4ae8b072683a66e9f3169d7f8f606e077a60efe6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Rameshwari Photocopy Service\": [], \"Delhi High Court\": [\"restored a trial over copyright infringement claims against DU's photocopy service\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651760,
+  "id": "chatcmpl-i8tc1yzjxmfbkf2hhbj5vp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 34,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 738,
+   "prompt_tokens_details": null,
+   "total_tokens": 772
+  }
+ },
+ "177bfeb7161e2ef464e62811bc0f609e3fc0ad2ce4acad40d9644622859618e2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651785,
+  "id": "chatcmpl-3sfz9wlokp1gl29pu0vmd",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 237,
+   "prompt_tokens_details": null,
+   "total_tokens": 252
+  }
+ },
+ "37873d3fea2e0a176776362825f862e476a0d79f307a2d01ba9735d5220cdb48": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Oxford University Press\": [\"The bench restored the case, allowing the photocopy service to continue selling course packs containing our copyrighted material.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651761,
+  "id": "chatcmpl-gqvp6co2trrgwgbgshiys5",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 30,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 820,
+   "prompt_tokens_details": null,
+   "total_tokens": 850
+  }
+ },
+ "5a7552ba4867d4850bf586242096c40a6b573dbb93c0c39e4bb6e3a109c41381": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651787,
+  "id": "chatcmpl-1bjia3b1l2a3515hb801j7",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 267,
+   "prompt_tokens_details": null,
+   "total_tokens": 282
+  }
+ },
+ "6f20159090815591220ec975109ee0f10cad40e7a4420d5b9c1844c5d88d70e2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651786,
+  "id": "chatcmpl-dmjt50a96xb2278c8dhcwj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 240,
+   "prompt_tokens_details": null,
+   "total_tokens": 255
+  }
+ },
+ "8dd9e5a18512164039974576763813e65857537047460b4d3814544b50c1b56c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651788,
+  "id": "chatcmpl-6d7rov3r5asjyur41wln1b",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 268,
+   "prompt_tokens_details": null,
+   "total_tokens": 283
+  }
+ },
+ "9c24111a4a0fadfc71a6017baf99d4441a52bcfc4ff7e78a44bcc715f5751642": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Dharam Pal Singh\": [\"Students need course packs due to book limitations in availability, price, and circulation.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651765,
+  "id": "chatcmpl-1ycfhwwsl824lc3etbdzzg",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 26,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 864,
+   "prompt_tokens_details": null,
+   "total_tokens": 890
+  }
+ },
+ "9fef8e570a849de59c62a531a1f45559f88e9a379589566e9aa8f63940adb4cf": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The judge states that the goal of copyright is to expand public knowledge, not to provide total ownership.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651784,
+  "id": "chatcmpl-53swn8vkd0e373ssmnwins",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 30,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 178,
+   "prompt_tokens_details": null,
+   "total_tokens": 208
+  }
+ },
+ "a302816b0bef9bcc533c0c7a727a355fd67c63672827116f5f25d3ae8c7b954f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Dharam Pal Singh\": [\"The course pack contains only readings professors require or recommend, and only important sections of books are photocopied.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651762,
+  "id": "chatcmpl-l5iwv2g1fxjyod0s9jk1m",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 32,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 809,
+   "prompt_tokens_details": null,
+   "total_tokens": 841
+  }
+ },
+ "a36adea6c5aa65595688d9769d829b7eb43f9af0eb925ee46960d309b53433c0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651787,
+  "id": "chatcmpl-p25in4tc97ibtf2kqq2gac",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 235,
+   "prompt_tokens_details": null,
+   "total_tokens": 250
+  }
+ },
+ "c74a142471e44af499d5b520db619c4414d30c30a1ba3d7ba4842c43c339970e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Justice Rajiv Sahan Endlaw\": [\"Copyright is not an absolute right but intended to increase knowledge and motivate creativity for public benefit.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651766,
+  "id": "chatcmpl-3zecujmkk3kerakvff5omm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 30,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 801,
+   "prompt_tokens_details": null,
+   "total_tokens": 831
+  }
+ },
+ "ca633092e3dcf8522100662e732aa513f9b496dbc166a1ffd5468c18947c0c50": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651786,
+  "id": "chatcmpl-9h6zro5gs4m9j5elpuoewv",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 258,
+   "prompt_tokens_details": null,
+   "total_tokens": 273
+  }
+ },
+ "cca45e386d069c6a36c0924d118c91a4856a0c63308af72396d3276028b874f8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"restored a trial over copyright infringement claims against DU's photocopy\", \"rephrased\": \"The Delhi High Court has reinstated legal proceedings against the Rameshwari Photocopy Service at Delhi University regarding allegations that distributing course packs violates copyright laws, overturning a previous ruling that had dismissed the charges. This decision shifts the legal focus from an absolute prohibition to a nuanced evaluation of whether the specific distribution practices constitute fair use under Indian law.\", \"summary\": \"The Delhi High Court reinstated copyright infringement proceedings against a university photocopy service, ruling that legality depends on fair use analysis rather than absolute violation.\"}, \"1\": {\"original\": \"The bench restored the case, allowing the photocopy service to continue selling\", \"rephrased\": \"The Delhi High Court bench has restored the copyright infringement case against the Rameshwari Photocopy Service, permitting the shop to continue selling course packs containing copyrighted material from publishers like Oxford University Press, Cambridge University Press, and Taylor and Francis while the legal dispute over fair use is resolved. This interim measure ensures that students retain access to essential study materials during the litigation process.\", \"summary\": \"The Delhi High Court bench restored the copyright case, allowing the photocopy service to continue selling copyrighted course packs pending a final fair use determination.\"}, \"2\": {\"original\": \"The course pack contains only readings professors require or recommend, and\", \"rephrased\": \"The owner of the Rameshwari Photocopy Service at Delhi University argues that the shop's course packs contain only readings explicitly required or recommended by professors, along with only important sections of books, thereby justifying the reproduction of copyrighted material as a necessary educational tool rather than an unauthorized commercial exploitation.\", \"summary\": \"The Rameshwari Photocopy Service owner argues that course packs contain only required readings and important sections, justifying the reproduction of copyrighted material as a necessary educational tool.\"}, \"3\": {\"original\": \"The law in India does not warrant judging course packs by whether they\", \"rephrased\": \"The Delhi High Court bench asserts that Indian law does not warrant judging the legality of course packs by whether they have become textbooks, but rather by considering whether the inclusion of copyrighted works is justified by the specific educational purpose of the course pack. This legal framework requires a purpose-based analysis to determine if the distribution of course packs constitutes fair use or copyright infringement.\", \"summary\": \"The Delhi High Court bench asserts that Indian law requires judging course pack legality based on whether the inclusion of copyrighted works is justified by the educational purpose, rather than by whether the packs have become textbooks.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651767,
+  "id": "chatcmpl-xcg8gbc3zlepa2xc0qet8h",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 541,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2049,
+   "prompt_tokens_details": null,
+   "total_tokens": 2590
+  }
+ },
+ "d0991496d4d20c7afa565bdee2d6db7104c7b5e70fb550dea1efd3b3d77b746b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Delhi High Court\": [\"The law in India does not warrant judging course packs by whether they become textbooks, but by considering if the inclusion of copyrighted work was justified by the course's purpose.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651763,
+  "id": "chatcmpl-ths16500p4ai1o9s0e12ys",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 42,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 841,
+   "prompt_tokens_details": null,
+   "total_tokens": 883
+  }
+ },
+ "ee8b9bc8a5183a194a37f7203a27ddc22b9ddae8dc0b4d04ee5b5c9e0621eb9f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"Students need course packs due to book limitations in availability, price, and.\", \"rephrased\": \"The owner of the photocopy shop argues that the current distribution of course packs is a necessary response to severe market failures, where textbooks are often unavailable, prohibitively expensive, or out of print. He contends that because students rely on these compilations to access essential educational content, the practice serves a vital instructional purpose rather than constituting an absolute violation of intellectual property rights.\", \"summary\": \"The photocopy shop owner argues that course packs are a necessary response to textbook unavailability and high costs.\"}, \"5\": {\"original\": \"Copyright is not an absolute right but intended to increase knowledge and motiva\", \"rephrased\": \"The judge asserts that copyright law in India is not designed to grant authors absolute ownership over their creations, but rather to function as a tool for increasing public knowledge and motivating creative activity. Consequently, the court must evaluate whether the inclusion of copyrighted material in course packs is justified by the specific educational purpose of the course, rather than automatically ruling it as an infringement.\", \"summary\": \"The judge asserts that copyright is intended to benefit the public by increasing knowledge rather than granting absolute ownership.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651778,
+  "id": "chatcmpl-91qkd489cpgip3sl9cplnj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 257,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1833,
+   "prompt_tokens_details": null,
+   "total_tokens": 2090
+  }
+ },
+ "f8091305222cf2ff6174bd835c80802c83505b510d44185418484e0361023543": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Rameshwari Photocopy Service\", \"other\": [\"DU's Rameshwari Photocopy Service\", \"The shop\", \"the photocopy service shop\"], \"kind\": \"organisation\", \"segments\": [[1, 2]]}, {\"main\": \"Pradeep Nandrajog\", \"other\": [], \"kind\": \"person\", \"segments\": [[3, 4]]}, {\"main\": \"Yogesh Khanna\", \"other\": [], \"kind\": \"person\", \"segments\": [[3, 4]]}, {\"main\": \"Oxford University Press\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[7, 7]]}, {\"main\": \"Cambridge University Press\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[7, 7]]}, {\"main\": \"Taylor and Francis\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[7, 7]]}, {\"main\": \"Dharam Pal Singh\", \"other\": [\"Dharam Pal\", \"The owner of the photocopy service shop\"], \"kind\": \"person\", \"segments\": [[11, 15], [18, 22]]}, {\"main\": \"Delhi High Court\", \"other\": [\"The bench\", \"The High Court\"], \"kind\": \"organisation\", \"segments\": [[0, 0], [3, 5], [16, 17], [23, 25]]}, {\"main\": \"Justice Rajiv Sahan Endlaw\", \"other\": [\"Justice Endlaw\"], \"kind\": \"person\", \"segments\": [[1, 2], [27, 34]]}, {\"main\": \"Judge Sahani\", \"other\": [], \"kind\": \"person\", \"segments\": [[24, 24]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651750,
+  "id": "chatcmpl-vfmjachswgp389dfgbw8yr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 396,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1098,
+   "prompt_tokens_details": null,
+   "total_tokens": 1494
+  }
+ }
+}

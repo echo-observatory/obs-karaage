@@ -1,0 +1,371 @@
+{
+ "06049b51abc2ef9cd717a989b3a63cd3da7f9a7a12f4940e914279a111b96a15": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Pew Internet & American Life Project\", \"other\": [\"Pew Internet & American Life Project\"], \"kind\": \"organisation\", \"segments\": [[30, 30]]}, {\"main\": \"Sony Corp. v. Universal City Studios\", \"other\": [\"Betamax decision\", \"Betamax case\"], \"kind\": \"document\", \"segments\": [[31, 31]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650236,
+  "id": "chatcmpl-9jxf4g1ee20vqx1xgnim7",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 91,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1192,
+   "prompt_tokens_details": null,
+   "total_tokens": 1283
+  }
+ },
+ "17e5e21113346777bbf496cc1fcd44b2c4aa7202d9a9e01f465bcc161c83a8e5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650260,
+  "id": "chatcmpl-be76qfn9isf2gp43lkkpg4",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 241,
+   "prompt_tokens_details": null,
+   "total_tokens": 256
+  }
+ },
+ "180fbcf74dd3db4ff5bf83471de96f2328df249c44ab3cf30e393edf4c3eece3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"A final ruling on MGM v. Grokster is expected within months, deciding if software makers can be held liable for user copyright infringement and potentially overturning the 1984 Betamax precedent.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650242,
+  "id": "chatcmpl-ymkxh699u1nmajhxdzhtb7",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 48,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1122,
+   "prompt_tokens_details": null,
+   "total_tokens": 1170
+  }
+ },
+ "1a096b0e6e52b6797093656c0c951780740e360cf952805105a2107306cf2b21": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The MGM v. Grokster ruling will either uphold or overturn the 1984 Betamax precedent, a decision that could determine billions in future revenues for the home video market.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650246,
+  "id": "chatcmpl-7s8gc0q3l5a5fnin0nyzw9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 45,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 742,
+   "prompt_tokens_details": null,
+   "total_tokens": 787
+  }
+ },
+ "73b7cdc67e2876b70834d615ecf87a4ac8f783fe40ea2c202a3a734c1f7763a8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"The Supreme Court's upcoming ruling in MGM v. Grokster will determine whether software companies can be held legally responsible for copyright infringement by users of peer-to-peer technology, a decision that could either affirm the legality of such networks or overturn the precedent set by the 1984 Betamax case, thereby impacting billions in future revenues.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650240,
+  "id": "chatcmpl-5wz5fu8eayavknuiaj26",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 75,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 860,
+   "prompt_tokens_details": null,
+   "total_tokens": 935
+  }
+ },
+ "7f2d226b765170d8e9ef8190ef0d5abd6f8e18726d05562b2cd59248088f65d3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650260,
+  "id": "chatcmpl-j1m0izsqkkehljrvlux2pe",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 233,
+   "prompt_tokens_details": null,
+   "total_tokens": 248
+  }
+ },
+ "82e8c8c6593fe3b69247a37adf19c649b99f2203bcbe7c6fdb3093702acd21c1": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Pew Internet & American Life Project\": [\"According to their most recent survey, 49% of all Americans and 53% of internet users believe file-sharing network owners should be responsible for music and movie piracy.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650244,
+  "id": "chatcmpl-kluqzg8em2n6d3cp4jhcmm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 48,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1198,
+   "prompt_tokens_details": null,
+   "total_tokens": 1246
+  }
+ },
+ "9a290b268ae76ed7c4ccd0c565abeb44fd24e7d1879a67f36572503596d9a2e3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"A final ruling on MGM v. Grokster is expected within months, deciding if软件makers\", \"rephrased\": \"The United States Supreme Court is set to issue a decision in the upcoming MGM v. Grokster case that will determine whether software developers can be held legally liable for copyright infringement committed by users of peer-to-peer networks. This ruling carries the potential to either affirm the existing legal protections for technology companies established in the 1984 Betamax case or overturn that precedent, a shift that would fundamentally alter the liability landscape for digital content distribution and impact billions of dollars in future revenues for the entertainment industry.\", \"summary\": \"The Supreme Court's pending ruling on MGM v. Grokster will decide if software makers face liability for user piracy, potentially overturning the 1984 Betamax precedent and affecting billions in revenue.\"}, \"1\": {\"original\": \"According to their most recent survey, 49% of all Americans and 53% of internet\", \"rephrased\": \"Recent survey data indicates that a significant majority of the American public, including 53% of internet users, believes that owners and operators of file-sharing networks should be held legally responsible for the music and movie piracy facilitated by their technology. This public sentiment highlights a strong demand for shifting liability away from individual users and onto the companies that provide the tools for digital content distribution, challenging the traditional legal framework that currently shields technology providers from such claims.\", \"summary\": \"A recent survey reveals that a majority of Americans believe file-sharing network owners should be held responsible for user piracy.\"}, \"2\": {\"original\": \"The MGM v. Grokster ruling will either uphold or overturn the 1984 Betamax\", \"rephrased\": \"The outcome of the MGM v. Grokster litigation will determine whether the United States legal system will uphold the 1984 Betamax precedent, which protects technology manufacturers, or overturn it to impose liability on software creators for unauthorized copying by their users. This judicial decision is critical because it stands to redefine the economic viability of the home video market, with billions of dollars in future revenues now hanging in the balance depending on whether the court affirms or rejects the established legal standard for peer-to-peer technology.\", \"summary\": \"The MGM v. Grokster ruling will decide whether to uphold or overturn the 1984 Betamax precedent, a choice that could determine billions in future revenues for the home video market.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650247,
+  "id": "chatcmpl-rnn0x61xmtacbzzy6bsx0g",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 521,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2077,
+   "prompt_tokens_details": null,
+   "total_tokens": 2598
+  }
+ },
+ "b5839907567d56f4ec3bc37aed2502922d060098d473bba76a002334a8db3656": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650259,
+  "id": "chatcmpl-rjkq2sc086zaymhkesxna",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 623,
+   "prompt_tokens_details": null,
+   "total_tokens": 638
+  }
+ }
+}

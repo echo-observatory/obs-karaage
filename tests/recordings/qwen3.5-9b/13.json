@@ -1,0 +1,453 @@
+{
+ "15c0d3ca650031e378db83d1701612a5e1761093da46a4eee0cd8fcd41798312": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"Michael Moore faces a federal investigation for filming a segment in Cuba for his upcoming documentary 'SiCKO,' which contrasts the U.S. healthcare system with other nations and highlights the lack of affordable care in America.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651030,
+  "id": "chatcmpl-fauulvdm18diuq80ygv3r",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 49,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 942,
+   "prompt_tokens_details": null,
+   "total_tokens": 991
+  }
+ },
+ "17bb6eb2a3fd87dc81e51790f5a2516167b5ecca12d4b900e02f675762ae0259": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"Moore faces a federal investigation for filming a segment in Cuba, where he 对比s \", \"rephrased\": \"Michael Moore is currently under federal investigation by the U.S. Department of the Treasury's Office of Foreign Assets Control for violating the long-standing embargo against Cuba while filming a segment of his upcoming documentary, SiCKO, which critiques the American healthcare system by comparing it to other nations.\", \"summary\": \"Michael Moore faces a federal investigation for filming a segment in Cuba while critiquing the U.S. healthcare system.\"}, \"1\": {\"original\": \"Moore's film features 9/11 volunteers denied U.S. aid but treated for free in Cu\", \"rephrased\": \"The upcoming documentary SiCKO highlights a stark contrast in healthcare access by documenting how volunteer workers who were denied aid from U.S. funds after the September 11 attacks received free treatment in Cuba, where basic medications like inhalers cost a fraction of the price compared to the United States.\", \"summary\": \"The documentary SiCKO highlights how 9/11 volunteers denied U.S. aid received free treatment in Cuba.\"}, \"2\": {\"original\": \"We need a uniquely American solution in which the public and private sectors\", \"rephrased\": \"Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must pursue a uniquely American solution where public and private sectors collaborate to ensure everyone has high-quality, affordable healthcare, rejecting calls for a foreign-style system.\", \"summary\": \"Health insurance companies advocate for a uniquely American public-private healthcare solution.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651036,
+  "id": "chatcmpl-9mzuk1s1dy48qwludn7o73",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 340,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2099,
+   "prompt_tokens_details": null,
+   "total_tokens": 2439
+  }
+ },
+ "2d935c5a8a5c7e4cd464ac3b9a28ef1183ee62277dd34dd8215873ac21d0447b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Health insurance companies\": [\"We need a uniquely American solution in which the public and private sectors work together to make sure that everyone has high-quality, affordable healthcare.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651035,
+  "id": "chatcmpl-5gs5f414mkmtz1tzfpex5a",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 35,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 844,
+   "prompt_tokens_details": null,
+   "total_tokens": 879
+  }
+ },
+ "2f56937486085bedd919293d8275acf565d83ff36b039028cc97fe6818a2981f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Michael Moore\", \"other\": [\"Moore\"], \"kind\": \"person\", \"segments\": [[1, 1], [4, 4], [8, 8], [13, 13], [28, 28], [35, 35]]}, {\"main\": \"Lionsgate Studios\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[2, 2]]}, {\"main\": \"Office of Foreign Assets Control\", \"other\": [\"agency\", \"Office of Foreign Assets Control within the United States Department of the Treasury\", \"Treasury department\"], \"kind\": \"organisation\", \"segments\": [[5, 5], [8, 8]]}, {\"main\": \"Associated Press\", \"other\": [\"Associated Press\"], \"kind\": \"organisation\", \"segments\": [[13, 13]]}, {\"main\": \"David Boies\", \"other\": [\"David Boies\", \"attorney for Michael Moore\"], \"kind\": \"person\", \"segments\": [[13, 13], [14, 14]]}, {\"main\": \"Health insurance companies\", \"other\": [\"America's Health Insurance Plans\", \"AHIP\"], \"kind\": \"organisation\", \"segments\": [[40, 40]]}, {\"main\": \"Karen Ignagni\", \"other\": [\"Karen Ignagni\", \"president of AHIP\"], \"kind\": \"person\", \"segments\": [[40, 40], [41, 41]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651023,
+  "id": "chatcmpl-tp4mdg9bno591knlg8ho5",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 328,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1274,
+   "prompt_tokens_details": null,
+   "total_tokens": 1602
+  }
+ },
+ "39f9c9b520d6e07e250eca3ca7f86d4732ade10c0e053a43fb9b494b36a37784": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651047,
+  "id": "chatcmpl-lfgm736cfniwkvq0mnid7",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 538,
+   "prompt_tokens_details": null,
+   "total_tokens": 553
+  }
+ },
+ "3a835d49a59ca9246dd09f8fc95b10a15f42203e44b5abe024367a98d8249297": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651048,
+  "id": "chatcmpl-5d0vaf8v2vu0z2jltmkv9aj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 193,
+   "prompt_tokens_details": null,
+   "total_tokens": 208
+  }
+ },
+ "3e6adbfcc2fdf3a5b9842890be76f1604a87a8b9d5fea0a8f584dae7a7518b56": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The U.S. Department of the Treasury's Office of Foreign Assets Control is conducting a federal probe into Michael Moore. This investigation stems from his alleged breach of the enduring ban on Cuba. The violation occurred while he was shooting a portion of his future film, SiCKO. This documentary examines the U.S. healthcare system by contrasting it with those in other countries.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651044,
+  "id": "chatcmpl-t90f5f0v4yen7oci34a9u",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 83,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 214,
+   "prompt_tokens_details": null,
+   "total_tokens": 297
+  }
+ },
+ "4a2fd8b7835be86fc1180e2b4e02625897180160dd8729c924c866023c3eb732": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651048,
+  "id": "chatcmpl-0om0gyzgvc4fl86jpuqce9p",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 344,
+   "prompt_tokens_details": null,
+   "total_tokens": 359
+  }
+ },
+ "d5d2eb5c240164012cbc9717a1c913ab5e1833d0efb674874d6edc424e6b3cbc": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Moore faces a federal investigation for filming a segment in Cuba, where he contrasts the U.S. healthcare system with other nations.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651032,
+  "id": "chatcmpl-5ft2ks0oaxqpfmcekgdwu",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 33,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1142,
+   "prompt_tokens_details": null,
+   "total_tokens": 1175
+  }
+ },
+ "dfb80d767fcf912e8f43c8fc137fdb9fd3bbbefefc055bbf32cca4758e38a8d2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"A federal probe into Michael Moore is underway because he recorded a portion of his work in Cuba while criticizing American medical care.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651046,
+  "id": "chatcmpl-ntyfigm4my7ky8srmj40da",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 34,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 181,
+   "prompt_tokens_details": null,
+   "total_tokens": 215
+  }
+ },
+ "ffdd8f9214a1c2bb8dd1ef3cd6b975b336a36a1ba9def717ca4911f976c16c3d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Moore's film features 9/11 volunteers denied U.S. aid but treated for free in Cuba, where an inhaler costs 5 cents versus $120 in the U.S.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651033,
+  "id": "chatcmpl-otx93mrc0wgje1sczbojk",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 48,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1192,
+   "prompt_tokens_details": null,
+   "total_tokens": 1240
+  }
+ }
+}
