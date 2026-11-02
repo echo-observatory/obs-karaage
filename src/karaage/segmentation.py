@@ -371,6 +371,14 @@ def extract_clauses(segment, nlp, failures=None):
     result = []
     cursor = 0
 
+    def extend_last_segment(end):
+        """Extend the last segment to `end` (offset in the coarse segment), to cover
+        the end of a sentence that benepar did not see, such as trailing whitespace."""
+        last = result[-1]
+        if last["end"] < base + end:
+            last["text"] += segment["text"][last["end"] - base:end]
+            last["end"] = base + end
+
     for sent in spacy_doc.sents:
 
         # Whitespace between consecutive sentences within this segment.
@@ -383,14 +391,27 @@ def extract_clauses(segment, nlp, failures=None):
 
         sent_text = segment["text"][sent.start_char:sent.end_char]
         sent_base = base + sent.start_char
+        # benepar fails on every sentence that ends in whitespace, such as the last
+        # sentence of a paragraph, so it parses the sentence without it. The
+        # whitespace is added back to the sentence's last segment below.
+        parse_text = sent_text.rstrip()
+
+        if not parse_text:
+            # A whitespace-only sentence: nothing to parse.
+            result.append({"text": sent_text, "start": sent_base, "end": sent_base + len(sent_text)})
+            cursor = sent.end_char
+            continue
 
         # Pass 2 — benepar constituency parse for this sentence.
         try:
-            benepar_doc = nlp(sent_text)
-        except AssertionError:
-            # Known benepar bug (Python 3.14 / tokenizer offset mismatch).
-            # Return this sentence unsplit; any speaker change inside it
-            # will be missed downstream.
+            benepar_doc = nlp(parse_text)
+            # benepar returns exactly one sentence when given one sentence.
+            benepar_sent = next(iter(benepar_doc.sents))
+        except (AssertionError, ValueError, StopIteration):
+            # benepar fails on some sentences: AssertionError (tokenizer offset
+            # mismatch), ValueError (more than 512 sub-word tokens), StopIteration
+            # (no sentence returned). Return this sentence unsplit; any speaker
+            # change inside it will be missed downstream.
             if failures is not None:
                 failures.append({"text": sent_text, "start": sent_base, "end": sent_base + len(sent_text)})
             result.append({
@@ -401,8 +422,6 @@ def extract_clauses(segment, nlp, failures=None):
             cursor = sent.end_char
             continue
 
-        # benepar returns exactly one sentence when given one sentence.
-        benepar_sent = next(iter(benepar_doc.sents))
         embedded = _direct_embedded_clauses(benepar_sent)
 
         if not embedded:
@@ -412,6 +431,7 @@ def extract_clauses(segment, nlp, failures=None):
                 "start": sent_base + benepar_sent.start_char,
                 "end":   sent_base + benepar_sent.end_char,
             })
+            extend_last_segment(sent.end_char)
             cursor = sent.end_char
             continue
 
@@ -448,6 +468,7 @@ def extract_clauses(segment, nlp, failures=None):
                 "end":   sent_base + benepar_sent.end_char,
             })
 
+        extend_last_segment(sent.end_char)
         cursor = sent.end_char
 
     # Content after the last sentence within this segment (edge case).
@@ -631,7 +652,7 @@ def merge_microsegments(segments, original_text):
 # ORCHESTRATOR
 # ───────────────────────────────────────────────────────────────────────────────
 
-def segment_text(text, nlp, coarse):
+def segment_text(text, nlp, coarse, failures=None):
     """
     Run layers 2–3 on pre-computed coarse segments and return fine-grained
     segment dicts.
@@ -643,7 +664,8 @@ def segment_text(text, nlp, coarse):
     Guarantee: ''.join(seg['text'] for seg in result) == text
     """
     fine = []
-    benepar_failures = []
+    # Sentences benepar could not parse, which stay unsplit.
+    benepar_failures = failures if failures is not None else []
     for seg in coarse:
         fine.extend(extract_clauses(seg, nlp, failures=benepar_failures))  # Layer 2
     if verbose and benepar_failures:
