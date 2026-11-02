@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-n7oijd2i4poer6itaic9wi",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"Following his arrest for downloading millions of academic papers from JSTOR, Aaron Swartz pleaded not guilty to all charges. The U.S. District Court in Massachusetts then indicted him. He was released on a $100,000 unsecured bond.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645840,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 63,
+  "prompt_tokens": 290,
+  "total_tokens": 353,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

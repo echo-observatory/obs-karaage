@@ -1,9 +1,10 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
   "source_text_main_point": "Michael Moore faces a federal investigation for filming a segment in Cuba for his upcoming documentary 'SiCKO,' which contrasts the U.S. healthcare system with other nations and highlights the lack of affordable care in America.",
   "source_text_length_chars": 3146,
-  "source_text_length_segments": 33,
+  "source_text_length_segments": 43,
   "actors": [
    {
     "name": "Michael Moore",
@@ -18,7 +19,9 @@
    {
     "name": "Office of Foreign Assets Control",
     "variations": [
-     "OFAC"
+     "OFAC",
+     "agency reports",
+     "Federal investigation by the Treasury department"
     ]
    },
    {
@@ -26,59 +29,47 @@
     "variations": []
    },
    {
-    "name": "Health maintenance organizations",
-    "variations": [
-     "HMOs"
-    ]
-   },
-   {
     "name": "Health insurance companies",
     "variations": [
      "America's Health Insurance Plans",
      "AHIP"
     ]
+   },
+   {
+    "name": "Karen Ignagni",
+    "variations": []
    }
   ],
   "statements": [
    {
-    "actor": "David Boies",
-    "key_statement": "Michael Moore's attorney suggests the federal investigation into his Cuba trip is political retaliation for his critical documentaries.",
-    "long_statement": "David Boies, the attorney representing Michael Moore, contends that the federal investigation into the filmmaker's unauthorized trip to Cuba is likely a retaliatory measure by the current administration, driven by the political criticism of the U.S. healthcare system presented in Moore's previous works such as 'Fahrenheit 9/11' and his upcoming film 'SiCKO'.",
-    "segment_range": [
-     9,
-     9
-    ],
-    "rouge2_precision": 0.2
-   },
-   {
     "actor": "base_author",
-    "key_statement": "Michael Moore screened his documentary for politicians and nurses, highlighting the high number of uninsured Americans and cases of denied medical care.",
-    "long_statement": "Michael Moore recently screened his documentary 'SiCKO' for audiences including politicians and nurses in Sacramento, California, where the film opens with the stark statistic that approximately 45 million Americans lack health insurance and details numerous cases of insured patients being denied necessary medical treatment.",
+    "key_statement": "The film contrasts the U.S. healthcare system with international models by highlighting high uninsured rates and profit-driven denials of care.",
+    "long_statement": "The documentary in question contrasts the American healthcare model with systems in other nations, specifically noting that approximately 45 million Americans lack insurance coverage and detailing instances where insured individuals are denied necessary medical treatment due to profit-driven restrictions within the current U.S. system.",
     "segment_range": [
-     10,
-     15
+     15,
+     38
     ],
-    "rouge2_precision": 0.2093
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "A federal investigation into Michael Moore's documentary is driven by evidence from Cuba showing denied U.S. aid for 9/11 workers and stark medication cost disparities.",
-    "long_statement": "The federal investigation into Michael Moore's documentary stems from his footage in Cuba, which documents how 9/11 volunteer workers were denied U.S. aid and subsequently received free medical treatment in Havana, where essential medications cost a fraction of the price in the United States, prompting insurance groups to criticize the film's comparison of American care to international models.",
-    "segment_range": [
-     17,
-     30
-    ],
-    "rouge2_precision": 0.2222
+    "rouge2_precision": 0.1111
    },
    {
     "actor": "Health insurance companies",
-    "key_statement": "Health insurance companies advocate for a unique U.S. public-private healthcare model rather than adopting foreign systems.",
-    "long_statement": "Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must develop a distinct healthcare model where public and private sectors collaborate to ensure high-quality, affordable care for all citizens, rejecting the film's proposal to adopt systems from Canada, France, or the United Kingdom.",
+    "key_statement": "Health insurance companies oppose the film's call to adopt foreign healthcare models, defending the necessity of the current American system.",
+    "long_statement": "Major health insurance companies, speaking through their trade association, strongly oppose the documentary's narrative and explicitly reject its proposal to adopt a healthcare system modeled after those in Canada, France, or the United Kingdom, arguing that the current American approach is necessary.",
     "segment_range": [
-     31,
-     31
+     39,
+     39
     ],
-    "rouge2_precision": 0.0943
+    "rouge2_precision": 0.2143
+   },
+   {
+    "actor": "Karen Ignagni",
+    "key_statement": "The head of the health insurance trade group advocates for a unique American solution blending public and private sectors to ensure affordable, high-quality care for all.",
+    "long_statement": "The president of the American health insurance trade group asserts that the nation requires a distinctively American approach to healthcare reform, one that strategically combines public and private sector efforts to ensure every citizen has access to high-quality, affordable medical care.",
+    "segment_range": [
+     40,
+     41
+    ],
+    "rouge2_precision": 0.1923
    }
   ]
  }

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-sttxzphqyljuufhx8t236p",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"The Open Rights Group held its first conference, ORGCon, in London to educate\", \"rephrased\": \"The Open Rights Group, a pressure group in the United Kingdom dedicated to reforming intellectual property laws, organized its inaugural conference in London to educate activists on these legal changes.\", \"summary\": \"The UK's Open Rights Group launched a conference to educate activists on intellectual property reform.\"}, \"1\": {\"original\": \"Calls for reframing the slogan 'information wants to be free' to focus on\", \"rephrased\": \"Digital rights activist Cory Doctorow argues that the traditional slogan 'information wants to be free' must be reframed, as the true priority is building a digital economy based on control rather than unrestricted access.\", \"summary\": \"Activist Cory Doctorow urges a shift in digital rights focus from free information to managed control.\"}, \"2\": {\"original\": \"Claims digital rights have nothing to do with art.\", \"rephrased\": \"According to digital rights activist Cory Doctorow, the core principles of digital rights are unrelated to artistic expression, emphasizing instead the necessity of managing the information network with significant restrictions.\", \"summary\": \"Activist Cory Doctorow asserts that digital rights concerns are distinct from artistic issues.\"}, \"3\": {\"original\": \"Warns DRM technologies abuse the market by limiting consumer exchange.\", \"rephrased\": \"Digital rights activist Cory Doctorow warns that Digital Rights Management technologies harm the market by imposing artificial limitations on how consumers exchange information, thereby abusing the natural flow of data.\", \"summary\": \"Activist Cory Doctorow condemns DRM technologies for restricting consumer information exchange.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645682,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 342,
+  "prompt_tokens": 2016,
+  "total_tokens": 2358,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

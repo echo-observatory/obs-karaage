@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-pj0m9yh3ixc0fojrlkim5",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"To promote the Progress of Science and useful Arts, by securing for limited...[8\", \"rephrased\": \"The original text of the US Constitution's copyright clause, which mandates that exclusive rights to writings and discoveries be granted only for limited times to promote the progress of science and useful arts, stands in direct contrast to the shortened version cited by the Recording Artists' Coalition. While the abbreviated phrasing focuses narrowly on securing exclusive rights for authors, the full legal framework emphasizes that these temporary monopolies are merely a means to an end: advancing public knowledge and innovation rather than simply protecting individual interests indefinitely.\", \"summary\": \"The full US Constitution copyright clause prioritizes public progress over indefinite exclusive rights, contrasting with the industry's abbreviated interpretation.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644614,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 158,
+  "prompt_tokens": 1706,
+  "total_tokens": 1864,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

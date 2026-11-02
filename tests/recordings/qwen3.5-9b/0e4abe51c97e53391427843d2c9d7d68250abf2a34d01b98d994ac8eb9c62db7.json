@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-bff03q63n1k5jk2zveyp9",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"A representative from the Motion Picture Association of America claims that specific technology companies are planning reckless events. These events harm the companies' own customers and make them act like tools for the corporations. The representative says these actions hurt the public. They also do not fix the serious issue of copyright infringement. The industry wants to solve this problem by passing laws.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645905,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 79,
+  "prompt_tokens": 227,
+  "total_tokens": 306,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

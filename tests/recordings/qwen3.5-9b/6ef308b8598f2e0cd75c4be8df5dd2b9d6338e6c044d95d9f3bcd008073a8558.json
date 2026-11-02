@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-b6ha7ejrqbhv0dwjiuovmp",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Tim Kuik\", \"other\": [\"head of BREIN\"], \"segments\": [[23, 25]]}, {\"main\": \"BREIN\", \"other\": [\"Dutch economic crimes police\", \"copyright oversight organization\"], \"segments\": [[7, 7]]}, {\"main\": \"Sloncek\", \"other\": [\"18 year-old owner\", \"owner of SuprNova.org\"], \"segments\": [[37, 41]]}, {\"main\": \"SuprNova.org\", \"other\": [\"SuprNova\"], \"segments\": [[32, 36], [43, 45]]}, {\"main\": \"FinReactor\", \"other\": [], \"segments\": [[26, 26]]}, {\"main\": \"Finnish National Bureau of Investigation\", \"other\": [\"Keskusrikospoliisi\", \"KRP\"], \"segments\": [[26, 26], [84, 85]]}, {\"main\": \"Finnish copyright organisations\", \"other\": [], \"segments\": [[26, 26]]}, {\"main\": \"MPAA\", \"other\": [\"Motion Picture Association of America\"], \"segments\": [[80, 83]]}, {\"main\": \"Bram Cohen\", \"other\": [], \"segments\": [[86, 87]]}, {\"main\": \"MetaMachine\", \"other\": [], \"segments\": [[95, 96]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644502,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 315,
+  "prompt_tokens": 2096,
+  "total_tokens": 2411,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

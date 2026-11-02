@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-3mumly0vrahp7ew17cf4ac",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"The Open Rights Group in the UK warns that the European Commission, led by Trade Commissioner Karel de Gucht, has postponed a choice on the Anti-Counterfeiting Trade Agreement (ACTA). This delay continues until the European Court of Justice issues a verdict on whether the agreement fits European law.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793646077,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 70,
+  "prompt_tokens": 219,
+  "total_tokens": 289,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

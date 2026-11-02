@@ -1,18 +1,15 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "The decline in iPod sales threatens the music industry's digital revenue, but experts suggest the sector may survive by shifting from device-dependent downloads to app-based artist models.",
+  "source_text_main_point": "As iPod sales have hit a historic low, the music industry fears the decline of its primary digital distribution driver, though experts remain cautiously optimistic that new app-based models could eventually replace the dying device and the struggling album format.",
   "source_text_length_chars": 7099,
-  "source_text_length_segments": 106,
+  "source_text_length_segments": 114,
   "actors": [
    {
     "name": "Arthur",
     "variations": [
-     "Charles Arthur",
-     "Arthur wrote",
-     "Arthur suggested",
-     "Arthur feels",
-     "Arthur also notes"
+     "Charles Arthur"
     ]
    },
    {
@@ -28,17 +25,19 @@
     ]
    },
    {
-    "name": "Robert",
-    "variations": []
-   },
-   {
-    "name": "Jobs",
+    "name": "Farrell",
     "variations": [
-     "Steve Jobs"
+     "Nick Farrell"
     ]
    },
    {
-    "name": "Apple",
+    "name": "Liversage",
+    "variations": [
+     "Adam Liversage"
+    ]
+   },
+   {
+    "name": "Robert",
     "variations": []
    },
    {
@@ -54,142 +53,186 @@
     ]
    },
    {
-    "name": "Rush",
+    "name": "Reznor",
     "variations": [
-     "Canadian rock band Rush"
+     "Trent Reznor"
     ]
    },
    {
-    "name": "iTunes",
-    "variations": [
-     "Apple's iTunes music store"
-    ]
-   },
-   {
-    "name": "Spotify",
+    "name": "Apple",
     "variations": []
    }
   ],
   "statements": [
    {
+    "actor": "Arthur",
+    "key_statement": "A technology editor states that the drop in MP3 player usage puts the future of digital music sales for record labels at risk.",
+    "long_statement": "The technology editor of The Guardian argues that the falling sales of standalone MP3 players pose a serious threat to record companies. This concern stems from the fear that as these dedicated devices disappear, consumer interest in purchasing individual songs from digital stores will also vanish, potentially stalling the growth of the digital music market.",
+    "segment_range": [
+     13,
+     15
+    ],
+    "rouge2_precision": 0.2593
+   },
+   {
     "actor": "base_author",
-    "key_statement": "Falling iPod sales threaten the music industry's digital revenue despite strong smartphone sales.",
-    "long_statement": "While Apple's iPhone and iPad continue to sell strongly, the company's standalone iPod sales have dropped to their lowest level since 2006, raising concerns that the music industry's reliance on device-dependent digital downloads may be jeopardizing its overall revenue growth.",
+    "key_statement": "The music industry's historical growth strategy relied on the iPod to drive sales across multiple digital music stores.",
+    "long_statement": "The global music industry historically depended on the iPod to stimulate consumer demand for downloaded music across various digital platforms, including Apple's iTunes and competitors like Amazon. This reliance created a specific distribution model where the hardware device was essential for driving the sale of digital tracks, a strategy that is now being questioned as the device's market share shrinks.",
     "segment_range": [
-     0,
-     6
+     16,
+     18
     ],
-    "rouge2_precision": 0.1538
-   },
-   {
-    "actor": "Arthur",
-    "key_statement": "Record companies face a problem as declining MP3 player sales could reduce consumer interest in digital music.",
-    "long_statement": "Record companies face a major threat because standalone MP3 player sales are dropping quickly. The industry worries that people will stop buying music from digital stores if the dedicated player market collapses.",
-    "segment_range": [
-     7,
-     9
-    ],
-    "rouge2_precision": 0.25
-   },
-   {
-    "actor": "Arthur",
-    "key_statement": "Declining standalone player sales risk consumer disinterest in digital music stores.",
-    "long_statement": "As the standalone digital music player market declines, consumers may lose interest in purchasing music from digital stores, creating a significant challenge for record companies that rely on device-driven sales. This shift away from hardware-dependent consumption threatens the current trajectory of digital revenue, suggesting the industry must adapt to new distribution models to survive.",
-    "segment_range": [
-     7,
-     9
-    ],
-    "rouge2_precision": 0.1818
+    "rouge2_precision": 0.2778
    },
    {
     "actor": "Mulligan",
-    "key_statement": "Digital music sales growth is slower than expected and resembles a niche technology.",
-    "long_statement": "Digital music sales are failing to demonstrate the anticipated exponential growth that would replace physical CDs, instead following a trajectory that resembles a niche technology rather than a mass-market standard.",
+    "key_statement": "An analyst argues that digital downloads are growing too slowly to replace CDs as a mainstream music format.",
+    "long_statement": "A music and digital media analyst observes that digital downloads are not achieving the explosive growth necessary to replace CDs as a mainstream format. Instead of a rapid market takeover, current data shows a growth curve resembling that of a niche technology, suggesting that the transition from physical to digital media is slower and more complex than previously anticipated.",
     "segment_range": [
-     13,
-     14
+     19,
+     20
+    ],
+    "rouge2_precision": 0.1207
+   },
+   {
+    "actor": "Jacob",
+    "key_statement": "The global music industry notes that digital download growth has slowed despite a larger overall market.",
+    "long_statement": "The International Federation of the Phonographic Industry, which represents the global music sector, notes that digital download sales are still growing. However, this growth has slowed compared to previous years. This happens even though the overall number of sales in the market is now much higher.",
+    "segment_range": [
+     21,
+     28
+    ],
+    "rouge2_precision": 0.2667
+   },
+   {
+    "actor": "Arthur",
+    "key_statement": "Data reveals that digital music revenue growth is insufficient to offset the massive financial losses from declining CD sales.",
+    "long_statement": "Recent data indicates that while physical CD sales have plummeted by nearly 13%, resulting in a loss of over $1.6 billion, digital music downloads have only increased by roughly 9%, generating less than $400 million in revenue, proving that the digital transition has not yet compensated for the collapse of physical media.",
+    "segment_range": [
+     29,
+     33
+    ],
+    "rouge2_precision": 0.0769
+   },
+   {
+    "actor": "Arthur",
+    "key_statement": "The predicted total replacement of CDs by digital downloads has not yet happened.",
+    "long_statement": "The widespread belief that physical CDs would eventually disappear and be fully replaced by digital downloads has not materialized, as the anticipated total market growth has failed to occur.",
+    "segment_range": [
+     29,
+     33
     ],
     "rouge2_precision": 0.1667
    },
    {
     "actor": "Jacob",
-    "key_statement": "Digital download market growth is slowing despite a larger overall sales base.",
-    "long_statement": "While the digital download market continues to expand, its growth rate has slowed compared to previous years, even though it now operates from a significantly larger sales base than in the past.",
+    "key_statement": "Digital sales are growing in some countries but are not enough to replace global CD revenue losses.",
+    "long_statement": "While digital music sales are rising in specific regions like the United Kingdom, they are failing to compensate for the overall decline in physical CD sales on a global scale, meaning the industry's total revenue remains under pressure.",
     "segment_range": [
-     15,
-     22
+     34,
+     38
     ],
-    "rouge2_precision": 0.1818
-   },
-   {
-    "actor": "Arthur",
-    "key_statement": "Digital download growth failed to offset the massive financial losses from declining CD sales.",
-    "long_statement": "While the music industry experienced a significant 12.7% decline in CD sales, resulting in a loss of $1.6 billion, digital downloads managed a modest 9.2% increase that added less than $400 million in value, failing to compensate for the overall revenue drop.",
-    "segment_range": [
-     23,
-     27
-    ],
-    "rouge2_precision": 0.1364
-   },
-   {
-    "actor": "Arthur",
-    "key_statement": "The industry's expectation that digital downloads would completely replace CDs has not come to pass.",
-    "long_statement": "The anticipated transition where CDs would eventually disappear and be fully replaced by digital downloads has not materialized, as the industry's most profitable era appears to be behind it.",
-    "segment_range": [
-     23,
-     27
-    ],
-    "rouge2_precision": 0.2
-   },
-   {
-    "actor": "Jacob",
-    "key_statement": "Digital sales growth remains inadequate to compensate for the worldwide drop in CD revenue.",
-    "long_statement": "Although digital music sales are expanding in specific regions like the UK, the overall growth in this sector is insufficient to cover the substantial revenue losses caused by the global decline in CD sales.",
-    "segment_range": [
-     28,
-     32
-    ],
-    "rouge2_precision": 0.1538
+    "rouge2_precision": 0.0526
    },
    {
     "actor": "base_author",
-    "key_statement": "Digital music sales rely heavily on Apple's hardware dominance, which has created a market monopoly.",
-    "long_statement": "Since 2004, Apple's hardware, specifically the iPod and iPhone, has been closely linked to digital music sales. This approach helped the company secure a 70% share of the worldwide market and establish a monopoly in the digital player sector.",
+    "key_statement": "The music industry faces a critical dependency on the declining iPod for digital sales growth.",
+    "long_statement": "As the iPod market faces a historic decline, the music industry risks a corresponding drop in digital downloads because these sales have been inextricably linked to the device's success. Historical data confirms that international digital music revenue only began to grow after Apple launched its iTunes store in 2004, rising in direct proportion to iPod and iPhone sales figures. Consequently, the sector must urgently develop alternative distribution models that do not rely on a single hardware platform to sustain future growth.",
     "segment_range": [
-     33,
-     62
+     39,
+     42
     ],
-    "rouge2_precision": 0.2564
+    "rouge2_precision": 0.1235
+   },
+   {
+    "actor": "IFPI",
+    "key_statement": "The iTunes store, introduced by Apple in 2004, marked the start of worldwide digital music sales.",
+    "long_statement": "The worldwide music industry acknowledges that international digital music sales were nonexistent until 2004, the specific year Apple launched its iTunes store globally. This historical milestone marks the beginning of a steady climb in digital revenue that has tracked perfectly with the total sales volume of iPods and iPhones, confirming the device's role as the primary engine for the sector's digital transformation.",
+    "segment_range": [
+     39,
+     42
+    ],
+    "rouge2_precision": 0.254
+   },
+   {
+    "actor": "Farrell",
+    "key_statement": "Record companies caused their own sales decline by relying too heavily on the iPod.",
+    "long_statement": "The decline in music sales stems from record companies' strategic failure to diversify beyond the iPod, a mistake caused by their over-reliance on Steve Jobs and his company. By viewing Apple as the industry's saviour, these institutions neglected to develop high-quality music formats for stationary devices like Hi-Fi systems before the iPod's popularity faded, leaving them vulnerable to the device's eventual market collapse.",
+    "segment_range": [
+     43,
+     47
+    ],
+    "rouge2_precision": 0.2353
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Apple's market monopoly over digital players has severely limited competition for record labels.",
+    "long_statement": "The music industry's current struggles are partly due to Apple securing a dominant 70% monopoly over the digital music player market, which effectively stifled competition. While this strategy allowed Apple to become the largest single music retailer in the US and successfully expand into television, films, and apps, it left the record business with no viable alternative outlet to challenge the company's pricing power.",
+    "segment_range": [
+     48,
+     70
+    ],
+    "rouge2_precision": 0.2462
    },
    {
     "actor": "Mulligan",
-    "key_statement": "High app download numbers do not yet replace music sales because app audio quality is inferior to purchased songs.",
-    "long_statement": "Despite the rapid adoption of mobile applications, with five billion downloads in just two years, the music sector's total consumption of purchased songs remains significantly higher at ten billion over seven years. This disparity indicates that the current quality of digital apps does not yet match the audio fidelity consumers expect from music, suggesting that a full transition to app-based revenue models is premature for the industry.",
+    "key_statement": "Mobile devices currently lack the audio fidelity required to fully leverage their technical capabilities for music playback.",
+    "long_statement": "The current inability of mobile devices to deliver high-fidelity audio means that simply playing a track fails to utilize the full potential of smartphones and tablets, creating a significant barrier for music consumption on these platforms.",
     "segment_range": [
-     63,
-     76
+     71,
+     78
     ],
-    "rouge2_precision": 0.0735
+    "rouge2_precision": 0.0556
    },
    {
     "actor": "base_author",
-    "key_statement": "Device-specific apps are harder to pirate than CDs, providing an effective solution to the music industry's piracy crisis.",
-    "long_statement": "Because mobile applications are typically locked to specific devices or individual buyers, they are significantly more difficult to pirate than standard music files or physical CDs. This inherent technical barrier offers the music industry a practical and effective solution to combat the severe and persistent problem of digital copyright infringement that has long plagued the sector.",
+    "key_statement": "Streaming services are a key factor in declining music sales, signaling the end of the industry's peak revenue years.",
+    "long_statement": "The emergence of streaming platforms such as Spotify is identified as a primary driver behind the recent decline in recorded music sales, even though the revenue generated by these services has not yet compensated for the loss of CD income, suggesting the industry's most profitable era has passed.",
     "segment_range": [
-     89,
-     92
+     79,
+     85
     ],
-    "rouge2_precision": 0.2632
+    "rouge2_precision": 0.1053
    },
    {
-    "actor": "Robert",
-    "key_statement": "Experts caution that while the iPod is not immediately dead, it cannot be revived by its creator, forcing the music industry to find new growth paths.",
-    "long_statement": "Although the music industry has not yet reached a definitive end for the iPod, experts warn that the device's creator, Steve Jobs, is unlikely to successfully revive its sales. Consequently, the sector must recognize that the era of relying on a single technological saviour has passed, necessitating an urgent search for alternative growth strategies beyond the current digital download model to ensure long-term survival.",
+    "actor": "base_author",
+    "key_statement": "The music industry has passed its peak, but new app-based models offer a hopeful path forward for digital distribution.",
+    "long_statement": "While the music industry has passed its most lucrative period and faces a struggling album format, there is cautious optimism that emerging app-based distribution models could eventually provide a viable alternative to traditional sales.",
     "segment_range": [
-     102,
-     105
+     79,
+     85
     ],
-    "rouge2_precision": 0.12
+    "rouge2_precision": 0.0
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Device-specific apps offer a more secure alternative to CDs for reducing music piracy.",
+    "long_statement": "Because mobile applications are typically locked to specific devices or purchasers, they present a more secure format that is significantly harder to pirate than physical CDs. This technical distinction offers a viable pathway for the music industry to combat widespread digital theft, a critical issue that has long plagued the sector.",
+    "segment_range": [
+     95,
+     98
+    ],
+    "rouge2_precision": 0.08
+   },
+   {
+    "actor": "Jacob",
+    "key_statement": "Experts argue it is too early to declare the physical album format dead.",
+    "long_statement": "While the music industry faces a severe decline in album sales, experts caution that it is currently too early to declare the complete demise of the physical album format. Despite the rise of digital alternatives, the existing model retains enough value and utility to remain relevant for the foreseeable future.",
+    "segment_range": [
+     99,
+     109
+    ],
+    "rouge2_precision": 0.0408
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Following the drop in popularity of the iPod, the music business needs to locate a fresh source of expansion.",
+    "long_statement": "Following the historic decline in iPod sales, the music industry must urgently identify a new source of growth, as the device that once revitalized the sector is now failing to do so. However, there is no guarantee that a viable successor to the iPod will ever emerge to replace it as the primary driver of digital music consumption.",
+    "segment_range": [
+     113,
+     113
+    ],
+    "rouge2_precision": 0.0556
    }
   ]
  }

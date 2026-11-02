@@ -1,9 +1,10 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "An Australian court ordered ISPs to block five major copyright-infringing websites within 15 days, a move copyright holders claim will combat piracy while potentially disrupting legitimate users who rely on open-source software for downloading operating systems.",
+  "source_text_main_point": "An Australian court ordered ISPs to block five major copyright-infringing websites, marking the first use of new legislation to combat digital piracy by forcing access denials and offering compensation to rights holders.",
   "source_text_length_chars": 1561,
-  "source_text_length_segments": 20,
+  "source_text_length_segments": 28,
   "actors": [
    {
     "name": "Australian Federal Court",
@@ -13,47 +14,67 @@
    },
    {
     "name": "Peter Tonagh",
-    "variations": [
-     "chief executive of copyright holders Foxtel"
-    ]
+    "variations": []
    },
    {
     "name": "Graham Bruke",
-    "variations": [
-     "co-executive of the other copyright holder in the case, Village Roadshow"
-    ]
+    "variations": []
+   },
+   {
+    "name": "Foxtel",
+    "variations": []
    }
   ],
   "statements": [
    {
-    "actor": "base_author",
-    "key_statement": "ISPs can choose blocking methods and will be compensated by copyright holders for each blocked domain.",
-    "long_statement": "Internet service providers retain the autonomy to select their preferred technical method for blocking the designated infringing sites, whether through DNS filtering, IP address blocking, or URL blocking. To facilitate this enforcement, the copyright holders have agreed to compensate the ISPs with up to A$50 for each domain that is successfully blocked, ensuring the companies are financially incentivized to comply with the court's directive.",
+    "actor": "Australian Federal Court",
+    "key_statement": "The Australian Federal Court mandated that ISPs block five specific piracy sites within fifteen days under new national legislation.",
+    "long_statement": "The Australian Federal Court has mandated that Internet service providers immediately cease access to five specific websites known for distributing unlicensed material, including Pirate Bay and Torrentz, as part of a new national strategy to combat digital piracy. This legal order requires the internet companies to implement these blocks within fifteen business days, effectively forcing access denials for users attempting to reach these sites while establishing a formal precedent for rights holders to seek judicial intervention against online infringement.",
     "segment_range": [
-     5,
-     9
+     0,
+     6
     ],
-    "rouge2_precision": 0.1692
+    "rouge2_precision": 0.2778
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Under the new Australian law, ISPs choose the technical blocking method while copyright holders pay a fee for each blocked domain.",
+    "long_statement": "While the newly enacted Australian legislation empowers copyright holders to demand the blocking of infringing websites, the specific technical method of implementation—such as DNS blocking or IP address filtering—remains entirely up to the discretion of the Internet service providers. In exchange for complying with these court orders, the rights holders are required to compensate the service providers with a fee of up to A$50 for each domain that is successfully blocked, creating a financial incentive structure that balances the costs of enforcement with the benefits of protecting intellectual property.",
+    "segment_range": [
+     7,
+     13
+    ],
+    "rouge2_precision": 0.15
    },
    {
     "actor": "Peter Tonagh",
-    "key_statement": "This ruling marks a significant advance in fighting piracy and teaching people that getting material from these websites is stealing.",
-    "long_statement": "This judicial ruling represents a significant milestone in the direct fight against digital piracy and serves as a powerful educational tool for the public. It reinforces the critical message that accessing content through unauthorized channels is not merely a gray area but constitutes outright theft, thereby aligning public perception with the legal reality of intellectual property protection.",
+    "key_statement": "This judicial decision marks significant progress against piracy. It achieves this by blocking access to the sites and teaching people that using them to get material is stealing.",
+    "long_statement": "The recent court ruling represents a significant milestone in the fight against digital piracy, as it marks the first time Australian law has been used to force Internet service providers to deny access to specific websites. This decisive legal action not only directly disrupts the distribution of stolen content but also serves a crucial educational purpose by signaling to the general public that accessing material through these unauthorized channels constitutes theft, thereby shifting the cultural perception of online copyright infringement.",
     "segment_range": [
-     10,
-     10
+     14,
+     16
     ],
-    "rouge2_precision": 0.1071
+    "rouge2_precision": 0.038
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Village Roadshow and Foxtel intend to stop access to more than 50 sites. They also describe online pirates as 'leeches and thieves'.",
+    "long_statement": "Beyond the immediate court order, the major copyright holders in the case, Foxtel and Village Roadshow, have announced an aggressive expansion of their enforcement strategy, planning to pursue legal action against over fifty additional websites suspected of facilitating copyright infringement. This aggressive stance is underpinned by a strong moral condemnation of piracy, with executives characterizing users who steal copyrighted material as 'leeches and thieves' and comparing their actions to the sale of illegal drugs, reflecting a deep-seated commitment to protecting intellectual property rights through both legal and rhetorical means.",
+    "segment_range": [
+     17,
+     27
+    ],
+    "rouge2_precision": 0.1429
    },
    {
     "actor": "Graham Bruke",
-    "key_statement": "A co-executive at Village Roadshow described individuals who steal copyrighted content as leeches and thieves.",
-    "long_statement": "The co-executive of Village Roadshow has characterized individuals who illegally download copyrighted material as 'leeches and thieves,' drawing a stark and severe comparison between digital piracy and the sale of illegal heroin. This rhetoric underscores the view that copyright infringement is a serious moral and criminal offense that demands the same level of societal condemnation and legal consequence as drug trafficking.",
+    "key_statement": "Australian copyright holders frame digital piracy as a criminal act comparable to drug trafficking.",
+    "long_statement": "The Australian copyright industry, represented by rights holders such as Foxtel and Village Roadshow, frames digital piracy as a severe criminal offense comparable to drug trafficking. Under the new legislation that mandates blocking of infringing sites, this perspective leads to a moral condemnation of users, who are described as 'leeches and thieves' rather than being viewed as consumers of unauthorized content.",
     "segment_range": [
-     11,
-     14
+     17,
+     27
     ],
-    "rouge2_precision": 0.2667
+    "rouge2_precision": 0.0833
    }
   ]
  }

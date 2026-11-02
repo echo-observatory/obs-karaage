@@ -1,17 +1,40 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "Startup Joost is advancing the Internet TV model by securing content deals and leveraging peer-to-peer technology to offer flexible, on-demand programming that balances consumer choice with industry control, though it currently lacks the high-quality content of traditional cable and relies on advertising revenue.",
+  "source_text_main_point": "Startup Joost is advancing the Internet TV model by securing content deals with major studios and leveraging peer-to-peer technology to offer free, on-demand programming, aiming to balance consumer flexibility with industry control despite challenges regarding content quality and bandwidth efficiency.",
   "source_text_length_chars": 4055,
-  "source_text_length_segments": 49,
+  "source_text_length_segments": 62,
   "actors": [
    {
     "name": "Joost",
     "variations": [
-     "web broadcaster Joost",
-     "Joost (pronounced \"juiced\")",
-     "online community",
-     "web broadcaster"
+     "web broadcaster",
+     "aggregator",
+     "provider",
+     "online community"
+    ]
+   },
+   {
+    "name": "Time Warner",
+    "variations": []
+   },
+   {
+    "name": "John P. Gamboa",
+    "variations": [
+     "John P. Gamboa"
+    ]
+   },
+   {
+    "name": "Dailey Aztec",
+    "variations": [
+     "Dailey Aztec"
+    ]
+   },
+   {
+    "name": "Niklas Zennström",
+    "variations": [
+     "Niklas Zennström"
     ]
    },
    {
@@ -22,34 +45,54 @@
     ]
    },
    {
-    "name": "John P. Gamboa",
-    "variations": [
-     "John P. Gamboa"
-    ]
-   },
-   {
-    "name": "Niklas Zennström",
-    "variations": [
-     "Niklas Zennström"
-    ]
-   },
-   {
     "name": "media conglomerates",
     "variations": [
      "media conglomerates"
+    ]
+   },
+   {
+    "name": "telcom carriers",
+    "variations": [
+     "telcom carriers"
+    ]
+   },
+   {
+    "name": "music record labels",
+    "variations": [
+     "music record labels"
     ]
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "Joost attempts to balance consumer flexibility with industry content control via peer-to-peer technology, though it currently lacks high-quality content and relies on advertising.",
-    "long_statement": "The entertainment industry and consumers have conflicting needs regarding television distribution, with the former requiring content control and the latter seeking increased flexibility; the startup Joost attempts to resolve this tension by leveraging peer-to-peer technology to deliver on-demand programming, yet the service currently suffers from lower content quality compared to established cable systems and must generate revenue through advertising.",
+    "key_statement": "Joost offers 150 high-quality channels with interactive features, subject to regional copyright limits.",
+    "long_statement": "The startup Joost currently provides approximately 150 channels featuring full-screen, eye-quality television, although the availability of specific channels varies by country or region due to copyright restrictions. This service allows viewers to navigate menus and interact with programming through integrated widgets, representing a significant step forward in delivering a flexible, high-quality online TV experience that competes with established cable and satellite models.",
     "segment_range": [
-     24,
-     48
+     6,
+     16
     ],
-    "rouge2_precision": 0.0984
+    "rouge2_precision": 0.2812
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Joost's founders apply peer-to-peer networking technology from their past ventures to build the startup's online TV platform.",
+    "long_statement": "The development team behind the startup Joost, which includes the creators of the peer-to-peer file-sharing application Kazaa and the telephony service Skype, is applying the networking architecture from those previous ventures to build its current online TV platform.",
+    "segment_range": [
+     17,
+     28
+    ],
+    "rouge2_precision": 0.15
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Joost attempts to balance consumer flexibility with industry control despite challenges regarding content quality and bandwidth efficiency.",
+    "long_statement": "Joost, a new company, seeks to meet viewer wants for more options and flexibility in television viewing while helping the entertainment sector keep control of its material. This plan tries to fix the industry's problem with putting lower-value shows online and dealing with issues like content quality and bandwidth use.",
+    "segment_range": [
+     31,
+     56
+    ],
+    "rouge2_precision": 0.098
    }
   ]
  }

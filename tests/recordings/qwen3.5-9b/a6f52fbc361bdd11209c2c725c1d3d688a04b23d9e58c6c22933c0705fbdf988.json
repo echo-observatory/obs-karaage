@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-h24tyu0mv14icnjwen7fve",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Wikipedia\", \"other\": [\"Wikipedia page\", \"Wikipedians\"], \"segments\": [[2, 3], [4, 6], [30, 34]]}, {\"main\": \"Cheezburger Network\", \"other\": [], \"segments\": [[16, 16]]}, {\"main\": \"Reddit\", \"other\": [], \"segments\": [[16, 16]]}, {\"main\": \"Boing Boing\", \"other\": [\"Boing Boing blog\"], \"segments\": [[16, 16]]}, {\"main\": \"Google\", \"other\": [], \"segments\": [[17, 18]]}, {\"main\": \"Supporters of the blackout\", \"other\": [], \"segments\": [[20, 21]]}, {\"main\": \"Opponents\", \"other\": [\"one opponent\", \"Other opponents\"], \"segments\": [[22, 23], [24, 26]]}, {\"main\": \"Sue Gardner\", \"other\": [\"Executive Director of the Wikimedia Foundation\"], \"segments\": [[27, 34]]}, {\"main\": \"Jimmy Wales\", \"other\": [\"Wales\", \"co-founder of Wikipedia\"], \"segments\": [[35, 45], [46, 47]]}, {\"main\": \"Chris Dodd\", \"other\": [], \"segments\": [[48, 53]]}, {\"main\": \"Motion Picture Association of America\", \"other\": [\"MPAA\"], \"segments\": [[48, 53]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645850,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 337,
+  "prompt_tokens": 1253,
+  "total_tokens": 1590,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

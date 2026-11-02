@@ -1,9 +1,10 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "France is passing a controversial copyright law that balances implementing EU DRM rules with public backlash over harsh penalties, leading to a contentious legislative battle involving industry lobbying, constitutional challenges, and a shift toward a 'global license' for peer-to-peer sharing.",
+  "source_text_main_point": "France is passing a controversial copyright law that mandates digital locks and fines for file sharing, sparking intense political debate over industry lobbying, the threat of criminalizing ordinary users, and potential constitutional challenges.",
   "source_text_length_chars": 5219,
-  "source_text_length_segments": 54,
+  "source_text_length_segments": 65,
   "actors": [
    {
     "name": "Renaud Donnedieu de Vabres",
@@ -14,19 +15,17 @@
    {
     "name": "Lawmakers",
     "variations": [
-     "lawmakers",
      "Lawmakers, from both the majority UMP party and the opposition",
      "Some lawmakers, both from the opposition and the majority",
+     "Lawmakers also",
+     "some UMP, UDF and opposition lawmakers",
      "some lawmakers and commentators",
-     "some UMP and opposition lawmakers",
-     "some UMP, UDF and opposition lawmakers"
+     "some powerful lobbies"
     ]
    },
    {
     "name": "US news sources",
-    "variations": [
-     "US news sources"
-    ]
+    "variations": []
    },
    {
     "name": "Jacques Chirac",
@@ -38,33 +37,63 @@
   "statements": [
    {
     "actor": "Lawmakers",
-    "key_statement": "French lawmakers from across the political spectrum adopted amendments to ensure DRM-protected content remains compatible with third-party players, addressing fears that the initial law would stifle software innovation.",
-    "long_statement": "Representatives from the French National Assembly, spanning the ruling majority, centrist parties, and the opposition, have united to adopt amendments requiring content publishers to provide technical specifications for Digital Rights Management (DRM) systems, thereby ensuring that independent developers and users can create compatible media players. This compromise was reached to address widespread concerns that the initial draft of the copyright law would have effectively banned the creation of free software capable of bypassing digital locks, a restriction that threatened to stifle competition and innovation in the technology sector.",
+    "key_statement": "Lawmakers deem criminalizing millions of citizens for file sharing unwise, adopting a reduced €38 fine instead. They also mandate that DRM content publishers provide technical specifications to anyone wishing to create compatible players.",
+    "long_statement": "Lawmakers deem criminalizing millions of citizens for file sharing unwise, adopting a reduced €38 fine instead. They also mandate that DRM content publishers provide technical specifications to anyone wishing to create compatible players.",
     "segment_range": [
-     17,
-     23
+     22,
+     28
     ],
-    "rouge2_precision": 0.069
+    "rouge2_precision": 0.0625
    },
    {
     "actor": "base_author",
-    "key_statement": "French legislators added an unexpected change to the copyright rules. This move allowed peer-to-peer sharing to count as a private copy. The law makers worried the original rules hurt private copying rights. This decision created a big disagreement with the culture minister.",
-    "long_statement": "As the French copyright lawmaking process continued, legislators expressed deep concern that the proposed legislation would erode existing legal exceptions, specifically the right of individuals to make private copies of copyrighted material for personal use. In response to this backlash, a surprising bipartisan coalition of lawmakers introduced an amendment that would legalize peer-to-peer file sharing as a 'private copy,' a drastic policy reversal that caused significant dismay to the Minister of Culture and highlighted the intense friction between protecting intellectual property and respecting user freedoms.",
+    "key_statement": "Certain American media outlets have criticized the French copyright law changes, arguing they aim at Apple Computer's iTunes and iPod devices. However, it is unclear if these limits will affect firms that do not opt for the new digital rights management special protection.",
+    "long_statement": "Certain American media outlets have criticized the French copyright law changes, arguing they aim at Apple Computer's iTunes and iPod devices. However, it is unclear if these limits will affect firms that do not opt for the specific digital rights management protection granted by the legislation.",
     "segment_range": [
-     24,
-     32
+     29,
+     33
     ],
-    "rouge2_precision": 0.2791
+    "rouge2_precision": 0.1628
+   },
+   {
+    "actor": "Lawmakers",
+    "key_statement": "Legislators voiced worries that the new French copyright rules could damage current legal exemptions, including the allowance for individuals to duplicate protected files for personal purposes.",
+    "long_statement": "Legislators voiced worries that the new French copyright rules could damage current legal exemptions. This includes the allowance for individuals to duplicate protected files for personal purposes, a key part of the existing intellectual property framework.",
+    "segment_range": [
+     34,
+     35
+    ],
+    "rouge2_precision": 0.08
    },
    {
     "actor": "base_author",
-    "key_statement": "The French copyright law evolved from a technical update into a contentious political battle over industry lobbying and constitutional concerns, likely resulting in a rushed legislative review.",
-    "long_statement": "What began as a technical proposal to update French intellectual property laws quickly transformed into a highly polarized political conflict driven by aggressive lobbying from the entertainment industry and serious constitutional challenges. Despite initial attempts by the government to withdraw controversial articles, the National Assembly proceeded to vote on the bill, anticipating a rushed review by the Senate and a likely referral to the Constitutional Council to resolve disputes over the law's legality before the President could sign it into force.",
+    "key_statement": "France's copyright law drafting evolved from a controversial peer-to-peer legalization into a constitutional crisis.",
+    "long_statement": "The legislative process for the new French copyright law has been turbulent, transforming an initial proposal to legalize peer-to-peer file sharing into a constitutional crisis that ultimately forced lawmakers to abandon that specific provision.",
     "segment_range": [
-     33,
-     51
+     36,
+     47
     ],
-    "rouge2_precision": 0.1481
+    "rouge2_precision": 0.125
+   },
+   {
+    "actor": "Lawmakers",
+    "key_statement": "French lawmakers from all political factions criticize the entertainment industry's intense lobbying of the copyright law.",
+    "long_statement": "French legislators from both the governing majority and the opposition have criticized the intense lobbying efforts by the entertainment industry, which they argue has unduly influenced the drafting of the new copyright legislation.",
+    "segment_range": [
+     48,
+     54
+    ],
+    "rouge2_precision": 0.1875
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The urgent French copyright bill will move to the Senate for expedited review and final ratification.",
+    "long_statement": "Once the National Assembly concludes its vote on the disputed French copyright bill, the measure moves to the Senate for additional changes and consent. Since the government marked the text as urgent, the Senate likely will speed up the procedure by referring the bill to a joint commission for alignment prior to a final vote. This could result in a quick ratification by President Chirac.",
+    "segment_range": [
+     55,
+     58
+    ],
+    "rouge2_precision": 0.2667
    }
   ]
  }

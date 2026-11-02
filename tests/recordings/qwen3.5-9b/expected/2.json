@@ -1,9 +1,10 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "The Supreme Court's upcoming ruling in MGM v. Grokster will determine whether software companies can be held legally responsible for copyright infringement by users of peer-to-peer technology, a decision that could either preserve the future of P2P networks or overturn the legal precedent that allowed the VCR market to flourish.",
+  "source_text_main_point": "The Supreme Court's upcoming ruling in MGM v. Grokster will determine whether software companies can be held legally responsible for copyright infringement by users of peer-to-peer technology, a decision that could either affirm the legality of such networks or overturn the precedent set by the 1984 Betamax case, thereby impacting billions in future revenues.",
   "source_text_length_chars": 2715,
-  "source_text_length_segments": 31,
+  "source_text_length_segments": 37,
   "actors": [
    {
     "name": "Pew Internet & American Life Project",
@@ -17,28 +18,65 @@
      "Lawyers from the EFF Foundation",
      "EFF Foundation"
     ]
+   },
+   {
+    "name": "The companies behind this effort",
+    "variations": [
+     "28 entertainment companies",
+     "The companies behind this effort"
+    ]
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "The Supreme Court's imminent ruling in MGM v. Grokster will decide if software makers face liability for user copyright infringement, potentially reshaping digital distribution laws.",
-    "long_statement": "The United States Supreme Court is set to issue a decisive ruling in the upcoming MGM v. Grokster case, a decision that will determine whether software developers can be held legally liable for copyright infringement committed by users of peer-to-peer networks. This judgment carries the potential to either establish a new legal framework for digital content distribution or fundamentally alter the existing precedent that previously protected such technology.",
+    "key_statement": "The Supreme Court is deciding if software makers are liable for user copyright infringement via peer-to-peer networks.",
+    "long_statement": "Twenty-eight entertainment firms filed a lawsuit against the creators of peer-to-peer software, accusing them of enabling copyright infringement. The Supreme Court of the United States recently listened to oral arguments in this landmark MGM v. Grokster case. The core legal issue is whether software developers can be held responsible for illegal file-sharing. The outcome of this dispute might change how digital content is distributed across the nation.",
     "segment_range": [
      0,
-     23
+     29
     ],
-    "rouge2_precision": 0.16
+    "rouge2_precision": 0.2778
    },
    {
     "actor": "base_author",
-    "key_statement": "The MGM v. Grokster ruling will either preserve or overturn the legal precedent that enabled the VCR market, determining the future of peer-to-peer networks.",
-    "long_statement": "The outcome of the pending Supreme Court decision in MGM v. Grokster will serve as a critical juncture, either preserving the legal viability of peer-to-peer networks by upholding the precedent that allowed the home video market to flourish or overturning that historical protection. This ruling effectively determines whether the legal system will adapt to modern digital technologies or restrict the distribution methods that previously revolutionized media consumption.",
+    "key_statement": "Lower courts previously ruled that peer-to-peer software companies could legally market their technology even if users used it to infringe copyrights.",
+    "long_statement": "A legal case is currently being appealed. Earlier rulings by lower courts supported peer-to-peer software firms. These decisions ignored proof that most material on these networks is shared without copyright owner consent.",
     "segment_range": [
-     25,
-     30
+     0,
+     29
     ],
-    "rouge2_precision": 0.24
+    "rouge2_precision": 0.2727
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The upcoming Supreme Court decision will decide the legal status of peer-to-peer software and the liability of its creators.",
+    "long_statement": "This case's ultimate decision will decide if peer-to-peer software is lawful in the United States. It could also make technology innovators legally liable for when their users share copyrighted material without permission.",
+    "segment_range": [
+     0,
+     29
+    ],
+    "rouge2_precision": 0.25
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "A significant majority of Americans support holding file-sharing network operators legally responsible for user piracy.",
+    "long_statement": "Recent survey data reveals that nearly half of the American public believes that companies operating file-sharing networks should be held legally responsible for the music and movie piracy committed by their users, reflecting a strong desire for corporate accountability in the digital age.",
+    "segment_range": [
+     0,
+     29
+    ],
+    "rouge2_precision": 0.2791
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The Supreme Court's upcoming ruling will decide the future legality of P2P networks and impact billions in revenue.",
+    "long_statement": "The upcoming Supreme Court decision in MGM v. Grokster will determine whether the 1984 Betamax precedent, which historically protected technology distributors from liability for user infringement, should be upheld or overturned in the context of modern peer-to-peer networks. This ruling carries the potential to either preserve the current legal framework for digital distribution or fundamentally alter it, thereby deciding the future viability of the industry and impacting billions of dollars in projected revenues.",
+    "segment_range": [
+     31,
+     36
+    ],
+    "rouge2_precision": 0.1111
    }
   ]
  }

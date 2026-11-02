@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-qmeomua1mo4dsaeg6s5zs",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"12\": {\"original\": \"We are taken seriously by most youth leagues and at least one established party.\", \"rephrased\": \"The Pirate Party reports that its message regarding the need for copyright reform is gaining traction, noting that while most youth political leagues and at least one established party in Sweden take them seriously, formal cooperation remains limited to preserve their strategy of holding the balance of power in parliament to influence legislation.\", \"summary\": \"The Pirate Party reports growing political traction among youth leagues and one established party while maintaining a non-binding cooperation strategy to preserve legislative leverage.\"}, \"13\": {\"original\": \"We are now taken seriously by national media, but cannot yet tie cooperation...\", \"rephrased\": \"The Pirate Party acknowledges that its campaign to reform copyright laws has successfully captured the attention of national media, yet it deliberately avoids formalizing partnerships with specific political factions to maintain the strategic leverage required to hold the balance of power in the Swedish parliament and ensure their issues are prioritized by whichever coalition forms the government.\", \"summary\": \"The Pirate Party acknowledges growing media attention but delays formal political alliances to preserve its strategy of holding the balance of power in parliament.\"}, \"14\": {\"original\": \"We strongly safeguard the right to attribution to promote culture, while viewing\", \"rephrased\": \"The Pirate Party argues that the intent of copyright law should be the promotion of culture, which necessitates strongly safeguarding the right to attribution while simultaneously normalizing anonymous publishing and advocating for expanded rights to free sampling and derivative works, thereby challenging the current legal framework that restricts such creative practices.\", \"summary\": \"The Pirate Party argues that copyright law should promote culture by safeguarding attribution rights and expanding protections for free sampling and derivative works.\"}, \"15\": {\"original\": \"In the 50s and 60s, rock and roll covers of classical music created great new\", \"rephrased\": \"The Pirate Party points to the historical example of 1950s and 1960s rock and roll bands covering classical music as evidence that creating new culture often involves violating the integrity of original works, suggesting that current laws restricting such derivative works fail to account for how this practice has historically generated significant cultural value.\", \"summary\": \"The Pirate Party cites historical examples of musical covers to argue that current laws restricting derivative works fail to account for their role in generating new culture.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645196,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 494,
+  "prompt_tokens": 3504,
+  "total_tokens": 3998,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

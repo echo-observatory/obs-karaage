@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-wbgjfl978ondqb7bdlfztd",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"12\": {\"original\": \"DVDRS is not a pirate network\", \"rephrased\": \"The operator of the US-based DVDRS service asserts that the site is not a pirate network, arguing that the label is an insult to its members and contradicts the site's actual function as a community discussion group rather than a file-hosting operation for illegal content.\", \"summary\": \"The DVDRS operator denies being a pirate network, framing the accusation as an insult to its legitimate community-focused service.\"}, \"13\": {\"original\": \"We are a UK citizen hosting in the US, so US laws don't apply\", \"rephrased\": \"The administrator of the US-hosted DVDRS service states that because the site's operator is a UK citizen, United States laws and judicial judgments do not legally apply to the service, though the operator remains willing to comply if proper communication occurs.\", \"summary\": \"The DVDRS administrator argues that US laws do not apply to the service due to the operator's UK citizenship, despite the site's US hosting location.\"}, \"14\": {\"original\": \"We will comply with the MPAA if they communicate\", \"rephrased\": \"The leadership behind the US-based DVDRS service declares that it will instruct its attorneys to seek legal resolution and comply with the Motion Picture Association's demands, but only if the organization first engages in direct communication to retract its false accusations and restore the site's reputation.\", \"summary\": \"The DVDRS leadership commits to complying with the MPAA's demands conditionally, insisting on prior communication and retraction of false claims.\"}, \"15\": {\"original\": \"We hope the MPAA retracts their statement and restores our good name\", \"rephrased\": \"The operators of the US-based DVDRS service express a strong desire for the Motion Picture Association to retract its public statement labeling the site as an organized pirate network, emphasizing that the organization has never contacted them to request the removal of specific files and that the site's primary purpose is community discussion rather than piracy.\", \"summary\": \"The DVDRS operators hope the MPAA retracts its false accusation of piracy, noting the lack of prior legal contact and the site's legitimate community focus.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644988,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 468,
+  "prompt_tokens": 2482,
+  "total_tokens": 2950,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

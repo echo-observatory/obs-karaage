@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-lvbsudea5pm90vjacgdjb",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Australian Federal Court\", \"other\": [\"the court\"], \"segments\": [[0, 4], [5, 6]]}, {\"main\": \"Peter Tonagh\", \"other\": [], \"segments\": [[14, 16]]}, {\"main\": \"Graham Bruke\", \"other\": [], \"segments\": [[17, 20]]}, {\"main\": \"Foxtel\", \"other\": [], \"segments\": [[21, 24]]}, {\"main\": \"Village Roadshow\", \"other\": [], \"segments\": [[21, 24]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793646123,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 134,
+  "prompt_tokens": 804,
+  "total_tokens": 938,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

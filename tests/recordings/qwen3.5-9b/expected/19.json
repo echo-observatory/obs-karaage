@@ -1,11 +1,59 @@
 {
- "step_errors": {
-  "Attribution": "IndexError: list index out of range",
-  "Passages": "skipped",
-  "Key statements extraction": "skipped",
-  "Rephrasing": "skipped",
-  "Paraphrasing": "skipped",
-  "Validation": "skipped"
- },
- "data": {}
+ "step_errors": {},
+ "failures": [],
+ "data": {
+  "source_text_main_point": "Brittany Phelps, administrator of the revived United States Pirate Party, argues that the party must cultivate state-level organizations to survive financially while advocating for government transparency, privacy, and ballot reform to challenge the two-party system.",
+  "source_text_length_chars": 4040,
+  "source_text_length_segments": 97,
+  "actors": [
+   {
+    "name": "Brittany Phelps",
+    "variations": [
+     "administrator of the United States Pirate Party",
+     "I",
+     "We",
+     "she"
+    ]
+   },
+   {
+    "name": "Wikinews reporter Peter Coti",
+    "variations": [
+     "reporter",
+     "interviewer"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "base_author",
+    "key_statement": "The two-party system is an artificial dichotomy that ignores diverse public opinion.",
+    "long_statement": "America's strict two-party setup acts like a fake choice between only two sides. This system labels all citizens as guilty before any court hearing happens. Because of this, it harms a varied country by failing to recognize the many different views people hold.",
+    "segment_range": [
+     44,
+     89
+    ],
+    "rouge2_precision": 0.0
+   },
+   {
+    "actor": "Brittany Phelps",
+    "key_statement": "The USPP administrator identifies as a Centrist based on a political spectrum test.",
+    "long_statement": "Based on a political spectrum test resulting in a 60% to 40% split, the administrator of the revived United States Pirate Party identifies as a Centrist, a self-assessment that aligns with the party's goal of challenging the traditional two-party divide.",
+    "segment_range": [
+     90,
+     96
+    ],
+    "rouge2_precision": 0.0833
+   },
+   {
+    "actor": "Brittany Phelps",
+    "key_statement": "The USPP movement has been relaunched through the creation of a new website.",
+    "long_statement": "To restart the Pirate Party movement in the United States, the party's leadership has just launched a new website, inviting the public to visit and learn more about the organization's efforts to revive the party.",
+    "segment_range": [
+     90,
+     96
+    ],
+    "rouge2_precision": 0.25
+   }
+  ]
+ }
 }

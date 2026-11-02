@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-lfpgmw4p22b45mjfnk08mn",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"Once the National Assembly concludes its vote on the disputed French copyright bill, the measure moves to the Senate for additional changes and consent. Since the government marked the text as urgent, the Senate likely will speed up the procedure by referring the bill to a joint commission for alignment prior to a final vote. This could result in a quick ratification by President Chirac.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645065,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 83,
+  "prompt_tokens": 233,
+  "total_tokens": 316,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

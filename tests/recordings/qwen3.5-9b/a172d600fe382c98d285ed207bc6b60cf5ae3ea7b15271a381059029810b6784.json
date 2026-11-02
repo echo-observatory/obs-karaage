@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-0oydjbjrfbfb30bjujhlhq",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"GitHub\", \"other\": [\"Github\"], \"segments\": [[0, 6], [88, 89]]}, {\"main\": \"youtube-dl\", \"other\": [], \"segments\": [[8, 11], [15, 18], [41, 49], [50, 53], [64, 64], [143, 144]]}, {\"main\": \"RIAA\", \"other\": [\"Recording Industry Association of America\"], \"segments\": [[3, 6], [12, 14], [20, 22], [23, 26], [64, 64], [174, 174]]}, {\"main\": \"Ricardo Garcia\", \"other\": [], \"segments\": [[8, 8]]}, {\"main\": \"YouTube\", \"other\": [], \"segments\": [[33, 34], [38, 39], [130, 131], [132, 132]]}, {\"main\": \"Wikimedia Commons\", \"other\": [\"Wikimedia Commons\"], \"segments\": [[42, 43]]}, {\"main\": \"video2commons\", \"other\": [], \"segments\": [[42, 44]]}, {\"main\": \"LiveLeak\", \"other\": [\"LiveLeak\"], \"segments\": [[9, 9], [45, 46]]}, {\"main\": \"Wikinews\", \"other\": [], \"segments\": [[97, 99], [100, 107], [108, 113], [114, 115], [116, 119]]}, {\"main\": \"Sergey M.\", \"other\": [\"Sergey\"], \"segments\": [[98, 99], [101, 107], [108, 113], [123, 125], [158, 163], [169, 175]]}, {\"main\": \"Philipp Hagemeister\", \"other\": [\"@phihag\", \"Philipp Hagemeister\"], \"segments\": [[109, 113], [117, 119]]}, {\"main\": \"Reddit\", \"other\": [\"reddit\"], \"segments\": [[123, 123]]}, {\"main\": \"YouTube\", \"other\": [], \"segments\": [[126, 135], [137, 139]]}, {\"main\": \"Electronic Frontier Foundation\", \"other\": [\"EFF\"], \"segments\": [[94, 96], [164, 165], [170, 170]]}, {\"main\": \"Richard Stallman\", \"other\": [], \"segments\": [[96, 96]]}, {\"main\": \"RIAA\", \"other\": [\"Recording Industry Association of America\"], \"segments\": [[64, 64], [174, 174]]}, {\"main\": \"DMCA\", \"other\": [\"Digital Millennium Copyright Act\"], \"segments\": [[24, 24]]}, {\"main\": \"17 U.S. Code § 1201\", \"other\": [\"17 U.S. Code § 1201 Circumvention of copyright protection systems\"], \"segments\": [[23, 24]]}, {\"main\": \"Streisand effect\", \"other\": [\"Streisand effect\"], \"segments\": [[80, 81]]}, {\"main\": \"Wikinews\", \"other\": [], \"segments\": [[120, 122]]}, {\"main\": \"YouTube\", \"other\": [], \"segments\": [[126, 135], [137, 139]]}, {\"main\": \"Sergey M.\", \"other\": [\"Sergey\"], \"segments\": [[123, 125], [158, 163]]}, {\"main\": \"Wikinews\", \"other\": [], \"segments\": [[146, 148]]}, {\"main\": \"Sergey M.\", \"other\": [\"Sergey\"], \"segments\": [[149, 154], [158, 163]]}, {\"main\": \"Wikinews\", \"other\": [], \"segments\": [[166, 168]]}, {\"main\": \"Sergey M.\", \"other\": [\"Sergey\"], \"segments\": [[169, 175]]}, {\"main\": \"RIAA\", \"other\": [\"Recording Industry Association of America\"], \"segments\": [[174, 174]]}, {\"main\": \"Sergey M.\", \"other\": [\"Sergey\"], \"segments\": [[176, 177]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793646158,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 1087,
+  "prompt_tokens": 3165,
+  "total_tokens": 4252,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

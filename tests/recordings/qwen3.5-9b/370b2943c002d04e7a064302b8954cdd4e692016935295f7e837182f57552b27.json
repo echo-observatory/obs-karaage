@@ -1,0 +1,6 @@
+{
+ "error": {
+  "type": "BadRequestError",
+  "message": "Error code: 400"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-3hut9f35r460fkg6o1caj5b",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"main_point\": \"Suprnova founder Andrej Preston reveals that after his site was raided in 2004 and he faced police pressure, the matter was eventually dropped, though his failed attempt to launch a decentralized alternative, eXeem, due to adware issues, highlights the legal and technical challenges of peer-to-peer file sharing.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644680,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 72,
+  "prompt_tokens": 1092,
+  "total_tokens": 1164,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

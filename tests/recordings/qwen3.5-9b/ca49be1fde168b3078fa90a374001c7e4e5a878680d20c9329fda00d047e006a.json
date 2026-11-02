@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-qietpg989yrb1uo7ayzavb",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"I invite everyone to visit our website and take a look.\", \"rephrased\": \"The revived United States Pirate Party, led by its administrator, has launched a new digital platform to facilitate public engagement with its mission of restoring political choice through privacy, transparency, and ballot reform. This online presence serves as a primary channel for citizens to learn about the party's efforts to challenge the dominance of the two-party system and to connect with the movement's growing state-level organizations across the nation.\", \"summary\": \"The revived US Pirate Party launched a new website to engage the public in its mission for privacy, transparency, and ballot reform.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645661,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 136,
+  "prompt_tokens": 2183,
+  "total_tokens": 2319,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

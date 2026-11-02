@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-2ejynoyaz3n39o1o6zb55p",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Brittany Phelps\", \"other\": [\"administrator of the United States Pirate Party\", \"I\", \"We\", \"she\"], \"segments\": [[6, 10], [13, 17], [21, 23], [27, 38], [39, 47], [48, 60], [64, 69], [73, 76], [81, 85], [90, 92], [93, 96]]}, {\"main\": \"Wikinews reporter Peter Coti\", \"other\": [\"reporter\", \"interviewer\"], \"segments\": [[0, 2], [3, 5], [11, 12], [18, 20], [24, 26], [61, 63], [70, 72], [77, 80], [86, 88]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645640,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 222,
+  "prompt_tokens": 1685,
+  "total_tokens": 1907,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

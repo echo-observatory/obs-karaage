@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-qg2wz1iap67zuypmerg47",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Seth Schoen\", \"other\": [\"EFF Staff Technologist\"], \"segments\": [[2, 2]]}, {\"main\": \"Annalee Newitz\", \"other\": [\"EFF Media Coordinator\"], \"segments\": [[3, 3]]}, {\"main\": \"Jack Valenti\", \"other\": [\"president of the Motion Picture Association of America\", \"MPAA\"], \"segments\": [[3, 4], [6, 7], [8, 10]]}, {\"main\": \"Sheryl Crow\", \"other\": [\"Recording Artists' Coalition spokesperson\", \"professional singer\"], \"segments\": [[15, 19]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644591,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 144,
+  "prompt_tokens": 850,
+  "total_tokens": 994,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

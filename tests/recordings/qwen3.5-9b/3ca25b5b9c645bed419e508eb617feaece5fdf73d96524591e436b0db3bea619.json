@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-j39s9jkrpcn9ixpk5ftwf",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Danny O'Brien\": [\"EFF fights to keep traditional wiretap laws off the Internet due to 4th Amendment rights and technological impracticality.\", \"EFF is investigating all avenues regarding government surveillance programs to ascertain exactly what they involve.\", \"Logging everything for government surveillance risks making Internet companies tools for invading customer privacy.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644754,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 65,
+  "prompt_tokens": 1383,
+  "total_tokens": 1448,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

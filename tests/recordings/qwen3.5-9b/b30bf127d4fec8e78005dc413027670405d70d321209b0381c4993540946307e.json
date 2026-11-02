@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-uwjqhu876cnvo8r7i2v1o",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"Wikileaks released a secret version of the Anti-Counterfeiting Trade Agreement (ACTA). This release was key to showing the public the deal's disputed rules. The paper showed the pact would make internet service providers hand over user data and might ban CD/DVD players that work across different regions. These points caused strong public resistance to the hidden talks.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793646082,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 81,
+  "prompt_tokens": 233,
+  "total_tokens": 314,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

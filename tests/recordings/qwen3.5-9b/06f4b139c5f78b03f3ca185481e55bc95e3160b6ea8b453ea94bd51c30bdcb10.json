@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-vxnso0ng288hwr0lrro8p",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Mitchell Stoltz\", \"other\": [\"Stoltz\", \"EFF's attorney Stoltz\"], \"segments\": [[3, 3], [16, 23], [24, 26], [52, 52]]}, {\"main\": \"Philipp Hagemeister\", \"other\": [], \"segments\": [[28, 28]]}, {\"main\": \"Wikinews\", \"other\": [], \"segments\": [[29, 29], [94, 94], [106, 106]]}, {\"main\": \"Sergey M\", \"other\": [\"Sergey M\"], \"segments\": [[47, 54], [100, 104]]}, {\"main\": \"Richard Stallman\", \"other\": [\"Stallman\"], \"segments\": [[116, 131], [135, 147], [151, 162], [174, 195], [201, 247]]}, {\"main\": \"GitHub\", \"other\": [\"GitHub\", \"we\"], \"segments\": [[0, 2], [4, 5], [79, 86], [89, 91], [92, 93]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793646445,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 298,
+  "prompt_tokens": 4167,
+  "total_tokens": 4465,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

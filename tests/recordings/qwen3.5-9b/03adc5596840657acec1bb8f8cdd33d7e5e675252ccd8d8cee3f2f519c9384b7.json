@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-p3b6g22nv5tymnvzr8fx9",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"wants to legalize sharing music, movies, and other copyrighted content using the\", \"rephrased\": \"The newly formed Swedish political party advocates for the legalization of sharing music, movies, and other copyrighted material over the Internet, challenging the existing legal framework that currently restricts such digital exchange.\", \"summary\": \"The Swedish Pirate Party advocates legalizing internet sharing of copyrighted content.\"}, \"1\": {\"original\": \"Copyright law in its current form is not sustainable.\", \"rephrased\": \"The leader of the Swedish Pirate Party asserts that the current copyright legislation is fundamentally unsustainable, arguing that the existing legal structure fails to adapt to the realities of the digital age and harms ordinary citizens.\", \"summary\": \"The leader of the Swedish Pirate Party asserts current copyright law is unsustainable.\"}, \"2\": {\"original\": \"argues for drastically limiting copyright scope and enforcement, abolishing\", \"rephrased\": \"The Swedish Pirate Party proposes drastically reducing the scope and enforcement of copyright laws, abolishing patent legislation, and implementing robust privacy protections to counteract what they describe as a pervasive control and surveillance society.\", \"summary\": \"The Swedish Pirate Party proposes limiting copyright and abolishing patents to protect privacy.\"}, \"3\": {\"original\": \"The author reports that the MPAA confirmed the Swedish government shut down\", \"rephrased\": \"The article notes that the Motion Picture Association of America confirmed the Swedish government's decision to shut down the Pirate Bay, a move that has sparked significant public outrage and political debate within Sweden regarding foreign influence on domestic digital policy.\", \"summary\": \"The article notes the MPAA confirmed the Swedish government shut down the Pirate Bay.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645167,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 348,
+  "prompt_tokens": 2342,
+  "total_tokens": 2690,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

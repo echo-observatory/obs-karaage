@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-v5m2zsfkyiv0wmu5hqmm",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"16\": {\"original\": \"Leaning towards new culture over limiting rights, but acknowledging unconsidered\", \"rephrased\": \"The speaker argues that the promotion of new culture should take precedence over strict limitations on intellectual property rights, such as the right to integrity, though they acknowledge that unconsidered cases may exist where this approach is insufficient.\", \"summary\": \"The speaker prioritizes cultural promotion over strict intellectual property limitations while noting potential exceptions.\"}, \"17\": {\"original\": \"Trademark law is adequate as it reduces transaction costs without hidden\", \"rephrased\": \"The speaker asserts that current trademark laws are adequate because they effectively reduce transaction costs in markets where buyers and sellers are not personally acquainted, without imposing hidden costs that outweigh these benefits.\", \"summary\": \"The speaker defends current trademark laws as effective for reducing transaction costs without significant drawbacks.\"}, \"18\": {\"original\": \"Countries need to think more like corporations.\", \"rephrased\": \"The speaker criticizes national governments for failing to act in the public interest, arguing that they need to think more like corporations rather than prioritizing the rights of their own citizens against international treaty obligations.\", \"summary\": \"The speaker criticizes governments for prioritizing corporate interests over citizen rights in intellectual property enforcement.\"}, \"19\": {\"original\": \"Prioritizes avoiding the criminalization of 1.2 million Swedes over paying\", \"rephrased\": \"The speaker argues that it is more important to avoid criminalizing 1.2 million Swedes for file sharing than to comply with international treaties that would require paying penalty fees, even if those fees are less than the cost to society.\", \"summary\": \"The speaker prioritizes protecting citizens from criminalization over complying with international intellectual property treaties.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645207,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 367,
+  "prompt_tokens": 2911,
+  "total_tokens": 3278,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

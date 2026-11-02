@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-gz3214s7auag5v0djnvofe",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"16\": {\"original\": \"Apps tied to specific handouts or buyers are harder to pirate than CDs, offering\", \"rephrased\": \"Because mobile applications are typically locked to specific devices or purchasers, they present a more secure format that is significantly harder to pirate than physical CDs. This technical distinction offers a viable pathway for the music industry to combat widespread digital theft, a critical issue that has long plagued the sector.\", \"summary\": \"Device-specific apps offer a more secure alternative to CDs for reducing music piracy.\"}, \"17\": {\"original\": \"It's premature to predict the death of the album.\", \"rephrased\": \"While the music industry faces a severe decline in album sales, experts caution that it is currently too early to declare the complete demise of the physical album format. Despite the rise of digital alternatives, the existing model retains enough value and utility to remain relevant for the foreseeable future.\", \"summary\": \"Experts argue it is too early to declare the physical album format dead.\"}, \"18\": {\"original\": \"The music industry, after finding a saviour in the iPod, must now search for a\", \"rephrased\": \"Following the historic decline in iPod sales, the music industry must urgently identify a new source of growth, as the device that once revitalized the sector is now failing to do so. However, there is no guarantee that a viable successor to the iPod will ever emerge to replace it as the primary driver of digital music consumption.\", \"summary\": \"The music industry must find a new growth driver after the iPod's decline.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645791,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 327,
+  "prompt_tokens": 2000,
+  "total_tokens": 2327,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

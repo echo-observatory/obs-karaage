@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-dkqloaivk7he4dsq8qiy0e",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"The closure was triggered by news of admin arrests and received legal warnings.\", \"rephrased\": \"The operator of the Slovenian-based SuprNova.org link site decided to voluntarily shut down the site's file-sharing section after learning that administrators of other prominent peer-to-peer networks had been arrested and after receiving formal legal warnings from copyright enforcement groups.\", \"summary\": \"The SuprNova.org operator voluntarily closed the site following peer-to-peer admin arrests and legal warnings.\"}, \"5\": {\"original\": \"SuprNova.org claims it will stop hosting BitTorrent links, though its forums and\", \"rephrased\": \"The operator of the Slovenian-based SuprNova.org link site asserts that the platform will cease distributing BitTorrent files, even though the site's discussion forums and IRC chat network will continue to remain accessible to users.\", \"summary\": \"The SuprNova.org operator plans to stop hosting BitTorrent links while keeping forums online.\"}, \"6\": {\"original\": \"Police raids and voluntary closures are dismantling major link sites, proving\", \"rephrased\": \"Coordinated police raids across multiple European nations and voluntary shutdowns by operators are systematically dismantling major peer-to-peer link sites, effectively demonstrating that hosting such services is illegal and exposing site administrators to criminal prosecution, thereby refuting the industry's long-held belief in legal loopholes.\", \"summary\": \"Police raids and voluntary closures are dismantling major link sites, proving hosting is illegal.\"}, \"7\": {\"original\": \"taken credit for the closure of FinReactor\", \"rephrased\": \"The Motion Picture Association of America, a trade association representing major American movie studios, has publicly claimed responsibility for the decision by Finnish authorities to raid and shut down the FinReactor link site, although Finnish investigators have officially denied any direct contact or involvement from the American group.\", \"summary\": \"The MPAA claims credit for the closure of the Finnish link site FinReactor.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644530,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 407,
+  "prompt_tokens": 2815,
+  "total_tokens": 3222,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

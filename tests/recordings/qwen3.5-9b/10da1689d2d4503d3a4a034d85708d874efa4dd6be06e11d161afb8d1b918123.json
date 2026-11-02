@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-3bkup9zz2rnvl3fb2ka9e",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"called people who pirate copyrighted material 'leeches and thieves' and compared\", \"rephrased\": \"The Australian copyright industry, represented by rights holders such as Foxtel and Village Roadshow, frames digital piracy as a severe criminal offense comparable to drug trafficking. Under the new legislation that mandates blocking of infringing sites, this perspective leads to a moral condemnation of users, who are described as 'leeches and thieves' rather than being viewed as consumers of unauthorized content.\", \"summary\": \"Australian copyright holders frame digital piracy as a criminal act comparable to drug trafficking.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793646147,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 126,
+  "prompt_tokens": 1644,
+  "total_tokens": 1770,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

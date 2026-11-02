@@ -1,15 +1,16 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "The U.S. Supreme Court ruled that companies intentionally designed to facilitate copyright infringement are liable for users' illegal acts, a decision that sends a strong message against such businesses despite concerns from advocates about unclear legal standards.",
+  "source_text_main_point": "The U.S. Supreme Court ruled that companies intentionally designed to facilitate copyright infringement are liable for users' violations, a strong but legally vague decision that could stifle innovation while offering hope for defendants in lower courts.",
   "source_text_length_chars": 1707,
-  "source_text_length_segments": 20,
+  "source_text_length_segments": 27,
   "actors": [
    {
-    "name": "Metro-Goldwyn-Mayer Studios Inc. et al.",
+    "name": "U.S. Supreme Court",
     "variations": [
-     "MGM Studios",
-     "plaintiffs"
+     "the court",
+     "the Justices"
     ]
    },
    {
@@ -20,32 +21,49 @@
     ]
    },
    {
+    "name": "David Souter",
+    "variations": [
+     "Justice David Souter"
+    ]
+   },
+   {
     "name": "Fred von Lohmann",
     "variations": [
-     "Lohmann"
+     "Lohmann",
+     "senior staff attorney for the EFF"
     ]
    }
   ],
   "statements": [
    {
-    "actor": "base_author",
-    "key_statement": "A decision by the U.S. Supreme Court established that file-sharing networks created on purpose for exchanging files are responsible when users break copyright rules.",
-    "long_statement": "The U.S. Supreme Court has established that internet companies intentionally designed to promote copyright violations must be held legally responsible for the resulting illegal acts of their users, a unanimous ruling that signals a strong intolerance for businesses whose primary purpose is to facilitate infringement, even if those same tools have lawful applications.",
+    "actor": "David Souter",
+    "key_statement": "Justice David Souter stated that companies selling tools designed to break copyright laws face responsibility for illegal acts by others, even if those tools can be used legally.",
+    "long_statement": "Justice David Souter, writing for the U.S. Supreme Court, clarified that any individual or entity distributing a device with the specific intent to promote its use for copyright infringement, demonstrated through clear statements or affirmative actions taken to foster such violations, is legally liable for the resulting infringing acts committed by third parties, regardless of whether the device has other lawful applications.",
     "segment_range": [
-     0,
-     14
+     9,
+     12
     ],
-    "rouge2_precision": 0.24
+    "rouge2_precision": 0.2581
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The U.S. Supreme Court issued a unanimous ruling against companies designed to facilitate copyright infringement, signaling zero tolerance for such business models.",
+    "long_statement": "The U.S. Supreme Court issued a unanimous and unexpected decision declaring that companies specifically created to facilitate copyright infringement must be held accountable, sending a powerful message of zero tolerance for such business models and signaling a significant shift in how the highest court views the legal boundaries of internet technologies.",
+    "segment_range": [
+     13,
+     16
+    ],
+    "rouge2_precision": 0.1818
    },
    {
     "actor": "Fred von Lohmann",
-    "key_statement": "Fred von Lohmann criticized the Supreme Court for lacking a clear legal test for copyright inducement, fearing it would stifle innovation.",
-    "long_statement": "Fred von Lohmann, a senior staff attorney for the Electronic Frontier Foundation, criticized the U.S. Supreme Court for failing to provide a clear legal standard for determining when a company induces copyright infringement, arguing that this ambiguity could discourage innovators who are unsure whether their new internet projects might inadvertently violate the law.",
+    "key_statement": "Fred von Lohmann of the Electronic Frontier Foundation criticized the U.S. Supreme Court for lacking a clear inducement test, arguing it could discourage innovators.",
+    "long_statement": "Fred von Lohmann, a senior staff attorney for the Electronic Frontier Foundation, criticized the U.S. Supreme Court for failing to establish a clear legal test for inducement, warning that this ambiguity could discourage innovators who are unsure whether their new projects comply with the law, even as he remains cautiously optimistic about the specific defendants' chances in lower courts.",
     "segment_range": [
-     15,
-     19
+     22,
+     26
     ],
-    "rouge2_precision": 0.3
+    "rouge2_precision": 0.2203
    }
   ]
  }
