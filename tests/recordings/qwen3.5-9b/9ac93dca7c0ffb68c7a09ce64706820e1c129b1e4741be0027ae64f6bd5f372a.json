@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-l61e5b10qulpg6z2oxxf",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"8\": {\"original\": \"We will never be able to pay for television ads unless a very wealthy donor come\", \"rephrased\": \"The Swedish Pirate Party acknowledges that its current funding model cannot support expensive television advertising campaigns, noting that financial viability depends entirely on securing a single, very wealthy individual donor before the upcoming elections, a strategy that currently excludes any paid media spots.\", \"summary\": \"The Swedish Pirate Party's campaign relies on wealthy individual donations rather than paid television ads due to budget constraints.\"}, \"9\": {\"original\": \"Pirate Party lacks momentum abroad; we expect success only after entering Swed\", \"rephrased\": \"While the movement is gaining traction, the Swedish Pirate Party observes that similar initiatives in other nations have failed to achieve the necessary public momentum and critical mass, leading them to expect that their primary political breakthrough will occur only after they secure a seat within the Swedish Parliament to demonstrate the feasibility of their agenda.\", \"summary\": \"The Swedish Pirate Party expects its political success to depend on entering the Swedish Parliament, as similar movements abroad have yet to gain sufficient momentum.\"}, \"10\": {\"original\": \"Current copyright laws criminalize 20% of voters, making the law broken rath\", \"rephrased\": \"The Swedish Pirate Party argues that the fundamental problem with the current legal system is that it criminalizes the behavior of approximately 20% of the electorate, asserting that the law itself is broken rather than the citizens, and that the established political narrative incorrectly blames voters for this systemic failure.\", \"summary\": \"The Swedish Pirate Party contends that current copyright laws are broken because they criminalize the behavior of a significant portion of the voting population.\"}, \"11\": {\"original\": \"The Pirate Party redefines 'piracy' as a positive concept, crediting the Pira\", \"rephrased\": \"The Swedish Pirate Party actively reclaims the term 'piracy' as a positive identity, crediting the non-governmental Pirate Bureau with educating the public since 2003 to shift the narrative away from shame, while noting that the term is less stigmatizing in Sweden than in other countries.\", \"summary\": \"The Swedish Pirate Party reclaims the term 'piracy' as a positive identity through public education efforts, countering negative media narratives.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650897,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 476,
+  "prompt_tokens": 2919,
+  "total_tokens": 3395,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

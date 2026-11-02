@@ -14,80 +14,60 @@
      "members of Anonymous",
      "YourAnonNews",
      "Another member of Anonymous"
-    ]
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Universal Music Group",
     "variations": [
      "Universal Music",
-     "Universal Music Group"
-    ]
+     "www.universalmusic.com"
+    ],
+    "kind": "organisation"
    },
    {
-    "name": "Authorities",
-    "variations": []
+    "name": "Recording Industry Association of America",
+    "variations": [
+     "RIAA"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Federal Bureau of Investigation",
+    "variations": [
+     "FBI",
+     "www.fbi.gov"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "United States Department of Justice",
+    "variations": [
+     "US Justice Department",
+     "www.justice.gov",
+     "The government"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Megaupload",
+    "variations": [
+     "file-sharing website Megaupload",
+     "the website"
+    ],
+    "kind": null
    }
   ],
   "statements": [
    {
-    "actor": "Anonymous",
-    "key_statement": "Members of the activist group Anonymous claimed responsibility for the cyberattacks, framing them as retaliation for the FBI's Megaupload shutdown and a protest against anti-piracy laws.",
-    "long_statement": "The members of the online activist group Anonymous publicly claimed responsibility for the cyberattacks, explicitly framing the operation as a retaliatory response to the Federal Bureau of Investigation's seizure of the file-sharing website Megaupload and a protest against the proposed United States anti-piracy laws. By characterizing the event as a direct consequence of these government actions, the group positioned the disruption of federal and industry websites as a justified act of digital resistance against what they perceived as excessive enforcement and copyright overreach.",
-    "segment_range": [
-     8,
-     19
-    ],
-    "rouge2_precision": 0.2222
-   },
-   {
-    "actor": "Anonymous",
-    "key_statement": "The activist group Anonymous characterized the cyberattack as their largest ever operation, involving over 5,600 participants in a coordinated effort to disrupt government and industry websites.",
-    "long_statement": "The online activist group Anonymous characterized the coordinated cyberattack against the US Justice Department, FBI, and major record labels as the largest operation in the group's history, citing participation from over 5,600 individuals. This framing emphasizes the unprecedented scale of the digital disruption, suggesting that the collective mobilization of thousands of participants significantly amplified the impact of the protest against the government's actions regarding the file-sharing site Megaupload and the proposed anti-piracy legislation.",
-    "segment_range": [
-     8,
-     19
-    ],
-    "rouge2_precision": 0.1558
-   },
-   {
-    "actor": "Anonymous",
-    "key_statement": "A member of the activist group Anonymous signaled that further cyberattacks are planned, indicating a continued campaign of digital resistance against the US government and entertainment industry.",
-    "long_statement": "A representative of the online activist group Anonymous stated that the group expects to launch further cyberattacks, signaling a continuation of the digital resistance against the United States government and the entertainment industry. This declaration implies that the initial coordinated disruption of the Justice Department, FBI, and record label websites was merely the first phase of a broader, ongoing campaign intended to challenge the enforcement of anti-piracy laws and the shutdown of the Megaupload file-sharing platform.",
-    "segment_range": [
-     8,
-     19
-    ],
-    "rouge2_precision": 0.0909
-   },
-   {
     "actor": "base_author",
-    "key_statement": "Authorities report the FBI's seizure of the high-traffic Megaupload site led to seven arrests on serious federal charges.",
-    "long_statement": "The file-sharing platform Megaupload, which drew over 50 million daily visitors, was seized by the Federal Bureau of Investigation and subsequently shut down on Thursday, resulting in the arrest and indictment of seven individuals on charges ranging from copyright infringement to racketeering and conspiracy to commit money laundering.",
+    "key_statement": "The FBI seized the Megaupload website and arrested its operators for copyright infringement and money laundering.",
+    "long_statement": "On Thursday, the Federal Bureau of Investigation executed the seizure and shutdown of the Megaupload website, resulting in the arrest of the site's founder and six other individuals on charges including copyright infringement, racketeering, and conspiracy to commit money laundering. Authorities stated that these legal actions were necessary to dismantle an operation that had cost the entertainment industry hundreds of millions of dollars in damages through unauthorized distribution of copyrighted material.",
     "segment_range": [
-     20,
-     25
+     22,
+     26
     ],
-    "rouge2_precision": 0.2708
-   },
-   {
-    "actor": "Authorities",
-    "key_statement": "Authorities assert that the shut-down site allowed users to download vast quantities of copyrighted content illegally.",
-    "long_statement": "Megaupload, a file-sharing site that was taken down, allowed people to get movies, music, TV shows, e-books, and business software without permission in huge amounts. This made it easy for many people to access copyrighted stuff illegally.",
-    "segment_range": [
-     26,
-     30
-    ],
-    "rouge2_precision": 0.0625
-   },
-   {
-    "actor": "Authorities",
-    "key_statement": "Authorities claim the site caused the entertainment industry over half a billion dollars in damages through copyright infringement.",
-    "long_statement": "According to law enforcement, the operations of the Megaupload website inflicted financial damages well in excess of US$500 million on copyright-holders within the entertainment industry by enabling the mass distribution of pirated media.",
-    "segment_range": [
-     26,
-     30
-    ],
-    "rouge2_precision": 0.2353
+    "rouge2_precision": 0.2667
    }
   ]
  }

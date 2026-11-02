@@ -11,57 +11,67 @@
     "name": "Mathew Gilliat-Smith",
     "variations": [
      "CEO of First 4 Internet"
-    ]
+    ],
+    "kind": "person"
    },
    {
-    "name": "Sony BMG Music Entertainment Vice President",
-    "variations": []
+    "name": "Sony BMG Music Entertainment",
+    "variations": [
+     "Sony"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Mark Russinovich",
+    "variations": [],
+    "kind": "person"
    },
    {
     "name": "Thomas Hesse",
-    "variations": []
+    "variations": [],
+    "kind": "person"
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "Three states are suing Sony BMG over dangerous DRM software that compromises security.",
-    "long_statement": "Three states are suing Sony BMG over digital rights management software that secretly installs a dangerous rootkit, compromising computer security and violating consumer protection laws. This legal action highlights the severe risks posed by the technology to users and the public interest.",
+    "key_statement": "Three states are suing Sony BMG over dangerous DRM software that compromises computer security and violates consumer laws.",
+    "long_statement": "California, Italy, and New York have initiated legal action against Sony BMG, alleging that the company's digital rights management software contains a hidden rootkit. This malicious code automatically installs on users' computers, creating security vulnerabilities and violating consumer protection laws, which the states argue justifies their lawsuit for damages and injunctions.",
     "segment_range": [
      0,
      13
     ],
-    "rouge2_precision": 0.1667
+    "rouge2_precision": 0.2549
    },
    {
-    "actor": "Sony BMG Music Entertainment Vice President",
-    "key_statement": "A Sony executive argues that the public's lack of knowledge about rootkits means they should not worry about the security risks.",
-    "long_statement": "A Sony BMG Music Entertainment Vice President argues that the general public lacks sufficient knowledge about rootkits, implying that widespread consumer awareness is a prerequisite for demanding accountability regarding the security risks posed by the software.",
+    "actor": "Sony BMG Music Entertainment",
+    "key_statement": "A Sony BMG executive minimizes the security risk of rootkits by claiming most consumers do not understand what they are.",
+    "long_statement": "A senior executive at Sony BMG Music Entertainment argues that the general public lacks sufficient knowledge about rootkits, suggesting that this widespread ignorance renders the security risks posed by the hidden software irrelevant to most consumers. This perspective minimizes the urgency of the threat, even as the company releases patches to address the issue.",
     "segment_range": [
      14,
      15
     ],
-    "rouge2_precision": 0.1714
+    "rouge2_precision": 0.1053
    },
    {
     "actor": "base_author",
-    "key_statement": "Sony's fix requires a dangerous ActiveX app, and the DRM software secretly tracks users.",
-    "long_statement": "Security professionals warn against the ActiveX application included in Sony BMG's remedial uninstall kits because it runs with high execution privileges. Additionally, the digital rights management software hides the rootkit from the license agreement and secretly monitors users, making the original security breach worse.",
+    "key_statement": "Sony's DRM software secretly monitors CD usage in a way hidden from the license agreement and users.",
+    "long_statement": "Sony's digital rights management software secretly transmits data to the company's servers every time a CD is played, a behavior that is explicitly concealed from the license agreement and the rootkit itself. This hidden surveillance capability raises significant concerns among media rights activists and artists regarding privacy and consent, as users are unaware that their usage patterns are being monitored without their knowledge.",
     "segment_range": [
-     16,
+     18,
      26
     ],
-    "rouge2_precision": 0.2143
+    "rouge2_precision": 0.2941
    },
    {
     "actor": "Thomas Hesse",
-    "key_statement": "Sony BMG aims to copy protect 100% of its US CDs by early 2006.",
-    "long_statement": "Thomas Hesse, who works for Sony BMG, says that copy protection is on 60 percent of music CDs in the US right now. The company wants to reach 100 percent coverage of all releases by the start of 2006.",
+    "key_statement": "Sony BMG plans to fully implement copy protection on all US music CDs by early 2006.",
+    "long_statement": "Thomas Hesse, a representative for Sony BMG, states that approximately sixty percent of music compact discs distributed in the United States currently utilize digital rights management software to restrict copying, and the company intends to expand this coverage to include every single disc released in the market by the beginning of 2006. This aggressive expansion of proprietary control measures represents a significant escalation in the industry's approach to protecting intellectual property, even as legal challenges regarding the security risks of the underlying technology intensify.",
     "segment_range": [
      27,
      28
     ],
-    "rouge2_precision": 0.2308
+    "rouge2_precision": 0.2667
    }
   ]
  }

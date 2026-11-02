@@ -11,100 +11,111 @@
     "name": "Anonymous",
     "variations": [
      "the loosely defined online activist group",
+     "Operation Baylout",
      "the group",
      "Anon",
+     "this group",
      "this assertion",
-     "this group"
-    ]
+     "this moralfag personal army"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Wikinews",
-    "variations": []
+    "variations": [],
+    "kind": "organisation"
    },
    {
-    "name": "Monique Wadsted",
+    "name": "International Federation of the Phonographic Industry",
     "variations": [
-     "prosecuting attorney"
-    ]
+     "IFPI",
+     "this trade body",
+     "this trade group"
+    ],
+    "kind": "organisation"
    },
    {
-    "name": "Andrew Norton",
+    "name": "MPAA",
     "variations": [
-     "Pirate Party International"
-    ]
+     "the MPAA's anti-piracy office"
+    ],
+    "kind": "organisation"
    },
    {
-    "name": "888chan.org",
+    "name": "Pirate Party International",
     "variations": [
-     "a message board",
-     "where the Baylout raids originated"
-    ]
+     "local pirate parties"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Dmitriy Guzner",
-    "variations": []
+    "variations": [
+     "aged 18"
+    ],
+    "kind": "person"
    }
   ],
   "statements": [
    {
-    "actor": "Andrew Norton",
-    "key_statement": "Andrew Norton, representing Pirate Party International, states that the attacks result from an incorrect emphasis on making money. He recommends supporting local pirate parties to achieve permanent transformation.",
-    "long_statement": "Andrew Norton of Pirate Party International rejects the recent cyber-attacks against the International Federation of the Phonographic Industry, arguing that such actions stem from a misplaced focus on short-term profits rather than long-term industry growth. He contends that while the attacks demonstrate opposition to the trade body's current decisions, they fail to address the root cause of the conflict and will not yield lasting results. Instead, he urges supporters to back local pirate parties, which can provide a government resistant to lobbying efforts and deliver sustainable legislative change.",
+    "actor": "base_author",
+    "key_statement": "A coordinated cyber-attack forced the law firm MAQS to shut down its website and disrupted the MPAA's fax lines.",
+    "long_statement": "The law firm MAQS, which works with the prosecution in the Pirate Bay case, was forced to shut down its website after a coordinated cyber-attack, while protesters simultaneously jammed the fax lines of the MPAA and prosecuting attorney Monique Wadsted.",
     "segment_range": [
-     12,
-     22
+     5,
+     14
     ],
-    "rouge2_precision": 0.2222
+    "rouge2_precision": 0.225
    },
    {
     "actor": "base_author",
-    "key_statement": "The IFPI website was hit by a DDOS attack. This attack came from casual users who did it for fun, not because they were real activists.",
-    "long_statement": "A distributed denial of service raid targeted the International Federation of the Phonographic Industry's website. The attack was carried out by between 700 and 1,000 casual users, not dedicated computer experts. Their main motivation was 'lulz' or cheap entertainment, not genuine activism. These participants used rudimentary programs coordinated through 4chan spinoffs and IRC channels. They relied on the technical skills of others to disrupt the target's digital infrastructure.",
+    "key_statement": "Supporting local pirate parties offers lasting political change against industry lobbying.",
+    "long_statement": "While the decentralized 'Operation Baylout' campaign disrupts websites of entities prosecuting The Pirate Bay, the author argues that supporting local pirate parties offers a more effective solution by creating a government resistant to lobbying from the International Federation of the Phonographic Industry, ensuring lasting results rather than temporary disruption.",
     "segment_range": [
-     23,
-     49
+     17,
+     39
     ],
-    "rouge2_precision": 0.1857
-   },
-   {
-    "actor": "888chan.org",
-    "key_statement": "888chan.org asserts Project Chanology is a fake moral crusade designed to trick participants into a grand troll.",
-    "long_statement": "The online message board 888chan.org asserts that Project Chanology is a fabricated moral crusade designed to trick participants. According to this perspective, the group's true motive is not to destroy an evil cult but to generate 'lulz' by personalizing a grand troll, thereby manipulating thousands of people into attacking an enemy they do not truly understand and taking themselves far too seriously.",
-    "segment_range": [
-     50,
-     69
-    ],
-    "rouge2_precision": 0.127
+    "rouge2_precision": 0.2
    },
    {
     "actor": "base_author",
-    "key_statement": "The author suggests the claim of a planned raid against the IFPI may be a bluff despite a history of coordinated attacks.",
-    "long_statement": "Legal actions taken against The Pirate Bay have led to frequent coordinated assaults targeting Swedish government and media industry sites. Yet, the assertion that a group intends to raid the IFPI's Swedish website may be a deception, not an actual operational pledge.",
+    "key_statement": "Participants in online causes are often unknowingly manipulated by trolls for entertainment.",
+    "long_statement": "The author explains that individuals often participate in a perceived cause unknowingly because they are being manipulated by trolls seeking entertainment, a dynamic that undermines the authenticity of the movement's stated goals.",
+    "segment_range": [
+     60,
+     66
+    ],
+    "rouge2_precision": 0.0625
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Skepticism regarding the existence of a unified Anonymous campaign due to the prevalence of independent retaliatory attacks.",
+    "long_statement": "The assertion that a decentralized group known as Anonymous launched a specific, coordinated campaign called 'Operation Baylout' to disrupt websites of entities prosecuting The Pirate Bay should be treated with skepticism, given that similar retaliatory cyber-attacks against Swedish government and media industry sites have become a common occurrence following legal actions against the organization. While the timing and targets align with the narrative of a unified operation, the frequency of these independent retaliations suggests the alleged master plan may be a fabrication designed to amplify the perceived scale of the conflict.",
     "segment_range": [
      70,
-     79
+     74
     ],
-    "rouge2_precision": 0.2857
+    "rouge2_precision": 0.1319
    },
    {
-    "actor": "base_author",
-    "key_statement": "Coordinated cyber-attacks have become a common retaliation method against entities prosecuting The Pirate Bay.",
-    "long_statement": "Organized cyber-attacks aimed at Swedish government and media industry websites have become a standard method of retaliation against groups suing The Pirate Bay. This shows a clear pattern of coordinated disruption used to oppose copyright enforcement actions.",
+    "actor": "Anonymous",
+    "key_statement": "Anonymous plans a targeted cyber-raid against the IFPI's Swedish website as part of an ongoing digital conflict.",
+    "long_statement": "The collective known as Anonymous intends to execute a cyber-attack against the International Federation of the Phonogram's Swedish website at 12:00 GMT on April 26, continuing a pattern of disrupting digital infrastructure belonging to organizations that have pursued legal action against The Pirate Bay. This planned operation represents a direct escalation of the ongoing digital conflict, targeting the intellectual property rights industry in Sweden specifically.",
     "segment_range": [
-     70,
+     75,
      79
     ],
-    "rouge2_precision": 0.2432
+    "rouge2_precision": 0.2778
    },
    {
-    "actor": "base_author",
-    "key_statement": "The Church of Scientology was targeted in a past incident for which a specific group took credit. That same group is now being blamed for the recent attacks.",
-    "long_statement": "A single decentralized group is responsible for multiple past cyber-attacks. This group admitted to taking down the Church of Scientology's website on January 20, 2008. That specific attack led to an arrest.",
+    "actor": "Anonymous",
+    "key_statement": "In January 2008, an unidentified group took credit for a successful cyber-attack that hit the Church of Scientology's website.",
+    "long_statement": "On January 20, 2008, the collective known as Anonymous officially claimed responsibility for a distributed denial-of-service attack that successfully disabled the Church of Scientology's website, marking a significant escalation in their campaign against religious institutions that had opposed internet piracy. This admission of guilt by the group itself serves as concrete evidence of their capacity to organize and execute large-scale cyber-operations against specific targets.",
     "segment_range": [
-     70,
+     75,
      79
     ],
-    "rouge2_precision": 0.2727
+    "rouge2_precision": 0.25
    }
   ]
  }

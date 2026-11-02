@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-qsb4mt0cidpo1c7fqoia5o",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"Joost's deals with Warner Brothers, Time Warner, and Sony Pictures Television\", \"rephrased\": \"The startup Joost has secured distribution agreements with major studios, including Warner Brothers, Time Warner, and Sony Pictures Television, to establish itself as a primary aggregator for free, on-demand online television content. This strategic partnership allows the service to balance the entertainment industry's need for content control with consumer demands for flexibility, despite the service currently offering lower-quality programming than traditional cable or satellite providers.\", \"summary\": \"Joost secures major studio deals to balance industry control with consumer flexibility in free online TV.\"}, \"1\": {\"original\": \"Users can interact with programming via widgets like clocks, IM, and chat rooms\", \"rephrased\": \"Viewers of the online television service can enhance their experience by interacting with the programming through integrated widgets such as clocks, instant messaging, news feeds, and chat rooms, which can be customized or disabled by the user during viewing sessions.\", \"summary\": \"Users can customize their online TV experience by interacting with programming via optional widgets.\"}, \"2\": {\"original\": \"Online broadband peer-to-peer connectivity is here to stay after a nasty birth.\", \"rephrased\": \"Despite initial legal challenges and a difficult early adoption phase, online broadband peer-to-peer connectivity represents a permanent shift in media distribution that will remain the standard for delivering content to consumers with high-speed internet access.\", \"summary\": \"Broadband peer-to-peer connectivity is an irreversible evolution in media distribution despite early struggles.\"}, \"3\": {\"original\": \"We've married that consumer desire with the industry's interests.\", \"rephrased\": \"The leadership of the startup Joost asserts that the service successfully reconciles the consumer demand for flexible, on-demand viewing with the entertainment industry's requirement to retain control over its intellectual property, creating a viable middle ground for digital television distribution.\", \"summary\": \"Joost leadership claims to successfully balance consumer flexibility with industry content control.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650988,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 412,
+  "prompt_tokens": 2406,
+  "total_tokens": 2818,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

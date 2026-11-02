@@ -10,71 +10,59 @@
    {
     "name": "The Stockholm district court",
     "variations": [
-     "The court",
+     "the court",
      "Stockholm district court"
-    ]
+    ],
+    "kind": "organisation"
    },
    {
-    "name": "TPB",
+    "name": "Carl Lundström",
+    "variations": [],
+    "kind": "person"
+   },
+   {
+    "name": "A spokesman for TPB",
     "variations": [
-     "The Pirate Bay"
-    ]
+     "the spokesman"
+    ],
+    "kind": "person"
    },
    {
     "name": "Investigators",
-    "variations": []
+    "variations": [],
+    "kind": "person"
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "A Swedish court sentenced four TPB administrators to prison for copyright infringement.",
-    "long_statement": "The Stockholm district court issued a verdict sentencing four administrators of the file-sharing website The Pirate Bay to a minimum of one year in prison. This punishment was given because they acted as accessories to copyright infringement. The decision sets a legal precedent for holding digital platforms responsible.",
+    "key_statement": "A Swedish court sentenced four The Pirate Bay administrators to prison and damages for copyright infringement.",
+    "long_statement": "A Swedish judge ordered four people who managed The Pirate Bay to go to jail and pay money for breaking copyright laws. This ruling proves that the site's operators are legally responsible.",
     "segment_range": [
      0,
      4
     ],
-    "rouge2_precision": 0.2917
+    "rouge2_precision": 0.2667
    },
    {
-    "actor": "TPB",
-    "key_statement": "TPB operators dismiss the court verdict as a media stunt.",
-    "long_statement": "The operators of The Pirate Bay characterize the recent Swedish court verdict as a media stunt designed to generate headlines, arguing that the trial serves no practical purpose beyond entertainment value for the press.",
+    "actor": "The Stockholm district court",
+    "key_statement": "A Stockholm district court handed down one-year prison terms to four people for violating copyright rules.",
+    "long_statement": "The Stockholm district court ruled that four people are guilty of helping to break copyright rules. It sentenced each person to one year in jail. This decision shows that the legal system will punish the people who run the website for violating intellectual property laws.",
     "segment_range": [
      5,
-     20
+     8
     ],
-    "rouge2_precision": 0.1111
-   },
-   {
-    "actor": "TPB",
-    "key_statement": "TPB claims the verdict will not affect the site or file sharing.",
-    "long_statement": "The leadership of The Pirate Bay asserts that the legal judgment against them will have no tangible impact on the site's operations, their personal freedom, or the future of peer-to-peer file sharing technology.",
-    "segment_range": [
-     5,
-     20
-    ],
-    "rouge2_precision": 0.2727
-   },
-   {
-    "actor": "TPB",
-    "key_statement": "TPB refuses and cannot pay the court-ordered damages.",
-    "long_statement": "The administrators of The Pirate Bay maintain that they lack the financial capacity and refuse the moral obligation to pay the multi-million dollar damages ordered by the Swedish court, intending to challenge the financial penalty through an appeal.",
-    "segment_range": [
-     5,
-     20
-    ],
-    "rouge2_precision": 0.25
+    "rouge2_precision": 0.1875
    },
    {
     "actor": "base_author",
-    "key_statement": "Major studios provided evidence of 33 infringed works during a two-week trial that ended on March 2.",
-    "long_statement": "The legal proceedings against the administrators of The Pirate Bay, a major file-sharing platform, concluded on March 2 after two weeks of testimony provided by representatives of major music and film studios such as Sony Music Entertainment, Warner Bros., and Columbia Pictures. During this trial, investigators successfully tracked and documented at least 33 specific copyrighted films and songs hosted on the site, establishing the concrete evidence base upon which the subsequent criminal convictions and financial penalties were built.",
+    "key_statement": "The Pirate Bay operators dismissed the prison verdict as a media stunt and refused to pay fines.",
+    "long_statement": "Although a Swedish court sentenced four administrators to prison, the operators of The Pirate Bay dismiss the verdict as a media stunt and refuse to pay the imposed fines, asserting that file-sharing operations will continue unaffected.",
     "segment_range": [
-     21,
+     9,
      24
     ],
-    "rouge2_precision": 0.1923
+    "rouge2_precision": 0.1111
    }
   ]
  }

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-9mzuk1s1dy48qwludn7o73",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"Moore faces a federal investigation for filming a segment in Cuba, where he 对比s \", \"rephrased\": \"Michael Moore is currently under federal investigation by the U.S. Department of the Treasury's Office of Foreign Assets Control for violating the long-standing embargo against Cuba while filming a segment of his upcoming documentary, SiCKO, which critiques the American healthcare system by comparing it to other nations.\", \"summary\": \"Michael Moore faces a federal investigation for filming a segment in Cuba while critiquing the U.S. healthcare system.\"}, \"1\": {\"original\": \"Moore's film features 9/11 volunteers denied U.S. aid but treated for free in Cu\", \"rephrased\": \"The upcoming documentary SiCKO highlights a stark contrast in healthcare access by documenting how volunteer workers who were denied aid from U.S. funds after the September 11 attacks received free treatment in Cuba, where basic medications like inhalers cost a fraction of the price compared to the United States.\", \"summary\": \"The documentary SiCKO highlights how 9/11 volunteers denied U.S. aid received free treatment in Cuba.\"}, \"2\": {\"original\": \"We need a uniquely American solution in which the public and private sectors\", \"rephrased\": \"Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must pursue a uniquely American solution where public and private sectors collaborate to ensure everyone has high-quality, affordable healthcare, rejecting calls for a foreign-style system.\", \"summary\": \"Health insurance companies advocate for a uniquely American public-private healthcare solution.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651036,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 340,
+  "prompt_tokens": 2099,
+  "total_tokens": 2439,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

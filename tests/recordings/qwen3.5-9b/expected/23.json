@@ -10,161 +10,91 @@
    {
     "name": "Wikipedia",
     "variations": [
-     "Wikipedia page",
-     "Wikipedians"
-    ]
+     "online encyclopedia",
+     "page"
+    ],
+    "kind": "organisation"
    },
    {
-    "name": "Cheezburger Network",
-    "variations": []
-   },
-   {
-    "name": "Google",
-    "variations": []
-   },
-   {
-    "name": "Supporters of the blackout",
-    "variations": []
-   },
-   {
-    "name": "Opponents",
+    "name": "Stop Online Piracy Act",
     "variations": [
-     "one opponent",
-     "Other opponents"
-    ]
+     "SOPA"
+    ],
+    "kind": null
+   },
+   {
+    "name": "Wikimedia Foundation",
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "Jimmy Wales",
     "variations": [
-     "Wales",
-     "co-founder of Wikipedia"
-    ]
+     "co-founder of Wikipedia",
+     "Wales"
+    ],
+    "kind": "person"
    },
    {
-    "name": "Chris Dodd",
-    "variations": []
+    "name": "Reddit",
+    "variations": [
+     "social media site"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Google",
+    "variations": [],
+    "kind": "organisation"
+   },
+   {
+    "name": "Motion Picture Association of America",
+    "variations": [
+     "MPAA"
+    ],
+    "kind": "organisation"
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "Wikipedia plans a 24-hour global shutdown to protest U.S. anti-piracy laws.",
-    "long_statement": "The online encyclopedia Wikipedia plans to shut down its global operations for 24 hours to demonstrate against proposed U.S. anti-piracy legislation, an action intended to highlight the potential threat these laws pose to the site's future.",
+    "key_statement": "Protest supporters view the laws as an existential threat, while critics fear the action harms Wikipedia's neutrality.",
+    "long_statement": "Proponents of the protest argue that the proposed U.S. anti-piracy laws pose an existential threat to the online encyclopedia, whereas critics contend that the planned shutdown undermines the site's reputation for political neutrality and risks alienating the public.",
     "segment_range": [
-     0,
-     1
+     19,
+     34
     ],
-    "rouge2_precision": 0.1579
+    "rouge2_precision": 0.275
    },
    {
-    "actor": "base_author",
-    "key_statement": "Community members are divided between supporting a U.S.-only or global blackout.",
-    "long_statement": "While a significant portion of the community favored a demonstration limited to the United States, a larger group of users advocated for a worldwide shutdown, with all participants instructed to contact their elected officials during the event.",
+    "actor": "Jimmy Wales",
+    "key_statement": "Wikipedia's co-founder urges preparation for the shutdown and criticizes the proposed laws as overbroad.",
+    "long_statement": "The co-founder of the online encyclopedia advised students to complete their homework early to avoid access disruptions, while expressing hope that the protest would overwhelm Washington's phone systems and arguing that the proposed legislation is poorly written and overbroad.",
     "segment_range": [
-     7,
-     15
+     35,
+     47
     ],
-    "rouge2_precision": 0.0833
+    "rouge2_precision": 0.3
    },
    {
-    "actor": "Cheezburger Network",
-    "key_statement": "The Cheezburger Network is participating in the global blackout protest.",
-    "long_statement": "The Cheezburger Network, a major digital media company, has committed its various websites to joining the global 24-hour shutdown, aligning its operations with the broader coalition protesting the proposed U.S. anti-piracy laws.",
+    "actor": "Motion Picture Association of America",
+    "key_statement": "The Motion Picture Association of America condemns technology companies for using disruptive online protests to punish users instead of negotiating solutions to piracy.",
+    "long_statement": "The Motion Picture Association of America asserts that certain technology companies are orchestrating disruptive online protests to punish their users and manipulate public opinion, rather than engaging in good-faith negotiations to address the genuine and damaging problem of online piracy. These corporate interests are being criticized for prioritizing theatrical displays over finding practical solutions to a crisis that affects the entire industry.",
     "segment_range": [
-     16,
-     19
-    ],
-    "rouge2_precision": 0.1111
-   },
-   {
-    "actor": "Supporters of the blackout",
-    "key_statement": "Supporters argue U.S. anti-piracy laws threaten Wikipedia's existence, justifying a global shutdown to protest.",
-    "long_statement": "The proposed U.S. anti-piracy legislation represents an existential threat to the future of Wikipedia, as supporters argue that without a dramatic global shutdown to protest these specific laws, the site faces immediate and irreversible destruction. This graphic method of driving home the point is deemed necessary to force lawmakers to reconsider legislation that could dismantle the open internet.",
-    "segment_range": [
-     20,
-     22
-    ],
-    "rouge2_precision": 0.1695
-   },
-   {
-    "actor": "Supporters of the blackout",
-    "key_statement": "A global blackout is a necessary graphic method to protest dangerous anti-piracy laws.",
-    "long_statement": "Organizing a global website blackout serves as a graphic and necessary method to drive home the critical point that proposed U.S. anti-piracy laws pose an existential threat to the open internet. This dramatic action is intended to force legislators to recognize the severe consequences of passing such overbroad and damaging regulations before they are enacted.",
-    "segment_range": [
-     20,
-     22
-    ],
-    "rouge2_precision": 0.1071
-   },
-   {
-    "actor": "Opponents",
-    "key_statement": "Opponents claim the blackout undermines Wikipedia's neutrality and risks political entanglement.",
-    "long_statement": "Critics of the planned 24-hour global blackout argue that the action fundamentally threatens the credibility of Wikipedia by undermining its reputation as a politically neutral source of information. They contend that by staging a coordinated political protest, the site risks becoming entangled in partisan debates, which could erode public trust and damage its utility as an unbiased reference for users worldwide.",
-    "segment_range": [
-     23,
-     26
+     48,
+     53
     ],
     "rouge2_precision": 0.2727
    },
    {
-    "actor": "Opponents",
-    "key_statement": "Critics claim that Wikipedia is not in immediate danger from SOPA.",
-    "long_statement": "Opponents of the proposed U.S. anti-piracy laws assert that the specific legislation known as SOPA does not directly endanger the existence of Wikipedia, challenging the narrative that a site shutdown is required to save the platform. They maintain that the threat to the internet is overstated and that the proposed measures do not pose the catastrophic risk to the open web that some activists claim.",
-    "segment_range": [
-     23,
-     26
-    ],
-    "rouge2_precision": 0.1515
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The Wikimedia Foundation accepts that protesting anti-piracy laws via a blackout risks damaging Wikipedia's perceived neutrality to save the site's existence.",
-    "long_statement": "The Wikimedia Foundation acknowledges that while Wikipedia's articles maintain neutrality, the proposed U.S. anti-piracy laws pose an existential threat to the site's very existence. Consequently, the organization accepts that a global blackout to protest these laws will inevitably draw legitimate criticism for seemingly abandoning the public's perception of political neutrality, a trade-off deemed necessary to prevent the site's destruction.",
-    "segment_range": [
-     27,
-     34
-    ],
-    "rouge2_precision": 0.1739
-   },
-   {
-    "actor": "Jimmy Wales",
-    "key_statement": "Wikipedia's co-founder advises students to finish homework early to avoid access issues during the anti-piracy law protest blackout.",
-    "long_statement": "The co-founder of Wikipedia advises students to complete their research assignments before the scheduled 24-hour global blackout, anticipating that the massive traffic surge intended to protest U.S. anti-piracy laws could overwhelm and crash phone systems in Washington. This strategy aims to maximize the visibility of the protest and pressure lawmakers into reconsidering legislation that threatens the open internet.",
-    "segment_range": [
-     35,
-     47
-    ],
-    "rouge2_precision": 0.25
-   },
-   {
-    "actor": "Jimmy Wales",
-    "key_statement": "Wikipedia's co-founder argues that anti-piracy laws are overly broad and that opponents are wrongly labeled as piracy enablers.",
-    "long_statement": "The co-founder of Wikipedia challenges the narrative of U.S. anti-piracy law supporters, who falsely characterize the opposition as enablers of piracy. He argues that the draft legislation is excessively broad and poorly written, impacting unrelated sectors of the economy, and insists that the proposed laws are fundamentally flawed rather than a necessary solution to a real problem.",
-    "segment_range": [
-     35,
-     47
-    ],
-    "rouge2_precision": 0.1695
-   },
-   {
-    "actor": "Chris Dodd",
-    "key_statement": "The Motion Picture Association claims that technology advocates are performing reckless actions that damage users instead of fixing the piracy issue.",
-    "long_statement": "A representative from the Motion Picture Association of America claims that specific technology companies are planning reckless events. These events harm the companies' own customers and make them act like tools for the corporations. The representative says these actions hurt the public. They also do not fix the serious issue of copyright infringement. The industry wants to solve this problem by passing laws.",
+    "actor": "Motion Picture Association of America",
+    "key_statement": "The Motion Picture Association of America condemns the internet blackout as an irresponsible and dangerous tactic that harms the public and fails to address the real problem of piracy.",
+    "long_statement": "The Motion Picture Association of America argues that the planned global internet blackout is an irresponsible and dangerous act that harms ordinary people who depend on the internet for daily information and services. While acknowledging the severity of the piracy issue, the organization insists that such disruptive tactics are a disservice to the public and undermine the stability of the digital ecosystem.",
     "segment_range": [
      48,
      53
     ],
-    "rouge2_precision": 0.15
-   },
-   {
-    "actor": "Chris Dodd",
-    "key_statement": "The Motion Picture Association of America condemns the Wikipedia blackout as an irresponsible and dangerous stunt that harms the public.",
-    "long_statement": "The Motion Picture Association of America, which supports the proposed U.S. anti-piracy laws, asserts that the planned 24-hour global blackout by Wikipedia is an irresponsible and dangerous act. This stance argues that the digital shutdown serves as a punitive stunt against users rather than a constructive solution to the real problem of online piracy, ultimately acting as a disservice to the public who rely on the site for information.",
-    "segment_range": [
-     48,
-     53
-    ],
-    "rouge2_precision": 0.2632
+    "rouge2_precision": 0.1803
    }
   ]
  }

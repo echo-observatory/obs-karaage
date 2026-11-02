@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-bzrn1kt7v9j1rzyhbqhnnf",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"Policy laundering moves damaging rules, such as the DMCA, worldwide by inserting them into bilateral free trade agreements in places like Australia. This makes it simpler to send these rules to other nations. At the same time, Hollywood representatives push for similar limits, like the broadcast flag, in Europe and other areas. They do this to make countries copy US copyright rules, pretending it is part of global trade deals.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650559,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 91,
+  "prompt_tokens": 235,
+  "total_tokens": 326,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

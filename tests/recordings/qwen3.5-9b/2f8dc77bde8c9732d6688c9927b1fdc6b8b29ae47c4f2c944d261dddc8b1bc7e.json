@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-mv1f1ra5nh4ajgjsq16d3",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"Anonymous, a loosely defined online activist group, has launched a campaign\", \"rephrased\": \"The loosely defined online activist group Anonymous has initiated a decentralized campaign termed 'Operation Baylout' to disrupt the websites of organizations prosecuting The Pirate Bay, a move that reflects the group's opportunistic nature rather than a unified strategic objective.\", \"summary\": \"Anonymous launched an opportunistic cyber-attack campaign to disrupt websites of The Pirate Bay's prosecutors.\"}, \"1\": {\"original\": \"coordinated efforts to jam the website\", \"rephrased\": \"The International Federation of the Phonographic Industry faces coordinated efforts to jam its website as part of a decentralized cyber-attack campaign, a disruption caused by casual volunteers seeking entertainment rather than genuine activists committed to the group's anti-piracy mission.\", \"summary\": \"The IFPI faces a decentralized cyber-attack by casual volunteers rather than dedicated activists.\"}, \"2\": {\"original\": \"MAQS shut down its website due to a coordinated cyber-attack, and protesters are\", \"rephrased\": \"The law firm MAQS, which works with the prosecution in the Pirate Bay case, was forced to shut down its website after a coordinated cyber-attack, while protesters simultaneously jammed the fax lines of the MPAA and prosecuting attorney Monique Wadsted.\", \"summary\": \"A coordinated cyber-attack forced the law firm MAQS to shut down its website and disrupted the MPAA's fax lines.\"}, \"3\": {\"original\": \"The IFPI is focused on increasing short-term profits rather than long-term\", \"rephrased\": \"The International Federation of the Phonographic Industry is focused on increasing short-term profits rather than long-term growth or customer needs, a strategic approach that has contributed to the current situation where the group faces significant public opposition and cyber-attacks.\", \"summary\": \"The IFPI's focus on short-term profits has contributed to its current public opposition and cyber-attacks.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651152,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 409,
+  "prompt_tokens": 2462,
+  "total_tokens": 2871,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

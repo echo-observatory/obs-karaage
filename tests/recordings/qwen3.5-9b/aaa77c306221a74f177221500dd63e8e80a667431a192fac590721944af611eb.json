@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-v274yuo4cfkaopk2fci2n",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Danny O'Brien\", \"other\": [\"Danny O'Brien\"], \"kind\": \"person\", \"segments\": [[239, 248], [259, 270], [271, 276], [286, 293], [300, 301], [308, 315], [319, 322], [325, 333], [337, 344], [351, 356], [358, 364], [369, 375], [382, 405], [409, 414], [419, 423], [434, 442]]}, {\"main\": \"Wikinews\", \"other\": [\"Wikinews\"], \"kind\": \"organisation\", \"segments\": [[231, 231], [255, 258], [277, 285], [294, 299], [303, 307], [316, 318], [323, 324], [334, 336], [345, 346]]}, {\"main\": \"MrMiscellanious\", \"other\": [\"MrMiscellanious\"], \"kind\": \"person\", \"segments\": [[347, 350]]}, {\"main\": \"Question\", \"other\": [\"Question\"], \"kind\": \"document\", \"segments\": [[357, 357], [366, 368], [376, 381], [407, 409], [415, 418]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650406,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 417,
+  "prompt_tokens": 3952,
+  "total_tokens": 4369,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

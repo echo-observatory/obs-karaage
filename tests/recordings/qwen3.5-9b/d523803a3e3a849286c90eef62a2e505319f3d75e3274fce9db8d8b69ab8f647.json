@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-50vmsqisuhj12pnex5xc9k",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Comcast\", \"other\": [\"two of the largest ISPs in North America\"], \"kind\": \"organisation\", \"segments\": [[0, 1], [2, 3]]}, {\"main\": \"Time Warner Cable\", \"other\": [\"two of the largest ISPs in North America\"], \"kind\": \"organisation\", \"segments\": [[2, 3], [28, 29], [39, 40]]}, {\"main\": \"Federal Communications Commission\", \"other\": [\"FCC\"], \"kind\": \"organisation\", \"segments\": [[4, 5], [6, 7]]}, {\"main\": \"US Congress\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[6, 7]]}, {\"main\": \"Free Press\", \"other\": [\"an advocacy group\", \"that pushes for better oversight of cable operators such as Comcast\"], \"kind\": \"organisation\", \"segments\": [[12, 15]]}, {\"main\": \"Ben Scott\", \"other\": [\"head of the group\"], \"kind\": \"person\", \"segments\": [[16, 17]]}, {\"main\": \"Roger Entner\", \"other\": [\"a senior vice president from Nielsen IAG\"], \"kind\": \"person\", \"segments\": [[18, 21]]}, {\"main\": \"Sena Fitzmaurice\", \"other\": [\"a Comcast spokesperson\"], \"kind\": \"person\", \"segments\": [[22, 24]]}, {\"main\": \"Alex Dudley\", \"other\": [\"a Time Warner Cable spokesman\"], \"kind\": \"person\", \"segments\": [[34, 37]]}, {\"main\": \"Associated Press\", \"other\": [\"report\"], \"kind\": \"document\", \"segments\": [[38, 39]]}, {\"main\": \"Art Brodsky\", \"other\": [\"communications director of Public Knowledge\", \"a consumer advocacy group in Washington D.C.\"], \"kind\": \"person\", \"segments\": [[41, 44], [45, 49]]}, {\"main\": \"Public Knowledge\", \"other\": [\"a consumer advocacy group in Washington D.C.\"], \"kind\": \"organisation\", \"segments\": [[41, 44], [45, 49]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651049,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 489,
+  "prompt_tokens": 1400,
+  "total_tokens": 1889,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

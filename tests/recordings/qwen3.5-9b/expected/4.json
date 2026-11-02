@@ -12,59 +12,52 @@
     "variations": [
      "the court",
      "the Justices"
-    ]
+    ],
+    "kind": "organisation"
    },
    {
-    "name": "Grokster, Ltd. et al.",
+    "name": "Metro-Goldwyn-Mayer Studios Inc. et al. v. Grokster, Ltd. et al.",
     "variations": [
-     "Grokster",
-     "defendants"
-    ]
+     "the case"
+    ],
+    "kind": null
    },
    {
     "name": "David Souter",
     "variations": [
      "Justice David Souter"
-    ]
+    ],
+    "kind": "person"
    },
    {
     "name": "Fred von Lohmann",
     "variations": [
-     "Lohmann",
+     "Fred von Lohmann",
      "senior staff attorney for the EFF"
-    ]
+    ],
+    "kind": "person"
    }
   ],
   "statements": [
    {
     "actor": "David Souter",
-    "key_statement": "Justice David Souter stated that companies selling tools designed to break copyright laws face responsibility for illegal acts by others, even if those tools can be used legally.",
-    "long_statement": "Justice David Souter, writing for the U.S. Supreme Court, clarified that any individual or entity distributing a device with the specific intent to promote its use for copyright infringement, demonstrated through clear statements or affirmative actions taken to foster such violations, is legally liable for the resulting infringing acts committed by third parties, regardless of whether the device has other lawful applications.",
+    "key_statement": "Distributing technology with the intent to promote copyright infringement creates liability for all resulting user violations.",
+    "long_statement": "Any individual or entity that distributes a technology with the specific intent to encourage copyright infringement, demonstrated through clear statements or active promotional steps beyond simple awareness, is legally liable for the resulting violations committed by third parties, even if the technology has legitimate uses.",
     "segment_range": [
      9,
      12
     ],
-    "rouge2_precision": 0.2581
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The U.S. Supreme Court issued a unanimous ruling against companies designed to facilitate copyright infringement, signaling zero tolerance for such business models.",
-    "long_statement": "The U.S. Supreme Court issued a unanimous and unexpected decision declaring that companies specifically created to facilitate copyright infringement must be held accountable, sending a powerful message of zero tolerance for such business models and signaling a significant shift in how the highest court views the legal boundaries of internet technologies.",
-    "segment_range": [
-     13,
-     16
-    ],
-    "rouge2_precision": 0.1818
+    "rouge2_precision": 0.1591
    },
    {
     "actor": "Fred von Lohmann",
-    "key_statement": "Fred von Lohmann of the Electronic Frontier Foundation criticized the U.S. Supreme Court for lacking a clear inducement test, arguing it could discourage innovators.",
-    "long_statement": "Fred von Lohmann, a senior staff attorney for the Electronic Frontier Foundation, criticized the U.S. Supreme Court for failing to establish a clear legal test for inducement, warning that this ambiguity could discourage innovators who are unsure whether their new projects comply with the law, even as he remains cautiously optimistic about the specific defendants' chances in lower courts.",
+    "key_statement": "Critics argue the Supreme Court's vague inducement standard risks stifling innovation by creating legal uncertainty for developers.",
+    "long_statement": "Legal experts have criticized the Supreme Court for failing to provide a clear standard for determining when a company induces copyright infringement, warning that this ambiguity could discourage innovators from developing new technologies due to fear of unpredictable legal consequences.",
     "segment_range": [
-     22,
+     19,
      26
     ],
-    "rouge2_precision": 0.2203
+    "rouge2_precision": 0.0769
    }
   ]
  }

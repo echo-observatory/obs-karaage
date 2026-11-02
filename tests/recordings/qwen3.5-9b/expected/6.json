@@ -10,50 +10,68 @@
    {
     "name": "Andrej Preston",
     "variations": [
-     "Sloncek",
-     "Preston"
-    ]
+     "Sloncek"
+    ],
+    "kind": "person"
    },
    {
     "name": "BitTorrent protocol",
-    "variations": [
-     "BitTorrent"
-    ]
+    "variations": [],
+    "kind": null
    },
    {
     "name": "eXeem",
-    "variations": [
-     "eXeem"
-    ]
+    "variations": [],
+    "kind": null
    },
    {
     "name": "Suprnova",
     "variations": [
-     "Suprnova",
      "Suprnova BitTorrent link site"
-    ]
+    ],
+    "kind": "organisation"
    }
   ],
   "statements": [
    {
-    "actor": "base_author",
-    "key_statement": "The founder of Suprnova remained silent during a police hearing a month after the raid, a strategic decision made following legal advice before the case was referred to a prosecutor.",
-    "long_statement": "Following the police raid on the Suprnova server, the founder was summoned to a formal hearing a month later, where he exercised his right to remain silent based on legal counsel's advice before the matter was transferred to a prosecutor. This procedural step occurred within the context of the Slovenian legal system, which initially pursued the case against the site operator despite the decentralized nature of the BitTorrent technology used by the platform. The decision to stay silent during the interview was a strategic move to avoid making self-incriminating statements while the authorities prepared to present the seized evidence to the prosecution.",
+    "actor": "Andrej Preston",
+    "key_statement": "Preston demands public transparency regarding the 2004 raid on his file-sharing site to end his pretense of innocence.",
+    "long_statement": "Andrej Preston, the founder of the now-defunct Suprnova file-sharing site, asserts that it is necessary for the public to learn the full details of the legal raid on his servers in 2004, marking a decisive end to his previous attempts to downplay the severity of the incident. This declaration comes as he reflects on the intense pressure from authorities that ultimately forced the closure of his platform, a situation he now feels compelled to address honestly rather than ignore.",
     "segment_range": [
-     26,
-     32
+     0,
+     18
     ],
-    "rouge2_precision": 0.0874
+    "rouge2_precision": 0.0556
    },
    {
-    "actor": "Andrej Preston",
-    "key_statement": "The founder of Suprnova experienced deep depression and sadness while waiting for news about the legal case, which was eventually resolved when the charges were dropped.",
-    "long_statement": "Upon receiving the official notice regarding the dropped charges, the founder of the Suprnova site experienced a profound emotional shift, moving from a state of deep depression and sadness to relief after learning that the legal case against him had been terminated. This emotional reaction highlights the immense psychological toll that the uncertainty and threat of prosecution took on the individual, even though the final outcome was favorable. The period of waiting for the post office letter to be delivered served as a prolonged time of anxiety, where the founder feared the worst before discovering that the authorities had decided to abandon the pursuit of criminal liability.",
+    "actor": "base_author",
+    "key_statement": "Preston's lawyers advised him to stay silent during the police interview to avoid self-incrimination.",
+    "long_statement": "Following the police raid on Andrej Preston's home and the seizure of his computers, his legal counsel advised him to remain completely silent during the subsequent interview with law enforcement, a strategy that was intended to prevent him from incriminating himself while the case was being reviewed by prosecutors.",
     "segment_range": [
-     33,
+     26,
+     38
+    ],
+    "rouge2_precision": 0.1333
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Preston's legal case was dropped and he recovered his seized property.",
+    "long_statement": "After enduring months of legal uncertainty and the seizure of his property, Andrej Preston's case against the police was eventually dropped, allowing him to retrieve his confiscated computers and CDs and effectively ending the legal threat against his file-sharing operations.",
+    "segment_range": [
+     39,
      42
     ],
-    "rouge2_precision": 0.0472
+    "rouge2_precision": 0.0488
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Centralized tracking servers in BitTorrent create a vulnerability to legal action and content removal.",
+    "long_statement": "Despite its decentralized design, the BitTorrent protocol relies on central servers to coordinate peer connections, creating a critical vulnerability where these administrators can easily remove content and expose the entire network to legal shutdowns.",
+    "segment_range": [
+     49,
+     56
+    ],
+    "rouge2_precision": 0.0
    }
   ]
  }

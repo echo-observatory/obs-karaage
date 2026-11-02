@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-phabdaa9uwk6f17b65lbnn",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"12\": {\"original\": \"We safeguard the right to attribution strongly, as it promotes culture.\", \"rephrased\": \"The Pirate Party in Sweden firmly upholds the right to attribution, arguing that this principle is essential for fostering a vibrant culture and aligns with the original intent of copyright laws to promote the arts, even if it conflicts with current European Union regulations.\", \"summary\": \"The Swedish Pirate Party prioritizes the right to attribution as a cornerstone for cultural promotion.\"}, \"13\": {\"original\": \"Publishing anonymously or pseudonymously is common and acceptable online.\", \"rephrased\": \"The Swedish Pirate Party asserts that the practice of publishing works anonymously or under a pseudonym is a standard and acceptable norm in the digital age, and therefore should not be restricted by copyright laws that demand author identification.\", \"summary\": \"The Swedish Pirate Party views online anonymity as a standard practice that should remain legal.\"}, \"14\": {\"original\": \"We support free sampling and want to strengthen rights for derivative works.\", \"rephrased\": \"The Swedish Pirate Party advocates for the freedom to sample existing music and other works, proposing that copyright laws should be reformed to explicitly protect the creation of new derivative works as long as they add significant creative value.\", \"summary\": \"The Swedish Pirate Party supports free sampling and stronger legal protections for derivative works.\"}, \"15\": {\"original\": \"In the 50s and 60s, rock and roll covers of classical music created great new文化,\", \"rephrased\": \"Historical precedents, such as rock and roll bands in the 1950s and 60s covering classical music, demonstrate that creating new culture often involves reusing existing material, suggesting that strict integrity rights may stifle artistic innovation.\", \"summary\": \"Historical examples of musical covers suggest that strict integrity rights can hinder cultural innovation.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650908,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 394,
+  "prompt_tokens": 2655,
+  "total_tokens": 3049,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -37,7 +37,10 @@ class MainPoint(BaseModel):
 # A text longer than the context is summarised part by part, and the main point is
 # taken from the summaries (docs/design-1.1.0.md, section 3.5).
 part_summary_length = 1000
-RESERVED_TOKENS_PART_SUMMARY = part_summary_length // 3 + 150
+# Asked for a summary without more guidance, the model can enumerate points until the token
+# limit (article 30); asked for one paragraph of prose, it stays near the length asked.
+# The budget leaves room for twice that length.
+RESERVED_TOKENS_PART_SUMMARY = 1_000
 RESERVED_TOKENS_HEADER = 100   # title and publication date, when given
 
 SYSTEM_PROMPT_PART_SUMMARY = f'''You are a journalist-analyst summarising one part of a longer text.
@@ -46,7 +49,7 @@ Your task:
 Summarise this part of the text: the situation it describes, the claims and arguments made in it, who makes them, and what is at stake.
 
 Rules:
-- Make a summary of under {part_summary_length} characters.
+- Write one paragraph of prose, without lists, of under {part_summary_length} characters.
 - Keep the names of the people and organisations involved.
 - Use well-formed, everyday language.
 - Your answer must be derived from the text, not from these instructions.

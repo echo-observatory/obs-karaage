@@ -10,274 +10,294 @@
    {
     "name": "Danny O'Brien",
     "variations": [
-     "Danny O'Brien of the Electronic Frontier Foundation",
+     "Danny O'Brien of the Electronic Frontier Foundation (EFF)",
      "Danny O'Brien of EFF",
-     "Danny O'Brien of the EFF",
-     "Danny O'Brien",
-     "we",
-     "I",
-     "EFF"
-    ]
+     "Danny O'Brien"
+    ],
+    "kind": "person"
    },
    {
     "name": "Wikinews",
     "variations": [
      "Wikinews"
-    ]
+    ],
+    "kind": "organisation"
    },
    {
     "name": "MrMiscellanious",
     "variations": [
      "MrMiscellanious"
-    ]
+    ],
+    "kind": "person"
    },
    {
     "name": "Question",
     "variations": [
      "Question"
-    ]
+    ],
+    "kind": null
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "The EFF cites past legal victories as proof of its effectiveness in defending digital rights.",
-    "long_statement": "The Electronic Frontier Foundation has secured significant legal and public victories, such as a settlement with Sony/BMG and a favorable Supreme Court ruling in MGM v Grokster, to protect digital rights and privacy against corporate and government overreach. These successes demonstrate the organization's capacity to challenge powerful entities in the legislature and courtroom, yet the need for continued advocacy remains critical as new threats emerge.",
+    "key_statement": "The EFF gained attention by winning high-profile legal battles for digital rights.",
+    "long_statement": "The Electronic Frontier Foundation has garnered significant public and legislative attention by securing major victories against digital rights management and copyright enforcement, establishing itself as a key defender of online liberties.",
     "segment_range": [
-     0,
+     2,
      26
     ],
-    "rouge2_precision": 0.197
+    "rouge2_precision": 0.1667
    },
    {
     "actor": "Danny O'Brien",
-    "key_statement": "The EFF opposes extending traditional wiretap laws to the Internet due to constitutional and technical flaws.",
-    "long_statement": "The Electronic Frontier Foundation argues that applying traditional wiretapping laws to the Internet is both constitutionally problematic under the Fourth Amendment and technologically unworkable, given the fundamental differences between monitoring individual phone lines and tracking data across a decentralized network. Consequently, the organization opposes government efforts to extend these outdated surveillance mandates to online communications, warning that such measures would fail to protect digital privacy while infringing on civil liberties.",
+    "key_statement": "The EFF argues that wiretapping laws violate Fourth Amendment rights and are technologically impossible online.",
+    "long_statement": "The Electronic Frontier Foundation argues that applying traditional wiretapping laws to the Internet is both a violation of Fourth Amendment rights and a technological impossibility, necessitating a complete separation of physical surveillance statutes from digital communications.",
     "segment_range": [
      27,
+     30
+    ],
+    "rouge2_precision": 0.1429
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Simple government surveillance approaches often violate Fourth Amendment standards.",
+    "long_statement": "Many straightforward government surveillance methods fail to meet Fourth Amendment standards, a concern that extends beyond the United States to global digital privacy protections.",
+    "segment_range": [
+     31,
+     42
+    ],
+    "rouge2_precision": 0.0
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "The EFF is investigating a government surveillance program and warns against logging all internet activity.",
+    "long_statement": "The Electronic Frontier Foundation is currently examining every legal avenue to understand a specific government surveillance program, warning that indiscriminately logging all internet activity risks turning internet companies into tools for customer privacy invasion.",
+    "segment_range": [
+     43,
      57
+    ],
+    "rouge2_precision": 0.1429
+   },
+   {
+    "actor": "Wikinews",
+    "key_statement": "Google's refusal to comply with a Justice Department data request exposes a failure in corporate privacy policies despite EFF criticism.",
+    "long_statement": "While the Electronic Frontier Foundation has publicly criticized Google's privacy policy, the search giant recently refused the Justice Department's demands to hand over user data, highlighting a critical gap between corporate promises and legal compliance that undermines user trust.",
+    "segment_range": [
+     58,
+     65
+    ],
+    "rouge2_precision": 0.275
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "Privacy policies are currently inadequate because they describe data storage rather than addressing the actual collection of personal information.",
+    "long_statement": "Current corporate privacy policies largely serve only as descriptions of what information is stored, failing to address the actual practices of collecting massive amounts of data; the Electronic Frontier Foundation warns that this disconnect leaves companies storing up significant trouble for themselves by neglecting to anonymize or aggregate information.",
+    "segment_range": [
+     66,
+     93
+    ],
+    "rouge2_precision": 0.2917
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "The Electronic Frontier Foundation warns that hoarding raw customer data without anonymization creates significant future legal risks for technology companies.",
+    "long_statement": "The Electronic Frontier Foundation warns that technology companies currently face significant legal risks because they are hoarding vast amounts of raw customer information without implementing necessary anonymization or aggregation processes, a practice that the organization has long cautioned against as a recipe for future liability.",
+    "segment_range": [
+     66,
+     93
+    ],
+    "rouge2_precision": 0.0227
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "The Electronic Frontier Foundation provides specific guides for online service providers detailing best practices for logging data to mitigate privacy risks.",
+    "long_statement": "To help the digital industry mitigate privacy risks, the Electronic Frontier Foundation has developed specific guides for online service providers detailing best practices for logging data, while also recommending that open-source software developers establish reasonable default settings to prevent excessive data collection.",
+    "segment_range": [
+     66,
+     93
     ],
     "rouge2_precision": 0.2
    },
    {
     "actor": "Danny O'Brien",
-    "key_statement": "The EFF is pursuing all legal avenues to challenge government surveillance programs that violate privacy laws.",
-    "long_statement": "The Electronic Frontier Foundation is actively examining every possible legal avenue to challenge government surveillance programs, such as those involving the National Security Agency, because the organization believes these initiatives often violate privacy standards and circumvent existing surveillance laws. This proactive legal strategy is driven by the urgent need to hold public authorities accountable for monitoring private communications without proper warrants or legal justification.",
+    "key_statement": "The Electronic Frontier Foundation actively promotes the dissemination of technical knowledge regarding data aggregation and anonymization to reduce the dangers of indiscriminate data logging.",
+    "long_statement": "The Electronic Frontier Foundation actively promotes the dissemination of technical knowledge regarding data aggregation and anonymization techniques to the broader community, arguing that increasing awareness of these methods is essential for reducing the dangers associated with indiscriminate data logging by software developers and service providers.",
     "segment_range": [
-     27,
-     57
-    ],
-    "rouge2_precision": 0.1333
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "The EFF warns that logging all data for surveillance turns Internet companies into tools for privacy invasion.",
-    "long_statement": "The Electronic Frontier Foundation warns that government demands for Internet companies to log all user communications create a severe privacy risk, as these companies would effectively become tools for the invasion of their own customers' private data. The organization emphasizes that indiscriminate logging of everything is dangerous and argues that corporations must be aware of how their data practices can inadvertently facilitate state surveillance, urging a shift away from total data retention toward more secure, anonymized systems.",
-    "segment_range": [
-     27,
-     57
-    ],
-    "rouge2_precision": 0.0658
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "Current privacy policies are inadequate as they fail to address the risks of un-anonymized data collection.",
-    "long_statement": "Current corporate privacy policies are fundamentally inadequate because they merely describe what data is stored without addressing the severe risks posed by collecting large amounts of un-anonymized information. This approach leaves organizations vulnerable to future liability and creates unnecessary dangers for users, as the mere logging of raw data can facilitate the invasion of privacy and compromise security in ways that current descriptions fail to capture.",
-    "segment_range": [
-     67,
+     66,
      93
     ],
-    "rouge2_precision": 0.0909
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "The EFF advocates spreading knowledge on data aggregation and anonymization to protect privacy.",
-    "long_statement": "The Electronic Frontier Foundation (EFF) advocates for the widespread dissemination of technical knowledge regarding data aggregation and anonymization techniques to empower software developers and online service providers. By educating the coding community on how to properly handle user data and recommending specific resources, the organization aims to shift industry practices away from default logging behaviors that compromise privacy, thereby strengthening the technical defenses of the digital ecosystem against surveillance and data misuse.",
-    "segment_range": [
-     67,
-     93
-    ],
-    "rouge2_precision": 0.0833
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "The EFF recommends specific resources to improve corporate data logging practices and reduce privacy risks.",
-    "long_statement": "The Electronic Frontier Foundation advocates for the dissemination of expert knowledge regarding data aggregation and anonymization, citing the book 'Translucent Databases' as a key resource to help the technology community move beyond the assumption that extensive logging is inherently beneficial, thereby reducing the risks associated with corporate data collection practices.",
-    "segment_range": [
-     67,
-     93
-    ],
-    "rouge2_precision": 0.0816
+    "rouge2_precision": 0.0227
    },
    {
     "actor": "Wikinews",
-    "key_statement": "The inquiry questions if the Sony BMG settlement covers specific DRM technology not explicitly mentioned in the agreement.",
-    "long_statement": "The inquiry seeks clarification on whether the legal settlement reached between the music industry and the Electronic Frontier Foundation regarding the Sony BMG case explicitly includes provisions covering the OpenMG XCP digital rights management technology used in Sony Connect software, highlighting a potential gap in the agreement's scope.",
+    "key_statement": "The Electronic Frontier Foundation secured key victories against the music industry's restrictive digital rights management in the Sony BMG case.",
+    "long_statement": "The Electronic Frontier Foundation has achieved significant victories in the Sony BMG legal battle, successfully challenging the music industry's attempt to enforce restrictive digital rights management on consumers' computers. These wins mark a crucial step in protecting user privacy and preventing unauthorized control over personal devices by content producers.",
     "segment_range": [
      94,
      101
     ],
-    "rouge2_precision": 0.1765
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "The EFF cautions against summarizing legal settlements to ensure accuracy and protect the integrity of the agreement.",
-    "long_statement": "The Electronic Frontier Foundation (EFF) warns that summarizing complex legal settlements in the public domain carries inherent risks of misinterpretation, which could undermine the clarity and enforceability of the agreement. To ensure accuracy and protect the integrity of the legal record, the organization advises relying on official, unaltered texts rather than simplified explanations. This caution reflects a broader commitment to maintaining precise legal standards when discussing digital rights cases.",
-    "segment_range": [
-     125,
-     130
-    ],
-    "rouge2_precision": 0.0
+    "rouge2_precision": 0.2
    },
    {
     "actor": "Wikinews",
-    "key_statement": "The US Federal Communications Commission is attempting to impose mandatory digital restrictions on consumer hardware, similar to the Sony BMG case.",
-    "long_statement": "While the Sony BMG case involved a content producer enforcing digital restrictions on clients, the US Federal Communications Commission is currently attempting to impose similar mandatory digital restrictions on the hardware of all US citizens, a move that fundamentally alters the relationship between users and their devices.",
+    "key_statement": "Important questions remain about the full scope of the Sony BMG settlement despite the Electronic Frontier Foundation's legal victories.",
+    "long_statement": "While the Electronic Frontier Foundation has won important legal battles, significant uncertainties remain regarding the full scope of the settlement, particularly concerning whether specific proprietary software components were adequately addressed in the final agreement.",
     "segment_range": [
-     155,
-     166
+     94,
+     101
     ],
-    "rouge2_precision": 0.2609
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "Mandatory digital flags create a segregated hardware environment that prevents internet distribution and open-source development.",
-    "long_statement": "Digital flags are required, which build a separate hardware setup. This setup stops content from moving across the web and keeps devices away from changes by users and open-source work. As a result, the public internet loses much of its usefulness.",
-    "segment_range": [
-     167,
-     219
-    ],
-    "rouge2_precision": 0.2667
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "Government mandates for user technology create a dangerous precedent that leads to a cycle of expanding control and regulation.",
-    "long_statement": "Once the government establishes a technological mandate for user devices, it crosses a critical threshold that inevitably leads to a cycle of expanding control, as initial mandates often fail and prompt demands for even more intrusive regulations.",
-    "segment_range": [
-     167,
-     219
-    ],
-    "rouge2_precision": 0.0556
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "The speaker distinguishes between valid broadcast regulation and the illegitimate overreach of controlling post-reception content use.",
-    "long_statement": "While the Federal Communications Commission's mandate to manage public airwaves and prevent signal interference is legitimate, extending regulatory control to how citizens use content after it has been received represents a massive overreach that infringes upon individual autonomy and digital freedom.",
-    "segment_range": [
-     167,
-     219
-    ],
-    "rouge2_precision": 0.0488
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "The organization notes that while they won the initial legal battle against the FCC, they must now defend against industry efforts to re-enact similar restrictions through legislation.",
-    "long_statement": "After successfully convincing the courts that the initial Federal Communications Commission rule was an illegal overreach of agency power, the Electronic Frontier Foundation now faces a new challenge: fighting against powerful industry groups like the MPAA and RIAA who are attempting to bypass judicial rulings by embedding similar restrictive language into new federal laws.",
-    "segment_range": [
-     167,
-     219
-    ],
-    "rouge2_precision": 0.1321
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The industry has transitioned from covert lobbying to public advocacy, using upcoming Senate hearings to push for the controversial Broadcast Flag regulation.",
-    "long_statement": "Following a period of stealth lobbying, the entertainment industry has shifted to an open strategy, with major Hollywood studios now publicly testifying at upcoming Senate hearings to advocate for the mandatory implementation of the Broadcast Flag, a move that signals a significant escalation in the political battle over digital rights and internet freedom.",
-    "segment_range": [
-     223,
-     238
-    ],
-    "rouge2_precision": 0.0476
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "Enacted digital restrictions would eliminate fair use of media samples for online news.",
-    "long_statement": "If the proposed Broadcast Flag regulation is enacted, the ability of online news platforms to legally incorporate short audio and visual clips for reporting purposes will be effectively eliminated, rendering current fair use practices unworkable in a digital environment.",
-    "segment_range": [
-     239,
-     248
-    ],
-    "rouge2_precision": 0.1053
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Government-mandated digital restrictions freeze tech advancement and harm open-source development.",
-    "long_statement": "Implementing government-mandated digital restrictions in high-definition television and digital radio will freeze technological progress and drive open-source software development away from these sectors, as the required hardware constraints stifle innovation.",
-    "segment_range": [
-     249,
-     258
-    ],
-    "rouge2_precision": 0.1818
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "Trade deals are used to export harmful digital restrictions globally through policy laundering.",
-    "long_statement": "International trade agreements are being used to export harmful digital restrictions, such as the DMCA and broadcast flag provisions, to countries that would not otherwise adopt them, a process known as policy laundering that bypasses local democratic oversight.",
-    "segment_range": [
-     259,
-     270
-    ],
-    "rouge2_precision": 0.1667
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Global copyright policy is being forced to align with restrictive US standards.",
-    "long_statement": "Global copyright policies are increasingly being aligned with United States standards, with international bodies and other nations pressured to adopt stricter terms that mirror American laws rather than developing independent approaches to intellectual property.",
-    "segment_range": [
-     271,
-     276
-    ],
-    "rouge2_precision": 0.0909
+    "rouge2_precision": 0.2105
    },
    {
     "actor": "Wikinews",
-    "key_statement": "The US Federal Communications Commission mandates the Broadcast Flag as a Digital Rights Management technology to restrict digital media copying.",
-    "long_statement": "The Broadcast Flag, a specific type of Digital Rights Management technology mandated by the United States Federal Communications Commission, restricts how digital media can be copied and shared on devices like digital TVs and recorders.",
+    "key_statement": "The Sony BMG settlement appears to cover only specific CD-based software, raising concerns about unprotected digital rights management technologies.",
+    "long_statement": "The current legal settlement seems to address only the XCP and SunComm software distributed on CDs, leaving open critical concerns about whether other digital rights management technologies, such as those used in Sony BMG's SonicStage software, are included in the protection for consumers.",
     "segment_range": [
-     277,
-     285
+     94,
+     101
     ],
     "rouge2_precision": 0.2632
    },
    {
     "actor": "Wikinews",
-    "key_statement": "France's Parliament is actively considering the DADVSI law to enforce the 2001 European Union Copyright Directive.",
-    "long_statement": "France's legislative body is discussing the DADVSI law. This national rule aims to put the 2001 European Union Directive on Copyright into effect inside the French legal system.",
+    "key_statement": "The news outlet demands transparency on whether the settlement prevents future remote device modification by content providers.",
+    "long_statement": "The news outlet seeks full transparency regarding the legal agreement's provisions on future digital rights management technologies, specifically asking whether the deal guarantees that consumers' personal computers will remain free from unauthorized remote modification by content providers.",
     "segment_range": [
-     277,
-     285
+     120,
+     124
+    ],
+    "rouge2_precision": 0.0625
+   },
+   {
+    "actor": "Wikinews",
+    "key_statement": "The legal dispute involves copyright infringement as the proprietary software incorporated code from the open-source VLC media player.",
+    "long_statement": "The legal dispute involving Sony BMG and the XCP software is further complicated by copyright infringement, as the proprietary software in question incorporated code from the open-source VLC media player without proper licensing under the GNU General Public License.",
+    "segment_range": [
+     125,
+     131
+    ],
+    "rouge2_precision": 0.2222
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "Government-mandated broadcast flags create a technological 'ghetto' that fences devices off from the internet and user modification.",
+    "long_statement": "Government-mandated broadcast flags create a technological 'ghetto' that fences audio-visual devices off from the internet and user modification, a move that curtails online freedom and sets a dangerous precedent for future government control over personal technology.",
+    "segment_range": [
+     164,
+     189
+    ],
+    "rouge2_precision": 0.2353
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "Government-mandated digital restrictions establish a dangerous precedent for increased control over user technology.",
+    "long_statement": "Government-mandated digital restrictions like the Broadcast Flag represent a dangerous overreach that establishes a technological mandate in user devices, creating a precedent for ever-increasing control over personal technology and online freedom.",
+    "segment_range": [
+     164,
+     189
+    ],
+    "rouge2_precision": 0.125
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "The FCC lacks the authority to regulate how citizens use content after receiving it.",
+    "long_statement": "The Federal Communications Commission's authority is properly limited to preventing interference and managing public airwaves, meaning it lacks the mandate to dictate how citizens use content after it has been received.",
+    "segment_range": [
+     190,
+     221
+    ],
+    "rouge2_precision": 0.0769
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "New digital limits would stop fair use of sound and picture material.",
+    "long_statement": "If the proposed digital restrictions become law, the ability of news organizations and online communities to legally share fair use samples of audio and visual content will effectively disappear or become prohibitively difficult.",
+    "segment_range": [
+     239,
+     248
     ],
     "rouge2_precision": 0.25
    },
    {
-    "actor": "Wikinews",
-    "key_statement": "To aid creative artists, Canada and Belgium impose levies on recording media, choosing this method over Digital Rights Management.",
-    "long_statement": "Governments in Canada and Belgium utilize heavy taxation on blank recording media to fund support for creative artists and developers, presenting this fiscal approach as a viable alternative to implementing restrictive Digital Rights Management systems.",
+    "actor": "base_author",
+    "key_statement": "Digital rights management technologies risk freezing tech advancement and harming open-source development globally.",
+    "long_statement": "The implementation of technology like the broadcast flag will freeze advancement in many tech sectors and cause open-source development to retreat, particularly in areas connected to high-definition television and digital radio. This occurs because such technology gives the entertainment industry a tool to restrict innovation and control the technology industry, a dynamic that extends beyond the United States to impact users globally.",
     "segment_range": [
-     286,
-     299
+     249,
+     258
     ],
-    "rouge2_precision": 0.1765
+    "rouge2_precision": 0.254
    },
    {
     "actor": "Danny O'Brien",
-    "key_statement": "The EFF hopes for a technical solution to support Tor's privacy aims on Wikipedia and offers to mediate the discussion.",
-    "long_statement": "While disappointed that European organizations failed to prevent telecommunications data retention, the Electronic Frontier Foundation remains hopeful that a practical technical solution can be developed to support the Tor network's privacy goals within the Wikipedia platform. The organization is willing to serve as a neutral intermediary to facilitate discussions between the parties involved in this technical and policy debate.",
+    "key_statement": "Hollywood uses trade agreements to export restrictive copyright laws globally, forcing other nations to adopt US standards.",
+    "long_statement": "Policy laundering moves damaging rules, such as the DMCA, worldwide by inserting them into bilateral free trade agreements in places like Australia. This makes it simpler to send these rules to other nations. At the same time, Hollywood representatives push for similar limits, like the broadcast flag, in Europe and other areas. They do this to make countries copy US copyright rules, pretending it is part of global trade deals.",
+    "segment_range": [
+     259,
+     276
+    ],
+    "rouge2_precision": 0.2029
+   },
+   {
+    "actor": "Wikinews",
+    "key_statement": "In the United States, the Federal Communications Commission enforces the Broadcast flag. This Digital Rights Management system is designed to regulate the use of digital content.",
+    "long_statement": "The Broadcast flag functions as a specific form of Digital Rights Management that is implemented and mandated by the United States Federal Communications Commission. This regulatory approach controls how digital content is handled after it is received over public airwaves, distinguishing it from the FCC's primary mandate to prevent interference and manage the public airwaves commons.",
+    "segment_range": [
+     277,
+     285
+    ],
+    "rouge2_precision": 0.24
+   },
+   {
+    "actor": "Wikinews",
+    "key_statement": "Canadian and Belgian governments fund copyright protection through taxes on recording media rather than DRM technology.",
+    "long_statement": "In Canada and Belgium, governments have implemented a system where heavy taxes on blank recording media are levied, with the collected revenues specifically directed toward supporting creative artists and software developers as a viable alternative to relying on Digital Rights Management (DRM) technology for copyright protection.",
+    "segment_range": [
+     294,
+     299
+    ],
+    "rouge2_precision": 0.1778
+   },
+   {
+    "actor": "Wikinews",
+    "key_statement": "Industry groups are developing open-standard DRM as a fairer alternative to proprietary systems.",
+    "long_statement": "Industry initiatives, including a project by Sun Microsystems, are actively attempting to create an open-standard version of Digital Rights Management (DRM) that aims to be fairer to users compared to proprietary systems, though this approach remains a point of contention for digital rights advocates.",
+    "segment_range": [
+     300,
+     307
+    ],
+    "rouge2_precision": 0.2308
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "The EFF opposes anti-circumvention laws that enforce DRM, not DRM technology itself.",
+    "long_statement": "The Electronic Frontier Foundation (EFF) clarifies that its opposition is not directed at Digital Rights Management (DRM) technology itself, but rather at the legal framework of anti-circumvention laws that enforce DRM and strip users of their fair use rights, arguing that without such legal enforcement, the market would naturally determine acceptable usage controls.",
+    "segment_range": [
+     308,
+     322
+    ],
+    "rouge2_precision": 0.1667
+   },
+   {
+    "actor": "Wikinews",
+    "key_statement": "The EFF is being asked to respond to a critical article about the Sony BMG rootkit case.",
+    "long_statement": "Following the controversy surrounding the Sony BMG rootkit case, the Electronic Frontier Foundation (EFF) is being asked to provide a public response to a critical article published by The Register, which questions the organization's effectiveness and legitimacy in defending digital rights.",
+    "segment_range": [
+     323,
+     326
+    ],
+    "rouge2_precision": 0.125
+   },
+   {
+    "actor": "Danny O'Brien",
+    "key_statement": "The EFF advocates for funded advocacy and seeks a technical compromise to protect Tor users on Wikipedia.",
+    "long_statement": "While disappointed that European organizations failed to prevent telecommunications data retention, the Electronic Frontier Foundation (EFF) concludes that advocacy requires permanent, funded staff to be effective, and offers to act as an intermediary to help develop a technical solution that supports Tor's privacy aims while remaining practical for platforms like Wikipedia.",
     "segment_range": [
      369,
      405
     ],
-    "rouge2_precision": 0.3
-   },
-   {
-    "actor": "Danny O'Brien",
-    "key_statement": "The EFF argues that laws forbidding links should be judged by their practicality and legal basis, not by territorial jurisdiction.",
-    "long_statement": "The Electronic Frontier Foundation argues that the legitimacy of laws forbidding links to online resources depends entirely on the specific legal framework and its practical application, rather than on the geographic boundaries of jurisdiction. This position emphasizes that the core concern is whether individuals should be prohibited from accessing information, regardless of where the law originates or where the linked resource is hosted.",
-    "segment_range": [
-     434,
-     442
-    ],
-    "rouge2_precision": 0.0645
+    "rouge2_precision": 0.2157
    }
   ]
  }

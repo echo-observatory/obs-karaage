@@ -10,6 +10,7 @@ verbose = False
 class Source(BaseModel):
     main: str
     other: list[str]
+    kind: str | None = None    # one of ACTOR_KINDS
     segments: list[list[int]]  # list of [start, end] inclusive ranges
 
 
@@ -26,6 +27,9 @@ RESERVED_TOKENS_ATTRIBUTION = 2_500   # prompt framing + expected output
 MAX_SOURCES = 40
 MAX_RANGES = 40
 MAX_ALIASES = 10
+# The outputs keep "person" and "organisation" (the snapshot specification's kinds) and
+# give null for the others (docs/design-1.1.0.md, section 3.4).
+ACTOR_KINDS = ["person", "organisation", "document", "unknown"]
 
 SYSTEM_PROMPT_ATTRIBUTION = """\
 You analyze a text to identify who or what is the declared source of information in each segment. A source is a person, an organization, or a document.
@@ -37,12 +41,14 @@ Important: when text contains an attribution like "X said", "according to Y", or
 Example: in `[5] The deal will close by March, [6] she confirmed.` — segment 5 is attributed to her, not segment 6.
 
 For each source, provide:
-- "main": canonical name
-- "other": list of alternative names or references found in the text (may be empty)
+- "main": canonical name: the full name of a person, the official name of an organization, or the title of a document, as far as the text gives it
+- "other": list of the other names and descriptions the text uses for the source (may be empty); do not include pronouns
+- "kind": "person", "organisation", "document", or "unknown"
 - "segments": list of [start, end] inclusive segment ID ranges containing what the source said
 
 Rules:
 - Do not include the base author/narrator.
+- "other" lists names and descriptions only, never pronouns such as "I", "we", "she", "they" or "our".
 - Prefer a human as the source when one is named. When no human is named but a document, study, or report is identified, use that as the "main" name.
 - All quoted or reported text must be attributed to a source. Use context to infer the source when not explicitly named.
 - Ranges are inclusive: [3, 5] covers segments 3, 4, and 5. A single segment is [n, n].
@@ -62,6 +68,7 @@ ATTRIBUTION_SCHEMA = {
                 "properties": {
                     "main": {"type": "string"},
                     "other": {"type": "array", "items": {"type": "string"}, "maxItems": MAX_ALIASES},
+                    "kind": {"type": "string", "enum": ACTOR_KINDS},
                     "segments": {
                         "type": "array",
                         "maxItems": MAX_RANGES,
@@ -73,7 +80,7 @@ ATTRIBUTION_SCHEMA = {
                         },
                     },
                 },
-                "required": ["main", "other", "segments"],
+                "required": ["main", "other", "kind", "segments"],
             },
         }
     },
@@ -129,6 +136,7 @@ def merge_results(left: AttributionResult, right: AttributionResult) -> Attribut
             by_name[src.main] = Source(
                 main=src.main,
                 other=list(dict.fromkeys(existing.other + src.other)),   # keeps the order, unlike a set
+                kind=existing.kind or src.kind,
                 segments=existing.segments + src.segments,
             )
         else:
@@ -181,7 +189,7 @@ def normalize_answer(result: AttributionResult) -> AttributionResult:
                 ranges.append([r[0], r[0]])
             elif len(r) > 2:
                 ranges.extend([i, i] for i in r)
-        sources.append(Source(main=src.main, other=list(dict.fromkeys(src.other)), segments=ranges))
+        sources.append(Source(main=src.main, other=list(dict.fromkeys(src.other)), kind=src.kind, segments=ranges))
     return merge_results(AttributionResult(sources=sources), AttributionResult(sources=[]))
 
 
@@ -469,6 +477,7 @@ def resolve_source_ranges(
             new_sources.append(Source(
                 main=src.main,
                 other=src.other,
+                kind=src.kind,
                 segments=remaining,
             ))
     return AttributionResult(sources=new_sources)
@@ -571,7 +580,7 @@ def attribution_monitoring_html(
         also = f' <span>aka {also_names}</span>' if src.other else ""
         legend_items.append(
             f'  <li>'
-            f'<mark class="{css_class}"><strong>{html_lib.escape(src.main)}</strong></mark>{also}'
+            f'<mark class="{css_class}"><strong>{html_lib.escape(src.main)}</strong></mark> ({html_lib.escape(str(src.kind))}){also}'
             f'</li>'
         )
     legend_html = "\n".join(legend_items)

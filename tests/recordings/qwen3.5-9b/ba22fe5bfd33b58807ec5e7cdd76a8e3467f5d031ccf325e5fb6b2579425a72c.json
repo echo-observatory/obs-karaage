@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-glyrqp6phge9d6dke68udu",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Brittany Phelps\", \"other\": [\"administrator of the United States Pirate Party\"], \"kind\": \"person\", \"segments\": [[6, 10], [13, 17], [21, 23], [27, 38], [39, 47], [48, 60], [64, 69], [73, 76], [81, 85], [91, 92], [93, 96]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651354,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 123,
+  "prompt_tokens": 1772,
+  "total_tokens": 1895,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-j28o8cvn8odc7ciu18kjo",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"In January 2009, Alain Lauzon, who serves as the General Manager of the Society for Reproduction Rights of Authors, Composers and Publishers, officially filed a supplementary affidavit. This document was intended to add his organization as a plaintiff in the class action lawsuit targeting major Canadian record labels over the issue of unpaid royalties.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651306,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 77,
+  "prompt_tokens": 215,
+  "total_tokens": 292,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

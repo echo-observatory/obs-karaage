@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-bc2p33bk4l7od3uhw2b86d",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"summary\": \"The speaker, Richard Stallman, argues that the current software system is fundamentally corrupt, stemming from companies lobbying lawmakers to secure dual protection via copyright and trade secrets, a practice he attributes to the 'revolving door' between business and government. He contends that this arrangement allows companies to restrict users by keeping source code secret and enforcing copyright, effectively creating Digital Rights Management (DRM) shackles that prevent users from studying, modifying, or sharing software. Stallman asserts that this model is morally wrong, comparing it to car manufacturers preventing owners from opening hoods, and advocates for a system where all software is 'free as in freedom,' ensuring users retain the four essential freedoms to run, study, modify, and share programs. He criticizes the DMCA for criminalizing the distribution of tools that bypass DRM, refuses to use terms like 'piracy' or 'protected works,' and opposes the W3C's Encrypted Media Extensions (EME) which force browsers to support DRM, thereby threatening the viability of free software. Furthermore, he expresses strong distrust of modern distribution formats like snaps and flatpaks, viewing them as mechanisms that obscure source code and undermine user control, ultimately calling for the elimination of DRM and the adoption of free software principles across all digital goods, including cars and tractors.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793652860,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 266,
+  "prompt_tokens": 7878,
+  "total_tokens": 8144,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -11,75 +11,80 @@
     "name": "Rameshwari Photocopy Service",
     "variations": [
      "DU's Rameshwari Photocopy Service",
-     "the shop",
+     "The shop",
      "the photocopy service shop"
-    ]
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Pradeep Nandrajog",
-    "variations": []
+    "variations": [],
+    "kind": "person"
+   },
+   {
+    "name": "Oxford University Press",
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "Dharam Pal Singh",
     "variations": [
-     "Dharam Pal"
-    ]
+     "Dharam Pal",
+     "The owner of the photocopy service shop"
+    ],
+    "kind": "person"
    },
    {
-    "name": "High Court",
+    "name": "Delhi High Court",
     "variations": [
-     "Delhi High Court",
-     "the bench"
-    ]
+     "The bench",
+     "The High Court"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Justice Rajiv Sahan Endlaw",
     "variations": [
-     "Justice Endlaw",
-     "judge Sahani"
-    ]
+     "Justice Endlaw"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "Judge Sahani",
+    "variations": [],
+    "kind": "person"
    }
   ],
   "statements": [
    {
-    "actor": "Dharam Pal Singh",
-    "key_statement": "The photocopy shop owner argues there is no justification for course packs beyond the curriculum as they contain only required readings and important book sections.",
-    "long_statement": "The owner of the Rameshwari Photocopy Service, Dharam Pal Singh, asserts that there is no justification for preparing course packs beyond the official curriculum, arguing that these collections contain only readings professors require or recommend and include merely important sections of published books, thereby negating the need for such compilations.",
-    "segment_range": [
-     11,
-     15
-    ],
-    "rouge2_precision": 0.2857
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Legal experts clarify that Indian law judges course pack legality based on whether the inclusion of copyrighted works is justified by the pack's educational purpose, not by whether the pack functions as a textbook.",
-    "long_statement": "Legal experts clarify that Indian law does not warrant judging the legality of course packs by whether they have become textbooks, but rather by considering whether the inclusion of copyrighted works within the pack is justified by the specific educational purpose of that course pack.",
+    "actor": "Delhi High Court",
+    "key_statement": "The Delhi High Court bench asserts that Indian law requires judging course pack legality based on whether the inclusion of copyrighted works is justified by the educational purpose, rather than by whether the packs have become textbooks.",
+    "long_statement": "The Delhi High Court bench asserts that Indian law does not warrant judging the legality of course packs by whether they have become textbooks, but rather by considering whether the inclusion of copyrighted works is justified by the specific educational purpose of the course pack. This legal framework requires a purpose-based analysis to determine if the distribution of course packs constitutes fair use or copyright infringement.",
     "segment_range": [
      16,
-     16
+     17
     ],
-    "rouge2_precision": 0.2353
+    "rouge2_precision": 0.1944
    },
    {
     "actor": "Dharam Pal Singh",
-    "key_statement": "The photocopy shop owner contends that students need course packs because many essential books are limited by availability, high prices, and poor circulation.",
-    "long_statement": "The owner of the Rameshwari Photocopy Service, Dharam Pal Singh, contends that students require course packs because many essential books are limited by availability, high prices, and poor circulation, with some texts costing over ₹2000 and others being unavailable for decades.",
+    "key_statement": "The photocopy shop owner argues that course packs are a necessary response to textbook unavailability and high costs.",
+    "long_statement": "The owner of the photocopy shop argues that the current distribution of course packs is a necessary response to severe market failures, where textbooks are often unavailable, prohibitively expensive, or out of print. He contends that because students rely on these compilations to access essential educational content, the practice serves a vital instructional purpose rather than constituting an absolute violation of intellectual property rights.",
     "segment_range": [
-     17,
+     18,
      26
     ],
-    "rouge2_precision": 0.2727
+    "rouge2_precision": 0.0588
    },
    {
     "actor": "Justice Rajiv Sahan Endlaw",
-    "key_statement": "Justice Endlaw argues copyright is a public-interest tool for knowledge expansion, not absolute ownership.",
-    "long_statement": "Justice Rajiv Sahan Endlaw of the Delhi High Court asserts that copyright in literary works is not an inherent, divine, or natural right granting authors absolute ownership. Instead, the legal framework views copyright as a mechanism designed to expand public knowledge and stimulate creative activity, ultimately serving the broader public interest rather than restricting access to information.",
+    "key_statement": "The judge states that the goal of copyright is to expand public knowledge, not to provide total ownership.",
+    "long_statement": "The judge asserts that copyright law in India is not designed to grant authors absolute ownership over their creations, but rather to function as a tool for increasing public knowledge and motivating creative activity. Consequently, the court must evaluate whether the inclusion of copyrighted material in course packs is justified by the specific educational purpose of the course, rather than automatically ruling it as an infringement.",
     "segment_range": [
      27,
      34
     ],
-    "rouge2_precision": 0.2143
+    "rouge2_precision": 0.1176
    }
   ]
  }

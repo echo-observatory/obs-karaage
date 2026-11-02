@@ -8,64 +8,63 @@
   "source_text_length_segments": 20,
   "actors": [
    {
-    "name": "Aaron Swartz",
-    "variations": [
-     "Swartz"
-    ]
-   },
-   {
     "name": "JSTOR",
-    "variations": []
+    "variations": [
+     "academic journal repository",
+     "JSTOR"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "U.S. District Court in Massachusetts",
     "variations": [
-     "U.S. District Court"
-    ]
+     "U.S. District Court in Massachusetts"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "FBI",
     "variations": [
      "FBI"
-    ]
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Wikimedia Foundation's Board of Trustees",
+    "variations": [
+     "Wikimedia Foundation's Board of Trustees"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Greg Maxwell",
     "variations": [
+     "contributor to Wikipedia and Wikimedia Commons",
      "Maxwell"
-    ]
+    ],
+    "kind": "person"
    }
   ],
   "statements": [
    {
-    "actor": "JSTOR",
-    "key_statement": "JSTOR will not file a civil lawsuit against Aaron Swartz.",
-    "long_statement": "JSTOR, the academic journal repository from which millions of papers were downloaded, intends not to pursue civil litigation against Aaron Swartz, despite his arrest and federal indictment for wire fraud and computer misuse.",
+    "actor": "base_author",
+    "key_statement": "Aaron Swartz faces federal fraud charges for downloading millions of academic papers from JSTOR.",
+    "long_statement": "Aaron Swartz, a Harvard fellow and open source programmer, was arrested and charged with multiple federal fraud counts after downloading two-thirds of JSTOR's academic journal repository by connecting a laptop to the MIT network. This legal action stems from the broader debate regarding the enforcement of copyright laws versus public access to scholarly information.",
     "segment_range": [
-     6,
-     7
+     0,
+     6
     ],
-    "rouge2_precision": 0.1562
+    "rouge2_precision": 0.2727
    },
    {
     "actor": "base_author",
-    "key_statement": "Following the indictment of Swartz, Greg Maxwell put a set of public domain papers from JSTOR online. These documents were all published before 1923.",
-    "long_statement": "Aaron Swartz faced legal charges. Greg Maxwell, who works for Wikipedia and Wikimedia Commons, shared a 33-gigabyte torrent of old public domain documents from JSTOR after this happened. This act shows the conflict between stopping copyright violations and letting people read history.",
+    "key_statement": "Aaron Swartz entered a not guilty plea and was freed on an unsecured bond worth $100,000.",
+    "long_statement": "Aaron Swartz was released on a $100,000 unsecured bond after pleading not guilty to all federal fraud charges, a legal status that allows him to remain free while awaiting trial for the alleged unauthorized downloading of millions of academic papers from JSTOR.",
     "segment_range": [
-     14,
-     19
+     10,
+     17
     ],
-    "rouge2_precision": 0.2609
-   },
-   {
-    "actor": "Greg Maxwell",
-    "key_statement": "A Wikipedia contributor released public domain papers from JSTOR to expose a contradiction between US copyright law and the journal's paywall.",
-    "long_statement": "In response to the federal prosecution of Aaron Swartz for accessing academic journals, a Wikipedia contributor has released a digital collection of over 33 gigabytes of historical papers from the Royal Society. This action highlights a specific legal contradiction where works published before 1923 are legally public domain in the United States yet remain behind a paywall on the JSTOR platform, effectively blocking public access to knowledge that should be freely available.",
-    "segment_range": [
-     14,
-     19
-    ],
-    "rouge2_precision": 0.169
+    "rouge2_precision": 0.2857
    }
   ]
  }

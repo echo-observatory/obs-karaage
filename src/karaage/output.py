@@ -24,6 +24,11 @@ def _slugify(title: str) -> str:
     return re.sub(r'[^\w]+', '-', title.lower()).strip('-')
 
 
+def snapshot_kind(kind):
+    """The snapshot specification's actor kinds: person, organisation, or null for anything else."""
+    return kind if kind in ("person", "organisation") else None
+
+
 def build_results(
     validated_statements: list,
     segments: list,
@@ -41,7 +46,7 @@ def build_results(
         "source_text_length_chars": sum(len(seg["text"]) for seg in segments),
         "source_text_length_segments": len(segments),
         "actors": [
-            {"name": src.main, "variations": src.other}
+            {"name": src.main, "variations": src.other, "kind": snapshot_kind(src.kind)}
             for src in source_list
         ],
         "statements": [

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-78pa7fc7cj6tkaw7d6lytb",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"The French National Assembly is to adopt a bill, known as DADVSI, tomorrow.\", \"rephrased\": \"The French National Assembly is scheduled to pass the DADVSI bill, a legislative measure designed to enforce stricter copyright protections and digital locks within the country.\", \"summary\": \"France's parliament is set to pass a controversial copyright law.\"}, \"1\": {\"original\": \"The bill reforms France's intellectual property code to implement a 2001 EU... (\", \"rephrased\": \"The proposed legislation updates France's intellectual property framework to comply with a 2001 European directive, which mandates the legal enforcement of digital locks that restrict users from freely copying or playing protected content.\", \"summary\": \"The new law updates French copyright rules to enforce digital locks.\"}, \"2\": {\"original\": \"Lawmakers from both the majority UMP party and the opposition found it unwise...\", \"rephrased\": \"Representatives from both the ruling majority and the opposition parties in the French National Assembly argued that the initial draft of the copyright bill was unwise because it threatened to criminalize millions of ordinary citizens for merely downloading files.\", \"summary\": \"French lawmakers opposed a draft law that would have criminalized file sharing.\"}, \"3\": {\"original\": \"Lawmakers adopted an amendment making mere downloading of one file punishable by\", \"rephrased\": \"In response to concerns about the initial draft, French lawmakers from across the political spectrum adopted an amendment that replaced the threat of prison with a fixed €38 fine for downloading a single copyrighted file.\", \"summary\": \"Lawmakers amended the bill to replace prison sentences with a small fine for downloading.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650716,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 354,
+  "prompt_tokens": 2292,
+  "total_tokens": 2646,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

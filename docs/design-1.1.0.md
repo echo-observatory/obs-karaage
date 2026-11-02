@@ -18,7 +18,7 @@ It runs seven steps, one module each:
 7. **Validation** (`validation.py`): an LLM checks that each statement is in the passage and attributed to the right actor.
 
 In scope:
-- The seven steps, the actor kinds and the document author (section 3).
+- The seven steps and the actor kinds (section 3).
 - Writing one output file and one HTML report per document (section 6).
 - Warning about input that looks wrong (not English, not normalised).
 
@@ -35,7 +35,7 @@ Karaage never modifies the input text. All offsets point into the text exactly a
 - **Segment:** the smallest unit, produced by step 1. A dict `{id, text, start, end}`; `start` and `end` are code-point offsets into the text, `end` excluded.
 - **Actor:** a person, organisation or document that a segment is attributed to in step 2. The code calls it a *source*, with a `main` name and `other` names.
 - **`base_author`:** the placeholder actor for every segment not attributed to anyone else, i.e. the text's own voice. It stays a placeholder in the output (section 3.3).
-- **Document author:** whoever the text names as its author, such as a byline. Recorded at document level, separately from `base_author`.
+- **Document author:** whoever the text names as its author, such as a byline. Not part of 1.1.0 (section 3.4).
 - **Passage:** consecutive segments grouped in step 3, at most 2,000 characters, short enough for a human to check.
 - **Statement:** what one actor states in one passage, extracted in step 4 and then rephrased, possibly paraphrased, and validated.
 - **Main point:** one sentence stating the central argument of the text, given as context to steps 4 and 5.
@@ -56,19 +56,16 @@ A statement's `char_start` and `char_end` are those of its passage: the `start` 
 ### 3.3 `base_author` stays a placeholder
 
 Statements in the text's own voice keep the actor `base_author`. Karaage does not replace it with the document author's name.
-*Reason:* method clarity. The document author is recorded separately (3.4), and linking the two is a later reconciliation step.
+*Reason:* method clarity. Linking `base_author` to the document's author is a later reconciliation step.
 
-### 3.4 Actors and document author
+### 3.4 Actors
 
 Each actor in the output has:
 - `canonical_name`: the full name of a person, the official name of an organisation, or the title of a document;
 - `aliases`: the other names the text uses for it, possibly empty;
-- `kind`: `person`, `organisation` or `null` (documents, unknown). These are the snapshot specification's values, with its spelling.
+- `kind`: `person`, `organisation` or `null` (documents, unknown). These are the snapshot specification's values, with its spelling. The attribution prompt lets the model choose among `person`, `organisation`, `document` and `unknown`, and the output maps the last two to `null`.
 
-The **document author** list uses the same shape. It may be empty.
-- It is inferred from the text only, by a separate LLM call. The call is given the whole text when it fits the context, otherwise the beginning and end, where bylines usually are, plus the title when known.
-- An outlet counts as author only when the text itself presents it as the author.
-- Author information from metadata is out of scope.
+The **document author** is not part of 1.1.0. A separate LLM call, given the text (or its beginning and end) and asked who the text presents as its author, named quoted people and interviewees as authors in most of the 30 test articles, which have no bylines. Asking for a quote of the byline did not fix it. It will be revisited once there are evals (milestone "Quality").
 
 There are no character offsets and no `source` field: everything Karaage reports is inferred from the text.
 
@@ -189,7 +186,7 @@ A document has:
 | --- | --- | --- |
 | `id` | yes | Document id, unique in the run. Integers are accepted and stored as strings. |
 | `text` | yes | The text, in English. |
-| `title` | no | Title or headline, given as context to the main point and document author steps. |
+| `title` | no | Title or headline, given as context to the main point step. |
 | `published_at` | no | Publication date or time, given as context in the same steps. |
 
 The command line reads JSONL, one document per line: `karaage run --input docs.jsonl --output DIR [--profile NAME] [--report]`.
@@ -227,9 +224,6 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
   "main_point_method": "single",
   "actors": [
     {"canonical_name": "Jane Doe", "aliases": ["Doe", "the spokesperson"], "kind": "person"}
-  ],
-  "document_authors": [
-    {"canonical_name": "John Roe", "aliases": [], "kind": "person"}
   ],
   "statements": [
     {
@@ -334,7 +328,7 @@ GitHub Actions runs the tests in replay mode on every pull request. The benepar 
 `data/test-datasets/wikinews-piracy-30/` is a copy of the dataset in `echo-observatory/obs-test-datasets`, the canonical home. Fix it there, then copy it.
 Useful cases:
 - **Article 7:** an interview transcript with speaker labels in brackets.
-- **Article 19:** names its reporter in the text, which tests the document author.
+- **Article 19:** names its reporter in the text, a test case for the document author (deferred, section 3.4).
 - **Article 30:** about 39,500 characters, larger than the 8,000-token context, which tests long documents.
 
 ## 9. Working on an issue

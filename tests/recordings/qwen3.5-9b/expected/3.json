@@ -8,35 +8,49 @@
   "source_text_length_segments": 21,
   "actors": [
    {
+    "name": "Electronic Frontier Foundation",
+    "variations": [
+     "EFF"
+    ],
+    "kind": "organisation"
+   },
+   {
     "name": "Seth Schoen",
     "variations": [
      "EFF Staff Technologist"
-    ]
+    ],
+    "kind": "person"
    },
    {
     "name": "Annalee Newitz",
     "variations": [
      "EFF Media Coordinator"
-    ]
+    ],
+    "kind": "person"
    },
    {
-    "name": "Sheryl Crow",
+    "name": "Recording Artists' Coalition",
     "variations": [
-     "Recording Artists' Coalition spokesperson",
-     "professional singer"
-    ]
+     "RAC"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "US Constitution",
+    "variations": [],
+    "kind": null
    }
   ],
   "statements": [
    {
-    "actor": "Sheryl Crow",
-    "key_statement": "A professional singer and coalition spokesperson argues that modern digital file-sharing differs fundamentally from older analog technology by allowing perfect copies, suggesting the original intent of the US Constitution's copyright clause was to promote progress rather than secure exclusive rights",
-    "long_statement": "A professional singer and spokesperson for the Recording Artists' Coalition notes that although Betamax technology created noticeably worse second copies, current digital file-sharing enables the spread of millions of exact reproductions. This person argues that the original text of the US Constitution's copyright clause was designed to advance the progress of useful arts, not to guarantee exclusive rights forever.",
+    "actor": "US Constitution",
+    "key_statement": "The copyright provision within the US Constitution highlights a specific goal: to encourage advancement in science and useful arts by ensuring authors hold exclusive rights.",
+    "long_statement": "The original text of the US Constitution's copyright clause states that the purpose of securing exclusive rights to authors and inventors is to promote the progress of science and useful arts, rather than to grant rights for their own sake. This foundational legal principle underpins the current Supreme Court case over digital file-sharing, emphasizing that copyright law is intended to foster public advancement through the dissemination of knowledge.",
     "segment_range": [
-     15,
-     19
+     17,
+     20
     ],
-    "rouge2_precision": 0.25
+    "rouge2_precision": 0.2917
    }
   ]
  }

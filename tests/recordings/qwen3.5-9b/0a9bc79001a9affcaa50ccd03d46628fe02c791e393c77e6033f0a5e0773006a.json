@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-yefvsxxuprqql8bvqgagve",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"released quarterly sales figures showing a historic low in iPod sales\", \"rephrased\": \"Apple released quarterly sales data indicating that iPod units sold only 9 million in the quarter ending June, marking the lowest volume recorded since 2006 and signaling a historic downturn for the device.\", \"summary\": \"Apple reported historic low iPod sales of 9 million units in the quarter ending June.\"}, \"1\": {\"original\": \"iPod sales hit a historic low at 9m for the quarter to June, the lowest since 20\", \"rephrased\": \"With iPod sales dropping to 9 million units in the quarter ending June—the lowest figure since 2006—the device appears to be in decline, even as Apple's iPhone and iPad continue to sell in high numbers.\", \"summary\": \"iPod sales hit a historic low of 9 million units in the quarter ending June, signaling device decline.\"}, \"2\": {\"original\": \"decline in MP3 player sales is a problem for record companies\", \"rephrased\": \"The decline in sales of standalone MP3 players poses a significant problem for record companies, as the industry fears that falling interest in these devices will eventually reduce overall demand for digital music downloads.\", \"summary\": \"The decline in MP3 player sales is a problem for record companies.\"}, \"3\": {\"original\": \"digital music sales growth matches Apple device sales\", \"rephrased\": \"Digital music sales are currently growing at the same rate as Apple's device sales, suggesting that the industry's reliance on the iPod to drive digital consumption is becoming increasingly precarious as the device itself loses market share.\", \"summary\": \"Digital music sales growth matches Apple device sales.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651468,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 363,
+  "prompt_tokens": 2014,
+  "total_tokens": 2377,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

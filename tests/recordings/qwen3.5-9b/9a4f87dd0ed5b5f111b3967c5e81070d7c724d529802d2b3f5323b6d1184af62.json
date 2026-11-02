@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-7qjq2jh0asco9sblnxrln",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"RIAA claimed youtube-dl was designed to bypass streaming protections and legally\", \"rephrased\": \"The Recording Industry Association of America (RIAA) asserts that the youtube-dl software was engineered to circumvent technological protection measures on streaming services, arguing that specific test cases within the code constitute illegal copyright infringement rather than legitimate quality assurance checks.\", \"summary\": \"The RIAA claims youtube-dl's test cases are illegal copyright circumvention tools.\"}, \"1\": {\"original\": \"This file contains automated tests verifying youtube-dl functionality, not perma\", \"rephrased\": \"The Electronic Frontier Foundation (EFF) clarifies that the disputed code files are merely automated tests verifying the functionality of the youtube-dl program, explicitly stating they do not contain permanent copies of copyrighted songs.\", \"summary\": \"The EFF clarifies the disputed code files are automated tests, not song copies.\"}, \"2\": {\"original\": \"The unit tests merely stream a few seconds to verify software operation, whic\", \"rephrased\": \"The Electronic Frontier Foundation (EFF) argues that streaming a small, non-permanent portion of a song solely to verify the operation of independently created software qualifies as fair use under U.S. copyright law.\", \"summary\": \"The EFF argues streaming brief clips for software testing is fair use.\"}, \"3\": {\"original\": \"youtube-dl does not decrypt video streams encrypted with commercial DRM technol\", \"rephrased\": \"The Electronic Frontier Foundation (EFF) emphasizes that the youtube-dl software does not possess the capability to decrypt video streams protected by commercial Digital Rights Management (DRM) technologies, distinguishing it from tools designed to break encryption.\", \"summary\": \"The EFF emphasizes youtube-dl cannot decrypt commercially encrypted streams.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793652930,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 371,
+  "prompt_tokens": 2152,
+  "total_tokens": 2523,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

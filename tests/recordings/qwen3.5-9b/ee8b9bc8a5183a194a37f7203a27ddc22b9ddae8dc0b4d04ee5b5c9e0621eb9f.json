@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-91qkd489cpgip3sl9cplnj",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"Students need course packs due to book limitations in availability, price, and.\", \"rephrased\": \"The owner of the photocopy shop argues that the current distribution of course packs is a necessary response to severe market failures, where textbooks are often unavailable, prohibitively expensive, or out of print. He contends that because students rely on these compilations to access essential educational content, the practice serves a vital instructional purpose rather than constituting an absolute violation of intellectual property rights.\", \"summary\": \"The photocopy shop owner argues that course packs are a necessary response to textbook unavailability and high costs.\"}, \"5\": {\"original\": \"Copyright is not an absolute right but intended to increase knowledge and motiva\", \"rephrased\": \"The judge asserts that copyright law in India is not designed to grant authors absolute ownership over their creations, but rather to function as a tool for increasing public knowledge and motivating creative activity. Consequently, the court must evaluate whether the inclusion of copyrighted material in course packs is justified by the specific educational purpose of the course, rather than automatically ruling it as an infringement.\", \"summary\": \"The judge asserts that copyright is intended to benefit the public by increasing knowledge rather than granting absolute ownership.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651778,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 257,
+  "prompt_tokens": 1833,
+  "total_tokens": 2090,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

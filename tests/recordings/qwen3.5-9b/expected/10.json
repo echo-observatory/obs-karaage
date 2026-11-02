@@ -8,102 +8,126 @@
   "source_text_length_segments": 66,
   "actors": [
    {
+    "name": "The Swedish National Criminal Police",
+    "variations": [
+     "the police",
+     "police"
+    ],
+    "kind": "organisation"
+   },
+   {
     "name": "The Pirate Bay",
     "variations": [
-     "The site operators",
-     "The Pirate Bay site"
-    ]
+     "the site",
+     "the site operators",
+     "they"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Rickard Falkvinge",
     "variations": [
      "head of the Swedish Pirate Party"
-    ]
+    ],
+    "kind": "person"
    },
    {
-    "name": "Tobias Andersson",
+    "name": "Ulf Goranzon",
     "variations": [
-     "of Piratbyrån"
-    ]
+     "a police spokesman"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "United States media corporations",
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "Sveriges Television",
     "variations": [
      "Swedish public broadcaster"
-    ]
+    ],
+    "kind": "organisation"
    },
    {
-    "name": "The Antipiratbyrån",
+    "name": "Tobias Andersson",
     "variations": [
-     "Swedish Anti-Piracy Bureau"
-    ]
+     "of Piratbyrån"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "The IFPI",
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "Dan Glickman",
     "variations": [
-     "CEO of the Motion Picture Association of America (MPAA)"
-    ]
+     "CEO of the Motion Picture Association of America",
+     "CEO of the MPAA"
+    ],
+    "kind": "person"
    },
    {
     "name": "Kori Bernards",
     "variations": [
      "an MPAA representative"
-    ]
-   },
-   {
-    "name": "The MPAA",
-    "variations": [
-     "Motion Picture Association of America"
-    ]
-   },
-   {
-    "name": "Gottfrid Svartholm",
-    "variations": [
-     "owner of webhotel PRQ",
-     "Mr. Svartholm"
-    ]
+    ],
+    "kind": "person"
    }
   ],
   "statements": [
    {
-    "actor": "Tobias Andersson",
-    "key_statement": "The Swedish Anti-Piracy Bureau allegedly misled police to illegally shut down Piratbyrån.",
-    "long_statement": "The Swedish Anti-Piracy Bureau is accused of misleading law enforcement to execute a politically motivated sting operation that resulted in the illegal shutdown of its political opponents, Piratbyrån, rather than addressing genuine copyright concerns.",
+    "actor": "base_author",
+    "key_statement": "The raid on the site based on alleged copyright violations was surprising given the long-standing public legal debate.",
+    "long_statement": "A search warrant was executed to close the site for suspected copyright infringement. This action was unexpected, given that the operation's legality had been heavily debated by the public for more than three years. During this time, the operators often released press statements to support their stance.",
     "segment_range": [
-     21,
-     23
+     2,
+     7
     ],
-    "rouge2_precision": 0.0
+    "rouge2_precision": 0.1111
+   },
+   {
+    "actor": "Rickard Falkvinge",
+    "key_statement": "Rickard Falkvinge stated that law enforcement detained three employees, but only two individuals were actually placed in custody.",
+    "long_statement": "Rickard Falkvinge, who leads the Swedish Pirate Party, stated that law enforcement detained three employees of the website. However, only two people were actually placed in custody. This difference conflicts with the official police report on how many arrests occurred.",
+    "segment_range": [
+     8,
+     10
+    ],
+    "rouge2_precision": 0.1538
    },
    {
     "actor": "Dan Glickman",
-    "key_statement": "The MPAA's CEO supports the raid as a necessary enforcement against copyright infringement.",
-    "long_statement": "Dan Glickman, who serves as the head of the Motion Picture Association of America, backs the police operation against The Pirate Bay. He views this raid as a required step to show that people sharing copyrighted content without authorization have nowhere to hide.",
+    "key_statement": "Dan Glickman praised the police action against The Pirate Bay, noting it shows that copyright thieves have no safe havens.",
+    "long_statement": "Dan Glickman, who leads the Motion Picture Association of America, praised the police operation against The Pirate Bay. He stated that this raid serves as a vital warning: copyright infringers have no safe havens. He also stressed that digital platforms must be held responsible for sharing illegal material.",
     "segment_range": [
-     24,
+     23,
      27
     ],
-    "rouge2_precision": 0.1905
+    "rouge2_precision": 0.1702
    },
    {
-    "actor": "The MPAA",
-    "key_statement": "The MPAA identifies The Pirate Bay as a top target for copyright enforcement.",
-    "long_statement": "The Motion Picture Association of America identifies The Pirate Bay as a primary target for enforcement, alleging that the site distributed over 150,000 files, including major Hollywood blockbusters, thereby justifying aggressive legal action against the platform.",
+    "actor": "base_author",
+    "key_statement": "Official confirmation of the raid contrasts with a detained host's account of being denied legal representation.",
+    "long_statement": "Swedish officials have confirmed the authenticity of the police raid on The Pirate Bay, a move that aligns with the site's own updated notice promising a quick return, even as a detained web host alleges he was arrested and denied legal representation during the operation.",
     "segment_range": [
-     28,
-     31
+     47,
+     60
     ],
-    "rouge2_precision": 0.25
+    "rouge2_precision": 0.1556
    },
    {
-    "actor": "Gottfrid Svartholm",
-    "key_statement": "The detained web host was denied a public defender and unable to defend himself against charges that did not carry a jail sentence.",
-    "long_statement": "The detained web host responsible for the server hosting the site was arrested for interrogation and denied access to a public defender, even though his regular legal representative was also taken into custody, creating a situation where the individual was unable to mount a legal defense against charges that did not carry a mandatory jail sentence.",
+    "actor": "The Swedish National Criminal Police",
+    "key_statement": "Swedish police denied a detained web host a public defender by citing the non-custodial nature of his specific charge.",
+    "long_statement": "The Swedish National Criminal Police informed the detained web host, Gottfrid Svartholm, that he was not entitled to a public defender because the specific charge he faced did not carry a potential prison sentence, a legal justification used to deny him legal representation during the interrogation phase of the raid on The Pirate Bay and associated servers.",
     "segment_range": [
-     53,
+     61,
      64
     ],
-    "rouge2_precision": 0.2
+    "rouge2_precision": 0.1053
    }
   ]
  }
