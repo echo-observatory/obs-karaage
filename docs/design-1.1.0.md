@@ -277,7 +277,7 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
   - `commit` is the git commit Karaage was built from, recorded at build time, so that installed releases carry it too;
   - `profile_settings` is the resolved profile;
   - `model` is the id the profile asks for on this backend, and `model_reported` the id the server returns;
-  - `model_build` is the loaded build as LM Studio reports it (section 4.1), or `null` on other backends.
+  - `model_build` is the loaded build as LM Studio reports it (section 4.1); on OpenRouter, the providers that served the document's requests, since they may run different precisions; `null` on other backends.
 - **`inferred_at`:** UTC in the snapshot format `YYYY-MM-DDTHH:MM:SSZ`.
 
 ### 6.4 Mapping to the snapshot specification

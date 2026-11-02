@@ -97,6 +97,7 @@ def run(text: str, resources: Resources) -> PipelineResult:
     from karaage.output import build_results, build_html_report, build_speaker_styles
 
     llm.activate(resources.client)
+    resources.client.providers.clear()
     step_times = {}
     step_errors = {}
     pipeline_stopped = False

@@ -39,6 +39,7 @@ class LLMClient:
                              max_retries=MAX_RETRIES, timeout=TIMEOUT_SECONDS)
         self.model_reported = None   # model id given by the server in its latest response
         self.model_build = None      # LM Studio only: the build that is loaded (lmstudio_build)
+        self.providers = set()       # OpenRouter only: providers that served requests, reset per document
 
     def check(self) -> None:
         """Check that the backend serves the profile's model, and on LM Studio record and check its build."""
@@ -95,6 +96,8 @@ class LLMClient:
             kwargs["extra_body"] = extra_body
         response = self.client.chat.completions.create(**kwargs)
         self.model_reported = response.model
+        if getattr(response, "provider", None):   # OpenRouter names the provider that served the request
+            self.providers.add(response.provider)
         return response
 
     def complete_json(self, system: str, user: str, schema: dict, *, name: str,
@@ -125,7 +128,9 @@ class LLMClient:
             "backend": self.backend,
             "model": self.model,
             "model_reported": self.model_reported,
-            "model_build": self.model_build,
+            # OpenRouter may route each request to a provider running another precision.
+            "model_build": self.model_build if self.backend != "openrouter"
+                           else {"providers": sorted(self.providers)},
         }
 
 
