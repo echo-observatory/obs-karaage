@@ -1,0 +1,535 @@
+{
+ "0312317a4cc95702190a8909a40cf835913f6b405999fddb64a147b40c6f80cf": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651678,
+  "id": "chatcmpl-rrkb0d6921k0pyin1esj2n",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 202,
+   "prompt_tokens_details": null,
+   "total_tokens": 217
+  }
+ },
+ "1e7286127b05270b8d2d2718af4bc64cb41431d357cee9b1bdf55adcfd8772f6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Anonymous launched coordinated cyberattacks against US Justice, FBI, and major record label websites in retaliation for anti-piracy laws and the Megaupload shutdown.\"], \"Anonymous\": [\"Anonymous claims responsibility for the attacks, stating they are a response to the FBI's seizure of Megaupload and a protest against US anti-piracy laws.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651654,
+  "id": "chatcmpl-uvt6c0pt3clqeta0v91n9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 73,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 828,
+   "prompt_tokens_details": null,
+   "total_tokens": 901
+  }
+ },
+ "20d8fa48c11571a81b270b7437e1cc22d19517f6da1bbf91c5bdea8a669544aa": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Federal Bureau of Investigation\": [\"The FBI's seizure and shutdown of the file-sharing website Megaupload.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651656,
+  "id": "chatcmpl-hoxkn8p1gi5ce8jefv0sls",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 23,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 888,
+   "prompt_tokens_details": null,
+   "total_tokens": 911
+  }
+ },
+ "44891533c1f0651c8cd44be523781bb0e687a686998edcc74fffb1510647eaae": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651676,
+  "id": "chatcmpl-q1d3bjn0nilfxbqgj6av",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 299,
+   "prompt_tokens_details": null,
+   "total_tokens": 314
+  }
+ },
+ "586a845db54a4d3fcabdcf1801e3ef4ba7983d4e774d2e420e4225cb23e96b40": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651676,
+  "id": "chatcmpl-1xuhqcyn1ne6xu1pw6daph",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 297,
+   "prompt_tokens_details": null,
+   "total_tokens": 312
+  }
+ },
+ "815640b400a9c66b232d2b265975a4663c69de8d29f913c95179c8c13da94086": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"Anonymous launched coordinated cyberattacks against US Justice, FBI, and major 2\", \"rephrased\": \"In response to the United States government's decision to shut down the file-sharing site Megaupload and advance strict anti-piracy legislation, the hacker collective Anonymous executed a synchronized cyberoperation that successfully disabled the online portals of the Federal Bureau of Investigation, the Department of Justice, and major music corporations. This coordinated retaliation was designed to demonstrate the group's capacity to disrupt critical digital infrastructure as a direct countermeasure against federal enforcement actions.\", \"summary\": \"Anonymous executed a coordinated cyberattack against US government and record label websites as retaliation for the Megaupload shutdown and anti-piracy laws.\"}, \"1\": {\"original\": \"Anonymous claims responsibility for the attacks, stating they are a response to \", \"rephrased\": \"Members of the hacker group Anonymous publicly claimed credit for disabling the websites of the US Justice Department, the Federal Bureau of Investigation, and the Recording Industry Association of America, framing these actions as a necessary protest against the FBI's seizure of the Megaupload file-sharing service and opposition to proposed American anti-piracy laws. The group argued that this direct confrontation was a justified response to what they viewed as excessive government overreach in the digital space.\", \"summary\": \"Anonymous claimed responsibility for taking down government and record label websites as a protest against the Megaupload seizure and anti-piracy laws.\"}, \"2\": {\"original\": \"The FBI's seizure and shutdown of the file-sharing website Megaupload.\", \"rephrased\": \"The Federal Bureau of Investigation carried out the seizure and permanent shutdown of the Megaupload file-sharing website, an action taken to enforce copyright laws and dismantle a platform accused of facilitating massive-scale digital piracy and financial fraud. This enforcement move involved the arrest of the site's founder and several associates, marking a significant escalation in the government's crackdown on online copyright infringement.\", \"summary\": \"The FBI seized and shut down the Megaupload file-sharing website to enforce copyright laws and arrest its operators.\"}, \"3\": {\"original\": \"On Thursday the FBI seized and shutdown the website, arresting its founder and  \", \"rephrased\": \"On Thursday, the Federal Bureau of Investigation executed the seizure and shutdown of the Megaupload website, resulting in the arrest of the site's founder and six other individuals on charges including copyright infringement, racketeering, and conspiracy to commit money laundering. Authorities stated that these legal actions were necessary to dismantle an operation that had cost the entertainment industry hundreds of millions of dollars in damages through unauthorized distribution of copyrighted material.\", \"summary\": \"The FBI seized the Megaupload website and arrested its operators for copyright infringement and money laundering.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651660,
+  "id": "chatcmpl-kpc0rg71vflec4ab2dabru",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 556,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2048,
+   "prompt_tokens_details": null,
+   "total_tokens": 2604
+  }
+ },
+ "93dabe41160e3427b3c83f3c9604a46b260a2989d25380792b4849db455616f5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"allowed individuals to download movies, music, TV programs, e-books, and so on\", \"rephrased\": \"The file-sharing platform Megaupload enabled users to access copyrighted content, including films, music, and software, often before their official theatrical or commercial release, thereby facilitating widespread unauthorized distribution that the entertainment industry argues caused hundreds of millions of dollars in financial losses.\", \"summary\": \"Megaupload provided a mechanism for the mass, pre-release distribution of copyrighted media, resulting in significant financial damages for the entertainment industry.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651673,
+  "id": "chatcmpl-0jhivj3z3yrftq76yj9wao",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 115,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1569,
+   "prompt_tokens_details": null,
+   "total_tokens": 1684
+  }
+ },
+ "953dfe241f130e33d0054f2b5ac679731ad09ca247bd1b44b145ba7b6ec90de2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"On Thursday the FBI seized and shutdown the website, arresting its founder and three other people. A total of seven people connected to the website were arrested and indicted on charges that include copyright infringement, racketeering, and conspiracy to commit money laundering.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651657,
+  "id": "chatcmpl-2ibkv6xjhnbjzp0jypzaci",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 56,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 739,
+   "prompt_tokens_details": null,
+   "total_tokens": 795
+  }
+ },
+ "a1234d8802364095bfda40c1c17eb13d016be49d6d19764c68443812249f00e9": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Anonymous\", \"other\": [\"members of online activist group Anonymous\", \"members of Anonymous\", \"YourAnonNews\", \"Another member of Anonymous\"], \"kind\": \"organisation\", \"segments\": [[2, 2], [8, 9], [10, 11], [16, 16], [17, 19]]}, {\"main\": \"Universal Music Group\", \"other\": [\"Universal Music\", \"www.universalmusic.com\"], \"kind\": \"organisation\", \"segments\": [[7, 7]]}, {\"main\": \"Recording Industry Association of America\", \"other\": [\"RIAA\"], \"kind\": \"organisation\", \"segments\": [[5, 5]]}, {\"main\": \"Federal Bureau of Investigation\", \"other\": [\"FBI\", \"www.fbi.gov\"], \"kind\": \"organisation\", \"segments\": [[2, 2], [4, 4], [8, 9], [22, 23]]}, {\"main\": \"United States Department of Justice\", \"other\": [\"US Justice Department\", \"www.justice.gov\", \"The government\"], \"kind\": \"organisation\", \"segments\": [[2, 2], [4, 4], [13, 15]]}, {\"main\": \"Megaupload\", \"other\": [\"file-sharing website Megaupload\", \"the website\"], \"kind\": \"document\", \"segments\": [[21, 21], [27, 28]]}, {\"main\": \"Authorities\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[26, 30]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651645,
+  "id": "chatcmpl-s2x1wouezlptknyqtlocn",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 349,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1031,
+   "prompt_tokens_details": null,
+   "total_tokens": 1380
+  }
+ },
+ "a30515769b69d2546363536855f94f49d5278520f9974039a43ec63427b75f1d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Megaupload\": [\"allowed individuals to download movies, music, TV programs, e-books, and software on a massive scale\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651659,
+  "id": "chatcmpl-dvtjllj11q6maipcrrwlzc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 28,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 715,
+   "prompt_tokens_details": null,
+   "total_tokens": 743
+  }
+ },
+ "bec56d3d0cafa2dc8a91e1e6b6511af532cb265ef184bc6aa7d572011a6dcd49": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"In retaliation for the FBI's shutdown of the file-sharing site Megaupload and proposed anti-piracy laws, the hacker group Anonymous launched a massive coordinated cyberattack that took down the websites of the US Justice Department, FBI, and major record labels.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651653,
+  "id": "chatcmpl-kxviirimgbl9m1q8e3xdc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 57,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 699,
+   "prompt_tokens_details": null,
+   "total_tokens": 756
+  }
+ },
+ "e61f84066a63f678ce21e3167c0a77dcbcd913b0374b83f04ff54eb1619f2872": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651677,
+  "id": "chatcmpl-qlv31ckrdqqkdgzwglcz9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 260,
+   "prompt_tokens_details": null,
+   "total_tokens": 275
+  }
+ },
+ "e6853b560bb9af3a8aa069bbbb6b47d323ae2d91973ae18ca2d4b15043c206b9": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651677,
+  "id": "chatcmpl-w58fxwfoqqq44a6as8j2",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 208,
+   "prompt_tokens_details": null,
+   "total_tokens": 223
+  }
+ }
+}

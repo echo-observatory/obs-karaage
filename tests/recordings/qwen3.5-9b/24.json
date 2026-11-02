@@ -1,0 +1,699 @@
+{
+ "08b217c99e15f06a0926c69b81985fadaea01b3a8077aec5bc165428baa8a537": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Sue Gardner, the executive director, asserts the blackout is effective because it has already generated over 4,000 news stories and trending Twitter activity, while acknowledging uncertainty about whether readers will contact lawmakers.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651616,
+  "id": "chatcmpl-j2eh41voegpzyrlof29pn",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 49,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1252,
+   "prompt_tokens_details": null,
+   "total_tokens": 1301
+  }
+ },
+ "2a20c7b9f9374b12156fb0654e9674bbce4de27f09fb7ad6f04c0d21fb9232bd": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"The Foundation is being asked whether it will establish a policy or set of条件的 to\", \"rephrased\": \"The Wikimedia Foundation is currently facing inquiries regarding whether it will create formal policies or specific conditions to restrict future digital protests and advocacy campaigns, even as it acknowledges the value of community-led decision-making processes.\", \"summary\": \"The Wikimedia Foundation faces questions about restricting future digital protests despite valuing community decisions.\"}, \"5\": {\"original\": \"Wikimedia lacks advocacy experience, so mistakes are likely.\", \"rephrased\": \"The Wikimedia Foundation recognizes that its limited experience in political advocacy means the organization is likely to make errors while learning how to effectively support digital rights campaigns, even though it currently has no plans to create binding rules for such activities.\", \"summary\": \"The Wikimedia Foundation admits its lack of advocacy experience makes mistakes likely while avoiding formal protest policies.\"}, \"6\": {\"original\": \"The Foundation has no plans to develop policy governing protests or advocacy\", \"rephrased\": \"The Wikimedia Foundation has no current intention to establish binding policies that would govern future protests or advocacy work, yet it remains committed to creating open forums where diverse stakeholders can share expertise and discuss the complexities of digital rights activism.\", \"summary\": \"The Wikimedia Foundation refuses to create binding protest policies but supports open discussions on digital rights.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651634,
+  "id": "chatcmpl-dyqh6wg0uch2fpswdyjbq3",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 277,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2523,
+   "prompt_tokens_details": null,
+   "total_tokens": 2800
+  }
+ },
+ "43e239aa7e1b6fd7c9dfcc00871b30084d6a5538c259f9935470226cd58c4fa6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"Sue Gardner, the executive director, asserts the blackout is effective because 4\", \"rephrased\": \"The Wikimedia Foundation's executive director confirms that the 24-hour Wikipedia blackout against U.S. anti-piracy laws is already achieving its primary goal of raising public awareness, evidenced by thousands of news stories and trending social media activity, even though the extent to which this pressure will translate into direct contact with lawmakers remains uncertain.\", \"summary\": \"The Wikimedia Foundation's executive director confirms the blackout's success in raising awareness about U.S. anti-piracy laws, though legislative impact remains uncertain.\"}, \"1\": {\"original\": \"Jimmy started the straw poll in mid-December, resulting in over 1,800 particip\", \"rephrased\": \"The largest-ever community discussion on the English Wikipedia, involving over 1,800 participants from diverse countries, overwhelmingly supported the decision to stage the 24-hour blackout, validating the democratic process used to determine the protest's scope and timing.\", \"summary\": \"The largest-ever community discussion on the English Wikipedia overwhelmingly validated the decision to stage the 24-hour blackout.\"}, \"2\": {\"original\": \"Each project and language has different circumstances justifying different act\", \"rephrased\": \"The Wikimedia Foundation maintains that there is no single correct approach for all language versions, arguing that each project must independently assess its specific circumstances to decide whether to join the 24-hour blackout or display supportive banners.\", \"summary\": \"The Wikimedia Foundation argues that each language version must independently decide whether to join the blackout based on its specific circumstances.\"}, \"3\": {\"original\": \"The lack of participation by major commercial sites does not hamper the blacko\", \"rephrased\": \"The absence of major commercial websites from the 24-hour blackout does not undermine the protest's effectiveness, as these entities are often legally or financially constrained by shareholder demands, revenue concerns, and contractual uptime obligations that prevent participation.\", \"summary\": \"The absence of major commercial websites does not undermine the protest's effectiveness due to legal and financial constraints.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651624,
+  "id": "chatcmpl-uysg12zkkwf3pprmu79pir",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 440,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2640,
+   "prompt_tokens_details": null,
+   "total_tokens": 3080
+  }
+ },
+ "4439ed1f9250c8bf9b2822c293da637c7560434f9f9ed2e4e1c70d24b164c916": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651642,
+  "id": "chatcmpl-yctd5snu74o7ruqbyi3hf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 405,
+   "prompt_tokens_details": null,
+   "total_tokens": 420
+  }
+ },
+ "46e8c382568402686360f43b6d24e23ffd30c05832c61ab3c95688b16e27577c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651643,
+  "id": "chatcmpl-c02ha92ispa3dfnzg8comk",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 399,
+   "prompt_tokens_details": null,
+   "total_tokens": 414
+  }
+ },
+ "472fe77f4f31cf5a7fb742471f97f20b2d284234107ec7c88257ee73bae1fa21": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The 24-hour blackout received strong support from the biggest community discussion ever held on the English Wikipedia.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651640,
+  "id": "chatcmpl-f92rfaiq1qdfzz1xdn9t3q",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 31,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 180,
+   "prompt_tokens_details": null,
+   "total_tokens": 211
+  }
+ },
+ "482fe9641c1cfe647b556c128b503e4b14a8e4ae2b5105b2b95981e1d2421d1b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"Wikipedia is conducting a 24-hour blackout to protest U.S. anti-piracy laws, aiming to raise awareness and pressure lawmakers, while its executive director defends the protest's effectiveness and the community's decision-making process despite concerns about commercial participation and future precedents.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651614,
+  "id": "chatcmpl-hlk6jvvmxgp4hvnb1g8hqk",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 62,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1638,
+   "prompt_tokens_details": null,
+   "total_tokens": 1700
+  }
+ },
+ "488895d59a238b7eefecc03d7bb29d1fd34d5b98407131c3c2330f2a43027860": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Foundation\": [\"The Foundation has no plans to develop policy governing protests or advocacy work, but supports creating venues for these discussions.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651623,
+  "id": "chatcmpl-g2b4v7txiy64ub4wfftc4o",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 28,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 742,
+   "prompt_tokens_details": null,
+   "total_tokens": 770
+  }
+ },
+ "5388dfba7f12d4add8b1e2ee10c1de5e45121c658147f33be0a96cef8ab886a3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651641,
+  "id": "chatcmpl-oh1u74bwdshv70aur8nf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 350,
+   "prompt_tokens_details": null,
+   "total_tokens": 365
+  }
+ },
+ "5ca6ef20a383e3b1345f52bd5057a02080f5dc6f20f9d959be495f65ffd9ed32": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651643,
+  "id": "chatcmpl-w4h5sv227a5jc72ditajt",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 403,
+   "prompt_tokens_details": null,
+   "total_tokens": 418
+  }
+ },
+ "6aa8cd550563cc71cff4f6da9a6f816bd8522d63d03e9186765f087ae9a1a595": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Jimmy started the straw poll in mid-December, resulting in over 1,800 participants—the largest-ever for English Wikipedia—with an overwhelming majority supporting action, validating the community's decision-making process.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651618,
+  "id": "chatcmpl-b55x8j03ykpzb7v8h99htd",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 48,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1363,
+   "prompt_tokens_details": null,
+   "total_tokens": 1411
+  }
+ },
+ "77c2a589ce295d7a6f95fff12c9dbef15c927d9158b9930d8b1a475efdd316be": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651641,
+  "id": "chatcmpl-uz9ntvhgnvjgecqpenzs5",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 489,
+   "prompt_tokens_details": null,
+   "total_tokens": 504
+  }
+ },
+ "84f257c410e9c1fb06a0c5ed34876092d8561bfa39582a77e15007aae24cce23": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Wikimedia lacks advocacy experience, so mistakes are likely.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651622,
+  "id": "chatcmpl-0wijyn0kthu9up6t7srfbg",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 18,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 997,
+   "prompt_tokens_details": null,
+   "total_tokens": 1015
+  }
+ },
+ "91f85758a573705f6faf5743ec7de2857657a929d2c590305ca1c6e7a77678d3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651644,
+  "id": "chatcmpl-2quj5hm1m8okhh8plf8v2i",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 219,
+   "prompt_tokens_details": null,
+   "total_tokens": 234
+  }
+ },
+ "d768af3bebbdf6d4d680c1f8a753d6fb0a0a238a599b67ded5638742c4c22fcb": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Each project and language has different circumstances justifying different actions; there is no single right answer for everyone.\", \"The lack of participation by major commercial sites does not hamper the blackout's effectiveness, as those sites are constrained by commercial considerations like shareholder pressure and revenue loss.\", \"The Foundation is being asked whether it will establish a policy or set of conditions to limit future similar actions.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651619,
+  "id": "chatcmpl-c3kro6pb0tah861vvy3qxc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 83,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1244,
+   "prompt_tokens_details": null,
+   "total_tokens": 1327
+  }
+ },
+ "d8a5cde6e6eb29d82027812ee0202235aa34766d97aed2a442964129db7545fd": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651644,
+  "id": "chatcmpl-a88lf8m59gtl85y9ivu3e",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 237,
+   "prompt_tokens_details": null,
+   "total_tokens": 252
+  }
+ },
+ "fc58d46d66c1bc3ade105df3208194d4483be6932d76d62e67c33b8385eb0f15": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"White House\", \"other\": [\"they\"], \"kind\": \"organisation\", \"segments\": [[3, 5]]}, {\"main\": \"Wikinews\", \"other\": [\"Tom Morris\"], \"kind\": \"organisation\", \"segments\": [[6, 6]]}, {\"main\": \"Sue Gardner\", \"other\": [\"executive director of the Wikimedia Foundation\"], \"kind\": \"person\", \"segments\": [[6, 6], [9, 15], [22, 35], [52, 65], [68, 99]]}, {\"main\": \"admins\", \"other\": [\"the admins who closed it\"], \"kind\": \"organisation\", \"segments\": [[30, 32]]}, {\"main\": \"Geoff Brigham\", \"other\": [\"Wikimedia's legal counsel\"], \"kind\": \"person\", \"segments\": [[38, 41]]}, {\"main\": \"Engineering\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[39, 41], [42, 44]]}, {\"main\": \"Italian Wikipedians\", \"other\": [\"the Italian Wikipedia\"], \"kind\": \"organisation\", \"segments\": [[55, 55]]}, {\"main\": \"German Wikipedia\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[58, 58]]}, {\"main\": \"Italian Wikipedia\", \"other\": [\"the Italian Wikipedia\"], \"kind\": \"organisation\", \"segments\": [[55, 55], [58, 58]]}, {\"main\": \"Commons\", \"other\": [\"the Commons\"], \"kind\": \"organisation\", \"segments\": [[58, 58]]}, {\"main\": \"Jimmy\", \"other\": [], \"kind\": \"person\", \"segments\": [[28, 28]]}, {\"main\": \"community\", \"other\": [\"the community\", \"the community consensus\"], \"kind\": \"organisation\", \"segments\": [[82, 84]]}, {\"main\": \"Foundation\", \"other\": [\"the Foundation\", \"the Wikimedia Foundation\", \"the Wikimedia movement\"], \"kind\": \"organisation\", \"segments\": [[53, 55], [80, 84], [92, 99]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651601,
+  "id": "chatcmpl-sp6iwz2qq9jf3lirj9xo",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 527,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1970,
+   "prompt_tokens_details": null,
+   "total_tokens": 2497
+  }
+ }
+}

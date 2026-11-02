@@ -1,0 +1,494 @@
+{
+ "08c6b357619c7328e93efdb36be088f0e05dafa6ed7e1aebef7124f2d671f0c0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"A Swedish court sentenced four administrators of The Pirate Bay to prison and damages for copyright infringement, but the site's operators claim the verdict is a media stunt and refuse to pay the fines while planning to appeal.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651110,
+  "id": "chatcmpl-22brrtbi20hx41qu7hxejl",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 48,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 499,
+   "prompt_tokens_details": null,
+   "total_tokens": 547
+  }
+ },
+ "1049c0aeb35eddceed918256867454c537dc7710287e4b85acfc3fb963ec80c0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"A Swedish judge ordered four people who managed The Pirate Bay to go to jail and pay money for breaking copyright laws. This ruling proves that the site's operators are legally responsible.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651120,
+  "id": "chatcmpl-is9bbf0573leq483swzi9m",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 45,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 195,
+   "prompt_tokens_details": null,
+   "total_tokens": 240
+  }
+ },
+ "1bda1823bb5b38e7fadeda2e8892f11364ff3f9ef372feab177e89fdf505999d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The Stockholm district court\": [\"The court has found four individuals guilty of accessory to breaching copyright laws and sentenced each to one year in prison.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651112,
+  "id": "chatcmpl-5343ovb87vcynrd3ziqz4",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 32,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 861,
+   "prompt_tokens_details": null,
+   "total_tokens": 893
+  }
+ },
+ "2596cd2d6e2154f09fc511f3c0e49537b6083452525f01d0ab9d1b663cfef9f0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651125,
+  "id": "chatcmpl-19s8seqxsb6rpy7vhcgzeq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 293,
+   "prompt_tokens_details": null,
+   "total_tokens": 308
+  }
+ },
+ "2bc2b5966746d08e18fec7a5ee1df2a737a46e3a607e003bd528e37eec2fff6c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"A Swedish court sentenced four administrators to prison, but TPB operators dismiss the verdict as a media stunt and refuse to pay fines.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651113,
+  "id": "chatcmpl-lk5slf9e9vdkijvymx6qgp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 33,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 764,
+   "prompt_tokens_details": null,
+   "total_tokens": 797
+  }
+ },
+ "3dc3839e24c9b0f7270bed2cf58977fdb03cbc611a0af1d0ab27f431df06b388": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"A Swedish court sentenced four TPB administrators to prison and damages for copyright infringement.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651111,
+  "id": "chatcmpl-shl2kb3q49isw80phkqsop",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 23,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 713,
+   "prompt_tokens_details": null,
+   "total_tokens": 736
+  }
+ },
+ "7da66046ad983ee9da95840681f87700114f446bbc159d523a2498dbd39d1965": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"A Stockholm district court handed down one-year prison terms to four people for violating copyright rules.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651123,
+  "id": "chatcmpl-diy1f8ql6u5aqu5wi7xypl",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 28,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 176,
+   "prompt_tokens_details": null,
+   "total_tokens": 204
+  }
+ },
+ "8ff498cf009395704132a625c7186b5841620dfc2ad682b0bdd900203c05beb5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The Stockholm district court ruled that four people are guilty of helping to break copyright rules. It sentenced each person to one year in jail. This decision shows that the legal system will punish the people who run the website for violating intellectual property laws.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651122,
+  "id": "chatcmpl-85bw4vpcwzmfbzxbgcabyv",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 58,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 199,
+   "prompt_tokens_details": null,
+   "total_tokens": 257
+  }
+ },
+ "b7ee124dc8634e31d342d89f82c506e9e70c972318e96320a20d130c7d65fec0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651124,
+  "id": "chatcmpl-jfdpfnbnj9ogni6912x82k",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 241,
+   "prompt_tokens_details": null,
+   "total_tokens": 256
+  }
+ },
+ "d909a2fe0e3a99d14d000a2bc3ab1364951cd98c27a727830ed4eba4f2ce544a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"The Stockholm district court\", \"other\": [\"the court\", \"Stockholm district court\"], \"kind\": \"organisation\", \"segments\": [[5, 7]]}, {\"main\": \"Carl Lundström\", \"other\": [], \"kind\": \"person\", \"segments\": [[2, 2]]}, {\"main\": \"Fredrik Neij\", \"other\": [], \"kind\": \"person\", \"segments\": [[2, 2]]}, {\"main\": \"Gottfrid Svartholm Warg\", \"other\": [], \"kind\": \"person\", \"segments\": [[2, 2]]}, {\"main\": \"Peter Sunde\", \"other\": [], \"kind\": \"person\", \"segments\": [[2, 2]]}, {\"main\": \"The Pirate Bay\", \"other\": [\"TPB\"], \"kind\": \"organisation\", \"segments\": [[9, 10], [13, 14], [17, 17]]}, {\"main\": \"A spokesman for TPB\", \"other\": [\"the spokesman\"], \"kind\": \"person\", \"segments\": [[15, 15]]}, {\"main\": \"Investigators\", \"other\": [], \"kind\": \"person\", \"segments\": [[23, 24]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651103,
+  "id": "chatcmpl-8td1ghmmzcwokyql4ih9p",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 276,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 831,
+   "prompt_tokens_details": null,
+   "total_tokens": 1107
+  }
+ },
+ "eb5d2222330e455179c4e25d4e1672188e1e53170cf54978fadf1777970effaf": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"A Swedish court sentenced four TPB administrators to prison and damages for版权侵权。\", \"rephrased\": \"A Swedish court has sentenced four administrators of the file-sharing site The Pirate Bay to serve prison terms and pay damages for copyright infringement, a legal outcome that establishes official liability for the operators.\", \"summary\": \"A Swedish court sentenced four The Pirate Bay administrators to prison and damages for copyright infringement.\"}, \"1\": {\"original\": \"The court has found four individuals guilty of accessory to breaching copyright\", \"rephrased\": \"The Stockholm district court has found four individuals guilty of accessory to breaching copyright laws and sentenced each to one year in prison, confirming the legal system's enforcement of intellectual property rights against the site's operators.\", \"summary\": \"The Stockholm district court sentenced four individuals to one year in prison for breaching copyright laws.\"}, \"2\": {\"original\": \"A Swedish court sentenced four administrators to prison, but TPB operators\", \"rephrased\": \"Although a Swedish court sentenced four administrators to prison, the operators of The Pirate Bay dismiss the verdict as a media stunt and refuse to pay the imposed fines, asserting that file-sharing operations will continue unaffected.\", \"summary\": \"The Pirate Bay operators dismissed the prison verdict as a media stunt and refused to pay fines.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651114,
+  "id": "chatcmpl-g5jorbyssmtz6o8r2oetr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 276,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1687,
+   "prompt_tokens_details": null,
+   "total_tokens": 1963
+  }
+ },
+ "f289033a61b4ddef559266960ad62ffcfa5c496d467eb20a1447059f19dae3b0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651124,
+  "id": "chatcmpl-4smkb22ykjhh46j4iu1ksd",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 202,
+   "prompt_tokens_details": null,
+   "total_tokens": 217
+  }
+ }
+}

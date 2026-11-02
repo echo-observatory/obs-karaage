@@ -1,0 +1,535 @@
+{
+ "336c8c5ad3a6c498e1bfd95d434cdc523895bf4de5836bb3a110d96083c0cd71": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651382,
+  "id": "chatcmpl-4d22utp0i4so7uk3paqdr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 596,
+   "prompt_tokens_details": null,
+   "total_tokens": 611
+  }
+ },
+ "438a0051301c484c9f4fd4cdb1969cdae8b8b3401e5fdb445e052ba00d2337d0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651381,
+  "id": "chatcmpl-y5qzwio0lpiyvtrw1a0dqj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 579,
+   "prompt_tokens_details": null,
+   "total_tokens": 594
+  }
+ },
+ "6b15ad1a7f7b700e6095e6de75542293316fee6502a1019efd60de8d0550defb": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"Treating every American as a criminal without a trial is unjust.\", \"rephrased\": \"The current legal framework that treats every American as a criminal without a trial is fundamentally unjust, a practice that must be reformed to protect the rights of law-abiding citizens while effectively reducing crime.\", \"summary\": \"The current legal framework treating Americans as criminals without trial is unjust and must be reformed.\"}, \"5\": {\"original\": \"The two-party system is a false dichotomy that ignores the nation's diverseideas\", \"rephrased\": \"The prevailing two-party system in the United States functions as a false dichotomy that simplifies complex political realities, thereby ignoring the nation's diverse ideas and failing to serve the interests of its varied population.\", \"summary\": \"The US two-party system is a false dichotomy that ignores the nation's diverse ideas.\"}, \"6\": {\"original\": \"The USPP will face challenges regarding ballot access but welcomes theop\", \"rephrased\": \"The United States Pirate Party anticipates significant hurdles regarding ballot access due to the country's restrictive laws, yet the organization remains convinced of its capability to overcome these obstacles and welcomes the challenge of expanding political participation.\", \"summary\": \"The USPP faces ballot access challenges but is confident in its ability to succeed.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651375,
+  "id": "chatcmpl-pmwv25tlsilqspkjneza9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 275,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2268,
+   "prompt_tokens_details": null,
+   "total_tokens": 2543
+  }
+ },
+ "711880091e4aad80cdadfde23561387e5a8a5d6afd848c712f1a644f53e1ca72": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651381,
+  "id": "chatcmpl-99sjibkgwqg0tye8rxt6x3",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 581,
+   "prompt_tokens_details": null,
+   "total_tokens": 596
+  }
+ },
+ "7c5a936c36521abcdf168bb545045bec004492947c81422d0d7d62d222d045c3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Brittany Phelps\": [\"Treating every American as a criminal without a trial is unjust.\", \"The two-party system is a false dichotomy that ignores the nation's diverse ideas.\", \"The USPP will face challenges regarding ballot access but welcomes the opportunity to succeed.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651363,
+  "id": "chatcmpl-mxmvz26g8zjhugabejnd8m",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 57,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1449,
+   "prompt_tokens_details": null,
+   "total_tokens": 1506
+  }
+ },
+ "ba22fe5bfd33b58807ec5e7cdd76a8e3467f5d031ccf325e5fb6b2579425a72c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Brittany Phelps\", \"other\": [\"administrator of the United States Pirate Party\"], \"kind\": \"person\", \"segments\": [[6, 10], [13, 17], [21, 23], [27, 38], [39, 47], [48, 60], [64, 69], [73, 76], [81, 85], [91, 92], [93, 96]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651354,
+  "id": "chatcmpl-glyrqp6phge9d6dke68udu",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 123,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1772,
+   "prompt_tokens_details": null,
+   "total_tokens": 1895
+  }
+ },
+ "ba72107f778183a4da046dc2781a35bf8c4e2a1df57c3c762d8222f89dc2bb5d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Brittany Phelps\": [\"The national party is insolvent without state-level organizations.\", \"We are dedicated to protecting privacy, freedom of information, and ensuring government transparency.\", \"President Obama has proven hope for transparency ill-placed, as ACTA is hidden and bills aren't brought to light.\", \"Current privacy safeguards are ineffective and invade the rights of law-abiding citizens.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651361,
+  "id": "chatcmpl-s58he4rlwczkd4vhlowma",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 78,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1449,
+   "prompt_tokens_details": null,
+   "total_tokens": 1527
+  }
+ },
+ "cb1c5425760e157ed42db571e4378f68d7ece4ebc508c180e86c9ce7a1acd74a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651383,
+  "id": "chatcmpl-2kcxbv9dd56aqj6k2lg5ho",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 596,
+   "prompt_tokens_details": null,
+   "total_tokens": 611
+  }
+ },
+ "cc881f04c7b65f8310dc2483c13e03b8892028b760bef1e892df70298b59059d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651380,
+  "id": "chatcmpl-pbikxprx44r1tzpv9mlrn6",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 577,
+   "prompt_tokens_details": null,
+   "total_tokens": 592
+  }
+ },
+ "d1761c884e56cd400ae1b8e580df6510eb1395e2b1625dc3e75de949f9f28750": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651383,
+  "id": "chatcmpl-u1wraemnjk5wke1v9a3wb",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 594,
+   "prompt_tokens_details": null,
+   "total_tokens": 609
+  }
+ },
+ "d7783712523990b9eeafbeafc53955627099666e0a67244a0f22f83a1f00d8c2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"The national party is insolvent without state-level organizations.\", \"rephrased\": \"The revived United States Pirate Party must cultivate state-level organizations across the country, as the national entity currently lacks the financial resources to operate independently. Without establishing these local chapters, the party faces immediate insolvency, making grassroots development a prerequisite for national survival.\", \"summary\": \"State-level organizations are essential for the financial survival of the revived US Pirate Party.\"}, \"1\": {\"original\": \"We are dedicated to protecting privacy, freedom of information, and ensuring政府透明\", \"rephrased\": \"The revived United States Pirate Party is dedicated to protecting citizens' rights to privacy and freedom of information while ensuring government transparency. These core values form the foundation of the party's platform, aiming to challenge the status quo by demanding open governance and robust digital liberties for all Americans.\", \"summary\": \"The revived US Pirate Party prioritizes privacy, information freedom, and government transparency as its core goals.\"}, \"2\": {\"original\": \"President Obama has proven hope for transparency ill-placed, as ACTA is hidden\", \"rephrased\": \"The administration's record on government transparency has been deeply disappointing, with critical documents like the Anti-Counterfeiting Trade Agreement (ACTA) hidden from public view and major legislation withheld from required disclosure periods. This failure to provide the promised openness demonstrates that hope for a transparent government under current leadership is misplaced.\", \"summary\": \"The current administration's failure to disclose key documents proves that hope for government transparency is misplaced.\"}, \"3\": {\"original\": \"Current privacy safeguards are ineffective and invade the rights of law-abiding\", \"rephrased\": \"Existing privacy safeguards are fundamentally flawed because they often rely on invasive surveillance methods that disproportionately harm law-abiding citizens. Rather than protecting individual rights, these measures effectively treat the general public as potential criminals, necessitating a shift toward more effective, non-invasive strategies for reducing crime.\", \"summary\": \"Current privacy safeguards are ineffective because they rely on invasive surveillance that harms law-abiding citizens.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651365,
+  "id": "chatcmpl-ouwgse81tq19tc4hfsw4e",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 429,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2324,
+   "prompt_tokens_details": null,
+   "total_tokens": 2753
+  }
+ },
+ "f8cff13227638e1c18c3a4936959c0857c43889c92ddad45a2f5b5ef36ee3e0d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"Brittany Phelps, administrator of the revived United States Pirate Party, argues that the party must cultivate state-level organizations to survive financially while advocating for government transparency, privacy, and ballot reform to challenge the two-party system.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651359,
+  "id": "chatcmpl-t8di29h7gaki8u2ch3hvh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 51,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1440,
+   "prompt_tokens_details": null,
+   "total_tokens": 1491
+  }
+ },
+ "fdc3e79553c73f70268be0c392a41ae457f058c22beb651e3ee1bb223a73c52f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651382,
+  "id": "chatcmpl-oyfzfe613fs730of74itf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 579,
+   "prompt_tokens_details": null,
+   "total_tokens": 594
+  }
+ }
+}

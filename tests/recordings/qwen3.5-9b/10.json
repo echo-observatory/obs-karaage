@@ -1,0 +1,1232 @@
+{
+ "05b6e59a8c8c3d4f99262f7bfc092035b325b5849230868b2252438f783e3fac": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Authorities in Sweden executed a search of The Pirate Bay and Piratbyrån servers, citing suspected copyright infringement.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650804,
+  "id": "chatcmpl-gopcdelc8iq5seh93jyqpf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 33,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 178,
+   "prompt_tokens_details": null,
+   "total_tokens": 211
+  }
+ },
+ "0c210131ee108b00354bbdb852866bd0094bb9f47327c8f99f441c8b2eb6a518": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650814,
+  "id": "chatcmpl-q4jftpimsurgar1xj6x2r",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 235,
+   "prompt_tokens_details": null,
+   "total_tokens": 250
+  }
+ },
+ "0f90e91652e489ea07476a17da6b9c66230d3a880a685480c10b62774ff234bf": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"The Swedish National Criminal Police\", \"other\": [\"the police\", \"police\"], \"kind\": \"organisation\", \"segments\": [[0, 2], [3, 4], [9, 11], [18, 19], [39, 41], [61, 62]]}, {\"main\": \"The Pirate Bay\", \"other\": [\"the site\", \"the site operators\", \"they\"], \"kind\": \"organisation\", \"segments\": [[0, 1], [6, 7], [13, 14], [22, 23], [33, 34], [36, 37], [44, 46], [50, 52]]}, {\"main\": \"Piratbyrån\", \"other\": [\"the Pirate Bureau\", \"its antagonists\"], \"kind\": \"organisation\", \"segments\": [[0, 1], [22, 23]]}, {\"main\": \"Rickard Falkvinge\", \"other\": [\"head of the Swedish Pirate Party\"], \"kind\": \"person\", \"segments\": [[8, 9], [18, 20]]}, {\"main\": \"The Swedish Pirate Party\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[8, 9]]}, {\"main\": \"The Associated Press\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[10, 11]]}, {\"main\": \"Ulf Goranzon\", \"other\": [\"a police spokesman\"], \"kind\": \"person\", \"segments\": [[11, 11]]}, {\"main\": \"United States media corporations\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[15, 15]]}, {\"main\": \"Sveriges Television\", \"other\": [\"Swedish public broadcaster\"], \"kind\": \"organisation\", \"segments\": [[16, 17]]}, {\"main\": \"The Svenska antipiratbyrån\", \"other\": [\"the Svenska antipiratbyrån\", \"The Antipiratbyrån\", \"the Antipiratbyrån\"], \"kind\": \"organisation\", \"segments\": [[18, 19], [22, 23]]}, {\"main\": \"Tobias Andersson\", \"other\": [\"of Piratbyrån\"], \"kind\": \"person\", \"segments\": [[21, 22]]}, {\"main\": \"The IFPI\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[20, 20]]}, {\"main\": \"Dan Glickman\", \"other\": [\"CEO of the Motion Picture Association of America\", \"CEO of the MPAA\"], \"kind\": \"person\", \"segments\": [[26, 27]]}, {\"main\": \"The Motion Picture Association of America\", \"other\": [\"the MPAA\", \"MPAA\"], \"kind\": \"organisation\", \"segments\": [[26, 27], [28, 29], [30, 31]]}, {\"main\": \"Kori Bernards\", \"other\": [\"an MPAA representative\"], \"kind\": \"person\", \"segments\": [[28, 29]]}, {\"main\": \"Gottfrid Svartholm\", \"other\": [\"owner of webhotel PRQ\", \"Mr. Svartholm\"], \"kind\": \"person\", \"segments\": [[53, 59], [60, 62]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650752,
+  "id": "chatcmpl-7n39x965lwks05ldxcyfg",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 765,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1578,
+   "prompt_tokens_details": null,
+   "total_tokens": 2343
+  }
+ },
+ "100e691af495986ac5a689eced517319f96497350d1c895b58e163de0ba9e20e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The Swedish National Criminal Police launched a joint operation based on claims of copyright violation. This action involved 50 officers who raided The Pirate Bay and Piratbyrån. Piratbyrån is a Swedish group that initially created the website. The officers took control of the servers during the raid.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650802,
+  "id": "chatcmpl-i6kmpe9kk3hzjywxmhbup",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 71,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 203,
+   "prompt_tokens_details": null,
+   "total_tokens": 274
+  }
+ },
+ "1a158b4b2fbaac89af22f01a9971ccd43cd27420b328a04ac54df6166641a238": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"Police raided The Pirate Bay and Piratbyrån servers on copyright violation grounds, but while authorities claim no arrests occurred, operators and a detained web host allege the move was a politically motivated sting by the Anti-Piracy Bureau to shut down the site and seize unrelated servers without legal basis.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650768,
+  "id": "chatcmpl-t5wb4chut60youth4salx",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 66,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1246,
+   "prompt_tokens_details": null,
+   "total_tokens": 1312
+  }
+ },
+ "300d540e8c6414b6996949a9705ae7b8dbdd39589b8f714fcd15b39a5536af95": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"50 Swedish police raided the site's servers on copyright violation grounds.\", \"rephrased\": \"Swedish National Criminal Police forces, acting on allegations of copyright infringement, executed a coordinated raid involving fifty officers to seize the servers of The Pirate Bay and Piratbyrån, a Swedish organization that originally developed the site.\", \"summary\": \"Swedish police raided The Pirate Bay and Piratbyrån servers based on alleged copyright violations.\"}, \"1\": {\"original\": \"The raid, based on alleged copyright violations, came as a surprise given theサイト\", \"rephrased\": \"The execution of a search warrant for alleged copyright violations to shut down the site came as a significant surprise, especially considering that the legality of the operation had been under intense public debate for over three years, with operators frequently issuing press releases to defend their position.\", \"summary\": \"The raid on the site based on alleged copyright violations was surprising given the long-standing public legal debate.\"}, \"2\": {\"original\": \"Police arrested three staff members, ultimately taking only two into custody.\", \"rephrased\": \"Rickard Falkvinge, head of the Swedish Pirate Party, reported that police arrested three staff members of the site, though ultimately only two individuals were taken into custody, a discrepancy that contradicts official police accounts regarding the number of arrests.\", \"summary\": \"Rickard Falkvinge reported that police arrested three staff members, though only two were taken into custody.\"}, \"3\": {\"original\": \"Dan Glickman, CEO of the MPAA, applauded the raid as a reminder that 'there are\", \"rephrased\": \"Dan Glickman, CEO of the Motion Picture Association of America, applauded the police raid on The Pirate Bay, citing the action as a necessary reminder that there are no safe harbors for copyright thieves and emphasizing the need to hold digital platforms accountable for distributing illegal content.\", \"summary\": \"Dan Glickman applauded the police raid on The Pirate Bay as a reminder that there are no safe harbors for copyright thieves.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650779,
+  "id": "chatcmpl-3amxj4ncf2mngxiqbv3x2k",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 430,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2252,
+   "prompt_tokens_details": null,
+   "total_tokens": 2682
+  }
+ },
+ "338a716d58b367d57ad4d15a6c16c8707c68fd3efdedb33070e729cc44dfb625": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The Pirate Bay\": [\"Claims to be the world's largest BitTorrent tracker.\", \"Initially claimed the raid was a stunt to promote awareness, a theory later dismissed.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650776,
+  "id": "chatcmpl-f73gj5lkqzeztwumxr0a",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 36,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 897,
+   "prompt_tokens_details": null,
+   "total_tokens": 933
+  }
+ },
+ "34a50a2b2137400de78a4837733d97aa4c5f0c2e41f6e1b8a17a915e230fe57d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650816,
+  "id": "chatcmpl-pl9c4aoguug64eax2nx3f",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 268,
+   "prompt_tokens_details": null,
+   "total_tokens": 283
+  }
+ },
+ "376e2a6e7a7f55cfd5662f2ba92fcda1714379f6bbcabcbf94f3ad228043b695": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650814,
+  "id": "chatcmpl-wr5ymfocvq8de7t8dyl4lm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 210,
+   "prompt_tokens_details": null,
+   "total_tokens": 225
+  }
+ },
+ "408bc119ccb5c9d9cd51d2695fda15c9bf0d90aad464c2d972f2e342b208b414": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"MPAA representative Kori Bernards identifies The Pirate Bay as a top target, 150\", \"rephrased\": \"The Motion Picture Association of America (MPAA) asserts that The Pirate Bay is a primary target for enforcement action, alleging the site distributes over 150,000 files, including major summer blockbusters such as 'Mission: Impossible III' and 'X-Men 3', thereby justifying the raid as a necessary measure to protect intellectual property rights.\", \"summary\": \"The MPAA frames the raid as a necessary enforcement action against a major copyright infringement hub.\"}, \"5\": {\"original\": \"Claims to be the world's largest BitTorrent tracker.\", \"rephrased\": \"The Pirate Bay maintains its status as the world's largest BitTorrent tracker, asserting that its operations facilitate the sharing of both copyrighted and freely licensed material, including Linux distributions and independent music, to challenge the legal basis of the police seizure.\", \"summary\": \"The Pirate Bay defends its operations as a legitimate tracker for mixed content, rejecting the legality of the seizure.\"}, \"6\": {\"original\": \"Initially claimed the raid was a stunt to promote awareness, a theory later dis\", \"rephrased\": \"While The Pirate Bay initially suggested the police raid was a publicity stunt designed to promote awareness, this theory was quickly dismissed following the confirmation of the operation's authenticity and the subsequent arrest of a web host, indicating a more serious legal intervention.\", \"summary\": \"The Pirate Bay's initial claim of a publicity stunt was disproven by the confirmed arrest and scope of the raid.\"}, \"7\": {\"original\": \"Officials confirm the raid's authenticity, while the site's notice changed to pr\", \"rephrased\": \"Swedish officials have confirmed the authenticity of the police raid on The Pirate Bay, a move that aligns with the site's own updated notice promising a quick return, even as a detained web host alleges he was arrested and denied legal representation during the operation.\", \"summary\": \"Official confirmation of the raid contrasts with a detained host's account of being denied legal representation.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650789,
+  "id": "chatcmpl-w5a5aqhs2wt0khdvrydug",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 439,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2266,
+   "prompt_tokens_details": null,
+   "total_tokens": 2705
+  }
+ },
+ "4dba546cb07a9ab811bda9d9bd7c85c1ee72afec31a7cef0d520757e6f7c2b40": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The Pirate Bay\": [\"50 Swedish police raided the site's servers on copyright violation grounds.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650770,
+  "id": "chatcmpl-ke9vdmvn66ekenph5n6veb",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 22,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 702,
+   "prompt_tokens_details": null,
+   "total_tokens": 724
+  }
+ },
+ "5c563641765eb55a0a29f23d9a4d93e7139f359779c374ad047893aa30ace067": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650815,
+  "id": "chatcmpl-hf56bbthinii7cssoqx12",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 220,
+   "prompt_tokens_details": null,
+   "total_tokens": 235
+  }
+ },
+ "6fbea6377ff79e7c8df3cde6aa03bc066622025627a72b30fb3eedd97c8100bf": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"MPAA representative Kori Bernards identifies The Pirate Bay as a top target, alleging the site hosts over 150,000 files including major summer blockbusters like 'Mission: Impossible III' and 'X-Men 3'.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650775,
+  "id": "chatcmpl-t05abcn0rbdijklbgwe3a",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 56,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 799,
+   "prompt_tokens_details": null,
+   "total_tokens": 855
+  }
+ },
+ "7f444de9651afa4c07bd5c62518937b4141eec9003c8061d54f34aa4d5d13c55": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The raid, based on alleged copyright violations, came as a surprise given the site's three-year public legal debate.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650771,
+  "id": "chatcmpl-m8ubc4yh8kz56ly42tnp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 30,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 756,
+   "prompt_tokens_details": null,
+   "total_tokens": 786
+  }
+ },
+ "87cee5bd7098abe329091bd6ea7527b37373dd4208a48d763ce50b38848f2631": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Dan Glickman praised the police action against The Pirate Bay, noting it shows that copyright thieves have no safe havens.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650812,
+  "id": "chatcmpl-7t3vcklxqoa9ond0r8rhmh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 35,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 184,
+   "prompt_tokens_details": null,
+   "total_tokens": 219
+  }
+ },
+ "8f4c0e8d520b347bcfb104b7a1ceb64beb76ca3084ced62e7455b32e15b78e61": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Dan Glickman, who leads the Motion Picture Association of America, praised the police operation against The Pirate Bay. He stated that this raid serves as a vital warning: copyright infringers have no safe havens. He also stressed that digital platforms must be held responsible for sharing illegal material.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650810,
+  "id": "chatcmpl-mqvp7thv54jj08oi6iqlt",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 68,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 212,
+   "prompt_tokens_details": null,
+   "total_tokens": 280
+  }
+ },
+ "90f76ac0857b3d56fbf593f114e6fa6828a0fde7a6477f25c00e3f32c5bcf42c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Officials confirm the raid's authenticity, while the site's notice changed to promise a quick return, and a detained host alleges he was arrested and denied legal representation.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650777,
+  "id": "chatcmpl-t2d1yucq4ani8j1lweqxtr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 39,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 900,
+   "prompt_tokens_details": null,
+   "total_tokens": 939
+  }
+ },
+ "913085aea934fe4e741df5064317d2f402f0e7847d29790632cdf23c680a553b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650813,
+  "id": "chatcmpl-jl4hdj1nkkem5j74sgrc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 214,
+   "prompt_tokens_details": null,
+   "total_tokens": 229
+  }
+ },
+ "a89792a7ef3c92bdeddeb8fcfb6c877eb66764132a61d0b7eb72adce7bb24288": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"A search warrant was executed to close the site for suspected copyright infringement. This action was unexpected, given that the operation's legality had been heavily debated by the public for more than three years. During this time, the operators often released press statements to support their stance.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650806,
+  "id": "chatcmpl-epfcm019yskxhwywg365j",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 63,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 209,
+   "prompt_tokens_details": null,
+   "total_tokens": 272
+  }
+ },
+ "b3f89b7b20f6c21d09cc7372b05bca8f47cbb08ed84f9d07d72d3391488e6dbe": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650815,
+  "id": "chatcmpl-kqftdh2x4icbvlhe1rshp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 266,
+   "prompt_tokens_details": null,
+   "total_tokens": 281
+  }
+ },
+ "c40681fe56583091c0b7d37536dfdfb4bff67a1eedf545f7e2017d3188236eb6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Rickard Falkvinge stated that law enforcement detained three employees, but only two individuals were actually placed in custody.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650809,
+  "id": "chatcmpl-nkis01f9gk5mn8bnipljd",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 33,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 179,
+   "prompt_tokens_details": null,
+   "total_tokens": 212
+  }
+ },
+ "c707e37f11ad902ecf27da7b2d5ad9e60d81edbc3688c603f620c47aa8f3da34": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Swedish law enforcement officers conducted raids on the servers of The Pirate Bay and Piratbyrån due to claims of copyright breaches.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650805,
+  "id": "chatcmpl-mv0tmt56t9ddmqf3q51ez9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 37,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 229,
+   "prompt_tokens_details": null,
+   "total_tokens": 266
+  }
+ },
+ "ca68a9655538e3366406f1193d9f3ebdcf66103e833f4da7c511d628c3fb47ea": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"8\": {\"original\": \"Police told Mr. Svartholm they were not obligated to provide a public defender, \", \"rephrased\": \"The Swedish National Criminal Police informed the detained web host, Gottfrid Svartholm, that he was not entitled to a public defender because the specific charge he faced did not carry a potential prison sentence, a legal justification used to deny him legal representation during the interrogation phase of the raid on The Pirate Bay and associated servers.\", \"summary\": \"Swedish police denied a detained web host a public defender by citing the non-custodial nature of his specific charge.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650799,
+  "id": "chatcmpl-ua6lr09yixn609lrhroo27",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 132,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1768,
+   "prompt_tokens_details": null,
+   "total_tokens": 1900
+  }
+ },
+ "cc8225dc2b6d43778fcacd73f735eafa42e22ac56c7141d8566df6745785b0f2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Rickard Falkvinge\": [\"Police arrested three staff members, ultimately taking only two into custody.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650772,
+  "id": "chatcmpl-83poa1p3zf6pig37m119yl",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 23,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 780,
+   "prompt_tokens_details": null,
+   "total_tokens": 803
+  }
+ },
+ "de77acab97ed6b2f3e55c01dd73e238e404f1f03d26d86274071475e42474133": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650817,
+  "id": "chatcmpl-nkelrq118bqzux0uah08d",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 224,
+   "prompt_tokens_details": null,
+   "total_tokens": 239
+  }
+ },
+ "ef1df08ba7f212b215877ce95dbdeade5ac0a7bc2787ed4d48d27e5eccf2bb48": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Rickard Falkvinge, who leads the Swedish Pirate Party, stated that law enforcement detained three employees of the website. However, only two people were actually placed in custody. This difference conflicts with the official police report on how many arrests occurred.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650808,
+  "id": "chatcmpl-tgcaedzt6j09o4s8lb8o5x",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 59,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 206,
+   "prompt_tokens_details": null,
+   "total_tokens": 265
+  }
+ },
+ "f683f853bf42d706646285094e2c2864b762fc99ca7bd7e11adede0266d5a91f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650813,
+  "id": "chatcmpl-ib8z15dsw2esel6390gs",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 203,
+   "prompt_tokens_details": null,
+   "total_tokens": 218
+  }
+ },
+ "f92e8a6480209e53b34f316bee0b7f2e2572cb2424dc829c05ab99595c5ccfa5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Dan Glickman\": [\"Dan Glickman, CEO of the MPAA, applauded the raid as a reminder that 'there are no safe harbors for copyright thieves'.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650773,
+  "id": "chatcmpl-a6votze6qt5r92wbjp2k4o",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 39,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 804,
+   "prompt_tokens_details": null,
+   "total_tokens": 843
+  }
+ },
+ "fa41ea7e6a5105489e6c3b68b4e9525278be4be70f670c7fbd7529a8aae4fa8e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650816,
+  "id": "chatcmpl-joxzwcimvw0inas9wrlk8j",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 281,
+   "prompt_tokens_details": null,
+   "total_tokens": 296
+  }
+ },
+ "ffea7c2f92baa2cc02100f623380ba688c6ab56503c2986b550b98f52ae546b3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The Swedish National Criminal Police\": [\"Police told Mr. Svartholm they were not obligated to provide a public defender, as the crime he was accused of doesn't lead to jail sentence if he is found guilty.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793650778,
+  "id": "chatcmpl-euq291nivx8wwzf4jnfh5c",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 48,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 828,
+   "prompt_tokens_details": null,
+   "total_tokens": 876
+  }
+ }
+}

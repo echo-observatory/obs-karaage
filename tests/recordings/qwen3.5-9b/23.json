@@ -1,0 +1,699 @@
+{
+ "0cdc451ccca08681695219835c1cf7ac92409956c7009a1cf1c06cb68da8c335": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651599,
+  "id": "chatcmpl-xqgz8lcyjr4xrsq2mc9s9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 304,
+   "prompt_tokens_details": null,
+   "total_tokens": 319
+  }
+ },
+ "184ddcd348969db29b25f4cf83d6d3bcc2cd2abe954dd2ddfdd1a1eea509635e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Reddit\": [\"A number of other websites are also taking part, including the social media site Reddit\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651572,
+  "id": "chatcmpl-oj4ezcx8ksirnctdmu64x",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 22,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 977,
+   "prompt_tokens_details": null,
+   "total_tokens": 999
+  }
+ },
+ "1aa231aa92cc2227d3d4339590417d8e61af8f3ee84985a07ca01db27d6770c3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Jimmy Wales\": [\"Wales urged students to finish homework early to avoid access issues, hoping the blackout would overwhelm Washington's phone systems. He claimed the laws are 'over broad and so badly written,' arguing opponents wrongly characterize the opposition as piracy defenders.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651574,
+  "id": "chatcmpl-cu924qlwr7fsnlb2we4oda",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 53,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1025,
+   "prompt_tokens_details": null,
+   "total_tokens": 1078
+  }
+ },
+ "207d99aea8a815bffe56fa59062d05f0afc10c18ba61fc34232ce2c3fd61818f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"A coordinated online protest against the proposed U.S. anti-piracy laws involves several digital platforms. These include the social media site Reddit, the Boing Boing blog, and sites owned by the Cheezburger Network, in addition to Wikipedia.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651594,
+  "id": "chatcmpl-zg4xoyaxr7p2vjofpotsyv",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 60,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 206,
+   "prompt_tokens_details": null,
+   "total_tokens": 266
+  }
+ },
+ "2f8c5ba460e94926d9c4975a31b84a56d369d10132b5d5636b15eddb5d3615be": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Wikipedia will go offline for 24 hours to protest U.S. anti-piracy laws, with 591 users supporting a global blackout and 479 favoring a U.S.-only action.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651570,
+  "id": "chatcmpl-k02k42jafqocvavvvujgkw",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 52,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 795,
+   "prompt_tokens_details": null,
+   "total_tokens": 847
+  }
+ },
+ "435423da47174c88f7e555001655cc0d848fd88d7928fbfd81db1d3c856e2330": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"accusing some technology business interests of attempting to pull stunts thatpun\", \"rephrased\": \"The Motion Picture Association of America asserts that certain technology companies are orchestrating disruptive online protests to punish their users and manipulate public opinion, rather than engaging in good-faith negotiations to address the genuine and damaging problem of online piracy. These corporate interests are being criticized for prioritizing theatrical displays over finding practical solutions to a crisis that affects the entire industry.\", \"summary\": \"The Motion Picture Association of America condemns technology companies for using disruptive online protests to punish users instead of negotiating solutions to piracy.\"}, \"5\": {\"original\": \"claiming the blackout actions are irresponsible, dangerous and a disservice to\", \"rephrased\": \"The Motion Picture Association of America argues that the planned global internet blackout is an irresponsible and dangerous act that harms ordinary people who depend on the internet for daily information and services. While acknowledging the severity of the piracy issue, the organization insists that such disruptive tactics are a disservice to the public and undermine the stability of the digital ecosystem.\", \"summary\": \"The Motion Picture Association of America condemns the internet blackout as an irresponsible and dangerous tactic that harms the public and fails to address the real problem of piracy.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651587,
+  "id": "chatcmpl-tp8ebefbc7pjxtlqcxai9m",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 262,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1888,
+   "prompt_tokens_details": null,
+   "total_tokens": 2150
+  }
+ },
+ "4ea2eaf40154f7c6c8de11ae900c40df6e633fd7f4499ee2f01d49694b0ad6ef": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"uncertain\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651597,
+  "id": "chatcmpl-rvr8qpqr22tqaecu026hf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 16,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 314,
+   "prompt_tokens_details": null,
+   "total_tokens": 330
+  }
+ },
+ "54d19490f43c03bb7edf5e9b00b7252c204cf5320a88894f591611176aa8d8ea": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"A coordinated online protest against the proposed U.S. anti-piracy laws is taking place across multiple digital platforms. These include the social media site Reddit, the Boing Boing blog, and sites owned by the Cheezburger Network. Wikipedia is also joining this effort.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651595,
+  "id": "chatcmpl-9tnuw7dlefp4d1lm8o60xl",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 65,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 285,
+   "prompt_tokens_details": null,
+   "total_tokens": 350
+  }
+ },
+ "5b3281f92b99375426b0dec696dde14dc9005f9df6844576832d4ece6fc72308": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Motion Picture Association of America\": [\"accusing some technology business interests of attempting to pull stunts that punish their users or turn them into their corporate pawns\", \"claiming the blackout actions are irresponsible, dangerous and a disservice to people who rely on them for information\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651576,
+  "id": "chatcmpl-xz0cl0qacdrahbk11kr0zd",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 57,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 845,
+   "prompt_tokens_details": null,
+   "total_tokens": 902
+  }
+ },
+ "7fe2c554c72d62a28e2556998f9cd1ad99c806f7460fa28b93f5ee1ab7ee5f54": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Wikipedia\", \"other\": [\"online encyclopedia\", \"page\"], \"kind\": \"organisation\", \"segments\": [[0, 1], [3, 3], [5, 5], [33, 33]]}, {\"main\": \"Stop Online Piracy Act\", \"other\": [\"SOPA\"], \"kind\": \"document\", \"segments\": [[0, 0]]}, {\"main\": \"PROTECT IP Act\", \"other\": [\"PIPA\"], \"kind\": \"document\", \"segments\": [[0, 0]]}, {\"main\": \"Wikimedia Foundation\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[27, 27]]}, {\"main\": \"Sue Gardner\", \"other\": [\"Executive Director of the Wikimedia Foundation\"], \"kind\": \"person\", \"segments\": [[27, 34]]}, {\"main\": \"Jimmy Wales\", \"other\": [\"co-founder of Wikipedia\", \"Wales\"], \"kind\": \"person\", \"segments\": [[35, 47]]}, {\"main\": \"Reddit\", \"other\": [\"social media site\"], \"kind\": \"organisation\", \"segments\": [[16, 16]]}, {\"main\": \"Boing Boing blog\", \"other\": [\"blog\"], \"kind\": \"organisation\", \"segments\": [[16, 16]]}, {\"main\": \"Cheezburger Network\", \"other\": [\"sites owned by\"], \"kind\": \"organisation\", \"segments\": [[16, 16]]}, {\"main\": \"Google\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[17, 18]]}, {\"main\": \"Motion Picture Association of America\", \"other\": [\"MPAA\"], \"kind\": \"organisation\", \"segments\": [[48, 53]]}, {\"main\": \"Chris Dodd\", \"other\": [], \"kind\": \"person\", \"segments\": [[48, 53]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651558,
+  "id": "chatcmpl-u4w0ni0r24qw4nj1241g",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 421,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1340,
+   "prompt_tokens_details": null,
+   "total_tokens": 1761
+  }
+ },
+ "a7e9216af34c17d29f2a21a4ce8c3016f17897fcf09bd4f315d93b7489e65d52": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651599,
+  "id": "chatcmpl-i7b1527vyffco0ecwlahxh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 276,
+   "prompt_tokens_details": null,
+   "total_tokens": 291
+  }
+ },
+ "b3f116da66514e9a37ac68d8fbdf4dbeb48ab7aa8376f1779ffaf364bf4edabd": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651598,
+  "id": "chatcmpl-gbtqeklv34l2vcfsx1xob",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 333,
+   "prompt_tokens_details": null,
+   "total_tokens": 348
+  }
+ },
+ "c30b6046d360d9ab66baa8f94784dedd209b8ba7c7721a694cc5b39851c116a8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651598,
+  "id": "chatcmpl-n2cid915mii02z61mhdx2rm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 207,
+   "prompt_tokens_details": null,
+   "total_tokens": 222
+  }
+ },
+ "d76b062a587ea8a9f6283dc1b580ec49c7a488a6aa6d62cd07394c0fea8f2b83": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"Wikipedia is staging a 24-hour global blackout to protest proposed U.S. anti-piracy laws, arguing they threaten the site's existence, while opponents claim the action undermines Wikipedia's political neutrality and is irresponsible.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651569,
+  "id": "chatcmpl-ufnj0l6nwpbin0flim8q3m",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 52,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1008,
+   "prompt_tokens_details": null,
+   "total_tokens": 1060
+  }
+ },
+ "d9689b50b5e390cd6a82d2c784f921382c5b0f340e05f56adb6ea5f937fd4637": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651600,
+  "id": "chatcmpl-4pkf98s5wksi4ouup2qv9r",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 282,
+   "prompt_tokens_details": null,
+   "total_tokens": 297
+  }
+ },
+ "dfa711ff25d42cd424df18fdd5394c6bb6d9d00203bef120f8fd8990d3b76b8c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"Wikipedia will go offline for 24 hours to protest U.S. anti-piracy laws, with 59\", \"rephrased\": \"The English version of the online encyclopedia Wikipedia plans to shut down for 24 hours to protest proposed U.S. anti-piracy legislation, a move supported by a majority of its user base who favor a global blackout over a limited U.S.-only action.\", \"summary\": \"Wikipedia plans a 24-hour global shutdown to protest U.S. anti-piracy laws.\"}, \"1\": {\"original\": \"A number of other websites are also taking part, including the social media site\", \"rephrased\": \"Beyond Wikipedia, various digital platforms including the social media site Reddit, the Boing Boing blog, and sites owned by the Cheezburger Network are participating in the coordinated online protest against the proposed U.S. anti-piracy laws.\", \"summary\": \"Multiple digital platforms are joining the protest against U.S. anti-piracy laws.\"}, \"2\": {\"original\": \"Supporters claim the laws pose an existential threat, while opponents argue the\", \"rephrased\": \"Proponents of the protest argue that the proposed U.S. anti-piracy laws pose an existential threat to the online encyclopedia, whereas critics contend that the planned shutdown undermines the site's reputation for political neutrality and risks alienating the public.\", \"summary\": \"Protest supporters view the laws as an existential threat, while critics fear the action harms Wikipedia's neutrality.\"}, \"3\": {\"original\": \"Wales urged students to finish homework early to avoid access issues, hoping the\", \"rephrased\": \"The co-founder of the online encyclopedia advised students to complete their homework early to avoid access disruptions, while expressing hope that the protest would overwhelm Washington's phone systems and arguing that the proposed legislation is poorly written and overbroad.\", \"summary\": \"Wikipedia's co-founder urges preparation for the shutdown and criticizes the proposed laws as overbroad.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651578,
+  "id": "chatcmpl-5l5kyfjy86h0ldo4sx4uua",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 424,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2211,
+   "prompt_tokens_details": null,
+   "total_tokens": 2635
+  }
+ },
+ "e9927bb63d7f14feb05a6503375a470e9b1dba21ebfe193d60b1047c08b0c800": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Supporters claim the laws pose an existential threat, while opponents argue the action undermines Wikipedia's political neutrality and risks political involvement.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793651573,
+  "id": "chatcmpl-6pvc03nwmlxawb1diofq9l",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 32,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 968,
+   "prompt_tokens_details": null,
+   "total_tokens": 1000
+  }
+ }
+}
