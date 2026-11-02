@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-v4dik2qyciwqcwia68xwm",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"The Supreme Court ruled that file-sharing networks designed to facilitate 100% 1\", \"rephrased\": \"The U.S. Supreme Court has established that internet companies intentionally designed to promote copyright violations must be held legally responsible for the resulting illegal acts of their users, a unanimous ruling that signals a strong intolerance for businesses whose primary purpose is to facilitate infringement, even if those same tools have lawful applications.\", \"summary\": \"The U.S. Supreme Court ruled that intentionally designed file-sharing networks are liable for user copyright infringement.\"}, \"1\": {\"original\": \"Panned the court for lacking a clear inducement test, warning it could discourag\", \"rephrased\": \"Fred von Lohmann, a senior staff attorney for the Electronic Frontier Foundation, criticized the U.S. Supreme Court for failing to provide a clear legal standard for determining when a company induces copyright infringement, arguing that this ambiguity could discourage innovators who are unsure whether their new internet projects might inadvertently violate the law.\", \"summary\": \"Fred von Lohmann criticized the Supreme Court for lacking a clear legal test for copyright inducement, fearing it would stifle innovation.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638533,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 245,
+  "prompt_tokens": 1698,
+  "total_tokens": 1943,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

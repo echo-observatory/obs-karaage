@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-qwxbb4c2xhp9z7t2dha85g",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Comcast\", \"other\": [\"Comcast\", \"Comcast's\"], \"segments\": [[0, 1], [2, 3], [5, 6], [19, 21]]}, {\"main\": \"Time Warner Cable\", \"other\": [\"Time Warner Cable\", \"cable operator\", \"Time Warner Cable's\"], \"segments\": [[2, 3], [23, 24], [27, 29], [30, 32], [33, 35]]}, {\"main\": \"Ben Scott\", \"other\": [\"Ben Scott\"], \"segments\": [[14, 14]]}, {\"main\": \"Roger Entner\", \"other\": [\"Roger Entner\", \"Entner\"], \"segments\": [[15, 18]]}, {\"main\": \"Alex Dudley\", \"other\": [\"Alex Dudley\"], \"segments\": [[29, 32]]}, {\"main\": \"Associated Press\", \"other\": [\"Associated Press\"], \"segments\": [[33, 33]]}, {\"main\": \"Art Brodsky\", \"other\": [\"Art Brodsky\", \"Brodsky\"], \"segments\": [[36, 39], [40, 44]]}, {\"main\": \"Federal Communications Commission\", \"other\": [\"FCC\"], \"segments\": [[4, 6]]}, {\"main\": \"US Congress\", \"other\": [\"US Congress\"], \"segments\": [[6, 6]]}, {\"main\": \"Free Press\", \"other\": [\"Free Press\"], \"segments\": [[10, 13]]}, {\"main\": \"Nielsen IAG\", \"other\": [\"Nielsen IAG\"], \"segments\": [[15, 16]]}, {\"main\": \"Public Knowledge\", \"other\": [\"Public Knowledge\"], \"segments\": [[36, 36]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638945,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 407,
+  "prompt_tokens": 1288,
+  "total_tokens": 1695,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

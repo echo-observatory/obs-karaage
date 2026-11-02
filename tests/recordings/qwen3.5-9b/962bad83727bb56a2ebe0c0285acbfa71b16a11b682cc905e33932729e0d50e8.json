@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-wqute87dz6k3w37ocbcpck",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"base_author\": [\"Moore's Cuba segment triggered a federal investigation, featuring 9/11 volunteers denied U.S. aid who received free care in Havana, where an inhaler costs 5 cents versus $120 in the U.S., while insurers like AHIP criticize the film's call for a Canadian, French, or UK-style system.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638920,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 75,
+  "prompt_tokens": 886,
+  "total_tokens": 961,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

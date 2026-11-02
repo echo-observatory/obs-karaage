@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-nkt2531684iaud8wacj8fb",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"Students need course packs due to book limitations in availability, price, and.\", \"rephrased\": \"The Delhi University photocopy service argues that distributing course packs is a necessary response to specific market failures, including the unavailability of certain books, their high costs, and limited circulation, which prevent students from accessing essential reading materials. Consequently, the service maintains that these compilations preserve data from older publications and serve a critical educational function that justifies their distribution despite the presence of copyrighted material.\", \"summary\": \"The photocopy service argues that market barriers like high prices and scarcity justify distributing course packs containing copyrighted material.\"}, \"5\": {\"original\": \"Copyright is not absolute ownership but intended to increase knowledge and moti\", \"rephrased\": \"The Delhi High Court asserts that copyright law in India does not grant authors absolute ownership over their creations, but rather functions as a mechanism intended to increase and motivate the public harvest of knowledge. Therefore, the court rules that the legality of distributing course packs must be judged by expert evidence regarding whether the specific inclusion of works serves the educational purpose of the course, rather than by a rigid application of ownership rights.\", \"summary\": \"The High Court asserts that copyright is intended to benefit the public by motivating creativity, not by granting authors absolute ownership.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639634,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 271,
+  "prompt_tokens": 1831,
+  "total_tokens": 2102,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

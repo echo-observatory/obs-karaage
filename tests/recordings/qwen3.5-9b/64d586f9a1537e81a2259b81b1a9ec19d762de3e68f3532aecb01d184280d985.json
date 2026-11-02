@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-kwkeo6ltwphb3bmtsr7l4",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Wikinews\": [\"Wikinews has discovered that both Binnews and dvdrs.net have procedures in place for dealing with alleged copyright infringement under the US Digital Millennium Copyright Act. Despite this, both sites deny ever being contacted by any organisation with a \\\"takedown\\\" notice.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638646,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 806,
+  "total_tokens": 865,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

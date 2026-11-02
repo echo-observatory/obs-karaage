@@ -1,0 +1,123 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Anonymous launched 'Operation Baylout' to disrupt websites of entities prosecuting The Pirate Bay, but the decentralized group's true motivation remains ambiguous, with participants ranging from genuine activists to trolls seeking entertainment.",
+  "source_text_length_chars": 5206,
+  "source_text_length_segments": 64,
+  "actors": [
+   {
+    "name": "Anonymous",
+    "variations": [
+     "the loosely defined online activist group",
+     "Operation Baylout",
+     "the group",
+     "Anon",
+     "this group"
+    ]
+   },
+   {
+    "name": "Wikinews",
+    "variations": []
+   },
+   {
+    "name": "Andrew Norton",
+    "variations": [
+     "Andrew Norton of Pirate Party International"
+    ]
+   },
+   {
+    "name": "888chan.org",
+    "variations": [
+     "a message board",
+     "where the Baylout raids originated"
+    ]
+   },
+   {
+    "name": "Dmitriy Guzner",
+    "variations": []
+   }
+  ],
+  "statements": [
+   {
+    "actor": "Wikinews",
+    "key_statement": "According to Wikinews, the activist collective known as Anonymous has launched an operation aimed at the websites of organizations that prosecuted The Pirate Bay.",
+    "long_statement": "According to Wikinews, the activist collective Anonymous, famous for its large-scale demonstrations against the Church of Scientology, has launched an operation aimed at the online sites of groups prosecuting The Pirate Bay. This move represents a major intensification of the Pirate Bay Trial dispute, since the distributed group is now focusing its efforts on legal and corporate institutions instead of the organization directly.",
+    "segment_range": [
+     0,
+     0
+    ],
+    "rouge2_precision": 0.1739
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The volunteer collective known as Anonymous has started 'Operation Baylout.' This project brings together hundreds of people to take down the online sites of the International Federation of the Phonographic Industry and the law firm MAQS. These two organizations are currently suing The Pirate Bay.",
+    "long_statement": "The decentralized group Anonymous has launched 'Operation Baylout,' a coordinated effort involving hundreds of volunteers to disrupt the websites of the International Federation of the Phonographic Industry and the law firm MAQS, which are prosecuting The Pirate Bay. While the group claims these actions are a legitimate response to legal persecution, the operation's true motivation remains ambiguous, as participants range from genuine activists concerned about censorship to trolls seeking entertainment at the expense of others.",
+    "segment_range": [
+     1,
+     8
+    ],
+    "rouge2_precision": 0.2955
+   },
+   {
+    "actor": "Andrew Norton",
+    "key_statement": "Andrew Norton of Pirate Party International rejects the recent attacks by Anonymous, arguing that while they demonstrate opposition to the trade body's focus on short-term profits, they are ultimately counterproductive.",
+    "long_statement": "Andrew Norton of Pirate Party International rejects the recent attacks by Anonymous, arguing that while they demonstrate opposition to the trade body's focus on short-term profits, they are ultimately counterproductive. He contends that the industry's prioritization of immediate revenue over long-term growth and customer needs has created the current situation, and he urges supporters to back local pirate parties to achieve lasting results against lobbying efforts.",
+    "segment_range": [
+     9,
+     15
+    ],
+    "rouge2_precision": 0.2903
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Most participants in the decentralized group are casual individuals motivated by entertainment rather than genuine dedication to the cause.",
+    "long_statement": "While the decentralized group claims to act as a unified force against industry censorship, the majority of its participants are actually casual individuals motivated by cheap entertainment rather than genuine dedication to the cause. This suggests that the coordinated disruption of websites is driven more by a desire for personal amusement at the expense of others than by a serious commitment to the stated principles of freedom of information.",
+    "segment_range": [
+     30,
+     34
+    ],
+    "rouge2_precision": 0.1667
+   },
+   {
+    "actor": "888chan.org",
+    "key_statement": "The original online campaign has evolved into a distorted caricature where sincere believers are manipulated into attacking a target for the amusement of the trolls.",
+    "long_statement": "The original online campaign against Scientology has evolved into a distorted caricature where sincere believers mistakenly view it as a moral crusade against an evil cult. In reality, the true motivation lies in a sophisticated trolling strategy designed to manipulate a large, unsuspecting personal army into attacking the target, deriving satisfaction from the participants' self-seriousness and their eventual realization that they were manipulated.",
+    "segment_range": [
+     35,
+     54
+    ],
+    "rouge2_precision": 0.1111
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Although the decentralized group claims responsibility for coordinated attacks, it is possible that these assertions are merely a bluff.",
+    "long_statement": "The decentralized group says it carried out coordinated cyber-attacks targeting the Swedish government and media sector. However, these claims could just be a deception. In truth, retaliatory cyber-operations against The Pirate Bay are now common following legal actions. This indicates a pattern where the group might exaggerate or fabricate its actions to seem more powerful.",
+    "segment_range": [
+     55,
+     61
+    ],
+    "rouge2_precision": 0.2778
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Legal actions taken against The Pirate Bay have led to a rise in coordinated cyber-attacks. These attacks now frequently target websites belonging to the Swedish government and the media industry as a form of retaliation.",
+    "long_statement": "Coordinated cyber-attacks targeting the Swedish government and media industry websites have become a common form of retaliation following legal actions against The Pirate Bay. This pattern of conflict was exemplified when an individual admitted to a distributed denial of service attack against the Church of Scientology's website in October 2008, an act that ultimately resulted in the attacker's arrest for computer hacking.",
+    "segment_range": [
+     55,
+     61
+    ],
+    "rouge2_precision": 0.2286
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Anonymous plans a specific retaliatory raid on the IFPI's Swedish website, reflecting both coordinated action and ambiguous participant motives.",
+    "long_statement": "While the decentralized collective known as Anonymous has historically coordinated attacks against entities prosecuting The Pirate Bay, the specific plan to launch a raid on the International Federation of the Phonogram's Swedish website at 12:00 GMT on April 26 represents a concrete operational step. This scheduled action serves as a direct retaliation for legal actions taken against the file-sharing site, yet it also highlights the ambiguity of the group's true motivation, as participants often range from genuine activists to individuals seeking cheap entertainment.",
+    "segment_range": [
+     55,
+     61
+    ],
+    "rouge2_precision": 0.2105
+   }
+  ]
+ }
+}

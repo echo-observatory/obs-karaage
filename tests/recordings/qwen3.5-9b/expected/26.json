@@ -1,0 +1,125 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, arguing that its vague terms threatened internet freedom and civil liberties while failing to address genuine counterfeiting concerns.",
+  "source_text_length_chars": 3229,
+  "source_text_length_segments": 26,
+  "actors": [
+   {
+    "name": "activist groups",
+    "variations": [
+     "Pressure and activist groups"
+    ]
+   },
+   {
+    "name": "Open Rights Group",
+    "variations": [
+     "ORG"
+    ]
+   },
+   {
+    "name": "Charles Arthur",
+    "variations": [
+     "The Guardian's technology editor",
+     "Arthur"
+    ]
+   },
+   {
+    "name": "Electronic Frontier Foundation",
+    "variations": [
+     "EFF"
+    ]
+   },
+   {
+    "name": "Obama administration",
+    "variations": []
+   },
+   {
+    "name": "Sebastian Nerz",
+    "variations": [
+     "vice-president of the Pirate Party of Germany"
+    ]
+   },
+   {
+    "name": "Accessnow.org",
+    "variations": []
+   },
+   {
+    "name": "Wikileaks",
+    "variations": []
+   }
+  ],
+  "statements": [
+   {
+    "actor": "Open Rights Group",
+    "key_statement": "The Open Rights Group warned that the European Commission delayed its decision on ACTA pending a legal ruling.",
+    "long_statement": "The Open Rights Group in the UK warned that the European Commission, under the leadership of Trade Commissioner Karel de Gucht, has postponed a decision regarding the future of the Anti-Counterfeiting Trade Agreement (ACTA). This delay will continue until the European Court of Justice issues a ruling verifying that the agreement aligns with European law.",
+    "segment_range": [
+     1,
+     4
+    ],
+    "rouge2_precision": 0.2545
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The Anti-Counterfeiting Trade Agreement (ACTA) provoked massive public opposition across Europe.",
+    "long_statement": "The Anti-Counterfeiting Trade Agreement (ACTA) provoked massive public opposition across Europe, evidenced by widespread demonstrations and a petition that accrued two million signatures against the secretive legislation.",
+    "segment_range": [
+     5,
+     8
+    ],
+    "rouge2_precision": 0.2727
+   },
+   {
+    "actor": "Electronic Frontier Foundation",
+    "key_statement": "The Electronic Frontier Foundation demanded full transparency of the secret ACTA draft to ensure public accountability.",
+    "long_statement": "The Electronic Frontier Foundation, a digital rights organization, formally requested that the European Union release the full text of the Anti-Counterfeiting Trade Agreement (ACTA) draft, arguing that withholding 800+ pages of classified material prevented public scrutiny of the deal's impact on civil liberties. Despite these appeals for transparency, the negotiations proceeded under the presidency of George W. Bush, with authorities rebuffing the request to declassify all but ten pages of the document.",
+    "segment_range": [
+     14,
+     15
+    ],
+    "rouge2_precision": 0.2
+   },
+   {
+    "actor": "Obama administration",
+    "key_statement": "The Obama administration claimed that protecting national security was the reason for withholding the ACTA draft from public view.",
+    "long_statement": "Following the transition to the Obama administration, the U.S. government maintained its refusal to release the Anti-Counterfeiting Trade Agreement (ACTA) draft, asserting that national security concerns justified keeping the entire document and all related materials secret. This stance continued the policy of secrecy established during the Bush presidency, effectively blocking Freedom of Information requests from activists seeking to understand the agreement's provisions before it was presented to the European Parliament.",
+    "segment_range": [
+     16,
+     17
+    ],
+    "rouge2_precision": 0.1667
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Activists warned that ACTA's vague terms threatened internet freedom and access to essential medicines.",
+    "long_statement": "Activists and protesters across Europe argued that the Anti-Counterfeiting Trade Agreement (ACTA) contained dangerously vague legal language that would inevitably lead to widespread internet censorship and a severe curtailment of freedom of speech. Furthermore, they warned that the agreement's patent regulations would have potentially adverse impacts on public access to essential medicines and agricultural crop seeds, creating a risk to public health and food security.",
+    "segment_range": [
+     18,
+     21
+    ],
+    "rouge2_precision": 0.1515
+   },
+   {
+    "actor": "Wikileaks",
+    "key_statement": "The leaked ACTA draft mandates that internet service providers must provide customer information to authorities, threatening user anonymity.",
+    "long_statement": "The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) mandates that internet service providers must provide 'perfunctory disclosure of customer information' to authorities, a requirement that critics warn will erode user anonymity and create a surveillance infrastructure incompatible with digital civil liberties.",
+    "segment_range": [
+     23,
+     25
+    ],
+    "rouge2_precision": 0.1905
+   },
+   {
+    "actor": "Wikileaks",
+    "key_statement": "The leaked ACTA draft includes provisions that would outlaw multi-region CD and DVD players, restricting consumer access to media.",
+    "long_statement": "The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) includes provisions that would likely outlaw multi-region CD and DVD players, effectively restricting consumers' ability to access media purchased in different geographic regions and undermining the global nature of digital commerce.",
+    "segment_range": [
+     23,
+     25
+    ],
+    "rouge2_precision": 0.2195
+   }
+  ]
+ }
+}

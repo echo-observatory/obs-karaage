@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-dv6v4hvvapd49ykv10ms82",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"The MPAA announced it launched seven lawsuits against specific BitTorrent and Us\", \"rephrased\": \"The Motion Picture Association of America (MPAA) publicly initiated legal action against seven specific BitTorrent and Usenet sites for allegedly facilitating copyright infringement, yet the organization failed to provide direct notification to the administrators of these sites before making the lawsuits public.\", \"summary\": \"The MPAA publicly sued file-sharing sites without first notifying their administrators.\"}, \"1\": {\"original\": \"MPAA sued BitTorrent and Usenet sites without notifying administrators first, sp\", \"rephrased\": \"The Motion Picture Association of America (MPAA) sued BitTorrent and Usenet sites without notifying administrators first, sparking outrage among those who claim they would have cooperated with proper legal process.\", \"summary\": \"The MPAA sued file-sharing sites without first notifying their administrators.\"}, \"2\": {\"original\": \"We haven't been informed by the MPAA and are outraged by their lawsuit filing\", \"rephrased\": \"Administrators of the BitTorrent site dvdrs.net expressed outrage that the Motion Picture Association of America (MPAA) filed lawsuits against them without prior direct contact, noting that they would have cooperated to resolve the issues had they been given a chance to respond before the public announcement.\", \"summary\": \"The dvdrs.net administrators were outraged that the MPAA sued them without prior notice.\"}, \"3\": {\"original\": \"We would have cooperated with them to resolve concerns had they contacted us f\", \"rephrased\": \"Administrators of the BitTorrent site dvdrs.net stated that they would have happily worked with the Motion Picture Association of America (MPAA) to resolve concerns regarding copyright infringement, provided the organization had contacted them directly before publicly announcing the legal action.\", \"summary\": \"The dvdrs.net administrators would have cooperated with the MPAA if contacted first.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638658,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 396,
+  "prompt_tokens": 2172,
+  "total_tokens": 2568,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

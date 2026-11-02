@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-rlfo6bb1drw45whygvxor",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"Wikipedia's English edition is holding a 24-hour blackout. This protest targets the Stop Online Piracy Act and the PROTECT IP Act. These are two proposed U.S. laws that endanger online freedom. The goal is to pressure lawmakers. The action shows public opposition to laws that could harm the global internet and raise cybersecurity risks.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639493,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 78,
+  "prompt_tokens": 221,
+  "total_tokens": 299,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

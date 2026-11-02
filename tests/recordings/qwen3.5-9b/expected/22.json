@@ -1,0 +1,54 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Aaron Swartz, an open source programmer and Harvard fellow, faces federal fraud charges for downloading two-thirds of the JSTOR academic database, an act that has sparked a broader debate over copyright and access to public domain information.",
+  "source_text_length_chars": 1640,
+  "source_text_length_segments": 12,
+  "actors": [
+   {
+    "name": "Aaron Swartz",
+    "variations": [
+     "Swartz"
+    ]
+   },
+   {
+    "name": "JSTOR",
+    "variations": []
+   },
+   {
+    "name": "U.S. District Court in Massachusetts",
+    "variations": [
+     "U.S. District Court"
+    ]
+   },
+   {
+    "name": "Greg Maxwell",
+    "variations": [
+     "Maxwell"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "JSTOR",
+    "key_statement": "JSTOR will not file a civil lawsuit against Swartz for downloading its database.",
+    "long_statement": "JSTOR, the academic journal repository that hosts the database Aaron Swartz accessed, intends not to pursue civil litigation against him, choosing instead to rely on the federal government to prosecute the case regarding the unauthorized downloading of its materials.",
+    "segment_range": [
+     0,
+     3
+    ],
+    "rouge2_precision": 0.2632
+   },
+   {
+    "actor": "Aaron Swartz",
+    "key_statement": "Swartz pleaded not guilty to federal fraud charges and was released on bail.",
+    "long_statement": "Aaron Swartz, the programmer charged with federal fraud for downloading a significant portion of the JSTOR academic database, has pleaded not guilty to all charges and secured release on a $100,000 unsecured bond while awaiting trial in Massachusetts.",
+    "segment_range": [
+     4,
+     9
+    ],
+    "rouge2_precision": 0.2895
+   }
+  ]
+ }
+}

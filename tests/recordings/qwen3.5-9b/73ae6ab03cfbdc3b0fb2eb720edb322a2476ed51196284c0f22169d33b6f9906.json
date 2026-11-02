@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-sjgtii6sf1o2iturd1chov",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"Ordered ISPs to block five specific copyright-infringing websites (Pirate Bay, 1\", \"rephrased\": \"The Australian Federal Court has mandated that Internet service providers immediately cease access to five specific websites known for distributing unauthorized copies of films and music. This legal order requires the telecommunications companies to implement these blocks within fifteen business days, establishing a strict deadline for enforcing intellectual property rights across the nation's digital infrastructure.\", \"summary\": \"The Australian Federal Court ordered ISPs to block five specific piracy websites within fifteen business days.\"}, \"1\": {\"original\": \"ISPs can choose blocking methods like DNS or IP blocking; copyright holders pay\", \"rephrased\": \"Internet service providers retain the autonomy to select their preferred technical method for blocking the designated infringing sites, whether through DNS filtering, IP address blocking, or URL blocking. To facilitate this enforcement, the copyright holders have agreed to compensate the ISPs with up to A$50 for each domain that is successfully blocked, ensuring the companies are financially incentivized to comply with the court's directive.\", \"summary\": \"ISPs can choose blocking methods and will be compensated by copyright holders for each blocked domain.\"}, \"2\": {\"original\": \"This judgment is a major step in both directly combating piracy and educat\", \"rephrased\": \"This judicial ruling represents a significant milestone in the direct fight against digital piracy and serves as a powerful educational tool for the public. It reinforces the critical message that accessing content through unauthorized channels is not merely a gray area but constitutes outright theft, thereby aligning public perception with the legal reality of intellectual property protection.\", \"summary\": \"The judgment is a major step in combating piracy and educating the public that accessing content through these sites is theft.\"}, \"3\": {\"original\": \"called people who pirate copyrighted material 'leeches and thieves' and compa\", \"rephrased\": \"The co-executive of Village Roadshow has characterized individuals who illegally download copyrighted material as 'leeches and thieves,' drawing a stark and severe comparison between digital piracy and the sale of illegal heroin. This rhetoric underscores the view that copyright infringement is a serious moral and criminal offense that demands the same level of societal condemnation and legal consequence as drug trafficking.\", \"summary\": \"The co-executive of Village Roadshow called people who pirate copyrighted material 'leeches and thieves'.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639654,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 490,
+  "prompt_tokens": 1871,
+  "total_tokens": 2361,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

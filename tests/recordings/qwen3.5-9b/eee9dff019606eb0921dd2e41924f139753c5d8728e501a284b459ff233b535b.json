@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-szewql4vta9w41zjvnljyq",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Aaron Swartz\", \"other\": [\"Swartz\"], \"segments\": [[0, 0], [1, 2], [3, 3], [7, 7], [9, 9]]}, {\"main\": \"JSTOR\", \"other\": [], \"segments\": [[0, 0], [3, 3]]}, {\"main\": \"U.S. District Court in Massachusetts\", \"other\": [\"U.S. District Court\"], \"segments\": [[5, 5]]}, {\"main\": \"Greg Maxwell\", \"other\": [\"Maxwell\"], \"segments\": [[10, 10]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639367,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 140,
+  "prompt_tokens": 752,
+  "total_tokens": 892,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

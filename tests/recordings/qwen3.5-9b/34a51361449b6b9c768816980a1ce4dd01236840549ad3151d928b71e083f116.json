@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-xo02rkms3mln21rx0iuwxn",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Joost\", \"other\": [\"web broadcaster Joost\", \"Joost (pronounced \\\"juiced\\\")\", \"online community\", \"web broadcaster\"], \"segments\": [[1, 1], [2, 2], [3, 3], [4, 4], [5, 6], [7, 10], [11, 11], [31, 31]]}, {\"main\": \"Fredrik de Wahl\", \"other\": [\"Fredrik de Wahl\", \"Joost chief executive officer\"], \"segments\": [[30, 30]]}, {\"main\": \"John P. Gamboa\", \"other\": [\"John P. Gamboa\"], \"segments\": [[11, 12]]}, {\"main\": \"Niklas Zennström\", \"other\": [\"Niklas Zennström\"], \"segments\": [[13, 13]]}, {\"main\": \"Janus Friis\", \"other\": [\"Janus Friis\"], \"segments\": [[13, 13]]}, {\"main\": \"media conglomerates\", \"other\": [\"media conglomerates\"], \"segments\": [[33, 33]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638888,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 260,
+  "prompt_tokens": 1397,
+  "total_tokens": 1657,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

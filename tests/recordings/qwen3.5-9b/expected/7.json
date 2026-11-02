@@ -1,0 +1,11 @@
+{
+ "step_errors": {
+  "Attribution": "IndexError: list index out of range",
+  "Passages": "skipped",
+  "Key statements extraction": "skipped",
+  "Rephrasing": "skipped",
+  "Paraphrasing": "skipped",
+  "Validation": "skipped"
+ },
+ "data": {}
+}

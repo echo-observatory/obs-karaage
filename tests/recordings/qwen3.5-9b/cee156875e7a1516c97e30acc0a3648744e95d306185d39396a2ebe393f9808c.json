@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-4zwapt98hua5dn1ftivgk3",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Danny O'Brien\", \"other\": [\"Danny O'Brien of the Electronic Frontier Foundation\", \"Danny O'Brien of EFF\", \"Danny O'Brien of the EFF\"], \"segments\": [[24, 26], [27, 28], [30, 34], [36, 41], [51, 55], [57, 63], [64, 72], [81, 84], [86, 91], [95, 101], [104, 106], [108, 115], [129, 145], [148, 153], [155, 169]]}, {\"main\": \"Wikinews\", \"other\": [], \"segments\": [[18, 20], [29], [35], [42, 50], [56], [73, 80], [85], [92], [101, 103], [107], [120, 128], [146, 147], [154]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638604,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 276,
+  "prompt_tokens": 3461,
+  "total_tokens": 3737,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,97 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Oxford University banned the peer-to-peer music service Spotify to prevent network slowdowns, sparking student anger and inconsistent enforcement, while the university argues that recreational bandwidth use cannot justify infrastructure strain.",
+  "source_text_length_chars": 2085,
+  "source_text_length_segments": 30,
+  "actors": [
+   {
+    "name": "University of Oxford",
+    "variations": [
+     "Oxford University",
+     "the university"
+    ]
+   },
+   {
+    "name": "OUCS",
+    "variations": [
+     "Officials in the university's Computer Services department"
+    ]
+   },
+   {
+    "name": "Students",
+    "variations": []
+   },
+   {
+    "name": "Student 1",
+    "variations": [
+     "she"
+    ]
+   },
+   {
+    "name": "Student 2",
+    "variations": [
+     "another"
+    ]
+   },
+   {
+    "name": "Student 3",
+    "variations": [
+     "another"
+    ]
+   },
+   {
+    "name": "Spokeswoman",
+    "variations": [
+     "A university spokeswoman"
+    ]
+   },
+   {
+    "name": "Spotify",
+    "variations": []
+   }
+  ],
+  "statements": [
+   {
+    "actor": "University of Oxford",
+    "key_statement": "Oxford University banned Spotify to protect academic network bandwidth from peer-to-peer congestion.",
+    "long_statement": "The University of Oxford has prohibited access to the peer-to-peer music service Spotify because its data-sharing model consumes excessive network bandwidth, which degrades performance for other users. This decision prioritizes the stability of the university's academic infrastructure over the recreational streaming needs of the student body, even though the service is legal and widely used.",
+    "segment_range": [
+     0,
+     2
+    ],
+    "rouge2_precision": 0.1897
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Oxford University banned Spotify to prevent network slowdowns caused by peer-to-peer data sharing.",
+    "long_statement": "The University of Oxford has implemented a ban on the peer-to-peer music service Spotify, citing the high bandwidth demands of its decentralized data-sharing architecture as the primary reason for the restriction. This policy aims to preserve sufficient network capacity for essential academic activities, acknowledging that the service's technical design creates a strain on the university's digital resources that outweighs the benefits of free music access for students.",
+    "segment_range": [
+     3,
+     7
+    ],
+    "rouge2_precision": 0.1429
+   },
+   {
+    "actor": "Spokeswoman",
+    "key_statement": "The university allows recreational internet use only if it does not slow down the network for others.",
+    "long_statement": "The institution provides free internet access to students specifically as an educational resource, establishing a clear boundary where recreational usage is permitted only if it does not compromise network performance. Consequently, the university argues that while students may use the connection for leisure, this freedom is conditional upon the traffic not consuming enough bandwidth to slow down the system for others, thereby balancing student rights with the technical limitations of the shared infrastructure.",
+    "segment_range": [
+     15,
+     20
+    ],
+    "rouge2_precision": 0.125
+   },
+   {
+    "actor": "Spotify",
+    "key_statement": "Spotify regrets the Oxford ban and is negotiating a technical fix to restore student access.",
+    "long_statement": "Spotify expressed deep regret that students at Oxford University are currently unable to access its music streaming service due to the institution's ban on peer-to-peer traffic. The company is actively engaging with university administrators to negotiate a technical solution that would restore access for students without compromising the network infrastructure that the university relies upon for its academic research operations.",
+    "segment_range": [
+     25,
+     29
+    ],
+    "rouge2_precision": 0.0806
+   }
+  ]
+ }
+}

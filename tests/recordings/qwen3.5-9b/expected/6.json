@@ -1,0 +1,58 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Suprnova founder Andrej Preston reveals that after his site was raided in 2004 and his home was searched, the legal charges against him were unexpectedly dropped, allowing him to finally explain the truth behind the site's closure.",
+  "source_text_length_chars": 3150,
+  "source_text_length_segments": 50,
+  "actors": [
+   {
+    "name": "Andrej Preston",
+    "variations": [
+     "Sloncek",
+     "Preston"
+    ]
+   },
+   {
+    "name": "BitTorrent protocol",
+    "variations": [
+     "BitTorrent"
+    ]
+   },
+   {
+    "name": "eXeem",
+    "variations": [
+     "eXeem"
+    ]
+   },
+   {
+    "name": "Suprnova",
+    "variations": [
+     "Suprnova",
+     "Suprnova BitTorrent link site"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "Andrej Preston",
+    "key_statement": "The Suprnova founder demands an end to the pretense that the site's closure was uneventful.",
+    "long_statement": "The founder of the Slovenian BitTorrent link site Suprnova asserts that it is now necessary to disclose the actual reasons for the website's shutdown, arguing that continuing to act as if no legal or operational issues occurred is no longer tenable. This call for transparency comes after a year of speculation regarding the site's sudden disappearance from the internet.",
+    "segment_range": [
+     0,
+     16
+    ],
+    "rouge2_precision": 0.1167
+   },
+   {
+    "actor": "BitTorrent protocol",
+    "key_statement": "The BitTorrent protocol uses decentralized metadata to direct users to peers, avoiding centralized file hosting.",
+    "long_statement": "The BitTorrent protocol operates by distributing metadata files that instruct client applications on which trackers to contact for locating peers and verifying file integrity, a design choice that distinguishes it from traditional centralized file hosting systems. This decentralized architecture was originally perceived as legally safer because the actual copyrighted files were stored on individual users' computers rather than on a central server.",
+    "segment_range": [
+     28,
+     36
+    ],
+    "rouge2_precision": 0.2143
+   }
+  ]
+ }
+}

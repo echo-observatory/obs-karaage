@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-zbf1nkdr0y933kod1odsv",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"John Deere\", \"other\": [], \"segments\": [[395, 395]]}, {\"main\": \"Interviewer\", \"other\": [], \"segments\": [[407, 407], [436, 436], [450, 450], [485, 485], [501, 501], [532, 532], [578, 578]]}, {\"main\": \"Speaker 1\", \"other\": [], \"segments\": [[394, 406]]}, {\"main\": \"Speaker 2\", \"other\": [], \"segments\": [[408, 434], [437, 449], [451, 455], [457, 484], [486, 500], [502, 504], [506, 513], [514, 517], [518, 531], [533, 545], [552, 577], [579, 587], [588, 591]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639717,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 288,
+  "prompt_tokens": 3645,
+  "total_tokens": 3933,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

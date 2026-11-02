@@ -1,0 +1,45 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "The Supreme Court's upcoming ruling in MGM v. Grokster will determine whether software companies can be held legally responsible for copyright infringement by users of peer-to-peer technology, a decision that could either preserve the future of P2P networks or overturn the legal precedent that allowed the VCR market to flourish.",
+  "source_text_length_chars": 2715,
+  "source_text_length_segments": 31,
+  "actors": [
+   {
+    "name": "Pew Internet & American Life Project",
+    "variations": [
+     "Pew Internet & American Life Project"
+    ]
+   },
+   {
+    "name": "Lawyers from the EFF Foundation",
+    "variations": [
+     "Lawyers from the EFF Foundation",
+     "EFF Foundation"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "base_author",
+    "key_statement": "The Supreme Court's imminent ruling in MGM v. Grokster will decide if software makers face liability for user copyright infringement, potentially reshaping digital distribution laws.",
+    "long_statement": "The United States Supreme Court is set to issue a decisive ruling in the upcoming MGM v. Grokster case, a decision that will determine whether software developers can be held legally liable for copyright infringement committed by users of peer-to-peer networks. This judgment carries the potential to either establish a new legal framework for digital content distribution or fundamentally alter the existing precedent that previously protected such technology.",
+    "segment_range": [
+     0,
+     23
+    ],
+    "rouge2_precision": 0.16
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The MGM v. Grokster ruling will either preserve or overturn the legal precedent that enabled the VCR market, determining the future of peer-to-peer networks.",
+    "long_statement": "The outcome of the pending Supreme Court decision in MGM v. Grokster will serve as a critical juncture, either preserving the legal viability of peer-to-peer networks by upholding the precedent that allowed the home video market to flourish or overturning that historical protection. This ruling effectively determines whether the legal system will adapt to modern digital technologies or restrict the distribution methods that previously revolutionized media consumption.",
+    "segment_range": [
+     25,
+     30
+    ],
+    "rouge2_precision": 0.24
+   }
+  ]
+ }
+}

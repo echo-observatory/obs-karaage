@@ -1,0 +1,148 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "The MPAA publicly sued BitTorrent and Usenet sites without notifying them first, causing outrage among administrators who claim they are legitimate services that would have cooperated with proper legal process.",
+  "source_text_length_chars": 8482,
+  "source_text_length_segments": 153,
+  "actors": [
+   {
+    "name": "MPAA",
+    "variations": [
+     "Motion Picture Association of America"
+    ]
+   },
+   {
+    "name": "Joe",
+    "variations": [
+     "Joe from Binnews"
+    ]
+   },
+   {
+    "name": "Binnews",
+    "variations": [
+     "Binnews.com",
+     "BinNews.com"
+    ]
+   },
+   {
+    "name": "Descds",
+    "variations": [
+     "administrator of dvdrs.net"
+    ]
+   },
+   {
+    "name": "Dvdrs",
+    "variations": [
+     "dvdrs.net",
+     "Dvdrs.net"
+    ]
+   },
+   {
+    "name": "Wikinews",
+    "variations": []
+   }
+  ],
+  "statements": [
+   {
+    "actor": "base_author",
+    "key_statement": "The MPAA sued file-sharing sites without first notifying their administrators.",
+    "long_statement": "The Motion Picture Association of America (MPAA) sued BitTorrent and Usenet sites without notifying administrators first, sparking outrage among those who claim they would have cooperated with proper legal process.",
+    "segment_range": [
+     4,
+     13
+    ],
+    "rouge2_precision": 0.1
+   },
+   {
+    "actor": "Descds",
+    "key_statement": "The dvdrs.net administrators were outraged that the MPAA sued them without prior notice.",
+    "long_statement": "Administrators of the BitTorrent site dvdrs.net expressed outrage that the Motion Picture Association of America (MPAA) filed lawsuits against them without prior direct contact, noting that they would have cooperated to resolve the issues had they been given a chance to respond before the public announcement.",
+    "segment_range": [
+     14,
+     25
+    ],
+    "rouge2_precision": 0.0769
+   },
+   {
+    "actor": "Descds",
+    "key_statement": "The dvdrs.net administrators would have cooperated with the MPAA if contacted first.",
+    "long_statement": "Administrators of the BitTorrent site dvdrs.net stated that they would have happily worked with the Motion Picture Association of America (MPAA) to resolve concerns regarding copyright infringement, provided the organization had contacted them directly before publicly announcing the legal action.",
+    "segment_range": [
+     14,
+     25
+    ],
+    "rouge2_precision": 0.1667
+   },
+   {
+    "actor": "Dvdrs",
+    "key_statement": "A site administrator states that personal notification from the MPAA would have led to cooperation, contrasting this with the current public lawsuit.",
+    "long_statement": "The Motion Picture Association of America (MPAA) publicly sued BitTorrent and Usenet sites without notifying them first, causing outrage among administrators who claim they are legitimate services that would have cooperated with proper legal process.",
+    "segment_range": [
+     32,
+     42
+    ],
+    "rouge2_precision": 0.0952
+   },
+   {
+    "actor": "Wikinews",
+    "key_statement": "News reports reveal that affected sites have established procedures for handling copyright infringement, yet deny receiving any prior contact from the MPAA.",
+    "long_statement": "The Motion Picture Association of America (MPAA) publicly sued BitTorrent and Usenet sites without notifying them first, causing outrage among administrators who claim they are legitimate services that would have cooperated with proper legal process.",
+    "segment_range": [
+     43,
+     46
+    ],
+    "rouge2_precision": 0.0476
+   },
+   {
+    "actor": "Dvdrs",
+    "key_statement": "An administrator asserts full compliance with copyright laws, arguing that immediate deletion of files would occur upon receiving a formal notice.",
+    "long_statement": "The Motion Picture Association of America (MPAA) publicly sued BitTorrent and Usenet sites without notifying them first, causing outrage among administrators who claim they are legitimate services that would have cooperated with proper legal process.",
+    "segment_range": [
+     56,
+     61
+    ],
+    "rouge2_precision": 0.0294
+   },
+   {
+    "actor": "Dvdrs",
+    "key_statement": "Dvdrs administrators claim their site is compliant and would immediately remove infringing files upon receiving legal notices.",
+    "long_statement": "The administrators of Dvdrs assert that their platform operates as a compliant service, stating that they would instantly remove any infringing material upon receiving a formal legal request and would actively investigate related files to ensure full adherence to copyright laws.",
+    "segment_range": [
+     62,
+     70
+    ],
+    "rouge2_precision": 0.0625
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Binnews and Dvdrs operators claim their sites merely index files from commercial servers, functioning like legitimate search engines rather than hosting illegal content.",
+    "long_statement": "The operators of Binnews and Dvdrs argue that their websites function similarly to standard search engines by merely indexing links to files hosted on commercial, US-based servers, thereby asserting that they do not host illegal content themselves and should not be treated as primary targets for copyright enforcement actions.",
+    "segment_range": [
+     71,
+     87
+    ],
+    "rouge2_precision": 0.1224
+   },
+   {
+    "actor": "Descds",
+    "key_statement": "Descds administrators argue the MPAA's lawsuit is inconsistent, demanding that premium Usenet providers and Newzbin be targeted alongside their service.",
+    "long_statement": "The administrators of Descds contend that the Motion Picture Association's (MPAA) legal strategy is inconsistent, arguing that if their indexing service is deemed illegal, the organization must also sue the premium paid Usenet providers and Newzbin, which act as the actual carriers of the files and have not yet been targeted by the MPAA.",
+    "segment_range": [
+     88,
+     101
+    ],
+    "rouge2_precision": 0.1852
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Dvdrs.net adopted NZB hosting months after launch without prior legal warning, and the author notes no law currently prohibits hosting such files.",
+    "long_statement": "Dvdrs.net explains that it only began offering Newsgroup Binary (NZB) files months after its initial launch as a community discussion forum, and never received prior legal notice to remove them. The author notes that no specific law currently exists anywhere that prohibits the hosting of NZB files, suggesting the site's actions were not illegal at the time they were taken. This timeline indicates the site evolved in response to user demand rather than acting as a pre-existing piracy hub.",
+    "segment_range": [
+     139,
+     150
+    ],
+    "rouge2_precision": 0.1364
+   }
+  ]
+ }
+}

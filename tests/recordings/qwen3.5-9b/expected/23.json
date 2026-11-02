@@ -1,0 +1,94 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Wikipedia is staging a 24-hour global blackout to protest proposed U.S. anti-piracy laws, arguing they threaten the site's existence, while opponents condemn the action as politically biased and irresponsible.",
+  "source_text_length_chars": 3143,
+  "source_text_length_segments": 40,
+  "actors": [
+   {
+    "name": "Wikipedia",
+    "variations": [
+     "Wikipedia page",
+     "Wikipedians"
+    ]
+   },
+   {
+    "name": "Reddit",
+    "variations": []
+   },
+   {
+    "name": "Google",
+    "variations": []
+   },
+   {
+    "name": "Supporters of the blackout",
+    "variations": []
+   },
+   {
+    "name": "Opponents",
+    "variations": [
+     "one opponent",
+     "Other opponents"
+    ]
+   },
+   {
+    "name": "Motion Picture Association of America",
+    "variations": [
+     "MPAA"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "Supporters of the blackout",
+    "key_statement": "Proponents claim that new American legislation targeting piracy could destroy Wikipedia.",
+    "long_statement": "Supporters of the online encyclopedia argue that the proposed U.S. anti-piracy legislation poses an existential threat to the site's very existence, justifying a dramatic 24-hour global shutdown as a necessary method to drive home the severity of this danger.",
+    "segment_range": [
+     11,
+     13
+    ],
+    "rouge2_precision": 0.1905
+   },
+   {
+    "actor": "Supporters of the blackout",
+    "key_statement": "Supporters view the Wikipedia blackout as a necessary, dramatic demonstration of the existential threat posed by U.S. anti-piracy laws.",
+    "long_statement": "Supporters of the global Wikipedia blackout argue that temporarily taking the site offline serves as a powerful, visual demonstration of the severe threat posed by proposed U.S. anti-piracy legislation to the encyclopedia's future. They contend that this dramatic disruption is necessary to force policymakers to recognize the existential danger these laws present to the open internet.",
+    "segment_range": [
+     11,
+     13
+    ],
+    "rouge2_precision": 0.1
+   },
+   {
+    "actor": "Opponents",
+    "key_statement": "Critics argue the Wikipedia blackout compromises the site's political neutrality and risks damaging public trust.",
+    "long_statement": "Critics of the planned Wikipedia blackout warn that the action compromises the site's core principle of political neutrality by aligning it with a specific legislative agenda. They argue that participating in this protest risks damaging public trust in the encyclopedia and could inadvertently draw the organization into partisan political conflicts.",
+    "segment_range": [
+     14,
+     16
+    ],
+    "rouge2_precision": 0.04
+   },
+   {
+    "actor": "Motion Picture Association of America",
+    "key_statement": "The Motion Picture Association of America condemns the online blackout as a manipulative stunt by tech companies that punishes users instead of solving piracy.",
+    "long_statement": "The Motion Picture Association of America asserts that certain technology companies are orchestrating disruptive online protests to punish their users and manipulate public opinion, rather than engaging in good-faith negotiations to address the genuine and damaging problem of online piracy.",
+    "segment_range": [
+     34,
+     39
+    ],
+    "rouge2_precision": 0.225
+   },
+   {
+    "actor": "Motion Picture Association of America",
+    "key_statement": "The Motion Picture Association of America condemns the website blackout as an irresponsible and dangerous tactic that harms the public.",
+    "long_statement": "The Motion Picture Association of America characterizes the planned global website shutdown as an irresponsible and dangerous act that harms ordinary people who depend on the internet for information, arguing that such tactics fail to address the real threat of copyright infringement.",
+    "segment_range": [
+     34,
+     39
+    ],
+    "rouge2_precision": 0.2632
+   }
+  ]
+ }
+}

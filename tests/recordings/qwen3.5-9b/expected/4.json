@@ -1,0 +1,52 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "The U.S. Supreme Court ruled that companies intentionally designed to facilitate copyright infringement are liable for users' illegal acts, a decision that sends a strong message against such businesses despite concerns from advocates about unclear legal standards.",
+  "source_text_length_chars": 1707,
+  "source_text_length_segments": 20,
+  "actors": [
+   {
+    "name": "Metro-Goldwyn-Mayer Studios Inc. et al.",
+    "variations": [
+     "MGM Studios",
+     "plaintiffs"
+    ]
+   },
+   {
+    "name": "Grokster, Ltd. et al.",
+    "variations": [
+     "Grokster",
+     "defendants"
+    ]
+   },
+   {
+    "name": "Fred von Lohmann",
+    "variations": [
+     "Lohmann"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "base_author",
+    "key_statement": "A decision by the U.S. Supreme Court established that file-sharing networks created on purpose for exchanging files are responsible when users break copyright rules.",
+    "long_statement": "The U.S. Supreme Court has established that internet companies intentionally designed to promote copyright violations must be held legally responsible for the resulting illegal acts of their users, a unanimous ruling that signals a strong intolerance for businesses whose primary purpose is to facilitate infringement, even if those same tools have lawful applications.",
+    "segment_range": [
+     0,
+     14
+    ],
+    "rouge2_precision": 0.24
+   },
+   {
+    "actor": "Fred von Lohmann",
+    "key_statement": "Fred von Lohmann criticized the Supreme Court for lacking a clear legal test for copyright inducement, fearing it would stifle innovation.",
+    "long_statement": "Fred von Lohmann, a senior staff attorney for the Electronic Frontier Foundation, criticized the U.S. Supreme Court for failing to provide a clear legal standard for determining when a company induces copyright infringement, arguing that this ambiguity could discourage innovators who are unsure whether their new internet projects might inadvertently violate the law.",
+    "segment_range": [
+     15,
+     19
+    ],
+    "rouge2_precision": 0.3
+   }
+  ]
+ }
+}

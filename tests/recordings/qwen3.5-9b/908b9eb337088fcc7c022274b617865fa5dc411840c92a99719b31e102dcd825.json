@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-z2352vhr57m9wpbwp58jgu",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"8\": {\"original\": \"Time Warner Cable plans to meter and bill clients for faster speeds and larger 8\", \"rephrased\": \"Following the FCC investigation into Comcast's data restrictions, Time Warner Cable intends to adopt a metered billing model that charges customers extra fees for exceeding their data allowances, functioning similarly to a traditional public utility. This approach aims to manage network congestion by shifting costs directly to high-volume users rather than raising prices for all subscribers, a strategy that will be tested in Beaumont, Texas starting June 5.\", \"summary\": \"Time Warner Cable proposes metered billing for heavy internet usage to manage congestion and fund network investments.\"}, \"9\": {\"original\": \"It is clearly the fairest way to fund the investment that is going to be 9\", \"rephrased\": \"Senior executive Alex Dudley argues that charging customers based on actual data consumption represents the fairest method for funding the necessary infrastructure investments required to support high-bandwidth usage. This perspective suggests that a usage-based pricing model is superior to flat-rate fees because it ensures those who consume the most resources contribute proportionally to the costs of maintaining the network.\", \"summary\": \"Alex Dudley contends that usage-based billing is the fairest way to fund network infrastructure investments.\"}, \"10\": {\"original\": \"Time Warner Cable charges $1 per GB over plan limits, offering 15 Mbps 10\", \"rephrased\": \"Under the proposed plan, Time Warner Cable will charge an additional dollar for every gigabyte of data used beyond the customer's monthly limit, while offering a standard package with 15 megabits-per-second speeds and a 40 gigabyte monthly cap. Critics warn that this structure effectively rations access rather than relieving congestion, as the low speed combined with strict data limits may prevent users from watching high-definition content or streaming multiple videos within a single month.\", \"summary\": \"Time Warner Cable's plan charges overage fees and offers low speeds, which critics argue rations access rather than relieving congestion.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638987,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 419,
+  "prompt_tokens": 2051,
+  "total_tokens": 2470,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

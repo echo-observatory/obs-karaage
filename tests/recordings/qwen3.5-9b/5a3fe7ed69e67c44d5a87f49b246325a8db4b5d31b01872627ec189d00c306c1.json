@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-d0xpe8f0p0hlni6wxkj0wg",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Rajiv Sahan Endlaw\": [\"Dismissed copyright infringement charges against DU's photocopy service in September, ruling there was no violation.\"], \"Rameshwari Photocopy Service\": [\"Previously operated without legal restriction after Endlaw's dismissal, distributing copyrighted course packs until the case was restored.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639616,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 65,
+  "prompt_tokens": 766,
+  "total_tokens": 831,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

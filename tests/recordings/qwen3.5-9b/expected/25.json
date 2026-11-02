@@ -1,0 +1,92 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "In retaliation for the FBI's shutdown of the file-sharing site Megaupload and proposed anti-piracy laws, the activist group Anonymous coordinated massive cyberattacks that took down the websites of the US Justice Department, FBI, and major record labels.",
+  "source_text_length_chars": 2113,
+  "source_text_length_segments": 27,
+  "actors": [
+   {
+    "name": "Anonymous",
+    "variations": [
+     "members of online activist group Anonymous",
+     "members of Anonymous",
+     "Another member of Anonymous",
+     "'YourAnonNews'"
+    ]
+   },
+   {
+    "name": "Universal Music Group",
+    "variations": [
+     "Universal Music",
+     "Universal Music Group"
+    ]
+   },
+   {
+    "name": "Authorities",
+    "variations": []
+   }
+  ],
+  "statements": [
+   {
+    "actor": "Anonymous",
+    "key_statement": "Anonymous claimed responsibility for a massive coordinated cyberattack targeting US government and record label websites as a protest against the FBI's Megaupload seizure and anti-piracy laws.",
+    "long_statement": "Members of the online activist group Anonymous have publicly claimed responsibility for taking down the website of Universal Music Group, alongside the sites of the Federal Bureau of Investigation and the US Justice Department. This group frames these actions as a massive, coordinated protest involving over 5,600 participants, designed to punish the US government for seizing the file-sharing site Megaupload and for enacting strict anti-piracy legislation that they view as an overreach against digital freedom.",
+    "segment_range": [
+     7,
+     10
+    ],
+    "rouge2_precision": 0.2593
+   },
+   {
+    "actor": "Anonymous",
+    "key_statement": "Anonymous executed a retaliatory cyberattack against US government and record label websites approximately fifteen minutes after the government shut down the file-sharing site Megaupload.",
+    "long_statement": "Approximately fifteen minutes after the United States government seized and shut down the file-sharing website Megaupload, the activist group Anonymous executed a retaliatory cyberattack that took down the websites of the Justice Department, the Federal Bureau of Investigation, and major record labels. This rapid sequence of events demonstrates a deliberate strategy by the group to punish the authorities for their actions against the file-sharing platform, with the group explicitly stating that further attacks are expected to follow.",
+    "segment_range": [
+     11,
+     16
+    ],
+    "rouge2_precision": 0.0833
+   },
+   {
+    "actor": "Anonymous",
+    "key_statement": "The activist group Anonymous warned that further cyberattacks targeting the US government and entertainment industry are planned following the initial disruption of government and record label websites.",
+    "long_statement": "Following the initial wave of cyberattacks targeting the US Justice Department, the Federal Bureau of Investigation, and major record labels, the activist group Anonymous has explicitly warned that additional digital disruptions are planned. This statement, made by a member of the group in response to the government's seizure of the Megaupload file-sharing site, indicates a sustained campaign of cyberwarfare intended to continue pressuring the US government and the entertainment industry regarding their anti-piracy enforcement actions.",
+    "segment_range": [
+     11,
+     16
+    ],
+    "rouge2_precision": 0.0385
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The FBI seized Megaupload, a high-traffic file-sharing site, leading to seven arrests for serious federal charges.",
+    "long_statement": "The US Federal Bureau of Investigation seized and shut down Megaupload, a file-sharing platform that hosted over 50 million daily visits, resulting in seven arrests for charges including copyright infringement, racketeering, and conspiracy to commit money laundering. This enforcement action represents a significant legal and operational response to the alleged massive scale of the site's operations.",
+    "segment_range": [
+     17,
+     21
+    ],
+    "rouge2_precision": 0.2456
+   },
+   {
+    "actor": "Authorities",
+    "key_statement": "Authorities assert that Megaupload allowed the massive, unauthorized download of diverse copyrighted content.",
+    "long_statement": "Megaupload, a file-sharing site that was taken down, allowed people to get movies, music, TV shows, e-books, and business software in huge quantities. This made it easy to share copyrighted stuff without permission across different media.",
+    "segment_range": [
+     22,
+     26
+    ],
+    "rouge2_precision": 0.0833
+   },
+   {
+    "actor": "Authorities",
+    "key_statement": "The site's activities resulted in more than $500 million in losses for the entertainment industry.",
+    "long_statement": "The entertainment industry's copyright-holders suffered financial losses exceeding US$500 million due to the site's massive scale of unauthorized content distribution. These damages resulted from the operations of the seized file-sharing website Megaupload.",
+    "segment_range": [
+     22,
+     26
+    ],
+    "rouge2_precision": 0.2
+   }
+  ]
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Wikipedia is conducting a 24-hour blackout to protest U.S. anti-piracy laws, aiming to raise awareness and pressure lawmakers, while the Wikimedia Foundation acknowledges the protest's effectiveness but remains cautious about establishing formal policies for future advocacy actions.",
+  "source_text_length_chars": 5401,
+  "source_text_length_segments": 84,
+  "actors": [
+   {
+    "name": "White House",
+    "variations": []
+   },
+   {
+    "name": "Wikinews",
+    "variations": [
+     "Tom Morris"
+    ]
+   },
+   {
+    "name": "Sue Gardner",
+    "variations": [
+     "executive director of the Wikimedia Foundation",
+     "I"
+    ]
+   },
+   {
+    "name": "Wikimedia Foundation",
+    "variations": [
+     "the Foundation",
+     "the Wikimedia Foundation",
+     "the Wikimedia movement"
+    ]
+   },
+   {
+    "name": "Geoff Brigham",
+    "variations": []
+   },
+   {
+    "name": "admins",
+    "variations": [
+     "the admins who closed it"
+    ]
+   },
+   {
+    "name": "Jimmy",
+    "variations": []
+   },
+   {
+    "name": "Italian Wikipedians",
+    "variations": []
+   },
+   {
+    "name": "German Wikipedia",
+    "variations": []
+   },
+   {
+    "name": "Arabic Wikipedia",
+    "variations": []
+   },
+   {
+    "name": "community",
+    "variations": [
+     "the community"
+    ]
+   },
+   {
+    "name": "Some",
+    "variations": []
+   }
+  ],
+  "statements": [
+   {
+    "actor": "Wikinews",
+    "key_statement": "Wikinews looks into the Wikipedia blackout to see how well it worked and why it happened.",
+    "long_statement": "Journalists from Wikinews are investigating the operational details and potential impact of the Wikipedia blackout, specifically seeking to understand how the protest is being executed and whether it will successfully influence the legislative debate surrounding U.S. anti-piracy laws.",
+    "segment_range": [
+     3,
+     4
+    ],
+    "rouge2_precision": 0.1333
+   },
+   {
+    "actor": "White House",
+    "key_statement": "The White House refuses to support U.S. laws that harm internet freedom.",
+    "long_statement": "The administration has stated it will not back any U.S. laws that limit free speech, raise cybersecurity threats, or harm the open and creative global internet. This stance matches the worries from the Wikipedia blackout, showing the government fights against the specific anti-piracy bills being discussed.",
+    "segment_range": [
+     3,
+     4
+    ],
+    "rouge2_precision": 0.1667
+   },
+   {
+    "actor": "Sue Gardner",
+    "key_statement": "Wikimedia Foundation confirms the blackout raised awareness but doubts its impact on lawmakers.",
+    "long_statement": "The executive director of the Wikimedia Foundation confirms that the Wikipedia blackout has successfully raised awareness regarding the dangers of the Stop Online Piracy Act and the PROTECT IP Act, citing thousands of news stories and trending social media activity as proof. However, while the initial goal of informing the public has been achieved, the organization remains cautious about whether this awareness will translate into enough direct contact with elected officials to alter the laws.",
+    "segment_range": [
+     5,
+     14
+    ],
+    "rouge2_precision": 0.0833
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The Foundation hopes the anti-piracy protest will not permanently drive away Wikipedia editors.",
+    "long_statement": "The Wikimedia Foundation hopes that the 24-hour Wikipedia blackout, a protest against U.S. anti-piracy laws, will not cause permanent damage to the community by driving away editors who might otherwise contribute to the encyclopedia.",
+    "segment_range": [
+     15,
+     44
+    ],
+    "rouge2_precision": 0.0769
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The Foundation views the community's decision-making process for the protest as highly successful.",
+    "long_statement": "The Wikimedia Foundation views the internal community decision-making process regarding the anti-piracy protest as highly successful, citing record participation levels and overwhelming consensus in favor of taking action.",
+    "segment_range": [
+     15,
+     44
+    ],
+    "rouge2_precision": 0.2857
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The Foundation believes each project has unique circumstances justifying different advocacy actions.",
+    "long_statement": "The Wikimedia Foundation believes that each Wikipedia project and language version has unique circumstances that may justify different types of advocacy actions or no action, rejecting the idea that there is a single correct approach for all projects.",
+    "segment_range": [
+     45,
+     55
+    ],
+    "rouge2_precision": 0.1892
+   },
+   {
+    "actor": "Sue Gardner",
+    "key_statement": "Commercial sites are unlikely to join the anti-piracy blackout due to financial and contractual constraints, highlighting the unique power of the Wikipedia protest.",
+    "long_statement": "While the blackout aims to pressure lawmakers regarding U.S. anti-piracy laws, large commercial internet platforms are unlikely to join the protest because they face significant commercial constraints. These companies must answer to shareholders, risk losing substantial revenue, or violate contractual uptime agreements, which makes the participation of the non-profit Wikipedia project particularly powerful and important.",
+    "segment_range": [
+     56,
+     64
+    ],
+    "rouge2_precision": 0.0877
+   }
+  ]
+ }
+}
