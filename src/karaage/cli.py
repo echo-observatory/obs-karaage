@@ -3,9 +3,8 @@
 import argparse
 
 from karaage import __version__
-
-# The embedding model of the pre-1.1.0 setup. Model profiles will replace this default.
-DEFAULT_EMBEDDING_MODEL = "intfloat/multilingual-e5-large-instruct"
+from karaage.config import profile_from_env
+from karaage.profile import load_profile
 
 
 def download_models(embedding_model: str) -> None:
@@ -41,14 +40,15 @@ def main(argv=None) -> None:
         help="download the NLP and embedding models Karaage needs",
     )
     download.add_argument(
-        "--embedding-model",
-        default=DEFAULT_EMBEDDING_MODEL,
-        help=f"embedding model to download (default: {DEFAULT_EMBEDDING_MODEL})",
+        "--profile",
+        help="profile whose embedding model to download: a shipped profile name or a file "
+             "(default: KARAAGE_PROFILE, or the default profile)",
     )
 
     args = parser.parse_args(argv)
     if args.command == "download-models":
-        download_models(args.embedding_model)
+        profile = load_profile(args.profile or profile_from_env())
+        download_models(profile.embedding_model)
 
 
 if __name__ == "__main__":

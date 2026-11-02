@@ -15,18 +15,32 @@ import pathlib
 from dataclasses import dataclass
 
 from sentence_transformers import SentenceTransformer
-from openai import OpenAI
-from karaage._context import set_client, get_client
+from karaage import llm
+from karaage.config import load_settings
+from karaage.profile import Profile, load_profile
 
 
 @dataclass
 class Resources:
-    model: str
-    nlp: object          # spacy.Language
+    client: llm.LLMClient   # backend and profile
+    nlp: object             # spacy.Language
     sim_model: SentenceTransformer
-    embedding_model: str
-    enable_thinking: bool = False
-    max_context_tokens: int = 8_000
+
+    @property
+    def profile(self) -> Profile:
+        return self.client.profile
+
+    @property
+    def model(self) -> str:
+        return self.client.model
+
+    @property
+    def embedding_model(self) -> str:
+        return self.client.profile.embedding_model
+
+    @property
+    def max_context_tokens(self) -> int:
+        return self.client.profile.context_tokens
 
 
 @dataclass
@@ -39,18 +53,11 @@ class PipelineResult:
     all_statements: list
     passages: list
     main_point: str
+    provenance: dict        # profile, backend and model, for the output (llm.LLMClient.provenance)
 
 
 def load_embedding_model(model_name: str) -> SentenceTransformer:
     return SentenceTransformer(model_name)
-
-
-def create_llm_client(base_url: str, api_key: str = 'lm-studio') -> OpenAI:
-    client = OpenAI(base_url=base_url, api_key=api_key)
-    available = [m.id for m in client.models.list().data]
-    print('Available models:', available)
-    set_client(client)
-    return client
 
 
 def set_verbose(value: bool) -> None:
@@ -59,21 +66,24 @@ def set_verbose(value: bool) -> None:
         mod.verbose = value
 
 
-def setup(
-    lm_studio_url: str,
-    model: str,
-    embedding_model: str,
-    *,
-    api_key: str = 'lm-studio',
-    enable_thinking: bool = False,
-    max_context_tokens: int = 8_000,
-) -> Resources:
+def setup(*, profile=None, backend=None, base_url=None, api_key=None) -> Resources:
+    """Connect to the LLM backend and load the models, once per session.
+
+    The backend settings and the profile come from KARAAGE_* environment
+    variables or a .env file (docs/design-1.1.0.md, section 4); keyword
+    arguments override them. `profile` is a shipped profile name or a path.
+    """
     from karaage.segmentation import load_nlp_pipeline
-    create_llm_client(lm_studio_url, api_key=api_key)
-    sim_model = load_embedding_model(embedding_model)
+    settings = load_settings(profile=profile, backend=backend, base_url=base_url, api_key=api_key)
+    client = llm.LLMClient(settings, load_profile(settings.profile))
+    client.check()
+    llm.activate(client)
+    build = client.model_build
+    build_str = f", {build['format']} {build['quantization']}" if build else ""
+    print(f"Profile {client.profile.label}: {client.model}{build_str} on {client.backend} at {settings.base_url}")
+    sim_model = load_embedding_model(client.profile.embedding_model)
     nlp = load_nlp_pipeline()
-    return Resources(model=model, nlp=nlp, sim_model=sim_model, embedding_model=embedding_model,
-                     enable_thinking=enable_thinking, max_context_tokens=max_context_tokens)
+    return Resources(client=client, nlp=nlp, sim_model=sim_model)
 
 
 def run(text: str, resources: Resources) -> PipelineResult:
@@ -86,6 +96,8 @@ def run(text: str, resources: Resources) -> PipelineResult:
     from karaage.validation import step_7_validate
     from karaage.output import build_results, build_html_report, build_speaker_styles
 
+    llm.activate(resources.client)
+    resources.client.providers.clear()
     step_times = {}
     step_errors = {}
     pipeline_stopped = False
@@ -109,12 +121,12 @@ def run(text: str, resources: Resources) -> PipelineResult:
             return (None,) * n_returns
 
     segments,       html_seg  = _timed("Segmentation",              lambda: step_1_segment(text, resources.nlp))
-    sources,        html_attr = _timed("Attribution",         lambda: step_2_attribute_authors(segments, model, resources.enable_thinking, resources.max_context_tokens))
+    sources,        html_attr = _timed("Attribution",         lambda: step_2_attribute_authors(segments, model, resources.max_context_tokens))
     passages_list,  html_pass = _timed("Passages",        lambda: step_3_passages(segments, sources))
-    all_stmts, main_point, html_extr = _timed("Key statements extraction", lambda: step_4_key_statements(segments, passages_list, model), n_returns=3)
-    rephrased,      html_reph = _timed("Rephrasing",                 lambda: step_5_rephrase(all_stmts, passages_list, main_point, model))
-    paraphrased,    html_para = _timed("Paraphrasing",               lambda: step_6_paraphrase(rephrased, resources.embedding_model, model, resources.sim_model))
-    filtered,       html_val  = _timed("Validation",                 lambda: step_7_validate(paraphrased, model))
+    all_stmts, main_point, html_extr = _timed("Key statements extraction", lambda: step_4_key_statements(segments, passages_list), n_returns=3)
+    rephrased,      html_reph = _timed("Rephrasing",                 lambda: step_5_rephrase(all_stmts, passages_list, main_point))
+    paraphrased,    html_para = _timed("Paraphrasing",               lambda: step_6_paraphrase(rephrased, resources.embedding_model, resources.sim_model))
+    filtered,       html_val  = _timed("Validation",                 lambda: step_7_validate(paraphrased))
 
     def _make_section_html(name, html_content):
         if name not in step_errors:
@@ -156,6 +168,7 @@ def run(text: str, resources: Resources) -> PipelineResult:
         all_statements=all_stmts or [],
         passages=passages_list or [],
         main_point=main_point or "",
+        provenance=resources.client.provenance(),
     )
 
 def print_time(step_times, chars, compact=False):

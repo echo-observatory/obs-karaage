@@ -3,7 +3,8 @@ import html as html_lib
 from tqdm import tqdm
 from pydantic import BaseModel, Field
 from sentence_transformers import util
-from karaage.rephrasing import query, SHORT_LENGTH_MAX
+from karaage import llm
+from karaage.rephrasing import SHORT_LENGTH_MAX
 
 verbose = False
 
@@ -73,7 +74,7 @@ def get_metrics(source, candidate, passage, sim_model):
     return cosine, rouge2
 
 
-def _paraphrase_text(text, initial_rouge2, passage, model, sim_model, schema):
+def _paraphrase_text(text, initial_rouge2, passage, sim_model, schema):
     best_candidate = text
     best_rouge2 = initial_rouge2
     best_cosine = 1.0
@@ -84,10 +85,7 @@ def _paraphrase_text(text, initial_rouge2, passage, model, sim_model, schema):
     )
 
     for i in range(MAX_ITERATIONS):
-        result, _, _ = query(
-            model, PARAPHRASE_SYSTEM, prompt,
-            thinking=False, output_schema=schema, strict=True,
-        )
+        result = llm.complete_model(PARAPHRASE_SYSTEM, prompt, schema, max_tokens=llm.context_tokens())
         candidate = result.rephrased_statement
         cosine, rouge2 = get_metrics(text, candidate, passage, sim_model)
 
@@ -122,7 +120,7 @@ def _paraphrase_text(text, initial_rouge2, passage, model, sim_model, schema):
     return best_candidate, best_cosine, best_rouge2, MAX_ITERATIONS
 
 
-def paraphrase_statements(statements: list, model: str, sim_model) -> list[dict]:
+def paraphrase_statements(statements: list, sim_model) -> list[dict]:
     flagged = [
         s for s in statements
         if s.get('rouge2_rephrased', 0) > ROUGE2_THRESHOLD or s.get('rouge2_summary', 0) > ROUGE2_THRESHOLD
@@ -144,7 +142,7 @@ def paraphrase_statements(statements: list, model: str, sim_model) -> list[dict]
         s['summary_paraphrased'] = False
         if s.get('rouge2_rephrased', 0) > ROUGE2_THRESHOLD:
             candidate, cosine, rouge2, iters = _paraphrase_text(
-                s['rephrased_statement'], s['rouge2_rephrased'], s['passage'], model, sim_model, ParaphraseResult,
+                s['rephrased_statement'], s['rouge2_rephrased'], s['passage'], sim_model, ParaphraseResult,
             )
             s['paraphrased_statement'] = candidate
             s['paraphrased_rouge2_rephrased'] = round(rouge2, 4)
@@ -155,7 +153,7 @@ def paraphrase_statements(statements: list, model: str, sim_model) -> list[dict]
                 print(f"  rephrased -> rouge2={rouge2:.4f}  cosine={cosine:.3f}  ({iters} iter(s))")
         if s.get('rouge2_summary', 0) > ROUGE2_THRESHOLD:
             candidate, cosine, rouge2, iters = _paraphrase_text(
-                s['summary'], s['rouge2_summary'], s['passage'], model, sim_model, ParaphraseSummaryResult,
+                s['summary'], s['rouge2_summary'], s['passage'], sim_model, ParaphraseSummaryResult,
             )
             s['paraphrased_summary'] = candidate
             s['paraphrased_rouge2_summary'] = round(rouge2, 4)
@@ -167,7 +165,7 @@ def paraphrase_statements(statements: list, model: str, sim_model) -> list[dict]
         s['paraphrased'] = s['rephrased_paraphrased'] or s['summary_paraphrased']
     return statements
 
-def step_6_paraphrase(rephrased_statements, embedding_model, MODEL, sim_model):
+def step_6_paraphrase(rephrased_statements, embedding_model, sim_model):
     scored_statements = compute_rouge2_scores(rephrased_statements)
     
     if verbose:
@@ -176,7 +174,7 @@ def step_6_paraphrase(rephrased_statements, embedding_model, MODEL, sim_model):
         for s in scored_statements:
             print(f"{s['id']:>3}  {s.get('rouge2_rephrased', 0):>8.4f}  {s.get('rouge2_summary', 0):>8.4f}  {s.get('rephrased_statement', '')[:55]}...")
 
-    paraphrased_statements = paraphrase_statements(scored_statements, MODEL, sim_model)
+    paraphrased_statements = paraphrase_statements(scored_statements, sim_model)
     html_paraphrasing_content = paraphrasing_monitoring_html(paraphrased_statements, embedding_model)
     return paraphrased_statements, html_paraphrasing_content
 

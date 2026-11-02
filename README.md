@@ -24,7 +24,7 @@ Karaage needs Python 3.12 or later. With [uv](https://docs.astral.sh/uv/), from 
 
 ```bash
 uv sync                          # creates .venv with the exact versions in uv.lock
-uv run karaage download-models   # benepar parser and embedding model
+uv run karaage download-models   # benepar parser, and the embedding model of the profile
 ```
 
 `uv sync` installs the versions pinned in `uv.lock`; library versions can change the output, so use it for any run whose results matter.
@@ -32,9 +32,39 @@ uv run karaage download-models   # benepar parser and embedding model
 The spaCy model is installed as a dependency. `karaage download-models` puts the benepar parser in `~/nltk_data` and the embedding model in the Hugging Face cache.
 
 The version comes from git tags: `1.1.0` on tag `v1.1.0`, and development versions such as `1.1.1.dev3+g1a2b3c4` in between. `karaage --version` prints it.
+Until 1.1.0 is released, development versions read `1.1.0.devN+g…`, counted from the tag `start-1.1.0.dev0`, which marks the start of the restructuring and is not a release.
 
-`Pipeline usage.ipynb` shows how to connect to an LLM served by LM Studio and run the pipeline on a batch of documents.
-It predates the restructuring: skip its installation cell and run it in the environment above. It will be rewritten.
+## Configuration
+
+Karaage needs two things: a **backend**, which says where the LLM runs, and a **profile**, which says which model to use and how to drive it.
+Set them with `KARAAGE_*` environment variables, or in a `.env` file in the working directory (copy `.env.example`):
+
+| Variable | Meaning | Default |
+| --- | --- | --- |
+| `KARAAGE_BACKEND` | `lmstudio`, `openrouter`, or `openai` for any other OpenAI-compatible server | `lmstudio` |
+| `KARAAGE_BASE_URL` | API base URL | `http://127.0.0.1:1234/v1` for LM Studio, `https://openrouter.ai/api/v1` for OpenRouter |
+| `KARAAGE_API_KEY` | API key, required for `openrouter` and `openai` | none needed for LM Studio |
+| `KARAAGE_PROFILE` | a shipped profile name, or the path to a profile file | `qwen3.5-9b` |
+
+The default profile `qwen3.5-9b` uses Qwen3.5 9B with reasoning off; the prompts were written for it.
+- **LM Studio:** load `qwen/qwen3.5-9b` with a context length of at least 8,000 tokens. Karaage turns the model's reasoning off in each request, so no other setting is needed. It warns when the model is not loaded or its context is too short, and records the loaded build (format and quantisation).
+- **OpenRouter:** set the API key in `.env`. Team rule: never send Retriever data to OpenRouter or any other external API.
+
+A custom profile is a TOML file shaped like [`src/karaage/profiles/qwen3.5-9b.toml`](src/karaage/profiles/qwen3.5-9b.toml) with a name of its own; outputs label it `custom:<name>`.
+The format is described in [`docs/design-1.1.0.md`](docs/design-1.1.0.md), section 4.2.
+
+From Python:
+
+```python
+import karaage
+
+resources = karaage.setup()   # or e.g. karaage.setup(backend="openrouter", profile="my-profile.toml")
+result = karaage.run(text, resources)
+karaage.save(result, data_path="out/doc.json", html_path="out/doc.html")
+```
+
+`Pipeline usage.ipynb` shows how to run the pipeline on a batch of documents.
+It predates the restructuring, and its installation and data-loading cells are out of date. It will be rewritten.
 
 ## Test dataset
 

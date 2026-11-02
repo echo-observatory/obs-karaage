@@ -2,8 +2,7 @@ from __future__ import annotations
 import time
 import html as html_lib
 from pydantic import BaseModel
-from openai import OpenAI
-from karaage._context import llm_create
+from karaage import llm
 
 verbose = False
 
@@ -126,8 +125,7 @@ def merge_results(left: AttributionResult, right: AttributionResult) -> Attribut
     return AttributionResult(sources=list(by_name.values()))
 
 
-def run_attribution(segments: list, start: int, end: int, model: str,
-                    enable_thinking: bool = False, max_context_tokens: int = 8_000) -> AttributionResult:
+def run_attribution(segments: list, start: int, end: int, max_context_tokens: int) -> AttributionResult:
     formatted = format_segments_range(segments, start, end)
     prompt = build_prompt(formatted)
     estimated = estimate_tokens(SYSTEM_PROMPT_ATTRIBUTION + prompt) + RESERVED_TOKENS_ATTRIBUTION
@@ -139,43 +137,19 @@ def run_attribution(segments: list, start: int, end: int, model: str,
         mid = find_split(segments, start, end)
         if verbose:
             print(f"  → splitting at segment {mid}")
-        left = run_attribution(segments, start, mid, model, enable_thinking, max_context_tokens)
-        right = run_attribution(segments, mid + 1, end, model, enable_thinking, max_context_tokens)
+        left = run_attribution(segments, start, mid, max_context_tokens)
+        right = run_attribution(segments, mid + 1, end, max_context_tokens)
         return merge_results(left, right)
 
     if verbose:
         print("  → calling LLM", end="")
 
-    # /no_think is Qwen3's native token for disabling chain-of-thought when served via
-    # LM Studio's OpenAI-compatible endpoint. Non-thinking models ignore it.
-    system_content = ("/no_think\n" + SYSTEM_PROMPT_ATTRIBUTION) if not enable_thinking else SYSTEM_PROMPT_ATTRIBUTION
-
-    response = llm_create(
-        model=model,
-        messages=[
-            {"role": "system", "content": system_content},
-            {"role": "user", "content": prompt},
-        ],
-        response_format={
-            "type": "json_schema",
-            "json_schema": {
-                "name": "AttributionResult",
-                "schema": ATTRIBUTION_SCHEMA,
-            },
-        },
-        temperature=0,
-    )
-
-    msg = response.choices[0].message
-    # LM Studio + Qwen3: when /no_think is active, the JSON schema response may be
-    # routed to reasoning_content instead of content. Fall back to it if content is empty.
-    content = msg.content or getattr(msg, "reasoning_content", None) or ""
-    if not content:
-        raise ValueError(
-            "LLM returned an empty response (both content and reasoning_content are empty).\n"
-            f"Full message: {msg!r}"
-        )
-
+    # Cap the answer at what fits in the context: with no limit, a model caught in a
+    # repetition loop keeps generating until the request times out.
+    max_tokens = max(RESERVED_TOKENS_ATTRIBUTION,
+                     max_context_tokens - estimate_tokens(SYSTEM_PROMPT_ATTRIBUTION + prompt))
+    content = llm.complete_json(SYSTEM_PROMPT_ATTRIBUTION, prompt, ATTRIBUTION_SCHEMA,
+                                name="AttributionResult", strict=False, max_tokens=max_tokens)
     return AttributionResult.model_validate_json(content)
 
 
@@ -468,24 +442,22 @@ def resolve_source_ranges(
     return AttributionResult(sources=new_sources)
 
 
-def extract_author_attribution(segments: list, model: str,
-                               enable_thinking: bool = False, max_context_tokens: int = 8_000) -> AttributionResult:
+def extract_author_attribution(segments: list, max_context_tokens: int) -> AttributionResult:
     seg_ids = [seg["id"] for seg in segments]
-    result = run_attribution(segments, seg_ids[0], seg_ids[-1], model, enable_thinking, max_context_tokens)
+    result = run_attribution(segments, seg_ids[0], seg_ids[-1], max_context_tokens)
     return resolve_source_ranges(result, segments)
 
 
 def step_2_attribute_authors(
     segments: list,
     model: str,
-    enable_thinking: bool = False,
-    max_context_tokens: int = 8_000,
+    max_context_tokens: int,
 ) -> tuple[AttributionResult, str]:
     if verbose:
         print("\nAttributionResult schema:\n")
         print(AttributionResult.model_json_schema())
 
-    sources = extract_author_attribution(segments, model, enable_thinking, max_context_tokens)
+    sources = extract_author_attribution(segments, max_context_tokens)
 
     if verbose:
         print(f"Results ({len(sources.sources)} sources):\n")

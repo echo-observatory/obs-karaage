@@ -1,15 +1,12 @@
-import time
-import re
 import json
 import html as html_lib
 from tqdm import tqdm
 from pydantic import BaseModel, Field, create_model
-from karaage._context import llm_create
+from karaage import llm
 
 verbose = False
 
-# Step-level configuration
-RESERVED_TOKENS_REPHRASING = 8000
+# Step-level configuration (the token budget is the profile's context size: llm.context_tokens())
 BATCH_SIZE = 4                # Statements per batch
 PASSAGE_CONTEXT_OFFSET = 3    # Extra passages before/after the batch's passage range
 ECHO_PREFIX_LENGTH = 80       # Characters of the original statement echoed back for cross-contamination detection
@@ -17,53 +14,6 @@ RESTATED_LENGTH_TARGET = 400  # Soft character target communicated in the prompt
 SHORT_LENGTH_TARGET = 150     # Soft character target for the single-sentence headline version, communicated in the prompt
 RESTATED_LENGTH_MAX = 800     # Hard character limit enforced via JSON schema
 SHORT_LENGTH_MAX = 300        # Hard character limit for the single-sentence short version
-
-
-# Note: we use client.chat.completions.create() for structured output rather than
-# client.beta.chat.completions.parse(), because the beta wrapper returns parsed=None
-# when the model mixes thinking tokens with JSON output (an LM Studio quirk).
-# We parse the JSON ourselves after stripping any <think> blocks.
-
-def query(model, system_prompt, user_prompt, thinking=True, output_schema=None, strict=True):
-    messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_prompt},
-    ]
-    if not thinking:
-        # Seed the assistant turn with an empty <think> block so the model
-        # skips straight to the answer, bypassing LM Studio's template settings.
-        messages.append({"role": "assistant", "content": "<think>\n\n</think>\n\n"})
-
-    kwargs = dict(model=model, messages=messages, temperature=0, max_tokens=RESERVED_TOKENS_REPHRASING)
-    if output_schema is not None:
-        kwargs["response_format"] = {
-            "type": "json_schema",
-            "json_schema": {
-                "name": output_schema.__name__,
-                "schema": output_schema.model_json_schema(),
-                "strict": strict,
-            },
-        }
-
-    t0 = time.perf_counter()
-    response = llm_create(**kwargs)
-    elapsed = time.perf_counter() - t0
-
-    msg = response.choices[0].message
-    raw = msg.content or getattr(msg, "reasoning_content", None) or ""
-
-    if output_schema is not None:
-        # Strip any <think>...</think> block the model may have prepended.
-        raw = re.sub(r"<think>.*?</think>", "", raw, flags=re.DOTALL).strip()
-        content = output_schema.model_validate_json(raw)
-    else:
-        if not thinking:
-            raw = re.sub(r"^<think>.*?</think>\s*", "", raw, flags=re.DOTALL)
-        content = raw.strip()
-        if not content:
-            raise ValueError(f"Model returned no content. Full message: {msg!r}")
-
-    return content, response, elapsed
 
 
 SYSTEM_PROMPT_REPHRASING = f'''You are a journalist-analyst.
@@ -165,7 +115,7 @@ def build_statements(all_statements: list, passages: list) -> list[dict]:
     return statements
 
 
-def rephrase_statements(statements: list, passages: list, main_point: str, model: str) -> list[dict]:
+def rephrase_statements(statements: list, passages: list, main_point: str) -> list[dict]:
     for s in statements:
         s.pop('rephrased_statement', None)
         s.pop('rephrasing_error', None)
@@ -174,10 +124,8 @@ def rephrase_statements(statements: list, passages: list, main_point: str, model
         user_prompt = make_batch_prompt(batch, passages, main_point)
         try:
             schema = make_batch_schema(batch)
-            result, resp, t = query(
-                model, SYSTEM_PROMPT_REPHRASING, user_prompt,
-                thinking=False, output_schema=schema, strict=True,
-            )
+            result = llm.complete_model(SYSTEM_PROMPT_REPHRASING, user_prompt, schema,
+                                        max_tokens=llm.context_tokens())
             rephrased = result.model_dump()
             for s in batch:
                 s['rephrased_statement'] = rephrased[str(s["id"])]["rephrased"]
@@ -192,7 +140,7 @@ def rephrase_statements(statements: list, passages: list, main_point: str, model
         print(statements)
     return statements
 
-def step_5_rephrase(all_statements, passages, main_point, MODEL):
+def step_5_rephrase(all_statements, passages, main_point):
     statements = build_statements(all_statements, passages)
 
     if verbose:
@@ -202,7 +150,7 @@ def step_5_rephrase(all_statements, passages, main_point, MODEL):
         # ensure no batch can exceed the token limit given the shared prompt + passage context + statement content + expected output length.
         rephrasing_statements_sanity_check(main_point, passages, statements)
     
-    rephrased_statements = rephrase_statements(statements, passages, main_point, MODEL)
+    rephrased_statements = rephrase_statements(statements, passages, main_point)
     html_rephrasing_content = rephrasing_monitoring_html(rephrased_statements, main_point)
     return rephrased_statements, html_rephrasing_content
 
@@ -241,11 +189,12 @@ def rephrasing_statements_sanity_check(main_point, passages, statements):
 
     print("Sanity check for token limits:")
     print(f"Worst batch:            #{worst_idx}  ({len(all_batches[worst_idx])} statements)")
-    print(f"Total:                  ~{worst_total} / {RESERVED_TOKENS_REPHRASING}")
-    assert worst_total <= RESERVED_TOKENS_REPHRASING, f"Exceeds RESERVED_TOKENS_REPHRASING limit ({worst_total} > {RESERVED_TOKENS_REPHRASING})"
+    budget = llm.context_tokens()
+    print(f"Total:                  ~{worst_total} / {budget}")
+    assert worst_total <= budget, f"Exceeds the profile's context size ({worst_total} > {budget})"
     print("OK")
 
-def batch_debug(all_statements, passages, main_point, batch_index, MODEL):
+def batch_debug(all_statements, passages, main_point, batch_index):
     # Recompute batches (that's fine, it's not too expensive)
     statements = build_statements(all_statements, passages)
     batches = [statements[i:i+BATCH_SIZE] for i in range(0, len(statements), BATCH_SIZE)]
@@ -267,25 +216,9 @@ def batch_debug(all_statements, passages, main_point, batch_index, MODEL):
     print("=" * 60)
     print("RAW RESPONSE")
     print("=" * 60)
-    messages = [
-        {"role": "system", "content": SYSTEM_PROMPT_REPHRASING},
-        {"role": "user",   "content": debug_prompt},
-        {"role": "assistant", "content": "<think>\n\n</think>\n\n"},  # skip thinking
-    ]
-    from karaage._context import llm_create
-    debug_response = llm_create(
-        model=MODEL,
-        messages=messages,
-        temperature=0,
-        max_tokens=RESERVED_TOKENS_REPHRASING,
-        response_format={
-            "type": "json_schema",
-            "json_schema": {
-                "name": debug_schema.__name__,
-                "schema": debug_schema.model_json_schema(),
-                "strict": True,
-            },
-        },
+    debug_response = llm.active().request(
+        SYSTEM_PROMPT_REPHRASING, debug_prompt, debug_schema.model_json_schema(),
+        name=debug_schema.__name__, max_tokens=llm.context_tokens(),
     )
     raw = debug_response.choices[0].message.content
     print(raw)
