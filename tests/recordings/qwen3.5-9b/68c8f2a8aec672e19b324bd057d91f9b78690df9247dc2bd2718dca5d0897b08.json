@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-7jpxoea3iteiugp5vgujai",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"Dismissed copyright infringement charges against DU's photocopy service in Sept,\", \"rephrased\": \"Justice Rajiv Sahan Endlaw dismissed the copyright infringement charges against the Rameshwari Photocopy Service in September, ruling that distributing course packs for Delhi University did not constitute a violation because the service was merely facilitating instructional use rather than asserting absolute ownership over the authors' creative works.\", \"summary\": \"Justice Endlaw ruled that distributing course packs for instructional use did not violate copyright law.\"}, \"1\": {\"original\": \"Previously operated without legal restriction after Endlaw's dismissal, distrib\", \"rephrased\": \"Following Justice Endlaw's September ruling that cleared the Rameshwari Photocopy Service of copyright infringement, the shop operated without legal restrictions for a period, freely distributing course packs containing copyrighted material from major publishers until the Delhi High Court later restored the trial.\", \"summary\": \"The photocopy service operated freely for a time after an initial ruling cleared it of copyright charges.\"}, \"2\": {\"original\": \"The bench ruled the case raises a 'triable issue' regarding fair use, res\", \"rephrased\": \"A bench comprising Justice Pradeep Nandrajog and Yogesh Khanna ruled that the legality of distributing course packs depends on expert evidence to determine if the practice constitutes fair use, thereby restoring the copyright infringement trial against the Rameshwari Photocopy Service while temporarily permitting the shop to continue sales under a strict six-month reporting requirement.\", \"summary\": \"The High Court bench restored the trial, ruling that the legality of course packs depends on expert evidence regarding fair use.\"}, \"3\": {\"original\": \"There is no reason to prepare a course pack beyond the curriculum, as it\", \"rephrased\": \"Dharam Pal Singh, the owner of the Rameshwari Photocopy Service, argued that there is no justification for preparing course packs beyond the university curriculum, insisting that the shop only distributes required readings and important sections of books that professors explicitly recommend to students.\", \"summary\": \"The photocopy shop owner argued that course packs only contain essential, professor-recommended readings.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639623,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 450,
+  "prompt_tokens": 2068,
+  "total_tokens": 2518,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

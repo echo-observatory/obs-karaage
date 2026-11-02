@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-sj8ws6818vi2n8m4rrfgi5",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"U.S. Supreme Court\", \"other\": [\"court\", \"Justices\"], \"segments\": [[0, 1], [4, 5], [6, 11]]}, {\"main\": \"Metro-Goldwyn-Mayer Studios Inc. et al.\", \"other\": [\"MGM Studios\", \"plaintiffs\"], \"segments\": [[2, 3]]}, {\"main\": \"Grokster, Ltd. et al.\", \"other\": [\"Grokster\", \"defendants\"], \"segments\": [[2, 3], [12, 13]]}, {\"main\": \"Fred von Lohmann\", \"other\": [\"Lohmann\"], \"segments\": [[15, 19]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638526,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 159,
+  "prompt_tokens": 788,
+  "total_tokens": 947,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

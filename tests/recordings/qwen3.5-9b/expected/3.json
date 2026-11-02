@@ -1,0 +1,61 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Protesters staged a symbolic act by having MPAA president Jack Valenti sign Betamax tapes, highlighting the irony that he previously condemned the technology, while the current Supreme Court case over digital file-sharing presents a more complex legal and constitutional debate about copyright and technological progress.",
+  "source_text_length_chars": 1876,
+  "source_text_length_segments": 17,
+  "actors": [
+   {
+    "name": "Seth Schoen",
+    "variations": [
+     "EFF Staff Technologist"
+    ]
+   },
+   {
+    "name": "Annalee Newitz",
+    "variations": [
+     "EFF Media Coordinator"
+    ]
+   },
+   {
+    "name": "Sheryl Crow",
+    "variations": [
+     "Recording Artists' Coalition spokesperson",
+     "professional singer"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "base_author",
+    "key_statement": "A former film industry leader's past harsh rhetoric against video technology contrasts with the nuanced legal debate surrounding modern digital file-sharing.",
+    "long_statement": "Jack Valenti, who served as the president of the Motion Picture Association of America, once testified before the US Congress that the VCR was a dangerous threat to the film industry, comparing it to a serial killer. This historical condemnation stands in stark contrast to the current Supreme Court case concerning digital file-sharing, which presents a significantly more complex legal and constitutional debate about the balance between protecting intellectual property and fostering technological progress.",
+    "segment_range": [
+     4,
+     12
+    ],
+    "rouge2_precision": 0.1351
+   },
+   {
+    "actor": "Sheryl Crow",
+    "key_statement": "A music industry advocate contrasts the quality limitations of past technology with modern digital distribution while emphasizing the original constitutional intent behind copyright law.",
+    "long_statement": "Professional singer and spokesperson for the Recording Artists' Coalition, Sheryl Crow, argues that the technological landscape has shifted dramatically, noting that while Betamax copies suffered from inferior quality, modern digital file-sharing allows for the distribution of millions of perfect reproductions. She further points out that the US Constitution's copyright clause was originally written to promote the progress of science and useful arts by securing exclusive rights to authors and inventors, suggesting that current legal interpretations may have strayed from this original intent.",
+    "segment_range": [
+     13,
+     15
+    ],
+    "rouge2_precision": 0.2289
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The original US Constitution copyright clause prioritizes public progress over perpetual author monopolies.",
+    "long_statement": "The full, unedited text of the US Constitution's copyright clause reveals that the original intent was to promote the progress of science and useful arts by securing exclusive rights to authors and inventors for limited times, rather than to grant perpetual monopolies as a shortened, expurgated version might suggest. This complete wording underscores that the legal framework for copyright is fundamentally designed to advance public knowledge through temporary incentives, not to restrict access indefinitely.",
+    "segment_range": [
+     16,
+     16
+    ],
+    "rouge2_precision": 0.2027
+   }
+  ]
+ }
+}

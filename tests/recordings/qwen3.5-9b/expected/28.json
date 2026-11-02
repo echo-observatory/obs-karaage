@@ -1,0 +1,60 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "An Australian court ordered ISPs to block five major copyright-infringing websites within 15 days, a move copyright holders claim will combat piracy while potentially disrupting legitimate users who rely on open-source software for downloading operating systems.",
+  "source_text_length_chars": 1561,
+  "source_text_length_segments": 20,
+  "actors": [
+   {
+    "name": "Australian Federal Court",
+    "variations": [
+     "the court"
+    ]
+   },
+   {
+    "name": "Peter Tonagh",
+    "variations": [
+     "chief executive of copyright holders Foxtel"
+    ]
+   },
+   {
+    "name": "Graham Bruke",
+    "variations": [
+     "co-executive of the other copyright holder in the case, Village Roadshow"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "base_author",
+    "key_statement": "ISPs can choose blocking methods and will be compensated by copyright holders for each blocked domain.",
+    "long_statement": "Internet service providers retain the autonomy to select their preferred technical method for blocking the designated infringing sites, whether through DNS filtering, IP address blocking, or URL blocking. To facilitate this enforcement, the copyright holders have agreed to compensate the ISPs with up to A$50 for each domain that is successfully blocked, ensuring the companies are financially incentivized to comply with the court's directive.",
+    "segment_range": [
+     5,
+     9
+    ],
+    "rouge2_precision": 0.1692
+   },
+   {
+    "actor": "Peter Tonagh",
+    "key_statement": "This ruling marks a significant advance in fighting piracy and teaching people that getting material from these websites is stealing.",
+    "long_statement": "This judicial ruling represents a significant milestone in the direct fight against digital piracy and serves as a powerful educational tool for the public. It reinforces the critical message that accessing content through unauthorized channels is not merely a gray area but constitutes outright theft, thereby aligning public perception with the legal reality of intellectual property protection.",
+    "segment_range": [
+     10,
+     10
+    ],
+    "rouge2_precision": 0.1071
+   },
+   {
+    "actor": "Graham Bruke",
+    "key_statement": "A co-executive at Village Roadshow described individuals who steal copyrighted content as leeches and thieves.",
+    "long_statement": "The co-executive of Village Roadshow has characterized individuals who illegally download copyrighted material as 'leeches and thieves,' drawing a stark and severe comparison between digital piracy and the sale of illegal heroin. This rhetoric underscores the view that copyright infringement is a serious moral and criminal offense that demands the same level of societal condemnation and legal consequence as drug trafficking.",
+    "segment_range": [
+     11,
+     14
+    ],
+    "rouge2_precision": 0.2667
+   }
+  ]
+ }
+}

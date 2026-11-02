@@ -1,0 +1,71 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "France is passing a controversial copyright law that balances implementing EU DRM rules with public backlash over harsh penalties, leading to a contentious legislative battle involving industry lobbying, constitutional challenges, and a shift toward a 'global license' for peer-to-peer sharing.",
+  "source_text_length_chars": 5219,
+  "source_text_length_segments": 54,
+  "actors": [
+   {
+    "name": "Renaud Donnedieu de Vabres",
+    "variations": [
+     "Minister of Culture"
+    ]
+   },
+   {
+    "name": "Lawmakers",
+    "variations": [
+     "lawmakers",
+     "Lawmakers, from both the majority UMP party and the opposition",
+     "Some lawmakers, both from the opposition and the majority",
+     "some lawmakers and commentators",
+     "some UMP and opposition lawmakers",
+     "some UMP, UDF and opposition lawmakers"
+    ]
+   },
+   {
+    "name": "US news sources",
+    "variations": [
+     "US news sources"
+    ]
+   },
+   {
+    "name": "Jacques Chirac",
+    "variations": [
+     "president Jacques Chirac"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "Lawmakers",
+    "key_statement": "French lawmakers from across the political spectrum adopted amendments to ensure DRM-protected content remains compatible with third-party players, addressing fears that the initial law would stifle software innovation.",
+    "long_statement": "Representatives from the French National Assembly, spanning the ruling majority, centrist parties, and the opposition, have united to adopt amendments requiring content publishers to provide technical specifications for Digital Rights Management (DRM) systems, thereby ensuring that independent developers and users can create compatible media players. This compromise was reached to address widespread concerns that the initial draft of the copyright law would have effectively banned the creation of free software capable of bypassing digital locks, a restriction that threatened to stifle competition and innovation in the technology sector.",
+    "segment_range": [
+     17,
+     23
+    ],
+    "rouge2_precision": 0.069
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "French legislators added an unexpected change to the copyright rules. This move allowed peer-to-peer sharing to count as a private copy. The law makers worried the original rules hurt private copying rights. This decision created a big disagreement with the culture minister.",
+    "long_statement": "As the French copyright lawmaking process continued, legislators expressed deep concern that the proposed legislation would erode existing legal exceptions, specifically the right of individuals to make private copies of copyrighted material for personal use. In response to this backlash, a surprising bipartisan coalition of lawmakers introduced an amendment that would legalize peer-to-peer file sharing as a 'private copy,' a drastic policy reversal that caused significant dismay to the Minister of Culture and highlighted the intense friction between protecting intellectual property and respecting user freedoms.",
+    "segment_range": [
+     24,
+     32
+    ],
+    "rouge2_precision": 0.2791
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The French copyright law evolved from a technical update into a contentious political battle over industry lobbying and constitutional concerns, likely resulting in a rushed legislative review.",
+    "long_statement": "What began as a technical proposal to update French intellectual property laws quickly transformed into a highly polarized political conflict driven by aggressive lobbying from the entertainment industry and serious constitutional challenges. Despite initial attempts by the government to withdraw controversial articles, the National Assembly proceeded to vote on the bill, anticipating a rushed review by the Senate and a likely referral to the Constitutional Council to resolve disputes over the law's legality before the President could sign it into force.",
+    "segment_range": [
+     33,
+     51
+    ],
+    "rouge2_precision": 0.1481
+   }
+  ]
+ }
+}

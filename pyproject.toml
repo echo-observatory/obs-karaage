@@ -41,6 +41,16 @@ allow-direct-references = true
 [tool.hatch.build.targets.wheel]
 packages = ["src/karaage"]
 
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# torch_struct (used by benepar) warns about a deprecated torch API on every parse.
+filterwarnings = ["ignore:.*does not define `arg_constraints`:UserWarning"]
+
 [tool.uv]
 # Rebuild the installed package, and so its version and commit, when the git commit or tags change.
 cache-keys = [{ file = "pyproject.toml" }, { file = "hatch_build.py" }, { git = { commit = true, tags = true } }]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

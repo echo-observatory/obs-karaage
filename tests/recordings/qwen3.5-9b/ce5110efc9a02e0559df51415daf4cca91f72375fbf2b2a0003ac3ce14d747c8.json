@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-3ez5fo0o7ev9so599hd06",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Mathew Gilliat-Smith\", \"other\": [\"CEO of First 4 Internet\"], \"segments\": [[10, 13]]}, {\"main\": \"Sony BMG Music Entertainment Vice President\", \"other\": [], \"segments\": [[14, 15]]}, {\"main\": \"Thomas Hesse\", \"other\": [], \"segments\": [[22, 23]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638542,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 90,
+  "prompt_tokens": 884,
+  "total_tokens": 974,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-mjhu3gx449lo2ibwf8pi",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"8\": {\"original\": \"CD sales fell by 12.7%, losing $1.6bn in value, while digital downloads grew by \", \"rephrased\": \"While the music industry experienced a significant 12.7% decline in CD sales, resulting in a loss of $1.6 billion, digital downloads managed a modest 9.2% increase that added less than $400 million in value, failing to compensate for the overall revenue drop.\", \"summary\": \"Digital download growth failed to offset the massive financial losses from declining CD sales.\"}, \"9\": {\"original\": \"Expectations that CDs would eventually become extinct, replaced by digital \", \"rephrased\": \"The anticipated transition where CDs would eventually disappear and be fully replaced by digital downloads has not materialized, as the industry's most profitable era appears to be behind it.\", \"summary\": \"The industry's expectation that digital downloads would completely replace CDs has not come to pass.\"}, \"10\": {\"original\": \"Digital growth doesn't fully offset falling CD sales, though it does in some \", \"rephrased\": \"Although digital music sales are expanding in specific regions like the UK, the overall growth in this sector is insufficient to cover the substantial revenue losses caused by the global decline in CD sales.\", \"summary\": \"Digital sales growth remains inadequate to compensate for the worldwide drop in CD revenue.\"}, \"11\": {\"original\": \"Digital music sales are inextricably linked to iPod/iPhone hardware, having \", \"rephrased\": \"Digital music sales have been tightly coupled to the success of Apple's iPod and iPhone hardware since 2004, a strategy that allowed the company to build a dominant 70% global market share and an effective monopoly over the digital player market.\", \"summary\": \"Digital music sales rely heavily on Apple's hardware dominance, which has created a market monopoly.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639328,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 397,
+  "prompt_tokens": 2736,
+  "total_tokens": 3133,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

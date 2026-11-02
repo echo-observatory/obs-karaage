@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-j9czwz7tgcm3v7t1wpcxdz",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"The Federal Communications Commission conducted an investigation into Comcast and Time Warner Cable, which are among the biggest Internet service providers in North America. After this inquiry, both companies revealed distinct strategies: one involves reducing connection speeds, while the other proposes additional charges for users with high data consumption. These moves follow official questioning regarding whether Internet service providers ought to manage customer data traffic. This situation has ignited a public argument concerning if these restrictions unjustly block user access or if they are required to handle network traffic overload.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638998,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 109,
+  "prompt_tokens": 239,
+  "total_tokens": 348,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

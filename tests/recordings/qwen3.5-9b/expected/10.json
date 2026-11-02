@@ -1,0 +1,143 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Swedish police raided The Pirate Bay and Piratbyrån on copyright violation grounds, sparking debate over whether the action was a legitimate legal enforcement or a politically motivated stunt driven by US media corporations and the Swedish Anti-Piracy Bureau.",
+  "source_text_length_chars": 3854,
+  "source_text_length_segments": 48,
+  "actors": [
+   {
+    "name": "Rickard Falkvinge",
+    "variations": [
+     "head of the Swedish Pirate Party"
+    ]
+   },
+   {
+    "name": "Associated Press",
+    "variations": []
+   },
+   {
+    "name": "Sveriges Television",
+    "variations": [
+     "Swedish public broadcaster"
+    ]
+   },
+   {
+    "name": "Tobias Andersson",
+    "variations": [
+     "of Piratbyrån"
+    ]
+   },
+   {
+    "name": "Dan Glickman",
+    "variations": [
+     "CEO of the Motion Picture Association of America"
+    ]
+   },
+   {
+    "name": "Kori Bernards",
+    "variations": [
+     "an MPAA representative"
+    ]
+   },
+   {
+    "name": "The MPAA",
+    "variations": [
+     "Motion Picture Association of America"
+    ]
+   },
+   {
+    "name": "The Pirate Bay",
+    "variations": []
+   },
+   {
+    "name": "Gottfrid Svartholm",
+    "variations": [
+     "owner of webhotel PRQ",
+     "Mr. Svartholm"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "Rickard Falkvinge",
+    "key_statement": "Rickard Falkvinge states that law enforcement detained three employees, but only secured the arrest of two.",
+    "long_statement": "Rickard Falkvinge, head of the Swedish Pirate Party, reports that law enforcement arrested three staff members of the raided organizations, though only two were ultimately taken into custody. This account highlights a discrepancy in the enforcement outcome, suggesting that while initial arrests occurred, the final number of detained individuals was lower than the initial count.",
+    "segment_range": [
+     6,
+     8
+    ],
+    "rouge2_precision": 0.2407
+   },
+   {
+    "actor": "Associated Press",
+    "key_statement": "According to a police representative, no individuals were taken into custody. Instead, they are currently suspected of breaking copyright laws.",
+    "long_statement": "A police spokesman asserts that no staff members were arrested during the raid, clarifying that the individuals were merely placed under suspicion of violating copyright law. This statement presents a direct contradiction to other accounts, framing the legal action as a preventative measure rather than a custodial one, thereby shaping the public narrative around the severity of the police response.",
+    "segment_range": [
+     6,
+     8
+    ],
+    "rouge2_precision": 0.1695
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Operators suspect police raid tests legality due to US media pressure.",
+    "long_statement": "The operators of the raided sites speculate that the police action was intended to test the legal boundaries of their operations, potentially driven by political pressure from United States media corporations. This perspective challenges the notion of a purely domestic legal enforcement, suggesting instead that external corporate interests may have influenced the Swedish authorities to take a decisive, albeit controversial, step against the organizations.",
+    "segment_range": [
+     9,
+     12
+    ],
+    "rouge2_precision": 0.1587
+   },
+   {
+    "actor": "Tobias Andersson",
+    "key_statement": "The Swedish Anti-Piracy Bureau misled police into shutting down Piratbyrån by exploiting its history of deceptive tactics.",
+    "long_statement": "The Swedish Anti-Pirancy Bureau misled law enforcement into shutting down Piratbyrån, a Swedish lobby organization that originally developed The Pirate Bay, by exploiting its history of paying infiltrators to plant copyrighted material on ISP servers. This deception undermines the legitimacy of the police action, framing it as a politically motivated stunt designed to eliminate a specific competitor rather than a genuine copyright enforcement effort.",
+    "segment_range": [
+     17,
+     19
+    ],
+    "rouge2_precision": 0.2353
+   },
+   {
+    "actor": "Dan Glickman",
+    "key_statement": "The MPAA CEO applauded the raid on The Pirate Bay, framing it as a necessary enforcement action against copyright infringement.",
+    "long_statement": "Dan Glickman, who leads the Motion Picture Association of America, praised the police raid on The Pirate Bay. He described the event as a vital message showing that copyright thieves have no safe harbors. This position backs the main argument that the enforcement is a proper legal reaction to broad copyright infringement. It also opposes the idea that the operation was just a political trick.",
+    "segment_range": [
+     20,
+     22
+    ],
+    "rouge2_precision": 0.1579
+   },
+   {
+    "actor": "The Pirate Bay",
+    "key_statement": "The Pirate Bay argues that hosting torrent files, not content, makes their service legal.",
+    "long_statement": "The Pirate Bay maintains that its operations are legally compliant because the platform exclusively distributes .torrent files rather than the copyrighted content itself, arguing this technical distinction exempts it from violating intellectual property laws. This defense relies on the premise that hosting metadata does not constitute the illegal act of sharing protected works, a stance that directly challenges the legal basis for the police raid on the site.",
+    "segment_range": [
+     25,
+     28
+    ],
+    "rouge2_precision": 0.2308
+   },
+   {
+    "actor": "The Pirate Bay",
+    "key_statement": "The Pirate Bay highlights its role in distributing free and independent content to justify its existence.",
+    "long_statement": "The Pirate Bay asserts that it functions as a vital distribution hub for freely licensed software, such as Linux distributions, as well as independent music and film, thereby providing a legitimate channel for sharing content that does not infringe on copyright restrictions. This claim positions the site as a necessary infrastructure for open-source and independent creators, suggesting that the seizure of the platform would disproportionately harm these sectors while failing to address the core issue of illegal file sharing.",
+    "segment_range": [
+     25,
+     28
+    ],
+    "rouge2_precision": 0.2
+   },
+   {
+    "actor": "Gottfrid Svartholm",
+    "key_statement": "The Pirate Bay's host was denied a public defender during a police raid, a decision justified by the lack of a prison sentence for the alleged copyright charges.",
+    "long_statement": "The owner of the webhotel hosting the Pirate Bay website was detained for questioning about links to the site without access to a public defender, a situation the authorities justified by claiming the alleged copyright offense did not carry a potential prison sentence. This legal approach, which bypasses standard rights to legal representation, occurred during a police raid on the site that has since been confirmed as a genuine enforcement action rather than a publicity stunt.",
+    "segment_range": [
+     37,
+     47
+    ],
+    "rouge2_precision": 0.1429
+   }
+  ]
+ }
+}

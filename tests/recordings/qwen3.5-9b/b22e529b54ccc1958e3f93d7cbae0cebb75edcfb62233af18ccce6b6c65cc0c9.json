@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-v35k85dxihedl2p0tcu4yr",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"Binnews administrators claim they would have cooperated with the MPAA had they 被\", \"rephrased\": \"The Motion Picture Association of America (MPAA) publicly sued BitTorrent and Usenet sites without notifying them first, causing outrage among administrators who claim they are legitimate services that would have cooperated with proper legal process.\", \"summary\": \"Site administrators express outrage at the MPAA's public lawsuits, stating they would have cooperated if notified privately.\"}, \"5\": {\"original\": \"We would have cooperated with the MPAA if they had contacted us personally, but\", \"rephrased\": \"The Motion Picture Association of America (MPAA) publicly sued BitTorrent and Usenet sites without notifying them first, causing outrage among administrators who claim they are legitimate services that would have cooperated with proper legal process.\", \"summary\": \"A site administrator states that personal notification from the MPAA would have led to cooperation, contrasting this with the current public lawsuit.\"}, \"6\": {\"original\": \"Wikinews has discovered that both Binnews and dvdrs.net have procedures in place\", \"rephrased\": \"The Motion Picture Association of America (MPAA) publicly sued BitTorrent and Usenet sites without notifying them first, causing outrage among administrators who claim they are legitimate services that would have cooperated with proper legal process.\", \"summary\": \"News reports reveal that affected sites have established procedures for handling copyright infringement, yet deny receiving any prior contact from the MPAA.\"}, \"7\": {\"original\": \"Dvdrs claims they would actively and quickly respond to any DMCA request, fully\", \"rephrased\": \"The Motion Picture Association of America (MPAA) publicly sued BitTorrent and Usenet sites without notifying them first, causing outrage among administrators who claim they are legitimate services that would have cooperated with proper legal process.\", \"summary\": \"An administrator asserts full compliance with copyright laws, arguing that immediate deletion of files would occur upon receiving a formal notice.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638667,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 417,
+  "prompt_tokens": 2933,
+  "total_tokens": 3350,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

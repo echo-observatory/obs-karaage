@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-tz3wtdavtankvyptmp7a",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Michael Moore\", \"other\": [\"Moore\"], \"segments\": [[1, 1], [4, 4], [6, 6], [19, 19], [26, 26]]}, {\"main\": \"Lionsgate Studios\", \"other\": [], \"segments\": [[2, 2]]}, {\"main\": \"Office of Foreign Assets Control\", \"other\": [\"OFAC\"], \"segments\": [[5, 5]]}, {\"main\": \"United States Department of the Treasury\", \"other\": [\"Treasury department\", \"Treasury\"], \"segments\": [[5, 5], [6, 6]]}, {\"main\": \"Associated Press\", \"other\": [\"AP\"], \"segments\": [[8, 9]]}, {\"main\": \"David Boies\", \"other\": [], \"segments\": [[9, 9]]}, {\"main\": \"Health maintenance organizations\", \"other\": [\"HMOs\"], \"segments\": [[16, 16]]}, {\"main\": \"Health insurance companies\", \"other\": [\"America's Health Insurance Plans\", \"AHIP\"], \"segments\": [[31, 31]]}, {\"main\": \"Karen Ignagni\", \"other\": [], \"segments\": [[31, 31]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638907,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 277,
+  "prompt_tokens": 1136,
+  "total_tokens": 1413,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

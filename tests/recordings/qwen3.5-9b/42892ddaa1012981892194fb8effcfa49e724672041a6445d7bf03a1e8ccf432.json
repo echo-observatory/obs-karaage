@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-i58ldlthlo5bgnp9u979s",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Aaron Swartz\": [\"Pled not guilty to all federal fraud charges and was released on a $100,000 unsecured bond.\", \"Previously downloaded 20% of the U.S. Government's PACER database, triggering an FBI investigation.\", \"Served on the Wikimedia Foundation's Board of Trustees in 2006 and wrote an influential essay on 'Who Writes Wikipedia?'.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639372,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 86,
+  "prompt_tokens": 910,
+  "total_tokens": 996,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

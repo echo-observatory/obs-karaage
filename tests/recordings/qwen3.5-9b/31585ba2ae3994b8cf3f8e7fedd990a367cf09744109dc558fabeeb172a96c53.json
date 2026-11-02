@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-lcd26x5gpurhh0qu59yaxh",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Open Rights Group\", \"other\": [\"ORG\", \"the organisation\"], \"segments\": [[1, 4], [29, 30], [32, 33]]}, {\"main\": \"Cory Doctorow\", \"other\": [], \"segments\": [[5, 19]]}, {\"main\": \"John Buckman\", \"other\": [], \"segments\": [[20, 20]]}, {\"main\": \"James Boyle\", \"other\": [], \"segments\": [[21, 25]]}, {\"main\": \"Jdforrester\", \"other\": [\"Wikipedian Jdforrester\"], \"segments\": [[31, 31]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639228,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 155,
+  "prompt_tokens": 1047,
+  "total_tokens": 1202,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -314,9 +314,11 @@ The profile settings go under `snapshot.statement_inference` in the bundle descr
 
 Tests run without an LLM server by replaying recorded responses.
 - **Mode:** `KARAAGE_LLM_MODE` is `live` (default), `record` or `replay`.
-- **Storage:** recordings are one JSON file per call in `tests/recordings/<profile>/`, named by the SHA-256 of the request (model id, messages, schema, generation parameters). One file per call keeps merges between branches simple.
+- **Storage:** recordings are one JSON file per call in `tests/recordings/<profile>/` (`KARAAGE_RECORDINGS` sets the root), named by the SHA-256 of the request (backend, model id, messages, schema, generation parameters). One file per call keeps merges between branches simple.
+- **Expected outputs:** recording also saves each article's output in `tests/recordings/<profile>/expected/`. In `replay` mode, the pipeline test compares the output with it, so any change in behaviour shows up as a failing test, and as a diff of the expected outputs when recorded again.
+- **Same results on any machine:** the embedding model runs on the CPU, so that results do not depend on the machine's GPU.
 - **Missing recording:** in `replay` mode, a missing recording fails the test with a clear message. It never falls back to a live call.
-- **When to redo:** recordings come only from the test dataset, and are redone whenever prompts, schemas or profiles change. Doing so needs a live backend.
+- **When to redo:** recordings come only from the test dataset, and are redone whenever prompts, schemas or profiles change. Doing so needs a live backend; the command is in `tests/test_pipeline.py` and the README.
 
 ### 7.2 Human check of method changes
 
@@ -325,7 +327,7 @@ A change to prompts, schemas or step logic is checked by a human on the HTML rep
 
 ### 7.3 Continuous integration
 
-GitHub Actions runs the tests in replay mode on every pull request. The spaCy, benepar and embedding models are cached, since private repos on the free tier get 2,000 minutes a month.
+GitHub Actions runs the tests in replay mode on every pull request. The benepar and embedding models are cached, since private repos on the free tier get 2,000 minutes a month; the spaCy model is a locked dependency.
 
 ## 8. Test dataset
 

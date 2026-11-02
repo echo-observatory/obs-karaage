@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-f16lhjyrcoblbzgq0y6aus",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Rameshwari Photocopy Service\", \"other\": [\"DU's Rameshwari Photocopy Service\", \"The shop\", \"photocopy service shop\"], \"segments\": [[0, 0], [5, 5], [6, 6]]}, {\"main\": \"Rajiv Sahan Endlaw\", \"other\": [\"Justice Endlaw\", \"justice Rajiv Sahan Endlaw\", \"Justice Sahani\"], \"segments\": [[1, 2], [16, 17], [18, 23]]}, {\"main\": \"Pradeep Nandrajog\", \"other\": [\"justice Pradeep Nandrajog\"], \"segments\": [[3, 4], [10, 10]]}, {\"main\": \"Yogesh Khanna\", \"other\": [\"Yogesh Khanna\"], \"segments\": [[3, 4], [10, 10]]}, {\"main\": \"Dharam Pal Singh\", \"other\": [\"Dharam Pal\", \"The owner of the photocopy service shop\"], \"segments\": [[7, 9], [11, 13]]}, {\"main\": \"Oxford University Press\", \"other\": [\"Oxford University Press\"], \"segments\": [[5, 5]]}, {\"main\": \"Cambridge University Press\", \"other\": [\"Cambridge University Press\"], \"segments\": [[5, 5]]}, {\"main\": \"Taylor and Francis\", \"other\": [\"Taylor and Francis\"], \"segments\": [[5, 5]]}, {\"main\": \"High Court\", \"other\": [\"Delhi High Court\", \"The High Court\", \"the bench\"], \"segments\": [[0, 0], [4, 4], [10, 10], [14, 14]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639606,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 393,
+  "prompt_tokens": 955,
+  "total_tokens": 1348,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-n5fbw6bu5mn1kvpksgpnnrj",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"Wikipedia will go offline for 24 hours to protest U.S. anti-piracy laws, staring\", \"rephrased\": \"The online encyclopedia Wikipedia plans to shut down its global operations for 24 hours, beginning at midnight Eastern Standard Time on Wednesday, as a direct protest against proposed American legislation known as the Stop Online Piracy Act and the PROTECT IP Act.\", \"summary\": \"Wikipedia plans a 24-hour global shutdown to protest proposed U.S. anti-piracy laws.\"}, \"1\": {\"original\": \"Three administrators confirmed the blackout by closing a key policy discussion, \", \"rephrased\": \"Three senior administrators of the online encyclopedia Wikipedia officially confirmed the planned 24-hour global shutdown by closing a key internal policy debate, noting that while a minority of users favored a U.S.-only blackout, a majority voted in favor of a worldwide cessation of service.\", \"summary\": \"Wikipedia administrators confirmed a global shutdown by closing a key internal policy debate.\"}, \"2\": {\"original\": \"A number of other websites are also taking part, including the social media site\", \"rephrased\": \"Beyond the online encyclopedia, a coalition of other digital platforms, including the social media site Reddit, the Boing Boing blog, and various sites owned by the Cheezburger Network, are participating in the coordinated 24-hour global shutdown to protest proposed U.S. anti-piracy laws.\", \"summary\": \"Various digital platforms, including Reddit, are joining the global shutdown to protest U.S. anti-piracy laws.\"}, \"3\": {\"original\": \"The proposed laws pose an existential threat to Wikipedia.\", \"rephrased\": \"Supporters of the online encyclopedia argue that the proposed U.S. anti-piracy legislation poses an existential threat to the site's very existence, justifying a dramatic 24-hour global shutdown as a necessary method to drive home the severity of this danger.\", \"summary\": \"Supporters argue proposed U.S. anti-piracy laws pose an existential threat to Wikipedia.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639409,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 433,
+  "prompt_tokens": 2214,
+  "total_tokens": 2647,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

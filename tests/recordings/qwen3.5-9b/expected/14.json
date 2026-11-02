@@ -1,0 +1,109 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "Following an FCC investigation into Comcast's data restrictions, major ISPs like Comcast and Time Warner Cable are testing plans to slow speeds or charge extra fees for heavy internet usage, sparking debate over whether these measures unfairly limit consumer access or are necessary to manage network congestion.",
+  "source_text_length_chars": 3399,
+  "source_text_length_segments": 45,
+  "actors": [
+   {
+    "name": "Comcast",
+    "variations": [
+     "Comcast",
+     "Comcast's"
+    ]
+   },
+   {
+    "name": "Time Warner Cable",
+    "variations": [
+     "Time Warner Cable",
+     "cable operator",
+     "Time Warner Cable's"
+    ]
+   },
+   {
+    "name": "Ben Scott",
+    "variations": [
+     "Ben Scott"
+    ]
+   },
+   {
+    "name": "Alex Dudley",
+    "variations": [
+     "Alex Dudley"
+    ]
+   },
+   {
+    "name": "Associated Press",
+    "variations": [
+     "Associated Press"
+    ]
+   },
+   {
+    "name": "US Congress",
+    "variations": [
+     "US Congress"
+    ]
+   },
+   {
+    "name": "Free Press",
+    "variations": [
+     "Free Press"
+    ]
+   },
+   {
+    "name": "Nielsen IAG",
+    "variations": [
+     "Nielsen IAG"
+    ]
+   },
+   {
+    "name": "Public Knowledge",
+    "variations": [
+     "Public Knowledge"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "base_author",
+    "key_statement": "Concerns regarding unfair treatment of lawful technology users were voiced by public interest groups to the FCC. These groups alleged that Comcast singled out BitTorrent users.",
+    "long_statement": "Public interest groups complained to the Federal Communications Commission in November 2007 that Comcast had specifically targeted customers using the BitTorrent file-sharing system. This complaint highlights concerns that the cable company's practices were discriminatory towards users of legal technology, prompting the regulator to investigate whether these restrictions unfairly limited consumer access to the internet.",
+    "segment_range": [
+     7,
+     9
+    ],
+    "rouge2_precision": 0.2727
+   },
+   {
+    "actor": "Free Press",
+    "key_statement": "Free Press argues that Comcast's practices are discriminatory towards users of legal technology, suggesting the company is preemptively adjusting to avoid regulatory scrutiny.",
+    "long_statement": "Free Press, an organization advocating for stricter regulation of cable companies, claims Comcast treated users of legal technology unfairly. The group contends that the cable firm fears regulatory penalties and is attempting to hide misconduct by blocking certain traffic instead of running its network equitably.",
+    "segment_range": [
+     10,
+     14
+    ],
+    "rouge2_precision": 0.2609
+   },
+   {
+    "actor": "Alex Dudley",
+    "key_statement": "According to Alex Dudley, charging fees based on usage represents the most equitable method for financing investments in network infrastructure.",
+    "long_statement": "Senior executive Alex Dudley argues that charging customers based on actual data consumption represents the fairest method for funding the necessary infrastructure investments required to support high-bandwidth usage. This perspective suggests that a usage-based pricing model is superior to flat-rate fees because it ensures those who consume the most resources contribute proportionally to the costs of maintaining the network.",
+    "segment_range": [
+     29,
+     33
+    ],
+    "rouge2_precision": 0.0656
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Time Warner Cable's plan charges overage fees and offers low speeds, which critics argue rations access rather than relieving congestion.",
+    "long_statement": "Under the proposed plan, Time Warner Cable will charge an additional dollar for every gigabyte of data used beyond the customer's monthly limit, while offering a standard package with 15 megabits-per-second speeds and a 40 gigabyte monthly cap. Critics warn that this structure effectively rations access rather than relieving congestion, as the low speed combined with strict data limits may prevent users from watching high-definition content or streaming multiple videos within a single month.",
+    "segment_range": [
+     34,
+     44
+    ],
+    "rouge2_precision": 0.2
+   }
+  ]
+ }
+}

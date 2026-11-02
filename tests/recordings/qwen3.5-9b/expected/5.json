@@ -1,0 +1,56 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "California, Italy, and New York are suing Sony BMG over its music CD DRM software, which secretly installs a dangerous rootkit that compromises user security and violates consumer protection laws.",
+  "source_text_length_chars": 2047,
+  "source_text_length_segments": 24,
+  "actors": [
+   {
+    "name": "Mathew Gilliat-Smith",
+    "variations": [
+     "CEO of First 4 Internet"
+    ]
+   },
+   {
+    "name": "Sony BMG Music Entertainment Vice President",
+    "variations": []
+   },
+   {
+    "name": "Thomas Hesse",
+    "variations": []
+   }
+  ],
+  "statements": [
+   {
+    "actor": "base_author",
+    "key_statement": "Sony BMG faces lawsuits from officials in California, Italy, and New York. The charges involve hidden rootkit software that breaks consumer laws and poses safety risks.",
+    "long_statement": "State and federal authorities in California, Italy, and New York have initiated legal action against Sony BMG, alleging that the company's digital rights management software secretly installs a rootkit. This hidden component creates severe security vulnerabilities on users' computers and violates consumer protection laws, prompting lawsuits that seek to hold the corporation accountable for these deceptive and dangerous practices.",
+    "segment_range": [
+     0,
+     13
+    ],
+    "rouge2_precision": 0.2203
+   },
+   {
+    "actor": "Sony BMG Music Entertainment Vice President",
+    "key_statement": "A Sony BMG executive argues that the public's lack of knowledge about rootkits means consumers should not worry about the associated security risks.",
+    "long_statement": "A senior executive at Sony BMG Music Entertainment argues that the general public lacks sufficient knowledge regarding rootkits, implying that the security risks posed by this hidden software are not a significant concern for average consumers. This perspective suggests that widespread public awareness is a prerequisite for demanding accountability, a condition the executive believes is currently unmet by the majority of music buyers.",
+    "segment_range": [
+     14,
+     15
+    ],
+    "rouge2_precision": 0.087
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Sony's fix for its DRM software introduces new security risks via ActiveX, while the original software secretly tracks users and hides the rootkit.",
+    "long_statement": "The remedial uninstall kits provided by Sony to remove its problematic digital rights management software require users to install ActiveX applications, a technology widely regarded by security experts as dangerous due to its high execution privileges. Furthermore, the original DRM software secretly tracks user activity and conceals the existence of the rootkit from the license agreement, creating a situation where the solution to the security problem introduces new risks while the initial deception remains unacknowledged by the company.",
+    "segment_range": [
+     16,
+     21
+    ],
+    "rouge2_precision": 0.2078
+   }
+  ]
+ }
+}

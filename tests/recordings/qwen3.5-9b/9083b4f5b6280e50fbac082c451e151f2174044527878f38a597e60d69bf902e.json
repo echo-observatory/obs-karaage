@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-qbo0tlarpz8c000e336clj",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"main_point\": \"Wikipedia is conducting a 24-hour blackout to protest U.S. anti-piracy laws, aiming to raise awareness and pressure lawmakers, while the Wikimedia Foundation acknowledges the protest's effectiveness but remains cautious about establishing formal policies for future advocacy actions.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639454,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 57,
+  "prompt_tokens": 1556,
+  "total_tokens": 1613,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

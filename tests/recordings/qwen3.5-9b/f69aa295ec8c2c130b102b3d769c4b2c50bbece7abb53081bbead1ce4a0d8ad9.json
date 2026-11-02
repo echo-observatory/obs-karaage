@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-nsjhcizvu59y0etjewnc",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"According to Wikinews, the activist collective Anonymous, famous for its large-scale demonstrations against the Church of Scientology, has launched an operation aimed at the online sites of groups prosecuting The Pirate Bay. This move represents a major intensification of the Pirate Bay Trial dispute, since the distributed group is now focusing its efforts on legal and corporate institutions instead of the organization directly.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639083,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 83,
+  "prompt_tokens": 233,
+  "total_tokens": 316,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

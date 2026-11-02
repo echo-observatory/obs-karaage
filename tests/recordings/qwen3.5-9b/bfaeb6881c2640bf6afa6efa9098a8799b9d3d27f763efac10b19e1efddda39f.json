@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-q0sgc1gdgw9ue0umq9n7y",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"The decentralized group says it carried out coordinated cyber-attacks targeting the Swedish government and media sector. However, these claims could just be a deception. In truth, retaliatory cyber-operations against The Pirate Bay are now common following legal actions. This indicates a pattern where the group might exaggerate or fabricate its actions to seem more powerful.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639088,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 78,
+  "prompt_tokens": 230,
+  "total_tokens": 308,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

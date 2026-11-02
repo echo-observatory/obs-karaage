@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-dpthqqhjutgz0p46ku5azq",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"intend not to pursue civil litigation against Swartz\", \"rephrased\": \"JSTOR, the academic journal repository that hosts the database Aaron Swartz accessed, intends not to pursue civil litigation against him, choosing instead to rely on the federal government to prosecute the case regarding the unauthorized downloading of its materials.\", \"summary\": \"JSTOR will not file a civil lawsuit against Swartz for downloading its database.\"}, \"1\": {\"original\": \"Pled not guilty to all federal fraud charges and was released on a $100,000 unse\", \"rephrased\": \"Aaron Swartz, the programmer charged with federal fraud for downloading a significant portion of the JSTOR academic database, has pleaded not guilty to all charges and secured release on a $100,000 unsecured bond while awaiting trial in Massachusetts.\", \"summary\": \"Swartz pleaded not guilty to federal fraud charges and was released on bail.\"}, \"2\": {\"original\": \"Previously downloaded 20% of the U.S. Government's PACER database, triggering an\", \"rephrased\": \"The same Aaron Swartz who is now facing federal prosecution for accessing JSTOR had previously downloaded 20% of the U.S. Government's PACER court records, an action that triggered an FBI investigation and established a pattern of behavior regarding unauthorized access to restricted digital information.\", \"summary\": \"Swartz's prior unauthorized download of government data led to an FBI investigation.\"}, \"3\": {\"original\": \"Served on the Wikimedia Foundation's Board of Trustees in 2006 and wrote an infl\", \"rephrased\": \"Aaron Swartz, the individual currently under federal investigation for copyright-related offenses, previously served on the Wikimedia Foundation's Board of Trustees in 2006 and authored an influential essay questioning who actually writes Wikipedia, highlighting his long-standing commitment to open access principles.\", \"summary\": \"Swartz's history with the Wikimedia Foundation underscores his advocacy for open access.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639376,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 423,
+  "prompt_tokens": 1848,
+  "total_tokens": 2271,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-oty7l46pm49fn3xte4mlan",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Nielsen IAG\": [\"As little as 5% of users consume 50% of bandwidth, making current plans a 'politically correct' way to manage congestion while unfairly exempting peer-to-peer users.\"], \"base_author\": [\"Major ISPs are testing speed caps or fees for heavy usage following FCC scrutiny, raising concerns about unfair consumer access limits versus necessary network management.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793638959,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 80,
+  "prompt_tokens": 812,
+  "total_tokens": 892,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

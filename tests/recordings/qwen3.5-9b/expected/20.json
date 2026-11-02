@@ -1,0 +1,87 @@
+{
+ "step_errors": {},
+ "data": {
+  "source_text_main_point": "The Open Rights Group held its first conference to educate activists on reforming intellectual property laws, emphasizing that digital rights require shifting focus from 'information wants to be free' to addressing the market control exerted by DRM technologies.",
+  "source_text_length_chars": 2609,
+  "source_text_length_segments": 34,
+  "actors": [
+   {
+    "name": "Open Rights Group",
+    "variations": [
+     "ORG",
+     "the organisation"
+    ]
+   },
+   {
+    "name": "Cory Doctorow",
+    "variations": []
+   },
+   {
+    "name": "John Buckman",
+    "variations": []
+   },
+   {
+    "name": "James Boyle",
+    "variations": []
+   },
+   {
+    "name": "Jdforrester",
+    "variations": [
+     "Wikipedian Jdforrester"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "Cory Doctorow",
+    "key_statement": "Digital rights advocates must shift focus from free information to addressing market control by DRM technologies.",
+    "long_statement": "Digital rights supporters need to stop relying on the phrase 'information wants to be free.' They must focus on the market power held by digital rights management tools. These tools limit how people share data and warp the digital economy.",
+    "segment_range": [
+     5,
+     20
+    ],
+    "rouge2_precision": 0.2564
+   },
+   {
+    "actor": "James Boyle",
+    "key_statement": "The current era resembles the pre-Smith period of mercantilist monopolies that stifled competition.",
+    "long_statement": "The current era resembles the pre-Smith period of mercantilist monopolies, a time when entrenched market structures stifled competition, a situation that must be broken down to allow for a reformed copyright system.",
+    "segment_range": [
+     21,
+     25
+    ],
+    "rouge2_precision": 0.1562
+   },
+   {
+    "actor": "James Boyle",
+    "key_statement": "James Boyle advocates for copyright reform to restore moral consensus against lawbreaking while condemning piracy.",
+    "long_statement": "James Boyle, a legal scholar speaking at the Open Rights Group conference in London, asserts that the current intellectual property framework requires urgent reform to dismantle entrenched monopolies, while simultaneously maintaining that piracy remains a harmful violation of the law. He argues that the tragedy of the modern era is not the technology itself, but the loss of a societal consensus that breaking the law is inherently wrong, a moral failing that must be addressed through a reformed copyright system rather than by embracing illegal file-sharing.",
+    "segment_range": [
+     21,
+     25
+    ],
+    "rouge2_precision": 0.1628
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Delegates from the Pirate Party UK were present at the conference, yet they were not allowed to join the primary keynote sessions.",
+    "long_statement": "Although members of the Pirate Party UK, a political group advocating for digital rights, physically attended the Open Rights Group conference in London, they were excluded from the main keynote sessions. This absence highlights a significant disconnect between the two organizations, as the Pirate Party's presence was limited to a fringe meeting, suggesting that their specific agenda for radical copyright reform did not align with the more moderate, reformist approach presented by the conference organizers.",
+    "segment_range": [
+     26,
+     28
+    ],
+    "rouge2_precision": 0.2381
+   },
+   {
+    "actor": "Open Rights Group",
+    "key_statement": "The Open Rights Group plans to establish youth societies at UK universities to engage students in intellectual property reform.",
+    "long_statement": "The Open Rights Group, an organization dedicated to reforming intellectual property laws, has established a specific initiative to create youth societies at universities across the United Kingdom. This commitment aims to engage the next generation of activists in the ongoing effort to shift the digital rights movement away from abstract slogans and toward practical strategies for challenging the market control exerted by restrictive technologies.",
+    "segment_range": [
+     29,
+     31
+    ],
+    "rouge2_precision": 0.2778
+   }
+  ]
+ }
+}

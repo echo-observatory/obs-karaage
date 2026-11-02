@@ -1,0 +1,35 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0   # the version comes from git tags (hatch-vcs)
+
+      - uses: astral-sh/setup-uv@v10.3.3   # setup-uv publishes no major-version tags
+        with:
+          enable-cache: true
+
+      - name: Install the locked environment
+        run: uv sync --frozen
+
+      - name: Cache the benepar and embedding models
+        uses: actions/cache@v6
+        with:
+          path: |
+            ~/nltk_data
+            ~/.cache/huggingface
+          key: models-${{ hashFiles('src/karaage/profiles/*.toml', 'uv.lock') }}
+
+      - name: Download the models
+        run: uv run karaage download-models
+
+      - name: Run the tests, replaying recorded LLM responses
+        run: uv run pytest

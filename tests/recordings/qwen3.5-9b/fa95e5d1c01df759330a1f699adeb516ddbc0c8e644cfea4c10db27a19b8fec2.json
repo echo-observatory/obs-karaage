@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-k57c2o8zvgrav1y6l8wi1g",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"Wikipedia is conducting a 24-hour 'blackout' to protest two proposed U.S. anti-p\", \"rephrased\": \"The English version of Wikipedia is executing a 24-hour blackout to protest the Stop Online Piracy Act and the PROTECT IP Act, two proposed U.S. laws that threaten online freedom. This coordinated action aims to pressure lawmakers by demonstrating public opposition to legislation that could undermine the global internet and increase cybersecurity risks.\", \"summary\": \"Wikipedia protests U.S. anti-piracy laws via a 24-hour blackout to pressure lawmakers.\"}, \"1\": {\"original\": \"Wikinews Tom Morris posed questions about the effectiveness and background of th\", \"rephrased\": \"Journalists from Wikinews are investigating the operational details and potential impact of the Wikipedia blackout, specifically seeking to understand how the protest is being executed and whether it will successfully influence the legislative debate surrounding U.S. anti-piracy laws.\", \"summary\": \"Wikinews investigates the Wikipedia blackout's effectiveness and background.\"}, \"2\": {\"original\": \"The White House stated they 'will not support legislation that reduces freedom\", \"rephrased\": \"The White House has declared it will not support any U.S. legislation that reduces freedom of expression, increases cybersecurity risk, or undermines the dynamic, innovative global internet. This position aligns with the concerns raised by the Wikipedia blackout, signaling that the administration opposes the specific anti-piracy laws currently under debate.\", \"summary\": \"The White House refuses to support U.S. laws that harm internet freedom.\"}, \"3\": {\"original\": \"The blackout effectively raised awareness of SOPA and PIPA dangers, evidenced by\", \"rephrased\": \"The executive director of the Wikimedia Foundation confirms that the Wikipedia blackout has successfully raised awareness regarding the dangers of the Stop Online Piracy Act and the PROTECT IP Act, citing thousands of news stories and trending social media activity as proof. However, while the initial goal of informing the public has been achieved, the organization remains cautious about whether this awareness will translate into enough direct contact with elected officials to alter the laws.\", \"summary\": \"Wikimedia Foundation confirms the blackout raised awareness but doubts its impact on lawmakers.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793639467,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 466,
+  "prompt_tokens": 2448,
+  "total_tokens": 2914,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

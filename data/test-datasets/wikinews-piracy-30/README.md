@@ -5,7 +5,7 @@ hand-picked from keyword search results to be on topic, reasonably long, rich in
 people, and spread over time.
 
 - Source: English Wikinews database dump of 2026-05-01 (https://en.wikinews.org)
-- Words per article: min 202, median 553, max 6940; total 29801
+- Words per article: min 202, median 553, max 6925; total 29784
 - Articles per year: 2004: 1, 2005: 5, 2006: 5, 2007: 2, 2008: 1, 2009: 3, 2010: 4, 2011: 1, 2012: 4, 2016: 2, 2020: 1, 2021: 1
 
 ## Files
