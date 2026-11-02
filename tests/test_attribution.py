@@ -1,6 +1,7 @@
 """Range resolution: overlapping and nested attribution ranges (moved from attribution.py)."""
 
-from karaage.attribution import (ATTRIBUTION_SCHEMA, MAX_ALIASES, MAX_RANGES, MAX_SOURCES, AttributionResult,
+from karaage.output import snapshot_kind
+from karaage.attribution import (ACTOR_KINDS, ATTRIBUTION_SCHEMA, MAX_ALIASES, MAX_RANGES, MAX_SOURCES, AttributionResult,
                                  Source, normalize_answer, resolve_source_ranges)
 
 
@@ -136,3 +137,21 @@ def test_repeated_actors_and_aliases_are_merged():
         ("Ann", ["A.", "we", "Dr Ann"], [[1, 2], [1, 2], [8, 9]]),
         ("Bob", [], [[5, 5]]),
     ]
+
+
+def test_kind_survives_normalization_merging_and_resolution():
+    raw = AttributionResult(sources=[
+        Source(main="Ann", other=[], kind="person", segments=[[1, 2]]),
+        Source(main="Ann", other=["A."], kind=None, segments=[[3, 3]]),
+        Source(main="Acme", other=[], kind="organisation", segments=[[8, 9]]),
+    ])
+    segments = [{"id": i, "text": "XXXXXXXXXX", "start": i * 10, "end": (i + 1) * 10} for i in range(12)]
+    resolved = resolve_source_ranges(normalize_answer(raw), segments)
+    assert {s.main: s.kind for s in resolved.sources} == {"Ann": "person", "Acme": "organisation"}
+    source = ATTRIBUTION_SCHEMA["properties"]["sources"]["items"]
+    assert "kind" in source["required"] and source["properties"]["kind"]["enum"] == ACTOR_KINDS
+
+
+def test_kinds_follow_the_snapshot_specification():
+    assert [snapshot_kind(k) for k in ("person", "organisation", "document", "unknown", None)] == [
+        "person", "organisation", None, None, None]
