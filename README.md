@@ -20,8 +20,21 @@ For 1.1.0, the output will be aligned with the snapshot specification in `obs-co
 
 ## Setup
 
-`Pipeline usage.ipynb` shows how to install the dependencies, connect to an LLM served by LM Studio and run the pipeline on a batch of documents.
-It predates the restructuring and will be rewritten.
+Karaage needs Python 3.12 or later. With [uv](https://docs.astral.sh/uv/), from a clone of this repo:
+
+```bash
+uv sync                          # creates .venv with the exact versions in uv.lock
+uv run karaage download-models   # benepar parser and embedding model
+```
+
+`uv sync` installs the versions pinned in `uv.lock`; library versions can change the output, so use it for any run whose results matter.
+`pip install .` also works, but resolves versions within the bounds of `pyproject.toml` instead.
+The spaCy model is installed as a dependency. `karaage download-models` puts the benepar parser in `~/nltk_data` and the embedding model in the Hugging Face cache.
+
+The version comes from git tags: `1.1.0` on tag `v1.1.0`, and development versions such as `1.1.1.dev3+g1a2b3c4` in between. `karaage --version` prints it.
+
+`Pipeline usage.ipynb` shows how to connect to an LLM served by LM Studio and run the pipeline on a batch of documents.
+It predates the restructuring: skip its installation cell and run it in the environment above. It will be rewritten.
 
 ## Test dataset
 

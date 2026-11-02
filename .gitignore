@@ -25,3 +25,7 @@ dist/
 # Run outputs and logs (see Data in AGENTS.md)
 temp/
 *.log
+
+# Generated at build time (hatch-vcs, hatch_build.py)
+src/karaage/_version.py
+src/karaage/_build_info.py

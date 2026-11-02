@@ -1,10 +1,18 @@
-__version__ = "1.0.0"
+try:
+    # Written from git tags by hatch-vcs when the package is built or installed.
+    from karaage._version import __version__
+except ImportError:  # source tree that was never installed
+    __version__ = "0+unknown"
+try:
+    # Written by hatch_build.py: the git commit the package was built from.
+    from karaage._build_info import commit as __commit_id__
+except ImportError:
+    __commit_id__ = None
 
 import html as html_lib
 import time
 import pathlib
 from dataclasses import dataclass
-from unittest import result
 
 from sentence_transformers import SentenceTransformer
 from openai import OpenAI
