@@ -161,7 +161,9 @@ def analyze_passage(passages, passage_index, main_point,
     return json.loads(content), elapsed
 
 
-def extract_statements(passages: list, main_point: str) -> list[dict]:
+def extract_statements(passages: list, main_point: str) -> tuple[list[dict], list[dict]]:
+    """Extract statements passage by passage. A passage that fails is skipped and
+    returned in the list of errors, so that the document can be marked as partial."""
     all_statements = []
     errors = []
     for i in tqdm(range(len(passages)), desc="Extracting statements"):
@@ -175,7 +177,7 @@ def extract_statements(passages: list, main_point: str) -> list[dict]:
     print(f"-> {total} statement{'s' if total != 1 else ''} extracted from {len(all_statements)} passage{'s' if len(all_statements) != 1 else ''}, {len(errors)} passage{'s' if len(errors) != 1 else ''} failed.")
     if errors:
         print("Failed passages:", [e["passage_index"] for e in errors])
-    return all_statements
+    return all_statements, errors
 
 
 def key_statements_monitoring_html(all_statements: list, passages: list, main_point: str) -> str:
@@ -223,6 +225,6 @@ def key_statements_monitoring_html(all_statements: list, passages: list, main_po
 
 def step_4_key_statements(segments, passages):
     main_point = extract_main_point(segments)
-    all_statements = extract_statements(passages, main_point)
+    all_statements, errors = extract_statements(passages, main_point)
     html_statements_content = key_statements_monitoring_html(all_statements, passages, main_point)
-    return all_statements, main_point, html_statements_content
+    return all_statements, main_point, html_statements_content, errors

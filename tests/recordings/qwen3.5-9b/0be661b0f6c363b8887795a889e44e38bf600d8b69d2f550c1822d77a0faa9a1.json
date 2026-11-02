@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-glz09bbku1l62uiydfta3n",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"France is passing a controversial copyright law that mandates digital locks and\\n\", \"rephrased\": \"The French National Assembly is set to adopt a bill that reforms intellectual property laws to implement European directives, mandating legal protections for digital locks that restrict user copying and imposing severe penalties for circumvention. This legislation, driven by the entertainment industry, has sparked intense political debate regarding the threat of criminalizing ordinary citizens and the potential for the measure to violate constitutional principles.\", \"summary\": \"France is passing a controversial copyright law that mandates digital locks and fines for file sharing, sparking intense political debate over industry lobbying, the threat of criminalizing ordinary users, and potential constitutional challenges.\"}, \"1\": {\"original\": \"Lawmakers deem criminalizing millions of citizens for file sharing unwise, adopt\", \"rephrased\": \"Lawmakers deem criminalizing millions of citizens for file sharing unwise, adopting a reduced €38 fine instead. They also mandate that DRM content publishers provide technical specifications to anyone wishing to create compatible players.\", \"summary\": \"Lawmakers deem criminalizing millions of citizens for file sharing unwise, adopting a reduced €38 fine instead. They also mandate that DRM content publishers provide technical specifications to anyone wishing to create compatible players.\"}, \"2\": {\"original\": \"US sources claim the law targets Apple's iTunes/iPod system, but it remains\", \"rephrased\": \"Some US news sources have decried the French copyright amendments as targeting Apple Computer's iTunes system and iPod players, though it remains uncertain whether these restrictions will apply to companies that choose not to claim the new special protection awarded to digital rights management by the law.\", \"summary\": \"Some US news sources have decried the French copyright amendments as targeting Apple Computer's iTunes system and iPod players, though it remains uncertain whether these restrictions will apply to companies that choose not to claim the new special protection awarded to digital rights management by.\"}, \"3\": {\"original\": \"expressed concerns that the proposed law would weaken existing legal exceptions\", \"rephrased\": \"Lawmakers expressed concerns that the proposed French copyright law would weaken existing legal exceptions to copyright, specifically the right for users to make copies of copyrighted files for private use, a provision that is central to the current intellectual property code.\", \"summary\": \"Lawmakers expressed concerns that the proposed French copyright law would weaken existing legal exceptions to copyright, specifically the right for users to make copies of copyrighted files for private use.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645037,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 510,
+  "prompt_tokens": 2614,
+  "total_tokens": 3124,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

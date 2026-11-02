@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-k5qspoeeon9risdymdtfr",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"A copyright case under the Class Proceedings Act of 1992 may see the country's\", \"rephrased\": \"Under Canada's Class Proceedings Act of 1992, a copyright lawsuit involving the estate of jazz musician Chet Baker and collective societies alleges that the nation's largest record labels have failed to pay royalties for hundreds of thousands of works, a situation that could result in penalties exceeding one billion dollars.\", \"summary\": \"A copyright lawsuit alleges major Canadian record labels face billions in penalties for unpaid royalties.\"}, \"1\": {\"original\": \"The industry defends its practices by citing a 'pending list' of unlicensed\", \"rephrased\": \"Major Canadian record labels defend their practices by citing a 'pending list' of unlicensed works, arguing that this mechanism allows for timely commercial release while rights are resolved, and dismissing the class action lawsuit as exaggerated and unsupported by the facts.\", \"summary\": \"Major Canadian record labels defend their practices by citing a 'pending list' of unlicensed works.\"}, \"2\": {\"original\": \"The lawsuit was amended in October to include two collective societies as\", \"rephrased\": \"The copyright lawsuit was initially filed in August but was amended in October to include the Canadian Musical Reproduction Rights Agency and the Society for Reproduction Rights of Authors as defendants, before these agencies switched sides in January to join the estate of jazz musician Chet Baker as plaintiffs against the four major record labels.\", \"summary\": \"The copyright lawsuit was amended to include collective societies as plaintiffs against major record labels.\"}, \"3\": {\"original\": \"The 'pending list' represents copyright infringements, not a valid mechanism for\", \"rephrased\": \"The 'pending list' of works not correctly licensed for reproduction represents copyright infringements rather than a valid mechanism for timely release, as the list stems from a history of poor recordkeeping and a compulsory license scheme that had declined to one of the lowest fees in the world.\", \"summary\": \"The 'pending list' represents copyright infringements, not a valid mechanism for timely release.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645503,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 434,
+  "prompt_tokens": 2230,
+  "total_tokens": 2664,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-fcn2caut8ctc67x4s9yc05",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"base_author\": [\"Oral arguments in MGM v. Grokster were heard before the Supreme Court March 29, involving 28 entertainment companies suing StreamCast and Grokster over P2P software distribution.\", \"The case concerns an appeal of prior rulings favoring Grokster's right to market P2P software, which the author notes distributes the majority of content without copyright holder permission.\", \"The outcome could determine the ultimate fate of P2P software in the U.S., potentially holding technological innovators legally responsible for infringing uses of their technology.\", \"The author cites survey data indicating that 49% of Americans believe file-sharing network operators should be deemed responsible for music and movie piracy.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644560,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 147,
+  "prompt_tokens": 1103,
+  "total_tokens": 1250,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

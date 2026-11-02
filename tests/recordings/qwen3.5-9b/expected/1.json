@@ -1,9 +1,10 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "Police raids and voluntary closures are shutting down European file-sharing link sites, challenging the legal assumption that merely hosting torrent links is harmless.",
+  "source_text_main_point": "Police raids and voluntary closures across Europe are dismantling major BitTorrent and ed2k link sites, proving that hosting such sites is illegal and exposing operators to prosecution, despite their claims of legal loopholes.",
   "source_text_length_chars": 6008,
-  "source_text_length_segments": 66,
+  "source_text_length_segments": 101,
   "actors": [
    {
     "name": "Tim Kuik",
@@ -12,9 +13,34 @@
     ]
    },
    {
+    "name": "BREIN",
+    "variations": [
+     "Dutch economic crimes police",
+     "copyright oversight organization"
+    ]
+   },
+   {
     "name": "Sloncek",
     "variations": [
-     "18 year-old owner of SuprNova.org"
+     "18 year-old owner",
+     "owner of SuprNova.org"
+    ]
+   },
+   {
+    "name": "SuprNova.org",
+    "variations": [
+     "SuprNova"
+    ]
+   },
+   {
+    "name": "FinReactor",
+    "variations": []
+   },
+   {
+    "name": "Finnish National Bureau of Investigation",
+    "variations": [
+     "Keskusrikospoliisi",
+     "KRP"
     ]
    },
    {
@@ -35,53 +61,63 @@
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "European police raids and voluntary closures prove that hosting torrent links is not legally harmless.",
-    "long_statement": "Across France, the Netherlands, Finland, and Slovenia, law enforcement raids and voluntary operator decisions have recently forced major European file-sharing link sites offline. These actions collectively undermine the prevailing legal belief that simply hosting torrent links constitutes a harmless activity, proving that such hosting can be treated as a copyright violation.",
+    "key_statement": "European police raids and voluntary closures prove hosting P2P link sites is illegal.",
+    "long_statement": "Across several European nations, including France, the Netherlands, Finland, and Slovenia, law enforcement raids and voluntary operator decisions have recently shut down major BitTorrent and ed2k link sites. These actions demonstrate that hosting such sites is illegal, effectively dismantling the infrastructure despite the operators' previous arguments regarding legal loopholes.",
     "segment_range": [
      0,
-     24
+     31
     ],
-    "rouge2_precision": 0.1176
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "SuprNova.org's voluntary closure despite its Slovenian location proves that geographic location no longer guarantees immunity from copyright enforcement.",
-    "long_statement": "The voluntary shutdown of SuprNova.org, a major international BitTorrent link site, is unexpected because its physical location in Slovenia was widely assumed to provide immunity from enforcement actions by American-based copyright organizations. Despite this perceived geographic protection, the site's owner chose to remove all torrent links following news of arrests and legal warnings, signaling that the site's jurisdiction no longer guarantees safety from global copyright enforcement efforts.",
-    "segment_range": [
-     25,
-     29
-    ],
-    "rouge2_precision": 0.2
+    "rouge2_precision": 0.1875
    },
    {
     "actor": "Sloncek",
-    "key_statement": "The SuprNova.org operator voluntarily closed the site's link section in response to peer arrests and legal warnings.",
-    "long_statement": "Following reports of arrests targeting administrators of prominent peer-to-peer sites and receiving formal legal warnings, the operator of SuprNova.org determined that continuing to host torrent links was no longer viable. Consequently, the decision was made to voluntarily shut down the site's link distribution section, a move driven by the realization that the legal risks had escalated beyond the point of safe operation for the service.",
+    "key_statement": "The owner of SuprNova.org voluntarily closed the site following legal warnings.",
+    "long_statement": "Sloncek, who is 18 years old and runs the Slovenian website SuprNova.org, chose to turn off the site's links section. This decision came after he got legal notices and saw that administrators from other major peer-to-peer networks had been arrested.",
     "segment_range": [
-     25,
-     29
+     32,
+     41
     ],
-    "rouge2_precision": 0.2222
+    "rouge2_precision": 0.2727
    },
    {
-    "actor": "MPAA",
-    "key_statement": "FinReactor, a Finnish file-sharing website, closed down. The MPAA says it is responsible for this shutdown.",
-    "long_statement": "The Motion Picture Association of America asserts that it is responsible for the voluntary closure of the Finnish file-sharing site FinReactor, a claim that contradicts official denials from Finnish copyright authorities who state no contact was made with them. This position implies that the U.S. industry group believes its pressure tactics were the decisive factor in shutting down the site, despite the operators' own decision to close it following legal warnings.",
+    "actor": "Sloncek",
+    "key_statement": "The SuprNova.org operator voluntarily closed the site following peer-to-peer admin arrests and legal warnings.",
+    "long_statement": "The operator of the Slovenian-based SuprNova.org link site decided to voluntarily shut down the site's file-sharing section after learning that administrators of other prominent peer-to-peer networks had been arrested and after receiving formal legal warnings from copyright enforcement groups.",
     "segment_range": [
-     50,
-     52
+     32,
+     41
+    ],
+    "rouge2_precision": 0.2727
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The SuprNova.org operator plans to stop hosting BitTorrent links while keeping forums online.",
+    "long_statement": "The operator of the Slovenian-based SuprNova.org link site asserts that the platform will cease distributing BitTorrent files, even though the site's discussion forums and IRC chat network will continue to remain accessible to users.",
+    "segment_range": [
+     42,
+     47
     ],
     "rouge2_precision": 0.1111
    },
    {
-    "actor": "base_author",
-    "key_statement": "BitTorrent is a 2002 peer-to-peer tool that speeds up file distribution by swapping data chunks between users.",
-    "long_statement": "BitTorrent, a peer-to-peer file distribution tool created by programmer Bram Cohen and introduced in 2002, functions by allowing users to swap portions of files with one another rather than relying on a single centralized server, thereby enabling faster downloads for large numbers of users compared to earlier systems.",
+    "actor": "MPAA",
+    "key_statement": "FinReactor, a website based in Finland, has shut down. The MPAA says it is responsible for this closure.",
+    "long_statement": "The Motion Picture Association of America, a trade association representing major American movie studios, has publicly claimed responsibility for the decision by Finnish authorities to raid and shut down the FinReactor link site, although Finnish investigators have officially denied any direct contact or involvement from the American group.",
     "segment_range": [
-     53,
-     59
+     80,
+     83
     ],
-    "rouge2_precision": 0.2857
+    "rouge2_precision": 0.2128
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "BitTorrent accelerates file distribution by enabling users to exchange file segments rather than relying on a single centralized server.",
+    "long_statement": "The BitTorrent system, developed by programmer Bram Cohen and introduced in 2002, accelerates file distribution by allowing users to exchange specific file segments with one another instead of downloading entire files from a single centralized server. This decentralized architecture is particularly effective for rapidly spreading new releases to large numbers of people, offering a distinct advantage over traditional peer-to-peer networks that rely on individual users for long-term file availability.",
+    "segment_range": [
+     88,
+     100
+    ],
+    "rouge2_precision": 0.1972
    }
   ]
  }

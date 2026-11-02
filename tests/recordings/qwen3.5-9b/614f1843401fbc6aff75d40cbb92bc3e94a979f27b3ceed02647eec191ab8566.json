@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-xgibrftu7bohbbkvtmqhui",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"A distributed denial of service raid targeted the International Federation of the Phonographic Industry's website. The attack was carried out by between 700 and 1,000 casual users, not dedicated computer experts. Their main motivation was 'lulz' or cheap entertainment, not genuine activism. These participants used rudimentary programs coordinated through 4chan spinoffs and IRC channels. They relied on the technical skills of others to disrupt the target's digital infrastructure.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645433,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 104,
+  "prompt_tokens": 245,
+  "total_tokens": 349,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

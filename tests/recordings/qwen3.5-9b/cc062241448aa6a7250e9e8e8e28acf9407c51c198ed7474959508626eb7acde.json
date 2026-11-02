@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-0aa1icfcazy82lrhmztphnn",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Danny O'Brien\": [\"Privacy policies currently only describe stored data, not the risks of un-anonymized collection.\", \"We warn companies that storing excessive raw data creates future liability.\", \"We advocate spreading knowledge on data aggregation and anonymization techniques.\", \"We recommend the book 'Translucent Databases' for better logging practices.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644758,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 68,
+  "prompt_tokens": 1054,
+  "total_tokens": 1122,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

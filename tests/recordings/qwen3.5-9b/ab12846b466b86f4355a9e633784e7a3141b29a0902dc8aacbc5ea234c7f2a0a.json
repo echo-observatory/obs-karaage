@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-os3xmt269dvv14x8oh54n",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"The proposed Anti-Counterfeiting Trade Agreement (ACTA) was defeated in a pleny\", \"rephrased\": \"The European Parliament decisively rejected the proposed Anti-Counterfeiting Trade Agreement (ACTA), a secretive deal that activists argued threatened internet freedom and access to medicines, with 478 votes cast against it compared to only 39 in favor.\", \"summary\": \"The European Parliament rejected the secretive ACTA deal by a large margin.\"}, \"1\": {\"original\": \"attributed their success to mobilising the public to bring pressure to bear on\", \"rephrased\": \"Activist groups across Europe attribute the successful defeat of the Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament to their strategy of mobilizing the general public to apply direct pressure on elected representatives.\", \"summary\": \"Activists credit public mobilization for defeating the ACTA legislation.\"}, \"2\": {\"original\": \"cautioned that Karel de Gucht deferred any decision on how the Commission will\", \"rephrased\": \"The UK's Open Rights Group cautions that the European Commission, under the leadership of Trade Commissioner Karel de Gucht, has deferred any decision on the future of the Anti-Counterfeiting Trade Agreement (ACTA) pending a ruling from the European Court of Justice regarding its compatibility with European law.\", \"summary\": \"The Open Rights Group notes the Commission is delaying ACTA decisions until a court ruling.\"}, \"3\": {\"original\": \"The secretive Anti-Counterfeiting Trade Agreement (ACTA) provoked massive rallie\", \"rephrased\": \"The secretive Anti-Counterfeiting Trade Agreement (ACTA) provoked massive public opposition across Europe, evidenced by widespread demonstrations and a petition gathering two million signatures, which ultimately contributed to its defeat in the European Parliament.\", \"summary\": \"Massive public opposition and a two-million-signature petition led to ACTA's defeat.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793646041,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 409,
+  "prompt_tokens": 2011,
+  "total_tokens": 2420,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

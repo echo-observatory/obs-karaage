@@ -1,94 +1,84 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "The Delhi High Court has restored a copyright infringement case against Delhi University's photocopy service, ruling that the legality of distributing course packs depends on expert evidence to determine if it constitutes fair use rather than absolute ownership.",
+  "source_text_main_point": "The Delhi High Court has restored a copyright infringement case against Delhi University's photocopy service, ruling that the legality of distributing course packs depends on expert evidence to determine if the practice constitutes fair use rather than absolute violation.",
   "source_text_length_chars": 2391,
-  "source_text_length_segments": 24,
+  "source_text_length_segments": 35,
   "actors": [
    {
     "name": "Rameshwari Photocopy Service",
     "variations": [
      "DU's Rameshwari Photocopy Service",
-     "The shop",
-     "photocopy service shop"
-    ]
-   },
-   {
-    "name": "Rajiv Sahan Endlaw",
-    "variations": [
-     "Justice Endlaw",
-     "justice Rajiv Sahan Endlaw",
-     "Justice Sahani"
+     "the shop",
+     "the photocopy service shop"
     ]
    },
    {
     "name": "Pradeep Nandrajog",
-    "variations": [
-     "justice Pradeep Nandrajog"
-    ]
+    "variations": []
    },
    {
     "name": "Dharam Pal Singh",
     "variations": [
-     "Dharam Pal",
-     "The owner of the photocopy service shop"
-    ]
-   },
-   {
-    "name": "Oxford University Press",
-    "variations": [
-     "Oxford University Press"
+     "Dharam Pal"
     ]
    },
    {
     "name": "High Court",
     "variations": [
      "Delhi High Court",
-     "The High Court",
      "the bench"
+    ]
+   },
+   {
+    "name": "Justice Rajiv Sahan Endlaw",
+    "variations": [
+     "Justice Endlaw",
+     "judge Sahani"
     ]
    }
   ],
   "statements": [
    {
-    "actor": "Rajiv Sahan Endlaw",
-    "key_statement": "Justice Endlaw ruled that distributing course packs for instructional use did not violate copyright law.",
-    "long_statement": "Justice Rajiv Sahan Endlaw dismissed the copyright infringement charges against the Rameshwari Photocopy Service in September, ruling that distributing course packs for Delhi University did not constitute a violation because the service was merely facilitating instructional use rather than asserting absolute ownership over the authors' creative works.",
-    "segment_range": [
-     0,
-     2
-    ],
-    "rouge2_precision": 0.2174
-   },
-   {
     "actor": "Dharam Pal Singh",
-    "key_statement": "The photocopy shop owner argued that course packs only contain essential, professor-recommended readings.",
-    "long_statement": "Dharam Pal Singh, the owner of the Rameshwari Photocopy Service, argued that there is no justification for preparing course packs beyond the university curriculum, insisting that the shop only distributes required readings and important sections of books that professors explicitly recommend to students.",
-    "segment_range": [
-     7,
-     9
-    ],
-    "rouge2_precision": 0.2143
-   },
-   {
-    "actor": "Dharam Pal Singh",
-    "key_statement": "The photocopy service argues that market barriers like high prices and scarcity justify distributing course packs containing copyrighted material.",
-    "long_statement": "The Delhi University photocopy service argues that distributing course packs is a necessary response to specific market failures, including the unavailability of certain books, their high costs, and limited circulation, which prevent students from accessing essential reading materials. Consequently, the service maintains that these compilations preserve data from older publications and serve a critical educational function that justifies their distribution despite the presence of copyrighted material.",
+    "key_statement": "The photocopy shop owner argues there is no justification for course packs beyond the curriculum as they contain only required readings and important book sections.",
+    "long_statement": "The owner of the Rameshwari Photocopy Service, Dharam Pal Singh, asserts that there is no justification for preparing course packs beyond the official curriculum, arguing that these collections contain only readings professors require or recommend and include merely important sections of published books, thereby negating the need for such compilations.",
     "segment_range": [
      11,
      15
     ],
-    "rouge2_precision": 0.0556
+    "rouge2_precision": 0.2857
    },
    {
-    "actor": "Rajiv Sahan Endlaw",
-    "key_statement": "According to the High Court, the goal of copyright is to encourage creativity for the public good, rather than to give authors total control.",
-    "long_statement": "The Delhi High Court asserts that copyright law in India does not grant authors absolute ownership over their creations, but rather functions as a mechanism intended to increase and motivate the public harvest of knowledge. Therefore, the court rules that the legality of distributing course packs must be judged by expert evidence regarding whether the specific inclusion of works serves the educational purpose of the course, rather than by a rigid application of ownership rights.",
+    "actor": "base_author",
+    "key_statement": "Legal experts clarify that Indian law judges course pack legality based on whether the inclusion of copyrighted works is justified by the pack's educational purpose, not by whether the pack functions as a textbook.",
+    "long_statement": "Legal experts clarify that Indian law does not warrant judging the legality of course packs by whether they have become textbooks, but rather by considering whether the inclusion of copyrighted works within the pack is justified by the specific educational purpose of that course pack.",
     "segment_range": [
      16,
-     23
+     16
     ],
-    "rouge2_precision": 0.1351
+    "rouge2_precision": 0.2353
+   },
+   {
+    "actor": "Dharam Pal Singh",
+    "key_statement": "The photocopy shop owner contends that students need course packs because many essential books are limited by availability, high prices, and poor circulation.",
+    "long_statement": "The owner of the Rameshwari Photocopy Service, Dharam Pal Singh, contends that students require course packs because many essential books are limited by availability, high prices, and poor circulation, with some texts costing over ₹2000 and others being unavailable for decades.",
+    "segment_range": [
+     17,
+     26
+    ],
+    "rouge2_precision": 0.2727
+   },
+   {
+    "actor": "Justice Rajiv Sahan Endlaw",
+    "key_statement": "Justice Endlaw argues copyright is a public-interest tool for knowledge expansion, not absolute ownership.",
+    "long_statement": "Justice Rajiv Sahan Endlaw of the Delhi High Court asserts that copyright in literary works is not an inherent, divine, or natural right granting authors absolute ownership. Instead, the legal framework views copyright as a mechanism designed to expand public knowledge and stimulate creative activity, ultimately serving the broader public interest rather than restricting access to information.",
+    "segment_range": [
+     27,
+     34
+    ],
+    "rouge2_precision": 0.2143
    }
   ]
  }

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-xspvg8cyypoge5hlnx1p",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Arthur\", \"other\": [\"Charles Arthur\"], \"segments\": [[13, 15], [30, 32], [38, 42], [59, 59], [83, 88], [93, 95], [96, 96]]}, {\"main\": \"Mulligan\", \"other\": [\"Mark Mulligan\"], \"segments\": [[18, 20], [71, 78]]}, {\"main\": \"Jacob\", \"other\": [\"Alex Jacob\"], \"segments\": [[21, 28], [34, 36], [104, 109]]}, {\"main\": \"Farrell\", \"other\": [\"Nick Farrell\"], \"segments\": [[43, 47]]}, {\"main\": \"Liversage\", \"other\": [\"Adam Liversage\"], \"segments\": [[78, 82]]}, {\"main\": \"Robert\", \"other\": [], \"segments\": [[102, 103], [110, 113]]}, {\"main\": \"IFPI\", \"other\": [\"International Federation of the Phonographic Industry\"], \"segments\": [[41, 41], [99, 100]]}, {\"main\": \"Gabriel\", \"other\": [\"Peter Gabriel\"], \"segments\": [[90, 92]]}, {\"main\": \"Reznor\", \"other\": [\"Trent Reznor\"], \"segments\": [[94, 94]]}, {\"main\": \"Apple\", \"other\": [], \"segments\": [[0, 7], [10, 11], [51, 51], [58, 58], [63, 63], [66, 68], [86, 86], [111, 111]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645716,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 420,
+  "prompt_tokens": 2504,
+  "total_tokens": 2924,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

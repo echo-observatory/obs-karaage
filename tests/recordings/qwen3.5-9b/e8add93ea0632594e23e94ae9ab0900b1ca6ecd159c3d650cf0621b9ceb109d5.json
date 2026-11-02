@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-xw1bgb0fei5j39lqc8h03",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"main_point\": \"Protesters staged a symbolic act by having MPAA president Jack Valenti sign Betamax tapes, highlighting the irony that he previously condemned the VCR as a 'Boston strangler' despite the technology's legal protection, drawing a parallel to the current Supreme Court case over digital file-sharing.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644595,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 65,
+  "prompt_tokens": 605,
+  "total_tokens": 670,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

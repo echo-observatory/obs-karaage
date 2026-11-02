@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-yduwtcyvyvhywnaop0aoz",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"White House\", \"other\": [], \"segments\": [[3, 5]]}, {\"main\": \"Wikinews\", \"other\": [\"Tom Morris\"], \"segments\": [[6, 6]]}, {\"main\": \"Sue Gardner\", \"other\": [\"executive director of the Wikimedia Foundation\"], \"segments\": [[9, 15], [22, 35], [52, 65], [68, 99]]}, {\"main\": \"Wikimedia Foundation\", \"other\": [\"Foundation\", \"the Wikimedia Foundation\"], \"segments\": [[82, 99]]}, {\"main\": \"Geoff Brigham\", \"other\": [\"Wikimedia's legal counsel\"], \"segments\": [[38, 38]]}, {\"main\": \"admins\", \"other\": [\"the admins who closed it\"], \"segments\": [[30, 32]]}, {\"main\": \"Jimmy\", \"other\": [], \"segments\": [[28, 28]]}, {\"main\": \"Italian Wikipedians\", \"other\": [\"Italian Wikipedia\"], \"segments\": [[55, 55]]}, {\"main\": \"German Wikipedia\", \"other\": [], \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Italian Wikipedia\", \"other\": [\"Italian shutdown\"], \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Commons\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Italian Wikipedia\", \"other\": [\"Italian shutdown\"], \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Commons\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Italian Wikipedians\", \"other\": [\"Italian Wikipedia\"], \"segments\": [[55, 55]]}, {\"main\": \"German Wikipedia\", \"other\": [], \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Commons\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Italian Wikipedians\", \"other\": [\"Italian Wikipedia\"], \"segments\": [[55, 55]]}, {\"main\": \"German Wikipedia\", \"other\": [], \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Commons\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Italian Wikipedians\", \"other\": [\"Italian Wikipedia\"], \"segments\": [[55, 55]]}, {\"main\": \"German Wikipedia\", \"other\": [], \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Commons\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Italian Wikipedians\", \"other\": [\"Italian Wikipedia\"], \"segments\": [[55, 55]]}, {\"main\": \"German Wikipedia\", \"other\": [], \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Commons\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Italian Wikipedians\", \"other\": [\"Italian Wikipedia\"], \"segments\": [[55, 55]]}, {\"main\": \"German Wikipedia\", \"other\": [], \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Commons\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Italian Wikipedians\", \"other\": [\"Italian Wikipedia\"], \"segments\": [[55, 55]]}, {\"main\": \"German Wikipedia\", \"other\": [], \"segments\": [[56, 56]]}, {\"main\": \"Arabic Wikipedia\", \"other\": [], \"segments\": [[58, 58]]}, {\"main\": \"Commons\", \"other\": [], \"segments\": [[58, 58]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645915,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 1033,
+  "prompt_tokens": 1883,
+  "total_tokens": 2916,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

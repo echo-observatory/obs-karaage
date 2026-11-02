@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-2ifzvsx3glppq9e9pikql",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"28\": {\"original\": \"The Broadcast flag is a form of Digital Rights Management implemented by the US.\", \"rephrased\": \"The Broadcast Flag, a specific type of Digital Rights Management technology mandated by the United States Federal Communications Commission, restricts how digital media can be copied and shared on devices like digital TVs and recorders.\", \"summary\": \"The US Federal Communications Commission mandates the Broadcast Flag as a Digital Rights Management technology to restrict digital media copying.\"}, \"29\": {\"original\": \"The DADVSI law in the French Parliament relates to the 2001 European Directive.\", \"rephrased\": \"The French Parliament is currently debating the DADVSI law, a national measure designed to implement the 2001 European Union Directive on Copyright within France's legal framework.\", \"summary\": \"France's Parliament is actively considering the DADVSI law to enforce the 2001 European Union Copyright Directive.\"}, \"30\": {\"original\": \"The EFF has not yet had the opportunity to consider the DADVSI law.\", \"rephrased\": \"The Electronic Frontier Foundation has not yet reviewed the DADVSI law currently under consideration in the French Parliament, though the organization monitors similar copyright enforcement measures globally.\", \"summary\": \"The Electronic Frontier Foundation has not yet reviewed the French DADVSI law but monitors global copyright enforcement measures.\"}, \"31\": {\"original\": \"Canada and Belgium apply heavy taxes on copying medium, and the revenues from\", \"rephrased\": \"Governments in Canada and Belgium utilize heavy taxation on blank recording media to fund support for creative artists and developers, presenting this fiscal approach as a viable alternative to implementing restrictive Digital Rights Management systems.\", \"summary\": \"Canada and Belgium fund creative artist support through taxes on recording media as an alternative to Digital Rights Management.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644863,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 377,
+  "prompt_tokens": 2576,
+  "total_tokens": 2953,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

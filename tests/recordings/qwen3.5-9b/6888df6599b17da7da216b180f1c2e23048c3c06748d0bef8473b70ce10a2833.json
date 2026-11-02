@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-cygdw5s1lssj09by6f0qz",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"8\": {\"original\": \"The Pirate Party UK attended but remained silent in key sessions, while student\\u0002\", \"rephrased\": \"Although the Pirate Party UK sent representatives to the Open Rights Group conference in London, these members did not participate in the main keynote discussions or panel sessions, effectively staying out of the primary debates on intellectual property reform. Instead, the event's energy was driven by student organizations and young activists who led the workshops and open forum discussions, suggesting that the movement for digital rights is currently finding its most vocal leadership within the younger generation rather than among established political parties.\", \"summary\": \"The Pirate Party UK remained absent from key conference sessions while young activists dominated the discussions.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645699,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 147,
+  "prompt_tokens": 1869,
+  "total_tokens": 2016,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

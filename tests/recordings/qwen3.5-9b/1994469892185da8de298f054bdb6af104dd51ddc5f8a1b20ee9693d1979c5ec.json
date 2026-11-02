@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-k5z90lg8p9c8xxjp5erzz9",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Anonymous\": [], \"base_author\": [\"It is, however, entirely possible that this assertion is itself a bluff.\", \"Coordinated attacks against Swedish government and media industry websites have become commonplace in retaliation for legal actions against The Pirate Bay.\", \"The group plans its next raid to take place at 12:00 GMT on April 26, against the IFPI's Swedish website.\", \"Previous attacks on websites have been attributed to the same group. On January 20, 2008 Anonymous claimed responsibility for attacking the Church of Scientology's website which resulted in an arrest.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645402,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 123,
+  "prompt_tokens": 955,
+  "total_tokens": 1078,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

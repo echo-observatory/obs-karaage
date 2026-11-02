@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-5622k8nvrl38dvkw1b9urs",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Interviewer\", \"other\": [], \"segments\": [[248, 251], [252, 254], [269, 272]]}, {\"main\": \"Interviewee\", \"other\": [], \"segments\": [[255, 268], [270, 317], [318, 320], [321, 361], [362, 377], [378, 398], [399, 409], [410, 452], [453, 469], [470, 477], [478, 480], [481, 493]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793646452,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 185,
+  "prompt_tokens": 3957,
+  "total_tokens": 4142,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

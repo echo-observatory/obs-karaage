@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-wi7cb4vv3xroqacierht4",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"base_author\": [\"The rise of streaming services like Spotify is a likely cause of falling music sales, though revenues ($800m in 2009) won't fully offset the CD decline; however, a glimmer of hope remains.\", \"The record business's peak years are behind it, but experts remain cautiously optimistic that new app-based models could eventually replace the struggling album format.\"], \"Liversage\": []}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645743,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 90,
+  "prompt_tokens": 824,
+  "total_tokens": 914,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

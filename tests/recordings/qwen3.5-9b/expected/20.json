@@ -1,15 +1,16 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "The Open Rights Group held its first conference to educate activists on reforming intellectual property laws, emphasizing that digital rights require shifting focus from 'information wants to be free' to addressing the market control exerted by DRM technologies.",
+  "source_text_main_point": "The Open Rights Group held its first conference to educate activists on reforming intellectual property laws, emphasizing a shift from 'information wants to be free' to a focus on digital rights management and sustainable copyright systems.",
   "source_text_length_chars": 2609,
-  "source_text_length_segments": 34,
+  "source_text_length_segments": 43,
   "actors": [
    {
     "name": "Open Rights Group",
     "variations": [
      "ORG",
-     "the organisation"
+     "ORGCon"
     ]
    },
    {
@@ -18,69 +19,87 @@
    },
    {
     "name": "John Buckman",
-    "variations": []
+    "variations": [
+     "Buckman"
+    ]
    },
    {
     "name": "James Boyle",
-    "variations": []
-   },
-   {
-    "name": "Jdforrester",
     "variations": [
-     "Wikipedian Jdforrester"
+     "Boyle"
     ]
    }
   ],
   "statements": [
    {
-    "actor": "Cory Doctorow",
-    "key_statement": "Digital rights advocates must shift focus from free information to addressing market control by DRM technologies.",
-    "long_statement": "Digital rights supporters need to stop relying on the phrase 'information wants to be free.' They must focus on the market power held by digital rights management tools. These tools limit how people share data and warp the digital economy.",
-    "segment_range": [
-     5,
-     20
-    ],
-    "rouge2_precision": 0.2564
-   },
-   {
-    "actor": "James Boyle",
-    "key_statement": "The current era resembles the pre-Smith period of mercantilist monopolies that stifled competition.",
-    "long_statement": "The current era resembles the pre-Smith period of mercantilist monopolies, a time when entrenched market structures stifled competition, a situation that must be broken down to allow for a reformed copyright system.",
-    "segment_range": [
-     21,
-     25
-    ],
-    "rouge2_precision": 0.1562
-   },
-   {
-    "actor": "James Boyle",
-    "key_statement": "James Boyle advocates for copyright reform to restore moral consensus against lawbreaking while condemning piracy.",
-    "long_statement": "James Boyle, a legal scholar speaking at the Open Rights Group conference in London, asserts that the current intellectual property framework requires urgent reform to dismantle entrenched monopolies, while simultaneously maintaining that piracy remains a harmful violation of the law. He argues that the tragedy of the modern era is not the technology itself, but the loss of a societal consensus that breaking the law is inherently wrong, a moral failing that must be addressed through a reformed copyright system rather than by embracing illegal file-sharing.",
-    "segment_range": [
-     21,
-     25
-    ],
-    "rouge2_precision": 0.1628
-   },
-   {
     "actor": "base_author",
-    "key_statement": "Delegates from the Pirate Party UK were present at the conference, yet they were not allowed to join the primary keynote sessions.",
-    "long_statement": "Although members of the Pirate Party UK, a political group advocating for digital rights, physically attended the Open Rights Group conference in London, they were excluded from the main keynote sessions. This absence highlights a significant disconnect between the two organizations, as the Pirate Party's presence was limited to a fringe meeting, suggesting that their specific agenda for radical copyright reform did not align with the more moderate, reformist approach presented by the conference organizers.",
+    "key_statement": "The UK's Open Rights Group launched a conference to educate activists on intellectual property reform.",
+    "long_statement": "Activists gathered for the first Open Rights Group conference in London. This UK pressure group, which works to change intellectual property laws, held the event to teach attendees about the new legal rules.",
     "segment_range": [
-     26,
-     28
+     0,
+     6
     ],
-    "rouge2_precision": 0.2381
+    "rouge2_precision": 0.2667
    },
    {
-    "actor": "Open Rights Group",
-    "key_statement": "The Open Rights Group plans to establish youth societies at UK universities to engage students in intellectual property reform.",
-    "long_statement": "The Open Rights Group, an organization dedicated to reforming intellectual property laws, has established a specific initiative to create youth societies at universities across the United Kingdom. This commitment aims to engage the next generation of activists in the ongoing effort to shift the digital rights movement away from abstract slogans and toward practical strategies for challenging the market control exerted by restrictive technologies.",
+    "actor": "Cory Doctorow",
+    "key_statement": "Activist Cory Doctorow urges a shift in digital rights focus from free information to managed control.",
+    "long_statement": "Digital rights activist Cory Doctorow believes the common saying 'information wants to be free' requires a shift in perspective. He explains that the actual objective is to establish a digital economy grounded in control, not open access.",
     "segment_range": [
-     29,
+     7,
+     24
+    ],
+    "rouge2_precision": 0.25
+   },
+   {
+    "actor": "Cory Doctorow",
+    "key_statement": "Activist Cory Doctorow asserts that digital rights concerns are distinct from artistic issues.",
+    "long_statement": "According to digital rights activist Cory Doctorow, the core principles of digital rights are unrelated to artistic expression, emphasizing instead the necessity of managing the information network with significant restrictions.",
+    "segment_range": [
+     7,
+     24
+    ],
+    "rouge2_precision": 0.2414
+   },
+   {
+    "actor": "Cory Doctorow",
+    "key_statement": "Activist Cory Doctorow condemns DRM technologies for restricting consumer information exchange.",
+    "long_statement": "Digital rights activist Cory Doctorow states that Digital Rights Management systems damage the market. They do this by placing fake limits on how people share data. This action goes against the normal way data moves.",
+    "segment_range": [
+     7,
+     24
+    ],
+    "rouge2_precision": 0.2059
+   },
+   {
+    "actor": "James Boyle",
+    "key_statement": "The current intellectual property era resembles a historical period of restrictive monopolies that stifled innovation.",
+    "long_statement": "The current era of intellectual property law resembles the pre-Smith period of mercantilist monopolies, a historical phase characterized by entrenched market restrictions that stifled competition and innovation. This comparison highlights a critical need to move beyond outdated regulatory frameworks that favor monopoly power over public access to information.",
+    "segment_range": [
+     25,
      31
     ],
-    "rouge2_precision": 0.2778
+    "rouge2_precision": 0.0714
+   },
+   {
+    "actor": "James Boyle",
+    "key_statement": "The speaker advocates for legal reform to address unfair laws while condemning digital piracy as harmful.",
+    "long_statement": "The speaker advocates for significant changes to intellectual property laws while simultaneously condemning digital piracy as a harmful behavior. This stance emphasizes that the solution to the current crisis lies in reforming the legal system to make it fairer, rather than relying on enforcement measures that punish users for breaking unjust laws.",
+    "segment_range": [
+     25,
+     31
+    ],
+    "rouge2_precision": 0.0392
+   },
+   {
+    "actor": "James Boyle",
+    "key_statement": "The speaker expresses sorrow because a whole generation no longer grasps the ethical truth that violating the law is incorrect.",
+    "long_statement": "The speaker expresses deep concern that a whole generation has forgotten the fundamental moral principle that breaking the law is wrong. This loss of ethical grounding is described as a tragedy, suggesting that the current legal environment has eroded the public's natural sense of justice and respect for rules.",
+    "segment_range": [
+     25,
+     31
+    ],
+    "rouge2_precision": 0.1633
    }
   ]
  }

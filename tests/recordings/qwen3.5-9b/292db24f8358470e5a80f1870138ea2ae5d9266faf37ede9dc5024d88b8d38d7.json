@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-7z2esghq2rg2iyuos116rm",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"8\": {\"original\": \"The bill moves to the Senate for amendment and approval, likely proceeding to a \", \"rephrased\": \"After the National Assembly votes on the controversial French copyright bill, the legislation will be sent to the Senate for further amendment and approval. Because the government has declared the text urgent, it is probable that the Senate will expedite the process by sending the bill to a joint commission for harmonization before a final vote, potentially leading to a swift ratification by President Chirac.\", \"summary\": \"The urgent French copyright bill will move to the Senate for expedited review and final ratification.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645056,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 131,
+  "prompt_tokens": 1832,
+  "total_tokens": 1963,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

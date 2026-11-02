@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-27f6rrc8u8643jplsuzl06",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"12\": {\"original\": \"claiming the blackout actions are irresponsible, dangerous and a disservice to [\", \"rephrased\": \"The Motion Picture Association of America, which supports the proposed U.S. anti-piracy laws, asserts that the planned 24-hour global blackout by Wikipedia is an irresponsible and dangerous act. This stance argues that the digital shutdown serves as a punitive stunt against users rather than a constructive solution to the real problem of online piracy, ultimately acting as a disservice to the public who rely on the site for information.\", \"summary\": \"The Motion Picture Association of America condemns the Wikipedia blackout as an irresponsible and dangerous stunt that harms the public.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645901,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 142,
+  "prompt_tokens": 1729,
+  "total_tokens": 1871,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

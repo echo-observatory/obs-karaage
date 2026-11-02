@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-j6bebsy85cq8ws2scfqsfk",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"The digital download market is still growing, but the percentage is less than a%\", \"rephrased\": \"The worldwide music industry, represented by the International Federation of the Phonographic Industry, acknowledges that while the digital download market continues to expand, the current growth rate is significantly lower than it was a few years ago, even though the market now operates from a much larger total volume of sales.\", \"summary\": \"The global music industry notes that digital download growth has slowed despite a larger overall market.\"}, \"5\": {\"original\": \"CD sales fell by 12.7%, losing $1.6bn in value, while digital downloads only\", \"rephrased\": \"Recent data indicates that while physical CD sales have plummeted by nearly 13%, resulting in a loss of over $1.6 billion, digital music downloads have only increased by roughly 9%, generating less than $400 million in revenue, proving that the digital transition has not yet compensated for the collapse of physical media.\", \"summary\": \"Data reveals that digital music revenue growth is insufficient to offset the massive financial losses from declining CD sales.\"}, \"6\": {\"original\": \"Expectations that CDs would eventually become extinct, replaced by digital\", \"rephrased\": \"The widespread belief that physical CDs would eventually disappear and be fully replaced by digital downloads has not materialized, as the anticipated total market growth has failed to occur.\", \"summary\": \"The predicted total replacement of CDs by digital downloads has not yet happened.\"}, \"7\": {\"original\": \"Digital isn't making up for the fall in CD sales across the board, though\", \"rephrased\": \"While digital music sales are rising in specific regions like the United Kingdom, they are failing to compensate for the overall decline in physical CD sales on a global scale, meaning the industry's total revenue remains under pressure.\", \"summary\": \"Digital sales are growing in some countries but are not enough to replace global CD revenue losses.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645761,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 416,
+  "prompt_tokens": 2488,
+  "total_tokens": 2904,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

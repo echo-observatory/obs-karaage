@@ -1,11 +1,10 @@
 {
  "step_errors": {
-  "Attribution": "IndexError: list index out of range",
-  "Passages": "skipped",
-  "Key statements extraction": "skipped",
+  "Key statements extraction": "BadRequestError: Error code: 400",
   "Rephrasing": "skipped",
   "Paraphrasing": "skipped",
   "Validation": "skipped"
  },
+ "failures": [],
  "data": {}
 }

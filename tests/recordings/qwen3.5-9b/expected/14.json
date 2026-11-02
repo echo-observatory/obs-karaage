@@ -1,9 +1,10 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "Following an FCC investigation into Comcast's data restrictions, major ISPs like Comcast and Time Warner Cable are testing plans to slow speeds or charge extra fees for heavy internet usage, sparking debate over whether these measures unfairly limit consumer access or are necessary to manage network congestion.",
+  "source_text_main_point": "Following an FCC investigation into Comcast's data restrictions, major ISPs like Comcast and Time Warner Cable are testing plans to slow speeds or charge extra fees for heavy internet usage, sparking debate over whether these measures unfairly target consumers and prioritize profit over network management.",
   "source_text_length_chars": 3399,
-  "source_text_length_segments": 45,
+  "source_text_length_segments": 50,
   "actors": [
    {
     "name": "Comcast",
@@ -27,15 +28,16 @@
     ]
    },
    {
-    "name": "Alex Dudley",
+    "name": "Roger Entner",
     "variations": [
-     "Alex Dudley"
+     "Roger Entner",
+     "Entner"
     ]
    },
    {
-    "name": "Associated Press",
+    "name": "Alex Dudley",
     "variations": [
-     "Associated Press"
+     "Alex Dudley"
     ]
    },
    {
@@ -49,60 +51,38 @@
     "variations": [
      "Free Press"
     ]
-   },
-   {
-    "name": "Nielsen IAG",
-    "variations": [
-     "Nielsen IAG"
-    ]
-   },
-   {
-    "name": "Public Knowledge",
-    "variations": [
-     "Public Knowledge"
-    ]
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "Concerns regarding unfair treatment of lawful technology users were voiced by public interest groups to the FCC. These groups alleged that Comcast singled out BitTorrent users.",
-    "long_statement": "Public interest groups complained to the Federal Communications Commission in November 2007 that Comcast had specifically targeted customers using the BitTorrent file-sharing system. This complaint highlights concerns that the cable company's practices were discriminatory towards users of legal technology, prompting the regulator to investigate whether these restrictions unfairly limited consumer access to the internet.",
+    "key_statement": "Advocacy organizations filed a formal complaint with the FCC, alleging that Comcast discriminated against BitTorrent users.",
+    "long_statement": "Public interest groups formally complained to the Federal Communications Commission in November 2007, arguing that Comcast had unfairly targeted customers using the BitTorrent file-sharing system. This specific grievance contributed to a broader congressional debate regarding the extent of control internet service providers should have over customer data flow.",
     "segment_range": [
-     7,
-     9
+     8,
+     11
     ],
-    "rouge2_precision": 0.2727
+    "rouge2_precision": 0.2292
    },
    {
     "actor": "Free Press",
-    "key_statement": "Free Press argues that Comcast's practices are discriminatory towards users of legal technology, suggesting the company is preemptively adjusting to avoid regulatory scrutiny.",
-    "long_statement": "Free Press, an organization advocating for stricter regulation of cable companies, claims Comcast treated users of legal technology unfairly. The group contends that the cable firm fears regulatory penalties and is attempting to hide misconduct by blocking certain traffic instead of running its network equitably.",
+    "key_statement": "Comcast's network practices discriminate against users of legal technology.",
+    "long_statement": "Comcast's current network management practices are discriminatory because they specifically penalize users of legal technology while exempting those using peer-to-peer systems. This approach, which Free Press argues is unfair, suggests that cable companies are scrambling to reduce the appearance of wrongdoing following regulatory scrutiny.",
     "segment_range": [
-     10,
-     14
+     12,
+     18
     ],
-    "rouge2_precision": 0.2609
+    "rouge2_precision": 0.2391
    },
    {
-    "actor": "Alex Dudley",
-    "key_statement": "According to Alex Dudley, charging fees based on usage represents the most equitable method for financing investments in network infrastructure.",
-    "long_statement": "Senior executive Alex Dudley argues that charging customers based on actual data consumption represents the fairest method for funding the necessary infrastructure investments required to support high-bandwidth usage. This perspective suggests that a usage-based pricing model is superior to flat-rate fees because it ensures those who consume the most resources contribute proportionally to the costs of maintaining the network.",
+    "actor": "Comcast",
+    "key_statement": "Comcast insists its new network management method avoids traffic inspection to preserve functionality.",
+    "long_statement": "Comcast maintains that its upcoming network management strategy will not involve inspecting the specific type of data traffic users send, arguing that this approach is necessary to ensure the network remains functional for all customers despite the shift away from targeted restrictions.",
     "segment_range": [
-     29,
-     33
+     22,
+     27
     ],
-    "rouge2_precision": 0.0656
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Time Warner Cable's plan charges overage fees and offers low speeds, which critics argue rations access rather than relieving congestion.",
-    "long_statement": "Under the proposed plan, Time Warner Cable will charge an additional dollar for every gigabyte of data used beyond the customer's monthly limit, while offering a standard package with 15 megabits-per-second speeds and a 40 gigabyte monthly cap. Critics warn that this structure effectively rations access rather than relieving congestion, as the low speed combined with strict data limits may prevent users from watching high-definition content or streaming multiple videos within a single month.",
-    "segment_range": [
-     34,
-     44
-    ],
-    "rouge2_precision": 0.2
+    "rouge2_precision": 0.0488
    }
   ]
  }

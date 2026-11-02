@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-xs1ncazpsqnv1vie6houi",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"A professional singer and spokesperson for the Recording Artists' Coalition notes that although Betamax technology created noticeably worse second copies, current digital file-sharing enables the spread of millions of exact reproductions. This person argues that the original text of the US Constitution's copyright clause was designed to advance the progress of useful arts, not to guarantee exclusive rights forever.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644618,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 78,
+  "prompt_tokens": 226,
+  "total_tokens": 304,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

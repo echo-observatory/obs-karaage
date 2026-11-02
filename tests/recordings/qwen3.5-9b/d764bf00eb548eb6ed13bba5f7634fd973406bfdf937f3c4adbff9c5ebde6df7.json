@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-4i9nf57zdxb9t46ymc17kk",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"8\": {\"original\": \"BitTorrent enables fast file downloads by swapping file portions among users, a \", \"rephrased\": \"The BitTorrent system, developed by programmer Bram Cohen and introduced in 2002, accelerates file distribution by allowing users to exchange specific file segments with one another instead of downloading entire files from a single centralized server. This decentralized architecture is particularly effective for rapidly spreading new releases to large numbers of people, offering a distinct advantage over traditional peer-to-peer networks that rely on individual users for long-term file availability.\", \"summary\": \"BitTorrent accelerates file distribution by enabling users to exchange file segments rather than relying on a single centralized server.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644538,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 141,
+  "prompt_tokens": 1972,
+  "total_tokens": 2113,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

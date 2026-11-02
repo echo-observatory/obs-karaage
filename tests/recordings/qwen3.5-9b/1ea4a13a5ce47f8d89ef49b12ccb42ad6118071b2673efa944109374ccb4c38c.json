@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-mhxp54mt83k9ryvnsep31r",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"main_point\": \"A class action lawsuit led by the estate of jazz musician Chet Baker and collective societies alleges that major Canadian record labels have failed to pay royalties for hundreds of thousands of works, potentially resulting in billions in penalties, while the industry defends its practices by citing a 'pending list' of unlicensed works and dismissing the lawsuit as exaggerated.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645471,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 73,
+  "prompt_tokens": 2894,
+  "total_tokens": 2967,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

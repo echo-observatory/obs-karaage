@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-jnl69mjaowl84dhksb1jna",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Geist\", \"other\": [\"Professor Geist\", \"Professor Michael Geist\"], \"segments\": [[0, 2], [27, 28], [49, 50], [106, 107]]}, {\"main\": \"Basskin\", \"other\": [\"David A. Basskin\", \"David Basskin\"], \"segments\": [[13, 15], [18, 22], [32, 35], [42, 45], [56, 58], [115, 117]]}, {\"main\": \"Lauzon\", \"other\": [\"Alain Lauzon\"], \"segments\": [[66, 71], [72, 77], [80, 82], [83, 84], [85, 87]]}, {\"main\": \"Wikinews\", \"other\": [], \"segments\": [[88, 91]]}, {\"main\": \"Hogarth\", \"other\": [\"Don Hogarth\"], \"segments\": [[90, 101]]}, {\"main\": \"Sookman\", \"other\": [\"Barry Sookman\"], \"segments\": [[94, 101], [102, 106], [110, 114], [121, 123]]}, {\"main\": \"CRIA\", \"other\": [\"Canadian Recording Industry Association\"], \"segments\": [[36, 37], [41, 48], [128, 129]]}, {\"main\": \"CMRRA\", \"other\": [\"Canadian Musical Reproduction Rights Agency\"], \"segments\": [[7, 8], [10, 12], [29, 31], [37, 40], [52, 53], [60, 63]]}, {\"main\": \"SODRAC\", \"other\": [\"Society for Reproduction Rights of Authors\", \"Society for Reproduction Rights of Authors, Composers and Publishers\"], \"segments\": [[7, 8], [10, 12], [75, 77], [108, 109]]}, {\"main\": \"Baker\", \"other\": [\"Chet Baker\", \"Baker's estate\", \"Baker legal team\"], \"segments\": [[3, 6], [11, 12], [14, 15], [73, 74]]}, {\"main\": \"CRIA-member record labels\", \"other\": [\"Sony BMG Music\", \"EMI Music Canada\", \"Universal Music Canada\", \"Warner Music Canada\", \"the four named major labels\", \"the four main members of the CRIA\", \"the four named record company defendants\", \"the 'major' labels in Canada\", \"the four major labels\", \"the Canadian labels\"], \"segments\": [[4, 5], [12, 12], [18, 22], [43, 45], [85, 87], [116, 117], [128, 129]]}, {\"main\": \"courts\", \"other\": [\"the court\"], \"segments\": [[76, 77], [107, 108]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645454,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 739,
+  "prompt_tokens": 3139,
+  "total_tokens": 3878,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-dte18xzmvi3znh7zztjx1",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Anonymous\": [\"Members claim responsibility for the cyberattacks, framing them as retaliation for the FBI's Megaupload shutdown and protest against anti-piracy laws.\", \"The group characterizes the event as 'the largest attack ever by Anonymous' with over 5,600 participants.\", \"A member stated, 'Expect us,' signaling more attacks are coming.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645990,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 75,
+  "prompt_tokens": 981,
+  "total_tokens": 1056,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

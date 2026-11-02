@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-y5dykeg97xhdc1ax3pyc7n",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Wikinews\": [\"The Broadcast flag is a form of Digital Rights Management implemented by the US FCC.\", \"The DADVSI law in the French Parliament relates to the 2001 European Directive on Copyright and is under active consideration.\", \"The EFF has not yet had the opportunity to consider the DADVSI law.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644777,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 69,
+  "prompt_tokens": 855,
+  "total_tokens": 924,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

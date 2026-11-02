@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-3vg6q7hp2nbp9g06f1lpt",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"The author frames the USPP's survival as dependent on cultivating state-level\", \"rephrased\": \"The United States Pirate Party must cultivate state-level organizations across the country to secure the funding necessary for the national party to remain solvent, as operating without these local branches renders the national entity essentially insolvent.\", \"summary\": \"State-level organizations are essential for the USPP's financial survival.\"}, \"1\": {\"original\": \"The author frames the two-party system as an artificial 'black and white dich\", \"rephrased\": \"The rigid two-party system in the United States functions as an artificial black-and-white dichotomy that treats every American as a criminal without trial, thereby doing a disservice to a diverse nation by ignoring the many shades of gray in public opinion.\", \"summary\": \"The two-party system is an artificial dichotomy that ignores diverse public opinion.\"}, \"2\": {\"original\": \"I identify as a Centrist based on a 60%/40% split on the political spectrum.\", \"rephrased\": \"Based on a political spectrum test resulting in a 60% to 40% split, the administrator of the revived United States Pirate Party identifies as a Centrist, a self-assessment that aligns with the party's goal of challenging the traditional two-party divide.\", \"summary\": \"The USPP administrator identifies as a Centrist based on a political spectrum test.\"}, \"3\": {\"original\": \"We just launched a new website to restart the Pirate Party movement in the U.S.\", \"rephrased\": \"To restart the Pirate Party movement in the United States, the party's leadership has just launched a new website, inviting the public to visit and learn more about the organization's efforts to revive the party.\", \"summary\": \"A new website was launched to restart the USPP movement.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645652,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 387,
+  "prompt_tokens": 2400,
+  "total_tokens": 2787,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

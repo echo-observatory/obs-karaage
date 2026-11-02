@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-b6use65gc1l201vuxfg9it",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"Aaron Swartz, a fellow at Harvard University's Center for Ethics and an open\", \"rephrased\": \"Aaron Swartz, an open source programmer and fellow at Harvard University's Center for Ethics, faces federal fraud charges for downloading millions of academic papers from JSTOR, an act that has sparked a public debate over copyright enforcement and access to knowledge.\", \"summary\": \"Aaron Swartz faces federal fraud charges for downloading millions of academic papers from JSTOR.\"}, \"1\": {\"original\": \"intend not to pursue civil litigation against Swartz\", \"rephrased\": \"JSTOR, the academic journal repository from which millions of papers were downloaded, intends not to pursue civil litigation against Aaron Swartz, despite his arrest and federal indictment for wire fraud and computer misuse.\", \"summary\": \"JSTOR intends not to pursue civil litigation against Aaron Swartz.\"}, \"2\": {\"original\": \"Swartz was indicted in Massachusetts and released on a $100,000 bond after pled\", \"rephrased\": \"Aaron Swartz was indicted by the U.S. District Court in Massachusetts and released on a $100,000 unsecured bond after pleading not guilty to all charges, following his arrest for downloading millions of academic papers from JSTOR.\", \"summary\": \"Aaron Swartz was indicted in Massachusetts and released on a $100,000 bond after pleading not guilty.\"}, \"3\": {\"original\": \"Greg Maxwell released a torrent of 33Gb of pre-1923 public domain papers from J\", \"rephrased\": \"Greg Maxwell, a contributor to Wikipedia and Wikimedia Commons, released a torrent of 33 gigabytes of pre-1923 public domain papers from JSTOR following Aaron Swartz's indictment, highlighting the tension between copyright enforcement and public access to historical knowledge.\", \"summary\": \"Greg Maxwell released a torrent of pre-1923 public domain papers from JSTOR following Swartz's indictment.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645824,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 428,
+  "prompt_tokens": 1931,
+  "total_tokens": 2359,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

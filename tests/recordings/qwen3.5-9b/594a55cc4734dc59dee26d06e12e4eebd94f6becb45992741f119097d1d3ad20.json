@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-g0e0qmbshys0lj2vrq0xrv9",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"24\": {\"original\": \"If the law passes, Wikinews fair use of audio and visual samples would disappear\", \"rephrased\": \"If the proposed Broadcast Flag regulation is enacted, the ability of online news platforms to legally incorporate short audio and visual clips for reporting purposes will be effectively eliminated, rendering current fair use practices unworkable in a digital environment.\", \"summary\": \"Enacted digital restrictions would eliminate fair use of media samples for online news.\"}, \"25\": {\"original\": \"Tech advancement freezes and open-source development retreats in HD TV and\", \"rephrased\": \"Implementing government-mandated digital restrictions in high-definition television and digital radio will freeze technological progress and drive open-source software development away from these sectors, as the required hardware constraints stifle innovation.\", \"summary\": \"Government-mandated digital restrictions freeze tech advancement and harm open-source development.\"}, \"26\": {\"original\": \"Policy laundering spreads harmful laws like the DMCA via trade deals\", \"rephrased\": \"International trade agreements are being used to export harmful digital restrictions, such as the DMCA and broadcast flag provisions, to countries that would not otherwise adopt them, a process known as policy laundering that bypasses local democratic oversight.\", \"summary\": \"Trade deals are used to export harmful digital restrictions globally through policy laundering.\"}, \"27\": {\"original\": \"Copyright extension tracks US policy, now pushing Europe to match US terms\", \"rephrased\": \"Global copyright policies are increasingly being aligned with United States standards, with international bodies and other nations pressured to adopt stricter terms that mirror American laws rather than developing independent approaches to intellectual property.\", \"summary\": \"Global copyright policy is being forced to align with restrictive US standards.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793644855,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 361,
+  "prompt_tokens": 3025,
+  "total_tokens": 3386,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

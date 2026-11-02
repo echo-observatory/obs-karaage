@@ -33,7 +33,7 @@ def resources():
 def comparable(result) -> dict:
     """The output without what changes between runs: version and timestamp."""
     data = {k: v for k, v in result.data.items() if k not in ("karaage_version", "timestamp")}
-    return {"step_errors": result.step_errors, "data": data}
+    return {"step_errors": result.step_errors, "failures": result.failures, "data": data}
 
 
 @pytest.mark.parametrize("article_id", ARTICLE_IDS)

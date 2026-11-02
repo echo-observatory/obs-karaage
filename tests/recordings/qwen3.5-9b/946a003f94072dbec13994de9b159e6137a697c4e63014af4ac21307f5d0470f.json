@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-wefbwcmy4tlbdwg8pzy7c5",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"It's widely believed that Swedish authorities were more or less ordered by a外国权力\", \"rephrased\": \"Swedish authorities acted forcefully against the Pirate Bay, an entity operating in a legal gray area under Swedish law, following indirect pressure from a foreign power, specifically the U.S. MPAA, which admitted to this involvement in a press release. This external interference has caused significant public uproar in Sweden regarding the government's behavior.\", \"summary\": \"Swedish authorities acted on foreign pressure to shut down the Pirate Bay, a legal gray area entity, sparking public outrage.\"}, \"5\": {\"original\": \"Member count is 6543, funded by 108,000 SEK plus 50K post-raid donations.\", \"rephrased\": \"The Pirate Party currently has over 6,500 members and secured 108,000 Swedish kronor in initial funding, with an additional 50,000 kronor in donations received after the raid on the Pirate Bay, ensuring sufficient resources to purchase at least 3 million ballots for the upcoming election.\", \"summary\": \"The Pirate Party has over 6,500 members and secured sufficient funds to purchase 3 million ballots for the election.\"}, \"6\": {\"original\": \"We don't need advertising; national TV coverage has tripled our members.\", \"rephrased\": \"Following the raid on the Pirate Bay and the subsequent surge in media attention, the Pirate Party has tripled its membership numbers, rendering paid television advertisements unnecessary as free national news coverage now provides ample exposure.\", \"summary\": \"Free national TV coverage following the raid on the Pirate Bay has tripled the party's membership, eliminating the need for paid advertising.\"}, \"7\": {\"original\": \"Media outlets misrepresent the Minister of Justice's comments by framing them as\", \"rephrased\": \"Established political parties in Sweden are beginning to acknowledge that current copyright laws are unsustainable, yet they fail to grasp the specific reasons, merely echoing the Pirate Party's arguments. Meanwhile, media outlets have misinterpreted the Minister of Justice's nuanced comments on file-sharing as a policy reversal, a framing that the Pirate Party intends to correct by educating both officials and the public on the actual meaning of the words.\", \"summary\": \"Established parties are reluctantly accepting the unsustainability of copyright laws, while media outlets misrepresent the Minister of Justice's comments, a framing the Pirate Party aims to correct through education.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645175,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 521,
+  "prompt_tokens": 3128,
+  "total_tokens": 3649,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

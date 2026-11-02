@@ -6,7 +6,7 @@ import pytest
 from openai.types.chat import ChatCompletion
 
 from karaage.config import load_settings
-from karaage.llm import LLMClient, ReplayMissError
+from karaage.llm import LLMClient, RecordedError, ReplayMissError
 from karaage.profile import load_profile
 
 CUSTOM_PROFILE = """\
@@ -138,3 +138,23 @@ def test_record_and_replay(monkeypatch, tmp_path):
     assert client.complete_json("S", "U", schema, name="X") == '{"a": 1}'
     with pytest.raises(ReplayMissError):
         client.complete_json("S", "another prompt", schema, name="X")
+
+
+def test_recorded_http_error_is_replayed(monkeypatch, tmp_path):
+    import httpx
+    from openai import BadRequestError
+    monkeypatch.setenv("KARAAGE_RECORDINGS", str(tmp_path / "recordings"))
+    monkeypatch.setenv("KARAAGE_LLM_MODE", "record")
+    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"))
+    response = httpx.Response(400, request=httpx.Request("POST", "http://x/v1/chat/completions"))
+    def create(**kwargs):
+        raise BadRequestError("Error code: 400 - context too long", response=response, body=None)
+    client.client = types.SimpleNamespace(chat=types.SimpleNamespace(completions=types.SimpleNamespace(create=create)))
+    with pytest.raises(BadRequestError):
+        client.complete_json("S", "U", {"type": "object"}, name="X")
+
+    monkeypatch.setenv("KARAAGE_LLM_MODE", "replay")
+    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"))
+    with pytest.raises(RecordedError) as replayed:
+        client.complete_json("S", "U", {"type": "object"}, name="X")
+    assert f"{type(replayed.value).__name__}: {replayed.value}" == "BadRequestError: Error code: 400 - context too long"

@@ -1,11 +1,178 @@
 {
- "step_errors": {
-  "Attribution": "IndexError: list index out of range",
-  "Passages": "skipped",
-  "Key statements extraction": "skipped",
-  "Rephrasing": "skipped",
-  "Paraphrasing": "skipped",
-  "Validation": "skipped"
- },
- "data": {}
+ "step_errors": {},
+ "failures": [],
+ "data": {
+  "source_text_main_point": "GitHub blocked the open-source video downloader youtube-dl following an RIAA DMCA notice alleging copyright circumvention, a move criticized by digital rights advocates as disproportionate because the tool has legitimate uses for public domain and licensed content, prompting users to bypass the ban by hosting the code elsewhere.",
+  "source_text_length_chars": 9098,
+  "source_text_length_segments": 178,
+  "actors": [
+   {
+    "name": "GitHub",
+    "variations": [
+     "Github"
+    ]
+   },
+   {
+    "name": "youtube-dl",
+    "variations": []
+   },
+   {
+    "name": "RIAA",
+    "variations": [
+     "Recording Industry Association of America"
+    ]
+   },
+   {
+    "name": "Ricardo Garcia",
+    "variations": []
+   },
+   {
+    "name": "YouTube",
+    "variations": []
+   },
+   {
+    "name": "Wikimedia Commons",
+    "variations": [
+     "Wikimedia Commons"
+    ]
+   },
+   {
+    "name": "LiveLeak",
+    "variations": [
+     "LiveLeak"
+    ]
+   },
+   {
+    "name": "Wikinews",
+    "variations": []
+   },
+   {
+    "name": "Sergey M.",
+    "variations": [
+     "Sergey"
+    ]
+   },
+   {
+    "name": "Philipp Hagemeister",
+    "variations": [
+     "@phihag",
+     "Philipp Hagemeister"
+    ]
+   },
+   {
+    "name": "Reddit",
+    "variations": [
+     "reddit"
+    ]
+   },
+   {
+    "name": "Richard Stallman",
+    "variations": []
+   },
+   {
+    "name": "DMCA",
+    "variations": [
+     "Digital Millennium Copyright Act"
+    ]
+   },
+   {
+    "name": "Streisand effect",
+    "variations": [
+     "Streisand effect"
+    ]
+   }
+  ],
+  "statements": [
+   {
+    "actor": "base_author",
+    "key_statement": "The RIAA's DMCA notice prompted GitHub to block public access to the open-source video downloader youtube-dl.",
+    "long_statement": "The Recording Industry Association of America (RIAA) issued a Digital Millennium Copyright Act (DMCA) takedown notice to GitHub, alleging that the open-source video downloader youtube-dl was designed to circumvent technological protection measures on streaming platforms. In response to this legal demand, the code hosting service GitHub removed public access to the software's repository, effectively blocking users from downloading the tool's source code.",
+    "segment_range": [
+     0,
+     3
+    ],
+    "rouge2_precision": 0.2308
+   },
+   {
+    "actor": "RIAA",
+    "key_statement": "The RIAA alleged that the open-source script youtube-dl was designed to bypass digital rights management systems on streaming services.",
+    "long_statement": "The Recording Industry Association of America (RIAA) sent a formal complaint to GitHub, asserting that the open-source script youtube-dl was specifically engineered to bypass the digital rights management systems and technological protection measures employed by authorized streaming services like YouTube, thereby enabling the unauthorized reproduction and distribution of copyrighted music videos.",
+    "segment_range": [
+     4,
+     14
+    ],
+    "rouge2_precision": 0.1346
+   },
+   {
+    "actor": "youtube-dl",
+    "key_statement": "The open-source video downloader youtube-dl includes unit tests verifying its ability to download legally licensed and unrestricted content.",
+    "long_statement": "The open-source video downloader youtube-dl contains internal unit tests that verify the software's ability to download content protected by Creative Commons licenses, as well as videos with no age restrictions or square pixels, demonstrating that the tool is capable of accessing legally shareable media alongside other content types.",
+    "segment_range": [
+     15,
+     18
+    ],
+    "rouge2_precision": 0.12
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The RIAA's takedown notice relied on code comments to claim copyright circumvention but cited no actual incidents of infringement or damages.",
+    "long_statement": "While the RIAA's takedown notice relied on comments found within the youtube-dl source code to claim the tool was marketed for copyright circumvention, the notice failed to list any specific incidents of actual copyright infringement or document any concrete damages caused by the software's use, despite the tool's documented capacity to handle public domain and licensed material.",
+    "segment_range": [
+     19,
+     39
+    ],
+    "rouge2_precision": 0.1667
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The tool youtube-dl facilitates lawful access to public domain and licensed content, mirroring capabilities inherent in standard web browsing.",
+    "long_statement": "The open-source tool youtube-dl, which downloads videos from various platforms, is designed to access content that is either in the public domain, carries a Creative Commons license, or qualifies for fair use, such as citizen journalism and legal evidence. Because standard web browsers can already record and share such content without technological restrictions, the tool's primary function aligns with lawful user needs rather than copyright infringement.",
+    "segment_range": [
+     40,
+     78
+    ],
+    "rouge2_precision": 0.1618
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Users are bypassing the central repository ban by distributing the software's code through decentralized networks and keeping the executable files available online.",
+    "long_statement": "Following the removal of the youtube-dl repository from the centralized GitHub server, the software's source code has been redistributed through decentralized networks like self-hosted Git servers, Tor sites, and the Torrent protocol, effectively bypassing the takedown order. This widespread sharing of the code, alongside the continued availability of the software's binary files on its official website, demonstrates that the tool remains accessible to users despite the central platform's restrictions.",
+    "segment_range": [
+     79,
+     96
+    ],
+    "rouge2_precision": 0.274
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "A former maintainer lacks details on the takedown due to stepping down years ago, while the EFF remains silent.",
+    "long_statement": "The Electronic Frontier Foundation has not yet responded to inquiries about the takedown notice, while a former maintainer of the open-source tool confirmed seeing the notice on Reddit but stated he lacks specific details because he ended his leadership role in 2016. This situation highlights the difficulty in obtaining immediate clarity from key figures when legal actions are taken against software projects that have since changed their primary leadership.",
+    "segment_range": [
+     114,
+     125
+    ],
+    "rouge2_precision": 0.1667
+   },
+   {
+    "actor": "Sergey M.",
+    "key_statement": "Copyrighted test cases in the youtube-dl code were likely added due to user demand and can be easily removed to resolve legal issues without harming the tool's lawful functions.",
+    "long_statement": "The inclusion of copyrighted test cases within the youtube-dl source code was likely an unintended consequence of user requests for specific video support rather than an intentional design to facilitate piracy. These specific test cases can be easily removed without affecting the tool's core functionality, suggesting that the project maintainers could have resolved the legal concerns by simply deleting the problematic examples while preserving the software's legitimate utility for downloading public domain and licensed content.",
+    "segment_range": [
+     149,
+     163
+    ],
+    "rouge2_precision": 0.1333
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Digital rights advocates view the takedown as counterproductive and support restoring the tool by removing only problematic code.",
+    "long_statement": "Digital rights advocates characterize the decision to block the open-source video downloader as a disappointing and counterproductive move, arguing that the tool serves critical functions for public domain and licensed content. Consequently, they believe the next logical step is to restore the project's availability by removing only the problematic test cases that prompted the legal action, rather than maintaining a blanket ban that harms legitimate users.",
+    "segment_range": [
+     164,
+     173
+    ],
+    "rouge2_precision": 0.1045
+   }
+  ]
+ }
 }

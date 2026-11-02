@@ -1,9 +1,10 @@
 {
  "step_errors": {},
+ "failures": [],
  "data": {
-  "source_text_main_point": "Suprnova founder Andrej Preston reveals that after his site was raided in 2004 and his home was searched, the legal charges against him were unexpectedly dropped, allowing him to finally explain the truth behind the site's closure.",
+  "source_text_main_point": "Suprnova founder Andrej Preston reveals that after his site was raided in 2004 and he faced police pressure, the matter was eventually dropped, though his failed attempt to launch a decentralized alternative, eXeem, due to adware issues, highlights the legal and technical challenges of peer-to-peer file sharing.",
   "source_text_length_chars": 3150,
-  "source_text_length_segments": 50,
+  "source_text_length_segments": 70,
   "actors": [
    {
     "name": "Andrej Preston",
@@ -34,24 +35,24 @@
   ],
   "statements": [
    {
-    "actor": "Andrej Preston",
-    "key_statement": "The Suprnova founder demands an end to the pretense that the site's closure was uneventful.",
-    "long_statement": "The founder of the Slovenian BitTorrent link site Suprnova asserts that it is now necessary to disclose the actual reasons for the website's shutdown, arguing that continuing to act as if no legal or operational issues occurred is no longer tenable. This call for transparency comes after a year of speculation regarding the site's sudden disappearance from the internet.",
+    "actor": "base_author",
+    "key_statement": "The founder of Suprnova remained silent during a police hearing a month after the raid, a strategic decision made following legal advice before the case was referred to a prosecutor.",
+    "long_statement": "Following the police raid on the Suprnova server, the founder was summoned to a formal hearing a month later, where he exercised his right to remain silent based on legal counsel's advice before the matter was transferred to a prosecutor. This procedural step occurred within the context of the Slovenian legal system, which initially pursued the case against the site operator despite the decentralized nature of the BitTorrent technology used by the platform. The decision to stay silent during the interview was a strategic move to avoid making self-incriminating statements while the authorities prepared to present the seized evidence to the prosecution.",
     "segment_range": [
-     0,
-     16
+     26,
+     32
     ],
-    "rouge2_precision": 0.1167
+    "rouge2_precision": 0.0874
    },
    {
-    "actor": "BitTorrent protocol",
-    "key_statement": "The BitTorrent protocol uses decentralized metadata to direct users to peers, avoiding centralized file hosting.",
-    "long_statement": "The BitTorrent protocol operates by distributing metadata files that instruct client applications on which trackers to contact for locating peers and verifying file integrity, a design choice that distinguishes it from traditional centralized file hosting systems. This decentralized architecture was originally perceived as legally safer because the actual copyrighted files were stored on individual users' computers rather than on a central server.",
+    "actor": "Andrej Preston",
+    "key_statement": "The founder of Suprnova experienced deep depression and sadness while waiting for news about the legal case, which was eventually resolved when the charges were dropped.",
+    "long_statement": "Upon receiving the official notice regarding the dropped charges, the founder of the Suprnova site experienced a profound emotional shift, moving from a state of deep depression and sadness to relief after learning that the legal case against him had been terminated. This emotional reaction highlights the immense psychological toll that the uncertainty and threat of prosecution took on the individual, even though the final outcome was favorable. The period of waiting for the post office letter to be delivered served as a prolonged time of anxiety, where the founder feared the worst before discovering that the authorities had decided to abandon the pursuit of criminal liability.",
     "segment_range": [
-     28,
-     36
+     33,
+     42
     ],
-    "rouge2_precision": 0.2143
+    "rouge2_precision": 0.0472
    }
   ]
  }

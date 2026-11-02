@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-w40t906peaebqaa8dg9k6g",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"The Pirate Bay\", \"other\": [\"The site operators\", \"The Pirate Bay site\"], \"segments\": [[13, 14], [33, 34], [36, 37]]}, {\"main\": \"Rickard Falkvinge\", \"other\": [\"head of the Swedish Pirate Party\"], \"segments\": [[8, 9], [18, 20]]}, {\"main\": \"Tobias Andersson\", \"other\": [\"of Piratbyrån\"], \"segments\": [[21, 22]]}, {\"main\": \"Sveriges Television\", \"other\": [\"Swedish public broadcaster\"], \"segments\": [[16, 17]]}, {\"main\": \"The Antipiratbyrån\", \"other\": [\"Swedish Anti-Piracy Bureau\"], \"segments\": [[18, 18], [23, 24]]}, {\"main\": \"Dan Glickman\", \"other\": [\"CEO of the Motion Picture Association of America (MPAA)\"], \"segments\": [[26, 27]]}, {\"main\": \"Kori Bernards\", \"other\": [\"an MPAA representative\"], \"segments\": [[28, 29]]}, {\"main\": \"The MPAA\", \"other\": [\"Motion Picture Association of America\"], \"segments\": [[30, 31]]}, {\"main\": \"Gottfrid Svartholm\", \"other\": [\"owner of webhotel PRQ\", \"Mr. Svartholm\"], \"segments\": [[53, 59], [61, 62]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793645073,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 353,
+  "prompt_tokens": 1491,
+  "total_tokens": 1844,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

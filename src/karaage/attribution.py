@@ -19,6 +19,13 @@ class AttributionResult(BaseModel):
 
 # Step-level configuration
 RESERVED_TOKENS_ATTRIBUTION = 2_500   # prompt framing + expected output
+# Every list in the answer has a maximum, so that a model caught in a repetition loop
+# has to close it. Loops seen on the test dataset: an alias list ("we", "I", "we", ...)
+# and the list of actors itself. The largest legitimate lists seen are 28 actors,
+# 26 ranges for one actor and 10 aliases.
+MAX_SOURCES = 40
+MAX_RANGES = 40
+MAX_ALIASES = 10
 
 SYSTEM_PROMPT_ATTRIBUTION = """\
 You analyze a text to identify who or what is the declared source of information in each segment. A source is a person, an organization, or a document.
@@ -49,16 +56,20 @@ ATTRIBUTION_SCHEMA = {
     "properties": {
         "sources": {
             "type": "array",
+            "maxItems": MAX_SOURCES,
             "items": {
                 "type": "object",
                 "properties": {
                     "main": {"type": "string"},
-                    "other": {"type": "array", "items": {"type": "string"}},
+                    "other": {"type": "array", "items": {"type": "string"}, "maxItems": MAX_ALIASES},
                     "segments": {
                         "type": "array",
+                        "maxItems": MAX_RANGES,
                         "items": {
                             "type": "array",
                             "items": {"type": "integer"},
+                            "minItems": 2,
+                            "maxItems": 2,
                         },
                     },
                 },
@@ -117,7 +128,7 @@ def merge_results(left: AttributionResult, right: AttributionResult) -> Attribut
             existing = by_name[src.main]
             by_name[src.main] = Source(
                 main=src.main,
-                other=list(set(existing.other + src.other)),
+                other=list(dict.fromkeys(existing.other + src.other)),   # keeps the order, unlike a set
                 segments=existing.segments + src.segments,
             )
         else:
@@ -150,7 +161,28 @@ def run_attribution(segments: list, start: int, end: int, max_context_tokens: in
                      max_context_tokens - estimate_tokens(SYSTEM_PROMPT_ATTRIBUTION + prompt))
     content = llm.complete_json(SYSTEM_PROMPT_ATTRIBUTION, prompt, ATTRIBUTION_SCHEMA,
                                 name="AttributionResult", strict=False, max_tokens=max_tokens)
-    return AttributionResult.model_validate_json(content)
+    return normalize_answer(AttributionResult.model_validate_json(content))
+
+
+def normalize_answer(result: AttributionResult) -> AttributionResult:
+    """Repair what a looping model, or a backend that ignores the schema, may return.
+
+    Every range becomes a [start, end] pair: [n] becomes [n, n], [] is dropped, and a
+    longer list is read as a list of single segments. An actor listed several times is
+    merged into one, and repeated aliases are kept once.
+    """
+    sources = []
+    for src in result.sources:
+        ranges = []
+        for r in src.segments:
+            if len(r) == 2:
+                ranges.append(list(r))
+            elif len(r) == 1:
+                ranges.append([r[0], r[0]])
+            elif len(r) > 2:
+                ranges.extend([i, i] for i in r)
+        sources.append(Source(main=src.main, other=list(dict.fromkeys(src.other)), segments=ranges))
+    return merge_results(AttributionResult(sources=sources), AttributionResult(sources=[]))
 
 
 def display_result(result: AttributionResult, segments: list) -> None:
