@@ -5,16 +5,24 @@ Every step asks for JSON matching a schema through `complete_json` or
 applies the profile: model id for the backend, temperature, seed and how
 reasoning is turned off.
 
+For tests, KARAAGE_LLM_MODE=record saves every response in KARAAGE_RECORDINGS
+(default tests/recordings), and KARAAGE_LLM_MODE=replay answers from those
+files instead of calling the backend (docs/design-1.1.0.md, section 7.1).
+
 We call client.chat.completions.create() rather than the SDK's parse helpers,
 because those return nothing when a model mixes reasoning tokens with its JSON
 (an LM Studio quirk); the JSON is extracted and parsed here instead.
 """
 
+import hashlib
 import json
+import os
 import re
 import urllib.request
+from pathlib import Path
 
 from openai import OpenAI
+from openai.types.chat import ChatCompletion
 
 from karaage.config import Settings
 from karaage.profile import Profile
@@ -23,6 +31,12 @@ MAX_RETRIES = 3          # the SDK retries connection errors, timeouts, 429 and 
 TIMEOUT_SECONDS = 600    # a local model can take minutes on a long prompt
 
 _THINK_BLOCK = re.compile(r"<think>.*?</think>", re.DOTALL)
+
+LLM_MODES = ("live", "record", "replay")
+
+
+class ReplayMissError(RuntimeError):
+    """Replay mode found no recorded response for a request."""
 
 
 class LLMClient:
@@ -40,9 +54,16 @@ class LLMClient:
         self.model_reported = None   # model id given by the server in its latest response
         self.model_build = None      # LM Studio only: the build that is loaded (lmstudio_build)
         self.providers = set()       # OpenRouter only: providers that served requests, reset per document
+        self.mode = os.environ.get("KARAAGE_LLM_MODE", "live")
+        if self.mode not in LLM_MODES:
+            raise ValueError(f"KARAAGE_LLM_MODE must be one of: {', '.join(LLM_MODES)}.")
+        self.recordings = (Path(os.environ.get("KARAAGE_RECORDINGS", "tests/recordings"))
+                           / profile.label.replace(":", "-"))
 
     def check(self) -> None:
         """Check that the backend serves the profile's model, and on LM Studio record and check its build."""
+        if self.mode == "replay":
+            return
         available = {m.id for m in self.client.models.list().data}
         if self.model not in available:
             raise ValueError(
@@ -94,10 +115,28 @@ class LLMClient:
             kwargs["seed"] = self.profile.seed
         if extra_body:
             kwargs["extra_body"] = extra_body
-        response = self.client.chat.completions.create(**kwargs)
+        response = self._send(kwargs)
         self.model_reported = response.model
         if getattr(response, "provider", None):   # OpenRouter names the provider that served the request
             self.providers.add(response.provider)
+        return response
+
+    def _send(self, kwargs: dict) -> ChatCompletion:
+        """Call the backend, or record or replay its response, depending on the mode."""
+        if self.mode == "live":
+            return self.client.chat.completions.create(**kwargs)
+        key = json.dumps({"backend": self.backend, **kwargs}, sort_keys=True, ensure_ascii=False)
+        path = self.recordings / f"{hashlib.sha256(key.encode()).hexdigest()}.json"
+        if self.mode == "replay":
+            if not path.exists():
+                raise ReplayMissError(
+                    f"No recorded response for this request in {self.recordings}. Re-record when prompts, "
+                    "schemas or the profile change (docs/design-1.1.0.md, section 7.1)."
+                )
+            return ChatCompletion.model_validate_json(path.read_text(encoding="utf-8"))
+        response = self.client.chat.completions.create(**kwargs)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(response.model_dump_json(indent=1) + "\n", encoding="utf-8")
         return response
 
     def complete_json(self, system: str, user: str, schema: dict, *, name: str,

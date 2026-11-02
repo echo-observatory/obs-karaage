@@ -82,7 +82,8 @@ def setup(*, profile=None, backend=None, base_url=None, api_key=None) -> Resourc
     llm.activate(client)
     build = client.model_build
     build_str = f", {build['format']} {build['quantization']}" if build else ""
-    print(f"Profile {client.profile.label}: {client.model}{build_str} on {client.backend} at {settings.base_url}")
+    replay = " (replaying recorded responses)" if client.mode == "replay" else ""
+    print(f"Profile {client.profile.label}: {client.model}{build_str} on {client.backend} at {settings.base_url}{replay}")
     sim_model = load_embedding_model(client.profile.embedding_model)
     nlp = load_nlp_pipeline()
     return Resources(client=client, nlp=nlp, sim_model=sim_model)
