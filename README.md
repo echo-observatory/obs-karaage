@@ -66,6 +66,23 @@ karaage.save(result, data_path="out/doc.json", html_path="out/doc.html")
 `Pipeline usage.ipynb` shows how to run the pipeline on a batch of documents.
 It predates the restructuring, and its installation and data-loading cells are out of date. It will be rewritten.
 
+## Tests
+
+```bash
+uv run pytest
+```
+
+The tests need the models (`uv run karaage download-models`) but no LLM: they replay LLM responses recorded on the test dataset, stored in `tests/recordings/`, and compare each article's output with the recorded one. GitHub Actions runs them on every pull request.
+
+After a change to prompts, schemas or the default profile, record again, with the profile's model loaded in LM Studio:
+
+```bash
+rm -rf tests/recordings/qwen3.5-9b
+KARAAGE_LLM_MODE=record uv run pytest tests/test_pipeline.py
+```
+
+Then check the changed outputs in `tests/recordings/qwen3.5-9b/expected/` before committing them.
+
 ## Test dataset
 
 `data/test-datasets/wikinews-piracy-30/` holds 30 English Wikinews articles about piracy, file sharing and DRM, under CC BY 2.5 or in the public domain.
