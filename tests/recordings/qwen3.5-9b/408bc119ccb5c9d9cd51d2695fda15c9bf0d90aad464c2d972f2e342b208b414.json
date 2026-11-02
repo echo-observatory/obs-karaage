@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-w5a5aqhs2wt0khdvrydug",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"MPAA representative Kori Bernards identifies The Pirate Bay as a top target, 150\", \"rephrased\": \"The Motion Picture Association of America (MPAA) asserts that The Pirate Bay is a primary target for enforcement action, alleging the site distributes over 150,000 files, including major summer blockbusters such as 'Mission: Impossible III' and 'X-Men 3', thereby justifying the raid as a necessary measure to protect intellectual property rights.\", \"summary\": \"The MPAA frames the raid as a necessary enforcement action against a major copyright infringement hub.\"}, \"5\": {\"original\": \"Claims to be the world's largest BitTorrent tracker.\", \"rephrased\": \"The Pirate Bay maintains its status as the world's largest BitTorrent tracker, asserting that its operations facilitate the sharing of both copyrighted and freely licensed material, including Linux distributions and independent music, to challenge the legal basis of the police seizure.\", \"summary\": \"The Pirate Bay defends its operations as a legitimate tracker for mixed content, rejecting the legality of the seizure.\"}, \"6\": {\"original\": \"Initially claimed the raid was a stunt to promote awareness, a theory later dis\", \"rephrased\": \"While The Pirate Bay initially suggested the police raid was a publicity stunt designed to promote awareness, this theory was quickly dismissed following the confirmation of the operation's authenticity and the subsequent arrest of a web host, indicating a more serious legal intervention.\", \"summary\": \"The Pirate Bay's initial claim of a publicity stunt was disproven by the confirmed arrest and scope of the raid.\"}, \"7\": {\"original\": \"Officials confirm the raid's authenticity, while the site's notice changed to pr\", \"rephrased\": \"Swedish officials have confirmed the authenticity of the police raid on The Pirate Bay, a move that aligns with the site's own updated notice promising a quick return, even as a detained web host alleges he was arrested and denied legal representation during the operation.\", \"summary\": \"Official confirmation of the raid contrasts with a detained host's account of being denied legal representation.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650789,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 439,
+  "prompt_tokens": 2266,
+  "total_tokens": 2705,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

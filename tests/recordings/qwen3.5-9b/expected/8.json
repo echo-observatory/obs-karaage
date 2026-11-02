@@ -11,170 +11,145 @@
     "name": "MPAA",
     "variations": [
      "Motion Picture Association of America"
-    ]
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Joe",
     "variations": [
      "Joe from Binnews"
-    ]
+    ],
+    "kind": "person"
    },
    {
     "name": "Binnews",
     "variations": [
      "Binnews.com",
-     "Binnews replied"
-    ]
+     "BinNews.com"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "dvdrs.net",
     "variations": [
      "Dvdrs",
-     "Dvdrs said",
      "DVDRS"
-    ]
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Descds",
     "variations": [
      "administrator of dvdrs.net"
-    ]
+    ],
+    "kind": "person"
    },
    {
     "name": "Wikinews",
-    "variations": []
+    "variations": [],
+    "kind": "organisation"
    }
   ],
   "statements": [
    {
-    "actor": "base_author",
-    "key_statement": "The MPAA publicly sued file-sharing sites without first notifying the administrators.",
-    "long_statement": "The Motion Picture Association of America (MPAA) publicly initiated legal action against BitTorrent and Usenet sites without first notifying the site administrators, a procedural failure that has caused significant distress to the operators. This approach contrasts sharply with standard legal practices where affected parties are given the opportunity to resolve issues privately before public litigation ensues.",
+    "actor": "dvdrs.net",
+    "key_statement": "The dvdrs.net administrators claim they were not notified by the MPAA before public lawsuits were filed, causing them to feel outraged by the process.",
+    "long_statement": "The administrators of the Usenet search engine dvdrs.net state that they have not received any direct communication from the Motion Picture Association of America regarding the legal action taken against their site. They express deep outrage at this method of proceeding, arguing that the lack of prior contact prevents them from addressing the concerns privately and resolving the issue before public litigation becomes necessary.",
     "segment_range": [
-     6,
-     32
+     5,
+     31
     ],
-    "rouge2_precision": 0.0909
+    "rouge2_precision": 0.2917
    },
    {
     "actor": "dvdrs.net",
-    "key_statement": "The dvdrs.net administrators would have cooperated with the MPAA if contacted privately.",
-    "long_statement": "The administrators of the dvdrs.net website stated that they would have been willing to cooperate fully with the Motion Picture Association of America (MPAA) had they been contacted personally regarding copyright concerns. They emphasize that being publicly sued without prior notice is an outrage, arguing that their site operates within international laws and that the public announcement has unfairly destroyed the reputation they have built over two years.",
+    "key_statement": "The dvdrs.net administrators state they would have cooperated with the MPAA if contacted privately, but view the public lawsuit as an unjustified outrage.",
+    "long_statement": "The administrators of dvdrs.net assert that they would have willingly cooperated with the Motion Picture Association of America to resolve copyright concerns had the organization contacted them directly. However, they maintain that being publicly sued without prior notice and falsely labeled as a piracy ring is an unacceptable outrage, especially given their claim that they operate within international laws.",
     "segment_range": [
      42,
      52
     ],
-    "rouge2_precision": 0.1667
+    "rouge2_precision": 0.1186
    },
    {
     "actor": "base_author",
-    "key_statement": "The sites possess legal compliance procedures but deny receiving any takedown notices.",
-    "long_statement": "Although the two file-sharing sites, Binnews and dvdrs.net, maintain established internal procedures to address copyright infringement under the US Digital Millennium Copyright Act, both organizations deny that they have ever been contacted by any entity to initiate a takedown notice. This contradiction highlights a significant gap between their stated compliance mechanisms and the reality of their legal interactions with rights holders.",
+    "key_statement": "The sites have legal compliance procedures but deny receiving any prior notice from the copyright holders.",
+    "long_statement": "The US Digital Millennium Copyright Act provides a legal framework for addressing alleged copyright infringement, and both Binnews and dvdrs.net have established internal procedures to comply with its requirements. However, the fact that these sites deny ever receiving a takedown notice from any organization highlights a significant disconnect between the legal mechanisms available and the actual communication practices of the copyright holders.",
     "segment_range": [
      53,
-     56
+     59
     ],
-    "rouge2_precision": 0.2419
-   },
-   {
-    "actor": "Binnews",
-    "key_statement": "Binnews administrators deny receiving takedown notices and cite proper DMCA guidelines as proof.",
-    "long_statement": "The administrators of the file-sharing site Binnews assert that they have never received a takedown notice from any organization, attributing this lack of contact to the fact that their website features proper guidelines for handling Digital Millennium Copyright Act (DMCA) requests. They maintain that their internal alert system, linked to staff emails and cell phones, is fully capable of managing such notices if they were ever issued.",
-    "segment_range": [
-     57,
-     65
-    ],
-    "rouge2_precision": 0.1667
+    "rouge2_precision": 0.2581
    },
    {
     "actor": "dvdrs.net",
-    "key_statement": "Dvdrs.net administrators pledge immediate compliance and deletion of files upon receiving DMCA notices.",
-    "long_statement": "The administrators of the file-sharing site dvdrs.net state that they would actively and efficiently respond to any Digital Millennium Copyright Act (DMCA) request, emphasizing their full support for the law. They argue that they would never attempt to evade legal obligations and would immediately delete any offending files from their servers upon receiving a notice from a rights holder.",
+    "key_statement": "The sites assert they would immediately delete offending files and conduct thorough research if properly contacted by the copyright holders.",
+    "long_statement": "The administrators of the Usenet sites assert that they would immediately delete any offending files and conduct thorough research into connected files if properly contacted by the copyright holders. This statement reflects their commitment to resolving issues legally and efficiently, contrasting sharply with the MPAA's decision to initiate public lawsuits without first giving the sites an opportunity to address the concerns directly.",
     "segment_range": [
-     66,
-     73
+     78,
+     83
     ],
-    "rouge2_precision": 0.1833
+    "rouge2_precision": 0.2105
+   },
+   {
+    "actor": "Descds",
+    "key_statement": "Descds administrators contend that if the MPAA considers the service unlawful, the organization must also sue premium Usenet providers.",
+    "long_statement": "The administrators of the Descds service argue that if the Motion Picture Association of America determines their platform illegal, the organization must also pursue legal action against premium paid Usenet providers, which currently act as the transit for these files without facing similar lawsuits.",
+    "segment_range": [
+     101,
+     114
+    ],
+    "rouge2_precision": 0.2791
    },
    {
     "actor": "dvdrs.net",
-    "key_statement": "Dvdrs.net administrators promise immediate file deletion and thorough research upon receiving notices.",
-    "long_statement": "In response to how they would handle a DMCA takedown notice, the administrators of dvdrs.net stated they would immediately delete the specific offending file from their server and conduct a thorough investigation into any other files connected to the one mentioned. Furthermore, they committed to sending a personal follow-up email to the requester to document their actions, demonstrating a willingness to cooperate fully with legal processes.",
-    "segment_range": [
-     74,
-     81
-    ],
-    "rouge2_precision": 0.2687
-   },
-   {
-    "actor": "Binnews",
-    "key_statement": "Binnews claims its rapid internal alert system proves it would comply with proper legal takedown notices.",
-    "long_statement": "The BitTorrent indexing site Binnews asserts that it operates a legitimate service comparable to conventional search engines, arguing that its rapid response mechanisms—triggered by emails sent to an internal alert system connected to all staff and personal devices—demonstrate a commitment to complying with legal takedown requests if they were properly issued by the copyright enforcement group.",
-    "segment_range": [
-     74,
-     81
-    ],
-    "rouge2_precision": 0.0667
-   },
-   {
-    "actor": "dvdrs.net",
-    "key_statement": "dvdrs.net argues it only indexes files from commercial US hosts and should not be sued.",
-    "long_statement": "The Usenet indexing service dvdrs.net argues that it functions as a legitimate directory pointing to files hosted on commercial, tax-paying US-based companies rather than hosting illegal content itself, contending that legal action should be directed exclusively at the actual file hosts instead of the indexing service.",
-    "segment_range": [
-     87,
-     100
-    ],
-    "rouge2_precision": 0.1458
-   },
-   {
-    "actor": "dvdrs.net",
-    "key_statement": "The DVDRS operator denies being a pirate network, framing the accusation as an insult to its legitimate community-focused service.",
-    "long_statement": "The operator of the US-based DVDRS service asserts that the site is not a pirate network, arguing that the label is an insult to its members and contradicts the site's actual function as a community discussion group rather than a file-hosting operation for illegal content.",
+    "key_statement": "The Dvdrs.net operator argues that US laws do not apply due to their UK citizenship but remains willing to comply with the MPAA if they engage in proper communication.",
+    "long_statement": "The individual behind Dvdrs.net states that as a British citizen currently hosting servers in the United States, they are not subject to US jurisdiction and therefore US laws do not apply to their operations. However, they clarify that this legal distinction does not prevent them from complying with the Motion Picture Association of America if proper communication and legal processes are established, emphasizing a willingness to cooperate once the issue is resolved through dialogue.",
     "segment_range": [
      125,
      137
     ],
-    "rouge2_precision": 0.1489
+    "rouge2_precision": 0.069
    },
    {
     "actor": "dvdrs.net",
-    "key_statement": "The DVDRS administrator argues that US laws do not apply to the service due to the operator's UK citizenship, despite the site's US hosting location.",
-    "long_statement": "The administrator of the US-hosted DVDRS service states that because the site's operator is a UK citizen, United States laws and judicial judgments do not legally apply to the service, though the operator remains willing to comply if proper communication occurs.",
+    "key_statement": "Dvdrs.net administrators pledge to comply with the MPAA's demands only if the organization initiates proper communication and legal engagement.",
+    "long_statement": "The administrators of Dvdrs.net condition their compliance with the Motion Picture Association of America on the establishment of direct communication, stating they are prepared to remove specific files if legally instructed. They emphasize that their service has always adhered to local and international laws and express hope that the MPAA will engage with them to resolve the dispute, rather than proceeding with unilateral legal actions that bypass necessary dialogue.",
     "segment_range": [
      125,
      137
     ],
-    "rouge2_precision": 0.0714
+    "rouge2_precision": 0.058
    },
    {
-    "actor": "dvdrs.net",
-    "key_statement": "The DVDRS leadership commits to complying with the MPAA's demands conditionally, insisting on prior communication and retraction of false claims.",
-    "long_statement": "The leadership behind the US-based DVDRS service declares that it will instruct its attorneys to seek legal resolution and comply with the Motion Picture Association's demands, but only if the organization first engages in direct communication to retract its false accusations and restore the site's reputation.",
+    "actor": "base_author",
+    "key_statement": "Binnews operators deny hosting pirated files, framing their service as a legitimate tool for copyright holders.",
+    "long_statement": "The operators of Binnews assert that the accusation of hosting over 3,000 movies is entirely false, maintaining that their platform functions as a legitimate indexing service for copyright holders rather than a repository for pirated content. They argue that their business model provides a lawful utility to the entertainment industry, distinct from the unauthorized distribution of films. Consequently, they contend that legal action should be directed at the actual sources of infringement, such as internet service providers, instead of penalizing a service that claims to facilitate rights management.",
     "segment_range": [
-     125,
-     137
+     138,
+     147
     ],
-    "rouge2_precision": 0.0625
+    "rouge2_precision": 0.2
    },
    {
     "actor": "Joe",
-    "key_statement": "The Usenet indexing service operators deny any intent to facilitate piracy, presenting their service as a tool to help companies remove illegal content.",
-    "long_statement": "The operators of the Usenet indexing service explicitly state that their organization's intent has never been to facilitate piracy, countering the narrative that they are a rogue network. Instead, they emphasize that they provide practical guides to assist companies in eliminating illegal content, positioning their role as a constructive partner in the legal fight against copyright infringement.",
+    "key_statement": "Binnews administrators claim their service is designed to help companies stop piracy, not promote it.",
+    "long_statement": "The administrators of Binnews emphasize that their primary purpose has never been to facilitate copyright infringement, but rather to provide tools that help companies eliminate piracy. They highlight the availability of specific guides designed to assist rights holders in tracking and removing unauthorized content, positioning their service as a proactive solution to the problem of digital theft rather than a passive enabler of it.",
     "segment_range": [
      148,
      154
     ],
-    "rouge2_precision": 0.0909
+    "rouge2_precision": 0.0317
    },
    {
     "actor": "base_author",
-    "key_statement": "Dvdrs.net administrators describe their site as a law-abiding community forum that evolved into a Usenet service, asserting they would comply with any clear legal prohibitions.",
-    "long_statement": "The administrators of Dvdrs.net explain that the site originated in March 2004 as a community discussion forum for movie enthusiasts, evolving into a Usenet indexing service only after user requests. They assert that they have consistently respected both local and international laws, noting that they would have removed specific files immediately had a clear legal prohibition existed, thereby framing their current operations as compliant with the law.",
+    "key_statement": "Dvdrs.net founders describe their site as a lawful community forum that evolved into a hosting service only after user demand.",
+    "long_statement": "The creators of Dvdrs.net describe their platform as a community discussion forum launched in March 2004, which only later adopted a specific file-sharing format at user request. They maintain that the site has consistently adhered to both local and international laws, asserting that no legal authority has ever declared the specific files in question illegal. Therefore, they argue that the site's evolution into a hosting service was a lawful response to community needs, not an initial violation of copyright statutes.",
     "segment_range": [
      155,
-     172
+     169
     ],
-    "rouge2_precision": 0.1791
+    "rouge2_precision": 0.1463
    }
   ]
  }

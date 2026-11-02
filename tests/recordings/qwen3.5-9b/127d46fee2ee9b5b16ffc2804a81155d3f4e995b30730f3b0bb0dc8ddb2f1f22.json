@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-jdj8dxogjfmer8l1cbno5u",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"36\": {\"original\": \"EFF views extranational legal injunctions against Wikipedia as problematic over.\", \"rephrased\": \"The Electronic Frontier Foundation identifies court orders issued by one nation that restrict access to the German Wikipedia site as a dangerous form of legal overreach. Such extraterritorial injunctions, often driven by local privacy concerns or family proposals, threaten the global integrity of the internet by preventing users in other jurisdictions from accessing information that is freely available elsewhere. The organization argues that these measures undermine the fundamental principle of a borderless web and must be challenged to preserve open access to knowledge.\", \"summary\": \"The Electronic Frontier Foundation identifies extraterritorial legal injunctions against Wikipedia as a dangerous form of overreach that threatens global internet integrity.\"}, \"37\": {\"original\": \"It depends on the law and its practicality, not territoriality, regarding wheth\", \"rephrased\": \"The Electronic Frontier Foundation asserts that the legitimacy of legal restrictions on digital resources depends entirely on the law's practicality and necessity, rather than its geographic boundaries. While acknowledging that local courts may issue injunctions based on specific privacy concerns, the organization maintains that forbidding anyone from linking to a resource is problematic whenever the law lacks a clear, practical justification. This stance emphasizes that the core issue is not where a law is applied, but whether the restriction itself serves a legitimate public interest without unnecessarily stifling information flow.\", \"summary\": \"The Electronic Frontier Foundation asserts that the legitimacy of legal restrictions on digital resources depends on practicality rather than geographic boundaries.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650551,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 322,
+  "prompt_tokens": 1873,
+  "total_tokens": 2195,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

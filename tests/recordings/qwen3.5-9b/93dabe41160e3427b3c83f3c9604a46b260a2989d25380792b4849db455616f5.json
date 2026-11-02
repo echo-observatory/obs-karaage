@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-0jhivj3z3yrftq76yj9wao",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"allowed individuals to download movies, music, TV programs, e-books, and so on\", \"rephrased\": \"The file-sharing platform Megaupload enabled users to access copyrighted content, including films, music, and software, often before their official theatrical or commercial release, thereby facilitating widespread unauthorized distribution that the entertainment industry argues caused hundreds of millions of dollars in financial losses.\", \"summary\": \"Megaupload provided a mechanism for the mass, pre-release distribution of copyrighted media, resulting in significant financial damages for the entertainment industry.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651673,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 115,
+  "prompt_tokens": 1569,
+  "total_tokens": 1684,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

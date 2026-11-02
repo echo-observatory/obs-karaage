@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-pmwv25tlsilqspkjneza9",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"Treating every American as a criminal without a trial is unjust.\", \"rephrased\": \"The current legal framework that treats every American as a criminal without a trial is fundamentally unjust, a practice that must be reformed to protect the rights of law-abiding citizens while effectively reducing crime.\", \"summary\": \"The current legal framework treating Americans as criminals without trial is unjust and must be reformed.\"}, \"5\": {\"original\": \"The two-party system is a false dichotomy that ignores the nation's diverseideas\", \"rephrased\": \"The prevailing two-party system in the United States functions as a false dichotomy that simplifies complex political realities, thereby ignoring the nation's diverse ideas and failing to serve the interests of its varied population.\", \"summary\": \"The US two-party system is a false dichotomy that ignores the nation's diverse ideas.\"}, \"6\": {\"original\": \"The USPP will face challenges regarding ballot access but welcomes theop\", \"rephrased\": \"The United States Pirate Party anticipates significant hurdles regarding ballot access due to the country's restrictive laws, yet the organization remains convinced of its capability to overcome these obstacles and welcomes the challenge of expanding political participation.\", \"summary\": \"The USPP faces ballot access challenges but is confident in its ability to succeed.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651375,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 275,
+  "prompt_tokens": 2268,
+  "total_tokens": 2543,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

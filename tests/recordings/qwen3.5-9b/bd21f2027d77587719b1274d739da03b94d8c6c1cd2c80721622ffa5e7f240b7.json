@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-rcgjeadqsoxi73pr6zxf",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Richard Stallman\", \"other\": [\"I\", \"me\", \"we\", \"people like me\"], \"kind\": \"person\", \"segments\": [[742, 770], [774, 780], [798, 817], [818, 821], [868, 871], [880, 889], [914, 919], [923, 936], [940, 952], [956, 969], [970, 987]]}, {\"main\": \"Unknown\", \"other\": [\"the seller\", \"they\", \"most people\", \"a conspiracy of publishers\", \"browser developers like Firefox and stores\"], \"kind\": \"unknown\", \"segments\": [[744, 751], [752, 763], [764, 770], [784, 794], [825, 857], [858, 864], [868, 871], [875, 889], [890, 910]]}, {\"main\": \"Unknown\", \"other\": [\"the users\", \"people\", \"most users\", \"people who share\", \"artists\", \"businesses\", \"copyright system\"], \"kind\": \"unknown\", \"segments\": [[771, 773], [795, 797], [805, 808], [822, 824], [833, 857], [865, 867], [872, 874], [890, 910], [911, 913], [920, 922], [937, 939], [953, 955], [964, 969]]}, {\"main\": \"Unknown\", \"other\": [\"Mozilla\"], \"kind\": \"organisation\", \"segments\": [[890, 893]]}, {\"main\": \"Unknown\", \"other\": [\"the Free Software Foundation\", \"SF Conservancy\", \"the Electronic Frontier Foundation\", \"a senator\"], \"kind\": \"organisation\", \"segments\": [[805, 808]]}, {\"main\": \"Unknown\", \"other\": [\"the w3c\", \"EME\", \"Encrypted Media Extensions\", \"browsers\", \"digital publishers\", \"publishers\"], \"kind\": \"organisation\", \"segments\": [[872, 874], [875, 889], [890, 893], [901, 910]]}, {\"main\": \"Unknown\", \"other\": [\"the GNU\", \"GPLv3\", \"GNU/Linux\", \"snap\", \"flatpaks\", \"software developers\", \"distributions\"], \"kind\": \"organisation\", \"segments\": [[911, 913], [937, 939], [940, 955], [956, 969], [974, 987]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793652831,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 726,
+  "prompt_tokens": 3803,
+  "total_tokens": 4529,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

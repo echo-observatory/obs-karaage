@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-e7jxa4p9ke6zd01i4a8awh",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"European Parliament\", \"other\": [\"plenary session\"], \"kind\": \"organisation\", \"segments\": [[0, 1]]}, {\"main\": \"activist groups\", \"other\": [\"Pressure and activist groups\"], \"kind\": \"organisation\", \"segments\": [[3, 5]]}, {\"main\": \"Open Rights Group\", \"other\": [\"ORG\", \"the UK's Open Rights Group\"], \"kind\": \"organisation\", \"segments\": [[8, 9]]}, {\"main\": \"Charles Arthur\", \"other\": [\"The Guardian's technology editor\", \"Arthur\"], \"kind\": \"person\", \"segments\": [[15, 22], [24, 24]]}, {\"main\": \"Electronic Frontier Foundation\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[25, 25]]}, {\"main\": \"Obama administration\", \"other\": [\"the Obama administration\"], \"kind\": \"organisation\", \"segments\": [[27, 27]]}, {\"main\": \"Sebastian Nerz\", \"other\": [\"vice-president of the Pirate Party of Germany\"], \"kind\": \"person\", \"segments\": [[29, 29]]}, {\"main\": \"Accessnow.org\", \"other\": [\"US-based pressure group Accessnow.org\"], \"kind\": \"organisation\", \"segments\": [[35, 36]]}, {\"main\": \"Wikileaks\", \"other\": [\"whistleblowing site Wikileaks\"], \"kind\": \"organisation\", \"segments\": [[37, 39]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651679,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 331,
+  "prompt_tokens": 1242,
+  "total_tokens": 1573,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

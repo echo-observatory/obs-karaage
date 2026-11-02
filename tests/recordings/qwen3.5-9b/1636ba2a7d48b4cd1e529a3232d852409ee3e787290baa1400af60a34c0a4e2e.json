@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-9h94dnbjh3i3o9bjfe71rv",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Joost\", \"other\": [\"web broadcaster\", \"online community\", \"sweetheart aggregator\", \"provider\"], \"kind\": \"organisation\", \"segments\": [[1, 1], [2, 2], [3, 3], [5, 5], [44, 44], [57, 58], [60, 61]]}, {\"main\": \"Warner Brothers\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[1, 1]]}, {\"main\": \"Time Warner\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[2, 2]]}, {\"main\": \"Sony Pictures Television\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[2, 2]]}, {\"main\": \"John P. Gamboa\", \"other\": [\"Dailey Aztec\"], \"kind\": \"person\", \"segments\": [[17, 18]]}, {\"main\": \"Niklas Zennström\", \"other\": [], \"kind\": \"person\", \"segments\": [[19, 19], [26, 26]]}, {\"main\": \"Janus Friis\", \"other\": [], \"kind\": \"person\", \"segments\": [[19, 19], [26, 26]]}, {\"main\": \"Fredrik de Wahl\", \"other\": [\"Joost chief executive officer\"], \"kind\": \"person\", \"segments\": [[40, 40], [41, 42]]}, {\"main\": \"media conglomerates\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[43, 43]]}, {\"main\": \"established subscription cable and satellite distribution channels\", \"other\": [\"free airwave TV\"], \"kind\": \"organisation\", \"segments\": [[46, 46]]}, {\"main\": \"Internet peer-to-peer networking\", \"other\": [], \"kind\": \"document\", \"segments\": [[20, 21], [51, 52]]}, {\"main\": \"Kazaa\", \"other\": [\"copyright bust\"], \"kind\": \"document\", \"segments\": [[21, 21], [27, 27], [29, 30], [32, 32]]}, {\"main\": \"Sharman Networks\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[27, 27]]}, {\"main\": \"eBay\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[28, 28]]}, {\"main\": \"music record labels\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[29, 29]]}, {\"main\": \"telcom carriers\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[33, 34]]}, {\"main\": \"users\", \"other\": [\"Internet users\", \"viewers\"], \"kind\": \"person\", \"segments\": [[6, 6], [12, 12], [14, 14], [16, 16], [30, 30], [34, 34], [36, 37], [61, 61]]}, {\"main\": \"music file sharing and telephony implementations\", \"other\": [\"bleeding edge\"], \"kind\": \"document\", \"segments\": [[23, 24]]}, {\"main\": \"co-developers\", \"other\": [], \"kind\": \"person\", \"segments\": [[26, 26]]}, {\"main\": \"The 'on-demand' feature\", \"other\": [], \"kind\": \"document\", \"segments\": [[53, 54]]}, {\"main\": \"It\", \"other\": [\"middle-man\", \"web broadcaster\"], \"kind\": \"person\", \"segments\": [[55, 56], [57, 58]]}, {\"main\": \"The Joost hoopla\", \"other\": [], \"kind\": \"document\", \"segments\": [[60, 61]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650958,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 886,
+  "prompt_tokens": 1550,
+  "total_tokens": 2436,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

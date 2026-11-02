@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-es1sfh2ljv6rbxlmmaf7d",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"This device acts as a contemporary replacement for the videocassette recorder, allowing people to manage their own consumption of free-to-air video. Since the technology gives power to individuals facing strict copyright enforcement, it needs protection from the copyright cartel so users can keep their liberty to view and handle media.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793653086,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 68,
+  "prompt_tokens": 225,
+  "total_tokens": 293,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -8,214 +8,196 @@
   "source_text_length_segments": 130,
   "actors": [
    {
-    "name": "Geist",
+    "name": "Professor Michael Geist",
     "variations": [
-     "Professor Geist",
-     "Professor Michael Geist"
-    ]
+     "Geist"
+    ],
+    "kind": "person"
    },
    {
-    "name": "Basskin",
+    "name": "David A. Basskin",
     "variations": [
-     "David A. Basskin",
-     "David Basskin"
-    ]
+     "Basskin",
+     "President and CEO of CMRRA"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "Society for Reproduction Rights of Authors (SODRAC)",
+    "variations": [
+     "SODRAC"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Canadian Musical Reproduction Rights Agency (CMRRA)",
+    "variations": [
+     "CMRRA"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Wikinews",
-    "variations": []
+    "variations": [],
+    "kind": "organisation"
    },
    {
-    "name": "Hogarth",
+    "name": "Don Hogarth",
+    "variations": [],
+    "kind": "person"
+   },
+   {
+    "name": "Brian McNeil",
+    "variations": [],
+    "kind": "person"
+   },
+   {
+    "name": "Barry Sookman",
     "variations": [
-     "Don Hogarth"
-    ]
+     "Sookman",
+     "lobbyist at the Canadian Parliament",
+     "lobbyist"
+    ],
+    "kind": "person"
    },
    {
-    "name": "Sookman",
+    "name": "Canadian Recording Industry Association (CRIA)",
     "variations": [
-     "Barry Sookman"
-    ]
+     "CRIA",
+     "the 'majors'' industry body"
+    ],
+    "kind": "organisation"
    },
    {
-    "name": "CRIA",
-    "variations": [
-     "Canadian Recording Industry Association"
-    ]
-   },
-   {
-    "name": "CMRRA",
-    "variations": [
-     "Canadian Musical Reproduction Rights Agency"
-    ]
-   },
-   {
-    "name": "SODRAC",
-    "variations": [
-     "Society for Reproduction Rights of Authors",
-     "Society for Reproduction Rights of Authors, Composers and Publishers"
-    ]
-   },
-   {
-    "name": "Baker",
-    "variations": [
-     "Chet Baker",
-     "Baker's estate",
-     "Baker legal team"
-    ]
-   },
-   {
-    "name": "CRIA-member record labels",
+    "name": "Sony BMG Music",
     "variations": [
      "Sony BMG Music",
-     "EMI Music Canada",
-     "Universal Music Canada",
-     "Warner Music Canada",
-     "the four named major labels",
-     "the four main members of the CRIA",
-     "the four named record company defendants",
-     "the 'major' labels in Canada",
-     "the four major labels",
-     "the Canadian labels"
-    ]
+     "Sony"
+    ],
+    "kind": "organisation"
    },
    {
-    "name": "courts",
+    "name": "Warner Music Canada",
+    "variations": [
+     "Warner Music Canada",
+     "Warner Brothers Canada"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Chet Baker",
+    "variations": [
+     "Baker",
+     "the late jazz musician Chet Baker",
+     "Baker's estate",
+     "Baker legal team"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "The Mechanical Licensing Agreement (MLA)",
+    "variations": [
+     "MLA"
+    ],
+    "kind": null
+   },
+   {
+    "name": "The Class Proceedings Act of 1992",
+    "variations": [
+     "Class Proceedings Act of 1992"
+    ],
+    "kind": null
+   },
+   {
+    "name": "Copyright Act",
+    "variations": [
+     "Copyright Act"
+    ],
+    "kind": null
+   },
+   {
+    "name": "The Mechanical Licensing Agreement (MLA) between the CMRRA and the CRIA",
+    "variations": [
+     "MLA"
+    ],
+    "kind": null
+   },
+   {
+    "name": "Basskin's affidavit",
+    "variations": [
+     "Basskin's affidavit",
+     "his sworn affidavit",
+     "his first encounter with pending lists"
+    ],
+    "kind": null
+   },
+   {
+    "name": "Lauzon's affidavit",
+    "variations": [
+     "Lauzon's followup affidavit",
+     "his followup affidavit"
+    ],
+    "kind": null
+   },
+   {
+    "name": "Sookman's blog post",
+    "variations": [
+     "Sookman's blog",
+     "his blog",
+     "his blog's sitemap",
+     "a blog entry by Barry Sookman",
+     "a posting"
+    ],
+    "kind": null
+   },
+   {
+    "name": "The court",
     "variations": [
      "the court"
-    ]
+    ],
+    "kind": "organisation"
    }
   ],
   "statements": [
    {
-    "actor": "Geist",
-    "key_statement": "A copyright lawsuit alleges major Canadian record labels face billions in penalties for unpaid royalties.",
-    "long_statement": "Under Canada's Class Proceedings Act of 1992, a copyright lawsuit involving the estate of jazz musician Chet Baker and collective societies alleges that the nation's largest record labels have failed to pay royalties for hundreds of thousands of works, a situation that could result in penalties exceeding one billion dollars.",
+    "actor": "base_author",
+    "key_statement": "Major Canadian record labels claim internal fixes for unlicensed works are too costly, contradicting the lawsuit's evidence of their refusal to cooperate.",
+    "long_statement": "The four major Canadian record labels assert that developing internal systems to resolve the backlog of unlicensed works is economically unfeasible, a stance that the lawsuit's author argues contradicts the plaintiffs' evidence of the labels' refusal to cooperate in fixing the problem.",
     "segment_range": [
-     0,
-     2
+     15,
+     27
     ],
-    "rouge2_precision": 0.1569
+    "rouge2_precision": 0.2143
    },
    {
     "actor": "base_author",
-    "key_statement": "The copyright lawsuit was amended to include collective societies as plaintiffs against major record labels.",
-    "long_statement": "The copyright lawsuit was initially filed in August but was amended in October to include the Canadian Musical Reproduction Rights Agency and the Society for Reproduction Rights of Authors as defendants, before these agencies switched sides in January to join the estate of jazz musician Chet Baker as plaintiffs against the four major record labels.",
+    "key_statement": "The current licensing agreement prevents labels from refusing licenses and mandates quarterly pending list submissions for royalty collection.",
+    "long_statement": "The current Mechanical Licensing Agreement between the Canadian Recording Industry Association and the collective societies is structured so broadly that it legally prevents any party from refusing to grant a license, while simultaneously requiring record labels to submit quarterly lists of unlicensed works to facilitate royalty collection by the societies.",
     "segment_range": [
-     6,
-     13
-    ],
-    "rouge2_precision": 0.2963
-   },
-   {
-    "actor": "Basskin",
-    "key_statement": "The CMRRA claims the Canadian recording industry's refusal to fix licensing issues makes independent resolution economically impossible.",
-    "long_statement": "The Canadian Musical Reproduction Rights Agency (CMRRA) asserts that the Canadian recording industry has failed to take necessary internal steps to fix licensing issues, making it economically impossible for the agency to resolve these disputes on its own. Consequently, the organization argues that the industry's refusal to cooperate has created a situation where independent resolution is not a viable option.",
-    "segment_range": [
-     18,
-     22
-    ],
-    "rouge2_precision": 0.0333
-   },
-   {
-    "actor": "Geist",
-    "key_statement": "Professor Geist's six billion dollar damage calculation relies on CMRRA testimony regarding the number of unlicensed works.",
-    "long_statement": "Professor Geist's calculation of potential six billion dollars in damages relies on sworn testimony from the Canadian Musical Reproduction Rights Agency (CMRRA), which states that the 'Pending List' of unlicensed works contains over 300,000 items. By treating each item on this list as a copyright infringement and applying statutory minimum damages, the calculation suggests a massive financial liability for the record labels involved in the lawsuit.",
-    "segment_range": [
-     27,
-     28
-    ],
-    "rouge2_precision": 0.2941
-   },
-   {
-    "actor": "CRIA-member record labels",
-    "key_statement": "Major Canadian record labels assert they are responsible for creating and maintaining the 'Pending Lists' used to track unlicensed works.",
-    "long_statement": "The major record labels operating in Canada assert that they are fully responsible for creating, maintaining, and administering the 'Pending Lists' used to track unlicensed works. This claim is presented as part of their defense against the class action lawsuit, arguing that they have fulfilled their contractual obligations by managing these lists, even as the number of publishers represented by their industry body has decreased over time due to market consolidation.",
-    "segment_range": [
-     43,
-     45
-    ],
-    "rouge2_precision": 0.2105
-   },
-   {
-    "actor": "CRIA-member record labels",
-    "key_statement": "Four primary Canadian record labels state that their separate divisions stand for the main music publishers operating within Canada.",
-    "long_statement": "The four major record labels in Canada state that their specific divisions represent the 'major' music publishers active in the country, thereby claiming responsibility for the content on the 'Pending Lists'. This assertion is made to clarify the scope of the current litigation, suggesting that the record companies are the appropriate parties to negotiate with publishers, even though the actual number of publishers represented by these divisions has declined due to industry consolidation.",
-    "segment_range": [
-     43,
-     45
-    ],
-    "rouge2_precision": 0.2083
-   },
-   {
-    "actor": "CMRRA",
-    "key_statement": "The collective society must provide work lists to labels and receive copies for royalty assessment under the expiring licensing agreement.",
-    "long_statement": "Under the expiring Mechanical Licensing Agreement between the Canadian Mechanical Reproduction Rights Association and the major record labels, the collective society is contractually obligated to supply the industry with comprehensive lists of all musical works it represents, while simultaneously receiving physical copies of released recordings to verify content and ensure accurate royalty collection.",
-    "segment_range": [
-     52,
-     59
-    ],
-    "rouge2_precision": 0.0962
-   },
-   {
-    "actor": "CMRRA",
-    "key_statement": "The current licensing agreement requires labels to submit updated lists of unlicensed works with each royalty payment to facilitate collection.",
-    "long_statement": "The current Mechanical Licensing Agreement mandates that major record labels submit an updated cumulative list of unlicensed works to the collective society with every quarterly royalty payment, a mechanism designed to allow the society to review the list and collect any outstanding dues and interest before the agreement expires.",
-    "segment_range": [
-     60,
+     53,
      63
     ],
-    "rouge2_precision": 0.2083
+    "rouge2_precision": 0.1765
    },
    {
-    "actor": "base_author",
-    "key_statement": "The collective society's General Manager is a qualified accountant with extensive experience administering industry-wide music licensing agreements.",
-    "long_statement": "The person in charge at the Canadian Society for Reproduction Rights of Authors, Composers and Publishers is a Chartered Accountant. They have worked in business for more than twenty years. Their main job is to handle and talk about the deals that apply to music licensing everywhere in the nation. These deals cover how music gets copied and sent out to people.",
+    "actor": "Lauzon's affidavit",
+    "key_statement": "SODRAC's General Manager formally joined the lawsuit against major record labels as a plaintiff in January 2009.",
+    "long_statement": "In January 2009, Alain Lauzon, who serves as the General Manager of the Society for Reproduction Rights of Authors, Composers and Publishers, officially filed a supplementary affidavit. This document was intended to add his organization as a plaintiff in the class action lawsuit targeting major Canadian record labels over the issue of unpaid royalties.",
     "segment_range": [
      64,
-     84
+     65
     ],
-    "rouge2_precision": 0.2222
+    "rouge2_precision": 0.2642
    },
    {
-    "actor": "CRIA-member record labels",
-    "key_statement": "Canadian record labels bear the legal and customary responsibility for obtaining mechanical licenses for domestic recordings.",
-    "long_statement": "According to the industry's contractual framework, the legal and customary responsibility for obtaining mechanical licenses for recordings manufactured or released in Canada rests entirely with the Canadian record labels, a duty that is reinforced by law, long-standing industry custom, and specific contractual agreements between the parties.",
+    "actor": "base_author",
+    "key_statement": "A specialist in the field states that music companies have mostly been unable to fix the issue of unauthorized recordings.",
+    "long_statement": "Reinforcing the legal and customary obligation of record labels to secure mechanical licenses, Alain Lauzon, representing the collective society, states with professional confidence that the industry has generally failed to take necessary steps to resolve the persistent problem of unlicensed works.",
     "segment_range": [
-     85,
+     73,
      87
     ],
-    "rouge2_precision": 0.2979
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Only two of four major Canadian record labels responded to media inquiries about the royalty lawsuit, with one response ignoring all questions.",
-    "long_statement": "When the media outlet Wikinews reached out to the four largest record companies operating in Canada to seek answers regarding the ongoing royalty dispute, only Warner Brothers Canada and the public relations firm Hogarth PR provided a response, while the other two major labels failed to reply in a timely manner. Furthermore, the response from Hogarth PR completely ignored every specific question posed by the journalists, offering no substantive engagement with the allegations of non-payment.",
-    "segment_range": [
-     88,
-     93
-    ],
-    "rouge2_precision": 0.12
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Industry insiders claim major record labels have resisted decades of negotiations to pay owed mechanical licensing fees and interest.",
-    "long_statement": "Industry insiders, including legal representatives for the Canadian Recording Industry Association, assert that major record labels have actively resisted twenty years of efforts by collective societies to negotiate a licensing framework that would ensure adequate mechanical fees and interest payments are paid for unlicensed works. This resistance is framed as a failure by the labels to take necessary measures to resolve the long-standing dispute over unpaid royalties.",
-    "segment_range": [
-     115,
-     120
-    ],
-    "rouge2_precision": 0.1045
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The four major Canadian record labels owe at least C$73 million in outstanding debt by 2012 if the current rate of unpaid fees continues.",
-    "long_statement": "Based on the observed growth rate of the pending list, the four major labels represented by the Canadian Recording Industry Association will owe at least C$73 million in outstanding debt by the end of 2012, assuming the current trajectory of unpaid fees continues. This projection highlights the severe financial consequences for the labels if they fail to resolve the licensing dispute with collective societies before the current agreement expires, underscoring the urgency of the lawsuit filed by the estate of Chet Baker.",
-    "segment_range": [
-     126,
-     128
-    ],
-    "rouge2_precision": 0.2917
+    "rouge2_precision": 0.225
    }
   ]
  }

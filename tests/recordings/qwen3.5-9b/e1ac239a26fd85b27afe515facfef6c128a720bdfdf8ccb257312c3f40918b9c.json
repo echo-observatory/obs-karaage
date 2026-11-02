@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-mn18rnps22smuqg7yyglr",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"ACTA's vague terms risked searching travelers' devices for copyright content, wh\", \"rephrased\": \"The secretive Anti-Counterfeiting Trade Agreement (ACTA) failed to gain traction because its poorly defined provisions created unacceptable risks, such as the potential for customs officials to search travelers' electronic devices for copyright-infringing material, while the lack of transparency surrounding its negotiation further alienated the public.\", \"summary\": \"The Anti-Counterfeiting Trade Agreement failed due to vague terms and secrecy.\"}, \"5\": {\"original\": \"requests for access to 800+ pages of classified ACTA negotiation materials\", \"rephrased\": \"The Electronic Frontier Foundation challenged the secrecy of the Anti-Counterfeiting Trade Agreement by demanding access to over 800 pages of negotiation documents, arguing that the vast majority of the material was improperly classified under the guise of national security concerns.\", \"summary\": \"The Electronic Frontier Foundation demanded access to classified ACTA documents.\"}, \"6\": {\"original\": \"asserting that national security concerns justified the entire draft and related\", \"rephrased\": \"Following the transition to the Obama administration, the U.S. government maintained its refusal to release the Anti-Counterfeiting Trade Agreement draft, asserting that national security concerns justified keeping the entire document and all related materials secret from the public.\", \"summary\": \"The Obama administration refused to release the ACTA draft citing national security.\"}, \"7\": {\"original\": \"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreemen\", \"rephrased\": \"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, arguing that its vague terms threatened internet freedom, privacy, and access to medicines, thereby validating the campaign's focus on transparency and civil liberties.\", \"summary\": \"Activists defeated the secretive ACTA in the European Parliament.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651710,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 401,
+  "prompt_tokens": 2172,
+  "total_tokens": 2573,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

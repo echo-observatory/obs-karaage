@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-vk4ukn56z5doqscsu8tlbr",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"A copyright case under this Act may see the country's largest music industry 0\", \"rephrased\": \"Under the Class Proceedings Act of 1992, a copyright lawsuit involving Canada's largest music industry players could result in penalties exceeding one billion dollars if the legal team's claims regarding unpaid royalties for hundreds of thousands of works are substantiated.\", \"summary\": \"A copyright lawsuit under Canada's Class Proceedings Act could impose over a billion dollars in penalties on major music labels.\"}, \"1\": {\"original\": \"A lawsuit led by Chet Baker's estate targets four major Canadian labels and 0\", \"rephrased\": \"The estate of late jazz musician Chet Baker has filed a class action lawsuit against four major Canadian record labels and their parent companies, alleging that these companies failed to pay royalties for hundreds of thousands of musical works, with the suit being amended and reissued on October 6.\", \"summary\": \"Chet Baker's estate filed an amended class action lawsuit against major Canadian record labels for unpaid royalties on hundreds of thousands of works.\"}, \"2\": {\"original\": \"Initially named as a defendant in the lawsuit, SODRAC later switched sides to 0\", \"rephrased\": \"The Society for Reproduction Rights of Authors (SODRAC), which was initially named as a defendant in the copyright lawsuit, switched sides in January to join the plaintiffs alongside the estate of Chet Baker and other rightsholders in suing the major record labels.\", \"summary\": \"SODRAC switched from being a defendant to joining the plaintiffs in the copyright lawsuit against major record labels.\"}, \"3\": {\"original\": \"his estate views the 'pending list' as evidence of copyright infringement\", \"rephrased\": \"The estate of Chet Baker views the 'pending list'—a record of works not correctly licensed for reproduction maintained by the Canadian Musical Reproduction Rights Agency—as clear evidence of copyright infringement by the major record labels.\", \"summary\": \"Chet Baker's estate views the 'pending list' of unlicensed works as evidence of copyright infringement by major record labels.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651256,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 443,
+  "prompt_tokens": 2312,
+  "total_tokens": 2755,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

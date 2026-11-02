@@ -11,89 +11,134 @@
     "name": "Joost",
     "variations": [
      "web broadcaster",
-     "aggregator",
-     "provider",
-     "online community"
-    ]
+     "online community",
+     "sweetheart aggregator",
+     "provider"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Warner Brothers",
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "Time Warner",
-    "variations": []
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "John P. Gamboa",
     "variations": [
-     "John P. Gamboa"
-    ]
-   },
-   {
-    "name": "Dailey Aztec",
-    "variations": [
      "Dailey Aztec"
-    ]
+    ],
+    "kind": "person"
    },
    {
     "name": "Niklas Zennström",
-    "variations": [
-     "Niklas Zennström"
-    ]
+    "variations": [],
+    "kind": "person"
    },
    {
     "name": "Fredrik de Wahl",
     "variations": [
-     "Fredrik de Wahl",
      "Joost chief executive officer"
-    ]
+    ],
+    "kind": "person"
    },
    {
     "name": "media conglomerates",
-    "variations": [
-     "media conglomerates"
-    ]
+    "variations": [],
+    "kind": "organisation"
    },
    {
-    "name": "telcom carriers",
+    "name": "established subscription cable and satellite distribution channels",
     "variations": [
-     "telcom carriers"
-    ]
+     "free airwave TV"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Internet peer-to-peer networking",
+    "variations": [],
+    "kind": null
+   },
+   {
+    "name": "Kazaa",
+    "variations": [
+     "copyright bust"
+    ],
+    "kind": null
+   },
+   {
+    "name": "Sharman Networks",
+    "variations": [],
+    "kind": "organisation"
+   },
+   {
+    "name": "eBay",
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "music record labels",
+    "variations": [],
+    "kind": "organisation"
+   },
+   {
+    "name": "telcom carriers",
+    "variations": [],
+    "kind": "organisation"
+   },
+   {
+    "name": "users",
     "variations": [
-     "music record labels"
-    ]
+     "Internet users",
+     "viewers"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "music file sharing and telephony implementations",
+    "variations": [
+     "bleeding edge"
+    ],
+    "kind": null
+   },
+   {
+    "name": "The 'on-demand' feature",
+    "variations": [],
+    "kind": null
+   },
+   {
+    "name": "It",
+    "variations": [
+     "middle-man",
+     "web broadcaster"
+    ],
+    "kind": "person"
    }
   ],
   "statements": [
    {
-    "actor": "base_author",
-    "key_statement": "Joost offers 150 high-quality channels with interactive features, subject to regional copyright limits.",
-    "long_statement": "The startup Joost currently provides approximately 150 channels featuring full-screen, eye-quality television, although the availability of specific channels varies by country or region due to copyright restrictions. This service allows viewers to navigate menus and interact with programming through integrated widgets, representing a significant step forward in delivering a flexible, high-quality online TV experience that competes with established cable and satellite models.",
+    "actor": "users",
+    "key_statement": "Users can customize their online TV experience by interacting with programming via optional widgets.",
+    "long_statement": "Viewers of the online television service can enhance their experience by interacting with the programming through integrated widgets such as clocks, instant messaging, news feeds, and chat rooms, which can be customized or disabled by the user during viewing sessions.",
     "segment_range": [
-     6,
+     12,
      16
     ],
-    "rouge2_precision": 0.2812
+    "rouge2_precision": 0.1795
    },
    {
     "actor": "base_author",
-    "key_statement": "Joost's founders apply peer-to-peer networking technology from their past ventures to build the startup's online TV platform.",
-    "long_statement": "The development team behind the startup Joost, which includes the creators of the peer-to-peer file-sharing application Kazaa and the telephony service Skype, is applying the networking architecture from those previous ventures to build its current online TV platform.",
-    "segment_range": [
-     17,
-     28
-    ],
-    "rouge2_precision": 0.15
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Joost attempts to balance consumer flexibility with industry control despite challenges regarding content quality and bandwidth efficiency.",
-    "long_statement": "Joost, a new company, seeks to meet viewer wants for more options and flexibility in television viewing while helping the entertainment sector keep control of its material. This plan tries to fix the industry's problem with putting lower-value shows online and dealing with issues like content quality and bandwidth use.",
+    "key_statement": "Broadband peer-to-peer connectivity represents a permanent shift in how media is distributed, even though it faced initial difficulties.",
+    "long_statement": "Despite initial legal challenges and a difficult early adoption phase, online broadband peer-to-peer connectivity represents a permanent shift in media distribution that will remain the standard for delivering content to consumers with high-speed internet access.",
     "segment_range": [
      31,
-     56
+     39
     ],
-    "rouge2_precision": 0.098
+    "rouge2_precision": 0.2105
    }
   ]
  }

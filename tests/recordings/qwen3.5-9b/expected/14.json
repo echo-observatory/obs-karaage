@@ -8,82 +8,119 @@
   "source_text_length_segments": 50,
   "actors": [
    {
-    "name": "Comcast",
-    "variations": [
-     "Comcast",
-     "Comcast's"
-    ]
-   },
-   {
     "name": "Time Warner Cable",
     "variations": [
-     "Time Warner Cable",
-     "cable operator",
-     "Time Warner Cable's"
-    ]
-   },
-   {
-    "name": "Ben Scott",
-    "variations": [
-     "Ben Scott"
-    ]
-   },
-   {
-    "name": "Roger Entner",
-    "variations": [
-     "Roger Entner",
-     "Entner"
-    ]
-   },
-   {
-    "name": "Alex Dudley",
-    "variations": [
-     "Alex Dudley"
-    ]
+     "two of the largest ISPs in North America"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "US Congress",
-    "variations": [
-     "US Congress"
-    ]
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "Free Press",
     "variations": [
-     "Free Press"
-    ]
+     "an advocacy group",
+     "that pushes for better oversight of cable operators such as Comcast"
+    ],
+    "kind": "organisation"
+   },
+   {
+    "name": "Ben Scott",
+    "variations": [
+     "head of the group"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "Roger Entner",
+    "variations": [
+     "a senior vice president from Nielsen IAG"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "Sena Fitzmaurice",
+    "variations": [
+     "a Comcast spokesperson"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "Alex Dudley",
+    "variations": [
+     "a Time Warner Cable spokesman"
+    ],
+    "kind": "person"
+   },
+   {
+    "name": "Associated Press",
+    "variations": [
+     "report"
+    ],
+    "kind": null
+   },
+   {
+    "name": "Art Brodsky",
+    "variations": [
+     "communications director of Public Knowledge",
+     "a consumer advocacy group in Washington D.C."
+    ],
+    "kind": "person"
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "Advocacy organizations filed a formal complaint with the FCC, alleging that Comcast discriminated against BitTorrent users.",
-    "long_statement": "Public interest groups formally complained to the Federal Communications Commission in November 2007, arguing that Comcast had unfairly targeted customers using the BitTorrent file-sharing system. This specific grievance contributed to a broader congressional debate regarding the extent of control internet service providers should have over customer data flow.",
+    "key_statement": "An FCC investigation into Comcast's data restrictions has sparked a congressional debate over how much control internet service providers should have over customer data.",
+    "long_statement": "The Federal Communications Commission's inquiry into whether Comcast restricted customers from sharing files has ignited a congressional debate regarding the extent of control internet service providers should have over customer data flow, highlighting a growing conflict between regulatory oversight and corporate network management strategies.",
     "segment_range": [
-     8,
+     5,
      11
     ],
-    "rouge2_precision": 0.2292
+    "rouge2_precision": 0.2917
    },
    {
-    "actor": "Free Press",
-    "key_statement": "Comcast's network practices discriminate against users of legal technology.",
-    "long_statement": "Comcast's current network management practices are discriminatory because they specifically penalize users of legal technology while exempting those using peer-to-peer systems. This approach, which Free Press argues is unfair, suggests that cable companies are scrambling to reduce the appearance of wrongdoing following regulatory scrutiny.",
-    "segment_range": [
-     12,
-     18
-    ],
-    "rouge2_precision": 0.2391
-   },
-   {
-    "actor": "Comcast",
-    "key_statement": "Comcast insists its new network management method avoids traffic inspection to preserve functionality.",
-    "long_statement": "Comcast maintains that its upcoming network management strategy will not involve inspecting the specific type of data traffic users send, arguing that this approach is necessary to ensure the network remains functional for all customers despite the shift away from targeted restrictions.",
+    "actor": "Sena Fitzmaurice",
+    "key_statement": "Comcast will not filter traffic types but still needs to manage the network.",
+    "long_statement": "Comcast will not filter traffic types but still needs to manage the network.",
     "segment_range": [
      22,
-     27
+     25
     ],
-    "rouge2_precision": 0.0488
+    "rouge2_precision": 0.25
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "Time Warner Cable will start measuring internet usage and sending invoices for higher speeds and bigger data packages.",
+    "long_statement": "Time Warner Cable intends to charge customers based on usage levels and speed tiers, operating as a standard utility like an electric provider or mobile carrier, instead of providing unlimited flat-rate internet access.",
+    "segment_range": [
+     26,
+     33
+    ],
+    "rouge2_precision": 0.1818
+   },
+   {
+    "actor": "Alex Dudley",
+    "key_statement": "To pay for the infrastructure needed to provide internet access, charging users based on how much data they consume is the most equitable method.",
+    "long_statement": "Internet service charges based on actual data consumption represent the most equitable method for financing the necessary network upgrades. This approach guarantees that users who download or stream large amounts of information pay their fair share toward building and maintaining the infrastructure.",
+    "segment_range": [
+     34,
+     40
+    ],
+    "rouge2_precision": 0.0
+   },
+   {
+    "actor": "Art Brodsky",
+    "key_statement": "Time Warner Cable's fee-based data plan prioritizes protecting inadequate infrastructure over relieving network congestion.",
+    "long_statement": "The proposed plan by Time Warner Cable to charge extra fees for heavy data usage functions as a rationing scheme designed to protect an inadequate infrastructure, rather than a strategy intended to relieve network congestion. This approach limits high-definition movie viewing and other essential content, effectively prioritizing the preservation of limited network capacity over meeting consumer demand for faster speeds and larger data allowances.",
+    "segment_range": [
+     41,
+     49
+    ],
+    "rouge2_precision": 0.2667
    }
   ]
  }

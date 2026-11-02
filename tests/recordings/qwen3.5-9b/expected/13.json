@@ -11,66 +11,62 @@
     "name": "Michael Moore",
     "variations": [
      "Moore"
-    ]
+    ],
+    "kind": "person"
    },
    {
     "name": "Lionsgate Studios",
-    "variations": []
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "Office of Foreign Assets Control",
     "variations": [
-     "OFAC",
-     "agency reports",
-     "Federal investigation by the Treasury department"
-    ]
-   },
-   {
-    "name": "David Boies",
-    "variations": []
+     "agency",
+     "Office of Foreign Assets Control within the United States Department of the Treasury",
+     "Treasury department"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "Health insurance companies",
     "variations": [
      "America's Health Insurance Plans",
      "AHIP"
-    ]
-   },
-   {
-    "name": "Karen Ignagni",
-    "variations": []
+    ],
+    "kind": "organisation"
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "The film contrasts the U.S. healthcare system with international models by highlighting high uninsured rates and profit-driven denials of care.",
-    "long_statement": "The documentary in question contrasts the American healthcare model with systems in other nations, specifically noting that approximately 45 million Americans lack insurance coverage and detailing instances where insured individuals are denied necessary medical treatment due to profit-driven restrictions within the current U.S. system.",
+    "key_statement": "A federal probe into Michael Moore is underway because he recorded a portion of his work in Cuba while criticizing American medical care.",
+    "long_statement": "The U.S. Department of the Treasury's Office of Foreign Assets Control is conducting a federal probe into Michael Moore. This investigation stems from his alleged breach of the enduring ban on Cuba. The violation occurred while he was shooting a portion of his future film, SiCKO. This documentary examines the U.S. healthcare system by contrasting it with those in other countries.",
     "segment_range": [
-     15,
-     38
+     0,
+     28
     ],
-    "rouge2_precision": 0.1111
+    "rouge2_precision": 0.254
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "The documentary SiCKO highlights how 9/11 volunteers denied U.S. aid received free treatment in Cuba.",
+    "long_statement": "The upcoming documentary SiCKO highlights a stark contrast in healthcare access by documenting how volunteer workers who were denied aid from U.S. funds after the September 11 attacks received free treatment in Cuba, where basic medications like inhalers cost a fraction of the price compared to the United States.",
+    "segment_range": [
+     29,
+     39
+    ],
+    "rouge2_precision": 0.2041
    },
    {
     "actor": "Health insurance companies",
-    "key_statement": "Health insurance companies oppose the film's call to adopt foreign healthcare models, defending the necessity of the current American system.",
-    "long_statement": "Major health insurance companies, speaking through their trade association, strongly oppose the documentary's narrative and explicitly reject its proposal to adopt a healthcare system modeled after those in Canada, France, or the United Kingdom, arguing that the current American approach is necessary.",
-    "segment_range": [
-     39,
-     39
-    ],
-    "rouge2_precision": 0.2143
-   },
-   {
-    "actor": "Karen Ignagni",
-    "key_statement": "The head of the health insurance trade group advocates for a unique American solution blending public and private sectors to ensure affordable, high-quality care for all.",
-    "long_statement": "The president of the American health insurance trade group asserts that the nation requires a distinctively American approach to healthcare reform, one that strategically combines public and private sector efforts to ensure every citizen has access to high-quality, affordable medical care.",
+    "key_statement": "Health insurance companies advocate for a uniquely American public-private healthcare solution.",
+    "long_statement": "Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must pursue a uniquely American solution where public and private sectors collaborate to ensure everyone has high-quality, affordable healthcare, rejecting calls for a foreign-style system.",
     "segment_range": [
      40,
      41
     ],
-    "rouge2_precision": 0.1923
+    "rouge2_precision": 0.25
    }
   ]
  }

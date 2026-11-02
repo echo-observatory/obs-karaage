@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-vfmjachswgp389dfgbw8yr",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Rameshwari Photocopy Service\", \"other\": [\"DU's Rameshwari Photocopy Service\", \"The shop\", \"the photocopy service shop\"], \"kind\": \"organisation\", \"segments\": [[1, 2]]}, {\"main\": \"Pradeep Nandrajog\", \"other\": [], \"kind\": \"person\", \"segments\": [[3, 4]]}, {\"main\": \"Yogesh Khanna\", \"other\": [], \"kind\": \"person\", \"segments\": [[3, 4]]}, {\"main\": \"Oxford University Press\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[7, 7]]}, {\"main\": \"Cambridge University Press\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[7, 7]]}, {\"main\": \"Taylor and Francis\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[7, 7]]}, {\"main\": \"Dharam Pal Singh\", \"other\": [\"Dharam Pal\", \"The owner of the photocopy service shop\"], \"kind\": \"person\", \"segments\": [[11, 15], [18, 22]]}, {\"main\": \"Delhi High Court\", \"other\": [\"The bench\", \"The High Court\"], \"kind\": \"organisation\", \"segments\": [[0, 0], [3, 5], [16, 17], [23, 25]]}, {\"main\": \"Justice Rajiv Sahan Endlaw\", \"other\": [\"Justice Endlaw\"], \"kind\": \"person\", \"segments\": [[1, 2], [27, 34]]}, {\"main\": \"Judge Sahani\", \"other\": [], \"kind\": \"person\", \"segments\": [[24, 24]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651750,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 396,
+  "prompt_tokens": 1098,
+  "total_tokens": 1494,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-yllgmnsebspxd4yyvz5tlr",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Tim Kuik\", \"other\": [\"head of BREIN\"], \"kind\": \"person\", \"segments\": [[23, 25]]}, {\"main\": \"BREIN\", \"other\": [\"Dutch non-government copyright oversight organization\"], \"kind\": \"organisation\", \"segments\": [[7, 23]]}, {\"main\": \"Finnish National Bureau of Investigation\", \"other\": [\"Keskusrikospoliisi\", \"KRP\"], \"kind\": \"organisation\", \"segments\": [[26, 84]]}, {\"main\": \"SuprNova.org\", \"other\": [], \"kind\": \"document\", \"segments\": [[27, 45]]}, {\"main\": \"TorrentBits.org\", \"other\": [], \"kind\": \"document\", \"segments\": [[56, 57]]}, {\"main\": \"Delirium Vault\", \"other\": [], \"kind\": \"document\", \"segments\": [[58, 60]]}, {\"main\": \"Youceff Torrents\", \"other\": [], \"kind\": \"document\", \"segments\": [[58, 60]]}, {\"main\": \"Phoenix Torrents\", \"other\": [], \"kind\": \"document\", \"segments\": [[58, 60]]}, {\"main\": \"copyright owners\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[63, 66]]}, {\"main\": \"MPAA\", \"other\": [\"Motion Picture Association of America\", \"trade association representing the interests of major movie studios based in the United States\"], \"kind\": \"organisation\", \"segments\": [[80, 85]]}, {\"main\": \"Bram Cohen\", \"other\": [\"programmer\"], \"kind\": \"person\", \"segments\": [[86, 100]]}, {\"main\": \"MetaMachine\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[95, 100]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650169,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 420,
+  "prompt_tokens": 2183,
+  "total_tokens": 2603,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

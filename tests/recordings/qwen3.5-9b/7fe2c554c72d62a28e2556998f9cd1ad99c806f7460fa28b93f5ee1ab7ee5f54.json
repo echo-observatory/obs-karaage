@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-u4w0ni0r24qw4nj1241g",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Wikipedia\", \"other\": [\"online encyclopedia\", \"page\"], \"kind\": \"organisation\", \"segments\": [[0, 1], [3, 3], [5, 5], [33, 33]]}, {\"main\": \"Stop Online Piracy Act\", \"other\": [\"SOPA\"], \"kind\": \"document\", \"segments\": [[0, 0]]}, {\"main\": \"PROTECT IP Act\", \"other\": [\"PIPA\"], \"kind\": \"document\", \"segments\": [[0, 0]]}, {\"main\": \"Wikimedia Foundation\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[27, 27]]}, {\"main\": \"Sue Gardner\", \"other\": [\"Executive Director of the Wikimedia Foundation\"], \"kind\": \"person\", \"segments\": [[27, 34]]}, {\"main\": \"Jimmy Wales\", \"other\": [\"co-founder of Wikipedia\", \"Wales\"], \"kind\": \"person\", \"segments\": [[35, 47]]}, {\"main\": \"Reddit\", \"other\": [\"social media site\"], \"kind\": \"organisation\", \"segments\": [[16, 16]]}, {\"main\": \"Boing Boing blog\", \"other\": [\"blog\"], \"kind\": \"organisation\", \"segments\": [[16, 16]]}, {\"main\": \"Cheezburger Network\", \"other\": [\"sites owned by\"], \"kind\": \"organisation\", \"segments\": [[16, 16]]}, {\"main\": \"Google\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[17, 18]]}, {\"main\": \"Motion Picture Association of America\", \"other\": [\"MPAA\"], \"kind\": \"organisation\", \"segments\": [[48, 53]]}, {\"main\": \"Chris Dodd\", \"other\": [], \"kind\": \"person\", \"segments\": [[48, 53]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651558,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 421,
+  "prompt_tokens": 1340,
+  "total_tokens": 1761,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

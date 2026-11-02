@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-donsaza00asj81ld1o7m",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"8\": {\"original\": \"BitTorrent is a peer-to-peer file distribution tool written by programmer Bram C\", \"rephrased\": \"The BitTorrent system, developed by programmer Bram Cohen and introduced in 2002, functions as a peer-to-peer file distribution tool that allows users to swap file portions with one another rather than relying on a single centralised server, a design that supports the rapid distribution of new files to large numbers of users across Europe and globally.\", \"summary\": \"BitTorrent is a 2002 peer-to-peer tool designed for rapid, decentralized file distribution.\"}, \"9\": {\"original\": \"eDonkey2000 is a peer-to-peer file sharing application using the Multisource F\", \"rephrased\": \"The eDonkey2000 network, developed by the company MetaMachine using the Multisource File Transfer Protocol, operates as a peer-to-peer file sharing application that encourages permanent sharing to ensure long-term availability, though it is generally less effective than the BitTorrent system in quickly spreading new releases to large user groups.\", \"summary\": \"MetaMachine's eDonkey2000 is a peer-to-peer sharing app prioritizing long-term availability over rapid new release distribution.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650216,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 260,
+  "prompt_tokens": 1920,
+  "total_tokens": 2180,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

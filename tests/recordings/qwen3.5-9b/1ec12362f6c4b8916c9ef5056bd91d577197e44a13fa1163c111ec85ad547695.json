@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-vl9g3doijabbxqehdzeq3j",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Electronic Frontier Foundation\", \"other\": [\"EFF\"], \"kind\": \"organisation\", \"segments\": [[1, 1]]}, {\"main\": \"Seth Schoen\", \"other\": [\"EFF Staff Technologist\"], \"kind\": \"person\", \"segments\": [[2, 2]]}, {\"main\": \"Annalee Newitz\", \"other\": [\"EFF Media Coordinator\"], \"kind\": \"person\", \"segments\": [[3, 3]]}, {\"main\": \"Jack Valenti\", \"other\": [\"president of the Motion Picture Association of America\", \"MPAA president\"], \"kind\": \"person\", \"segments\": [[3, 4]]}, {\"main\": \"Jack Valenti\", \"other\": [], \"kind\": \"person\", \"segments\": [[6, 10]]}, {\"main\": \"Recording Artists' Coalition\", \"other\": [\"RAC\"], \"kind\": \"organisation\", \"segments\": [[15, 15]]}, {\"main\": \"Sheryl Crow\", \"other\": [\"professional singer\", \"Recording Artists' Coalition spokesperson\"], \"kind\": \"person\", \"segments\": [[15, 19]]}, {\"main\": \"US Constitution\", \"other\": [], \"kind\": \"document\", \"segments\": [[17, 20]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650261,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 278,
+  "prompt_tokens": 937,
+  "total_tokens": 1215,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

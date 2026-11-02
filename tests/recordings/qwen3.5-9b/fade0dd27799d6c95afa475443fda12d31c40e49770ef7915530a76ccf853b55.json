@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-x4w1n85yif4cd4fz71y9l",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"On June 3rd, 2008, two major US ISPs announced tests to slow web access for\", \"rephrased\": \"Following the Federal Communications Commission's investigation into data restrictions, two of the largest North American internet service providers, Comcast and Time Warner Cable, announced plans to throttle speeds or charge extra fees for heavy usage, raising concerns that these measures unfairly target consumers to protect network management rather than prioritize user needs.\", \"summary\": \"Two major North American ISPs announced speed throttling and extra fees for heavy users following an FCC investigation, sparking debate over consumer fairness.\"}, \"1\": {\"original\": \"FCC investigation into Comcast's data restrictions sparked a US Congress debate\", \"rephrased\": \"The Federal Communications Commission's inquiry into whether Comcast restricted customers from sharing files has ignited a congressional debate regarding the extent of control internet service providers should have over customer data flow, highlighting a growing conflict between regulatory oversight and corporate network management strategies.\", \"summary\": \"An FCC investigation into Comcast's data restrictions has sparked a congressional debate over how much control internet service providers should have over customer data.\"}, \"2\": {\"original\": \"Comcast practices are discriminatory towards users of legal technology.\", \"rephrased\": \"Comcast's network management practices unfairly discriminate against users of legal technology by specifically targeting customers who utilize file-sharing systems like BitTorrent, even when those users are accessing content they have the right to view, thereby penalizing lawful behavior.\", \"summary\": \"Comcast's network management practices unfairly discriminate against users of legal technology by targeting file-sharing systems.\"}, \"3\": {\"original\": \"Cable companies are scrambling to reduce the appearance of wrongdoing.\", \"rephrased\": \"Facing the threat of regulatory scrutiny, cable companies are frantically devising new strategies to alter their network management approaches, aiming to reduce the appearance of wrongdoing by shifting from blunt throttling to more nuanced, utility-style metered billing models.\", \"summary\": \"Facing regulatory scrutiny, cable companies are shifting from blunt throttling to metered billing models to reduce the appearance of wrongdoing.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651071,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 432,
+  "prompt_tokens": 2027,
+  "total_tokens": 2459,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-a37w849b1yiar23u24t1sh",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Aaron Swartz\", \"other\": [\"fellow at Harvard University's Center for Ethics\", \"open source programmer\", \"Swartz\"], \"kind\": \"person\", \"segments\": [[0, 2], [3, 3], [13, 13], [15, 15]]}, {\"main\": \"JSTOR\", \"other\": [\"academic journal repository\", \"JSTOR\"], \"kind\": \"organisation\", \"segments\": [[3, 3], [7, 7]]}, {\"main\": \"U.S. District Court in Massachusetts\", \"other\": [\"U.S. District Court in Massachusetts\"], \"kind\": \"organisation\", \"segments\": [[9, 9]]}, {\"main\": \"FBI\", \"other\": [\"FBI\"], \"kind\": \"organisation\", \"segments\": [[14, 14]]}, {\"main\": \"Wikimedia Foundation's Board of Trustees\", \"other\": [\"Wikimedia Foundation's Board of Trustees\"], \"kind\": \"organisation\", \"segments\": [[15, 15]]}, {\"main\": \"Greg Maxwell\", \"other\": [\"contributor to Wikipedia and Wikimedia Commons\", \"Maxwell\"], \"kind\": \"person\", \"segments\": [[18, 18]]}, {\"main\": \"The Pirate Bay\", \"other\": [\"The Pirate Bay\"], \"kind\": \"organisation\", \"segments\": [[18, 18]]}, {\"main\": \"Philosophical Transactions of the Royal Society\", \"other\": [\"Philosophical Transactions of the Royal Society\"], \"kind\": \"document\", \"segments\": [[18, 18]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651527,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 350,
+  "prompt_tokens": 881,
+  "total_tokens": 1231,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

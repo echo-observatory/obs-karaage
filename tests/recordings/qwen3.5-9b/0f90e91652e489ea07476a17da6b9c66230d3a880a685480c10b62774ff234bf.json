@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-7n39x965lwks05ldxcyfg",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"The Swedish National Criminal Police\", \"other\": [\"the police\", \"police\"], \"kind\": \"organisation\", \"segments\": [[0, 2], [3, 4], [9, 11], [18, 19], [39, 41], [61, 62]]}, {\"main\": \"The Pirate Bay\", \"other\": [\"the site\", \"the site operators\", \"they\"], \"kind\": \"organisation\", \"segments\": [[0, 1], [6, 7], [13, 14], [22, 23], [33, 34], [36, 37], [44, 46], [50, 52]]}, {\"main\": \"Piratbyrån\", \"other\": [\"the Pirate Bureau\", \"its antagonists\"], \"kind\": \"organisation\", \"segments\": [[0, 1], [22, 23]]}, {\"main\": \"Rickard Falkvinge\", \"other\": [\"head of the Swedish Pirate Party\"], \"kind\": \"person\", \"segments\": [[8, 9], [18, 20]]}, {\"main\": \"The Swedish Pirate Party\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[8, 9]]}, {\"main\": \"The Associated Press\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[10, 11]]}, {\"main\": \"Ulf Goranzon\", \"other\": [\"a police spokesman\"], \"kind\": \"person\", \"segments\": [[11, 11]]}, {\"main\": \"United States media corporations\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[15, 15]]}, {\"main\": \"Sveriges Television\", \"other\": [\"Swedish public broadcaster\"], \"kind\": \"organisation\", \"segments\": [[16, 17]]}, {\"main\": \"The Svenska antipiratbyrån\", \"other\": [\"the Svenska antipiratbyrån\", \"The Antipiratbyrån\", \"the Antipiratbyrån\"], \"kind\": \"organisation\", \"segments\": [[18, 19], [22, 23]]}, {\"main\": \"Tobias Andersson\", \"other\": [\"of Piratbyrån\"], \"kind\": \"person\", \"segments\": [[21, 22]]}, {\"main\": \"The IFPI\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[20, 20]]}, {\"main\": \"Dan Glickman\", \"other\": [\"CEO of the Motion Picture Association of America\", \"CEO of the MPAA\"], \"kind\": \"person\", \"segments\": [[26, 27]]}, {\"main\": \"The Motion Picture Association of America\", \"other\": [\"the MPAA\", \"MPAA\"], \"kind\": \"organisation\", \"segments\": [[26, 27], [28, 29], [30, 31]]}, {\"main\": \"Kori Bernards\", \"other\": [\"an MPAA representative\"], \"kind\": \"person\", \"segments\": [[28, 29]]}, {\"main\": \"Gottfrid Svartholm\", \"other\": [\"owner of webhotel PRQ\", \"Mr. Svartholm\"], \"kind\": \"person\", \"segments\": [[53, 59], [60, 62]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650752,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 765,
+  "prompt_tokens": 1578,
+  "total_tokens": 2343,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

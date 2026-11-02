@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-6c6gjdv0f25nsmv33jglb",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"Ordered ISPs to block five specific copyright-infringing websites (Pirate Bay, 2\", \"rephrased\": \"The Australian Federal Court has mandated that Internet service providers immediately cease access to five specific websites known for distributing unlicensed material, including the Pirate Bay and Torrentz. This ruling represents the first application of new national laws designed to fight digital piracy by legally forcing these access denials and establishing a framework for compensating rights holders. The court set a strict deadline of fifteen business days for the service providers to implement these technical blocks, signaling a decisive shift toward aggressive legal enforcement against online copyright infringement.\", \"summary\": \"The Australian Federal Court mandated ISPs block five specific piracy sites within fifteen days under new national legislation.\"}, \"1\": {\"original\": \"ISPs can choose blocking methods like DNS or IP blocking, while copyright 2\", \"rephrased\": \"While the newly enacted Australian copyright laws require Internet service providers to block infringing domains, the legislation grants these companies the freedom to select their own technical methods, such as blocking DNS entries or specific IP addresses. To facilitate this process, the law mandates that copyright holders compensate the service providers with up to A$50 for each domain blocked, ensuring that the financial burden of implementing these access denials does not fall entirely on the telecommunications companies.\", \"summary\": \"Australian law allows ISPs to choose blocking methods while requiring copyright holders to pay compensation for each blocked domain.\"}, \"2\": {\"original\": \"Peter Tonagh, the chief executive of copyright holders Foxtel said, \\\"This 2\", \"rephrased\": \"Peter Tonagh, the chief executive of the major Australian media company Foxtel, views the recent court ruling as a pivotal moment in the nation's fight against digital theft. He argues that the order to block specific piracy websites serves a dual purpose: it directly disrupts the distribution of stolen content and simultaneously educates the public that accessing material through these unauthorized channels constitutes criminal theft rather than a legitimate service.\", \"summary\": \"Foxtel's CEO views the court ruling as a major step in combating piracy and educating the public that accessing content through these sites is theft.\"}, \"3\": {\"original\": \"Graham Bruke, co-executive of the other copyright holder in the case, Vill 2\", \"rephrased\": \"Graham Bruke, a co-executive for the film studio Village Roadshow, has adopted a highly aggressive rhetorical frame by labeling individuals who download copyrighted material as 'leeches and thieves,' explicitly comparing them to heroin sellers. This strong condemnation underscores the broader strategy of the Australian entertainment industry, which plans to expand the initial court order to block over 50 additional websites, reflecting a deep-seated commitment to treating digital piracy as a severe moral and legal violation.\", \"summary\": \"A copyright executive labeled pirates as 'leeches and thieves' and confirmed plans to block over 50 sites to combat digital theft.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651799,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 611,
+  "prompt_tokens": 1862,
+  "total_tokens": 2473,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

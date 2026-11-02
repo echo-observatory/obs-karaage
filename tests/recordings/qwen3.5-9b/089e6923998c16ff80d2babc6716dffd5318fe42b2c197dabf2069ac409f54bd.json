@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-jowrz69ox281f9adgtim2a",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Danny O'Brien\": [\"Privacy policies currently only describe stored data, not actual collection practices.\", \"Companies storing excessive unanonymized customer data are creating future liability.\", \"EFF provides guides for online service providers on best logging practices.\", \"EFF advocates spreading knowledge on data aggregation and anonymization techniques.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650432,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 62,
+  "prompt_tokens": 1055,
+  "total_tokens": 1117,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

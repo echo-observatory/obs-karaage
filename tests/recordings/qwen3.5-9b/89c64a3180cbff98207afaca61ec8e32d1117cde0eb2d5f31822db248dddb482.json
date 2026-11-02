@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-r8xspo6a6bmrc0sy4qqsa",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"main_point\": \"Following a legal victory where the EFF successfully argued that YouTube-dl's unit tests constitute fair use, Richard Stallman condemns the DMCA and DRM as tools of corporate oppression that stifle user freedom, advocating for a complete elimination of these restrictions in favor of free software principles.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793652870,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 63,
+  "prompt_tokens": 626,
+  "total_tokens": 689,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

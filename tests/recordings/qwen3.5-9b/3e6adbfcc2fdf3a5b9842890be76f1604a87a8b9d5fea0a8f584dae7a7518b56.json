@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-t90f5f0v4yen7oci34a9u",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"rephrased_statement\": \"The U.S. Department of the Treasury's Office of Foreign Assets Control is conducting a federal probe into Michael Moore. This investigation stems from his alleged breach of the enduring ban on Cuba. The violation occurred while he was shooting a portion of his future film, SiCKO. This documentary examines the U.S. healthcare system by contrasting it with those in other countries.\"}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651044,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 83,
+  "prompt_tokens": 214,
+  "total_tokens": 297,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

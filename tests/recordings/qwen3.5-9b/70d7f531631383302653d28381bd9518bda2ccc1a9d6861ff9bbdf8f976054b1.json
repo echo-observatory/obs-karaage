@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-c8wazay7vkxg78gzkbgx",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Interviewer\", \"other\": [], \"kind\": \"person\", \"segments\": [[248, 251], [269, 272]]}, {\"main\": \"Richard Stallman\", \"other\": [\"you\", \"I\", \"we\", \"your\", \"our\", \"they\", \"their\", \"us\", \"me\", \"my\"], \"kind\": \"person\", \"segments\": [[255, 268], [274, 317], [321, 377], [378, 398], [404, 425], [440, 452], [453, 493]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793652819,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 167,
+  "prompt_tokens": 4044,
+  "total_tokens": 4211,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

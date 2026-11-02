@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-nwtmlxw3l6kcfqa724n7vv",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Danny O'Brien\": [\"Broadcast flags create a government-mandated 'ghetto' for content, fencing off devices from the Net and user modification.\", \"These flags cross a Rubicon by establishing a government technological mandate in user tech, paving the way for ever-increasing control.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650441,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 59,
+  "prompt_tokens": 1357,
+  "total_tokens": 1416,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

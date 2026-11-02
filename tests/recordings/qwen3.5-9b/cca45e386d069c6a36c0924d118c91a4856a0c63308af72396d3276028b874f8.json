@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-xcg8gbc3zlepa2xc0qet8h",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"0\": {\"original\": \"restored a trial over copyright infringement claims against DU's photocopy\", \"rephrased\": \"The Delhi High Court has reinstated legal proceedings against the Rameshwari Photocopy Service at Delhi University regarding allegations that distributing course packs violates copyright laws, overturning a previous ruling that had dismissed the charges. This decision shifts the legal focus from an absolute prohibition to a nuanced evaluation of whether the specific distribution practices constitute fair use under Indian law.\", \"summary\": \"The Delhi High Court reinstated copyright infringement proceedings against a university photocopy service, ruling that legality depends on fair use analysis rather than absolute violation.\"}, \"1\": {\"original\": \"The bench restored the case, allowing the photocopy service to continue selling\", \"rephrased\": \"The Delhi High Court bench has restored the copyright infringement case against the Rameshwari Photocopy Service, permitting the shop to continue selling course packs containing copyrighted material from publishers like Oxford University Press, Cambridge University Press, and Taylor and Francis while the legal dispute over fair use is resolved. This interim measure ensures that students retain access to essential study materials during the litigation process.\", \"summary\": \"The Delhi High Court bench restored the copyright case, allowing the photocopy service to continue selling copyrighted course packs pending a final fair use determination.\"}, \"2\": {\"original\": \"The course pack contains only readings professors require or recommend, and\", \"rephrased\": \"The owner of the Rameshwari Photocopy Service at Delhi University argues that the shop's course packs contain only readings explicitly required or recommended by professors, along with only important sections of books, thereby justifying the reproduction of copyrighted material as a necessary educational tool rather than an unauthorized commercial exploitation.\", \"summary\": \"The Rameshwari Photocopy Service owner argues that course packs contain only required readings and important sections, justifying the reproduction of copyrighted material as a necessary educational tool.\"}, \"3\": {\"original\": \"The law in India does not warrant judging course packs by whether they\", \"rephrased\": \"The Delhi High Court bench asserts that Indian law does not warrant judging the legality of course packs by whether they have become textbooks, but rather by considering whether the inclusion of copyrighted works is justified by the specific educational purpose of the course pack. This legal framework requires a purpose-based analysis to determine if the distribution of course packs constitutes fair use or copyright infringement.\", \"summary\": \"The Delhi High Court bench asserts that Indian law requires judging course pack legality based on whether the inclusion of copyrighted works is justified by the educational purpose, rather than by whether the packs have become textbooks.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651767,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 541,
+  "prompt_tokens": 2049,
+  "total_tokens": 2590,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

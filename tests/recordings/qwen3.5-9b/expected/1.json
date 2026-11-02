@@ -11,114 +11,93 @@
     "name": "Tim Kuik",
     "variations": [
      "head of BREIN"
-    ]
-   },
-   {
-    "name": "BREIN",
-    "variations": [
-     "Dutch economic crimes police",
-     "copyright oversight organization"
-    ]
-   },
-   {
-    "name": "Sloncek",
-    "variations": [
-     "18 year-old owner",
-     "owner of SuprNova.org"
-    ]
+    ],
+    "kind": "person"
    },
    {
     "name": "SuprNova.org",
-    "variations": [
-     "SuprNova"
-    ]
+    "variations": [],
+    "kind": null
    },
    {
-    "name": "FinReactor",
-    "variations": []
+    "name": "TorrentBits.org",
+    "variations": [],
+    "kind": null
    },
    {
-    "name": "Finnish National Bureau of Investigation",
-    "variations": [
-     "Keskusrikospoliisi",
-     "KRP"
-    ]
+    "name": "Delirium Vault",
+    "variations": [],
+    "kind": null
+   },
+   {
+    "name": "copyright owners",
+    "variations": [],
+    "kind": "organisation"
    },
    {
     "name": "MPAA",
     "variations": [
-     "Motion Picture Association of America"
-    ]
-   },
-   {
-    "name": "Bram Cohen",
-    "variations": []
+     "Motion Picture Association of America",
+     "trade association representing the interests of major movie studios based in the United States"
+    ],
+    "kind": "organisation"
    },
    {
     "name": "MetaMachine",
-    "variations": []
+    "variations": [],
+    "kind": "organisation"
    }
   ],
   "statements": [
    {
     "actor": "base_author",
-    "key_statement": "European police raids and voluntary closures prove hosting P2P link sites is illegal.",
-    "long_statement": "Across several European nations, including France, the Netherlands, Finland, and Slovenia, law enforcement raids and voluntary operator decisions have recently shut down major BitTorrent and ed2k link sites. These actions demonstrate that hosting such sites is illegal, effectively dismantling the infrastructure despite the operators' previous arguments regarding legal loopholes.",
+    "key_statement": "European police raids and voluntary closures dismantle major P2P link sites, proving hosting is illegal.",
+    "long_statement": "Across several European nations, law enforcement raids and voluntary shutdowns have recently forced major BitTorrent and ed2k link sites offline, effectively dismantling these platforms. This wave of action serves as practical proof that hosting such sites constitutes an illegal act, directly contradicting the operators' previous assertions that they could operate within legal loopholes by avoiding centralized storage of infringing files.",
     "segment_range": [
      0,
-     31
+     26
     ],
-    "rouge2_precision": 0.1875
+    "rouge2_precision": 0.0714
    },
    {
-    "actor": "Sloncek",
-    "key_statement": "The owner of SuprNova.org voluntarily closed the site following legal warnings.",
-    "long_statement": "Sloncek, who is 18 years old and runs the Slovenian website SuprNova.org, chose to turn off the site's links section. This decision came after he got legal notices and saw that administrators from other major peer-to-peer networks had been arrested.",
+    "actor": "SuprNova.org",
+    "key_statement": "SuprNova.org voluntarily closed its BitTorrent links after arrests of other admins and legal warnings.",
+    "long_statement": "Following reports of arrests for administrators of other prominent peer-to-peer sites and receiving formal legal warnings, the operators of the Slovenian-based SuprNova.org decided to voluntarily shut down the section of their website hosting BitTorrent links. While the site's discussion forums and IRC network will remain accessible, the platform will no longer distribute links to copyrighted files, a decision made to avoid further legal consequences in the face of increasing enforcement pressure.",
     "segment_range": [
-     32,
-     41
+     27,
+     45
     ],
-    "rouge2_precision": 0.2727
-   },
-   {
-    "actor": "Sloncek",
-    "key_statement": "The SuprNova.org operator voluntarily closed the site following peer-to-peer admin arrests and legal warnings.",
-    "long_statement": "The operator of the Slovenian-based SuprNova.org link site decided to voluntarily shut down the site's file-sharing section after learning that administrators of other prominent peer-to-peer networks had been arrested and after receiving formal legal warnings from copyright enforcement groups.",
-    "segment_range": [
-     32,
-     41
-    ],
-    "rouge2_precision": 0.2727
+    "rouge2_precision": 0.24
    },
    {
     "actor": "base_author",
-    "key_statement": "The SuprNova.org operator plans to stop hosting BitTorrent links while keeping forums online.",
-    "long_statement": "The operator of the Slovenian-based SuprNova.org link site asserts that the platform will cease distributing BitTorrent files, even though the site's discussion forums and IRC chat network will continue to remain accessible to users.",
+    "key_statement": "The decentralized eXeem project was developed to eliminate reliance on centralized link sites.",
+    "long_statement": "To avoid legal problems linked to centralized link sites, the decentralized BitTorrent project eXeem, created by the makers of SuprNova.org, entered beta in late 2004. This project sought to remove the requirement for outside torrent link sites and trackers. It let users publish and share new files directly on the network without using dedicated servers. This approach tried to fix the legal troubles that caused the shutdown of its parent organization's link site.",
     "segment_range": [
-     42,
-     47
+     46,
+     55
     ],
-    "rouge2_precision": 0.1111
-   },
-   {
-    "actor": "MPAA",
-    "key_statement": "FinReactor, a website based in Finland, has shut down. The MPAA says it is responsible for this closure.",
-    "long_statement": "The Motion Picture Association of America, a trade association representing major American movie studios, has publicly claimed responsibility for the decision by Finnish authorities to raid and shut down the FinReactor link site, although Finnish investigators have officially denied any direct contact or involvement from the American group.",
-    "segment_range": [
-     80,
-     83
-    ],
-    "rouge2_precision": 0.2128
+    "rouge2_precision": 0.1667
    },
    {
     "actor": "base_author",
-    "key_statement": "BitTorrent accelerates file distribution by enabling users to exchange file segments rather than relying on a single centralized server.",
-    "long_statement": "The BitTorrent system, developed by programmer Bram Cohen and introduced in 2002, accelerates file distribution by allowing users to exchange specific file segments with one another instead of downloading entire files from a single centralized server. This decentralized architecture is particularly effective for rapidly spreading new releases to large numbers of people, offering a distinct advantage over traditional peer-to-peer networks that rely on individual users for long-term file availability.",
+    "key_statement": "Police frequently close unproven P2P sites by seizing servers, exploiting the operators' inability to fight legal battles.",
+    "long_statement": "While the legal status of peer-to-peer link sites remains unproven and no such operator has successfully been sued by copyright owners, law enforcement agencies across multiple countries are frequently closing these sites upon receiving accusations of copyright violations. This enforcement strategy relies on the practical reality that seizing the physical servers of these sites effectively destroys them, as the operators are typically volunteers running non-profit services who lack the resources to engage in extended legal disputes.",
     "segment_range": [
-     88,
-     100
+     61,
+     79
     ],
-    "rouge2_precision": 0.1972
+    "rouge2_precision": 0.1026
+   },
+   {
+    "actor": "base_author",
+    "key_statement": "In 2002, BitTorrent launched as a peer-to-peer application built for quick, distributed file sharing.",
+    "long_statement": "The BitTorrent system, developed by programmer Bram Cohen and introduced in 2002, functions as a peer-to-peer file distribution tool that allows users to swap file portions with one another rather than relying on a single centralised server, a design that supports the rapid distribution of new files to large numbers of users across Europe and globally.",
+    "segment_range": [
+     85,
+     94
+    ],
+    "rouge2_precision": 0.2807
    }
   ]
  }

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-i1uv2i5t4amxape4r2y6",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Unknown\": [\"The DMCA 1201 prohibition on distributing tools that break DRM forces users into using forbidden underground devices.\", \"I would eliminate DMCA anti-circumvention laws entirely and go further by making the sale or import of any product with DRM a crime.\", \"DRM is evil, and I refuse to accept or support any system that restricts sharing, which I view as a good thing.\", \"The current copyright system is hypocritical because it supports businesses that screw artists rather than the artists themselves.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793652919,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 108,
+  "prompt_tokens": 1303,
+  "total_tokens": 1411,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-ywrhhjw80dbvdoi29lalyo",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"sources\": [{\"main\": \"Anonymous\", \"other\": [\"the loosely defined online activist group\", \"Operation Baylout\", \"the group\", \"Anon\", \"this group\", \"this assertion\", \"this moralfag personal army\"], \"kind\": \"organisation\", \"segments\": [[0, 1], [2, 4], [23, 23], [27, 28], [40, 42], [59, 59], [67, 68], [75, 76], [77, 77], [78, 79]]}, {\"main\": \"Wikinews\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[1, 1], [47, 47]]}, {\"main\": \"International Federation of the Phonographic Industry\", \"other\": [\"IFPI\", \"this trade body\", \"this trade group\"], \"kind\": \"organisation\", \"segments\": [[4, 4], [15, 15], [24, 24]]}, {\"main\": \"MAQS\", \"other\": [\"a law firm working with the prosecution in the Pirate Bay case\"], \"kind\": \"organisation\", \"segments\": [[4, 4], [5, 8]]}, {\"main\": \"MPAA\", \"other\": [\"the MPAA's anti-piracy office\"], \"kind\": \"organisation\", \"segments\": [[10, 10]]}, {\"main\": \"Monique Wadsted\", \"other\": [\"prosecuting attorney\"], \"kind\": \"person\", \"segments\": [[10, 10]]}, {\"main\": \"Andrew Norton\", \"other\": [\"of Pirate Party International\"], \"kind\": \"person\", \"segments\": [[12, 22]]}, {\"main\": \"Pirate Party International\", \"other\": [\"local pirate parties\"], \"kind\": \"organisation\", \"segments\": [[19, 19]]}, {\"main\": \"Dmitriy Guzner\", \"other\": [\"aged 18\"], \"kind\": \"person\", \"segments\": [[80, 80]]}, {\"main\": \"888chan.org\", \"other\": [\"a message board\", \"where the Baylout raids originated\"], \"kind\": \"document\", \"segments\": [[48, 70]]}]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651126,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 509,
+  "prompt_tokens": 1900,
+  "total_tokens": 2409,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

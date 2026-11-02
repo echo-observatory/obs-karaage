@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-pv9l31o8gxhqkeuoa1q4e",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"4\": {\"original\": \"60% of Sony BMG CDs in the US have copy protection, with a goal to reach 100% by\", \"rephrased\": \"Thomas Hesse, a representative for Sony BMG, states that approximately sixty percent of music compact discs distributed in the United States currently utilize digital rights management software to restrict copying, and the company intends to expand this coverage to include every single disc released in the market by the beginning of 2006. This aggressive expansion of proprietary control measures represents a significant escalation in the industry's approach to protecting intellectual property, even as legal challenges regarding the security risks of the underlying technology intensify.\", \"summary\": \"Sony BMG plans to fully implement copy protection on all US music CDs by early 2006.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793650342,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 167,
+  "prompt_tokens": 1570,
+  "total_tokens": 1737,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-1mcod43ixef697spah5ri9",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"Richard Stallman\": [\"Non-free software is evil because it acts like shackles that users cannot remove, unlike car bonnets which users can open and modify.\", \"Car and tractor manufacturers should be legally required to make embedded software free so users can change the programs.\", \"All software should be free as in freedom; charging money is fine, but distribution must respect user freedom.\", \"Making it a crime to distribute non-free software is ineffective and unjust, as criminalizing dangerous drugs fails to stop their sale.\"]}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793652903,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 104,
+  "prompt_tokens": 1894,
+  "total_tokens": 1998,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}

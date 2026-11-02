@@ -1,0 +1,41 @@
+{
+ "id": "chatcmpl-nlwnvvhgm5abb7kyr6uzfc",
+ "choices": [
+  {
+   "finish_reason": "stop",
+   "index": 0,
+   "logprobs": null,
+   "message": {
+    "content": "{\"8\": {\"original\": \"Basskin argues current Mechanical License Agreements are overly broad, legally 1\", \"rephrased\": \"The current Mechanical Licensing Agreement between the Canadian Recording Industry Association and the collective societies is structured so broadly that it legally prevents any party from refusing to grant a license, while simultaneously requiring record labels to submit quarterly lists of unlicensed works to facilitate royalty collection by the societies.\", \"summary\": \"The current licensing agreement prevents labels from refusing licenses and mandates quarterly pending list submissions for royalty collection.\"}, \"9\": {\"original\": \"Alain Lauzon, SODRAC's General Manager, submitted a followup affidavit on Janu\", \"rephrased\": \"Alain Lauzon, the General Manager of the Society for Reproduction Rights of Authors, Composers and Publishers, formally submitted a follow-up affidavit in January 2009 to join his organization as a plaintiff in the class action lawsuit against major Canadian record labels regarding unpaid royalties.\", \"summary\": \"SODRAC's General Manager formally joined the lawsuit against major record labels as a plaintiff in January 2009.\"}, \"10\": {\"original\": \"Lauzon, a qualified Chartered Accountant with 20+ years of experience, overse\", \"rephrased\": \"Drawing on his expertise as a qualified Chartered Accountant with over two decades of experience managing industry-wide music licensing, Alain Lauzon asserts that his organization represents a significant portion of Canadian musical works and confirms that major record labels bear the legal and customary responsibility for obtaining mechanical licenses.\", \"summary\": \"An expert in music licensing confirms that major labels are legally responsible for obtaining mechanical licenses for Canadian works.\"}, \"11\": {\"original\": \"Lauzon, a qualified Chartered Accountant with over 20 years of experience, r\", \"rephrased\": \"Reinforcing the legal and customary obligation of record labels to secure mechanical licenses, Alain Lauzon, representing the collective society, states with professional confidence that the industry has generally failed to take necessary steps to resolve the persistent problem of unlicensed works.\", \"summary\": \"An industry expert confirms that record labels have generally failed to resolve the problem of unlicensed works.\"}}",
+    "refusal": null,
+    "role": "assistant",
+    "annotations": null,
+    "audio": null,
+    "function_call": null,
+    "tool_calls": [],
+    "reasoning_content": ""
+   }
+  }
+ ],
+ "created": 1793651278,
+ "model": "qwen/qwen3.5-9b",
+ "object": "chat.completion",
+ "metadata": null,
+ "moderation": null,
+ "service_tier": null,
+ "system_fingerprint": "qwen/qwen3.5-9b",
+ "usage": {
+  "completion_tokens": 458,
+  "prompt_tokens": 3133,
+  "total_tokens": 3591,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 0,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": null
+ },
+ "stats": {}
+}
