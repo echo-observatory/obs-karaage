@@ -9,7 +9,8 @@ The decisions behind the restructuring are in [`docs/design-1.1.0.md`](docs/desi
 
 ## Inputs
 
-One English text per document. Karaage does not translate: sources in other languages must be translated beforehand.
+Documents, each with an id and an English text, and optionally a title and a publication date, given to the model as context when it states the text's main point.
+Karaage does not translate: sources in other languages must be translated beforehand.
 
 ## Outputs
 
@@ -59,14 +60,25 @@ The default profile `qwen3.5-9b` uses Qwen3.5 9B with reasoning off; the prompts
 A custom profile is a TOML file shaped like [`src/karaage/profiles/qwen3.5-9b.toml`](src/karaage/profiles/qwen3.5-9b.toml) with a name of its own; outputs label it `custom:<name>`.
 The format is described in [`docs/design-1.1.0.md`](docs/design-1.1.0.md), section 4.2.
 
+## Running
+
+From the command line, on a JSONL file with one document per line (`id`, `text`, and optionally `title` and `published_at`):
+
+```bash
+uv run karaage run --input docs.jsonl --output out/ --report
+```
+
+It writes `out/<id>.json` for each document, and `out/<id>.html` with `--report`. Running the same command again skips the documents that are done, which resumes an interrupted run, and retries the documents that failed.
+`--field FIELD=NAME` reads a field under another name, e.g. `--field published_at=date`. `uv run karaage run --help` lists the options.
+
 From Python:
 
 ```python
 import karaage
 
 resources = karaage.setup()   # or e.g. karaage.setup(backend="openrouter", profile="my-profile.toml")
-result = karaage.run({"id": "doc-1", "text": text}, resources)
-karaage.save(result, data_path="out/doc.json", html_path="out/doc.html")
+result = karaage.run({"id": "doc-1", "text": text, "title": title}, resources)
+karaage.save(result, data_path="out/doc-1.json", html_path="out/doc-1.html")
 ```
 
 `Pipeline usage.ipynb` shows how to run the pipeline on a batch of documents.

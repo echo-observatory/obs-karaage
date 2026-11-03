@@ -7,6 +7,7 @@ import datetime
 import hashlib
 import html as html_lib
 import json
+import os
 import pathlib
 import re
 import unicodedata
@@ -194,10 +195,17 @@ def _slugify(title: str) -> str:
     return re.sub(r'[^\w]+', '-', title.lower()).strip('-')
 
 
-def save_results(dest: pathlib.Path, result: dict) -> None:
+def write_file(dest, text: str) -> None:
+    """Write a file whole or not at all, so that an interrupted run leaves no truncated output."""
     dest = pathlib.Path(dest)
     dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
+    partial = dest.with_name(dest.name + ".partial")
+    partial.write_text(text, encoding="utf-8")
+    os.replace(partial, dest)
+
+
+def save_results(dest: pathlib.Path, result: dict) -> None:
+    write_file(dest, json.dumps(result, indent=2, ensure_ascii=False))
     if verbose:
         print(f"Saved {len(result['statements'])} statements to {dest.resolve()}")
 

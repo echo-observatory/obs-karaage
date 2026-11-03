@@ -1,5 +1,5 @@
 {
- "01eb748f534d3edc5dc2e26f700d3d01219c389fe8fe746f65108418ff665839": {
+ "0520ed2cd56e96af86d20387aa6d8ab06dbe65706bb71ce8c5ad7e8b51a1fab7": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -17,8 +17,8 @@
     }
    }
   ],
-  "created": 1793651748,
-  "id": "chatcmpl-8a3lhfq7ws16qw2u8zo9j",
+  "created": 1793688258,
+  "id": "chatcmpl-t74w5s5a7p2mumaouveu2",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -35,53 +35,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 245,
+   "prompt_tokens": 203,
    "prompt_tokens_details": null,
-   "total_tokens": 260
+   "total_tokens": 218
   }
  },
- "06b3ea120ce993c1f8402432c41206ee3647220ba3e51634be0c4ad53fe2253a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"Activists caution that the U.S. gains a built-in edge in competition against other countries because of ACTA.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651738,
-  "id": "chatcmpl-aiqc8306e7b6ksoiikkhux",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 33,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 177,
-   "prompt_tokens_details": null,
-   "total_tokens": 210
-  }
- },
- "1ae451fba0684e2ab1d1309faec8cd1ed89e796d36905a07168f408fec2b82e6": {
+ "0842699084e59c2ac4a26a7e797c63c5a9fb5b26a2c5c402eeac693041b89cf0": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -99,8 +58,8 @@
     }
    }
   ],
-  "created": 1793651745,
-  "id": "chatcmpl-uejyl6bxivkhfgm4qyne",
+  "created": 1793688260,
+  "id": "chatcmpl-bcsx47yvemu6k0gi4akglt",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -117,12 +76,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 201,
+   "prompt_tokens": 204,
    "prompt_tokens_details": null,
-   "total_tokens": 216
+   "total_tokens": 219
   }
  },
- "1af7275c38cf2430f176a77db5ee20665e29427167998bf988032b8812353777": {
+ "08badaa4860e60a2daffa694ceaa69156e62a9935f0292453bace46a66f429c6": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -131,7 +90,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, arguing that its vague terms threatened internet freedom, privacy, and access to medicines.\"]}",
+     "content": "{\"rephrased_statement\": \"The Obama administration argued that national security issues required the full Anti-Counterfeiting Trade Agreement (ACTA) draft and all connected papers to remain hidden. This decision stopped the public from making Freedom of Information requests.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -140,8 +99,8 @@
     }
    }
   ],
-  "created": 1793651697,
-  "id": "chatcmpl-4dzcnhu8gwud6lxefd6xo",
+  "created": 1793688253,
+  "id": "chatcmpl-54ddsnzsfna1v7jil1ldut",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -150,7 +109,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 45,
+   "completion_tokens": 53,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -158,12 +117,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 754,
+   "prompt_tokens": 198,
    "prompt_tokens_details": null,
-   "total_tokens": 799
+   "total_tokens": 251
   }
  },
- "23c6d6acbbb1369e117374340d2ff5e0fe39de313421d615c73003b44e60d326": {
+ "1360222e9449a6cae06f618c776ca3ea36fa5af0bfe919a37280c06f8d027307": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -172,7 +131,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"main_point\": \"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, arguing that its vague terms threatened internet freedom, privacy, and access to medicines.\"}",
+     "content": "{\"rephrased_statement\": \"During a plenary session, the European Parliament voted to reject the secretive Anti-Counterfeiting Trade Agreement (ACTA). The final tally showed 478 members voting against the legislation, 39 voting in favor, and 165 members abstaining from the decision.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -181,869 +140,8 @@
     }
    }
   ],
-  "created": 1793651687,
-  "id": "chatcmpl-smsdgaecj3t0lrs7ne8fg",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 45,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 910,
-   "prompt_tokens_details": null,
-   "total_tokens": 955
-  }
- },
- "26801b60dfbe4dc15c4748b912cab479d1297792638feee902ebc4cead5a0e34": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"Wikileaks, a whistleblowing website, published a leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA). This action caused an instant public backlash. Activists worried the document contained rules that would heavily limit internet freedom and privacy. The leaked text indicated the agreement would require internet service providers to hand over customer data. It also suggested banning multi-region CD and DVD players. Because of these points, critics labeled the deal a 'Pirate Bay killer' that endangers digital rights.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651739,
-  "id": "chatcmpl-7t4hlcszpnovlujf4hgovj",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 109,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 251,
-   "prompt_tokens_details": null,
-   "total_tokens": 360
-  }
- },
- "280d8835bd977db9ad87d41a8c69c69ce2605ffb6e0d14bd11d7b8f404908478": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"8\": {\"original\": \"described ACTA as 'giving the U.S. a structural competitive advantage over other\", \"rephrased\": \"The Anti-Counterfeiting Trade Agreement (ACTA) is being criticized by international pressure groups for granting the United States a structural competitive advantage over other nations, a dynamic that activists argue undermines global fairness and digital sovereignty. This concern arises because the agreement has already secured signatories from major economies including Australia, Canada, Japan, and the United States, raising fears that the resulting legal framework will disproportionately benefit one country while imposing burdens on others.\", \"summary\": \"Activists warn that ACTA grants the U.S. a structural competitive advantage over other nations.\"}, \"9\": {\"original\": \"leaked draft of ACTA agreement\", \"rephrased\": \"The release of a leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) by the whistleblowing site Wikileaks sparked immediate public outcry, as the document revealed provisions that activists feared would severely restrict internet freedom and privacy. The leaked text suggested that the agreement would force internet service providers to disclose customer information and potentially outlaw multi-region CD and DVD players, leading to the characterization of the deal as a 'Pirate Bay killer' that threatens digital rights.\", \"summary\": \"A leaked draft of ACTA revealed provisions threatening internet freedom and privacy, sparking public outcry.\"}, \"10\": {\"original\": \"document is a 'Pirate Bay killer'\", \"rephrased\": \"Analysts reviewing the leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) concluded that one specific section of the document functions as a 'Pirate Bay killer,' designed to dismantle peer-to-peer file-sharing networks. This assessment highlights the deep concern that the agreement's enforcement mechanisms would criminalize ordinary digital sharing practices, effectively destroying the infrastructure of the modern internet while prioritizing intellectual property protection over user rights.\", \"summary\": \"Analysts characterize the ACTA draft as a 'Pirate Bay killer' that would dismantle peer-to-peer file-sharing.\"}, \"11\": {\"original\": \"draft would force ISPs to provide customer information\", \"rephrased\": \"The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) includes provisions that would legally compel internet service providers to provide 'perfunctory disclosure of customer information' to authorities. This requirement represents a significant expansion of surveillance capabilities, as it mandates the routine handing over of user data, thereby eroding the privacy protections that currently shield individuals from government monitoring and data breaches.\", \"summary\": \"The ACTA draft would force ISPs to provide customer information, eroding privacy protections.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651719,
-  "id": "chatcmpl-mj7fisz67sh4z1gmefqaq",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 545,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1770,
-   "prompt_tokens_details": null,
-   "total_tokens": 2315
-  }
- },
- "2955ee8a95163f2331f1eca2c187091899fad98a0e0b64e0b0c2ff8cfee9fc44": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Electronic Frontier Foundation\": [\"requests for access to 800+ pages of classified ACTA negotiation materials\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651695,
-  "id": "chatcmpl-9txxld1iyzmh1apuc9d12j",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 24,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 801,
-   "prompt_tokens_details": null,
-   "total_tokens": 825
-  }
- },
- "2c89df16fb9ae249821d23c06cfa2caac85885761f9d0dc8103bc5114110c64d": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"sources\": [{\"main\": \"European Parliament\", \"other\": [\"plenary session\"], \"kind\": \"organisation\", \"segments\": [[0, 1]]}, {\"main\": \"activist groups\", \"other\": [\"Pressure and activist groups\"], \"kind\": \"organisation\", \"segments\": [[3, 5]]}, {\"main\": \"Open Rights Group\", \"other\": [\"ORG\", \"the UK's Open Rights Group\"], \"kind\": \"organisation\", \"segments\": [[8, 9]]}, {\"main\": \"Charles Arthur\", \"other\": [\"The Guardian's technology editor\", \"Arthur\"], \"kind\": \"person\", \"segments\": [[15, 22], [24, 24]]}, {\"main\": \"Electronic Frontier Foundation\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[25, 25]]}, {\"main\": \"Obama administration\", \"other\": [\"the Obama administration\"], \"kind\": \"organisation\", \"segments\": [[27, 27]]}, {\"main\": \"Sebastian Nerz\", \"other\": [\"vice-president of the Pirate Party of Germany\"], \"kind\": \"person\", \"segments\": [[29, 29]]}, {\"main\": \"Accessnow.org\", \"other\": [\"US-based pressure group Accessnow.org\"], \"kind\": \"organisation\", \"segments\": [[35, 36]]}, {\"main\": \"Wikileaks\", \"other\": [\"whistleblowing site Wikileaks\"], \"kind\": \"organisation\", \"segments\": [[37, 39]]}]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651679,
-  "id": "chatcmpl-e7jxa4p9ke6zd01i4a8awh",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 331,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1242,
-   "prompt_tokens_details": null,
-   "total_tokens": 1573
-  }
- },
- "2efc48f5fe6b4287e4ef108982e4f0b91f2be4a725edc73b4068a212f8b1411b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651747,
-  "id": "chatcmpl-07li51v8tu88y8dkmoc56y9",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 239,
-   "prompt_tokens_details": null,
-   "total_tokens": 254
-  }
- },
- "40d57e10fe7a630c53e6ea6852323c412d1db2cf0a2259a2f4b7101e9bc85cab": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"European Parliament\": [\"The European Parliament defeated the proposed Anti-Counterfeiting Trade Agreement (ACTA) in a plenary session, with 478 votes against, 39 supporting, and 165 abstentions.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651689,
-  "id": "chatcmpl-cs6ej2507il40rhb761l8g",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 51,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 675,
-   "prompt_tokens_details": null,
-   "total_tokens": 726
-  }
- },
- "4467a00fe32947f4c3b36075950dc6416d5c6bea9471e54529e9148e9ad678b0": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651744,
-  "id": "chatcmpl-ccsc0ybvh4v1191x5hem4a",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 200,
-   "prompt_tokens_details": null,
-   "total_tokens": 215
-  }
- },
- "45521b47418437490fe1b8b84d88afb9fc4ad1329e25d12f8afbbc19b0f905e8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The Electronic Frontier Foundation requested permission to view the classified ACTA papers.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651738,
-  "id": "chatcmpl-v6rgmk5c58ajsp7hq84pjn",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 24,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 170,
-   "prompt_tokens_details": null,
-   "total_tokens": 194
-  }
- },
- "4f27ab87f73677bf0181a66e221021c4c0accca30c9019a83bdb4d15520f2f59": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Obama administration\": [\"asserting that national security concerns justified the entire draft and related documents remaining secret\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651696,
-  "id": "chatcmpl-qpio6haml5q0k7t3v097s6",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 22,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 749,
-   "prompt_tokens_details": null,
-   "total_tokens": 771
-  }
- },
- "54453cb4e7dd8ff9070b3e047111c4e28f7f4af8b9bfe6279fe18d3f0e4b1f4a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"Members of the European Parliament cast a decisive vote against the Anti-Counterfeiting Trade Agreement.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651737,
-  "id": "chatcmpl-cgvjdr2dajfrwj3cvq6f7",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 29,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 223,
-   "prompt_tokens_details": null,
-   "total_tokens": 252
-  }
- },
- "5e017e070bd8379c449779ac2d79abe793f21abbbf6dbda92c5d5a7276db7567": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"The proposed Anti-Counterfeiting Trade Agreement (ACTA) was defeated in a pleny\", \"rephrased\": \"The European Parliament decisively rejected the proposed Anti-Counterfeiting Trade Agreement (ACTA) in a plenary session, casting 478 votes against the legislation while only 39 voted in favor, with 165 members choosing to abstain from the decision.\", \"summary\": \"The European Parliament voted overwhelmingly to reject the Anti-Counterfeiting Trade Agreement.\"}, \"1\": {\"original\": \"attributed success to mobilising the public to bring pressure on MEPs\", \"rephrased\": \"Activist groups across Europe attribute their successful opposition to the Anti-Counterfeiting Trade Agreement (ACTA) to the mobilization of the general public, arguing that widespread public pressure was the decisive factor in convincing Members of the European Parliament to vote against the secretive treaty.\", \"summary\": \"Activist groups credit public mobilization for defeating the Anti-Counterfeiting Trade Agreement.\"}, \"2\": {\"original\": \"cautioned that Karel de Gucht deferred any decision on how the Commission will\", \"rephrased\": \"The UK's Open Rights Group cautions that the European Commission, under the leadership of Trade Commissioner Karel de Gucht, has deferred any decision on how to proceed with the Anti-Counterfeiting Trade Agreement (ACTA) until the European Court of Justice rules on the treaty's compatibility with European law.\", \"summary\": \"The Open Rights Group notes the European Commission has delayed ACTA implementation pending a legal ruling.\"}, \"3\": {\"original\": \"The secretive ACTA provoked massive rallies and a two-million-signature petition\", \"rephrased\": \"The secretive Anti-Counterfeiting Trade Agreement (ACTA) provoked massive public opposition, including widespread rallies and a petition gathering two million signatures, which ultimately contributed to its defeat in the European Parliament.\", \"summary\": \"Massive public opposition and a two-million-signature petition led to ACTA's defeat.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651701,
-  "id": "chatcmpl-v1bgrb06v7qgv6tbhb6tvu",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 428,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1996,
-   "prompt_tokens_details": null,
-   "total_tokens": 2424
-  }
- },
- "609176ca3e9489d239398a0c933654867fea5b73a7f56b05b38a3fa21fb06ac1": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651744,
-  "id": "chatcmpl-wn25kzuqkcwmvnskpfcs7",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 202,
-   "prompt_tokens_details": null,
-   "total_tokens": 217
-  }
- },
- "7af8f173eb17fd644d48636addcaf56da1b43e103a9617b5f7e430e835513b52": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651748,
-  "id": "chatcmpl-a48pkbbi2rhsg5njdx5yzq",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 245,
-   "prompt_tokens_details": null,
-   "total_tokens": 260
-  }
- },
- "92e98ce6c9b709eac221c7af4273f74742aeb9bc0ae412689022ff911eb9caaf": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Open Rights Group\": [\"cautioned that Karel de Gucht deferred any decision on how the Commission will move forward until after a ruling from the European Court of Justice on ACTA's compatibility with European law\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651691,
-  "id": "chatcmpl-06lct586d6wqauxqnpltm",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 45,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 739,
-   "prompt_tokens_details": null,
-   "total_tokens": 784
-  }
- },
- "933204f9aa52bafd66267decb49e092039b2780499a3d389f638e18f42b4c3a6": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651744,
-  "id": "chatcmpl-0icciywm9w1pkqi05teyco",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 216,
-   "prompt_tokens_details": null,
-   "total_tokens": 231
-  }
- },
- "a5687366acd9a49abc18f704859f7c6d04fe66bb3cc999c71cc822f326e90723": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Wikileaks\": [\"leaked draft of ACTA agreement\", \"document is a 'Pirate Bay killer'\", \"draft would force ISPs to provide customer information\", \"draft would likely outlaw multi-region CD/DVD players\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651699,
-  "id": "chatcmpl-3zdqqlshfq5gpcpvj0gc0a",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 46,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 716,
-   "prompt_tokens_details": null,
-   "total_tokens": 762
-  }
- },
- "acdbe3dda6fe31f14f52f723a499258dcece460ee16723ce32cf47dd6ec13048": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651743,
-  "id": "chatcmpl-19xnl1qr0z671d6erb1zsv",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 207,
-   "prompt_tokens_details": null,
-   "total_tokens": 222
-  }
- },
- "b11ef01fcd319484fd75c7e4929f8d4abe85b2764cf5cfcedb34799d1e7f7151": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651747,
-  "id": "chatcmpl-z67qy3xjtmauaoksb8jtnq",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 215,
-   "prompt_tokens_details": null,
-   "total_tokens": 230
-  }
- },
- "bcce54457da573f642e20f37a6d91bb3c10496384ce81c36c159b0f016c77ed3": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The European Parliament voted by a large margin to turn down the Anti-Counterfeiting Trade Agreement.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651736,
-  "id": "chatcmpl-y84as7vv4pblb0aqgqeel",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 30,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 174,
-   "prompt_tokens_details": null,
-   "total_tokens": 204
-  }
- },
- "be2532e6bf1871cf9441e11b2772cb605bfd73ee2f56cc14919402365512f154": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651746,
-  "id": "chatcmpl-a147nzvk24frz289hlnvm",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 190,
-   "prompt_tokens_details": null,
-   "total_tokens": 205
-  }
- },
- "c51470414e34bbb3f5fe4cb502d57d59aa710c2c7647e649125bb97b57eb1dd8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"During a plenary session, the European Parliament voted to reject the proposed Anti-Counterfeiting Trade Agreement (ACTA). The final tally showed 478 members voting against the legislation, 39 voting in favor, and 165 members abstaining from the decision.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651734,
-  "id": "chatcmpl-pwdlm7df1gj3w9c8k91xg",
+  "created": 1793688247,
+  "id": "chatcmpl-btcfydn9om7vdbytnwn9je",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1065,7 +163,7 @@
    "total_tokens": 283
   }
  },
- "cc4a0f745de106d171a5866950b2af4f0607f5485748d5484b41be09a79709e5": {
+ "175be1810bc0da259b277f9c76a8bd2c3b5ecc19deea850d158663cfc84ea1d4": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1074,7 +172,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"activist groups\": [\"attributed success to mobilising the public to bring pressure on MEPs\"]}",
+     "content": "{\"rephrased_statement\": \"Consumer rights and censorship worries would probably cause the treaty's failure, as the leaked ACTA draft might ban multi-region CD/DVD players.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1083,8 +181,8 @@
     }
    }
   ],
-  "created": 1793651690,
-  "id": "chatcmpl-ijisw2ch76dc9t6gabf5n",
+  "created": 1793688257,
+  "id": "chatcmpl-s6yophyx2x9ooslgt53np9",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1093,7 +191,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 22,
+   "completion_tokens": 38,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1101,12 +199,53 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 727,
+   "prompt_tokens": 188,
    "prompt_tokens_details": null,
-   "total_tokens": 749
+   "total_tokens": 226
   }
  },
- "d23a01087bed977cff11c4c3ceabe8b504359546c0924d242598fb697d25a19b": {
+ "1cfa564448b0e67fe0b740899a2ab6414319dc81cf0b384bf3b51459abadf8fb": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, citing concerns over vague copyright laws, internet censorship, and national security overreach.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688209,
+  "id": "chatcmpl-4an3yaw059onj5l3xk8gzh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 45,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 754,
+   "prompt_tokens_details": null,
+   "total_tokens": 799
+  }
+ },
+ "1f1a46065ef2f322d8240b8d6fdc94a8bca4e9218bfc1d9921e8ee6b2d54d2b9": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1124,8 +263,8 @@
     }
    }
   ],
-  "created": 1793651745,
-  "id": "chatcmpl-uqm7uwz6saq8t30ydehmsb",
+  "created": 1793688260,
+  "id": "chatcmpl-fwndsb5f40ix63hr0ocbi",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1147,7 +286,7 @@
    "total_tokens": 294
   }
  },
- "d502a40833de2f7a658eafd8474e063fbdd164a977dcf68da26d6eb42bce85f9": {
+ "2b048033c0cc88e92979b982a784c072b372eaef3b544ff0a5430c0dbc5823ba": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1156,7 +295,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"Charles Arthur\": [\"ACTA's vague terms risked searching travelers' devices for copyright content, while its secrecy fueled public opposition.\"]}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1165,8 +304,8 @@
     }
    }
   ],
-  "created": 1793651694,
-  "id": "chatcmpl-k1rcvxid7xx66eq9nkm4b",
+  "created": 1793688258,
+  "id": "chatcmpl-8rrun89iuv4m0h3ldh4ej",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1175,7 +314,540 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 29,
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 207,
+   "prompt_tokens_details": null,
+   "total_tokens": 222
+  }
+ },
+ "2c89df16fb9ae249821d23c06cfa2caac85885761f9d0dc8103bc5114110c64d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"European Parliament\", \"other\": [\"plenary session\"], \"kind\": \"organisation\", \"segments\": [[0, 1]]}, {\"main\": \"activist groups\", \"other\": [\"Pressure and activist groups\"], \"kind\": \"organisation\", \"segments\": [[3, 5]]}, {\"main\": \"Open Rights Group\", \"other\": [\"ORG\", \"the UK's Open Rights Group\"], \"kind\": \"organisation\", \"segments\": [[8, 9]]}, {\"main\": \"Charles Arthur\", \"other\": [\"The Guardian's technology editor\", \"Arthur\"], \"kind\": \"person\", \"segments\": [[15, 22], [24, 24]]}, {\"main\": \"Electronic Frontier Foundation\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[25, 25]]}, {\"main\": \"Obama administration\", \"other\": [\"the Obama administration\"], \"kind\": \"organisation\", \"segments\": [[27, 27]]}, {\"main\": \"Sebastian Nerz\", \"other\": [\"vice-president of the Pirate Party of Germany\"], \"kind\": \"person\", \"segments\": [[29, 29]]}, {\"main\": \"Accessnow.org\", \"other\": [\"US-based pressure group Accessnow.org\"], \"kind\": \"organisation\", \"segments\": [[35, 36]]}, {\"main\": \"Wikileaks\", \"other\": [\"whistleblowing site Wikileaks\"], \"kind\": \"organisation\", \"segments\": [[37, 39]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688192,
+  "id": "chatcmpl-2yp92tdjhal1cx2v8qottm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 331,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1242,
+   "prompt_tokens_details": null,
+   "total_tokens": 1573
+  }
+ },
+ "2cfb3341e20ade25e9500112b2d884cec1f647bdbf8dfdda7d99504f48250755": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Officials in the Obama administration said the draft ACTA needed to stay hidden because of national security worries.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688255,
+  "id": "chatcmpl-qc7rrjwmbwiwqb3gmehyd7",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 30,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 219,
+   "prompt_tokens_details": null,
+   "total_tokens": 249
+  }
+ },
+ "3d148821451cbf74049178cfee9fa72069e8c8aa85ae6fa8c06ea94c1bc824cc": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"8\": {\"original\": \"described ACTA as 'giving the U.S. a structural competitive advantage over other\", \"rephrased\": \"The Anti-Counterfeiting Trade Agreement (ACTA) is being criticized by international watchdogs for potentially granting the United States a structural competitive advantage over other nations by establishing copyright enforcement standards that favor American digital infrastructure and legal frameworks. This perceived imbalance in global trade rules raises concerns that the agreement could undermine fair competition and digital sovereignty for countries outside the U.S. bloc, particularly as the treaty seeks to expand intellectual property protections beyond current international norms.\", \"summary\": \"Critics warn ACTA grants the U.S. a structural competitive advantage over other nations.\"}, \"9\": {\"original\": \"leaked draft of the agreement\", \"rephrased\": \"The publication of a leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) on the whistleblowing platform Wikileaks exposed provisions that activists argue would severely restrict digital rights and civil liberties. The document revealed plans to compel internet service providers to perform mandatory disclosure of customer data, a measure that digital rights groups contend would enable unprecedented government surveillance and erode user privacy on a global scale.\", \"summary\": \"A leaked draft of ACTA exposed provisions that activists fear would severely restrict digital rights.\"}, \"10\": {\"original\": \"concluded one part was a 'Pirate Bay killer'\", \"rephrased\": \"Analysts reviewing the leaked text of the Anti-Counterfeiting Trade Agreement (ACTA) concluded that specific provisions within the treaty would effectively dismantle the business model of major file-sharing platforms like The Pirate Bay. This assessment highlights the agreement's potential to criminalize peer-to-peer file sharing and impose severe penalties on users, thereby threatening the accessibility of digital content and the freedom of information that such platforms currently provide.\", \"summary\": \"Analysts conclude ACTA provisions would effectively dismantle major file-sharing platforms.\"}, \"11\": {\"original\": \"draft would force ISPs to provide 'perfunctionary disclosure of customer\", \"rephrased\": \"The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) mandates that internet service providers must provide detailed, automatic disclosure of customer information to authorities upon request. Digital rights advocates argue this requirement would force ISPs to act as de facto surveillance tools, compromising user anonymity and enabling mass data collection that could be exploited for political repression or commercial profiling without adequate legal safeguards.\", \"summary\": \"The leaked ACTA draft mandates that ISPs provide detailed customer data to authorities.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688232,
+  "id": "chatcmpl-9oyecvugjamja5vgtb1enl",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 522,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1778,
+   "prompt_tokens_details": null,
+   "total_tokens": 2300
+  }
+ },
+ "439a89088e909fc36137ca44228715cd1f7a27f58e04a57045988383a1ff36ff": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Wikileaks\": [\"leaked draft of the agreement\", \"concluded one part was a 'Pirate Bay killer'\", \"draft would force ISPs to provide 'perfunctionary disclosure of customer information'\", \"draft would 'likely outlaw multi-region CD/DVD players'\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688211,
+  "id": "chatcmpl-iylqr1ewjzbp8ru27wxv0r",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 56,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 716,
+   "prompt_tokens_details": null,
+   "total_tokens": 772
+  }
+ },
+ "4467a00fe32947f4c3b36075950dc6416d5c6bea9471e54529e9148e9ad678b0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688259,
+  "id": "chatcmpl-wiyfnz3o2bk6lbz5rm9nl",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 200,
+   "prompt_tokens_details": null,
+   "total_tokens": 215
+  }
+ },
+ "58a1b18dc8e4547f9081276240f7fe3b8b15661dd34c00c369093d9f9ee07bff": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"12\": {\"original\": \"draft would 'likely outlaw multi-region CD/DVD players'\", \"rephrased\": \"The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) would likely outlaw multi-region CD/DVD players, a restriction that undermines consumer rights and fuels opposition to the treaty's adoption. This specific provision, alongside fears of internet censorship and national security overreach, forms a core part of the argument used by activists to successfully defeat the agreement in the European Parliament.\", \"summary\": \"The leaked ACTA draft would likely outlaw multi-region CD/DVD players, contributing to the treaty's defeat due to concerns over consumer rights and censorship.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688244,
+  "id": "chatcmpl-yu1kx0lih9ovaempfgzah",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 139,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1563,
+   "prompt_tokens_details": null,
+   "total_tokens": 1702
+  }
+ },
+ "5b3af23d882ab40a6f135fe01c38007f36efc2f296936107da7a5eb49acc326c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The secretive Anti-Counterfeiting Trade Agreement (ACTA) provoked massive rallies and a two-million-signature petition before being defeated in the European Parliament.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688205,
+  "id": "chatcmpl-0jkiyx3eq6hqbmwnx6hazhj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 38,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 817,
+   "prompt_tokens_details": null,
+   "total_tokens": 855
+  }
+ },
+ "5b99f6c0e243f621b50a26be7a77e147b567d822a00ee043c6672f080d3e1b22": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The Open Rights Group in the UK warns that Karel de Gucht, who serves as the European Commissioner for Trade, is waiting for a decision from the European Court of Justice. This court must rule on whether the Anti-Counterfeiting Trade Agreement (ACTA) fits within European law before the European Commission can move forward with the deal.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688251,
+  "id": "chatcmpl-60tkuuhsp1tgun3lj41ypn",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 79,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 224,
+   "prompt_tokens_details": null,
+   "total_tokens": 303
+  }
+ },
+ "5d77c15483c80ec455321ed6aaedee4317bcfc481c6f488375c7c1bfb16f8b0a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688262,
+  "id": "chatcmpl-amaf5fs0chv2i0cwvufy",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 238,
+   "prompt_tokens_details": null,
+   "total_tokens": 253
+  }
+ },
+ "6228121f17ff305755d530abd1e76743ab84c78d2f2b4e5f06ce059504c4267a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Open Rights Group\": [\"cautioned that Karel de Gucht deferred any decision on how the Commission will move forward until after a ruling from the European Court of Justice on ACTA's compatibility with European law\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688203,
+  "id": "chatcmpl-gkj4hw9gfznk4l9ellqfe",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 45,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 739,
+   "prompt_tokens_details": null,
+   "total_tokens": 784
+  }
+ },
+ "6a70518b53dffd783793dbb87ed5819b31391118fcc681f7aa6e96adeb6cde6a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688262,
+  "id": "chatcmpl-g4hurm0llyikxgbnllsyb",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 210,
+   "prompt_tokens_details": null,
+   "total_tokens": 225
+  }
+ },
+ "7061a1ffd1c300c1e8e1dca41c4e4379136216340f0ec490d1f72e487e83db82": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688261,
+  "id": "chatcmpl-2e4pu1h977hbea7hjfbb4q",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 234,
+   "prompt_tokens_details": null,
+   "total_tokens": 249
+  }
+ },
+ "748d26fb5c6d9cd8bd1b8fa3a1e04bd9fa0ab701f7629f99d667578ff694cbaf": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Charles Arthur\": [\"ACTA's vague wording risks searching travelers' devices for copyright content, and its secrecy fueled public opposition.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688206,
+  "id": "chatcmpl-qj17l2unzxif3yh80mbe1p",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 28,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1185,10 +857,10 @@
    },
    "prompt_tokens": 822,
    "prompt_tokens_details": null,
-   "total_tokens": 851
+   "total_tokens": 850
   }
  },
- "dacfd5d25d75c8a490407fb97a90b7b93a0d37d2bef76563dc3f85d3bacee82d": {
+ "80ef71a79cb19a5033a1d1882e6372002ff3a38dac0668fd343c513f8927bd8b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1197,7 +869,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"Under the ACTA draft, Internet Service Providers would be compelled to hand over client data, which would weaken privacy safeguards.\"}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1206,8 +878,8 @@
     }
    }
   ],
-  "created": 1793651742,
-  "id": "chatcmpl-a4mmb8cuwg4dsxlvzch",
+  "created": 1793688259,
+  "id": "chatcmpl-sc3vn9twkv40xyqli06ew",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1216,7 +888,89 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 34,
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 219,
+   "prompt_tokens_details": null,
+   "total_tokens": 234
+  }
+ },
+ "80f484a987657c906ed63a11584c67db9acca22965c05d1fcfed20e2bd0bbe47": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Obama administration\": [\"asserting that national security concerns justified the entire draft and related documents remaining secret\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688208,
+  "id": "chatcmpl-25polp034ktlv2qtnppgi",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 22,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 749,
+   "prompt_tokens_details": null,
+   "total_tokens": 771
+  }
+ },
+ "90e8eab8aa12480649920efe519dbcc7b77da1872f53a96b29e903150ae66e6d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The European Parliament voted to reject the secretive Anti-Counterfeiting Trade Agreement by a large margin.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688249,
+  "id": "chatcmpl-o6xaopd73w7uar5pqu8egq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 30,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1226,10 +980,10 @@
    },
    "prompt_tokens": 175,
    "prompt_tokens_details": null,
-   "total_tokens": 209
+   "total_tokens": 205
   }
  },
- "e1ac239a26fd85b27afe515facfef6c128a720bdfdf8ccb257312c3f40918b9c": {
+ "95c23c42572e503a3563a6cbccfffa4bf820c7fe3d8d5c88c7aabbddefb1b0a1": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1238,7 +992,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"4\": {\"original\": \"ACTA's vague terms risked searching travelers' devices for copyright content, wh\", \"rephrased\": \"The secretive Anti-Counterfeiting Trade Agreement (ACTA) failed to gain traction because its poorly defined provisions created unacceptable risks, such as the potential for customs officials to search travelers' electronic devices for copyright-infringing material, while the lack of transparency surrounding its negotiation further alienated the public.\", \"summary\": \"The Anti-Counterfeiting Trade Agreement failed due to vague terms and secrecy.\"}, \"5\": {\"original\": \"requests for access to 800+ pages of classified ACTA negotiation materials\", \"rephrased\": \"The Electronic Frontier Foundation challenged the secrecy of the Anti-Counterfeiting Trade Agreement by demanding access to over 800 pages of negotiation documents, arguing that the vast majority of the material was improperly classified under the guise of national security concerns.\", \"summary\": \"The Electronic Frontier Foundation demanded access to classified ACTA documents.\"}, \"6\": {\"original\": \"asserting that national security concerns justified the entire draft and related\", \"rephrased\": \"Following the transition to the Obama administration, the U.S. government maintained its refusal to release the Anti-Counterfeiting Trade Agreement draft, asserting that national security concerns justified keeping the entire document and all related materials secret from the public.\", \"summary\": \"The Obama administration refused to release the ACTA draft citing national security.\"}, \"7\": {\"original\": \"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreemen\", \"rephrased\": \"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, arguing that its vague terms threatened internet freedom, privacy, and access to medicines, thereby validating the campaign's focus on transparency and civil liberties.\", \"summary\": \"Activists defeated the secretive ACTA in the European Parliament.\"}}",
+     "content": "{\"4\": {\"original\": \"ACTA's vague wording risks searching travelers' devices for copyright content,  \", \"rephrased\": \"The Anti-Counterfeiting Trade Agreement (ACTA) presents significant dangers because its poorly defined legal language could authorize border officials to search electronic devices for copyright infringement, while the secret manner in which the deal was negotiated successfully mobilized public opposition against it.\", \"summary\": \"ACTA's vague wording and secrecy fueled public opposition by risking invasive device searches.\"}, \"5\": {\"original\": \"requests for access to 800+ pages of classified ACTA negotiation materials\", \"rephrased\": \"The Electronic Frontier Foundation argued that the Anti-Counterfeiting Trade Agreement (ACTA) negotiations were improperly conducted by classifying over 800 pages of documents as national security secrets, thereby preventing public scrutiny of the agreement's contents.\", \"summary\": \"The Electronic Frontier Foundation argued that ACTA negotiations were improperly classified to prevent public scrutiny.\"}, \"6\": {\"original\": \"asserting that national security concerns justified the entire draft and related\", \"rephrased\": \"The Obama administration maintained that national security concerns justified keeping the entire Anti-Counterfeiting Trade Agreement (ACTA) draft and all related documents secret, effectively blocking Freedom of Information requests from the public.\", \"summary\": \"The Obama administration maintained that national security concerns justified keeping the ACTA draft secret.\"}, \"7\": {\"original\": \"Activists successfully defeated the secretive Anti-Counterfeiting Trade\", \"rephrased\": \"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, a victory driven by widespread public mobilization against the deal's vague copyright laws, fears of internet censorship, and concerns regarding national security overreach.\", \"summary\": \"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1247,8 +1001,8 @@
     }
    }
   ],
-  "created": 1793651710,
-  "id": "chatcmpl-mn18rnps22smuqg7yyglr",
+  "created": 1793688223,
+  "id": "chatcmpl-4cb0msrc56j8fys3bp5iuq",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1257,7 +1011,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 401,
+   "completion_tokens": 398,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1265,12 +1019,340 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2172,
+   "prompt_tokens": 2171,
    "prompt_tokens_details": null,
-   "total_tokens": 2573
+   "total_tokens": 2569
   }
  },
- "e471ed3ec827424ce99c824cb2bc75fbb4ceb31e2d20eef02563fc1d600c8a6f": {
+ "9cb9852ec5e3e28f526d1f930b02ea34a1c2017e9939a5cc6cf81338b3d9b4a8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, citing concerns over vague copyright laws, internet censorship, and national security overreach.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688199,
+  "id": "chatcmpl-46u835jtw7pqgtzwxs019",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 45,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 936,
+   "prompt_tokens_details": null,
+   "total_tokens": 981
+  }
+ },
+ "aa84bea63da4e1f0160c57e760e44c3f44e2a2e26b1a9f801965c343739fd617": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Electronic Frontier Foundation\": [\"requests for access to 800+ pages of classified ACTA negotiation materials\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688207,
+  "id": "chatcmpl-89pgyasyudk8kwf7p13sf3",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 24,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 801,
+   "prompt_tokens_details": null,
+   "total_tokens": 825
+  }
+ },
+ "b7247721324e60dbe9c84f7c4f5976b8aa1d8a1e3de1a1132a6d79bd04fd4c8f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"European Parliament\": [\"Defeated the Anti-Counterfeiting Trade Agreement (ACTA) in a plenary session with 478 votes against, 39 supporting, and 165 abstentions.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688201,
+  "id": "chatcmpl-hs604hgu9354w6aw8lq8ro",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 47,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 675,
+   "prompt_tokens_details": null,
+   "total_tokens": 722
+  }
+ },
+ "c375292e3072443d38a62c347909f19ca9728390347fcdbc4da3f2ae6700597e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"Defeated the Anti-Counterfeiting Trade Agreement (ACTA) in a plenary session\", \"rephrased\": \"The European Parliament decisively rejected the secretive Anti-Counterfeiting Trade Agreement (ACTA) during a plenary session, casting 478 votes against the legislation while only 39 voted in favor, with 165 members choosing to abstain from the decision.\", \"summary\": \"The European Parliament voted overwhelmingly to reject the secretive Anti-Counterfeiting Trade Agreement.\"}, \"1\": {\"original\": \"attributed success to mobilising the public to bring pressure on MEPs\", \"rephrased\": \"Activist groups across Europe attribute their successful defeat of the Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament to the strategic mobilization of the general public, which generated sufficient pressure on Members of the European Parliament to oppose the controversial trade deal.\", \"summary\": \"Activist groups credit public mobilization for successfully defeating the Anti-Counterfeiting Trade Agreement.\"}, \"2\": {\"original\": \"cautioned that Karel de Gucht deferred any decision on how the Commission will\", \"rephrased\": \"The UK's Open Rights Group cautions that Karel de Gucht, the current European Commissioner for Trade, has deferred any decision on how the European Commission will proceed with the Anti-Counterfeiting Trade Agreement (ACTA) until a ruling is issued by the European Court of Justice regarding the agreement's compatibility with European law.\", \"summary\": \"The Open Rights Group notes the European Commission has delayed ACTA implementation pending a legal ruling.\"}, \"3\": {\"original\": \"The secretive Anti-Counterfeiting Trade Agreement (ACTA) provoked massive\", \"rephrased\": \"The secretive Anti-Counterfeiting Trade Agreement (ACTA) provoked massive public opposition, including rallies and a petition with two million signatures, before being defeated in the European Parliament due to concerns over vague copyright laws, internet censorship, and national security overreach.\", \"summary\": \"Public opposition to the secretive Anti-Counterfeiting Trade Agreement led to its defeat in the European Parliament.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688213,
+  "id": "chatcmpl-3290dqbslk3rg684b4i0h9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 449,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2001,
+   "prompt_tokens_details": null,
+   "total_tokens": 2450
+  }
+ },
+ "c4a24c31c05fa35f2b1de64bd967838abe41de41f77a35d6e5c8b9cb9de32720": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The Obama administration argued that national security issues warranted keeping the ACTA draft confidential.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688254,
+  "id": "chatcmpl-80zy1ssbo065y41eb0jwh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 26,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 174,
+   "prompt_tokens_details": null,
+   "total_tokens": 200
+  }
+ },
+ "c6749a0e7f433016459cf2d54b20256aedaa6d82474628344ab00be8b86acd1c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688263,
+  "id": "chatcmpl-mqb6l9ltumi0sbjq4dqj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 235,
+   "prompt_tokens_details": null,
+   "total_tokens": 250
+  }
+ },
+ "d12aa904c0f1168d7abeebccc8dc040d46d5b7aa2a85f1825d1d1e3e24d29d09": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688261,
+  "id": "chatcmpl-5qzc7vgi1vwkj4vqc0ibx",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 196,
+   "prompt_tokens_details": null,
+   "total_tokens": 211
+  }
+ },
+ "df6f1f2e21902fb4646ee6129419796d62ce216bbf3a850564b662f8b8b4e3ef": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Opponents caution that the agreement provides America with a built-in edge compared to other countries.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688256,
+  "id": "chatcmpl-blx636g46k2r1n3z6uye4",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 28,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 176,
+   "prompt_tokens_details": null,
+   "total_tokens": 204
+  }
+ },
+ "eb02d668c543ee8460b0e374d787fa8d447651253ab78d9469e5f782f276324b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1288,8 +1370,8 @@
     }
    }
   ],
-  "created": 1793651698,
-  "id": "chatcmpl-zyf88qkuerq5hviy0582lp",
+  "created": 1793688210,
+  "id": "chatcmpl-0c2z9zrzeznlczht584ju6u",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1311,48 +1393,7 @@
    "total_tokens": 828
   }
  },
- "f2a9f3794c2805cd5ab673c770cb07e526620c0cf68f97b6f5efd49ed20bc1fe": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"The secretive ACTA provoked massive rallies and a two-million-signature petition before its defeat in the European Parliament.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651693,
-  "id": "chatcmpl-edwi2dvabnhoxo9occiqe",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 29,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 817,
-   "prompt_tokens_details": null,
-   "total_tokens": 846
-  }
- },
- "f94208a76dbc69b2c150a2302564989fa1e514d37ceb19f3902416bef758cfbf": {
+ "eb8190e4c0102c5ff6714118c232257af821ed9d8762230e364a8e7a6bf5e646": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1370,8 +1411,8 @@
     }
    }
   ],
-  "created": 1793651749,
-  "id": "chatcmpl-op7nb5lsxidq3h6hfig7ie",
+  "created": 1793688263,
+  "id": "chatcmpl-y1hq3ojk2rhh7eot9ir5i5",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1388,12 +1429,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 242,
+   "prompt_tokens": 236,
    "prompt_tokens_details": null,
-   "total_tokens": 257
+   "total_tokens": 251
   }
  },
- "f9fb24b537bb6a45013b92ce91f064d713c1067dc1f6e0596fd9b2cabe90be4f": {
+ "ed097ece71d9dbd98f2c204997d4ba33802dc78d7d3cb8083405fb4149c35b73": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1402,7 +1443,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1411,8 +1452,8 @@
     }
    }
   ],
-  "created": 1793651746,
-  "id": "chatcmpl-8ttgiho6radnq2ma9ui3ao",
+  "created": 1793688264,
+  "id": "chatcmpl-k9g9h9a8bstub5yu3rx8fb",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1422,6 +1463,88 @@
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
    "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 249,
+   "prompt_tokens_details": null,
+   "total_tokens": 264
+  }
+ },
+ "f0a06b8c35f4d49f0d43cfb157d96976578b90d63f12ed882d6fd47900389b73": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"activist groups\": [\"attributed success to mobilising the public to bring pressure on MEPs\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688202,
+  "id": "chatcmpl-n36hr5crrzgqggf19kjrw",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 22,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 727,
+   "prompt_tokens_details": null,
+   "total_tokens": 749
+  }
+ },
+ "fbc5424440c9588d9255c34e013a0cf107503f4305b5e9111538af30f5b09a8c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The secretive Anti-Counterfeiting Trade Agreement was turned down by the European Parliament with strong support for rejection.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688250,
+  "id": "chatcmpl-noj6c3mm9pa4ae05fkpkuh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 32,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1431,48 +1554,7 @@
    },
    "prompt_tokens": 224,
    "prompt_tokens_details": null,
-   "total_tokens": 239
-  }
- },
- "fed5313d601d9a34eaced76835e4feee7c88f47e6e6f89eadeb8125fbb13f18b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"12\": {\"original\": \"draft would likely outlaw multi-region CD/DVD players\", \"rephrased\": \"The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) would likely outlaw multi-region CD/DVD players, a restriction that activists argue undermines consumer rights and digital freedom. This specific provision, alongside fears of widespread internet censorship and threats to access to medicines, forms the core of the campaign against the secretive trade deal. Consequently, the agreement's vague terms are viewed as creating legal uncertainty that could disproportionately harm citizens' access to technology and information.\", \"summary\": \"The leaked ACTA draft is criticized for provisions that would outlaw multi-region media players and threaten internet freedom.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651730,
-  "id": "chatcmpl-704l4fnkmbi4w0ayk70qmj",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 146,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1562,
-   "prompt_tokens_details": null,
-   "total_tokens": 1708
+   "total_tokens": 256
   }
  }
 }

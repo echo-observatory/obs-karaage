@@ -1,128 +1,5 @@
 {
- "17b85e2ac829f246a3ed474759592c44ccc87c3f7d972d098ba3b8143276a248": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"main_point\": \"Aaron Swartz, an open source programmer and Harvard fellow, faces federal fraud charges for downloading millions of academic papers from JSTOR, an act that has sparked a public debate over copyright enforcement and access to knowledge.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651535,
-  "id": "chatcmpl-61g3smzvfdkb4dikl5cc7m",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 50,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 549,
-   "prompt_tokens_details": null,
-   "total_tokens": 599
-  }
- },
- "28896752670ba7f4ee9bbf8e754478711064824f99f20c29c4453fb7624d8ff4": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Swartz was released on a $100,000 unsecured bond after pleading not guilty to all charges.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651538,
-  "id": "chatcmpl-etjtnudgr1d921yges6p9",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 32,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 770,
-   "prompt_tokens_details": null,
-   "total_tokens": 802
-  }
- },
- "3272460031346d9675d8ce71a4a3d01445feb159ea0f6a32c95c8a79baeb3bf2": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Aaron Swartz, a Harvard fellow and open source programmer, was arrested and charged with multiple federal fraud counts after downloading two-thirds of JSTOR's academic journal repository by connecting a laptop to the MIT network.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651536,
-  "id": "chatcmpl-xfzo0hztrxoewud2qp22i4",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 49,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 767,
-   "prompt_tokens_details": null,
-   "total_tokens": 816
-  }
- },
- "59cffeffe1365b7277c1241f975d4bf162789c23b31f3bdd416cc76d4e6f4000": {
+ "05255db2b5eaab2bc7a2579a5cab28a67b6228295563995102dc2562b7aca819": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -140,8 +17,8 @@
     }
    }
   ],
-  "created": 1793651557,
-  "id": "chatcmpl-e1gcy9jm4puj349c6bvso",
+  "created": 1793688070,
+  "id": "chatcmpl-vpfj34g9bioa05vur40dqf",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -158,9 +35,132 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 202,
+   "prompt_tokens": 198,
    "prompt_tokens_details": null,
-   "total_tokens": 217
+   "total_tokens": 213
+  }
+ },
+ "297c843c5859aed0d66c324372d92ccd9b89584a4d6c7e0ce904b2c350a68e62": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Aaron Swartz, a Harvard fellow and open source programmer, was arrested and charged with multiple computer crimes after downloading millions of copyrighted academic articles from JSTOR.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688048,
+  "id": "chatcmpl-l9w63meat9i6u9rydvbi4g",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 39,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 772,
+   "prompt_tokens_details": null,
+   "total_tokens": 811
+  }
+ },
+ "4f58f5a023acc0f4e0bd0aa8d37f150375e27e65e004723be017227ce520a51e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Greg Maxwell\": [\"Published a torrent on The Pirate Bay containing 33Gb of pre-1923 Royal Society papers, which are public domain in the U.S. but previously sold by JSTOR.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688052,
+  "id": "chatcmpl-cl0rueg01ggss8chr3p97",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 47,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 763,
+   "prompt_tokens_details": null,
+   "total_tokens": 810
+  }
+ },
+ "56c3411b4cfd63b4d9b07b244efc488ffecf3c952d52c5e046005fe35a09ca89": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"JSTOR\": [\"intend not to pursue civil litigation against Swartz\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688050,
+  "id": "chatcmpl-u5vcxqsirl9ommq65qq1",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 18,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 872,
+   "prompt_tokens_details": null,
+   "total_tokens": 890
   }
  },
  "72b14e536bfd26bd4d4eb6eead9ab626fd6c5a13989eba58b21c31faf2f0969f": {
@@ -181,8 +181,8 @@
     }
    }
   ],
-  "created": 1793651551,
-  "id": "chatcmpl-x3slh0450p3k1t3gc6quj",
+  "created": 1793688065,
+  "id": "chatcmpl-g7qqdzmv6iovwetvibif9",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -204,7 +204,89 @@
    "total_tokens": 217
   }
  },
- "8be47e18420f0a1ed177cc3fa15022869beb69d79e938cf1c5b72b03eb49e159": {
+ "7fcf7b0bdd5518b153a82db9e8d042068d18979c6f55112c52c42f665fd9fbab": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"Aaron Swartz, a Harvard fellow and open source programmer, was arrested and char\", \"rephrased\": \"Aaron Swartz, a Harvard fellow and open source programmer, has been arrested and charged with multiple computer crimes for downloading millions of copyrighted academic articles from JSTOR, an act that has sparked debate over copyright enforcement and digital access to knowledge.\", \"summary\": \"Aaron Swartz faces arrest for downloading millions of copyrighted academic articles from JSTOR.\"}, \"1\": {\"original\": \"intend not to pursue civil litigation against Swartz\", \"rephrased\": \"JSTOR intends not to pursue civil litigation against Aaron Swartz, despite his indictment by the U.S. District Court in Massachusetts for downloading millions of copyrighted academic articles, signaling a strategic choice to avoid further legal escalation while the criminal case proceeds.\", \"summary\": \"JSTOR intends not to pursue civil litigation against Aaron Swartz.\"}, \"2\": {\"original\": \"Swartz was released on a $100,000 unsecured bond after pleading not guilty to\", \"rephrased\": \"Aaron Swartz was released on a $100,000 unsecured bond after pleading not guilty to all charges, including wire fraud and computer fraud, following his arrest for downloading millions of copyrighted academic articles from JSTOR.\", \"summary\": \"Aaron Swartz was released on a $100,000 unsecured bond after pleading not guilty.\"}, \"3\": {\"original\": \"Published a torrent on The Pirate Bay containing 33Gb of pre-1923 Royal Society\", \"rephrased\": \"Greg Maxwell, a contributor to Wikipedia and Wikimedia Commons, has published a torrent on The Pirate Bay containing 33 gigabytes of papers from the Philosophical Transactions of the Royal Society, which are public domain in the United States but previously only available at a cost from JSTOR, drawing a parallel to the legal and ethical questions surrounding Swartz's case.\", \"summary\": \"Greg Maxwell published a torrent of public domain Royal Society papers previously sold by JSTOR.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688053,
+  "id": "chatcmpl-ait3otckxmp2uzpuzn2awk",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 441,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1890,
+   "prompt_tokens_details": null,
+   "total_tokens": 2331
+  }
+ },
+ "a401732e763f897a442299a444b481137b51839cd7a1cd8b7a7b8a0d15064143": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Aaron Swartz was arrested for downloading millions of copyrighted academic articles from JSTOR. He pleaded not guilty to all charges, which included wire fraud and computer fraud. He was released on a $100,000 unsecured bond.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688064,
+  "id": "chatcmpl-h7qxyj7uoydlsfwe4vwy5",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 60,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 206,
+   "prompt_tokens_details": null,
+   "total_tokens": 266
+  }
+ },
+ "aae4cacfa89130c05ddea612a1cd3213110fc7233f8fc7163c1d0d864bf36ba3": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -222,8 +304,8 @@
     }
    }
   ],
-  "created": 1793651556,
-  "id": "chatcmpl-2vel35dgswx4cem3pid7zq",
+  "created": 1793688068,
+  "id": "chatcmpl-sinr8clgzry00y6damgzl",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -240,9 +322,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 294,
+   "prompt_tokens": 293,
    "prompt_tokens_details": null,
-   "total_tokens": 309
+   "total_tokens": 308
   }
  },
  "adc26ed77316d3fb636e3d12f8b1f1d47ef30183b617044e96345a89c8d147f1": {
@@ -263,8 +345,8 @@
     }
    }
   ],
-  "created": 1793651551,
-  "id": "chatcmpl-gfvpgkggc0tes6ey1dd3i8",
+  "created": 1793688063,
+  "id": "chatcmpl-cgspmhxma6l4sc58p7ctn",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -286,7 +368,7 @@
    "total_tokens": 196
   }
  },
- "c62d3cf80ae940ca3d50cb7ce7845e67882e97446c2c6eb17baceed6aa8df220": {
+ "b836556bf50c7715bd4f9fe1b03ce81db18792307ff39aa0b21ec1b7e704042c": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -295,7 +377,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"Greg Maxwell\": [\"Published a torrent on The Pirate Bay containing 33Gb of pre-1923 Royal Society papers previously sold by JSTOR.\"]}",
+     "content": "{\"main_point\": \"Aaron Swartz, an open source programmer and Harvard fellow, has been arrested and charged with multiple computer crimes for downloading millions of copyrighted academic articles from JSTOR, an act that has sparked debate over copyright enforcement and digital access to knowledge.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -304,8 +386,8 @@
     }
    }
   ],
-  "created": 1793651539,
-  "id": "chatcmpl-q4dk36fcelj55dhqnlxzw8",
+  "created": 1793688047,
+  "id": "chatcmpl-6zsh1tv7scmh8q5j6b1fkr",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -314,7 +396,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 36,
+   "completion_tokens": 55,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -322,12 +404,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 758,
+   "prompt_tokens": 578,
    "prompt_tokens_details": null,
-   "total_tokens": 794
+   "total_tokens": 633
   }
  },
- "e184941571973f61f899a22e6412c0604b42707ab69006909921472da5ad9461": {
+ "bff24481ea8f6f9341ca9a4025ba4d6d94b6cc6d9a43ffa3ada03d739c590ada": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -336,7 +418,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"Greg Maxwell uploaded a large collection of Royal Society documents from before 1923 to The Pirate Bay.\"}",
+     "content": "{\"base_author\": [\"Swartz was released on a $100,000 unsecured bond after pleading not guilty to all charges.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -345,8 +427,8 @@
     }
    }
   ],
-  "created": 1793651555,
-  "id": "chatcmpl-u98ukqv5plafb727p97dpp",
+  "created": 1793688051,
+  "id": "chatcmpl-j4ss23ubr3rkfsbskjt52a",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -363,12 +445,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 178,
+   "prompt_tokens": 775,
    "prompt_tokens_details": null,
-   "total_tokens": 210
+   "total_tokens": 807
   }
  },
- "e4146a0bb6b6f01df0396ba5b90e9d36e76fa6d874bd33e11cbc9c18b603f14b": {
+ "c782dbf86ee088afa19d1df9c82780c1b257d1efd642f38da57c1928f96fb1d2": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -377,7 +459,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"Greg Maxwell, who works for Wikipedia and Wikimedia Commons, released a torrent on The Pirate Bay. This file holds 33 gigabytes of documents from the Royal Society that date back before 1923. In the United States, these papers are in the public domain. However, JSTOR used to sell them only. This event shows the conflict between copyright rules and access to old knowledge.\"}",
+     "content": "{\"rephrased_statement\": \"Greg Maxwell, who contributes to Wikipedia and Wikimedia Commons, uploaded a torrent to The Pirate Bay. This file holds 33 gigabytes of documents from the Philosophical Transactions of the Royal Society. These papers are public domain in the United States, yet JSTOR previously sold them for a fee. This situation mirrors the legal and ethical issues found in Swartz's case.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -386,8 +468,8 @@
     }
    }
   ],
-  "created": 1793651552,
-  "id": "chatcmpl-0xk4g0wg7xtf5ql77x1xtvy",
+  "created": 1793688066,
+  "id": "chatcmpl-osb9qujioggte7g43kkazh",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -396,7 +478,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 91,
+   "completion_tokens": 85,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -404,9 +486,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 229,
+   "prompt_tokens": 230,
    "prompt_tokens_details": null,
-   "total_tokens": 320
+   "total_tokens": 315
   }
  },
  "e4a52c5bfe8e146de690a6454338d3e24897e7c984905f03dfd317e133d39338": {
@@ -427,8 +509,8 @@
     }
    }
   ],
-  "created": 1793651527,
-  "id": "chatcmpl-a37w849b1yiar23u24t1sh",
+  "created": 1793688040,
+  "id": "chatcmpl-ir5bxzry5jmpla40q1p0j",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -468,8 +550,8 @@
     }
    }
   ],
-  "created": 1793651556,
-  "id": "chatcmpl-tzvdnjf7n3mb0twyovxeq",
+  "created": 1793688069,
+  "id": "chatcmpl-h23tiaiofurnqhe1pfar1b",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -509,8 +591,8 @@
     }
    }
   ],
-  "created": 1793651557,
-  "id": "chatcmpl-vfbrcg01hzq6jchyobjjrl",
+  "created": 1793688070,
+  "id": "chatcmpl-ol554yq8c4bgdnnks1g7d",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -530,88 +612,6 @@
    "prompt_tokens": 254,
    "prompt_tokens_details": null,
    "total_tokens": 269
-  }
- },
- "f90569d30379326984d6b81a381f001f49f2278f2789fe26424d9cb6e382ed59": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"JSTOR\": [\"intend not to pursue civil litigation against Swartz\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651537,
-  "id": "chatcmpl-rlggtg2yobjf0cw0d96kjh",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 18,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 867,
-   "prompt_tokens_details": null,
-   "total_tokens": 885
-  }
- },
- "fceb88ac23167c575c59868dbd672075067f545a77b4353a0b49aeb60b58cdeb": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"Aaron Swartz, a Harvard fellow and open source programmer, was arrested and char\", \"rephrased\": \"Aaron Swartz, a Harvard fellow and open source programmer, was arrested and charged with multiple federal fraud counts after downloading two-thirds of JSTOR's academic journal repository by connecting a laptop to the MIT network. This legal action stems from the broader debate regarding the enforcement of copyright laws versus public access to scholarly information.\", \"summary\": \"Aaron Swartz faces federal fraud charges for downloading millions of academic papers from JSTOR.\"}, \"1\": {\"original\": \"intend not to pursue civil litigation against Swartz\", \"rephrased\": \"JSTOR intends not to pursue civil litigation against Aaron Swartz, the individual charged with federal fraud for downloading millions of academic papers, choosing instead to rely on the federal government to prosecute the case. This decision reflects a strategic choice to avoid a separate civil lawsuit while the criminal justice system handles the matter.\", \"summary\": \"JSTOR intends not to pursue civil litigation against Aaron Swartz.\"}, \"2\": {\"original\": \"Swartz was released on a $100,000 unsecured bond after pleading not guilty to\", \"rephrased\": \"Aaron Swartz was released on a $100,000 unsecured bond after pleading not guilty to all federal fraud charges, a legal status that allows him to remain free while awaiting trial for the alleged unauthorized downloading of millions of academic papers from JSTOR.\", \"summary\": \"Aaron Swartz was released on a $100,000 unsecured bond after pleading not guilty.\"}, \"3\": {\"original\": \"Published a torrent on The Pirate Bay containing 33Gb of pre-1923 Royal Society\", \"rephrased\": \"Greg Maxwell, a contributor to Wikipedia and Wikimedia Commons, published a torrent on The Pirate Bay containing 33 gigabytes of pre-1923 papers from the Royal Society, which are legally public domain in the United States but were previously sold exclusively by JSTOR. This action highlights the tension between copyright restrictions and the availability of historical knowledge.\", \"summary\": \"Greg Maxwell published a torrent of pre-1923 Royal Society papers on The Pirate Bay.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651540,
-  "id": "chatcmpl-5l33h8znst45l1ip468ty9",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 477,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1884,
-   "prompt_tokens_details": null,
-   "total_tokens": 2361
   }
  }
 }

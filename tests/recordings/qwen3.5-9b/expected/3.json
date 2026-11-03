@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 1876,
  "text_sha256": "6424340432b09d20bbcaedd31df34fabb5efb6fbe7c013f34fc1d7a565eb25e1",
- "main_point": "Protesters staged a symbolic act by having MPAA president Jack Valenti sign Betamax tapes, highlighting the irony that he previously condemned the VCR as a 'Boston strangler' despite the technology's legal protection, drawing a parallel to the current Supreme Court case over digital file-sharing.",
+ "main_point": "As the MGM v. Grokster copyright case proceeds, EFF protesters ironically handed Betamax tapes to MPAA president Jack Valenti, highlighting the hypocrisy of his past support for outlawing VCRs despite the Supreme Court's eventual ruling that such technology was legal.",
  "main_point_method": "single",
  "actors": [
   {
@@ -50,16 +50,16 @@
     "Annalee Newitz",
     "EFF Media Coordinator"
    ],
-   "text": "The Electronic Frontier Foundation's Media Coordinator, Annalee Newitz, requested that Jack Valenti, the former president of the Motion Picture Association of America, sign a Betamax tape during a protest at the US Supreme Court. This symbolic act was designed to underscore the contradiction between Valenti's past characterization of the VCR as a 'Boston strangler' and the technology's eventual legal protection, drawing a parallel to the current dispute over digital file-sharing.",
-   "text_short": "The EFF requested that the former MPAA president sign a Betamax tape to highlight the irony of his past condemnation of the technology versus its current legal protection.",
+   "text": "Annalee Newitz, a media coordinator for the Electronic Frontier Foundation, requested that Jack Valenti, the president of the Motion Picture Association of America, sign a Betamax tape during a protest at the US Supreme Court. This action was designed to highlight the irony of Valenti's current defense of digital file-sharing, given his past testimony before Congress where he had advocated for laws that would have banned the VCR technology he now supports.",
+   "text_short": "An EFF coordinator asked the MPAA president to sign a VCR tape to expose the hypocrisy of his past opposition to home recording technology.",
    "char_start": 208,
    "char_end": 482,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1781,
+    "rouge2_precision": 0.1644,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -69,14 +69,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Jack Valenti, the former president of the Motion Picture Association of America, signed Betamax tapes during a protest, an action that highlighted the irony of his past testimony before Congress where he condemned the VCR as a 'Boston strangler' despite the technology's eventual legal protection. This historical contradiction serves as a parallel to the current Supreme Court case concerning digital file-sharing, suggesting that legal precedents regarding media technology have evolved significantly over time.",
-   "text_short": "Jack Valenti signing Betamax tapes highlighted the irony of his past condemnation of the VCR versus its eventual legal protection, drawing a parallel to the current Supreme Court case over digital file-sharing.",
+   "text": "Jack Valenti, the former president of the Motion Picture Association of America, previously described the VCR as a dangerous threat to the film industry, a stance that contradicts his current support for digital media copying. This shift in position is particularly notable given that the US Supreme Court has already ruled that the VCR technology is legal, suggesting that the industry's opposition to new copying tools may be driven by fear of disruption rather than a consistent legal argument.",
+   "text_short": "The MPAA president's past condemnation of VCRs contrasts with his current support for digital copying, despite the Supreme Court's ruling that such technology is legal.",
    "char_start": 482,
    "char_end": 1458,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.125,
+    "rouge2_precision": 0.1139,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -88,17 +88,17 @@
    "actor_aliases": [
     "US Constitution"
    ],
-   "text": "The original text of the US Constitution's copyright clause states that the purpose of securing exclusive rights to authors and inventors is to promote the progress of science and useful arts, rather than to grant rights for their own sake. This foundational legal principle underpins the current Supreme Court case over digital file-sharing, emphasizing that copyright law is intended to foster public advancement through the dissemination of knowledge.",
-   "text_short": "The copyright provision within the US Constitution highlights a specific goal: to encourage advancement in science and useful arts by ensuring authors hold exclusive rights.",
+   "text": "The US Constitution's copyright clause originally declared that the goal of copyright law is to encourage progress in science and useful arts. It does this by granting authors and inventors exclusive rights for a set period. This core legal rule implies that copyright statutes must be crafted to boost public knowledge and innovation. They should not merely provide endless monopolies to creators or their agents.",
+   "text_short": "The US Constitution defines copyright as a limited-time tool to promote public progress, not as a permanent monopoly for creators.",
    "char_start": 1458,
    "char_end": 1876,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2917,
+    "rouge2_precision": 0.15,
     "paraphrased": true,
     "in_text": "yes",
-    "actor_correct": "yes"
+    "actor_correct": "no"
    }
   },
   {
@@ -107,16 +107,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The current Supreme Court case concerning digital file-sharing relies on a specific legal principle found in the US Constitution. This constitutional provision, known as the copyright clause, declares: 'To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.' Essentially, this text means that copyright law is designed to help society gain new knowledge. It achieves this by providing creators with a temporary monopoly over their specific works, such as writings and discoveries.",
-   "text_short": "The original text of the US Constitution's copyright clause clarifies that the intent of copyright law is to advance public knowledge by temporarily granting exclusive rights to creators.",
+   "text": "The original text of the US Constitution's copyright clause reads: 'To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries;' This phrasing emphasizes that the primary goal of copyright law is to advance the public good through the dissemination of knowledge, rather than to maximize the profits of rights holders indefinitely.",
+   "text_short": "The US Constitution's copyright clause places the advancement of science and arts ahead of the exclusive rights held by authors.",
    "char_start": 1458,
    "char_end": 1876,
    "valid": false,
    "rejection_reason": "too similar to source",
    "diagnostics": {
-    "rouge2_precision": 0.3596,
+    "rouge2_precision": 0.4853,
     "paraphrased": true,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   }

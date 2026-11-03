@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 2609,
  "text_sha256": "75709bbd6fb43e0b3413d61903f8ea4b99740d9eef920b5b95703b1a22a2eb7d",
- "main_point": "The Open Rights Group held its first conference to educate activists on reforming intellectual property laws, emphasizing a shift from 'information wants to be free' to a focus on digital rights management and sustainable copyright systems.",
+ "main_point": "The Open Rights Group held its inaugural conference in London to educate activists on digital rights and advocate for intellectual property reform, emphasizing a shift away from restrictive DRM and piracy toward a sustainable, open-source ecosystem.",
  "main_point_method": "single",
  "actors": [
   {
@@ -45,16 +45,16 @@
     "ORG",
     "Open Rights Group"
    ],
-   "text": "The Open Rights Group, a pressure group dedicated to reforming intellectual property laws in the United Kingdom, organized its inaugural conference to serve as a practical training ground for activists. This event was designed to shift the movement's focus from the abstract ideal that information should be free toward developing sustainable, rights-based systems that balance digital access with legal frameworks.",
-   "text_short": "The Open Rights Group launched an inaugural UK conference to reorient activist efforts toward sustainable intellectual property reform.",
+   "text": "Activists received a crash course in digital rights at ORGCon, the first conference put on by the Open Rights Group. This UK-based pressure group, which works to change intellectual property law, created the event to inspire campaigning. The goal was to move focus away from restrictive digital rights management and piracy, instead promoting a sustainable, open-source ecosystem.",
+   "text_short": "The Open Rights Group held its inaugural conference. This event aimed to teach activists about digital rights and push for changes in intellectual property laws.",
    "char_start": 0,
    "char_end": 519,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2353,
-    "paraphrased": false,
-    "in_text": "no",
+    "rouge2_precision": 0.2917,
+    "paraphrased": true,
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -64,33 +64,34 @@
    "actor_aliases": [
     "Cory Doctorow"
    ],
-   "text": "Digital rights activist Cory Doctorow argues that the prevailing slogan 'information wants to be free' is fundamentally flawed and requires a complete reframing. He contends that the true priority is not artistic expression but rather the implementation of robust control mechanisms within the information network, asserting that the most critical aspect of digital rights involves managing how data is distributed and accessed rather than ensuring it remains costless.",
-   "text_short": "Digital rights activist Cory Doctorow argues that digital rights should prioritize network control over the ideal of free information.",
+   "text": "Digital rights management technologies, which build in limitations on how consumers exchange information, abuse the market by prioritizing network control over the creation and distribution of art. Consequently, the current digital rights framework requires a fundamental reframing to address these structural market distortions.",
+   "text_short": "Digital rights management systems harm the market because they value network control more than art. This situation requires a new way to think about digital rights.",
    "char_start": 519,
    "char_end": 1251,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2239,
-    "paraphrased": false,
+    "rouge2_precision": 0.2857,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
   },
   {
    "id": "20-s3",
-   "actor": "Cory Doctorow",
+   "actor": "James Boyle",
    "actor_aliases": [
-    "Cory Doctorow"
+    "James Boyle",
+    "Boyle"
    ],
-   "text": "In a keynote address, digital rights activist Cory Doctorow asserts that the core concerns of digital rights are entirely distinct from the realm of art. He emphasizes that the primary objective is to reconfigure the underlying information infrastructure to function with necessary limitations, rather than focusing on protecting creative works or ensuring artists receive fair compensation for their output.",
-   "text_short": "Digital rights activist Cory Doctorow asserts that digital rights concerns are distinct from the realm of art.",
-   "char_start": 519,
-   "char_end": 1251,
+   "text": "The current era of intellectual property law resembles the pre-Smithian age of mercantilist monopolies, a period characterized by entrenched market barriers that stifled innovation. Drawing a parallel to the historical breakdown of such monopolies, the argument suggests that the present system is ripe for reform to restore a dynamic, competitive information economy.",
+   "text_short": "The current intellectual property era is compared to the pre-Smithian age of mercantilist monopolies, suggesting a need for systemic reform.",
+   "char_start": 1251,
+   "char_end": 1874,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.25,
+    "rouge2_precision": 0.1,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -98,20 +99,21 @@
   },
   {
    "id": "20-s4",
-   "actor": "Cory Doctorow",
+   "actor": "James Boyle",
    "actor_aliases": [
-    "Cory Doctorow"
+    "James Boyle",
+    "Boyle"
    ],
-   "text": "Digital rights activist Cory Doctorow warns that Digital Rights Management (DRM) technologies fundamentally distort the market by artificially restricting how consumers exchange and share information. He argues that these technological controls create unsustainable barriers to access, effectively abusing market dynamics by preventing the natural flow of digital content that users expect to be able to utilize freely.",
-   "text_short": "Cory Doctorow, who fights for digital rights, argues that DRM systems mess up the market. They do this by stopping people from swapping data with one another.",
-   "char_start": 519,
-   "char_end": 1251,
-   "valid": true,
-   "rejection_reason": null,
+   "text": "A reformed copyright system must be built upon a jaw-droppingly simple idea that can effectively break down the entrenched monopolies of the current legal framework. This call to action emphasizes the necessity of replacing complex, restrictive regulations with a streamlined approach that fosters a sustainable, open-source ecosystem for digital content.",
+   "text_short": "A reformed copyright system must be based on a simple idea to break down entrenched monopolies and foster a sustainable digital ecosystem.",
+   "char_start": 1251,
+   "char_end": 1874,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2143,
-    "paraphrased": true,
-    "in_text": "yes",
+    "rouge2_precision": 0.2745,
+    "paraphrased": false,
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
@@ -122,14 +124,14 @@
     "James Boyle",
     "Boyle"
    ],
-   "text": "The current era of intellectual property law resembles the pre-Smith period of mercantilist monopolies, a historical phase characterized by entrenched market restrictions that stifled innovation and competition. This comparison highlights a critical need to move beyond outdated regulatory frameworks that favor monopoly power over public access to information and knowledge.",
-   "text_short": "The current intellectual property era resembles a historical period of restrictive monopolies that stifled innovation.",
+   "text": "James Boyle, a scholar analyzing the intellectual property landscape, argues that the current system requires urgent reform to restore a moral framework where breaking the law is viewed as wrong, while simultaneously rejecting piracy as a viable solution. This stance supports the broader push for a sustainable, open-source ecosystem that moves away from restrictive digital rights management and unregulated copying, positioning legal reform as the necessary path forward rather than relying on illicit file-sharing.",
+   "text_short": "James Boyle advocates for legal copyright reform and rejects piracy as a solution to restore moral clarity in the digital age.",
    "char_start": 1251,
    "char_end": 1874,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0714,
+    "rouge2_precision": 0.08,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -142,75 +144,35 @@
     "James Boyle",
     "Boyle"
    ],
-   "text": "A reformed copyright system must be grounded in a 'jaw-droppingly simple' concept that effectively balances the rights of creators with the public's need for access, moving away from the complex and often counterproductive legal structures of the past. Such a system should be designed to be intuitive and fair, ensuring that intellectual property laws serve the public good rather than protecting obsolete business models.",
-   "text_short": "A reformed copyright system must be based on a simple, fair concept that balances creator rights with public access.",
+   "text": "James Boyle expresses deep concern that a significant portion of society has forgotten the fundamental moral principle that violating the law is inherently wrong, a loss he attributes to the current rigid and often unjust intellectual property regime. He suggests that without restoring this ethical baseline, the push for digital rights reform will fail to gain public traction, as people will not view copyright infringement as a moral failing but merely as a technical loophole.",
+   "text_short": "James Boyle states that the public no longer grasps the ethical principle that violating the law is incorrect. This loss endangers the achievement of digital rights reform.",
    "char_start": 1251,
    "char_end": 1874,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1667,
-    "paraphrased": false,
+    "rouge2_precision": 0.1154,
+    "paraphrased": true,
     "in_text": "no",
     "actor_correct": "yes"
    }
   },
   {
    "id": "20-s7",
-   "actor": "James Boyle",
-   "actor_aliases": [
-    "James Boyle",
-    "Boyle"
-   ],
-   "text": "The current approach to intellectual property reform must simultaneously support necessary legal changes while firmly opposing digital piracy, recognizing that these two goals are not mutually exclusive. By addressing the root causes of piracy through fair and accessible copyright laws, society can reduce the incentive for illegal downloading without resorting to heavy-handed enforcement measures that alienate the public.",
-   "text_short": "Effective reform requires supporting legal changes while opposing piracy by addressing its root causes through fair laws.",
-   "char_start": 1251,
-   "char_end": 1874,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.0172,
-    "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "20-s8",
-   "actor": "James Boyle",
-   "actor_aliases": [
-    "James Boyle",
-    "Boyle"
-   ],
-   "text": "A significant tragedy in modern society is that an entire generation has lost the fundamental moral understanding that breaking the law is wrong, a shift that has been accelerated by the widespread availability of digital content. This erosion of legal and ethical norms poses a serious challenge to the rule of law and requires a concerted effort to re-educate the public on the importance of respecting legal boundaries in the digital age.",
-   "text_short": "One entire generation no longer grasps the ethical truth that violating legal statutes is incorrect. This shift creates a major threat to the rule of law.",
-   "char_start": 1251,
-   "char_end": 1874,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.1806,
-    "paraphrased": true,
-    "in_text": "no",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "20-s9",
    "actor": "base_author",
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Although the Pirate Party UK sent representatives to the Open Rights Group conference in London, these members did not participate in the main keynote discussions or panel sessions, choosing instead to engage only in a fringe meeting. In contrast, the conference workshops and open forum discussions were dominated by student groups and young activists, who took the lead in shaping the day's debates on intellectual property reform.",
-   "text_short": "Young activists led the workshops. The Pirate Party UK sent representatives to the conference, yet they did not join the important sessions.",
+   "text": "While the Pirate Party UK sent representatives to the inaugural Open Rights Group conference in London, these activists chose not to participate in the main keynote sessions, focusing their efforts instead on fringe meetings and supporting the organization's new initiative to establish youth societies at universities across the country. This dynamic highlights a strategic divergence where the group advocating for total copyright abolition prioritizes grassroots mobilization over direct engagement with the moderate reformers pushing for a balanced, open-source approach to intellectual property.",
+   "text_short": "The Pirate Party UK attended the conference but focused on fringe activities, contrasting with the main organizers' focus on youth recruitment and moderate reform.",
    "char_start": 1874,
    "char_end": 2609,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2381,
-    "paraphrased": true,
-    "in_text": "yes",
+    "rouge2_precision": 0.2174,
+    "paraphrased": false,
+    "in_text": "no",
     "actor_correct": "yes"
    }
   }

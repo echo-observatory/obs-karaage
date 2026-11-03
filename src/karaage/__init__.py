@@ -87,21 +87,35 @@ def setup(*, profile=None, backend=None, base_url=None, api_key=None) -> Resourc
     return Resources(client=client, nlp=nlp, sim_model=sim_model)
 
 
-def read_document(document) -> tuple[str, str]:
-    """The id and text of a document (docs/design-1.1.0.md, section 5)."""
+def read_document(document) -> tuple[str, str, str | None, str | None]:
+    """The id, text, title and publication date of a document (docs/design-1.1.0.md, section 5)."""
     if not isinstance(document, Mapping):
         raise TypeError("run() takes a document: a dict with an 'id' and a 'text'.")
     document_id = document.get("id")
+    if document_id is None:
+        raise ValueError("A document has no id.")
     if isinstance(document_id, bool) or not isinstance(document_id, (str, int)) or document_id == "":
         raise ValueError(f"A document id must be a non-empty string or an integer, not {document_id!r}.")
     text = document.get("text")
+    if text is None:
+        raise ValueError(f"Document {document_id} has no text.")
     if not isinstance(text, str):
         raise ValueError(f"The text of document {document_id} must be a string, not {type(text).__name__}.")
-    return str(document_id), text
+    title = document.get("title")
+    if title is not None and not isinstance(title, str):
+        raise ValueError(f"The title of document {document_id} must be a string, not {type(title).__name__}.")
+    published_at = document.get("published_at")
+    if isinstance(published_at, (datetime.date, datetime.datetime)):
+        published_at = published_at.isoformat()
+    if published_at is not None and not isinstance(published_at, str):
+        raise ValueError(f"The publication date of document {document_id} must be a string or a date, "
+                         f"not {type(published_at).__name__}.")
+    return str(document_id), text, title or None, published_at or None
 
 
 def run(document, resources: Resources) -> PipelineResult:
-    """Process one document: a dict with an `id` (string or integer) and a `text`.
+    """Process one document: a dict with an `id` (string or integer) and a `text`,
+    and optionally a `title` and a `published_at` date, given as context to the main point step.
 
     Never raises on a failing step: the output then has the status `failed`, with the error.
     """
@@ -114,7 +128,7 @@ def run(document, resources: Resources) -> PipelineResult:
     from karaage.validation import step_7_validate
     from karaage.output import STEPS, TOOL, build_output, build_html_report, build_speaker_styles, error, timestamp
 
-    document_id, text = read_document(document)
+    document_id, text, title, published_at = read_document(document)
     llm.activate(resources.client)
     resources.client.start_document()
     step_seconds = {}
@@ -138,7 +152,7 @@ def run(document, resources: Resources) -> PipelineResult:
     segments,       html_seg  = _step("segmentation", lambda: step_1_segment(text, resources.nlp))
     sources,        html_attr = _step("attribution",  lambda: step_2_attribute_authors(segments, model, resources.max_context_tokens))
     passages_list,  html_pass = _step("passages",     lambda: step_3_passages(segments, sources))
-    all_stmts, main_point, html_extr, passage_errors, main_point_method = _step("extraction", lambda: step_4_key_statements(segments, passages_list), n_returns=5)
+    all_stmts, main_point, html_extr, passage_errors, main_point_method = _step("extraction", lambda: step_4_key_statements(segments, passages_list, title, published_at), n_returns=5)
     rephrased,      html_reph = _step("rephrasing",   lambda: step_5_rephrase(all_stmts, passages_list, main_point))
     paraphrased,    html_para = _step("paraphrasing", lambda: step_6_paraphrase(rephrased, resources.embedding_model, resources.sim_model))
     validated,      html_val  = _step("validation",   lambda: step_7_validate(paraphrased))
@@ -214,10 +228,8 @@ def save(
     html_path=None,
 ) -> None:
     """Write the output as JSON to data_path, and the HTML report to html_path. Failed documents are written too."""
-    from karaage.output import save_results
+    from karaage.output import save_results, write_file
+    if html_path is not None:   # before the data, whose ok status tells a rerun the document is done
+        write_file(html_path, result.html_report)
     if data_path is not None:
         save_results(pathlib.Path(data_path), result.data)
-    if html_path is not None:
-        dest = pathlib.Path(html_path)
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_text(result.html_report, encoding="utf-8")

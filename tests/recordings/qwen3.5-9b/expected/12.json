@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 4055,
  "text_sha256": "2a0c8d7b1b3f97137b17af1c8a81bb0b3c049a60df6fbe1cce10e2f398b93799",
- "main_point": "Startup Joost is advancing the Internet TV model by securing content deals with major studios and leveraging peer-to-peer technology to offer free, on-demand programming, aiming to balance consumer flexibility with industry control despite challenges regarding content quality and bandwidth efficiency.",
+ "main_point": "Startup web broadcaster Joost has secured a deal with Warner Brothers to host content, positioning itself as a key player in the emerging online TV market by combining consumer demand for flexibility with industry interests in content control.",
  "main_point_method": "single",
  "actors": [
   {
@@ -127,16 +127,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The startup Joost has secured distribution agreements with major studios, including Warner Brothers, Time Warner, and Sony Pictures Television, to establish itself as a primary aggregator for free, on-demand online television content. This strategic partnership allows the service to balance the entertainment industry's need for content control with consumer demands for flexibility, despite the service currently offering lower-quality programming than traditional cable or satellite providers.",
-   "text_short": "Joost secures major studio deals to balance industry control with consumer flexibility in free online TV.",
+   "text": "The startup web broadcaster Joost has signed a deal with Warner Brothers to host content, a move that establishes the company as a primary aggregator in the developing online television sector by bridging the gap between viewer demand for flexibility and media companies' need for content control.",
+   "text_short": "Joost's partnership with Warner Brothers establishes it as a key aggregator in online TV.",
    "char_start": 0,
    "char_end": 836,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1791,
+    "rouge2_precision": 0.2391,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -148,14 +148,14 @@
     "Internet users",
     "viewers"
    ],
-   "text": "Viewers of the online television service can enhance their experience by interacting with the programming through integrated widgets such as clocks, instant messaging, news feeds, and chat rooms, which can be customized or disabled by the user during viewing sessions.",
-   "text_short": "Users can customize their online TV experience by interacting with programming via optional widgets.",
+   "text": "Viewers of the online television service can interact with programming through integrated widgets such as clocks, instant messaging, news feeds, and chat rooms, while retaining the ability to disable these features if they prefer a standard viewing experience.",
+   "text_short": "Users can interact with online TV programming via customizable widgets.",
    "char_start": 836,
    "char_end": 1097,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1795,
+    "rouge2_precision": 0.1892,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -167,14 +167,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Despite initial legal challenges and a difficult early adoption phase, online broadband peer-to-peer connectivity represents a permanent shift in media distribution that will remain the standard for delivering content to consumers with high-speed internet access.",
-   "text_short": "Broadband peer-to-peer connectivity represents a permanent shift in how media is distributed, even though it faced initial difficulties.",
+   "text": "Despite initial controversies and legal challenges, online broadband peer-to-peer connectivity represents a permanent shift in media distribution that will continue to evolve and reshape how content is delivered to consumers globally.",
+   "text_short": "Media distribution has undergone a permanent change toward online peer-to-peer connectivity.",
    "char_start": 2010,
    "char_end": 2547,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2105,
+    "rouge2_precision": 0.25,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -187,14 +187,14 @@
     "Fredrik de Wahl",
     "Joost chief executive officer"
    ],
-   "text": "The leadership of the startup Joost asserts that the service successfully reconciles the consumer demand for flexible, on-demand viewing with the entertainment industry's requirement to retain control over its intellectual property, creating a viable middle ground for digital television distribution.",
-   "text_short": "Joost leadership claims to successfully balance consumer flexibility with industry content control.",
+   "text": "The leadership of the startup web broadcaster Joost asserts that the service successfully combines the consumer desire for flexible, on-demand viewing with the entertainment industry's requirement to retain control over their intellectual property, creating a viable business model for the future of online television.",
+   "text_short": "Joost's leadership claims to balance consumer flexibility with industry content control.",
    "char_start": 2547,
    "char_end": 2871,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0488,
+    "rouge2_precision": 0.0667,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -207,14 +207,14 @@
     "established subscription cable and satellite distribution channels",
     "free airwave TV"
    ],
-   "text": "Broadcasted television programming of the highest quality is found on established subscription cable and satellite distribution channels. Emerging Internet TV services have not reached this level of fidelity and production value.",
-   "text_short": "Established cable and satellite channels currently offer superior broadcast quality compared to emerging Internet TV services.",
+   "text": "The new online TV platform currently lacks the highest quality programming available through established subscription cable and satellite distribution channels, meaning early users must accept a trade-off between the convenience of web-based viewing and superior broadcast fidelity.",
+   "text_short": "Established subscription cable and satellite distribution channels offer the highest quality programming. The new online TV platform does not have this level of content.",
    "char_start": 2871,
    "char_end": 3124,
    "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "rejection_reason": "too similar to source",
    "diagnostics": {
-    "rouge2_precision": 0.2667,
+    "rouge2_precision": 0.3478,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "no"
@@ -226,14 +226,14 @@
    "actor_aliases": [
     "The 'on-demand' feature"
    ],
-   "text": "Internet TV distribution uses an on-demand feature that saves a lot of network pipeline space. It does this by sending content only when a user asks for it, instead of sending continuous streams to everyone connected.",
-   "text_short": "Internet TV's on-demand feature conserves network bandwidth by delivering content only upon user request.",
+   "text": "Internet TV includes an 'on-demand' option that saves room in the distribution pipeline. This feature also sends data back to the aggregator, showing precisely which items are popular. As a result, it creates a better content distribution model than current systems.",
+   "text_short": "Internet TV includes an 'on-demand' option. This option saves room in the distribution pipeline. It also sends data back to the aggregator. This data shows exactly what content people want.",
    "char_start": 3124,
    "char_end": 3508,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2222,
+    "rouge2_precision": 0.2667,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "no"
@@ -241,19 +241,21 @@
   },
   {
    "id": "12-s7",
-   "actor": "The 'on-demand' feature",
+   "actor": "It",
    "actor_aliases": [
-    "The 'on-demand' feature"
+    "It",
+    "middle-man",
+    "web broadcaster"
    ],
-   "text": "The on-demand feature of Internet TV provides real-time feedback to content aggregators regarding exactly which programs are in demand, allowing for more efficient content management and distribution strategies compared to traditional broadcasting models.",
-   "text_short": "Internet TV's on-demand model provides aggregators with precise data on viewer preferences to optimize content distribution.",
-   "char_start": 3124,
-   "char_end": 3508,
+   "text": "This new web broadcaster model allows a middle-man to negotiate with media conglomerates and handle a stream of content that has not been watched, which helps save network bandwidth.",
+   "text_short": "This new web broadcasting approach allows an intermediary to bargain with media conglomerates and handle a stream of content that has not yet been watched.",
+   "char_start": 3508,
+   "char_end": 3822,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2647,
-    "paraphrased": false,
+    "rouge2_precision": 0.2759,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "no"
    }
@@ -266,38 +268,17 @@
     "middle-man",
     "web broadcaster"
    ],
-   "text": "This new Internet TV approach allows intermediaries to deal straight with media conglomerates and handle a stream full of content that no one watches. This setup saves bandwidth. It also matches what viewers want regarding flexibility with what the industry needs to keep control of its intellectual property.",
-   "text_short": "Middle-men gain power under the Internet TV model. They deal with media conglomerates. They also save bandwidth by handling content that no one watches.",
+   "text": "This web broadcaster allows users to choose free online television shows. The service handles the content deals and serves as a portal to the programs, offering a fresh way for viewers to access them.",
+   "text_short": "This web broadcaster allows users to choose free online television shows based on content deals the service has made.",
    "char_start": 3508,
    "char_end": 3822,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1064,
+    "rouge2_precision": 0.1515,
     "paraphrased": true,
     "in_text": "yes",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "12-s9",
-   "actor": "It",
-   "actor_aliases": [
-    "It",
-    "middle-man",
-    "web broadcaster"
-   ],
-   "text": "The proposed Internet TV model, which relies on peer-to-peer networking to distribute content more efficiently than traditional cable or satellite systems, allows users to access free on-demand programming. This approach is designed to balance consumer flexibility with industry control by enabling a middle-man to negotiate rights with media conglomerates and manage a pipeline of unviewed content, thereby conserving bandwidth while offering a gateway to programs that might otherwise be unavailable or cost money.",
-   "text_short": "The Internet TV model offers free, efficient on-demand programming by leveraging peer-to-peer technology and negotiated content deals.",
-   "char_start": 3508,
-   "char_end": 3822,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.1842,
-    "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "no"
+    "actor_correct": "yes"
    }
   }
  ],

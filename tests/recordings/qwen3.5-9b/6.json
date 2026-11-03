@@ -1,5 +1,5 @@
 {
- "000565b6c09a0085ce1d4a7fc497e80990acf855d5cfe588b3a0791deb1abbe9": {
+ "19df830bee6517624967d26f52e155b5152019c4fef8790368a7bc20ffc8c1c0": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -8,7 +8,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"8\": {\"original\": \"Development on eXeem has since ceased.\", \"rephrased\": \"The development of the decentralized peer-to-peer file sharing project eXeem has permanently halted, a failure attributed to the discovery of malicious adware bundled within the software that damaged its reputation among internet users. This outcome underscores the significant technical and legal hurdles that decentralized alternatives face when attempting to compete with established systems, even when they offer superior architectural advantages by eliminating the need for central servers.\", \"summary\": \"Adware contamination caused the permanent failure of the decentralized file sharing project eXeem, highlighting the difficulties of building such systems.\"}}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -17,90 +17,8 @@
     }
    }
   ],
-  "created": 1793650384,
-  "id": "chatcmpl-pr2eyoxkbpho09vojdfcua",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 130,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1675,
-   "prompt_tokens_details": null,
-   "total_tokens": 1805
-  }
- },
- "007f9ecf6b84db1e8180246efefdcf7dc3d1d04024d9f9c1666d855044dc09e8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Preston's legal team advised him to remain silent during the police interview, and authorities initially planned to forward the case to a prosecutor.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650358,
-  "id": "chatcmpl-3c67vkfztjbibkqqwfi5fb",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 35,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 829,
-   "prompt_tokens_details": null,
-   "total_tokens": 864
-  }
- },
- "09ef17f0428fcc62d506ccd2d9729f539572c3401758d28b1c926a31314a1578": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650389,
-  "id": "chatcmpl-3ztsnuoxy5g3s9cxj8lmji",
+  "created": 1793686878,
+  "id": "chatcmpl-joiw6zko279ny8ur8zoob",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -117,50 +35,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 244,
+   "prompt_tokens": 245,
    "prompt_tokens_details": null,
-   "total_tokens": 259
-  }
- },
- "148807900c2539d9702a0a13cbae3e6d63723a3c99895cbec6f0464070897acf": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Preston's legal case was dropped, and he recovered his seized computers and CDs.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650360,
-  "id": "chatcmpl-umnin0c8vffvpge1kma06g",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 25,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 854,
-   "prompt_tokens_details": null,
-   "total_tokens": 879
+   "total_tokens": 260
   }
  },
  "2a1fd788c6cb273bf7eccdc1d58d71526db5e7aea40d2eafe673fea1acf861b3": {
@@ -181,8 +58,8 @@
     }
    }
   ],
-  "created": 1793650349,
-  "id": "chatcmpl-vwwokayocilre97sw6r33",
+  "created": 1793686844,
+  "id": "chatcmpl-aitz8821y98hjrd1w6y07p",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -204,7 +81,7 @@
    "total_tokens": 1621
   }
  },
- "2fde1c5695ef9abd374c2bfe5fa54afb72ee77e4e0aa4a9926f7a73a11453e57": {
+ "3353236f734ec7d53532eed4a5e53c2868b803f0577877b078ea7b222341bccc": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -213,7 +90,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"BitTorrent requires central servers to track peers, making them vulnerable to legal action and easy to shut down by administrators.\"]}",
+     "content": "{\"4\": {\"original\": \"was thought to be safer than traditional file sharing as files were not hosted\", \"rephrased\": \"The BitTorrent protocol was initially perceived as a legally safer alternative to traditional file sharing systems because it did not rely on centralized servers to host copyrighted files, instead distributing data directly across users' personal computers.\", \"summary\": \"BitTorrent was initially viewed as legally safer than traditional file sharing due to its decentralized nature.\"}, \"5\": {\"original\": \"BitTorrent trackers are legal targets for assisting data distribution, yet\", \"rephrased\": \"While BitTorrent trackers can be legally targeted for assisting in the distribution of data, the administrators of these trackers possess the practical capacity to easily remove specific torrents and halt user downloads, offering a mechanism for legal enforcement.\", \"summary\": \"BitTorrent trackers are legal targets, yet administrators can easily remove torrents to stop downloads.\"}, \"6\": {\"original\": \"eXeem was designed as a completely decentralised network with no centralised\", \"rephrased\": \"The eXeem project was engineered as a completely decentralized peer-to-peer network that eliminated the need for centralized trackers, but its development ultimately ceased following the discovery of embedded Cydoor adware within the software.\", \"summary\": \"eXeem was a decentralized network that ceased development after the discovery of adware.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -222,8 +99,8 @@
     }
    }
   ],
-  "created": 1793650362,
-  "id": "chatcmpl-k75c6rlrhncu2927nlbmyq",
+  "created": 1793686868,
+  "id": "chatcmpl-9t65fzs4jpsbf0c5lzcc0i",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -232,7 +109,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 30,
+   "completion_tokens": 278,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -240,12 +117,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 852,
+   "prompt_tokens": 1987,
    "prompt_tokens_details": null,
-   "total_tokens": 882
+   "total_tokens": 2265
   }
  },
- "5897aa7bd94fb8a5b32199cb9f65eb11624d01c2d161eca687cd1f923b5f43a2": {
+ "4b8ce065cff6d74294c768916632a5b2b2da921582afd2fe6ca9eeacf6309484": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -254,7 +131,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "content": "{\"0\": {\"original\": \"It is time for everybody to know the truth and that it is time for me to stop\\n\\n\", \"rephrased\": \"Andrej Preston, the founder of the now-defunct Suprnova file-sharing site, asserts that it is necessary for the public to learn the full reality of the legal crackdown that forced his service offline, marking a definitive end to his pretense that the events surrounding the police raids and subsequent legal battles never occurred.\", \"summary\": \"Preston demands public acknowledgment of the truth regarding the legal events that shut down his site.\"}, \"1\": {\"original\": \"Preston was called to a police hearing a month after raids, remained silent\\n\\n\", \"rephrased\": \"Following police raids on his residence and the seizure of digital equipment, Andrej Preston was summoned to a formal hearing by authorities, a process during which he chose to remain completely silent and refrain from answering any questions, ultimately resulting in the case being transferred to a prosecutor for further review.\", \"summary\": \"Preston remained silent during a police hearing after his home was raided and evidence was seized.\"}, \"2\": {\"original\": \"Preston felt depressed until he received news that charges were dropped and his\\n\", \"rephrased\": \"After enduring a period of severe depression following the initial police raids and legal proceedings, Andrej Preston received a decisive victory when the prosecutor's office officially dropped all charges against him and returned his seized computers and media files, effectively clearing his name and restoring his property.\", \"summary\": \"Preston's legal troubles ended when charges were dropped and his property was returned.\"}, \"3\": {\"original\": \"uses .torrent metadata files to direct clients to trackers and peers\", \"rephrased\": \"The BitTorrent protocol functions by utilizing small metadata files to instruct client applications on which central servers to contact for locating other users and verifying file integrity, a design that distinguishes it from systems hosting files directly on a central server.\", \"summary\": \"The BitTorrent protocol uses metadata files to direct clients to trackers and peers.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -263,8 +140,8 @@
     }
    }
   ],
-  "created": 1793650390,
-  "id": "chatcmpl-wsx2yx93s7f10ed72vjk4qo",
+  "created": 1793686858,
+  "id": "chatcmpl-k62uq1ct7h9t4x7o02cev",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -273,7 +150,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 434,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -281,12 +158,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 239,
+   "prompt_tokens": 2229,
    "prompt_tokens_details": null,
-   "total_tokens": 254
+   "total_tokens": 2663
   }
  },
- "62adf8ad235bb7caeba3dcf1a13c909c4f7e44e564f8f0dc2bb008617d41ed9e": {
+ "536a40f741de00c530e105de78f73cabb6df175dd0890c4523a95c72f0ef070b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -295,7 +172,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "content": "{\"BitTorrent protocol\": [\"uses .torrent metadata files to direct clients to trackers and peers\", \"was thought to be safer than traditional file sharing as files were not hosted on a centralised server\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -304,8 +181,8 @@
     }
    }
   ],
-  "created": 1793650391,
-  "id": "chatcmpl-oi7q5pkudppyioqmwhh1wq",
+  "created": 1793686854,
+  "id": "chatcmpl-w7ojdkqfm7ib7fk8114ny8",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -314,7 +191,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 41,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -322,12 +199,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 243,
+   "prompt_tokens": 781,
    "prompt_tokens_details": null,
-   "total_tokens": 258
+   "total_tokens": 822
   }
  },
- "67a85bcf513324f2288f5664e14d509b2cd0844a377d25b353fc7b0525fd4d34": {
+ "5ef8c6e8a35f4e33f69fe80801d9c2413980e8825d19f60186d612fe867f1940": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -336,7 +213,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "content": "{\"main_point\": \"Suprnova founder Andrej Preston reveals that his site was shut down after police raids, but he later received good news when the legal charges against him were dropped and his property returned.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -345,8 +222,8 @@
     }
    }
   ],
-  "created": 1793650391,
-  "id": "chatcmpl-5g777bucm1sj4y9aye4ac",
+  "created": 1793686849,
+  "id": "chatcmpl-kw0erheavv01uraidgvjny",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -355,7 +232,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 44,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -363,135 +240,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 246,
+   "prompt_tokens": 1117,
    "prompt_tokens_details": null,
-   "total_tokens": 261
+   "total_tokens": 1161
   }
  },
- "6f8becfb8fb2d5a345a580737d892b8dc1912c5588bc59b4a5cd89bb396c91cb": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650388,
-  "id": "chatcmpl-4hcciudmztnrdn9icafe5i",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 268,
-   "prompt_tokens_details": null,
-   "total_tokens": 283
-  }
- },
- "83344e238cfb61d0e78e6e93a1d21b18922edbe17b09824b40098f23af39dd4a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"It is time for everybody to know the truth and that it is time for me to stop\\n\\n\", \"rephrased\": \"Andrej Preston, the founder of the now-defunct Suprnova file-sharing site, asserts that it is necessary for the public to learn the full details of the legal raid on his servers in 2004, marking a decisive end to his previous attempts to downplay the severity of the incident. This declaration comes as he reflects on the intense pressure from authorities that ultimately forced the closure of his platform, a situation he now feels compelled to address honestly rather than ignore.\", \"summary\": \"Preston demands public transparency regarding the 2004 raid on his file-sharing site to end his pretense of innocence.\"}, \"1\": {\"original\": \"Preston's legal team advised him to remain silent during the police interview, \\n\", \"rephrased\": \"Following the police raid on Andrej Preston's home and the seizure of his computers, his legal counsel advised him to remain completely silent during the subsequent interview with law enforcement, a strategy that was intended to prevent him from incriminating himself while the case was being reviewed by prosecutors.\", \"summary\": \"Preston's lawyers advised him to stay silent during the police interview to avoid self-incrimination.\"}, \"2\": {\"original\": \"Preston's legal case was dropped, and he recovered his seized computers and CDs.\", \"rephrased\": \"After enduring months of legal uncertainty and the seizure of his property, Andrej Preston's case against the police was eventually dropped, allowing him to retrieve his confiscated computers and CDs and effectively ending the legal threat against his file-sharing operations.\", \"summary\": \"Preston's legal case was dropped and he recovered his seized property.\"}, \"3\": {\"original\": \"uses .torrent metadata files to direct clients to trackers and provide\\n\\n\", \"rephrased\": \"The BitTorrent protocol functions by using .torrent metadata files to direct client applications to specific trackers and provide verification data for files, a design that relies on a centralized server to coordinate peer-to-peer sharing and create a potential legal vulnerability for administrators.\", \"summary\": \"The BitTorrent protocol uses metadata files to direct clients to trackers, creating a central point of legal liability.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650365,
-  "id": "chatcmpl-xplrf2pmbfbj7epfo8ia8i",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 482,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2256,
-   "prompt_tokens_details": null,
-   "total_tokens": 2738
-  }
- },
- "90524535759a275f343e7aeff010db35d4bc9064254126533d657e07faafd400": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"main_point\": \"Suprnova founder Andrej Preston reveals that after his site was raided in 2004 and he faced police pressure, the matter was eventually dropped, though his failed attempt to launch a decentralized alternative, eXeem, due to adware issues, highlights the legal and technical challenges of peer-to-peer file sharing.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650355,
-  "id": "chatcmpl-fmzv8ji3nojxlmth4912pb",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 72,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1092,
-   "prompt_tokens_details": null,
-   "total_tokens": 1164
-  }
- },
- "97bbe5267c01035b015cb33d99ffc79b507e804460b3aedb191d9cd45aa162b6": {
+ "61a4e10e02e444a522a3dffcfbeb9e5e86a8808152a14bc64dae4fe8edd8ede4": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -509,8 +263,8 @@
     }
    }
   ],
-  "created": 1793650389,
-  "id": "chatcmpl-y3c4o4alavt2j3cb2yaqq",
+  "created": 1793686876,
+  "id": "chatcmpl-4676jgglfgubajc9bzp394",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -527,53 +281,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 198,
+   "prompt_tokens": 200,
    "prompt_tokens_details": null,
-   "total_tokens": 213
+   "total_tokens": 215
   }
  },
- "98802ed1d85033278decf2e4f66375f0631d5c58e966e8b3948ad319c81d2c72": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"BitTorrent protocol\": [\"uses .torrent metadata files to direct clients to trackers and provide verification data\", \"was thought to be safer legally as files were not hosted on a centralised server but on users' computers\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650361,
-  "id": "chatcmpl-wrtb4qnzckn4fm2buxxm9n",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 45,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 809,
-   "prompt_tokens_details": null,
-   "total_tokens": 854
-  }
- },
- "a57dc4b9b6f9908e63a3ece717113d4919c63774a7933aa2974fa4f658910183": {
+ "656a789e5758e124975c76a007515cba2413ff598069b25c04382abac6fafb36": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -591,8 +304,8 @@
     }
    }
   ],
-  "created": 1793650392,
-  "id": "chatcmpl-147h8twybz8l7aytqkijkx",
+  "created": 1793686877,
+  "id": "chatcmpl-fsyfdqp6ccnpo9und3e41h",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -609,12 +322,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 253,
+   "prompt_tokens": 241,
    "prompt_tokens_details": null,
-   "total_tokens": 268
+   "total_tokens": 256
   }
  },
- "c888fa5b6e90acaf8ed29f216f4861064666401a370ba202eb5bcd1a8d19728b": {
+ "678be2b7f7285ee7614fece6d6a921cc1895c4fa8667097eab29773fe42e94da": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -623,7 +336,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"eXeem\": [\"eXeem was designed as a completely decentralised alternative to BitTorrent, eliminating the need for centralised trackers.\", \"eXeem failed to gain community acceptance after the discovery of bundled Cydoor adware.\", \"Development on eXeem has since ceased.\"]}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -632,8 +345,8 @@
     }
    }
   ],
-  "created": 1793650363,
-  "id": "chatcmpl-5rb043tw9ojqa5xfdofr",
+  "created": 1793686877,
+  "id": "chatcmpl-5a6uvzgeuavsdb07vhymkj",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -642,7 +355,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 60,
+   "completion_tokens": 15,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -650,12 +363,53 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 801,
+   "prompt_tokens": 237,
    "prompt_tokens_details": null,
-   "total_tokens": 861
+   "total_tokens": 252
   }
  },
- "cfcb9192c2d61882e7110a45ea4ddf75637aac101edef6ad6eb2d14b04c342fb": {
+ "6df0627fbc507ab888a67666206be7a4d79ea3168c5bbce3f3c270673bc94bd1": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686875,
+  "id": "chatcmpl-5q1o8gnxcqb6up6rqmbwci",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 326,
+   "prompt_tokens_details": null,
+   "total_tokens": 341
+  }
+ },
+ "7339ea905a6c1aa257eb331bab042af968d2d57d415b34ad5172e488b27b6f35": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -673,8 +427,8 @@
     }
    }
   ],
-  "created": 1793650357,
-  "id": "chatcmpl-poymvx51ugspeqgoghb4vr",
+  "created": 1793686850,
+  "id": "chatcmpl-gkofcvmyoipe15f0t1xr",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -691,12 +445,94 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 835,
+   "prompt_tokens": 807,
    "prompt_tokens_details": null,
-   "total_tokens": 867
+   "total_tokens": 839
   }
  },
- "d0b4fb738cdf826bccf72300a58c92ee74f2bd465e9ce9411b8ad10f23fb4118": {
+ "96ab8f57008275d1f6441e38a572741460a7c4a631b48c3fd5ee4b11d2ae9cd1": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"eXeem\": [\"eXeem was designed as a completely decentralised network with no centralised trackers, but development ceased after the discovery of Cydoor adware.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686856,
+  "id": "chatcmpl-3xqeu85qby2dsk6op9b6h",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 37,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 773,
+   "prompt_tokens_details": null,
+   "total_tokens": 810
+  }
+ },
+ "a14043abad6fc6cf5659406a5e3e3777d16a8dac70833daeeca303b0a4c09a3d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"BitTorrent trackers are legal targets for assisting data distribution, yet administrators can easily remove torrents to stop downloads.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686855,
+  "id": "chatcmpl-1qlgmn9a5999yw57hfa6yc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 28,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 824,
+   "prompt_tokens_details": null,
+   "total_tokens": 852
+  }
+ },
+ "b42d558dc126e9e177652d08631f04f4f5069473885908cc5a51ac63ad443e61": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -714,8 +550,8 @@
     }
    }
   ],
-  "created": 1793650390,
-  "id": "chatcmpl-qwx6ypl7xdhl4yrym8036",
+  "created": 1793686878,
+  "id": "chatcmpl-s3wwy0cpchstheclodz7cc",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -737,7 +573,7 @@
    "total_tokens": 233
   }
  },
- "dbc15fb2a98c6bceb53b1b5563e326a4dc630f5709d35eb6f830aafabd18554f": {
+ "b45f40fba5d7c7a990337e75f9c8dad1890d8de9ac839f90af1c5d19208e7965": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -746,7 +582,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"4\": {\"original\": \"was thought to be safer legally as files were not hosted on a centralised server\", \"rephrased\": \"The BitTorrent protocol was initially perceived as a legally safer method of file sharing because it distributed data directly across users' computers rather than storing copyrighted material on a centralized server, theoretically reducing the risk of legal liability for the network itself.\", \"summary\": \"BitTorrent was initially viewed as legally safer due to its decentralized file storage model.\"}, \"5\": {\"original\": \"BitTorrent requires central servers to track peers, making them vulnerable to\", \"rephrased\": \"Despite its decentralized design, the BitTorrent protocol relies on central servers to coordinate peer connections, creating a critical vulnerability where these administrators can easily remove content and expose the entire network to legal shutdowns.\", \"summary\": \"Centralized tracking servers in BitTorrent create a vulnerability to legal action and content removal.\"}, \"6\": {\"original\": \"eXeem was designed as a completely decentralised alternative to BitTorrent, elim\", \"rephrased\": \"The eXeem project was engineered as a fully decentralized alternative to BitTorrent, aiming to eliminate the need for central servers by having every user's computer act as a tracker to assist others in finding peers within the network.\", \"summary\": \"eXeem was designed as a decentralized alternative to BitTorrent to avoid central server dependencies.\"}, \"7\": {\"original\": \"eXeem failed to gain community acceptance after the discovery of bundled Cydoor\", \"rephrased\": \"Although eXeem offered a decentralized solution to file sharing, the project ultimately failed to gain acceptance within the internet community following the discovery of bundled Cydoor adware, which tainted the software's reputation and halted its development.\", \"summary\": \"eXeem failed to gain community acceptance due to bundled adware issues.\"}}",
+     "content": "{\"base_author\": [\"Preston was called to a police hearing a month after raids, remained silent during the interview, and was told the case would go to a prosecutor.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -755,8 +591,8 @@
     }
    }
   ],
-  "created": 1793650376,
-  "id": "chatcmpl-mbogr8grb3omrnq4u9qm5",
+  "created": 1793686851,
+  "id": "chatcmpl-wcz2wnf9z38edc7905n57g",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -765,7 +601,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 382,
+   "completion_tokens": 38,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -773,12 +609,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2066,
+   "prompt_tokens": 801,
    "prompt_tokens_details": null,
-   "total_tokens": 2448
+   "total_tokens": 839
   }
  },
- "e3ffe3e16d1d2312b123b83582b40c84e96e85bb715b4157b01bbfb2114fab18": {
+ "c02d0fd8429f0c6c6eedf21c8ed1fc4ae322c652654ef2edafb25a0eb6f30444": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -787,7 +623,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"rephrased_statement\": \"BitTorrent relies on metadata files to guide clients toward trackers and peers.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -796,8 +632,49 @@
     }
    }
   ],
-  "created": 1793650388,
-  "id": "chatcmpl-ecpldyhdf0c2lxkh6l9a3",
+  "created": 1793686875,
+  "id": "chatcmpl-mryf3ela0afs56f8i3g4w",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 24,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 173,
+   "prompt_tokens_details": null,
+   "total_tokens": 197
+  }
+ },
+ "c49837c72446ec027c91cb6f4481ae81ef2fae63e8357a0d4fb9c6dd312ec342": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686876,
+  "id": "chatcmpl-odn40kkujb9bfavi2pmiq",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -814,9 +691,50 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 334,
+   "prompt_tokens": 266,
    "prompt_tokens_details": null,
-   "total_tokens": 349
+   "total_tokens": 281
+  }
+ },
+ "d68d818a845f201fece9fa9243d4f6c7903328e16af5207a33485d0c37338f2c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Preston felt depressed until he received news that charges were dropped and his property returned.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686853,
+  "id": "chatcmpl-hle31kq7p47vxwr4buwbk",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 25,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 826,
+   "prompt_tokens_details": null,
+   "total_tokens": 851
   }
  }
 }

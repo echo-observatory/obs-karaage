@@ -23,24 +23,7 @@ import pytest
 
 import karaage
 from karaage import extraction
-from conftest import ARTICLE_IDS, PROFILE, RECORDINGS, check_output
-
-EXPECTED = RECORDINGS / PROFILE / "expected"
-
-# What changes between runs: the version, the time, and the build LM Studio reports, which replay doesn't know.
-VOLATILE = ("version", "commit", "inferred_at", "step_seconds", "model_build")
-
-# An invented text, for tests that need no recorded response.
-INVENTED_TEXT = (
-    "The town council voted on Monday to close the old library. "
-    "Mayor Jane Doe said the building was too expensive to repair, "
-    "and that a new library would open next to the school within two years."
-)
-
-
-def comparable(data: dict) -> dict:
-    """The output without what changes between runs."""
-    return {**data, "provenance": {k: v for k, v in data["provenance"].items() if k not in VOLATILE}}
+from conftest import ARTICLE_IDS, EXPECTED, INVENTED_TEXT, as_document, check_output, comparable
 
 
 @pytest.mark.parametrize("article_id", ARTICLE_IDS)
@@ -88,7 +71,7 @@ def test_failed_passage_gives_a_partial_output(articles, resources, monkeypatch)
     monkeypatch.setattr(extraction, "analyze_passage", failing_first_passage)
 
     resources.client.use_recording("19")
-    data = karaage.run({"id": "19", "text": articles[19]["text"]}, resources).data
+    data = karaage.run(as_document(articles[19]), resources).data
     check_output(data, articles[19]["text"])
     assert data["status"] == "partial"
     assert data["errors"][0] == {"step": "extraction", "passage": 1, "statement": None,
@@ -97,6 +80,6 @@ def test_failed_passage_gives_a_partial_output(articles, resources, monkeypatch)
 
 def test_document_needs_an_id_and_a_text(resources):
     for document in ["text alone", {"text": "no id"}, {"id": "", "text": "empty id"}, {"id": True, "text": "x"},
-                     {"id": 1}]:
+                     {"id": 1}, {"id": 1, "text": "x", "title": 3}, {"id": 1, "text": "x", "published_at": 2004}]:
         with pytest.raises((TypeError, ValueError)):
             karaage.run(document, resources)

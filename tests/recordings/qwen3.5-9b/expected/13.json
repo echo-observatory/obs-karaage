@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 3146,
  "text_sha256": "10c2f7b99b327985340acbe38eb3b77458ce12b9f98e23547067b9d775e5eb5c",
- "main_point": "Michael Moore faces a federal investigation for filming a segment in Cuba for his upcoming documentary 'SiCKO,' which contrasts the U.S. healthcare system with other nations and highlights the lack of affordable care in America.",
+ "main_point": "Michael Moore's upcoming documentary 'Sicko,' which criticizes the U.S. healthcare system by contrasting it with Cuba's model, has been leaked online and is under federal investigation for violating the Cuban embargo, while the film's release faces opposition from health insurance companies.",
  "main_point_method": "single",
  "actors": [
   {
@@ -45,14 +45,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The U.S. Department of the Treasury's Office of Foreign Assets Control is conducting a federal probe into Michael Moore. This investigation stems from his alleged breach of the enduring ban on Cuba. The violation occurred while he was shooting a portion of his future film, SiCKO. This documentary examines the U.S. healthcare system by contrasting it with those in other countries.",
-   "text_short": "A federal probe into Michael Moore is underway because he recorded a portion of his work in Cuba while criticizing American medical care.",
+   "text": "The upcoming documentary 'Sicko,' produced by Lionsgate Studios and directed by Michael Moore, has already been distributed on peer-to-peer networks, representing a second unauthorized pre-release leak within a single month. This incident occurs as the film, which critiques the United States healthcare system by comparing it to international models, faces scrutiny from federal authorities regarding its content.",
+   "text_short": "The online leak of Lionsgate's film 'Sicko' represents another instance of a pre-release breach.",
    "char_start": 0,
    "char_end": 1945,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.254,
+    "rouge2_precision": 0.2034,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -64,14 +64,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The upcoming documentary SiCKO highlights a stark contrast in healthcare access by documenting how volunteer workers who were denied aid from U.S. funds after the September 11 attacks received free treatment in Cuba, where basic medications like inhalers cost a fraction of the price compared to the United States.",
-   "text_short": "The documentary SiCKO highlights how 9/11 volunteers denied U.S. aid received free treatment in Cuba.",
+   "text": "The documentary 'Sicko' highlights a stark disparity in healthcare access by documenting how volunteer workers who served at the World Trade Center after the September 11 attacks were denied necessary medical aid in the United States, yet received free treatment in Havana, Cuba. This contrast is further illustrated by the fact that a specific respiratory inhaler costs approximately five cents in Cuba compared to 120 dollars in the U.S., underscoring the film's argument that the American system prioritizes profit over patient care.",
+   "text_short": "The film 'Sicko' contrasts U.S. healthcare denial with Cuba's free treatment model using 9/11 worker testimonies.",
    "char_start": 1945,
    "char_end": 2852,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2041,
+    "rouge2_precision": 0.2892,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -85,17 +85,17 @@
     "America's Health Insurance Plans",
     "AHIP"
    ],
-   "text": "Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must pursue a uniquely American solution where public and private sectors collaborate to ensure everyone has high-quality, affordable healthcare, rejecting calls for a foreign-style system.",
-   "text_short": "Health insurance companies advocate for a uniquely American public-private healthcare solution.",
+   "text": "Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must pursue a uniquely American solution where public and private sectors collaborate to ensure everyone has high-quality, affordable healthcare. This position is adopted in direct response to the upcoming release of the documentary 'Sicko,' which calls for a healthcare system modeled after Canada, France, or the United Kingdom.",
+   "text_short": "Health insurers advocate for a public-private hybrid model to ensure affordable care, opposing the film's call for foreign-style systems.",
    "char_start": 2852,
    "char_end": 3067,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.25,
+    "rouge2_precision": 0.1667,
     "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
+    "in_text": "no",
+    "actor_correct": "no"
    }
   }
  ],

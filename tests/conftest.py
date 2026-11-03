@@ -12,6 +12,22 @@ DATASET = Path(__file__).parent.parent / "data" / "test-datasets" / "wikinews-pi
 ARTICLE_IDS = range(1, 31)   # the 30 articles of the test dataset
 PROFILE = "qwen3.5-9b"
 RECORDINGS = Path(__file__).parent / "recordings"
+EXPECTED = RECORDINGS / PROFILE / "expected"
+
+# What changes between runs: the version, the time, and the build LM Studio reports, which replay doesn't know.
+VOLATILE = ("version", "commit", "inferred_at", "step_seconds", "model_build")
+
+# An invented text, for tests that need no recorded response.
+INVENTED_TEXT = (
+    "The town council voted on Monday to close the old library. "
+    "Mayor Jane Doe said the building was too expensive to repair, "
+    "and that a new library would open next to the school within two years."
+)
+
+
+def as_document(article: dict) -> dict:
+    """A test article as Karaage input: the dataset's `date` is the publication date."""
+    return {"id": article["id"], "text": article["text"], "title": article["title"], "published_at": article["date"]}
 
 
 @pytest.fixture(scope="session")
@@ -42,10 +58,14 @@ def run_article(articles, resources):
     def run(article_id):
         if article_id not in results:
             resources.client.use_recording(str(article_id))
-            article = articles[article_id]
-            results[article_id] = karaage.run({"id": article["id"], "text": article["text"]}, resources)
+            results[article_id] = karaage.run(as_document(articles[article_id]), resources)
         return results[article_id]
     return run
+
+
+def comparable(data: dict) -> dict:
+    """The output without what changes between runs."""
+    return {**data, "provenance": {k: v for k, v in data["provenance"].items() if k not in VOLATILE}}
 
 
 def check_output(data: dict, text: str) -> None:

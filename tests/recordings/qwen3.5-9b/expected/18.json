@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 2085,
  "text_sha256": "a0dfa6084a1ffdaf2012137c143373e9a447000d1f4367c1ee3aa67b46d20124",
- "main_point": "Oxford University banned the peer-to-peer music service Spotify to prevent network slowdowns, sparking student complaints about discrimination and inconsistent enforcement, while the university argues the restriction is necessary to preserve bandwidth for academic purposes.",
+ "main_point": "Oxford University blocked students from using the legal music service Spotify, citing bandwidth concerns, which sparked student complaints about discrimination and prompted Spotify to offer a solution.",
  "main_point_method": "single",
  "actors": [
   {
@@ -48,14 +48,14 @@
     "Computer Services department",
     "OUCS"
    ],
-   "text": "The University of Oxford's Computer Services department asserts that the institution's network infrastructure is being overwhelmed by peer-to-peer music services like Spotify, which consume excessive bandwidth and degrade performance for other users, thereby justifying the ban on such services to ensure reliable access for academic activities.",
-   "text_short": "Oxford's IT department claims peer-to-peer music services degrade network performance for academics.",
+   "text": "The University of Oxford's Computer Services department argues that blocking peer-to-peer music services like Spotify is necessary to prevent network congestion, as the high bandwidth consumption of these services slows down internet access for other students and academic users who rely on the university's network for their studies.",
+   "text_short": "Oxford's IT department justifies blocking Spotify to protect academic network bandwidth from peer-to-peer traffic.",
    "char_start": 0,
    "char_end": 304,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1837,
+    "rouge2_precision": 0.2157,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -67,14 +67,14 @@
    "actor_aliases": [
     "Spotify"
    ],
-   "text": "Spotify, a legal music streaming platform with over 2.7 million users in the United Kingdom, operates on a peer-to-peer technology that relies on users' computers to share data, a method that the University of Oxford has deemed too resource-intensive for its campus network.",
-   "text_short": "Spotify's peer-to-peer model serves millions of UK users but conflicts with Oxford's bandwidth limits.",
+   "text": "Spotify, a legal music streaming platform with millions of users in the UK, operates on a peer-to-peer model that allows users to share music files directly over the internet, a method the university claims consumes excessive network resources.",
+   "text_short": "Spotify's peer-to-peer streaming model is the specific technology the university cites as a bandwidth problem.",
    "char_start": 304,
    "char_end": 514,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1304,
+    "rouge2_precision": 0.1795,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "no"
@@ -86,14 +86,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Oxford University has implemented a policy restricting access to peer-to-peer sites such as Spotify, arguing that these services consume disproportionate network resources compared to central downloads, a measure designed to safeguard sufficient bandwidth for essential academic research and learning.",
-   "text_short": "Oxford University restricts peer-to-peer music to preserve network bandwidth for academic needs.",
+   "text": "Oxford University has implemented a ban on the legal music service Spotify for its students, citing the service's peer-to-peer data sharing as a threat to network performance, even though the university provides free internet access for legitimate academic purposes.",
+   "text_short": "Oxford University blocked Spotify access to preserve network bandwidth for academic use.",
    "char_start": 514,
    "char_end": 788,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2308,
+    "rouge2_precision": 0.0976,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -105,16 +105,16 @@
    "actor_aliases": [
     "Students"
    ],
-   "text": "Students at the University of Oxford have expressed strong opposition to the ban on peer-to-peer music services, with many describing the decision as shocking and discriminatory, arguing that the restriction unfairly penalizes legitimate users who do not consume the network at peak times.",
-   "text_short": "Oxford students view the peer-to-peer music ban as discriminatory and unjustified.",
+   "text": "Students at Oxford University expressed strong opposition to the ban on the legal music service Spotify, with many describing the decision as shocking and discriminatory against music lovers, arguing that the service is a legitimate resource that should not be restricted.",
+   "text_short": "Oxford students reacted with shock and anger, viewing the ban on the legal music service as unfair discrimination.",
    "char_start": 788,
    "char_end": 1096,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0455,
+    "rouge2_precision": 0.075,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "uncertain",
     "actor_correct": "yes"
    }
   },
@@ -124,15 +124,15 @@
    "actor_aliases": [
     "Students"
    ],
-   "text": "Students characterize the University of Oxford's ban on the peer-to-peer music service Spotify as discrimination against music lovers, arguing that restricting access to a legal service based on usage type is unfair. This stance highlights a conflict between the university's bandwidth management goals and the students' expectation of equal access to digital resources for both academic and recreational purposes.",
-   "text_short": "Students view the university's ban on Spotify as discriminatory against music lovers.",
+   "text": "Students characterize the University of Oxford's ban on the legal music service Spotify as discrimination against music lovers, arguing that restricting access to a lawful platform unfairly penalizes those who enjoy music while ignoring the service's legitimacy.",
+   "text_short": "The university's prohibition of Spotify is seen by students as unjust discrimination targeting music fans.",
    "char_start": 788,
    "char_end": 1096,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.25,
-    "paraphrased": false,
+    "rouge2_precision": 0.1053,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -143,14 +143,14 @@
    "actor_aliases": [
     "Students"
    ],
-   "text": "Some students at the University of Oxford maintain that there is nothing wrong with using the legal peer-to-peer music service Spotify, rejecting the notion that the service's data-sharing model inherently justifies a blanket ban. This perspective challenges the university's argument that the service consumes excessive network bandwidth, suggesting that usage levels are not universally problematic.",
-   "text_short": "Some students argue that using the legal music service Spotify is not inherently wrong.",
+   "text": "Some students express that they see nothing wrong with using the legal music service Spotify, even when the University of Oxford restricts access, suggesting that the network's bandwidth limitations do not justify blocking a lawful resource for all users.",
+   "text_short": "Some students argue that blocking Spotify is unjustified because the service is legal.",
    "char_start": 788,
    "char_end": 1096,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0508,
+    "rouge2_precision": 0.0769,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -163,16 +163,16 @@
     "Spokeswoman",
     "university spokeswoman"
    ],
-   "text": "The University of Oxford justifies its provision of free internet access to students as an essential educational resource, asserting that recreational use is permissible unless it consumes enough bandwidth to degrade network performance for others. This position frames the restriction on the peer-to-peer service Spotify as a necessary technical measure to preserve academic functionality rather than an arbitrary limitation on student freedom.",
-   "text_short": "The university justifies internet restrictions on Spotify as necessary to preserve bandwidth for academic purposes.",
+   "text": "The University of Oxford justifies its provision of free internet access to students as an educational resource, asserting that recreational use is acceptable unless the bandwidth consumption becomes so high that it degrades the network for others.",
+   "text_short": "The university treats student internet access as a learning tool, but will stop this service if it causes network slowdowns.",
    "char_start": 1096,
    "char_end": 1487,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0794,
-    "paraphrased": false,
-    "in_text": "no",
+    "rouge2_precision": 0.1944,
+    "paraphrased": true,
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -183,17 +183,17 @@
     "Computer Services department",
     "OUCS"
    ],
-   "text": "The University of Oxford's Computer Services department explains that while the data usage of a single student using the peer-to-peer service Spotify appears negligible, the cumulative effect across thousands of connected users creates a significant strain on the university's network infrastructure. This technical reality underpins the department's decision to block the service, prioritizing the stability of the network for high-demand academic activities over individual recreational listening.",
-   "text_short": "The university's IT department argues that individual Spotify usage is insignificant but becomes a major network burden at scale.",
+   "text": "The Computer Services department at the University of Oxford argues that bandwidth usage scales significantly with thousands of users, making network upgrades a necessary priority rather than relying on justifications based solely on specific academic requirements.",
+   "text_short": "The university's computer services argue that network upgrades are needed due to high user volume.",
    "char_start": 1487,
    "char_end": 1987,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0563,
+    "rouge2_precision": 0.0667,
     "paraphrased": false,
     "in_text": "yes",
-    "actor_correct": "no"
+    "actor_correct": "yes"
    }
   }
  ],
