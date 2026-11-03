@@ -1,128 +1,5 @@
 {
- "060227990036c6fb310fde4257179911b2af846aa10087ff9e0297c60302d64a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"US sources decried the proposal as targeting Apple's iTunes/iPod system, though it remains unknown if the law applies to companies avoiding new DRM protections.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687225,
-  "id": "chatcmpl-uzkcbdvpkdgdcqzlrnt95t",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 38,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 836,
-   "prompt_tokens_details": null,
-   "total_tokens": 874
-  }
- },
- "0c87ab4955c564860a1d922e59d77d98a0bf7bd26a307125f7dd21a28406bbd1": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Renaud Donnedieu de Vabres\": []}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687229,
-  "id": "chatcmpl-2deiv426zmeedt8dyg7vhl",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 806,
-   "prompt_tokens_details": null,
-   "total_tokens": 821
-  }
- },
- "19282e637022c0d48f39ca80bd933e6b1bbe917e7345c210994cdd307201adfe": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687266,
-  "id": "chatcmpl-40vm1271uomz8tmyu8k4ge",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 222,
-   "prompt_tokens_details": null,
-   "total_tokens": 237
-  }
- },
- "1ca05126d882846707bf0938f4a3a2e768ea38272ed11f1a1ab0a4031aa5b711": {
+ "1b5b1215cc5e04782a3309c82faecdecd34443b611b6614db0e4435bc7133044": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -140,8 +17,8 @@
     }
    }
   ],
-  "created": 1793687263,
-  "id": "chatcmpl-8k9iwk13u7ba99grpo6x3p",
+  "created": 1793701261,
+  "id": "chatcmpl-z0ejr7bpjf4sozblwxj6s",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -158,12 +35,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 509,
+   "prompt_tokens": 262,
    "prompt_tokens_details": null,
-   "total_tokens": 524
+   "total_tokens": 277
   }
  },
- "1fc9de476f54738c397b50a1c653cd19c5b41cdd55f26dfde04d668496979f11": {
+ "2064d942ca8c4c56a5804fba04b73c03443e1a6bc3fe3312c3182c0dba66fea9": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -172,7 +49,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"Lawmakers\": [\"found it unwise to turn millions of citizens into potential felons\", \"proposed a 'gradual' scheme where mere downloading of one file would be punishable by a €38 fine\", \"adopted amendments that make it compulsory for publishers of DRM-encumbered content to give the specifications to whomever would like to implement a compatible player\"]}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -181,8 +58,8 @@
     }
    }
   ],
-  "created": 1793687223,
-  "id": "chatcmpl-f44fjk5mm84wm835vcbpdd",
+  "created": 1793701261,
+  "id": "chatcmpl-77hwwb8wyook13fkilitym",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -191,7 +68,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 78,
+   "completion_tokens": 15,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -199,9 +76,91 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 1134,
+   "prompt_tokens": 210,
    "prompt_tokens_details": null,
-   "total_tokens": 1212
+   "total_tokens": 225
+  }
+ },
+ "30c0343a18a60b82c32423e7f77cdb2397d2baf78b5b038a3db0832e516b4bc3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701258,
+  "id": "chatcmpl-roqgewiad6zbhy0ovwqxi",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 303,
+   "prompt_tokens_details": null,
+   "total_tokens": 318
+  }
+ },
+ "358bf6efd225faeaeff4d5c83c82706d84f6f7de2e53f7d13403122786c8e75b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Lawmakers voiced worry that the new legislation could reduce current copyright exemptions for personal duplication.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701256,
+  "id": "chatcmpl-td3i2mrg1174u2hx9cnr7t",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 27,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 176,
+   "prompt_tokens_details": null,
+   "total_tokens": 203
   }
  },
  "3694bf7bd5602053b067bf2c24d1ae6b666fe0e370f790bfa46ec8fd3cae2223": {
@@ -222,8 +181,8 @@
     }
    }
   ],
-  "created": 1793687219,
-  "id": "chatcmpl-y22v1aclaqcshxyidffem",
+  "created": 1793701208,
+  "id": "chatcmpl-8p1513ivy7xy0vt1am7l3",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -245,7 +204,7 @@
    "total_tokens": 1550
   }
  },
- "41d1c0a7e1582c97a4859daca3e2c16a1e65bb8de5c8e0818f6803e7531a0f37": {
+ "3acec5707499ab0f37d84d7fdfb9d0d0c3ab71b7e9bdb848c24a7f4379751484": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -254,7 +213,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"4\": {\"original\": \"adopted amendments that make it compulsory for publishers of DRM-encumbered 内容\", \"rephrased\": \"French lawmakers, representing both the governing majority and the opposition, adopted amendments requiring publishers of digital rights management (DRM) protected content to provide technical specifications to anyone wishing to create compatible media players. This compromise was reached to address fears that the initial draft would unfairly criminalize the development of free software and hardware, effectively stifling competition and innovation in the technology sector.\", \"summary\": \"French lawmakers mandated that DRM content publishers disclose technical specs to ensure compatible player development.\"}, \"5\": {\"original\": \"US sources decried the proposal as targeting Apple's iTunes/iPod system, though\", \"rephrased\": \"American media outlets criticized the French copyright legislation as a direct attack on Apple's iTunes and iPod ecosystem, arguing that the proposed restrictions on digital locks would disproportionately harm the US tech giant's business model. However, the legal ambiguity surrounding whether these rules apply to companies that opt out of the new special protections remains unresolved, leaving the full scope of the impact on international competitors uncertain.\", \"summary\": \"US media criticized the French copyright bill as targeting Apple's business model, though the extent of the impact remains unclear.\"}, \"6\": {\"original\": \"expressed concerns that the proposed law would weaken existing legal exceptions\", \"rephrased\": \"Legislators in France voiced significant apprehension that the new copyright framework would erode established legal exceptions, particularly the right for individuals to make private copies of purchased files for personal use. This concern highlights a fundamental tension between the bill's goal of implementing strict European digital rights management standards and the need to preserve traditional user freedoms within the domestic legal system.\", \"summary\": \"French legislators worried the new copyright law would undermine existing rights for private copying.\"}, \"7\": {\"original\": \"Lawmakers adopted a surprise amendment legalizing peer-to-peer sharing as 'priv\", \"rephrased\": \"In a surprising reversal, French lawmakers voted to legalize peer-to-peer file sharing as a form of private copying under a new 'global license' system, a move that contradicted the initial stance of the Minister of Culture. This decision, driven by a bipartisan coalition, aimed to resolve public outrage over excessive penalties and ensure the law's constitutionality, transforming the legislation from a purely technical measure into a politically contentious debate about digital rights.\", \"summary\": \"French lawmakers unexpectedly legalized peer-to-peer sharing via a global license to ensure the law's constitutionality.\"}}",
+     "content": "{\"base_author\": [\"US sources decried the proposal as targeting Apple's iTunes/iPod system, though it remains unknown if the amendments apply to companies avoiding the law's special protection.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -263,8 +222,8 @@
     }
    }
   ],
-  "created": 1793687242,
-  "id": "chatcmpl-0n5887c3fdkgoivih07b1p8",
+  "created": 1793701215,
+  "id": "chatcmpl-jx8jlgym6w6pt0p5i1b6t",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -273,7 +232,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 524,
+   "completion_tokens": 40,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -281,12 +240,53 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2534,
+   "prompt_tokens": 833,
    "prompt_tokens_details": null,
-   "total_tokens": 3058
+   "total_tokens": 873
   }
  },
- "46196b045ba4c8747cdc8283a3efecc38090df30173d41bf6b8ebe6fc995598a": {
+ "3aee4481bb9bc5060471fafc5fbc94cb2fabc48fd1dda5be4410418f5ef26154": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The French Senate will now review the copyright bill to make additional changes and possibly hold a vote on harmonization.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701256,
+  "id": "chatcmpl-ufc7isc3qygnljlod0rqm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 32,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 176,
+   "prompt_tokens_details": null,
+   "total_tokens": 208
+  }
+ },
+ "3b575b074d9854f62927c8f0c7690cdf4a564f11231e5b62500b9843f2164c74": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -304,8 +304,8 @@
     }
    }
   ],
-  "created": 1793687267,
-  "id": "chatcmpl-elit9tk11oardfmpmplws",
+  "created": 1793701262,
+  "id": "chatcmpl-jj2yk4a6yyhx1antbavb",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -327,6 +327,88 @@
    "total_tokens": 232
   }
  },
+ "3def2d934e88a6107915a2fa59ebe0fbe113e9d12aa0bd7a03e20048a3932bac": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Legislators passed a change to the law that imposes a €38 penalty for downloading a single file.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701252,
+  "id": "chatcmpl-982w9yt8gftyftia44hwi",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 32,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 177,
+   "prompt_tokens_details": null,
+   "total_tokens": 209
+  }
+ },
+ "41d4d873214203f9fab7be64ba6da76142777a763891685cb3cbb48b35003f4e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Legislators representing the ruling UMP party as well as those from the opposition group agreed that making millions of people into possible criminals was a bad idea.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701251,
+  "id": "chatcmpl-pw0auwn3wynxtlgc9adda",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 41,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 184,
+   "prompt_tokens_details": null,
+   "total_tokens": 225
+  }
+ },
  "46c37597ba50db0de0379b2e8bb586a2366bb228dc18f5c06d004cd66509f6c9": {
   "choices": [
    {
@@ -345,8 +427,8 @@
     }
    }
   ],
-  "created": 1793687261,
-  "id": "chatcmpl-4tqt5019ldnk9wrqkyv31",
+  "created": 1793701250,
+  "id": "chatcmpl-qjcjifiw1gdl8v15t6keld",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -368,7 +450,7 @@
    "total_tokens": 229
   }
  },
- "4b8d30a6577e31f8935af66e5f4d6e99534b20fb66a6cb6e4ee79997865247fd": {
+ "4841dc7216fed605ead2f3654f82bb41cd3fd6db11e340ebd8116e7d99264085": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -377,7 +459,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"uncertain\", \"actor_correct\": \"no\"}",
+     "content": "{\"rephrased_statement\": \"New laws in France will overhaul the country's intellectual property rules. This change is needed to follow a 2001 European Union directive. That rule requires strong legal safeguards for Digital Rights Management (DRM) systems. It makes breaking digital locks a crime. These locks stop users from reaching copyrighted material.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -386,8 +468,8 @@
     }
    }
   ],
-  "created": 1793687262,
-  "id": "chatcmpl-s2abcyr2x9nhonvv1i3j6h",
+  "created": 1793701248,
+  "id": "chatcmpl-dru7zeg0g8amhu829r7upo",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -396,7 +478,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 16,
+   "completion_tokens": 72,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -404,12 +486,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 208,
+   "prompt_tokens": 212,
    "prompt_tokens_details": null,
-   "total_tokens": 224
+   "total_tokens": 284
   }
  },
- "50feaa729e0fb63d51711d642b6275960e1c094960d98ec57d69a095f874216e": {
+ "54ccdb0bf7901352c76b05699b421f918e0ee0bd9f2a3d638434c1b1052c661b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -418,7 +500,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"0\": {\"original\": \"The French National Assembly is to adopt a bill, known as DADVSI, tomorrow.\", \"rephrased\": \"The French National Assembly is scheduled to approve the DADVSI bill, a legislative measure designed to implement European Union digital copyright rules while navigating significant domestic opposition regarding the severity of proposed penalties and the influence of industry lobbyists.\", \"summary\": \"France's National Assembly is set to approve a controversial copyright bill balancing EU rules with public backlash.\"}, \"1\": {\"original\": \"The bill reforms France's intellectual property code to implement a 2001 EU mand\", \"rephrased\": \"The proposed legislation fundamentally reforms France's intellectual property code to enforce the 2001 European Union directive, which mandates strict legal protections for Digital Rights Management (DRM) systems that restrict users from freely copying or playing digital content.\", \"summary\": \"The bill reforms France's intellectual property code to implement a 2001 EU directive mandating legal protections for Digital Rights Management (DRMs).\"}, \"2\": {\"original\": \"found it unwise to turn millions of citizens into potential felons\", \"rephrased\": \"Legislators from both the ruling majority and the opposition parties concluded that it was imprudent to risk criminalizing millions of ordinary citizens by treating the unauthorized downloading of a single digital file as a felony offense.\", \"summary\": \"Lawmakers argued that criminalizing individual file downloads would unfairly target millions of citizens.\"}, \"3\": {\"original\": \"proposed a 'gradual' scheme where mere downloading of one file would be punish\", \"rephrased\": \"In response to concerns over excessive criminal penalties, lawmakers proposed a modified penalty scheme that would replace felony convictions with a fixed €38 fine for the mere downloading of a single copyrighted file, a compromise intended to make enforcement more realistic for the general public.\", \"summary\": \"Lawmakers proposed a reduced fine for file downloading to avoid criminalizing millions of citizens.\"}}",
+     "content": "{\"rephrased_statement\": \"American officials condemned the French copyright legislation, arguing it aims to undermine Apple's iTunes platform.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -427,8 +509,8 @@
     }
    }
   ],
-  "created": 1793687232,
-  "id": "chatcmpl-wstalpt1tx38l2gkyf1nj",
+  "created": 1793701255,
+  "id": "chatcmpl-4pc8uv0np7lloo44qfkjvm",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -437,7 +519,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 411,
+   "completion_tokens": 28,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -445,12 +527,135 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2282,
+   "prompt_tokens": 172,
    "prompt_tokens_details": null,
-   "total_tokens": 2693
+   "total_tokens": 200
   }
  },
- "60e808a9fa46fbadf0f29960634fe540bceb9c6f9300f04ace879d5349ba5128": {
+ "54e4d073cfe93ea125ea651c427140cb0996f4fb22cce72c6f0b25e551d0970d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Amendments were adopted by French lawmakers from the governing UMP party, the centrist Union for French Democracy, and the opposition coalition. These changes require publishers of DRM-protected content to reveal technical specifications to anyone who wants to build compatible players. This action aims to balance EU digital rights mandates with public concerns over restrictive digital locks.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701253,
+  "id": "chatcmpl-8imot9kyctcqqkjvvwvxf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 77,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 217,
+   "prompt_tokens_details": null,
+   "total_tokens": 294
+  }
+ },
+ "56939167c2f01bd1c2c0321321470ccffa19f0f42b68e4f85b8f7d1f4441a35b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701260,
+  "id": "chatcmpl-78ilosa9tjmesjwccaow89",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 229,
+   "prompt_tokens_details": null,
+   "total_tokens": 244
+  }
+ },
+ "5871bc2c6e7b21bdef109a744dabf603fe7cb2ace533cb5f29e0f6f9735881c6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Lawmakers\": [\"Lawmakers from both the majority UMP party and the opposition found it unwise to turn millions of citizens into potential felons.\", \"Lawmakers adopted an amendment making mere downloading of one file punishable by a €38 fine.\", \"Lawmakers from the majority UMP party, centrist Union for French democracy, and the opposition adopted amendments making it compulsory for publishers of DRM-encumbered content to give specifications to anyone implementing a compatible player.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701212,
+  "id": "chatcmpl-w5eihqr64jilp5469oc81d",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 97,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1131,
+   "prompt_tokens_details": null,
+   "total_tokens": 1228
+  }
+ },
+ "7d33f15888ac0043d1a5493a2730d279427c0cb03e2a6731149b53383cb327c0": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -468,8 +673,8 @@
     }
    }
   ],
-  "created": 1793687263,
-  "id": "chatcmpl-ncct4w77dehfgmhvq02au",
+  "created": 1793701258,
+  "id": "chatcmpl-lqfqpf9jayo2y4ejwduixs",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -486,12 +691,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 288,
+   "prompt_tokens": 509,
    "prompt_tokens_details": null,
-   "total_tokens": 303
+   "total_tokens": 524
   }
  },
- "6e3283e91550b0940d12f664a7a69c72b3a71f16126a2736395a32b5a6c48b7f": {
+ "800be58f63517f474ebce597664623332cd7abcadeab5c04b9bfe70bbd99fa08": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -509,8 +714,8 @@
     }
    }
   ],
-  "created": 1793687265,
-  "id": "chatcmpl-8jeszjmoj5wwebr1aexfip",
+  "created": 1793701259,
+  "id": "chatcmpl-gw2trp1i9044jorcwyfepx",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -527,9 +732,91 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 234,
+   "prompt_tokens": 290,
    "prompt_tokens_details": null,
-   "total_tokens": 249
+   "total_tokens": 305
+  }
+ },
+ "802e9b6af26a1642c1ca6a76434e04bdaf7e51ae914acfef51c63d42ba9e4918": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701259,
+  "id": "chatcmpl-sl2cekl97m6c8fn0vsnnc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 294,
+   "prompt_tokens_details": null,
+   "total_tokens": 309
+  }
+ },
+ "8059ee84f75f4fac8db045286c21cc907e51e23bfdf14469b365f019d94c1349": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"Lawmakers from the majority UMP party, centrist Union for French democracy, and \", \"rephrased\": \"French lawmakers from the governing UMP party, the centrist Union for French Democracy, and the opposition coalition adopted amendments requiring publishers of DRM-protected content to disclose technical specifications to anyone wishing to create compatible players, a move intended to balance EU digital rights mandates with public concerns over restrictive digital locks.\", \"summary\": \"French lawmakers amended the copyright bill to require DRM publishers to share technical specs for compatible players.\"}, \"5\": {\"original\": \"US sources decried the proposal as targeting Apple's iTunes/iPod system, though \", \"rephrased\": \"US media outlets criticized the French copyright bill's amendments as a direct attack on Apple's iTunes and iPod ecosystem, arguing that the proposed rules would effectively force the tech giant to open its proprietary digital lock systems to third-party developers, though the legal applicability to companies avoiding the new special protections remains uncertain.\", \"summary\": \"US sources criticized the French copyright bill as targeting Apple's iTunes system.\"}, \"6\": {\"original\": \"expressed concerns that the proposed law would weaken existing legal exceptions \", \"rephrased\": \"French legislators voiced significant concern that the proposed copyright legislation would erode established legal exceptions, specifically the right for individuals to make private copies of copyrighted files, arguing that such restrictions could disproportionately impact ordinary citizens' ability to manage their personal media libraries.\", \"summary\": \"Legislators expressed concern that the proposed law would weaken existing copyright exceptions for private copying.\"}, \"7\": {\"original\": \"The lawmaking process was quite a bumpy one.\", \"rephrased\": \"The legislative process for the French copyright bill proved highly contentious and unpredictable, evolving from an initial technical proposal into a heated political debate involving surprise amendments, constitutional challenges, and intense lobbying by the entertainment industry before finally reaching a compromise version.\", \"summary\": \"The French copyright bill's legislative process was contentious and unpredictable.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701233,
+  "id": "chatcmpl-2lxyy9ow36t1q5jjg4vuy9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 417,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2523,
+   "prompt_tokens_details": null,
+   "total_tokens": 2940
   }
  },
  "8ce887fe58081015edbe0b5e6211b7f14b057106dd6f4091436dd03e81a72990": {
@@ -550,8 +837,8 @@
     }
    }
   ],
-  "created": 1793687210,
-  "id": "chatcmpl-pl48diytcdgc0myk91efc",
+  "created": 1793701199,
+  "id": "chatcmpl-bct6m6xx87f8prbju5qhv5",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -573,7 +860,7 @@
    "total_tokens": 2221
   }
  },
- "8e2ac6539240ee9a3c00726c78bd78277c505678d5edde26baff9de7612111fe": {
+ "90313ed12b752748b0ac9882730077cf35493ac782f950d5d4473625ee1ab941": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -582,7 +869,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"French National Assembly\": [\"Adopted an Article 1 'bis', an amended version of the law excluding peer-to-peer sharing legalization.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -591,8 +878,8 @@
     }
    }
   ],
-  "created": 1793687265,
-  "id": "chatcmpl-2r0qp59u6flkygvpctqmmp",
+  "created": 1793701219,
+  "id": "chatcmpl-wciv4ci4shicaq6xrh2v",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -601,7 +888,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 31,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -609,340 +896,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 195,
+   "prompt_tokens": 737,
    "prompt_tokens_details": null,
-   "total_tokens": 210
+   "total_tokens": 768
   }
  },
- "91bc8d7ee7786b570d33538e9ee07fc78410bcbae840eb0467ebb8a8b2a215a8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"French National Assembly\": [\"voted down the original article 1 and adopted an amended version, Article 1 'bis', removing the legalization of peer-to-peer sharing.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687230,
-  "id": "chatcmpl-t6qt1q2691nhixqo9db",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 37,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 740,
-   "prompt_tokens_details": null,
-   "total_tokens": 777
-  }
- },
- "9a45f01262dcdd071f0092aebbbadfe95f19fcdf2578d6c2b40a122ed2f7546a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Lawmakers adopted a surprise amendment legalizing peer-to-peer sharing as 'private copy' via a 'global license' system, despite the Minister of Culture's dismay.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687228,
-  "id": "chatcmpl-5zhmve0ahmy3j3jo3gy6yx",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 40,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 786,
-   "prompt_tokens_details": null,
-   "total_tokens": 826
-  }
- },
- "9c24b76201f7a76bee6ae9332478b57fbce33e0c0d9723f4711245485f7fa92a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"8\": {\"original\": \"voted down the original article 1 and adopted an amended version, Article 1 'bis\", \"rephrased\": \"The French National Assembly rejected the initial draft of the copyright legislation and instead approved a modified version, Article 1 'bis', which explicitly excludes the legalization of peer-to-peer file sharing to address concerns about weakening private copy rights. This legislative pivot reflects a compromise between implementing European digital rights management standards and responding to public opposition regarding excessive penalties and industry influence.\", \"summary\": \"The French National Assembly rejected the initial copyright draft, adopting an amended version that excludes peer-to-peer sharing to balance EU rules with public concerns.\"}, \"9\": {\"original\": \"The bill proceeds to the Senate for amendment and likely moves to a joint\", \"rephrased\": \"Following its approval by the National Assembly, the copyright bill advances to the French Senate for further amendment, where it is expected to be reviewed by a joint commission before a final vote. This procedural progression underscores the legislative body's commitment to finalizing the law despite earlier controversies over lobbying and constitutional validity.\", \"summary\": \"The copyright bill moves to the French Senate for amendment and a final joint vote, continuing its path toward enactment.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687253,
-  "id": "chatcmpl-xcr48bq8llq5kpf98usv3e",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 253,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1955,
-   "prompt_tokens_details": null,
-   "total_tokens": 2208
-  }
- },
- "a3c36c24a221481a7fe1d901bef8b6121079b253abcad3ba8e4320ebf63cd6b2": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"New laws will change France's intellectual property rules. This update is needed to follow a 2001 European Union directive. That rule requires strong legal safeguards for Digital Rights Management (DRM) systems. These systems stop users from copying or playing digital content on their own.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687259,
-  "id": "chatcmpl-95lvb04zw04pvzhhf61nl",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 66,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 205,
-   "prompt_tokens_details": null,
-   "total_tokens": 271
-  }
- },
- "a9173b71087bb9df7b3dc53ae5c93310f4e2ccd2491000e723f9cf4fd2e54512": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"The bill reforms France's intellectual property code to implement a 2001 EU directive mandating legal protections for Digital Rights Management (DRMs).\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687222,
-  "id": "chatcmpl-vach93hxekdf3kte1jv8",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 37,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1111,
-   "prompt_tokens_details": null,
-   "total_tokens": 1148
-  }
- },
- "aab2fed2f0a736039efa2dfedd4d2f0f1424eb3f75f4d7ac9e2b71039d064771": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687264,
-  "id": "chatcmpl-4ogq6jv3xiy6t4xplejhak",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 288,
-   "prompt_tokens_details": null,
-   "total_tokens": 303
-  }
- },
- "b1bbedc364c8dd0218c2e429a5564574dfbf104c628c92c89d69d7ab4ca4da90": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687264,
-  "id": "chatcmpl-gofs0c5wxq9zrmicjjr4ca",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 289,
-   "prompt_tokens_details": null,
-   "total_tokens": 304
-  }
- },
- "bd137853f6cd550c67b52135053c93ad574deb7eaad17a117f968749d40138c5": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"French National Assembly\": [\"The French National Assembly is to adopt a bill, known as DADVSI, tomorrow.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687220,
-  "id": "chatcmpl-5ac28o5y4gmsa5ioynavy",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 26,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 969,
-   "prompt_tokens_details": null,
-   "total_tokens": 995
-  }
- },
- "d6088764fd58d480178c3ee2ae944eb230d3120b00f25c17a131a62f84d67200": {
+ "94361a3f8b5853bcc62643a3f47915d6f28628bc33747ece397b10c3ca3169cf": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -960,8 +919,8 @@
     }
    }
   ],
-  "created": 1793687227,
-  "id": "chatcmpl-4dn45ib3p5xd9zkpp02jx5",
+  "created": 1793701216,
+  "id": "chatcmpl-nv6a379vhhr28ylg7ruj4k",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -978,12 +937,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 814,
+   "prompt_tokens": 811,
    "prompt_tokens_details": null,
-   "total_tokens": 850
+   "total_tokens": 847
   }
  },
- "e8082ce8cfdbac979eab1050b45e6fd8f48c4e5cb82f5af5778f42385a66d98b": {
+ "a476c349df106c529137a65530eea566a6f57f1b5edc7e64df586b3260acbb0d": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -992,7 +951,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"The bill proceeds to the Senate for amendment and likely moves to a joint commission before a final vote.\"]}",
+     "content": "{\"base_author\": [\"The lawmaking process was quite a bumpy one.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1001,8 +960,8 @@
     }
    }
   ],
-  "created": 1793687231,
-  "id": "chatcmpl-xx7e6v3x3yqrzv5c6v3wz9",
+  "created": 1793701218,
+  "id": "chatcmpl-szoc1vtybtrfnk4pg0wlda",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1011,7 +970,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 27,
+   "completion_tokens": 18,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1019,12 +978,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 735,
+   "prompt_tokens": 783,
    "prompt_tokens_details": null,
-   "total_tokens": 762
+   "total_tokens": 801
   }
  },
- "eb0fd2c18ffc8599049ddaf7550c95ceb32c423b452058f5214aac71e0353d9b": {
+ "aad12388f23701f4467b70f88355f1b695192cdde9741198c52b0240fa72440f": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1042,8 +1001,8 @@
     }
    }
   ],
-  "created": 1793687266,
-  "id": "chatcmpl-roqm0i0aa4kblhy3x8gwb",
+  "created": 1793701257,
+  "id": "chatcmpl-sc9f35mvphnsg31qq1lzh",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1060,9 +1019,296 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 270,
+   "prompt_tokens": 225,
    "prompt_tokens_details": null,
-   "total_tokens": 285
+   "total_tokens": 240
+  }
+ },
+ "b23ae21f18b2bb97f7d7a5b2a926f66745cf7ae9201cca8b5a9e9d04240c60ce": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"8\": {\"original\": \"Adopted an Article 1 'bis', an amended version of the law excluding peer-to-peer\", \"rephrased\": \"The French National Assembly rejected the legalization of peer-to-peer sharing and instead adopted an amended version of the copyright bill that preserves existing legal exceptions for private copying, a move that reflects growing concern among lawmakers regarding the constitutionality of the initial text and the pressure exerted by the entertainment industry.\", \"summary\": \"The French National Assembly amended the copyright bill to exclude peer-to-peer sharing legalization.\"}, \"9\": {\"original\": \"The bill proceeds to the Senate for amendment and likely a harmonization vote, a\", \"rephrased\": \"Following the National Assembly's vote, the copyright bill will be sent to the French Senate for further amendment and a potential harmonization vote, a procedural step accelerated by the government's declaration of urgency that aims to finalize the legislation despite ongoing debates over industry lobbying and constitutional compliance.\", \"summary\": \"The copyright bill proceeds to the French Senate for further amendment and a likely harmonization vote.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701242,
+  "id": "chatcmpl-w1oerf8tthif0d85801v",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 223,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1955,
+   "prompt_tokens_details": null,
+   "total_tokens": 2178
+  }
+ },
+ "d6a43f6bb216c09f2214d5fabfe452708a0fa9931b0dd8cf980f0a9dab9a4708": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701260,
+  "id": "chatcmpl-q4xydq1cthgok1vxyeimr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 197,
+   "prompt_tokens_details": null,
+   "total_tokens": 212
+  }
+ },
+ "e0bca5bc514281bc001455965faa79891c5160bbdb9e55a7cd6c1cbda827371e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The bill reforms France's intellectual property code to implement a 2001 EU directive mandating legal protections for Digital Rights Management (DRMs).\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701211,
+  "id": "chatcmpl-826veb1lt43po2c7ki1ob",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 37,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1108,
+   "prompt_tokens_details": null,
+   "total_tokens": 1145
+  }
+ },
+ "ea08ee096a6a365971cc8ceba5c736cc89fd1fd21bf87e47e9a8af2f47e2d8fb": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"French National Assembly\": [\"The French National Assembly is to adopt a bill, known as DADVSI, tomorrow.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701210,
+  "id": "chatcmpl-s11hjx3bk1sx6h364w74zd",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 26,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 966,
+   "prompt_tokens_details": null,
+   "total_tokens": 992
+  }
+ },
+ "ed1ff949ce09d4e402c409110c3e445f92a5b714ff3c73241bd1ec199d93cfc0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"The French National Assembly is to adopt a bill, known as DADVSI (« Droits d'Au\", \"rephrased\": \"The French National Assembly is scheduled to approve the DADVSI bill, a legislative measure designed to align French copyright law with European Union Digital Rights Management (DRM) regulations, despite significant public opposition regarding the severity of proposed penalties and the potential for unconstitutional enforcement against ordinary citizens.\", \"summary\": \"France's National Assembly is set to approve a controversial copyright bill that balances implementing EU DRM rules with public backlash over excessive penalties and industry lobbying, raising concerns about constitutionality and enforcement.\"}, \"1\": {\"original\": \"The bill reforms France's intellectual property code to implement a 2001 EU dire\", \"rephrased\": \"The proposed legislation fundamentally restructures France's intellectual property framework to enforce the 2001 European Union directive, which mandates strict legal protections for Digital Rights Management (DRM) systems by criminalizing the circumvention of digital locks that restrict user access to copyrighted content.\", \"summary\": \"The bill reforms France's intellectual property code to implement a 2001 EU directive mandating legal protections for Digital Rights Management (DRMs).\"}, \"2\": {\"original\": \"Lawmakers from both the majority UMP party and the opposition found it unwise\", \"rephrased\": \"Lawmakers from both the governing majority and the opposition parties in France concluded that the initial draft of the copyright bill was unwise because it threatened to criminalize millions of ordinary citizens for merely downloading a single file, a stance that prioritized the rights of content creators over the legal freedoms of the general public.\", \"summary\": \"Lawmakers from both the majority UMP party and the opposition found it unwise to turn millions of citizens into potential felons.\"}, \"3\": {\"original\": \"Lawmakers adopted an amendment making mere downloading of one file punishable by\", \"rephrased\": \"In response to widespread concern that the initial draft would unfairly punish the general public, lawmakers from across the political spectrum adopted a compromise amendment that reduces the penalty for downloading a single copyrighted file from a felony to a modest €38 fine, thereby attempting to balance the interests of the creative industries with the rights of French internet users.\", \"summary\": \"Lawmakers adopted an amendment making mere downloading of one file punishable by a €38 fine.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701221,
+  "id": "chatcmpl-btycsipi1atfj2nidbqcjf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 497,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2287,
+   "prompt_tokens_details": null,
+   "total_tokens": 2784
+  }
+ },
+ "f2629227d59d45bf6d3fce521acb47ca2e2395ddf811b6ecbac107b1c5c07c76": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Renaud Donnedieu de Vabres\": []}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701218,
+  "id": "chatcmpl-2zz9s03rq9ufu02lgw9znc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 803,
+   "prompt_tokens_details": null,
+   "total_tokens": 818
+  }
+ },
+ "f9aeb6c829c58f965c0d64c6d34fc061d5012f6411f2f56673129f8d0665cf54": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The bill proceeds to the Senate for amendment and likely a harmonization vote, as the government's urgency declaration accelerates the process.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701220,
+  "id": "chatcmpl-rrjozpvdzyq95fur980qmw",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 33,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 732,
+   "prompt_tokens_details": null,
+   "total_tokens": 765
   }
  }
 }

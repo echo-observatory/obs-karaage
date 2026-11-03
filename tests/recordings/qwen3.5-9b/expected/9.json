@@ -81,17 +81,17 @@
     "French National Assembly",
     "Assembly"
    ],
-   "text": "The French National Assembly is scheduled to approve the DADVSI bill, a legislative measure designed to implement European Union digital copyright rules while navigating significant domestic opposition regarding the severity of proposed penalties and the influence of industry lobbyists.",
-   "text_short": "France's National Assembly is set to approve a controversial copyright bill balancing EU rules with public backlash.",
+   "text": "The French National Assembly is scheduled to approve the DADVSI bill, a legislative measure designed to align French copyright law with European Union Digital Rights Management (DRM) regulations, despite significant public opposition regarding the severity of proposed penalties and the potential for unconstitutional enforcement against ordinary citizens.",
+   "text_short": "France's National Assembly is set to approve a controversial copyright bill that balances implementing EU DRM rules with public backlash over excessive penalties and industry lobbying, raising concerns about constitutionality and enforcement.",
    "char_start": 0,
    "char_end": 212,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1176,
+    "rouge2_precision": 0.087,
     "paraphrased": false,
-    "in_text": "uncertain",
-    "actor_correct": "no"
+    "in_text": "no",
+    "actor_correct": "yes"
    }
   },
   {
@@ -100,7 +100,7 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "New laws will change France's intellectual property rules. This update is needed to follow a 2001 European Union directive. That rule requires strong legal safeguards for Digital Rights Management (DRM) systems. These systems stop users from copying or playing digital content on their own.",
+   "text": "New laws in France will overhaul the country's intellectual property rules. This change is needed to follow a 2001 European Union directive. That rule requires strong legal safeguards for Digital Rights Management (DRM) systems. It makes breaking digital locks a crime. These locks stop users from reaching copyrighted material.",
    "text_short": "This legislation updates France's intellectual property laws to enforce a 2001 European Union directive that requires legal safeguards for Digital Rights Management (DRMs).",
    "char_start": 212,
    "char_end": 1843,
@@ -126,15 +126,15 @@
     "some UMP and opposition lawmakers",
     "some UMP, UDF and opposition lawmakers"
    ],
-   "text": "Legislators from both the ruling majority and the opposition parties concluded that it was imprudent to risk criminalizing millions of ordinary citizens by treating the unauthorized downloading of a single digital file as a felony offense.",
-   "text_short": "Lawmakers argued that criminalizing individual file downloads would unfairly target millions of citizens.",
+   "text": "Lawmakers from both the governing majority and the opposition parties in France concluded that the initial draft of the copyright bill was unwise because it threatened to criminalize millions of ordinary citizens for merely downloading a single file, a stance that prioritized the rights of content creators over the legal freedoms of the general public.",
+   "text_short": "Legislators representing the ruling UMP party as well as those from the opposition group agreed that making millions of people into possible criminals was a bad idea.",
    "char_start": 1843,
    "char_end": 2486,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2,
-    "paraphrased": false,
+    "rouge2_precision": 0.1154,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -152,17 +152,17 @@
     "some UMP and opposition lawmakers",
     "some UMP, UDF and opposition lawmakers"
    ],
-   "text": "In response to concerns over excessive criminal penalties, lawmakers proposed a modified penalty scheme that would replace felony convictions with a fixed €38 fine for the mere downloading of a single copyrighted file, a compromise intended to make enforcement more realistic for the general public.",
-   "text_short": "Lawmakers proposed a reduced fine for file downloading to avoid criminalizing millions of citizens.",
+   "text": "In response to widespread concern that the initial draft would unfairly punish the general public, lawmakers from across the political spectrum adopted a compromise amendment that reduces the penalty for downloading a single copyrighted file from a felony to a modest €38 fine, thereby attempting to balance the interests of the creative industries with the rights of French internet users.",
+   "text_short": "Legislators passed a change to the law that imposes a €38 penalty for downloading a single file.",
    "char_start": 1843,
    "char_end": 2486,
    "valid": false,
-   "rejection_reason": "not found in source text",
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2308,
-    "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "yes"
+    "rouge2_precision": 0.125,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
    }
   },
   {
@@ -178,15 +178,15 @@
     "some UMP and opposition lawmakers",
     "some UMP, UDF and opposition lawmakers"
    ],
-   "text": "French lawmakers, representing both the governing majority and the opposition, adopted amendments requiring publishers of digital rights management (DRM) protected content to provide technical specifications to anyone wishing to create compatible media players. This compromise was reached to address fears that the initial draft would unfairly criminalize the development of free software and hardware, effectively stifling competition and innovation in the technology sector.",
-   "text_short": "French lawmakers mandated that DRM content publishers disclose technical specs to ensure compatible player development.",
+   "text": "Amendments were adopted by French lawmakers from the governing UMP party, the centrist Union for French Democracy, and the opposition coalition. These changes require publishers of DRM-protected content to reveal technical specifications to anyone who wants to build compatible players. This action aims to balance EU digital rights mandates with public concerns over restrictive digital locks.",
+   "text_short": "French lawmakers amended the copyright bill to require DRM publishers to share technical specs for compatible players.",
    "char_start": 1843,
    "char_end": 2486,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.129,
-    "paraphrased": false,
+    "rouge2_precision": 0.2679,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -197,16 +197,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "American media outlets criticized the French copyright legislation as a direct attack on Apple's iTunes and iPod ecosystem, arguing that the proposed restrictions on digital locks would disproportionately harm the US tech giant's business model. However, the legal ambiguity surrounding whether these rules apply to companies that opt out of the new special protections remains unresolved, leaving the full scope of the impact on international competitors uncertain.",
-   "text_short": "US media criticized the French copyright bill as targeting Apple's business model, though the extent of the impact remains unclear.",
+   "text": "US media outlets criticized the French copyright bill's amendments as a direct attack on Apple's iTunes and iPod ecosystem, arguing that the proposed rules would effectively force the tech giant to open its proprietary digital lock systems to third-party developers, though the legal applicability to companies avoiding the new special protections remains uncertain.",
+   "text_short": "American officials condemned the French copyright legislation, arguing it aims to undermine Apple's iTunes platform.",
    "char_start": 2486,
    "char_end": 2853,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1,
-    "paraphrased": false,
-    "in_text": "yes",
+    "rouge2_precision": 0.0727,
+    "paraphrased": true,
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
@@ -223,15 +223,15 @@
     "some UMP and opposition lawmakers",
     "some UMP, UDF and opposition lawmakers"
    ],
-   "text": "Legislators in France voiced significant apprehension that the new copyright framework would erode established legal exceptions, particularly the right for individuals to make private copies of purchased files for personal use. This concern highlights a fundamental tension between the bill's goal of implementing strict European digital rights management standards and the need to preserve traditional user freedoms within the domestic legal system.",
-   "text_short": "French legislators worried the new copyright law would undermine existing rights for private copying.",
+   "text": "French legislators voiced significant concern that the proposed copyright legislation would erode established legal exceptions, specifically the right for individuals to make private copies of copyrighted files, arguing that such restrictions could disproportionately impact ordinary citizens' ability to manage their personal media libraries.",
+   "text_short": "Lawmakers voiced worry that the new legislation could reduce current copyright exemptions for personal duplication.",
    "char_start": 2853,
    "char_end": 3057,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1538,
-    "paraphrased": false,
+    "rouge2_precision": 0.2143,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -242,16 +242,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "In a surprising reversal, French lawmakers voted to legalize peer-to-peer file sharing as a form of private copying under a new 'global license' system, a move that contradicted the initial stance of the Minister of Culture. This decision, driven by a bipartisan coalition, aimed to resolve public outrage over excessive penalties and ensure the law's constitutionality, transforming the legislation from a purely technical measure into a politically contentious debate about digital rights.",
-   "text_short": "French lawmakers unexpectedly legalized peer-to-peer sharing via a global license to ensure the law's constitutionality.",
+   "text": "The legislative process for the French copyright bill proved highly contentious and unpredictable, evolving from an initial technical proposal into a heated political debate involving surprise amendments, constitutional challenges, and intense lobbying by the entertainment industry before finally reaching a compromise version.",
+   "text_short": "The French copyright bill's legislative process was contentious and unpredictable.",
    "char_start": 3057,
    "char_end": 3637,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2353,
+    "rouge2_precision": 0.1,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -262,17 +262,17 @@
     "French National Assembly",
     "Assembly"
    ],
-   "text": "The French National Assembly rejected the initial draft of the copyright legislation and instead approved a modified version, Article 1 'bis', which explicitly excludes the legalization of peer-to-peer file sharing to address concerns about weakening private copy rights. This legislative pivot reflects a compromise between implementing European digital rights management standards and responding to public opposition regarding excessive penalties and industry influence.",
-   "text_short": "The French National Assembly rejected the initial copyright draft, adopting an amended version that excludes peer-to-peer sharing to balance EU rules with public concerns.",
+   "text": "The French National Assembly rejected the legalization of peer-to-peer sharing and instead adopted an amended version of the copyright bill that preserves existing legal exceptions for private copying, a move that reflects growing concern among lawmakers regarding the constitutionality of the initial text and the pressure exerted by the entertainment industry.",
+   "text_short": "The French National Assembly amended the copyright bill to exclude peer-to-peer sharing legalization.",
    "char_start": 3848,
    "char_end": 4109,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2,
+    "rouge2_precision": 0.2143,
     "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "no"
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
   },
   {
@@ -281,15 +281,15 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Following its approval by the National Assembly, the copyright bill advances to the French Senate for further amendment, where it is expected to be reviewed by a joint commission before a final vote. This procedural progression underscores the legislative body's commitment to finalizing the law despite earlier controversies over lobbying and constitutional validity.",
-   "text_short": "The copyright bill moves to the French Senate for amendment and a final joint vote, continuing its path toward enactment.",
+   "text": "Following the National Assembly's vote, the copyright bill will be sent to the French Senate for further amendment and a potential harmonization vote, a procedural step accelerated by the government's declaration of urgency that aims to finalize the legislation despite ongoing debates over industry lobbying and constitutional compliance.",
+   "text_short": "The French Senate will now review the copyright bill to make additional changes and possibly hold a vote on harmonization.",
    "char_start": 4631,
    "char_end": 4920,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2632,
-    "paraphrased": false,
+    "rouge2_precision": 0.2653,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }

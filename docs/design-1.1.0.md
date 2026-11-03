@@ -6,16 +6,16 @@ Read `AGENTS.md` first. When an issue and these notes disagree, or neither settl
 
 ## 1. Scope
 
-Karaage takes one English text and returns the statements made in it, each with the actor who made it and the passage it comes from.
+Karaage takes one English text and returns the statements made in it, each with the actor who made it and the excerpt it comes from.
 It runs seven steps, one module each:
 
 1. **Segmentation** (`segmentation.py`): splits the text into clause-level segments with spaCy and benepar. Lossless: the segments joined give back the text.
 2. **Attribution** (`attribution.py`): an LLM assigns ranges of segments to the actors quoted or cited in the text, then overlapping ranges are resolved.
-3. **Passages** (`passages.py`): groups consecutive segments into short passages, each dominated by one actor where possible.
-4. **Extraction** (`extraction.py`): an LLM states the main point of the text, then extracts up to four statements per actor and passage.
+3. **Excerpts** (`excerpts.py`): groups consecutive segments into short excerpts, each dominated by one actor where possible.
+4. **Extraction** (`extraction.py`): an LLM states the main point of the text, then extracts up to four statements per actor and excerpt.
 5. **Rephrasing** (`rephrasing.py`): an LLM rewrites each statement so that it stands alone, plus a one-sentence version.
 6. **Paraphrasing** (`paraphrasing.py`): statements too close to the source wording (ROUGE-2 precision above 0.3) are paraphrased again, with an embedding check that the meaning is kept.
-7. **Validation** (`validation.py`): an LLM checks that each statement is in the passage and attributed to the right actor.
+7. **Validation** (`validation.py`): an LLM checks that each statement is in the excerpt and attributed to the right actor.
 
 In scope:
 - The seven steps and the actor kinds (section 3).
@@ -33,11 +33,11 @@ Karaage never modifies the input text. All offsets point into the text exactly a
 ## 2. Terms
 
 - **Segment:** the smallest unit, produced by step 1. A dict `{id, text, start, end}`; `start` and `end` are code-point offsets into the text, `end` excluded.
-- **Actor:** a person, organisation or document that a segment is attributed to in step 2. The code calls it a *source*, with a `main` name and `other` names.
+- **Actor** (*inferred actor* in full, as in the snapshot specification): a person, organisation or document that a segment is attributed to in step 2, and that makes statements. The code and the output call it an actor, with a `canonical_name` and `aliases`. What the model sees in step 2 calls it a *source*, with a `main` name and `other` names, on purpose: "source" covers organisations and documents, where "speaker" suggests a person. The code reads the answer into the actor's names (#27).
 - **`base_author`:** the placeholder actor for every segment not attributed to anyone else, i.e. the text's own voice. It stays a placeholder in the output (section 3.3).
 - **Document author:** whoever the text names as its author, such as a byline. Not part of 1.1.0 (section 3.4).
-- **Passage:** consecutive segments grouped in step 3, at most 2,000 characters, short enough for a human to check.
-- **Statement:** what one actor states in one passage, extracted in step 4 and then rephrased, possibly paraphrased, and validated.
+- **Excerpt:** consecutive segments grouped in step 3, of about 2,000 characters at most, short enough for a human to check. Called *passage* until #27; the snapshot specification also says excerpt.
+- **Statement:** what one actor states in one excerpt, extracted in step 4 and then rephrased, possibly paraphrased, and validated.
 - **Main point:** one sentence stating the central argument of the text, given as context to steps 4 and 5.
 - **Profile** and **backend:** see section 4.
 
@@ -48,10 +48,10 @@ Karaage never modifies the input text. All offsets point into the text exactly a
 Karaage assumes English input. A cheap stopword check adds a warning to the output when the text does not look English; it never stops the run.
 *Reason:* translation is a separate process with its own documentation; Karaage stays single-purpose.
 
-### 3.2 Statement offsets cover the passage
+### 3.2 Statement offsets cover the excerpt
 
-A statement's `char_start` and `char_end` are those of its passage: the `start` of the passage's first segment and the `end` of its last.
-*Reason:* the offsets let a human check the statement against its source. A passage gives them some context. Passage boundaries are also more reliable than attribution, so segment-level offsets would add precision that inherits attribution errors.
+A statement's `char_start` and `char_end` are those of its excerpt: the `start` of the excerpt's first segment and the `end` of its last.
+*Reason:* the offsets let a human check the statement against its source. An excerpt gives them some context. Excerpt boundaries are also more reliable than attribution, so segment-level offsets would add precision that inherits attribution errors.
 
 ### 3.3 `base_author` stays a placeholder
 
@@ -72,7 +72,7 @@ There are no character offsets and no `source` field: everything Karaage reports
 ### 3.5 Main point of long documents
 
 When the text does not fit the context:
-1. Split it at passage boundaries into chunks that fit.
+1. Split it at excerpt boundaries into chunks that fit.
 2. Summarise each chunk.
 3. Combine the summaries into the main point.
 
@@ -170,7 +170,7 @@ All LLM calls go through one client (`karaage.llm`), activated by `setup()`. It:
 - records or replays responses for tests (section 7.1).
 
 Two problems in the pre-1.1.0 code that this resolves:
-- **Inconsistent reasoning switch-off.** Attribution prepends `/no_think`, which the current LM Studio build ignores (section 4.2); rephrasing, paraphrasing and validation pre-fill an empty `<think>` block; extraction (main point and passages) does neither. So on this build, attribution and extraction ran with reasoning on. Main-point output is capped at 250 tokens, so reasoning output would exhaust it. This may explain the truncated main points.
+- **Inconsistent reasoning switch-off.** Attribution prepends `/no_think`, which the current LM Studio build ignores (section 4.2); rephrasing, paraphrasing and validation pre-fill an empty `<think>` block; extraction (main point and excerpts) does neither. So on this build, attribution and extraction ran with reasoning on. Main-point output is capped at 250 tokens, so reasoning output would exhaust it. This may explain the truncated main points.
 - **Token budgets that ignore the profile.** Budget constants assume an 8,000-token context; rephrasing even asks for up to 8,000 output tokens. Budgets that depend on the context size must derive from the profile's `context_tokens`.
 
 ## 5. Input
@@ -208,7 +208,7 @@ Each document gets `<id>.json`, plus `<id>.html` (the report) when asked for.
 ### 6.2 Document status
 
 - `ok`: every step ran without error. A document with no statements can be `ok`.
-- `partial`: every step ran, but some passages, batches or statements failed and are listed in `errors`, so statements may be missing.
+- `partial`: every step ran, but some excerpts, batches or statements failed and are listed in `errors`, so statements may be missing.
 - `failed`: a step failed as a whole. There are no statements, actors or main point, but the file is still written, with the error, so a rerun knows to retry it.
 
 A rerun skips documents whose output is `ok` and was made from the same text (same `text_sha256`), and runs the others again.
@@ -261,9 +261,9 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
 ```
 
 - **Text fingerprint:** `text_length` counts code points and `text_sha256` is taken from the UTF-8 text, so a later change to the text can be detected.
-- **Errors:** one object per failure, in pipeline order, e.g. `{"step": "extraction", "passage": 3, "statement": null, "message": "RuntimeError: …"}`.
-  - `step` is one of `segmentation`, `attribution`, `passages`, `extraction`, `rephrasing`, `paraphrasing` and `validation`.
-  - When only part of a step failed, `passage` (numbered from 1, as in the report) or `statement` (a statement id) says which.
+- **Errors:** one object per failure, in step order, e.g. `{"step": "extraction", "excerpt": 3, "statement": null, "message": "RuntimeError: …"}`.
+  - `step` is one of `segmentation`, `attribution`, `excerpts`, `extraction`, `rephrasing`, `paraphrasing` and `validation`.
+  - When only part of a step failed, `excerpt` (numbered from 1, as in the report) or `statement` (a statement id) says which.
   - A failed document has one error: that of the step that failed.
 - **Warnings:** `{"code", "message"}` objects, with the codes:
   - `text-not-nfc`: the text is not NFC-normalised;
@@ -271,7 +271,7 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
   - `text-not-english`: it does not look like English. Fewer than 15% of its words are frequent English function words, against 25% to 40% in the test articles. Texts under 20 words are not checked.
 - **`main_point_method`:** `single` or `chunked`.
 - **Statement ids:**
-  - written `<document_id>-s<n>`, with `n` counted from 1 in extraction order (by passage, then actor);
+  - written `<document_id>-s<n>`, with `n` counted from 1 in extraction order (by excerpt, then actor);
   - rejected statements included, so ids don't depend on validation;
   - unique within a run.
 - **Actor:** `actor` is the actor's `canonical_name`, or `base_author`. `actor_aliases` is the canonical name followed by the aliases; for `base_author` it is `["base_author"]`.
@@ -320,10 +320,10 @@ The profile settings go under `snapshot.statement_inference` in the bundle descr
 Tests run without an LLM server by replaying recorded responses.
 - **Mode:** `KARAAGE_LLM_MODE` is `live` (default), `record` or `replay`.
 - **Storage:** recordings are one JSON file per test article in `tests/recordings/<profile>/` (`KARAAGE_RECORDINGS` sets the root), holding the article's responses keyed by the SHA-256 of the request (backend, model id, messages, schema, generation parameters). Recording an article rewrites its file from scratch, so a full re-recording changes at most 60 files, and unused responses disappear. Replay looks requests up in all the files of the profile.
-- **Expected outputs:** recording also saves each article's output in `tests/recordings/<profile>/expected/`. In `replay` mode, the pipeline test compares the output with it, so any change in behaviour shows up as a failing test, and as a diff of the expected outputs when recorded again.
+- **Expected outputs:** recording also saves each article's output in `tests/recordings/<profile>/expected/`. In `replay` mode, the article test compares the output with it, so any change in behaviour shows up as a failing test, and as a diff of the expected outputs when recorded again.
 - **Same results on any machine:** the embedding model runs on the CPU, so that results do not depend on the machine's GPU.
 - **Missing recording:** in `replay` mode, a missing recording fails the test with a clear message. It never falls back to a live call.
-- **When to redo:** recordings come only from the test dataset, and are redone whenever prompts, schemas or profiles change. Doing so needs a live backend; the command is in `tests/test_pipeline.py` and the README.
+- **When to redo:** recordings come only from the test dataset, and are redone whenever prompts, schemas or profiles change. Doing so needs a live backend; the command is in `tests/test_articles.py` and the README.
 
 ### 7.2 Human check of method changes
 

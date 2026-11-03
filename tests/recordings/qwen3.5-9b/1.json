@@ -1,87 +1,5 @@
 {
- "03c07394e602db253f16980c707aa43bbcc8825a36b8714f833958cb15dbab38": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Police raids and legal pressure force link sites to close, proving hosting is illegal even if files aren't stored on servers.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686661,
-  "id": "chatcmpl-al3g83mb8jtk92uiesz109",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 31,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 936,
-   "prompt_tokens_details": null,
-   "total_tokens": 967
-  }
- },
- "03ea4bfd4a5995e4246ff43acfda6e43c47a86a3fbb1187f9c25e5e54648279b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"MetaMachine\": [\"eDonkey2000 is a peer-to-peer file sharing application developed by MetaMachine, using the Multisource File Transfer Protocol.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686665,
-  "id": "chatcmpl-730y984e4u1iibzpxng59i",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 36,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 729,
-   "prompt_tokens_details": null,
-   "total_tokens": 765
-  }
- },
- "0df9bd16322a2b6e4115d4ec54f14d7a1dc34bc022b353738fdd7424c51dcf97": {
+ "03f4a55deab354d002f1e24916577b3b9c34398841f53ee4ebece94339261ec9": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -99,8 +17,8 @@
     }
    }
   ],
-  "created": 1793686711,
-  "id": "chatcmpl-q8u9onaut6jk35otkc835",
+  "created": 1793700663,
+  "id": "chatcmpl-b3hl0xb0rkozed129irft",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -117,53 +35,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 357,
+   "prompt_tokens": 349,
    "prompt_tokens_details": null,
-   "total_tokens": 372
+   "total_tokens": 364
   }
  },
- "1d90af29ba2fa870c7143d1d72b3d7000d98039290976dae90e056a2b73c6bf0": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"MetaMachine created the eDonkey2000 software, which uses the Multisource File Transfer Protocol. This peer-to-peer file sharing system promotes permanent file sharing to keep files available over time. However, it is usually not as good as the BitTorrent system for quickly spreading new releases to many users.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686703,
-  "id": "chatcmpl-13vgyv5qq4ejav2fr09i2o",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 73,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 229,
-   "prompt_tokens_details": null,
-   "total_tokens": 302
-  }
- },
- "2bef8c1cadd5c401887143f8ce359bce0ccd39d12cebda83fc132d58d9838754": {
+ "0d084f299ba8561392f92b8b7091ab2d698ac674c0521797bdd4c34c28634d86": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -181,8 +58,8 @@
     }
    }
   ],
-  "created": 1793686709,
-  "id": "chatcmpl-32cts4d0semupfpr191tl",
+  "created": 1793700662,
+  "id": "chatcmpl-wiith6k2wrr40j98qp4u",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -199,12 +76,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 356,
+   "prompt_tokens": 410,
    "prompt_tokens_details": null,
-   "total_tokens": 371
+   "total_tokens": 425
   }
  },
- "2df6420ed44940dd5c42aa160d100f2047efb14cd688ec8bdf519de1ccb37a8e": {
+ "1093a811693fb242b107d505ee452529842368edb1f098ff76cf4a770a5ebcc3": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -213,7 +90,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"MetaMachine's eDonkey2000 is a peer-to-peer sharing app that prioritizes long-term file availability over the rapid distribution of new releases.\"}",
+     "content": "{\"base_author\": [\"BitTorrent, created by Bram Cohen in 2002, uses a peer-to-peer model where users swap file portions, enabling fast distribution to many people without a central server.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -222,8 +99,8 @@
     }
    }
   ],
-  "created": 1793686705,
-  "id": "chatcmpl-w7hpedqlzkc9jtl5pdqimb",
+  "created": 1793700601,
+  "id": "chatcmpl-r46q76a82amf36pwu2v7s",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -232,7 +109,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 42,
+   "completion_tokens": 44,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -240,9 +117,255 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 190,
+   "prompt_tokens": 815,
    "prompt_tokens_details": null,
-   "total_tokens": 232
+   "total_tokens": 859
+  }
+ },
+ "1a01ac12415a557ee84036bd489dd498263217b5874bffcb5ba070cac91809af": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700664,
+  "id": "chatcmpl-t4bl4hban5ce89aryxwdu",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 324,
+   "prompt_tokens_details": null,
+   "total_tokens": 339
+  }
+ },
+ "1a2b3ba88cb64e42eff016605ff797daa22c4509b704025e543ff89e23c6f2fa": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Police raids that shut down filesharing websites are thought to be connected to the MPAA.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700656,
+  "id": "chatcmpl-wlv65b22dhrmnsgoyfuv8h",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 28,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 178,
+   "prompt_tokens_details": null,
+   "total_tokens": 206
+  }
+ },
+ "22d6ee57ee45c69b5bb5f3d10597cad5bf9b7dd10db5574fab023d6b5a615672": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700667,
+  "id": "chatcmpl-wmtsg9pq9dekfapyrpkexg",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 240,
+   "prompt_tokens_details": null,
+   "total_tokens": 255
+  }
+ },
+ "26569666aa05921e305ea2eac48a5d9ac8f1f59be4b6061d7d53f7637831ed37": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700665,
+  "id": "chatcmpl-zt75c9i8uz9fi80dfgxno",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 237,
+   "prompt_tokens_details": null,
+   "total_tokens": 252
+  }
+ },
+ "28dc7e6190593d734b4080591389a2650b5b9d7c273add6f8678b5a76cb717a5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Police raids and legal pressure are forcing filesharing link sites to close, proving that hosting such sites is illegal even if the files themselves are not stored on the servers.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700590,
+  "id": "chatcmpl-ghtjoiwsvvgabhgvs0i239",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 40,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1159,
+   "prompt_tokens_details": null,
+   "total_tokens": 1199
+  }
+ },
+ "37d198c6ab45ed7e24f26e122acb51a4f21ffc5e543c78df1978d3dc2b3f7a22": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"Police raids and legal pressure are forcing filesharing link sites to close, and\", \"rephrased\": \"European law enforcement agencies, including the Dutch FIOD-ECD and Finnish National Bureau of Investigation, have conducted raids on hosting providers and seized servers for filesharing link sites in countries such as the Netherlands, Finland, France, and Slovenia. These actions, often initiated by national copyright oversight organizations, have resulted in the shutdown of major sites like Mindlab and FinReactor, demonstrating that authorities consider the hosting of such links illegal even when the servers do not store the actual files. This legal pressure has effectively forced operators to cease providing torrent links, thereby closing down these distribution networks.\", \"summary\": \"European police raids and legal pressure are forcing filesharing link sites to close, proving that hosting such sites is illegal even if the files themselves are not stored on the servers.\"}, \"1\": {\"original\": \"Decided to voluntarily close the links section after news of arrests and legal\", \"rephrased\": \"The operators of the Slovenian-based BitTorrent site SuprNova.org decided to voluntarily shut down the section of the website that hosted links to files following reports of arrests of administrators of other prominent peer-to-peer sites and after receiving formal legal warnings. Although the site's forums and IRC network remained online, the decision was made to stop distributing torrent links, indicating that the threat of legal consequences and the arrest of peers outweighed the perceived safety of their location in Slovenia.\", \"summary\": \"The operators of the Slovenian-based BitTorrent site SuprNova.org decided to voluntarily shut down the section of the website that hosted links to files following reports of arrests of administrators of other prominent peer-to-peer sites and after receiving formal legal warnings.\"}, \"2\": {\"original\": \"At the end of 2004, eXeem, a project to decentralize the BitTorrent link network\", \"rephrased\": \"In an effort to circumvent the legal vulnerabilities associated with centralized link sites, a project named eXeem was developed by the owners of the Slovenian site SuprNova.org to decentralize the BitTorrent link network. By the end of 2004, this initiative reached a beta stage with over 5,000 users, aiming to allow every user to easily publish new files without relying on centralized servers or dedicated trackers, thus attempting to eliminate the need for the now-closed link sites.\", \"summary\": \"In an effort to circumvent the legal vulnerabilities associated with centralized link sites, a project named eXeem was developed by the owners of the Slovenian site SuprNova.org to decentralize the BitTorrent link network.\"}, \"3\": {\"original\": \"In a bid to avoid the pitfall of Napster, most other major filesharing networks\", \"rephrased\": \"Most major filesharing networks, including Gnutella, Gnutella 2, KaZaA, and eDonkey2000, operate on a decentralized architecture designed to avoid the legal pitfalls faced by centralized systems like the defunct Napster. Unlike these networks, which distribute files directly between users, traditional link sites relied on centralized servers to coordinate the sharing of files, a structural difference that has made the former more resilient to police raids and legal pressure targeting specific hosting providers.\", \"summary\": \"Most major filesharing networks, including Gnutella, Gnutella 2, KaZaA, and eDonkey2000, operate on a decentralized architecture designed to avoid the legal pitfalls faced by centralized systems like the defunct Napster.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700603,
+  "id": "chatcmpl-4xqeiabgflo44cmlapcuce",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 744,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2692,
+   "prompt_tokens_details": null,
+   "total_tokens": 3436
   }
  },
  "3c2ee4e9ed03b2bfea772d9188e5441828ccd9015b0fb813786e797936ad8726": {
@@ -263,8 +386,8 @@
     }
    }
   ],
-  "created": 1793686653,
-  "id": "chatcmpl-jh3e5nzb53cnxjvndfj6co",
+  "created": 1793700588,
+  "id": "chatcmpl-gqub9jj5aendjgv4mio47j",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -286,7 +409,7 @@
    "total_tokens": 1915
   }
  },
- "46593f275b125000fe41a42f1856f8200c9c5a8b03a3d2ed36cafb0b61d93aae": {
+ "45ab5081cd0637fc6e68149f50710a3ba1d058321f227d86cddf057eaf00d824": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -295,7 +418,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"FinReactor, a significant Finnish filesharing platform, was closed. The Motion Picture Association of America claims responsibility for this shutdown. However, the Finnish National Bureau of Investigation states there were no contacts between the association and Finnish authorities. This difference shows that international cooperation between copyright enforcement groups and local police forces is complicated and often disputed when shutting down digital services.\"}",
+     "content": "{\"rephrased_statement\": \"FinReactor, a Finnish filesharing website, closed down. The MPAA claims responsibility for this shutdown.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -304,8 +427,8 @@
     }
    }
   ],
-  "created": 1793686701,
-  "id": "chatcmpl-pdl66ug0wyuj6iy0dwwqc",
+  "created": 1793700659,
+  "id": "chatcmpl-s0mnr8fzs99cgxrva6r24",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -314,7 +437,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 81,
+   "completion_tokens": 32,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -322,12 +445,53 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 230,
+   "prompt_tokens": 177,
    "prompt_tokens_details": null,
-   "total_tokens": 311
+   "total_tokens": 209
   }
  },
- "50543fdc773acbf3072792fc8b64a46d8f8bf2d0ec68da6310e2abcff56e19ad": {
+ "64c1f43f797fb437843ced79d510215323387ccd5d7f7e2f3cf1c0cd7cc44831": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"MetaMachine\": [\"eDonkey2000 is a peer-to-peer file sharing application using the Multisource File Transfer Protocol.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700602,
+  "id": "chatcmpl-5fru284w3frjbwe1yk1r7c",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 31,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 726,
+   "prompt_tokens_details": null,
+   "total_tokens": 757
+  }
+ },
+ "6937c0061b3356bb4f5b916f2fd69d2a8aacd7c7b26e913e04c8ac5a9b911e47": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -345,8 +509,8 @@
     }
    }
   ],
-  "created": 1793686713,
-  "id": "chatcmpl-eqlqzfe0977tc8bknqezbb",
+  "created": 1793700667,
+  "id": "chatcmpl-i2a6moth8qpkjv3u4o4fm",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -363,12 +527,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 238,
+   "prompt_tokens": 236,
    "prompt_tokens_details": null,
-   "total_tokens": 253
+   "total_tokens": 251
   }
  },
- "546bccb774a700a392d92a8bbf021fac08c615e42c56b0416cb6daea08b5617d": {
+ "6bea75b4957f804f755ab96169d4ebe1ffb92a80d5a60ceef2eae34d0af50984": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -377,7 +541,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"8\": {\"original\": \"BitTorrent is a peer-to-peer file distribution tool written by programmer Bram\\nC\", \"rephrased\": \"The BitTorrent system, created by programmer Bram Cohen and introduced in 2002, functions as a peer-to-peer file distribution tool that allows users to download files at high speeds by swapping file portions with one another rather than relying on a single centralised server, a design that makes it particularly effective for quickly spreading new releases to large numbers of users.\", \"summary\": \"BitTorrent is a 2002 peer-to-peer tool that enables fast file distribution by swapping data chunks between users instead of using a central server.\"}, \"9\": {\"original\": \"eDonkey2000 is a peer-to-peer file sharing application developed by MetaMachine,\", \"rephrased\": \"The eDonkey2000 application, developed by the company MetaMachine and utilizing the Multisource File Transfer Protocol, operates as a peer-to-peer file sharing system that encourages the permanent sharing of files to ensure their long-term availability, though this approach is generally less effective than the BitTorrent system at rapidly distributing new releases to large user groups.\", \"summary\": \"MetaMachine's eDonkey2000 is a peer-to-peer sharing app that prioritizes long-term file availability over the rapid distribution of new releases.\"}}",
+     "content": "{\"rephrased_statement\": \"Centralized platforms such as the now-defunct Napster encountered significant legal challenges. To sidestep these issues, prominent filesharing networks like Gnutella, Gnutella 2, KaZaA, and eDonkey2000 utilize a decentralized design.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -386,8 +550,8 @@
     }
    }
   ],
-  "created": 1793686690,
-  "id": "chatcmpl-v1zwvnvy1s7o6hljix7yr",
+  "created": 1793700652,
+  "id": "chatcmpl-eti0vc6fsiuuh3cz58d19k",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -396,7 +560,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 284,
+   "completion_tokens": 66,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -404,12 +568,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 1919,
+   "prompt_tokens": 211,
    "prompt_tokens_details": null,
-   "total_tokens": 2203
+   "total_tokens": 277
   }
  },
- "6d6f861e3a2e90231440f4a0a69b62c09ea53cdd54c5ce7a941d5d01309f06be": {
+ "72bea8e4c129f787fa4fc67aac8a0db4cc2b15b582642607f819715290e9130e": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -418,7 +582,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"Copyright enforcement groups issued formal legal warnings. Other site administrators faced arrest reports. In response, the operators of SuprNova.org, a BitTorrent site based in Slovenia, chose to stop their link distribution service voluntarily.\"}",
+     "content": "{\"rephrased_statement\": \"The Motion Picture Association of America, a trade group for major U.S. movie studios, is thought to be connected to police operations that shut down filesharing sites. While officials deny any direct contact, this association is suspected of organizing some of these coordinated enforcement actions, though the full scope of their role is unclear.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -427,8 +591,8 @@
     }
    }
   ],
-  "created": 1793686697,
-  "id": "chatcmpl-v0c7fdux11bmidb753naf",
+  "created": 1793700654,
+  "id": "chatcmpl-us2pl77b6imdsfuc38jg8",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -437,7 +601,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 53,
+   "completion_tokens": 73,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -445,12 +609,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 200,
+   "prompt_tokens": 225,
    "prompt_tokens_details": null,
-   "total_tokens": 253
+   "total_tokens": 298
   }
  },
- "74bd262de11d249f2ee926ef2e2b5c108e2678c1548015a06b5e17d38950b5b8": {
+ "75fa64f889969d23682fc90c20b121fde77c0ba0c613fdce938e9aaa48f39917": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -459,7 +623,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"MPAA\": [\"suspected of linking to police actions\", \"taken credit for FinReactor closure\"]}",
+     "content": "{\"SuprNova.org\": [\"Decided to voluntarily close the links section after news of arrests and legal warnings.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -468,8 +632,8 @@
     }
    }
   ],
-  "created": 1793686662,
-  "id": "chatcmpl-st6j3gdvg6dnrlh6pttr5",
+  "created": 1793700591,
+  "id": "chatcmpl-8mo1wvzlespj045dpb8t7f",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -478,7 +642,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 23,
+   "completion_tokens": 25,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -486,12 +650,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 948,
+   "prompt_tokens": 1337,
    "prompt_tokens_details": null,
-   "total_tokens": 971
+   "total_tokens": 1362
   }
  },
- "7bf354af83a9eeb1bc68cf52d78117306254fef0770028c93bd3ebf74822628e": {
+ "7fd31157c3468bb890ffb089710c9b5f69b7fca53735f5f68e6980879b9980ca": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -500,7 +664,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -509,90 +673,8 @@
     }
    }
   ],
-  "created": 1793686711,
-  "id": "chatcmpl-rvwa7ovs1eb9p03k1qtkqj",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 246,
-   "prompt_tokens_details": null,
-   "total_tokens": 261
-  }
- },
- "8ea0764f469183ba8fd2170b3ff51ffb2a6ae4c644b1610346a75dfac48551ac": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Recent police raids and legal pressure across Europe are forcing filesharing link sites to close, proving that hosting such sites is illegal even if the files themselves are not stored on the servers.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686655,
-  "id": "chatcmpl-l9u2l3td5208scoxkaxgyx",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 43,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1162,
-   "prompt_tokens_details": null,
-   "total_tokens": 1205
-  }
- },
- "90934fa46188bd756ba4bce981384c9670cafb21901e7dba6615b626467c0f82": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686709,
-  "id": "chatcmpl-01r7v3ziioajaq32o698g5b",
+  "created": 1793700662,
+  "id": "chatcmpl-9mcfysrjheu9hr8dk9xoj",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -609,12 +691,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 404,
+   "prompt_tokens": 536,
    "prompt_tokens_details": null,
-   "total_tokens": 419
+   "total_tokens": 551
   }
  },
- "9a1c8163c4f4cba92fa80bed2c0a66a02a3b1931475111eb6794090d262fb59a": {
+ "83f7f15a48861134974a8008f63f8fc9a5eb3ce5a095706952b57832e368b65c": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -623,7 +705,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"0\": {\"original\": \"Recent police raids and legal pressure across Europe are forcing filesharing\\n\\n\", \"rephrased\": \"European law enforcement agencies, acting on pressure from copyright organizations, have conducted raids and issued legal threats that are compelling filesharing link sites in countries like the Netherlands, Finland, and Slovenia to shut down. These actions demonstrate that hosting such sites is considered illegal, even though the servers do not store the actual copyrighted files, thereby closing a potential legal loophole for users.\", \"summary\": \"European police raids and legal pressure are forcing filesharing link sites to close, proving that hosting them is illegal.\"}, \"1\": {\"original\": \"Decided to voluntarily close the BitTorrent links section after news of arrests\\n\", \"rephrased\": \"The operators of the Slovenian-based BitTorrent site SuprNova.org decided to voluntarily shut down their link distribution service following reports of arrests against other site administrators and after receiving formal legal warnings from copyright enforcement groups. This decision was made to avoid the risk of having their servers seized by authorities, even though the site's owners maintain that hosting links to unauthorized files is not inherently illegal under Slovenian law.\", \"summary\": \"The operators of the Slovenian-based BitTorrent site SuprNova.org decided to voluntarily shut down their link distribution service following reports of arrests against other site administrators and after receiving formal legal warnings from copyright enforcement groups.\"}, \"2\": {\"original\": \"eXeem, a decentralized project by SuprNova.org, reached beta in late 2004 to\\n\", \"rephrased\": \"In an effort to circumvent the legal and operational risks associated with centralized hosting, the decentralized filesharing project eXeem, developed by the creators of the now-closed SuprNova.org, reached its beta stage in late 2004. This system was designed to allow users to publish and distribute files directly without relying on central servers or trackers, aiming to eliminate the specific legal vulnerability that led to the closure of the original link site.\", \"summary\": \"The decentralized filesharing project eXeem, developed by the creators of the now-closed SuprNova.org, reached its beta stage in late 2004 to allow users to publish and distribute files directly without relying on central servers or trackers.\"}, \"3\": {\"original\": \"TorrentBits.org was closed at about the same time as other sites, though the\\n\", \"rephrased\": \"The filesharing link site TorrentBits.org was shut down around the same time as other major European sites, yet the specific reasons for its closure remain unknown. While other sites in the region were forced offline by police raids or voluntarily closed due to legal pressure, the circumstances surrounding the disappearance of TorrentBits.org have not been clarified by its founder.\", \"summary\": \"The filesharing link site TorrentBits.org was shut down around the same time as other major European sites, yet the specific reasons for its closure remain unknown.\"}}",
+     "content": "{\"rephrased_statement\": \"Administrators of other major peer-to-peer sites were arrested. Following these arrests and after getting official legal notices, the people running the Slovenian BitTorrent website SuprNova.org chose to turn off the part of their site that contained file links.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -632,8 +714,8 @@
     }
    }
   ],
-  "created": 1793686666,
-  "id": "chatcmpl-qq5p4akql38do1w0igokw",
+  "created": 1793700647,
+  "id": "chatcmpl-bnz9036iuxim338h2198",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -642,7 +724,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 609,
+   "completion_tokens": 59,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -650,9 +732,132 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2789,
+   "prompt_tokens": 207,
    "prompt_tokens_details": null,
-   "total_tokens": 3398
+   "total_tokens": 266
+  }
+ },
+ "879c2abb3f8af55e0fcf3e90baa63913a060aa7e861007d9fbf4b0bcebd4510a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"MPAA\": [\"suspected of linking to police actions\", \"taken credit for the closure of FinReactor\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700600,
+  "id": "chatcmpl-3r5yfthl4fuqv0ki4bgahs",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 25,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 945,
+   "prompt_tokens_details": null,
+   "total_tokens": 970
+  }
+ },
+ "896b1e5f4b2a990b892acbfc195a4e3d41375bce85e4861ffe15c967b91b42e7": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Programmer Bram Cohen developed BitTorrent in 2002. This peer-to-peer file distribution tool allows for rapid downloads by letting users exchange file segments with each other. Because the system operates without a single centralized server or individual, it can quickly share new files with many users.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700660,
+  "id": "chatcmpl-4rtiokxtl9vrbgitcaqj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 67,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 222,
+   "prompt_tokens_details": null,
+   "total_tokens": 289
+  }
+ },
+ "8eca605c9d36e7356c0f9fa5a22a32020d3797d9e27ec26469f59c91afb83fd0": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"TorrentBits.org\": [\"TorrentBits.org was closed at about the same time as other sites, though the specific reason remains unknown.\"], \"Delirium Vault\": [\"Delirium Vault is listed among other torrent sites that have reportedly closed.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700597,
+  "id": "chatcmpl-95ina2cqpfmueqgishlkm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 52,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1027,
+   "prompt_tokens_details": null,
+   "total_tokens": 1079
   }
  },
  "9a75c545b5f16a57254e3ea76d0113ae883ae6b176de92ebb3132f63554561ea": {
@@ -673,8 +878,8 @@
     }
    }
   ],
-  "created": 1793686643,
-  "id": "chatcmpl-fnwjcefosocfmx8tqoq8a",
+  "created": 1793700577,
+  "id": "chatcmpl-u7j28uudhrbzyd59bed0o",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -696,7 +901,7 @@
    "total_tokens": 2603
   }
  },
- "b2bf96604b8ce60ea32a5fbe82adb7982dfa2df2474648e7cb141d65b002f085": {
+ "9ef2b68c89a1d99184417bfe8c6074d6088210b57112a3bea91fa4269e1b5cc6": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -705,7 +910,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"BitTorrent is a peer-to-peer file distribution tool written by programmer Bram Cohen which was debuted at CodeCon 2002.\"]}",
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -714,172 +919,8 @@
     }
    }
   ],
-  "created": 1793686663,
-  "id": "chatcmpl-z6uengdkrefnxpgtjildz8",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 34,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 818,
-   "prompt_tokens_details": null,
-   "total_tokens": 852
-  }
- },
- "c72887c9d7d9b26f8b251e9693324272e86acaec16fe972b9a718f0604c206f6": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686712,
-  "id": "chatcmpl-fm6avn0pgqez2obgr762y",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 261,
-   "prompt_tokens_details": null,
-   "total_tokens": 276
-  }
- },
- "d417181348a8fb6ebdf0ed0d046c234b1f4b0683a5cf19bfe7c2409c8814c8e9": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686708,
-  "id": "chatcmpl-nnhm5r6h2mhtxpzn5jw06",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 524,
-   "prompt_tokens_details": null,
-   "total_tokens": 539
-  }
- },
- "d8c686da662f03130f5d6e1283939af1b8fd31a35a7f87b30734aa8a96e12487": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686710,
-  "id": "chatcmpl-vi73xbwpaqcrxa9g8r2p8",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 250,
-   "prompt_tokens_details": null,
-   "total_tokens": 265
-  }
- },
- "dda7a5486bffea8806da75264247d304b0a76a365661ee1fa700f4bf6b34bbb0": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686712,
-  "id": "chatcmpl-2ngk8zd5nwku1qi3v0j7a9",
+  "created": 1793700665,
+  "id": "chatcmpl-i5bpn1z9vgagwa6w1nfjb",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -901,7 +942,7 @@
    "total_tokens": 256
   }
  },
- "deef6927491bf0d1f20db0e85b10b8638c00a92b9effd2ba29fd97839ad48d11": {
+ "a30707e2a629bf98681ebb0303bb3219a49d214870455e063a5297a76020b757": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -910,7 +951,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"The eDonkey2000 application, developed by MetaMachine, functions as a peer-to-peer sharing tool. It values keeping files available for extended periods more than quickly spreading out fresh releases.\"}",
+     "content": "{\"8\": {\"original\": \"Police raids and legal pressure force link sites to close, proving hosting is非法\", \"rephrased\": \"While the activities of peer-to-peer link sites have not been legally proven to be illegal, law enforcement agencies in various European countries are increasingly willing to shut down these platforms upon accusation of copyright violations. This trend of police raids and legal pressure effectively forces the operators to close, demonstrating that the act of hosting such sites is treated as illegal even when the actual files are not stored on the servers themselves.\", \"summary\": \"Police raids and legal pressure force link sites to close, proving hosting is illegal even if files aren't stored on servers.\"}, \"9\": {\"original\": \"suspected of linking to police actions\", \"rephrased\": \"Although the extent of their involvement remains unknown, the Motion Picture Association of America is suspected of having links to police actions that result in the closure of filesharing sites. This trade association, representing major movie studios based in the United States, is believed to be behind some of the coordinated enforcement efforts, even if official authorities deny direct contact.\", \"summary\": \"The MPAA is suspected of linking to police actions that result in the closure of filesharing sites.\"}, \"10\": {\"original\": \"taken credit for the closure of FinReactor\", \"rephrased\": \"The Motion Picture Association of America has taken credit for the closure of the Finnish filesharing site FinReactor, although the official Finnish police have denied that the association had any contacts with their authorities. This claim by the trade association highlights the ongoing debate regarding the true instigators of the raids on European filesharing platforms.\", \"summary\": \"The MPAA has taken credit for the closure of the Finnish filesharing site FinReactor.\"}, \"11\": {\"original\": \"BitTorrent, created by Bram Cohen in 2002, uses a peer-to-peer model where users\", \"rephrased\": \"BitTorrent, a peer-to-peer file distribution tool created by programmer Bram Cohen in 2002, enables fast downloads by having users swap portions of a file with one another. This decentralized model allows for the quick distribution of new files to a large number of users without relying on a single centralized server or individual.\", \"summary\": \"BitTorrent uses a peer-to-peer model where users swap file portions, enabling fast distribution to many people without a central server.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -919,8 +960,8 @@
     }
    }
   ],
-  "created": 1793686707,
-  "id": "chatcmpl-sv632ete4vayfpnm9x1m5",
+  "created": 1793700629,
+  "id": "chatcmpl-qftunth12ifl30kcyo9c9",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -929,7 +970,130 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 50,
+   "completion_tokens": 499,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2444,
+   "prompt_tokens_details": null,
+   "total_tokens": 2943
+  }
+ },
+ "a458b7ada8f6fd83e114a2a85659135c33f4bfe73e4640a7dda7ab590eef41ff": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"To avoid legal risks tied to centralized link sites, the owners of the Slovenian site SuprNova.org created a project called eXeem. This project was designed to spread the BitTorrent link network across a decentralized system. By late 2004, the project had reached a beta phase and included more than 5,000 users. The goal was to let every user publish new files easily, without depending on centralized servers or dedicated trackers. This approach aimed to remove the need for the link sites that are now closed.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700649,
+  "id": "chatcmpl-esnfjgn4vnj6ponfgut7km",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 119,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 261,
+   "prompt_tokens_details": null,
+   "total_tokens": 380
+  }
+ },
+ "ab96406862c0e959f13004c7644b86d04773cebe0c9505f068926ea9ecda8652": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"At the end of 2004, eXeem, a project to decentralize the BitTorrent link network developed by SuprNova.org, reached a beta stage.\", \"In a bid to avoid the pitfall of Napster, most other major filesharing networks are decentralized, including Gnutella, Gnutella 2, KaZaA and eDonkey2000.\", \"The goal of Exceem was to eliminate the need for torrent link sites and trackers by allowing every user to easily publish new files on the network without having to post a torrent file on a centralized server and distribute them without dedicated trackers.\", \"The closed beta testing with more than 5,000 users was underway by December. The status of eXeem after the closure of SuprNova.org remains unclear.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700593,
+  "id": "chatcmpl-d2ngjmb3x71qfbm8iibx8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 174,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1051,
+   "prompt_tokens_details": null,
+   "total_tokens": 1225
+  }
+ },
+ "bb6c7e547c8af4bcd54cd51352866565646795e2df0abd421107216f8679da8c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"SuprNova.org, a BitTorrent platform based in Slovenia, chose to turn off the part of its website that shared file links. This choice came after officials reported arrests of admins from other major peer-to-peer sites and after the site got official legal notices. While the site's discussion boards and IRC chat stayed active, they stopped sending torrent links. This move showed that the risk of legal trouble and the arrest of other users was greater than the safety they felt having the site in Slovenia.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700644,
+  "id": "chatcmpl-t38gj34imjd2x74gln60sh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 108,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -939,10 +1103,10 @@
    },
    "prompt_tokens": 251,
    "prompt_tokens_details": null,
-   "total_tokens": 301
+   "total_tokens": 359
   }
  },
- "e0b59fca339cc4e2031e90d70973ad83b98dc7ee612acdc270df920e3b50749f": {
+ "c74c2ef79f88efa9e42d83132c3e24941a7aedad38314f29735066fb8b66665f": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -951,7 +1115,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"4\": {\"original\": \"Delirium Vault is listed among other torrent sites that have reportedly closed.\", \"rephrased\": \"Delirium Vault, a peer-to-peer link site, has reportedly ceased operations alongside other similar services like Youceff Torrents and Phoenix Torrents, joining a wave of closures affecting sites in France, the Netherlands, Finland, and Slovenia. This pattern of shutdowns suggests that law enforcement actions are effectively dismantling these networks, even when the sites themselves do not store illegal files directly.\", \"summary\": \"Delirium Vault joins other closed link sites, indicating a broader trend of enforcement actions dismantling filesharing networks.\"}, \"5\": {\"original\": \"Police raids and legal pressure force link sites to close, proving hosting is il\", \"rephrased\": \"Law enforcement agencies across Europe are utilizing police raids and legal pressure to force the closure of filesharing link sites, a strategy that demonstrates hosting such sites is illegal even if the servers do not contain the actual infringing files. This approach relies on the fact that many operators are volunteers running non-profit services who lack the resources to withstand prolonged legal battles or the loss of donated server equipment.\", \"summary\": \"European police raids and legal pressure are proving that hosting filesharing sites is illegal, forcing their closure even when files aren't stored on the servers.\"}, \"6\": {\"original\": \"suspected of linking to police actions\", \"rephrased\": \"While the extent of their involvement remains unproven, the Motion Picture Association of America is suspected of linking to police actions that have resulted in the closure of filesharing sites in Europe. Although the Finnish National Bureau of Investigation has officially denied any contacts with the association, the trade group has taken credit for the shutdown of the Finnish site FinReactor, raising questions about the true drivers behind these coordinated enforcement efforts.\", \"summary\": \"The MPAA is suspected of linking to police actions, though official denials exist, raising questions about the true drivers behind European site closures.\"}, \"7\": {\"original\": \"taken credit for FinReactor closure\", \"rephrased\": \"The Motion Picture Association of America has taken credit for the closure of FinReactor, a major Finnish filesharing site, although the Finnish National Bureau of Investigation has officially denied that the association had any contacts with Finnish authorities. This discrepancy highlights the complex and sometimes contested nature of the international cooperation between copyright enforcement groups and local police forces in shutting down these digital services.\", \"summary\": \"The MPAA claims credit for FinReactor's closure, despite official denials from Finnish authorities regarding any contact.\"}}",
+     "content": "{\"rephrased_statement\": \"The Motion Picture Association of America claims responsibility for shutting down the Finnish filesharing website FinReactor. However, the official Finnish police have stated they never communicated with the association. This assertion by the trade group underscores the continuing argument about who actually started the raids on European filesharing platforms.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -960,8 +1124,8 @@
     }
    }
   ],
-  "created": 1793686679,
-  "id": "chatcmpl-2ff2qrzv4s8l8vr13gxyy",
+  "created": 1793700657,
+  "id": "chatcmpl-wxfmpububzo8vpk0pn0nh5",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -970,7 +1134,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 535,
+   "completion_tokens": 67,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -978,12 +1142,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2814,
+   "prompt_tokens": 221,
    "prompt_tokens_details": null,
-   "total_tokens": 3349
+   "total_tokens": 288
   }
  },
- "e9062eb863aa0ae34f9c8c6f6681175d2d1cdc89d594b4ae7b4d8b135d99b61b": {
+ "cad12cb9df08d0734b4239e0f3d0a3c750e9a1e72f86c09dd3bef3dafd062678": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -992,7 +1156,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"The Motion Picture Association of America may be connected to police operations that shut down filesharing sites in Europe, though this link is not yet confirmed. While the Finnish National Bureau of Investigation says it has no contact with the trade group, the group claims responsibility for closing the Finnish site FinReactor. This creates doubt about who really drives these coordinated enforcement actions.\"}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1001,172 +1165,8 @@
     }
    }
   ],
-  "created": 1793686699,
-  "id": "chatcmpl-7n8j6hjz5bdckif3b32t",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 81,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 240,
-   "prompt_tokens_details": null,
-   "total_tokens": 321
-  }
- },
- "ec83d15757057941c852b9dcb678e3e2aebfb7dcac296e73236508d65136d7a8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"eXeem, a decentralized project by SuprNova.org, reached beta in late 2004 to eliminate reliance on centralized torrent servers and trackers.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686658,
-  "id": "chatcmpl-7g1syj4h8s5e0ljsqueo4n",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 39,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1054,
-   "prompt_tokens_details": null,
-   "total_tokens": 1093
-  }
- },
- "f0a7bd51bbbcd99c6627f8a0b87106e0a6b590ce1fb1578aa29b457730daac61": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"TorrentBits.org\": [\"TorrentBits.org was closed at about the same time as other sites, though the specific reason remains unknown.\"], \"Delirium Vault\": [\"Delirium Vault is listed among other torrent sites that have reportedly closed.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686660,
-  "id": "chatcmpl-qrnqzo3gaeh4rkpzs28cx6",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 52,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1030,
-   "prompt_tokens_details": null,
-   "total_tokens": 1082
-  }
- },
- "f13b3e7319e000f497a18a006905ac1bb0951bd5ce2c024c471d33836645c55d": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"SuprNova.org\": [\"Decided to voluntarily close the BitTorrent links section after news of arrests and receiving legal warnings.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686657,
-  "id": "chatcmpl-urn4j5a51qmcg88ahxyz0t",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 28,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1340,
-   "prompt_tokens_details": null,
-   "total_tokens": 1368
-  }
- },
- "fb2a3938ba6d3f53ccb00633d01050d2704a7859e7ab9746074a14a1de69f926": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793686710,
-  "id": "chatcmpl-nqdiry290rez56ho2dpdpf",
+  "created": 1793700668,
+  "id": "chatcmpl-p6srztktdawljvjwmksm",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1183,9 +1183,296 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 243,
+   "prompt_tokens": 221,
    "prompt_tokens_details": null,
-   "total_tokens": 258
+   "total_tokens": 236
+  }
+ },
+ "cb53b1bed5bdf57cef250ee369b31f55c3b19b1eabbe371a794200a457f25a05": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700664,
+  "id": "chatcmpl-mu9qrjrzg6qmdzayzupys",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 319,
+   "prompt_tokens_details": null,
+   "total_tokens": 334
+  }
+ },
+ "d47fefcef39398453a181cdf563493b87f00387f119a2ca2e0677769ea6d75f3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Police raids and legal pressure force link sites to close, proving hosting is illegal even if files aren't stored on servers.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700598,
+  "id": "chatcmpl-40l4g8hqtnfbtfjku2x87a",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 31,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 933,
+   "prompt_tokens_details": null,
+   "total_tokens": 964
+  }
+ },
+ "dd032b93d431cf9366ebd1fdd30997a31a54ebf9de8908a9c3d9fc9d36f702c4": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700666,
+  "id": "chatcmpl-az8ive2qh4q0qirlfrxi",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 352,
+   "prompt_tokens_details": null,
+   "total_tokens": 367
+  }
+ },
+ "e09925b4452f38f96ad150a1192675d83ff5bd7eec4651c36f84bfcdd3b20ed2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"12\": {\"original\": \"eDonkey2000 is a peer-to-peer file sharing application using the MultisourceFile\", \"rephrased\": \"The eDonkey2000 network operates as a peer-to-peer file sharing system that relies on the Multisource File Transfer Protocol to distribute content across a decentralized network of users, ensuring files remain available for long-term sharing without depending on a single central server.\", \"summary\": \"The eDonkey2000 network uses a decentralized peer-to-peer protocol to ensure long-term file availability.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700640,
+  "id": "chatcmpl-oj1m2hku7knusq0ent44",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 120,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1750,
+   "prompt_tokens_details": null,
+   "total_tokens": 1870
+  }
+ },
+ "f742ca80672ee997804816232b5c39c23e06f9aa2c58d45af8ee57efd0692c40": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"The goal of Exceem was to eliminate the need for torrent link sites and trackers\", \"rephrased\": \"To address the legal vulnerability of centralized link sites, the eXeem project aims to decentralize file distribution by enabling users to publish and share files directly without relying on central servers or dedicated trackers, thereby removing the specific infrastructure that authorities target during raids.\", \"summary\": \"Decentralizing file distribution removes the centralized infrastructure targeted by police raids.\"}, \"5\": {\"original\": \"The closed beta testing with more than 5,000 users was underway by December. The\", \"rephrased\": \"Although the eXeem project successfully completed beta testing with over 5,000 users by December 2004, its long-term viability remains uncertain following the shutdown of the primary link site, SuprNova.org, which had been its foundation.\", \"summary\": \"The decentralized eXeem project's future is uncertain after the closure of its parent link site.\"}, \"6\": {\"original\": \"TorrentBits.org was closed at about the same time as other sites, though the\", \"rephrased\": \"TorrentBits.org, a major filesharing link site, was shut down around the same time as other European sites, likely due to the same wave of police raids and legal pressure, even though the specific reasons for its closure have not been publicly disclosed.\", \"summary\": \"TorrentBits.org closed alongside other sites, likely due to police raids despite unknown specific reasons.\"}, \"7\": {\"original\": \"Delirium Vault is listed among other torrent sites that have reportedly closed.\", \"rephrased\": \"Delirium Vault is included in the growing list of filesharing link sites that have been forced to shut down, reflecting a broader pattern where legal pressure and police actions are driving the disappearance of these platforms across Europe.\", \"summary\": \"Delirium Vault joins other sites in closing, illustrating the trend of legal pressure forcing link sites offline.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700620,
+  "id": "chatcmpl-rqftudxkn8rri2m1ei245",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 418,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2798,
+   "prompt_tokens_details": null,
+   "total_tokens": 3216
+  }
+ },
+ "fba44c3bd1922e3017c4e34e12b416debfdd076e942e03ea3f1b4798a7009b2d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700668,
+  "id": "chatcmpl-u4sazzwmjswa1xxn7pe8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 255,
+   "prompt_tokens_details": null,
+   "total_tokens": 270
+  }
+ },
+ "fc7c9db8f2fae40f366c28c365587182b88014c9d91cae0a149bf16dcc9db931": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793700664,
+  "id": "chatcmpl-le29ghqh0sr4ao7sc8nsaq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 361,
+   "prompt_tokens_details": null,
+   "total_tokens": 376
   }
  }
 }

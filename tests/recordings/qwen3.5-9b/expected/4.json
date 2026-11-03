@@ -46,14 +46,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The U.S. Supreme Court has issued a unanimous decision stating that businesses intentionally created to enable copyright violations must be held legally responsible for the resulting infringements, even if the technology itself has lawful applications. This ruling sends a definitive message to the industry that companies designed specifically to promote illegal file-sharing face liability, while the specific legal standards for applying this rule will be determined by lower courts.",
-   "text_short": "The U.S. Supreme Court ruled that companies designed to facilitate copyright infringement are liable for resulting violations.",
+   "text": "The U.S. Supreme Court has issued a unanimous decision stating that businesses intentionally created to enable copyright violations must be held legally responsible for the resulting infringements, a verdict that resolves a long-standing debate over how digital technologies should be regulated while leaving specific legal applications to lower courts.",
+   "text_short": "The U.S. Supreme Court unanimously ruled that companies designed to facilitate copyright infringement are liable for resulting violations.",
    "char_start": 203,
    "char_end": 498,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1765,
+    "rouge2_precision": 0.1111,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -66,14 +66,14 @@
     "David Souter",
     "Justice David Souter"
    ],
-   "text": "Justice David Souter, speaking on behalf of the U.S. Supreme Court, ruled that distributors face liability for third-party copyright violations if they sell a device knowing it will be used to break copyright laws. This rule applies only when there is obvious proof or active measures encouraging illegal use, not just awareness of possible misuse. Consequently, distributors are held responsible even if the device can also be used legally.",
-   "text_short": "Justice David Souter defined liability for copyright infringement as attaching to those who distribute devices with the intent to promote illegal use.",
+   "text": "Justice David Souter, speaking on behalf of the U.S. Supreme Court, ruled that a person or organization is responsible for infringement committed by others if they sell a tool knowing it will be used to break copyright laws. This liability applies even if the tool can also be used legally, as long as the seller made it obvious through words or deeds that they wanted people to violate the law.",
+   "text_short": "Justice David Souter defined liability for copyright infringement as attaching to those who distribute devices with the specific intent to promote illegal use.",
    "char_start": 498,
    "char_end": 895,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1429,
+    "rouge2_precision": 0.1364,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -85,14 +85,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The U.S. Supreme Court's unanimous decision against file-swapping services was unexpected, marking the first major Internet copyright case to reach the nation's highest court in many years. This historic unanimity signals a strong, zero-tolerance stance from the Justices toward companies designed to violate copyright law, reinforcing the legal framework for holding such entities accountable for facilitating widespread infringement.",
-   "text_short": "The U.S. Supreme Court's unexpected unanimous ruling against file-swapping services signals zero tolerance for companies designed to violate copyright law.",
+   "text": "The U.S. Supreme Court's unexpected unanimous ruling against file-swapping services signals a zero-tolerance stance toward companies designed to violate copyright law, marking a significant shift in judicial approach to digital media regulation after years of inaction on major Internet copyright cases.",
+   "text_short": "The U.S. Supreme Court's unexpected unanimous ruling against file-swapping services signals a zero-tolerance stance toward companies designed to violate copyright law.",
    "char_start": 895,
    "char_end": 1266,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2903,
+    "rouge2_precision": 0.1667,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -105,14 +105,14 @@
     "Fred von Lohmann",
     "senior staff attorney for the EFF"
    ],
-   "text": "Fred von Lohmann, senior staff attorney for the Electronic Frontier Foundation, criticized the U.S. Supreme Court for failing to provide a clear legal test for what constitutes inducement of copyright infringement. He argued that this lack of specific guidance could discourage innovators who are unsure whether their projects might inadvertently violate the law, though he remains optimistic about the specific defendants' chances in lower courts.",
-   "text_short": "Fred von Lohmann expressed disapproval of the U.S. Supreme Court because it does not have a definite inducement test. He worried this would make innovators hesitant to start projects they are not sure are legal.",
+   "text": "Fred von Lohmann, who serves as a senior staff attorney at the Electronic Frontier Foundation, stated that the U.S. Supreme Court did not establish a clear legal standard for determining inducement of copyright infringement. He argued that this lack of clarity might deter innovators from creating new technologies because they would be unsure if their projects are legal.",
+   "text_short": "Fred von Lohmann criticized the U.S. Supreme Court for failing to provide a clear legal test for inducement of copyright infringement.",
    "char_start": 1266,
    "char_end": 1707,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2615,
+    "rouge2_precision": 0.2381,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"

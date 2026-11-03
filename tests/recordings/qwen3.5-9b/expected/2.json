@@ -31,14 +31,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "On March 29, the U.S. Supreme Court listened to oral arguments in the MGM v. Grokster case. In this lawsuit, 28 entertainment companies sued peer-to-peer software makers, asking the court to make them legally liable for copyright infringement. The case aims to reverse the 1984 Betamax precedent. That earlier ruling had shielded technology distributors. This decision will decide whether peer-to-peer networks are legal in the United States.",
+   "text": "On March 29, the U.S. Supreme Court listened to oral arguments in the MGM v. Grokster case. In this landmark lawsuit, 28 entertainment companies brought a suit against P2P software developers StreamCast and Grokster. The companies sought a decision that might reverse the 1984 Betamax precedent and decide whether peer-to-peer technology remains legal in the United States.",
    "text_short": "A landmark case is before the U.S. Supreme Court. Entertainment firms want to make P2P software makers responsible for copyright infringement. This decision might change the 1984 Betamax precedent. It could also decide if peer-to-peer technology is legal in the U.S.",
    "char_start": 0,
    "char_end": 2132,
    "valid": false,
    "rejection_reason": "too similar to source",
    "diagnostics": {
-    "rouge2_precision": 0.3099,
+    "rouge2_precision": 0.322,
     "paraphrased": true,
     "in_text": "no",
     "actor_correct": "yes"
@@ -46,20 +46,20 @@
   },
   {
    "id": "2-s2",
-   "actor": "Pew Internet & American Life Project",
+   "actor": "base_author",
    "actor_aliases": [
-    "Pew Internet & American Life Project"
+    "base_author"
    ],
-   "text": "A recent survey by the Pew Internet & American Life Project reveals that 49% of all Americans and 53% of internet users believe that owners of file-sharing networks should be held legally responsible for the piracy of music and movie files. This public opinion data underscores a significant societal demand for stricter liability regarding digital content distribution, contrasting with the legal protections previously afforded to technology companies.",
-   "text_short": "A recent survey by the Pew Internet & American Life Project reveals that 49% of all Americans and 53% of internet users believe that owners of file-sharing networks should be held legally responsible for the piracy of music and movie files.",
-   "char_start": 2132,
-   "char_end": 2413,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "text": "Millions of people use peer-to-peer software to share digital files like music and movies directly. However, most of this material is distributed without copyright holder consent. This situation creates a major clash between technological progress and intellectual property rights.",
+   "text_short": "Peer-to-peer software enables widespread distribution of digital content, yet the majority of such sharing occurs without copyright holder permission, highlighting a conflict between technology and intellectual property rights.",
+   "char_start": 0,
+   "char_end": 2132,
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.125,
-    "paraphrased": false,
-    "in_text": "no",
+    "rouge2_precision": 0.2414,
+    "paraphrased": true,
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -69,15 +69,72 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The outcome of the MGM v. Grokster case will either affirm the 1984 Betamax precedent or overturn it, representing a pivotal moment for the U.S. technology sector. This legal decision carries billions of dollars in future revenues at stake, as it determines whether modern peer-to-peer technology will be protected under the same legal framework that originally enabled the home video market.",
-   "text_short": "The MGM v. Grokster ruling will either uphold the 1984 Betamax decision or reverse it. This result is a critical turning point for the U.S. technology industry, as billions of dollars in future income depend on the outcome.",
+   "text": "A ruling in MGM v. Grokster may seal the destiny of peer-to-peer software within the United States. This verdict could impose legal liability on technological innovators when others misuse their tools. Consequently, the existing legal framework for digital content distribution would undergo a fundamental transformation.",
+   "text_short": "The MGM v. Grokster decision may seal the destiny of peer-to-peer software within the United States. This ruling could expose innovators to liability for unlawful conduct committed by third parties.",
+   "char_start": 0,
+   "char_end": 2132,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2258,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "2-s4",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "New data shows 49% of the US population and 53% of online users think companies running file-sharing services must face legal consequences for music and movie piracy. This demonstrates widespread backing for making tech providers liable for illegal content sharing.",
+   "text_short": "According to a new poll, almost 50 percent of people in the United States think that companies running file-sharing services ought to face legal consequences for copyright theft involving songs and films.",
+   "char_start": 0,
+   "char_end": 2132,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.175,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "2-s5",
+   "actor": "Pew Internet & American Life Project",
+   "actor_aliases": [
+    "Pew Internet & American Life Project"
+   ],
+   "text": "The Pew Internet & American Life Project reports that nearly half of the U.S. population and a majority of internet users believe that companies owning file-sharing networks should be held legally responsible for the copyright infringement committed by their users. This public sentiment suggests a strong desire for the legal system to assign liability to technology providers, a stance that contrasts with the traditional legal protection offered to distributors of recording devices.",
+   "text_short": "Public opinion data indicates broad support for holding file-sharing network owners liable for user piracy.",
+   "char_start": 2132,
+   "char_end": 2413,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0694,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "2-s6",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The upcoming Supreme Court decision in the MGM v. Grokster case holds the power to either uphold or overturn the 1984 Betamax precedent, a landmark ruling that previously established the legality of home video recording technology. Because this modern case involves peer-to-peer file sharing, the court's final judgment will directly determine the future legal status of such networks and could impact billions of dollars in potential revenue for the digital entertainment industry.",
+   "text_short": "The MGM v. Grokster ruling will decide whether the legal precedent protecting home recording technology applies to modern peer-to-peer file sharing.",
    "char_start": 2413,
    "char_end": 2715,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2105,
-    "paraphrased": true,
+    "rouge2_precision": 0.1486,
+    "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
    }

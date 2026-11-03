@@ -1,169 +1,5 @@
 {
- "03807dee2aee29f343af1d62acdf9bc7164c4799e3d3c839202ef2671dcba8b5": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"4\": {\"original\": \"Both Binnews and dvdrs.net have procedures for handling copyright infringement\\u0002\", \"rephrased\": \"Although the US Digital Millennium Copyright Act provides a legal framework for addressing alleged copyright infringement, the administrators of the Binnews and dvdrs.net search sites claim they have established internal procedures to comply with such laws. However, these operators assert that they have never received any formal takedown notices from the copyright holders, despite the existence of these legal mechanisms.\", \"summary\": \"Usenet site administrators claim they have legal procedures to handle infringement but deny receiving any takedown notices.\"}, \"5\": {\"original\": \"Nope, we have never received a notice from anyone.\", \"rephrased\": \"The administrators of the Binnews search site explicitly state that they have never received a copyright infringement notice from any organization, despite maintaining proper guidelines for handling Digital Millennium Copyright Act requests on their platform.\", \"summary\": \"Binnews administrators confirm they have never received any copyright infringement notices from any organization.\"}, \"6\": {\"original\": \"MPAA sued Usenet sites without prior notice, causing outrage among\\u0002\", \"rephrased\": \"The Motion Picture Association of America (MPAA) initiated lawsuits against Usenet search sites without first notifying the site administrators, a procedural failure that has caused significant outrage among the operators. These administrators argue that their sites operate legally and would have cooperated fully with the MPAA to resolve the issues had they been contacted directly and properly before the public announcement.\", \"summary\": \"The MPAA sued Usenet sites without prior notice, causing outrage among administrators who claim their sites are legal and would have cooperated had they been contacted properly.\"}, \"7\": {\"original\": \"We would immediately delete offending files and conduct thorough research\\u0002\", \"rephrased\": \"The operators of the dvdrs.net search site assert that they would immediately delete any offending files upon receiving a formal request and would conduct a thorough investigation into any connected files. They emphasize that they are fully committed to complying with legal standards and would respond personally to any valid takedown notices to resolve the matter efficiently.\", \"summary\": \"The dvdrs.net operators assert they would immediately delete offending files and conduct thorough research upon receiving a formal request.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687149,
-  "id": "chatcmpl-rlxm1ch7ubhk6mvulhoh1m",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 473,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2839,
-   "prompt_tokens_details": null,
-   "total_tokens": 3312
-  }
- },
- "05652fb36e06af9d3c7b2d0f655118e0e708c72d8b2a5bdeca9625859dc5f6e9": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687201,
-  "id": "chatcmpl-m0umzgllg7om05zmpt0yub",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 264,
-   "prompt_tokens_details": null,
-   "total_tokens": 279
-  }
- },
- "0a27ae4625f7a086d1a3acc19be8cf6a021931491fcd829a66d1e6c8edbe47e7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687204,
-  "id": "chatcmpl-gz3f95pimmvoskrhzjj9qj",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 370,
-   "prompt_tokens_details": null,
-   "total_tokens": 385
-  }
- },
- "14565768f6449fdc24768373881aaf361edc4759e9475895458e3f395225be32": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687200,
-  "id": "chatcmpl-0olyb9zwc8uooh57o58thq",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 277,
-   "prompt_tokens_details": null,
-   "total_tokens": 292
-  }
- },
- "1d3f9d062d985be0b2d50ec2d3e3865aeaf8e02da4efd8acec68637321108e37": {
+ "00b7eb1c9549674297600bd5b819a2db636edb34f2cd1f8e779987bb9c8ffaa9": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -181,8 +17,8 @@
     }
    }
   ],
-  "created": 1793687119,
-  "id": "chatcmpl-sjg0ztc4tvalc8i8ckqc9h",
+  "created": 1793701110,
+  "id": "chatcmpl-sk8pfz08otf90womq1xjzo",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -199,12 +35,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 814,
+   "prompt_tokens": 811,
    "prompt_tokens_details": null,
-   "total_tokens": 847
+   "total_tokens": 844
   }
  },
- "229abb049ddc37d3b0ad37ea12c5baaa5c0bb2e1b87c8aa38dad7106bc3d7805": {
+ "017b9f717f418bb380693b940acd55d4a88440d2ed8fc92b990f7706abdb289b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -213,7 +49,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"rephrased_statement\": \"The Descds administration believes it is ironic that Newzbin, which developed and promoted the NZB format and is likely the biggest Usenet indexing site globally, has not yet faced any lawsuits. As a result, the administration feels they are being hurried into legal proceedings without proper due process and show deep displeasure with the method currently used by the Motion Picture Association of America.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -222,8 +58,90 @@
     }
    }
   ],
-  "created": 1793687209,
-  "id": "chatcmpl-iybf04lby5hxzjg17avy2",
+  "created": 1793701185,
+  "id": "chatcmpl-cn3prkxv4gjfek4dj6827c",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 85,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 232,
+   "prompt_tokens_details": null,
+   "total_tokens": 317
+  }
+ },
+ "0f4de04c0dc573df52fe74808b512f6bc35afeaa34959a6ed8649c476209ce58": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Binnews and dvdrs.net have set up specific steps to deal with copyright violations according to the US Digital Millennium Copyright Act. However, the people running these sites say they have not gotten an official takedown notice from any group, even though these internal rules exist.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701182,
+  "id": "chatcmpl-qef8unx2kjq1vvh2t89c9xh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 63,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 206,
+   "prompt_tokens_details": null,
+   "total_tokens": 269
+  }
+ },
+ "127f14bf2b5d9b8b028f85e692401b0744d086920458eb3fa5abff31feba8f3e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701194,
+  "id": "chatcmpl-45xnp6i70f2voeztrdvmak",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -240,12 +158,53 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 329,
+   "prompt_tokens": 369,
    "prompt_tokens_details": null,
-   "total_tokens": 344
+   "total_tokens": 384
   }
  },
- "2b6b040735129d004e40dc8a493c26d63bdb78847240ccfa30b369be96c0ace1": {
+ "1e16252146ad332fc7a28d1e03501ed49a4604c7aec3e90b73b285bff76b463f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Both Binnews and dvdrs.net have DMCA procedures but deny receiving takedown notices.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701111,
+  "id": "chatcmpl-guf0tc9a9gk784u8zadipv",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 25,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 791,
+   "prompt_tokens_details": null,
+   "total_tokens": 816
+  }
+ },
+ "238c9d3b6d7a3273ff2c714c14706a08155992fec328edffb580fe4de0dea9cc": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -263,8 +222,8 @@
     }
    }
   ],
-  "created": 1793687134,
-  "id": "chatcmpl-6w2okn83l3xjh2xikvus7h",
+  "created": 1793701125,
+  "id": "chatcmpl-mcjahne19osxehtkss7yej",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -281,381 +240,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 928,
+   "prompt_tokens": 925,
    "prompt_tokens_details": null,
-   "total_tokens": 970
+   "total_tokens": 967
   }
  },
- "2df58f0ebc3ea37c8e36cfb34f7edee729387c20e808d736b0936233b6bb2076": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Descds, despite being outside US jurisdiction, is happy to assist the MPAA in any way necessary to resolve the action.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687130,
-  "id": "chatcmpl-useiwf7kmd8e76izzrhi7t",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 32,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1022,
-   "prompt_tokens_details": null,
-   "total_tokens": 1054
-  }
- },
- "324cab6c29d0ac128f9908ddaab8a811b2d880b07cdd3923bb780e3ddef53ba7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"dvdrs.net\": [\"DVDRS is not a pirate network\", \"We host in the US but am a UK citizen not bound by their laws\", \"We would comply if contacted properly\", \"Hope MPAA retracts statement and restores our good name\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687131,
-  "id": "chatcmpl-li6thgm5awajrldufbjr0i",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 54,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 952,
-   "prompt_tokens_details": null,
-   "total_tokens": 1006
-  }
- },
- "43285326fe4eb2d408b71ba3a348627f50d6f3b40728f38a86ac15d5517aa32f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"MPAA\": [\"announced it had launched seven lawsuits against operators of websites it claims had been 'facilitating the distribution of copyright works'\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687116,
-  "id": "chatcmpl-vsvxazg1ybp1h3vpv7tkuo",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 31,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 985,
-   "prompt_tokens_details": null,
-   "total_tokens": 1016
-  }
- },
- "44bda40f4e612b407c526bf0152c8ea8bf29d83b2541f350f586da212991be82": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"dvdrs.net\": [\"We would immediately delete offending files and conduct thorough research into connected files.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687124,
-  "id": "chatcmpl-e58o781dr3bh66kd0i4yce",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 22,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 927,
-   "prompt_tokens_details": null,
-   "total_tokens": 949
-  }
- },
- "4e1ef9d36a44d8c73891fe7adc7810b4ab9dd94232027905c9086add95016f3a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The Descds administration contends that if the Motion Picture Association of America (MPAA) considers their Usenet indexing service unlawful, they must also sue premium paid Usenet providers that function as file carriers. This position points out a perceived inconsistency, observing that large providers such as Easynews and Usenetserver provide both indexing and carrier services but have not faced lawsuits from the MPAA.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687196,
-  "id": "chatcmpl-kegov32chrqvvamyer2d1a",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 86,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 242,
-   "prompt_tokens_details": null,
-   "total_tokens": 328
-  }
- },
- "5a68abcbaa050c6bc3b73e390ceb9d72ebf58dc9734fc66b3460fc23a7f6cae3": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687205,
-  "id": "chatcmpl-yagrwem03zzoxlde14wx",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 368,
-   "prompt_tokens_details": null,
-   "total_tokens": 383
-  }
- },
- "63fcf7e638702960443140395c2ac41c918dc7c4f69b3f3614606b3891639558": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Dvdrs.net began as a community site in March 2004, not a piracy hub, and administrators claim NZB files are legal to host. The author highlights that the site was never contacted by legal representatives before the lawsuit, framing the conflict as a failure of proper notification rather than illegal activity.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687135,
-  "id": "chatcmpl-h1aymwtvt7l8hscjfzkw6l",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 70,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 833,
-   "prompt_tokens_details": null,
-   "total_tokens": 903
-  }
- },
- "64ab55e9d745343bf12fd66a184feb6e878b2fea247f4d9c4fc199a6751fe166": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687204,
-  "id": "chatcmpl-plkrcm21p46z2ieex6y4u",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 310,
-   "prompt_tokens_details": null,
-   "total_tokens": 325
-  }
- },
- "65be806fa106525f4d6120279c45a0258ebd95d66f0e63dafe1e2099b62d03db": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"MPAA sued Usenet sites without prior notice, causing outrage among administrators who claim they are legal and would have cooperated had they been contacted properly.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687123,
-  "id": "chatcmpl-w7q10dyqhecn8wl1es9qd",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 37,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 826,
-   "prompt_tokens_details": null,
-   "total_tokens": 863
-  }
- },
- "67f581967259a69a4aacfa8bcaf5f1224aef5ef63a33db4c9de6fb954f2435d9": {
+ "24312e03e98b9d23b28bc3a1af5b41b163423ef238432ee1f15ef708c75ca7ab": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -673,8 +263,8 @@
     }
    }
   ],
-  "created": 1793687206,
-  "id": "chatcmpl-dll6qx081aladbmr4xqkn",
+  "created": 1793701198,
+  "id": "chatcmpl-lyv2go0q3oaytyb3phgp4t",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -691,12 +281,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 308,
+   "prompt_tokens": 327,
    "prompt_tokens_details": null,
-   "total_tokens": 323
+   "total_tokens": 342
   }
  },
- "69e863772c1f6cfeb628f35b44c0677fe66d03540ef02993a5483870c0d17a4a": {
+ "2c4de8b982fcd85b30e5527a424761aeb785d58f904d0651f9c8223320e08281": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -705,7 +295,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -714,8 +304,1361 @@
     }
    }
   ],
-  "created": 1793687208,
-  "id": "chatcmpl-s4j57n4kgknm6slfplda4m",
+  "created": 1793701194,
+  "id": "chatcmpl-qmxcjhdvwrszchsycdld",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 380,
+   "prompt_tokens_details": null,
+   "total_tokens": 395
+  }
+ },
+ "2dff4f9b17959f0e04ea466f410cc528286aea50a0f8cc03eec1649e3419ca93": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701191,
+  "id": "chatcmpl-h1zpulngiu65s37izl8iiv",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 222,
+   "prompt_tokens_details": null,
+   "total_tokens": 237
+  }
+ },
+ "2e66e2a2ecf77cc90db6909103edaba7b28472d08fd10def9604bd106c97bee2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701197,
+  "id": "chatcmpl-7mi98awgfv9b1jvpzwm1ni",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 284,
+   "prompt_tokens_details": null,
+   "total_tokens": 299
+  }
+ },
+ "3d171a0fcf1eccfa749a826398176fb8046e8f4ce008123123863778c84c2db3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Dvdrs.net began as a community site in March 2004, not a piracy hub, and administrators claim they have always respected local and international laws.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701126,
+  "id": "chatcmpl-w76obz6ie6gbbq2up1guq8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 41,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 830,
+   "prompt_tokens_details": null,
+   "total_tokens": 871
+  }
+ },
+ "45cdd9440108666aae145916c1319c6419dbbe8858951026b72a26fa6077fc21": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Descds maintains that if the MPAA classifies them as unlawful, it must also pursue premium paid Usenet providers, since these services function as the transit route for the files.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701184,
+  "id": "chatcmpl-14a3f0yg81za4sdl2m0kf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 46,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 189,
+   "prompt_tokens_details": null,
+   "total_tokens": 235
+  }
+ },
+ "473892d0407d81afd55ac1c7053a1166187c615becebd30610ae1fb4c017b0a2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Administrators expressed shock and outrage at being notified publicly before the MPAA contacted them directly.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701109,
+  "id": "chatcmpl-xqahfa5s3c2169h4e47kc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 25,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1032,
+   "prompt_tokens_details": null,
+   "total_tokens": 1057
+  }
+ },
+ "4967e091b71ee576c7990384c43538042b33a6869fb803ad2de3a66d671010dd": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Binnews\": [\"Binnews states they have never received a DMCA notice, citing proper site guidelines and direct contact via cell phone.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701112,
+  "id": "chatcmpl-zwyob2u2ier2f7g8uibb4f",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 30,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 815,
+   "prompt_tokens_details": null,
+   "total_tokens": 845
+  }
+ },
+ "4eaed7d4850e6db50197efa472ae0bed7ca1ffde26e159dafea3b47f5a5fe957": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701189,
+  "id": "chatcmpl-6l6v5mb05fflqszi63k2s",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 452,
+   "prompt_tokens_details": null,
+   "total_tokens": 467
+  }
+ },
+ "4ff9f75fa80afc5a74d025931be92c341a7f893f878dd70f38572ba8c3fa9d91": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701193,
+  "id": "chatcmpl-u3f35ewkxld95tfrm1zy8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 232,
+   "prompt_tokens_details": null,
+   "total_tokens": 247
+  }
+ },
+ "5bd6e57bf30869d0680aa2c550433866c2a823eff11917c1fde8be888f97d73d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701196,
+  "id": "chatcmpl-gzlkrlk8q7vzgguenyngr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 295,
+   "prompt_tokens_details": null,
+   "total_tokens": 310
+  }
+ },
+ "5d9143f7e311a470783049aff60c521e69644cbb4b358cc0736854dbb3f7d545": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701192,
+  "id": "chatcmpl-za6ge7vs4y95km59wf2v",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 279,
+   "prompt_tokens_details": null,
+   "total_tokens": 294
+  }
+ },
+ "5f6f760686dc1f3abd7588222e6692b309cbda7dca2d9d56bd271d697924e404": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701196,
+  "id": "chatcmpl-n8zr2zjbatg937viebb5c",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 297,
+   "prompt_tokens_details": null,
+   "total_tokens": 312
+  }
+ },
+ "60ea8ca12a9e29fccae396cdcb659dc5f7a03b0d4d783ada619b908e4769c95c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701197,
+  "id": "chatcmpl-1nvb7bqft3yq4ljwapamlc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 208,
+   "prompt_tokens_details": null,
+   "total_tokens": 223
+  }
+ },
+ "677f5a29bd1211a46c9ce179260dac6633eede07002cb78bde150fc3e4ee4006": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Descds\": [\"We feel that should the MPAA deem us illegal then they must also target premium paid Usenet Providers who act as the transit for these files. Ironically both Easynews and Usenetserver offer both indexing and carrier for these files and yet have received no such lawsuits filed.\", \"We also find it ironic still that Newzbin, creators, instigators and promoters of the NZB format and un-arguably the biggest Usenet Indexing site in the world have received no lawsuits filed. We feel that we are being rail roaded and are not at all happy about it.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701117,
+  "id": "chatcmpl-azwxeaf1j9tnwjz00hffi",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 123,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1031,
+   "prompt_tokens_details": null,
+   "total_tokens": 1154
+  }
+ },
+ "68948a711b7aa6610db88f92839841ddbaaa2cd43153d693634adafd0f87be7f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701196,
+  "id": "chatcmpl-wsydx40ofwjb2zs0uf27uh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 300,
+   "prompt_tokens_details": null,
+   "total_tokens": 315
+  }
+ },
+ "6accc98762763066a809a476fc845c151529d417f4c4539b0e9f208c4ce9925b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"MPAA\": [\"announced it had launched seven lawsuits against operators of websites it claims had been 'facilitating the distribution of copyright works'\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701107,
+  "id": "chatcmpl-o34sawq0l6kxlv6ufl4owe",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 31,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 982,
+   "prompt_tokens_details": null,
+   "total_tokens": 1013
+  }
+ },
+ "70a49e64c61549067a8d956bee3f5df18482d22502db383a4dd4a5f165694d1d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Descds, despite being outside US jurisdiction, expressed willingness to assist the MPAA and remove NZB sections if deemed illegal, while seeking a resolution through direct communication and awaiting legal judgment.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701120,
+  "id": "chatcmpl-i10hk9cspksqzroza82mn8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 44,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1019,
+   "prompt_tokens_details": null,
+   "total_tokens": 1063
+  }
+ },
+ "71c0c6b9d4962b927df51f1a8481b9c1f399b07209437783fe39fc50268a4bf2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701193,
+  "id": "chatcmpl-fv4v8lfi015r21argpfi8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 314,
+   "prompt_tokens_details": null,
+   "total_tokens": 329
+  }
+ },
+ "7245474e47a9739b526bc5eee396fabe247c7e380e7f64ede029c57fbb8a273b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701195,
+  "id": "chatcmpl-vfa05lfzvdfv1edw8n5wo9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 274,
+   "prompt_tokens_details": null,
+   "total_tokens": 289
+  }
+ },
+ "73589c566d1675d80919c29dcb9054bb6f0958c27fadefd4aa573f05bcb49d83": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"8\": {\"original\": \"MPAA sued Usenet sites without notice, causing outrage from admins who claim合法性和\", \"rephrased\": \"The Motion Picture Association of America initiated legal action against Usenet search sites without providing prior notification, a procedural failure that has sparked significant anger among site administrators. These operators assert that their services are legal and would have immediately complied with takedown requests had they been given the proper opportunity to respond.\", \"summary\": \"The MPAA's failure to notify Usenet sites before suing has angered admins who claim legality and promise cooperation if contacted properly.\"}, \"9\": {\"original\": \"We feel that should the MPAA deem us illegal then they must also target premium\", \"rephrased\": \"The Descds administration argues that if the Motion Picture Association of America determines their services illegal, the organization must also pursue legal action against premium paid Usenet providers who act as the transit for these files. This stance highlights a perceived inconsistency, noting that major carriers like Easynews and Usenetserver, which offer both indexing and file transfer, have not yet been targeted by such lawsuits.\", \"summary\": \"Descds argues that if the MPAA deems them illegal, it must also target premium paid Usenet providers who act as the transit for these files.\"}, \"10\": {\"original\": \"We also find it ironic still that Newzbin, creators, instigators and promoters\", \"rephrased\": \"The Descds administration finds it ironic that Newzbin, the creators and promoters of the NZB format and arguably the largest Usenet indexing site in the world, has received no lawsuits filed to date. Consequently, the administration feels they are being unfairly rushed into legal action without due process and express strong dissatisfaction with the current approach taken by the Motion Picture Association of America.\", \"summary\": \"Descds finds it ironic that Newzbin, the largest Usenet indexing site, has received no lawsuits, leading them to feel they are being unfairly rushed into legal action.\"}, \"11\": {\"original\": \"Descds, despite being outside US jurisdiction, expressed willingness to assist\", \"rephrased\": \"Despite operating outside US jurisdiction, the Descds administration expressed a willingness to assist the Motion Picture Association of America and remove specific sections if the files are legally deemed illegal. The organization emphasizes a desire to resolve the dispute through direct communication and legal judgment rather than immediate litigation, while also seeking support from legal bodies like the Electronic Frontier Foundation if the MPAA refuses to communicate.\", \"summary\": \"Descds, despite being outside US jurisdiction, expressed willingness to assist the MPAA and remove NZB sections if deemed illegal, while seeking a resolution through direct communication.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701149,
+  "id": "chatcmpl-olry9pucwyumag19lufs",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 553,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2709,
+   "prompt_tokens_details": null,
+   "total_tokens": 3262
+  }
+ },
+ "7457313686af4fbe50450d3a053887ac9ae3aef49cb7e435a8f9e62963a8c69b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701191,
+  "id": "chatcmpl-7p9k0vif516id1g1ekg4h",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 261,
+   "prompt_tokens_details": null,
+   "total_tokens": 276
+  }
+ },
+ "7b857c543cb311d0305aaf5ca5f943d9d5309f8ae028f4fe163bd6baa2b242ea": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701192,
+  "id": "chatcmpl-xt459ugdxyhqabp5bnx8d9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 208,
+   "prompt_tokens_details": null,
+   "total_tokens": 223
+  }
+ },
+ "8aadef26f9c4746b79c139aa5b75d493606f83aed109f4bb2bce41fa4d6803b5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"MPAA sued Usenet sites without prior notice, causing outrage among admins who claim they are legal and would have cooperated had they been contacted properly.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701113,
+  "id": "chatcmpl-8joriqsgw18zkncbn69og",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 37,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 823,
+   "prompt_tokens_details": null,
+   "total_tokens": 860
+  }
+ },
+ "8d55b02ed346549948d5a3e2b354e9d21297db80d67956d53cbfd43a37e3eba7": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"MPAA sued Usenet sites without notice, causing outrage from admins who claim legality and promise cooperation if contacted properly.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701116,
+  "id": "chatcmpl-a9hw2ypvmage2mcis4j16",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 30,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1001,
+   "prompt_tokens_details": null,
+   "total_tokens": 1031
+  }
+ },
+ "8e890fc590f848c0bf918f5472c4e29316bdb2338634bb2d96576cda71b26730": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"announced it had launched seven lawsuits against operators of websites it claims\", \"rephrased\": \"The Motion Picture Association of America (MPAA) has initiated legal action against seven specific website operators, asserting that these entities are facilitating the unauthorized distribution of copyrighted material. This public announcement marks the commencement of lawsuits against BitTorrent trackers and Usenet search engines, a move that bypasses direct notification to the site administrators.\", \"summary\": \"The MPAA publicly sued seven website operators for alleged copyright infringement without prior direct notification.\"}, \"1\": {\"original\": \"We haven't been informed by the MPAA and are outraged by their method of filing\", \"rephrased\": \"The administrators of the Usenet search engine dvdrs.net state that they have not received any direct communication from the Motion Picture Association of America (MPAA) regarding the legal action taken against their site. They express deep outrage at this procedural failure, arguing that the public announcement of lawsuits without prior contact is an unacceptable method of enforcement that damages their reputation and operations.\", \"summary\": \"The dvdrs.net administrators claim they were not directly notified by the MPAA before public lawsuits were filed, calling the method unacceptable.\"}, \"2\": {\"original\": \"Administrators expressed shock and outrage at being notified publicly before the\", \"rephrased\": \"The administrators of the affected websites, including Binnews and dvdrs.net, have expressed significant shock and outrage upon learning of the lawsuits only after the Motion Picture Association of America (MPAA) made a public announcement. They emphasize that this lack of direct, prior notification has caused distress, as they were unaware of the legal proceedings until they were already public knowledge.\", \"summary\": \"Website administrators expressed shock and outrage at learning of the MPAA lawsuits only after the public announcement.\"}, \"3\": {\"original\": \"We would have cooperated with the MPAA if contacted personally, but being false\", \"rephrased\": \"The operators of the Usenet search engine dvdrs.net assert that they would have willingly cooperated with the Motion Picture Association of America (MPAA) had the organization contacted them directly to discuss their concerns. However, they maintain that being publicly portrayed as an established piracy ring without such personal contact is an outrage, arguing that their site operates within international laws and that the public smear campaign is destroying the reputation they have built over two years.\", \"summary\": \"The dvdrs.net operators claim they would have cooperated with the MPAA if contacted directly, but condemn the public portrayal as a piracy ring.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701128,
+  "id": "chatcmpl-isc7v33fptsw0gv8lerq2",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 526,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2368,
+   "prompt_tokens_details": null,
+   "total_tokens": 2894
+  }
+ },
+ "97fcf17f79b0118dc947df8ac8cb7b8a0a7651c79283aa34cab61f2eb8039816": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"16\": {\"original\": \"Binnews denies hosting files, calling the claim that it offers 3,000 movies 100%\", \"rephrased\": \"The administrators of Binnews assert that the service does not host any copyrighted files, explicitly rejecting the accusation that the site distributes over 3,000 movies as entirely false. They maintain that Binnews provides a legitimate utility to copyright holders by monitoring Usenet content rather than facilitating piracy, arguing that their operations are lawful and that they would have removed specific files immediately had they been contacted by legal representatives to do so.\", \"summary\": \"Binnews administrators deny hosting files, claiming their service is legitimate and would comply with legal requests if contacted properly.\"}, \"17\": {\"original\": \"Our intent is not and never has been to facilitate piracy. Its quite the\", \"rephrased\": \"The operators of Binnews emphasize that their primary intent has never been to facilitate piracy, but rather to assist companies in eliminating it through the creation of specific guides. They argue that their service is designed to help copyright holders manage their intellectual property on Usenet networks, positioning the site as a tool for anti-piracy efforts rather than a source of infringement.\", \"summary\": \"Binnews operators claim their service is designed to help companies stop piracy, not facilitate it.\"}, \"18\": {\"original\": \"Dvdrs.net began as a community site in March 2004, not a piracy hub, and\", \"rephrased\": \"The creators of Dvdrs.net state that the website originated in March 2004 as a community forum for discussing movies and home cinema issues, evolving into a platform for sharing Newzbin files only after user requests. They assert that the site has always adhered to local and international laws, noting that they would have removed the files in question had they been notified by legal authorities, as no specific law currently prohibits hosting such files.\", \"summary\": \"Dvdrs.net administrators claim the site began as a community forum and would comply with laws if properly contacted.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701172,
+  "id": "chatcmpl-o1pjhe96p3w5102uam4v8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 435,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2366,
+   "prompt_tokens_details": null,
+   "total_tokens": 2801
+  }
+ },
+ "abcfeb457d7f1058451a2bc9adfac557a3bc567a93f5f5f07a2fe72f2ebb4a00": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"Both Binnews and dvdrs.net have DMCA procedures but deny receiving takedown.\", \"rephrased\": \"Although the Binnews and dvdrs.net websites maintain established procedures for handling copyright infringement under the US Digital Millennium Copyright Act, both operators assert they have never received a formal takedown notice from any organization, despite the existence of these internal protocols.\", \"summary\": \"Usenet site operators claim they have internal copyright compliance procedures but deny receiving any formal infringement notices.\"}, \"5\": {\"original\": \"Binnews states they have never received a DMCA notice, citing proper site\", \"rephrased\": \"The Binnews website operator confirms that their organization has never received a Digital Millennium Copyright Act notice, attributing this lack of contact to the fact that they maintain proper site guidelines and utilize a dedicated cell phone line for direct communication.\", \"summary\": \"Binnews operators confirm they have never received a copyright infringement notice due to their direct communication channels.\"}, \"6\": {\"original\": \"MPAA sued Usenet sites without prior notice, causing outrage among admins\", \"rephrased\": \"The Motion Picture Association of America sued specific Usenet search sites without providing prior notification to the site administrators, a procedural failure that has caused significant outrage among the operators who maintain that their sites operate legally and would have cooperated fully had they been contacted directly.\", \"summary\": \"The MPAA's lawsuit against Usenet sites without prior notice has caused outrage among operators who claim their sites are legal.\"}, \"7\": {\"original\": \"We would immediately delete files and conduct research into connected content.\", \"rephrased\": \"The administrators of the dvdrs.net site stated that if a copyright infringement notice were issued, they would immediately delete the offending files from their servers and conduct a thorough investigation into any other content connected to the flagged material.\", \"summary\": \"Usenet site administrators pledge to immediately remove infringing files and investigate related content upon receiving a notice.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701139,
+  "id": "chatcmpl-p0u5jqvmb6rlmwipcjzrfq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 407,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2834,
+   "prompt_tokens_details": null,
+   "total_tokens": 3241
+  }
+ },
+ "b6aa9cc77a9b543bc6a31935e5ef30e95f0d591278f560755fa5b53f1dd22628": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Binnews denies hosting files, calling the claim that it offers 3,000 movies false, and asserts it provides a legitimate service to copyright holders.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701124,
+  "id": "chatcmpl-rzqxi0qfvz98b8aduzupf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 39,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 898,
+   "prompt_tokens_details": null,
+   "total_tokens": 937
+  }
+ },
+ "bb7d6829f292e52eb6ed860831f7ebd3b8c1bae13508f3366991289d83b1bf57": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"dvdrs.net\": [\"We would immediately delete files and conduct research into connected content.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701115,
+  "id": "chatcmpl-drjmvnicfsj2erf2xvtc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 20,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 924,
+   "prompt_tokens_details": null,
+   "total_tokens": 944
+  }
+ },
+ "bfef4e46d98320961262ca9a68aa16daeed7cb2f6d7db7fe2d0ea04863af497f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Descds feels it is ironic that Newzbin, which operates as the biggest Usenet indexing site, has not faced any lawsuits. This situation makes Descds believe they are being pushed into legal trouble too quickly and without fair cause.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701187,
+  "id": "chatcmpl-qdahx2xsr7l9xov5qyy2ou",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 57,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 193,
+   "prompt_tokens_details": null,
+   "total_tokens": 250
+  }
+ },
+ "c6a71e54197e1b67a5f19032a076657661b04e381ad932d798368f7aab864b1a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"dvdrs.net\": [\"We haven't been informed by the MPAA and are outraged by their method of filing lawsuits.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701108,
+  "id": "chatcmpl-tapb087e4ug5zar98blne",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 27,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1062,
+   "prompt_tokens_details": null,
+   "total_tokens": 1089
+  }
+ },
+ "cbef058ae98ac08a708c1a5102573f41495496ae1a28464552b93a33569aea5f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"dvdrs.net\": [\"DVDRS is not a pirate network; calling us such insults our members.\", \"As a UK citizen hosting in the US, we are not currently bound by US jurisdiction.\", \"We would comply with the MPAA if they communicated properly.\", \"We request the MPAA retract their claim that we are an organized pirate network and restore our reputation.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701121,
+  "id": "chatcmpl-yks336m5mw1b16793q47g",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 77,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 949,
+   "prompt_tokens_details": null,
+   "total_tokens": 1026
+  }
+ },
+ "cbf41e782f8f62fdacad1f4f48b7e3206e56179f8d27f045ba6424b894ae80dc": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701195,
+  "id": "chatcmpl-5gvj0abcaben3csw1asric",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 295,
+   "prompt_tokens_details": null,
+   "total_tokens": 310
+  }
+ },
+ "df1361d3e34df3a5c7bd1b0f015ef38874a5e2c4a0cad4197fcf1d9c797107a6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701189,
+  "id": "chatcmpl-0nspzbb5370a3atgjoq1ap1",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -735,703 +1678,6 @@
    "prompt_tokens": 277,
    "prompt_tokens_details": null,
    "total_tokens": 292
-  }
- },
- "7fc10d0413a721d108228237c5407833cc5b37f6dc68f214bde8a94c4851119f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Both Binnews and dvdrs.net have procedures for handling copyright infringement under the US Digital Millennium Copyright Act, yet both deny receiving any takedown notices.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687121,
-  "id": "chatcmpl-izwpnqabhae7b2olz45wk",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 37,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 794,
-   "prompt_tokens_details": null,
-   "total_tokens": 831
-  }
- },
- "81c312e5b7d61e1dab716e28cbafa2a8a07a7db083fd264cfb9c304eeff0ae68": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"dvdrs.net\": [\"We haven't been informed by the MPAA and are outraged by their method of filing lawsuits.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687117,
-  "id": "chatcmpl-6ow7ofuaqmc089rio62smmp",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 27,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1065,
-   "prompt_tokens_details": null,
-   "total_tokens": 1092
-  }
- },
- "8cc1ea96d20daa41a803b0b85eaee439805747ab994fb30a459438d1c7700e7a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"16\": {\"original\": \"Binnews denies hosting files, calling the claim that it offers 3,000 movies fake\", \"rephrased\": \"The operators of Binnews assert that the service does not host any copyrighted files, explicitly rejecting the accusation that the site distributes over 3,000 movies as entirely false. They maintain that their platform provides a legitimate utility to copyright holders rather than facilitating infringement, arguing that the site's actual function is to assist rights owners in managing their intellectual property. This denial serves as a direct rebuttal to the premise that the site is an illegal repository of pirated content.\", \"summary\": \"Binnews operators deny hosting files and claim their service legitimately assists copyright holders.\"}, \"17\": {\"original\": \"Our intent is not and never has been to facilitate piracy. Its quite the\", \"rephrased\": \"The administrators of Binnews insist that their primary intent has never been to facilitate piracy, arguing instead that they offer specific guides designed to help companies eliminate it. They contend that their service acts as a tool for rights holders to track and remove infringing content from Usenet networks, positioning the platform as a proactive solution to copyright infringement rather than a source of illegal downloads. This stance frames the conflict as a misunderstanding of the site's actual purpose and value to the entertainment industry.\", \"summary\": \"Binnews administrators claim their intent is to help companies stop piracy, not facilitate it.\"}, \"18\": {\"original\": \"Dvdrs.net began as a community site in March 2004, not a piracy hub, and\", \"rephrased\": \"The creators of Dvdrs.net explain that the website originated in March 2004 as a general community forum for discussing movies and home cinema issues, evolving into a Usenet indexing service only after user requests. They emphasize that the site was never contacted by legal representatives prior to the lawsuit, arguing that the absence of prior notification suggests the legal action is premature and ignores the site's initial legitimate community roots. This narrative frames the dispute as a failure of proper communication rather than evidence of inherent illegal activity.\", \"summary\": \"Dvdrs.net administrators describe the site's origins as a legitimate community forum and note a lack of prior legal contact.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687185,
-  "id": "chatcmpl-3v06t3ml6uywqtgm9cvmmj",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 470,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2396,
-   "prompt_tokens_details": null,
-   "total_tokens": 2866
-  }
- },
- "94e7bea6d4779e78a89dd579cba5d2b4513fbe2c2c8365e7ae5fb824c5e00f63": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687203,
-  "id": "chatcmpl-ynf9bsql7idpumyb27rsb",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 287,
-   "prompt_tokens_details": null,
-   "total_tokens": 302
-  }
- },
- "9a952ac8fba9fdae3e9e0bddfbacf051f589dbfc725903e4584d62a1feb07bd3": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687203,
-  "id": "chatcmpl-g7v439lv4tmicjo70nl9j9",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 234,
-   "prompt_tokens_details": null,
-   "total_tokens": 249
-  }
- },
- "9bda5281f47e827bf387b6961f747c197d05a94625af6477a8ad50249192180b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"announced it had launched seven lawsuits against operators of websites it claims\", \"rephrased\": \"The Motion Picture Association of America (MPAA) has initiated legal action against seven specific website operators, asserting that these entities are facilitating the unauthorized distribution of copyrighted material. This public announcement marks the commencement of lawsuits against BitTorrent trackers and Usenet search engines, a move that bypasses direct notification to the site administrators.\", \"summary\": \"The MPAA publicly sued seven website operators for alleged copyright infringement without prior direct notification.\"}, \"1\": {\"original\": \"We haven't been informed by the MPAA and are outraged by their method of filing\", \"rephrased\": \"The administrators of the Usenet search engine dvdrs.net state that they have not received any direct communication from the Motion Picture Association of America (MPAA) regarding the legal action taken against their site. They express deep outrage at this procedural failure, arguing that the public announcement of lawsuits without prior contact is an unacceptable method of enforcement that damages their reputation and trust.\", \"summary\": \"The dvdrs.net administrators claim they were not directly notified by the MPAA before public lawsuits were filed, causing them significant outrage.\"}, \"2\": {\"original\": \"Administrators expressed shock and outrage, stating they would have cooperated\", \"rephrased\": \"The administrators of the affected websites express shock and outrage that the Motion Picture Association of America (MPAA) chose to announce its lawsuits publicly rather than contacting them directly first. They assert that, had they been given proper prior notice, they would have cooperated fully with the MPAA's concerns and worked toward a resolution, indicating that the lack of direct communication is the primary issue.\", \"summary\": \"Website administrators express shock and outrage that the MPAA announced lawsuits publicly instead of contacting them directly, noting they would have cooperated with proper notice.\"}, \"3\": {\"original\": \"We would have cooperated with the MPAA if contacted personally, but being\", \"rephrased\": \"The administrators of the Usenet search engine dvdrs.net emphasize that they would have willingly cooperated with the Motion Picture Association of America (MPAA) had the organization contacted them personally to discuss their concerns. However, they argue that being publicly portrayed as an established piracy ring without prior direct engagement is an outrage, as they maintain their site operates within international laws and has worked hard to comply with legal standards.\", \"summary\": \"The dvdrs.net administrators state they would have cooperated with the MPAA if contacted personally, but condemn the public portrayal of their site as a piracy ring.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687137,
-  "id": "chatcmpl-wv251oj3a1isqc1c39nr1e",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 537,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2378,
-   "prompt_tokens_details": null,
-   "total_tokens": 2915
-  }
- },
- "9e832e179c17d7d9c06c63fb814f170b5fd9c85f8a21e99cf754ba943f17446f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687202,
-  "id": "chatcmpl-skv0rgxhx4hla5y96yiwq",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 205,
-   "prompt_tokens_details": null,
-   "total_tokens": 220
-  }
- },
- "a9fac8daebfaf2a3763162256311e2d9852fad3a4b5d01d85d340f5010cac33f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687206,
-  "id": "chatcmpl-ijay499j2ztdql19y031tj",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 303,
-   "prompt_tokens_details": null,
-   "total_tokens": 318
-  }
- },
- "ac4ae132e815a3052209b1b375567682caa4f437f16a166e05738456f85e6d29": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Binnews denies hosting files, calling the claim that it offers 3,000 movies false, and asserts it provides a legitimate service to copyright holders.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687133,
-  "id": "chatcmpl-xd91hwv9xm3wz05pnssfy",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 39,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 901,
-   "prompt_tokens_details": null,
-   "total_tokens": 940
-  }
- },
- "bd7b7db21b9d39aea010fbbc5e03fdd118450acd63693c21be91a44cb3257ba6": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Binnews\": [\"Nope, we have never received a notice from anyone.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687122,
-  "id": "chatcmpl-5g2xrssuejqsz979kpu6d",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 19,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 818,
-   "prompt_tokens_details": null,
-   "total_tokens": 837
-  }
- },
- "cc68acb8cb4517d78ec01f666779850eba23d8b7283bc22dfddab0f1fd4b8126": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687201,
-  "id": "chatcmpl-x6o3c77gzlrhrajipmbrw4",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 237,
-   "prompt_tokens_details": null,
-   "total_tokens": 252
-  }
- },
- "d0b8b151c24483b3af0629c43d547e475a596d7d8474f3ce24f1f666ad6863bb": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Administrators expressed shock and outrage, stating they would have cooperated with the MPAA had they been notified before the public announcement.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687118,
-  "id": "chatcmpl-aptmg0hfcrc7xy8h3crehg",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 33,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1035,
-   "prompt_tokens_details": null,
-   "total_tokens": 1068
-  }
- },
- "d5cffe7b876d90b4c961c979def2bdd23226bc6c582e11d3b7f964a07decd9e1": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687202,
-  "id": "chatcmpl-1hcme4d2anaz7y9aa7il2d",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 223,
-   "prompt_tokens_details": null,
-   "total_tokens": 238
-  }
- },
- "d8e070f35698e685158cf5d0b82c8e6bf532564c735f37e01e6851b8156efcea": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687205,
-  "id": "chatcmpl-9nor2zpaa79w2p3121qki",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 272,
-   "prompt_tokens_details": null,
-   "total_tokens": 287
-  }
- },
- "e0a0bc20637d6e3db1f525e5307c732a809ec01e96e73c92d9a6645d45956d3f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Descds\": [\"We feel that should the MPAA deem us illegal then they must also target premium paid Usenet Providers who act as the transit for these files. Ironically both Easynews and Usenetserver offer both indexing and carrier for these files and yet have received no such lawsuits filed.\", \"We also find it ironic still that Newzbin, creators, instigators and promoters of the NZB format and un-arguably the biggest Usenet Indexing site in the world have received no lawsuits filed. We feel that we are being rail roaded and are not at all happy about it.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687127,
-  "id": "chatcmpl-0u2ex9rgv9tnaktyi0h5zy",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 123,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1034,
-   "prompt_tokens_details": null,
-   "total_tokens": 1157
-  }
- },
- "e4d3e5b13cbd9f006da1ecfcb7d04da6373c11811e2985f8425aa7d03a5ae7d3": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"12\": {\"original\": \"DVDRS is not a pirate network\", \"rephrased\": \"The entity operating the Dvdrs.net website asserts that its service does not constitute a pirate network, despite the Motion Picture Association of America (MPAA) labeling it as such. This claim relies on the premise that the site merely indexes files hosted by others rather than distributing them directly, arguing that the accusation misrepresents the organization's actual function and damages its reputation as a legitimate community resource.\", \"summary\": \"Dvdrs.net denies being a pirate network, arguing its indexing service is legitimate and the MPAA's accusation is false.\"}, \"13\": {\"original\": \"We host in the US but am a UK citizen not bound by their laws\", \"rephrased\": \"Although the Dvdrs.net server is physically located in the United States, the operator emphasizes that they are a British citizen and therefore not legally bound by US communications regulations or judicial judgments. This distinction is used to argue that the US-based Motion Picture Association of America (MPAA) lacks the legal authority to enforce its claims against the operator, suggesting that the organization's resolve to comply depends entirely on establishing proper communication and jurisdictional respect.\", \"summary\": \"The Dvdrs.net operator argues that their UK citizenship exempts them from US laws, challenging the MPAA's legal authority to enforce its claims.\"}, \"14\": {\"original\": \"We would comply if contacted properly\", \"rephrased\": \"The administrators of the Dvdrs.net website state that they would be willing to remove specific files if the Motion Picture Association of America (MPAA) had approached them directly and professionally before initiating legal action. They contend that the lack of prior notification and the immediate lawsuit created an unnecessary conflict, asserting that a proper dialogue would have allowed the site to cooperate and resolve the issue without litigation.\", \"summary\": \"Dvdrs.net administrators claim they would have cooperated with the MPAA if they had been contacted properly before the lawsuit.\"}, \"15\": {\"original\": \"Hope MPAA retracts statement and restores our good name\", \"rephrased\": \"The leadership behind the Dvdrs.net website expresses a strong desire for the Motion Picture Association of America (MPAA) to retract its public statement labeling the site as an organized pirate network. They argue that this accusation is factually incorrect and has caused significant harm to the site's reputation and the trust of its member base, urging the industry group to restore the organization's good name through a retraction.\", \"summary\": \"Dvdrs.net leadership urges the MPAA to retract its false accusation and restore the site's reputation.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687173,
-  "id": "chatcmpl-ghoxurp6xsgbpcgfmyqak",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 552,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2474,
-   "prompt_tokens_details": null,
-   "total_tokens": 3026
-  }
- },
- "e589f662dce0886cf4bca74ee9e803bcd7b5a2445993afd7538fac2dd422532b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The Descds administration maintains that if the MPAA decides their service is unlawful, they must also go after premium paid Usenet providers, since those providers handle the transfer of these files.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687198,
-  "id": "chatcmpl-hfu8qs4tvucslmwwz1rmhe",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 47,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 192,
-   "prompt_tokens_details": null,
-   "total_tokens": 239
   }
  },
  "e6bbbffa389a2bb1cc4d454490f122fe86a7bae7ea3b2ad2013c8c18d7aa2e68": {
@@ -1452,8 +1698,8 @@
     }
    }
   ],
-  "created": 1793687100,
-  "id": "chatcmpl-j0jo136endj42k22yoyllu",
+  "created": 1793701091,
+  "id": "chatcmpl-sb1h8mhyvmb6jkecjsjwc",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1475,7 +1721,7 @@
    "total_tokens": 3765
   }
  },
- "e710409fbb5f4930d4779a512aa899bb9bed7e0f82051b11efdcc6e1f5ea179c": {
+ "e73b2eae2bcc3fb18c873bc3b4f714c9c28da77f98b3c8e1f0a939591efa190e": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1484,7 +1730,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1493,8 +1739,8 @@
     }
    }
   ],
-  "created": 1793687207,
-  "id": "chatcmpl-d4uk8a9z0c696wfkvnfavj",
+  "created": 1793701190,
+  "id": "chatcmpl-tfanil2ylpccd6pq1977i4",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1511,91 +1757,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 299,
+   "prompt_tokens": 227,
    "prompt_tokens_details": null,
-   "total_tokens": 314
-  }
- },
- "e7205d0e1abcc5c9d38a641bc45f5cf0ec944c6b422bd63dfe9ba592eba90608": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"8\": {\"original\": \"Binnews and Dvdrs claim their sites are legal and function like conventional, US\", \"rephrased\": \"Administrators of Usenet search sites like Binnews and Dvdrs assert that their platforms operate legally by indexing files already hosted on commercial, tax-paying companies rather than storing the content themselves, functioning similarly to standard search engines. They maintain that without the premium services of these third-party hosts, their text-based indexes would be useless, arguing that they merely point to existing files without hosting illegal material directly.\", \"summary\": \"Usenet site administrators assert their platforms operate legally by indexing files from commercial hosts rather than storing content directly.\"}, \"9\": {\"original\": \"We feel that should the MPAA deem us illegal then they must also target premium\", \"rephrased\": \"The Descds administration argues that if the Motion Picture Association of America (MPAA) deems their Usenet indexing service illegal, the organization must also pursue legal action against premium paid Usenet providers who act as the transit for these files. This stance highlights a perceived inconsistency, noting that major providers like Easynews and Usenetserver offer both indexing and carrier services yet have not been targeted by the MPAA in lawsuits.\", \"summary\": \"The Descds administration argues that if the MPAA deems their service illegal, it must also target premium paid Usenet providers who act as the transit for these files.\"}, \"10\": {\"original\": \"We also find it ironic still that Newzbin, creators, instigators and promoters\", \"rephrased\": \"The Descds administration expresses frustration that Newzbin, the creators and promoters of the NZB format and arguably the largest Usenet indexing site in the world, has not been sued by the MPAA. They describe their situation as being 'rail roaded' and unhappy about the selective legal approach, contrasting their treatment with the lack of action against the primary source of the indexing format.\", \"summary\": \"The Descds administration expresses frustration that Newzbin, the largest Usenet indexing site, has not been sued by the MPAA, describing their situation as being unfairly targeted.\"}, \"11\": {\"original\": \"Descds, despite being outside US jurisdiction, is happy to assist the MPAA in\", \"rephrased\": \"Although the Descds administration operates outside of US jurisdiction, they state they are willing to assist the Motion Picture Association of America (MPAA) in resolving the legal dispute. They offer to remove any sections deemed illegal immediately upon receiving communication and legal judgment, while simultaneously hoping the MPAA will retract its claim that they are an organized pirate network and restore their reputation.\", \"summary\": \"Although operating outside US jurisdiction, the Descds administration states they are willing to assist the MPAA in resolving the legal dispute by removing illegal content upon request.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687160,
-  "id": "chatcmpl-oez6t13j9r9ytgy00tg2da",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 586,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2705,
-   "prompt_tokens_details": null,
-   "total_tokens": 3291
-  }
- },
- "e986e076832e987db486eea9d03e904e0c970d6ee3f8619e0d369867cc447a52": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Binnews and Dvdrs claim their sites are legal and function like conventional search engines by indexing files from commercial providers rather than hosting them directly.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687125,
-  "id": "chatcmpl-ppta0otbsppf70fib810tn",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 36,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1004,
-   "prompt_tokens_details": null,
-   "total_tokens": 1040
+   "total_tokens": 242
   }
  },
  "ea00b2cc1eeb8e6197c739bc2e058f17d5429de6a9f8c2cd74963fa09004473e": {
@@ -1616,8 +1780,8 @@
     }
    }
   ],
-  "created": 1793687113,
-  "id": "chatcmpl-ju79zjor73klnmoezszmve",
+  "created": 1793701104,
+  "id": "chatcmpl-mux8bgm1q1z938a6pa3k",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1639,7 +1803,7 @@
    "total_tokens": 2954
   }
  },
- "eb9b64941bd9dd5b086c878acc4a08a8a320cbe76c86c4d29c5aa0471239692a": {
+ "fb2c8d5a34751c0c729faca1a6379ad0f9dffaef8a0d5fe45a1946c9e98e1ccf": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1648,7 +1812,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"12\": {\"original\": \"DVDRS is not a pirate network; calling us such insults our members.\", \"rephrased\": \"The claim that the US-based hosting service Dvdrs.net operates as a pirate network is factually incorrect and deeply offensive to its community, which has always maintained a legitimate, non-piracy-focused presence. This organization insists that its role is strictly informational and that labeling it a pirate site misrepresents its actual operations and values.\", \"summary\": \"Dvdrs.net rejects the pirate network label as false and insulting to its community.\"}, \"13\": {\"original\": \"As a UK citizen hosting in the US, we are not currently bound by US jurisdiction\", \"rephrased\": \"Although the US-based hosting service Dvdrs.net is operated by a UK citizen, the entity acknowledges that it is currently subject to US laws and regulations despite its foreign ownership. This individual emphasizes that while they are not personally bound by US jurisdiction, the organization itself must adhere to local legal standards.\", \"summary\": \"The Dvdrs.net operator notes that the US-hosted service is subject to US laws despite UK citizenship.\"}, \"14\": {\"original\": \"We would comply with the MPAA if they communicated properly.\", \"rephrased\": \"The US-based hosting service Dvdrs.net states that it would immediately remove any content deemed illegal by the Motion Picture Association if the organization had engaged in proper, direct communication beforehand. This stance highlights a belief that the current legal conflict stems from a lack of prior dialogue rather than any inherent illegality in the service's operations.\", \"summary\": \"Dvdrs.net asserts it would comply with the MPAA if contacted properly first.\"}, \"15\": {\"original\": \"We request the MPAA retract their claim that we are an organized pirate network\", \"rephrased\": \"The US-based hosting service Dvdrs.net formally requests that the Motion Picture Association retract its false accusation that the organization is an organized pirate network, arguing that such a claim damages the service's reputation and misrepresents its legitimate function. The organization urges the industry group to restore its good name by acknowledging that no laws currently prohibit the hosting of the specific files in question.\", \"summary\": \"Dvdrs.net demands the MPAA retract false claims of organized piracy to restore its reputation.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1657,8 +1821,8 @@
     }
    }
   ],
-  "created": 1793687208,
-  "id": "chatcmpl-0rbhso5771qppsenbdlpdp9",
+  "created": 1793701161,
+  "id": "chatcmpl-p2fi9gbu24sce7u381de6w",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1667,7 +1831,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 485,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1675,91 +1839,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 207,
+   "prompt_tokens": 2494,
    "prompt_tokens_details": null,
-   "total_tokens": 222
-  }
- },
- "f27ffea35f982e6cfb31f0dc7163ebe2e57e78d7ce7f2a423959b4bca64bf12c": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687207,
-  "id": "chatcmpl-g91fn1mgc5dezkdk8enbn",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 303,
-   "prompt_tokens_details": null,
-   "total_tokens": 318
-  }
- },
- "f7f0750c32f92afc6007997b4645c6667c7580d5138b1f346c8db6dac34af56a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687200,
-  "id": "chatcmpl-8txiueubsxjm72jfmwozk",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 452,
-   "prompt_tokens_details": null,
-   "total_tokens": 467
+   "total_tokens": 2979
   }
  }
 }

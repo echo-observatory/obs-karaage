@@ -66,14 +66,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "In response to the United States government's proposed anti-piracy legislation and the Federal Bureau of Investigation's shutdown of the file-sharing site Megaupload, the hacker collective Anonymous launched a coordinated cyberattack that successfully took the websites of the US Justice Department, the FBI, the Recording Industry Association of America, and Universal Music Group offline, causing significant disruption to federal and entertainment industry digital services.",
-   "text_short": "Anonymous launched a coordinated cyberattack against US government and music industry websites in retaliation for the FBI's shutdown of Megaupload and proposed anti-piracy laws.",
+   "text": "In response to the United States government's introduction of anti-piracy legislation and the Federal Bureau of Investigation's subsequent shutdown of the file-sharing platform Megaupload, the online activist collective Anonymous executed a coordinated cyberattack. This digital offensive successfully took major government and music industry websites offline, framing the disruption as a direct act of retaliation against these specific enforcement actions.",
+   "text_short": "Anonymous retaliated against US anti-piracy laws and the FBI's Megaupload shutdown with a coordinated cyberattack.",
    "char_start": 0,
    "char_end": 614,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2424,
+    "rouge2_precision": 0.1613,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -87,16 +87,16 @@
     "FBI",
     "www.fbi.gov"
    ],
-   "text": "The Federal Bureau of Investigation seized and permanently shut down the file-sharing website Megaupload, an action that directly precipitated a retaliatory cyberattack by the hacker group Anonymous against major US government and music industry digital infrastructure.",
-   "text_short": "The FBI's shutdown of the file-sharing site Megaupload triggered a retaliatory cyberattack by the hacker group Anonymous.",
+   "text": "The Federal Bureau of Investigation seized and permanently shut down the file-sharing website Megaupload, an action that serves as the primary catalyst for subsequent coordinated cyberattacks by activist groups against government and entertainment industry infrastructure.",
+   "text_short": "The FBI's shutdown of Megaupload triggered retaliatory cyberattacks against government and music industry sites.",
    "char_start": 614,
    "char_end": 1051,
    "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2222,
+    "rouge2_precision": 0.2143,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "no",
     "actor_correct": "no"
    }
   },
@@ -106,14 +106,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "On Thursday, the Federal Bureau of Investigation executed a seizure and shutdown of the file-sharing website Megaupload, resulting in the arrest and indictment of seven individuals, including the site's founder, on charges ranging from copyright infringement to money laundering conspiracy.",
-   "text_short": "The FBI seized and shut down the file-sharing site Megaupload, leading to the arrest and indictment of seven individuals on serious federal charges.",
+   "text": "On Thursday, the Federal Bureau of Investigation executed a seizure of the file-sharing website Megaupload, resulting in the arrest of its founder and six other individuals. These law enforcement actions, which included charges of copyright infringement and money laundering conspiracy, were taken to dismantle a platform accused of causing hundreds of millions of dollars in damages to the entertainment industry.",
+   "text_short": "The FBI arrested Megaupload's leadership and shut down the site to stop massive copyright infringement and money laundering.",
    "char_start": 1493,
    "char_end": 1789,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2174,
+    "rouge2_precision": 0.1667,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -127,14 +127,14 @@
     "file-sharing website Megaupload",
     "the website"
    ],
-   "text": "The file-sharing website Megaupload enabled individuals to download movies, music, television programs, electronic books, and business software on a massive scale, a capability that the entertainment industry cites as the primary justification for the Federal Bureau of Investigation's subsequent seizure and shutdown of the site.",
-   "text_short": "Megaupload allowed users to download vast amounts of copyrighted media, a function that justified the FBI's decision to seize and shut down the website.",
+   "text": "The file-sharing website Megaupload provided a service that allowed individuals to download movies, music, television programs, electronic books, and software on a massive scale, often before their official theatrical or commercial release. This capability enabled the rapid and widespread distribution of copyrighted material, which the entertainment industry argues caused significant financial losses to copyright holders.",
+   "text_short": "Megaupload allowed massive, pre-release downloads of copyrighted content, causing billions in industry damages.",
    "char_start": 1789,
    "char_end": 2002,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2826,
+    "rouge2_precision": 0.2727,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "no"

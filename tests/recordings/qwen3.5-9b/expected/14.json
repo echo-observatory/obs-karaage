@@ -79,7 +79,7 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Following the Federal Communications Commission's investigation into Comcast's file-sharing restrictions, two of the largest U.S. Internet service providers announced plans to test controversial network management strategies. These measures involve either throttling the internet speed for high-volume users or implementing usage-based fees, reflecting a scramble to manage inadequate infrastructure while avoiding direct regulation.",
+   "text": "Following the Federal Communications Commission's investigation into Comcast's file-sharing restrictions, two of the largest Internet service providers in North America announced plans to test controversial network management strategies. These tests involve either throttling the internet speed for their most active customers or implementing metered billing to charge extra fees for higher data usage, measures designed to manage network congestion while avoiding direct price hikes for all consumers.",
    "text_short": "Two major U.S. ISPs announced tests to throttle heavy users or charge extra fees following an FCC investigation.",
    "char_start": 0,
    "char_end": 200,
@@ -98,7 +98,7 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Federal Communications Commission's probe into Comcast's specific targeting of BitTorrent users ignited a heated debate within the U.S. Congress regarding the extent of control Internet service providers should possess over customer data flows. This legislative scrutiny underscores the growing tension between the need for network management and the public's demand for an open internet free from discriminatory practices.",
+   "text": "The Federal Communications Commission's inquiry into whether Comcast restricted customers from sharing files has ignited a significant debate within the U.S. Congress regarding the appropriate level of control Internet service providers should possess over the flow of customer data. This legislative discussion centers on the tension between protecting consumer rights and allowing companies to manage their aging infrastructure effectively.",
    "text_short": "An FCC investigation into Comcast's file-sharing restrictions sparked a U.S. Congress debate over ISP control of customer data.",
    "char_start": 412,
    "char_end": 841,
@@ -119,15 +119,15 @@
     "an advocacy group",
     "that pushes for better oversight of cable operators such as Comcast"
    ],
-   "text": "Comcast's current network management practices unfairly discriminate against users of legal technology by specifically targeting and throttling traffic from applications like BitTorrent, even when the content being shared is lawful. This approach prioritizes the protection of the company's aging infrastructure over the rights of consumers to access the internet without artificial restrictions based on the type of traffic they generate.",
-   "text_short": "Comcast treats people who use legal technology unfairly.",
+   "text": "Advocacy groups argue that Comcast's specific targeting of customers using the BitTorrent file-sharing system constitutes discrimination against users of legal technology. These organizations contend that the cable company's practices unfairly penalize consumers who are simply accessing content they have the right to view, rather than addressing the underlying issue of network capacity.",
+   "text_short": "Advocacy groups claim Comcast's file-sharing restrictions discriminate against users of legal technology.",
    "char_start": 841,
    "char_end": 1199,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1429,
-    "paraphrased": true,
+    "rouge2_precision": 0.1538,
+    "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -139,14 +139,14 @@
     "Ben Scott",
     "head of the group"
    ],
-   "text": "Facing the threat of regulatory intervention, cable companies are frantically scrambling to alter their network management tactics to reduce the appearance of wrongdoing. Rather than addressing the root causes of network congestion, these providers are pivoting to strategies that appear more neutral, such as metered billing, to avoid the political fallout that has already led to congressional debates over internet freedom.",
-   "text_short": "Telecom firms are rushing to make their misconduct look less obvious.",
+   "text": "Industry leaders suggest that cable companies are frantically devising new strategies to mitigate the negative public perception resulting from the Federal Communications Commission's investigation. Rather than addressing the root causes of network congestion, these providers are attempting to reframe their network management tactics to appear less like discriminatory actions and more like necessary utility-style services.",
+   "text_short": "After regulators began looking closely, wire service providers are rushing to make it seem like they did not break any rules.",
    "char_start": 841,
    "char_end": 1199,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1333,
+    "rouge2_precision": 0.0179,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -159,16 +159,16 @@
     "Roger Entner",
     "a senior vice president from Nielsen IAG"
    ],
-   "text": "Because a tiny fraction of internet users consumes the majority of available bandwidth, network management strategies that throttle heavy users are a politically correct approach to handling traffic congestion, even though they unfairly exempt peer-to-peer users from these restrictions.",
-   "text_short": "Heavy user concentration justifies throttling as a fair but discriminatory solution to bandwidth limits.",
+   "text": "With a small fraction of users consuming the majority of available bandwidth, the current approach to managing internet traffic is effectively a politically correct adaptation of previous discriminatory practices, designed to limit heavy users while sparing occasional peer-to-peer traffic. This strategy assumes that network capacity is insufficient for current usage levels and that prioritizing investment in infrastructure is necessary to prevent service degradation for the general public.",
+   "text_short": "Uneven bandwidth usage justifies managing traffic by limiting heavy users.",
    "char_start": 1199,
    "char_end": 1550,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1,
+    "rouge2_precision": 0.0588,
     "paraphrased": false,
-    "in_text": "uncertain",
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
@@ -180,7 +180,7 @@
     "a Comcast spokesperson"
    ],
    "text": "Comcast will not filter traffic types but still needs to manage the network.",
-   "text_short": "Comcast will manage network traffic without filtering specific content types.",
+   "text_short": "Comcast will manage network traffic without filtering content types.",
    "char_start": 1550,
    "char_end": 1810,
    "valid": true,
@@ -198,16 +198,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Time Warner Cable intends to charge customers based on usage volume and speed tiers, operating as a standard utility like an electric provider or mobile carrier, instead of reducing connection speeds.",
-   "text_short": "Time Warner Cable proposes metered billing as a utility-style solution to manage network demand.",
+   "text": "Time Warner Cable plans to meter and bill clients for faster speeds and larger data amounts, functioning like a traditional public utility. This approach treats internet access as a commodity where consumers pay extra for higher usage, aiming to generate revenue specifically from those who consume excessive amounts rather than raising prices for all customers. The strategy relies on the premise that current infrastructure cannot support unlimited high-speed data for everyone, necessitating a utility-style model to fund necessary network upgrades.",
+   "text_short": "Time Warner Cable proposes billing heavy users to fund network upgrades.",
    "char_start": 1810,
    "char_end": 2348,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2143,
-    "paraphrased": true,
-    "in_text": "yes",
+    "rouge2_precision": 0.2,
+    "paraphrased": false,
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
@@ -218,15 +218,15 @@
     "Alex Dudley",
     "a Time Warner Cable spokesman"
    ],
-   "text": "Metered billing represents the fairest way to fund the investment required to support heavy data usage, ensuring that customers who consume excessive bandwidth contribute proportionally to the infrastructure costs.",
-   "text_short": "Metered billing is the fairest method to fund necessary network infrastructure investments.",
+   "text": "Billing customers extra fees for exceeding their data limits is clearly the fairest way to fund the investment required to support that use. This perspective argues that since a small minority of users consumes the bulk of bandwidth, charging them directly for the additional capacity they demand is the most equitable method to finance the infrastructure improvements needed to handle growing internet traffic demands.",
+   "text_short": "To finance network investment, the most equitable method is to charge heavy users.",
    "char_start": 2348,
    "char_end": 2752,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2857,
-    "paraphrased": false,
+    "rouge2_precision": 0.1905,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -239,14 +239,14 @@
     "communications director of Public Knowledge",
     "a consumer advocacy group in Washington D.C."
    ],
-   "text": "The proposed metered billing strategy by Time Warner Cable in Texas, which charges extra fees for exceeding data limits, functions primarily as a rationing scheme rather than a method to relieve network congestion. This approach is designed to protect the cable company's inadequate infrastructure from heavy usage, a situation that critics argue unfairly restricts consumer access to high-definition content and other digital services.",
-   "text_short": "Critics argue that Time Warner Cable's metered billing plan functions as a method to ration service and shield weak network infrastructure, instead of solving traffic jams.",
+   "text": "The proposed network management strategy by Time Warner Cable in Texas, which charges extra fees for exceeding data limits, functions primarily as a rationing scheme rather than a method to relieve network congestion. This approach effectively protects the cable company's inadequate infrastructure by restricting access for high-volume users, a practice that critics argue unfairly limits consumer choice and fails to address the root cause of network bottlenecks.",
+   "text_short": "Critics argue that Time Warner Cable's paid data caps function as a method to restrict usage. This approach safeguards poor network conditions instead of solving traffic jams.",
    "char_start": 2752,
    "char_end": 3399,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1406,
+    "rouge2_precision": 0.1111,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"

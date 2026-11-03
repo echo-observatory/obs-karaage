@@ -8,7 +8,7 @@ verbose = False
 
 # Step-level configuration (the token budget is the profile's context size: llm.context_tokens())
 BATCH_SIZE = 4                # Statements per batch
-PASSAGE_CONTEXT_OFFSET = 3    # Extra passages before/after the batch's passage range
+EXCERPT_CONTEXT_OFFSET = 3    # Extra excerpts before/after the batch's excerpt range
 ECHO_PREFIX_LENGTH = 80       # Characters of the original statement echoed back for cross-contamination detection
 RESTATED_LENGTH_TARGET = 400  # Soft character target communicated in the prompt
 SHORT_LENGTH_TARGET = 150     # Soft character target for the single-sentence headline version, communicated in the prompt
@@ -79,49 +79,49 @@ def make_batch_schema(batch):
     return create_model("RephrasedStatementBatch", **fields)
 
 
-def make_batch_prompt(batch, passages: list, main_point: str) -> str:
-    n_passages = len(passages)
-    min_p = min(s['passage_index'] for s in batch)
-    max_p = max(s['passage_index'] for s in batch)
-    start_p = max(0, min_p - PASSAGE_CONTEXT_OFFSET)
-    end_p = min(n_passages - 1, max_p + PASSAGE_CONTEXT_OFFSET)
-    context_passages = [{"id": i, "text": passages[i]['text']} for i in range(start_p, end_p + 1)]
-    items = {str(s["id"]): {"passage_id": s["passage_index"], "actor": s["actor"], "statement": s["statement"]} for s in batch}
+def make_batch_prompt(batch, excerpts: list, main_point: str) -> str:
+    n_excerpts = len(excerpts)
+    min_e = min(s['excerpt_index'] for s in batch)
+    max_e = max(s['excerpt_index'] for s in batch)
+    start_e = max(0, min_e - EXCERPT_CONTEXT_OFFSET)
+    end_e = min(n_excerpts - 1, max_e + EXCERPT_CONTEXT_OFFSET)
+    context_excerpts = [{"id": i, "text": excerpts[i]['text']} for i in range(start_e, end_e + 1)]
+    items = {str(s["id"]): {"excerpt_id": s["excerpt_index"], "actor": s["actor"], "statement": s["statement"]} for s in batch}
     return "\n\n".join([
-        f"<task>\nFor each item: copy the first {ECHO_PREFIX_LENGTH} characters of its statement field verbatim into 'original', then write the rephrasing into 'rephrased'. Process each item independently, keyed by its id (as a string). Use the passage_id to locate the statement within the provided passages.\n</task>",
+        f"<task>\nFor each item: copy the first {ECHO_PREFIX_LENGTH} characters of its statement field verbatim into 'original', then write the rephrasing into 'rephrased'. Process each item independently, keyed by its id (as a string). Use the excerpt_id to locate the statement within the provided excerpts.\n</task>",
         f"<central_claim>\n{main_point}\n</central_claim>",
-        f"<passages>{json.dumps(context_passages, ensure_ascii=False, indent=2)}</passages>",
+        f"<excerpts>{json.dumps(context_excerpts, ensure_ascii=False, indent=2)}</excerpts>",
         f"<statements>{json.dumps(items, ensure_ascii=False, indent=2)}</statements>",
     ])
 
 
-def build_statements(all_statements: list, passages: list) -> list[dict]:
+def build_statements(all_statements: list, excerpts: list) -> list[dict]:
     statements = []
     stmt_id = 0
     for entry in all_statements:
-        passage_index = entry['passage_index']
-        passage_data = passages[passage_index]
+        excerpt_index = entry['excerpt_index']
+        excerpt_data = excerpts[excerpt_index]
         for actor, actor_statements in entry['statements'].items():
             for statement_text in actor_statements:
                 statements.append({
                     'id': stmt_id,
                     'actor': actor,
                     'statement': statement_text,
-                    'passage_index': passage_index,
-                    'passage': passage_data['text'],
-                    'segments': passage_data['segments'],
+                    'excerpt_index': excerpt_index,
+                    'excerpt': excerpt_data['text'],
+                    'segments': excerpt_data['segments'],
                 })
                 stmt_id += 1
     return statements
 
 
-def rephrase_statements(statements: list, passages: list, main_point: str) -> list[dict]:
+def rephrase_statements(statements: list, excerpts: list, main_point: str) -> list[dict]:
     for s in statements:
         s.pop('rephrased_statement', None)
         s.pop('rephrasing_error', None)
     batches = [statements[i:i+BATCH_SIZE] for i in range(0, len(statements), BATCH_SIZE)]
     for batch in tqdm(batches, desc="Rephrasing batches"):
-        user_prompt = make_batch_prompt(batch, passages, main_point)
+        user_prompt = make_batch_prompt(batch, excerpts, main_point)
         try:
             schema = make_batch_schema(batch)
             result = llm.complete_model(SYSTEM_PROMPT_REPHRASING, user_prompt, schema,
@@ -140,28 +140,28 @@ def rephrase_statements(statements: list, passages: list, main_point: str) -> li
         print(statements)
     return statements
 
-def step_5_rephrase(all_statements, passages, main_point):
-    statements = build_statements(all_statements, passages)
+def step_5_rephrase(all_statements, excerpts, main_point):
+    statements = build_statements(all_statements, excerpts)
 
     if verbose:
         print('Statements with context:')
         print(statements)
         # Make sanity check before hitting the model:
-        # ensure no batch can exceed the token limit given the shared prompt + passage context + statement content + expected output length.
-        rephrasing_statements_sanity_check(main_point, passages, statements)
+        # ensure no batch can exceed the token limit given the shared prompt + excerpt context + statement content + expected output length.
+        rephrasing_statements_sanity_check(main_point, excerpts, statements)
     
-    rephrased_statements = rephrase_statements(statements, passages, main_point)
+    rephrased_statements = rephrase_statements(statements, excerpts, main_point)
     html_rephrasing_content = rephrasing_monitoring_html(rephrased_statements, main_point)
     return rephrased_statements, html_rephrasing_content
 
-def rephrasing_statements_sanity_check(main_point, passages, statements):
+def rephrasing_statements_sanity_check(main_point, excerpts, statements):
     def estimate_tokens(text):
         return len(text) // 4
 
-    all_passages_list = passages
-    n_passages = len(all_passages_list)
+    all_excerpts_list = excerpts
+    n_excerpts = len(all_excerpts_list)
 
-    # Base shared context (system prompt + central claim — passage window varies per batch)
+    # Base shared context (system prompt + central claim — excerpt window varies per batch)
     shared_base_tokens = estimate_tokens(SYSTEM_PROMPT_REPHRASING + f"<central_claim>\n{main_point}\n</central_claim>")
 
     # Check every actual batch and find the worst case
@@ -170,19 +170,19 @@ def rephrasing_statements_sanity_check(main_point, passages, statements):
     worst_idx = 0
 
     for bi, batch in enumerate(all_batches):
-        min_p = min(s['passage_index'] for s in batch)
-        max_p = max(s['passage_index'] for s in batch)
-        start_p = max(0, min_p - PASSAGE_CONTEXT_OFFSET)
-        end_p = min(n_passages - 1, max_p + PASSAGE_CONTEXT_OFFSET)
-        context_passages = [{"id": i, "text": all_passages_list[i]['text']} for i in range(start_p, end_p + 1)]
+        min_e = min(s['excerpt_index'] for s in batch)
+        max_e = max(s['excerpt_index'] for s in batch)
+        start_e = max(0, min_e - EXCERPT_CONTEXT_OFFSET)
+        end_e = min(n_excerpts - 1, max_e + EXCERPT_CONTEXT_OFFSET)
+        context_excerpts = [{"id": i, "text": all_excerpts_list[i]['text']} for i in range(start_e, end_e + 1)]
 
-        passage_tokens   = estimate_tokens(json.dumps(context_passages))
-        items            = {str(s["id"]): {"passage_id": s["passage_index"], "actor": s["actor"], "statement": s["statement"]} for s in batch}
+        excerpt_tokens   = estimate_tokens(json.dumps(context_excerpts))
+        items            = {str(s["id"]): {"excerpt_id": s["excerpt_index"], "actor": s["actor"], "statement": s["statement"]} for s in batch}
         statement_tokens = estimate_tokens(json.dumps(items))
         # Output per statement: echoed prefix + rephrased + short
         output_tokens    = len(batch) * (ECHO_PREFIX_LENGTH // 4 + RESTATED_LENGTH_MAX // 4 + SHORT_LENGTH_MAX // 4)
 
-        total = shared_base_tokens + passage_tokens + statement_tokens + output_tokens
+        total = shared_base_tokens + excerpt_tokens + statement_tokens + output_tokens
         if total > worst_total:
             worst_total = total
             worst_idx   = bi
@@ -194,13 +194,13 @@ def rephrasing_statements_sanity_check(main_point, passages, statements):
     assert worst_total <= budget, f"Exceeds the profile's context size ({worst_total} > {budget})"
     print("OK")
 
-def batch_debug(all_statements, passages, main_point, batch_index):
+def batch_debug(all_statements, excerpts, main_point, batch_index):
     # Recompute batches (that's fine, it's not too expensive)
-    statements = build_statements(all_statements, passages)
+    statements = build_statements(all_statements, excerpts)
     batches = [statements[i:i+BATCH_SIZE] for i in range(0, len(statements), BATCH_SIZE)]
 
     debug_batch = batches[batch_index]
-    debug_prompt = make_batch_prompt(debug_batch, passages, main_point)
+    debug_prompt = make_batch_prompt(debug_batch, excerpts, main_point)
     debug_schema = make_batch_schema(debug_batch)
 
     print("=" * 60)
@@ -234,8 +234,8 @@ def rephrasing_monitoring_html(statements: list, main_point: str) -> str:
         "They are then distilled into single-sentence summaries capturing their essence. "
         "<ul>"
         f"<li><b>Batch processing.</b> Statements are sent to the LLM in batches of {BATCH_SIZE}, "
-        f"each batch accompanied by a window of passage context ({PASSAGE_CONTEXT_OFFSET} passages before and after "
-        "the batch's passage range) and the article's central claim as anchor. "
+        f"each batch accompanied by a window of excerpt context ({EXCERPT_CONTEXT_OFFSET} excerpts before and after "
+        "the batch's excerpt range) and the article's central claim as anchor. "
         "We want small batches to mitigate cross-contamination between batch items, "
         "but we also need batches because loading the prompt is resource-intensive "
         "on a per-claim basis.</li>"

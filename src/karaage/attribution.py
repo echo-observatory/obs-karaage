@@ -1,21 +1,29 @@
 from __future__ import annotations
 import time
 import html as html_lib
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict, Field
 from karaage import llm
 
 verbose = False
 
 
-class Source(BaseModel):
-    main: str
-    other: list[str]
+# What the model sees calls actors "sources": the system prompt, and the answer format with
+# its "main" and "other" names (the user prompt also says "speakers"). This wording is kept
+# on purpose: "source" covers organisations and documents, where "speaker" suggests a person.
+# The aliases read the answer into the names used everywhere else, those of the output
+# (docs/design-1.1.0.md, section 2).
+
+class Actor(BaseModel):
+    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+    canonical_name: str = Field(alias="main")
+    aliases: list[str] = Field(alias="other")
     kind: str | None = None    # one of ACTOR_KINDS
     segments: list[list[int]]  # list of [start, end] inclusive ranges
 
 
 class AttributionResult(BaseModel):
-    sources: list[Source]
+    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+    actors: list[Actor] = Field(alias="sources")
 
 
 # Step-level configuration
@@ -24,7 +32,7 @@ RESERVED_TOKENS_ATTRIBUTION = 2_500   # prompt framing + expected output
 # has to close it. Loops seen on the test dataset: an alias list ("we", "I", "we", ...)
 # and the list of actors itself. The largest legitimate lists seen are 28 actors,
 # 26 ranges for one actor and 10 aliases.
-MAX_SOURCES = 40
+MAX_ACTORS = 40
 MAX_RANGES = 40
 MAX_ALIASES = 10
 # The outputs keep "person" and "organisation" (the snapshot specification's kinds) and
@@ -62,7 +70,7 @@ ATTRIBUTION_SCHEMA = {
     "properties": {
         "sources": {
             "type": "array",
-            "maxItems": MAX_SOURCES,
+            "maxItems": MAX_ACTORS,
             "items": {
                 "type": "object",
                 "properties": {
@@ -128,20 +136,20 @@ def find_split(segments: list, start: int, end: int) -> int:
 
 
 def merge_results(left: AttributionResult, right: AttributionResult) -> AttributionResult:
-    """Merge two AttributionResult objects by combining sources with the same main name."""
-    by_name: dict[str, Source] = {}
-    for src in left.sources + right.sources:
-        if src.main in by_name:
-            existing = by_name[src.main]
-            by_name[src.main] = Source(
-                main=src.main,
-                other=list(dict.fromkeys(existing.other + src.other)),   # keeps the order, unlike a set
-                kind=existing.kind or src.kind,
-                segments=existing.segments + src.segments,
+    """Merge two AttributionResult objects by combining actors with the same canonical name."""
+    by_name: dict[str, Actor] = {}
+    for actor in left.actors + right.actors:
+        if actor.canonical_name in by_name:
+            existing = by_name[actor.canonical_name]
+            by_name[actor.canonical_name] = Actor(
+                canonical_name=actor.canonical_name,
+                aliases=list(dict.fromkeys(existing.aliases + actor.aliases)),   # keeps the order, unlike a set
+                kind=existing.kind or actor.kind,
+                segments=existing.segments + actor.segments,
             )
         else:
-            by_name[src.main] = src
-    return AttributionResult(sources=list(by_name.values()))
+            by_name[actor.canonical_name] = actor
+    return AttributionResult(actors=list(by_name.values()))
 
 
 def run_attribution(segments: list, start: int, end: int, max_context_tokens: int) -> AttributionResult:
@@ -179,52 +187,52 @@ def normalize_answer(result: AttributionResult) -> AttributionResult:
     longer list is read as a list of single segments. An actor listed several times is
     merged into one, and repeated aliases are kept once.
     """
-    sources = []
-    for src in result.sources:
+    actors = []
+    for actor in result.actors:
         ranges = []
-        for r in src.segments:
+        for r in actor.segments:
             if len(r) == 2:
                 ranges.append(list(r))
             elif len(r) == 1:
                 ranges.append([r[0], r[0]])
             elif len(r) > 2:
                 ranges.extend([i, i] for i in r)
-        sources.append(Source(main=src.main, other=list(dict.fromkeys(src.other)), kind=src.kind, segments=ranges))
-    return merge_results(AttributionResult(sources=sources), AttributionResult(sources=[]))
+        actors.append(Actor(canonical_name=actor.canonical_name, aliases=list(dict.fromkeys(actor.aliases)), kind=actor.kind, segments=ranges))
+    return merge_results(AttributionResult(actors=actors), AttributionResult(actors=[]))
 
 
 def display_result(result: AttributionResult, segments: list) -> None:
-    for src in result.sources:
-        aliases = f"  (also: {', '.join(src.other)})" if src.other else ""
-        ranges = ", ".join(f"[{s},{e}]" for s, e in src.segments)
-        print(f"Source: {src.main}{aliases}")
+    for actor in result.actors:
+        aliases = f"  (also: {', '.join(actor.aliases)})" if actor.aliases else ""
+        ranges = ", ".join(f"[{s},{e}]" for s, e in actor.segments)
+        print(f"Actor: {actor.canonical_name}{aliases}")
         print(f"  Segments: {ranges}")
-        if src.segments:
-            first_start = src.segments[0][0]
+        if actor.segments:
+            first_start = actor.segments[0][0]
             preview = segments[first_start]["text"][:70].strip() if first_start < len(segments) else ""
             print(f"  Preview:  \"{preview}…\"")
         print()
 
 
 # ============================================================
-# resolve_source_ranges
+# resolve_actor_ranges
 # ============================================================
 # Cleans up the raw LLM output by resolving overlapping and
 # near-adjacent ranges in four stages:
 #
-#   1. Same-source cleanup  — merge overlapping ranges and merge
+#   1. Same-actor cleanup   — merge overlapping ranges and merge
 #      ranges whose gap (in characters) is below merge_gap_threshold.
 #   2. Partial-overlap fix   — for any two ranges from *different*
-#      sources that partially overlap (neither contains the other),
+#      actors that partially overlap (neither contains the other),
 #      choose the edit that drops the fewest characters, leaving the
 #      pair either disjoint or properly nested.
-#   3. Nesting resolution    — when a range from one source fully
+#   3. Nesting resolution    — when a range from one actor fully
 #      contains a range from another, drop the outer (larger) range.
-#      Tie-break by source index (lower index wins).
-#   4. Validation            — assert that no cross-source overlaps
+#      Tie-break by actor index (lower index wins).
+#   4. Validation            — assert that no cross-actor overlaps
 #      survive stages 1-3.
 
-def resolve_source_ranges(
+def resolve_actor_ranges(
     result: AttributionResult,
     segments: list,
     merge_gap_threshold: int = 100,
@@ -232,9 +240,9 @@ def resolve_source_ranges(
     """
     Parameters
     ----------
-    result               : AttributionResult from the LLM pipeline.
+    result               : AttributionResult read from the model's answer.
     segments             : List of segment dicts with keys 'id', 'text', 'start', 'end'.
-    merge_gap_threshold  : Same-source ranges whose intervening gap is
+    merge_gap_threshold  : Same-actor ranges whose intervening gap is
                            strictly less than this many characters are merged.
 
     Returns
@@ -255,19 +263,19 @@ def resolve_source_ranges(
     # Working copy: sid -> list of mutable [start, end] pairs.
     # We never mutate the original AttributionResult.
     # ------------------------------------------------------------------
-    source_ranges: dict[str, list[list[int]]] = {
-        str(i): [list(r) for r in src.segments]
-        for i, src in enumerate(result.sources)
+    actor_ranges: dict[str, list[list[int]]] = {
+        str(i): [list(r) for r in actor.segments]
+        for i, actor in enumerate(result.actors)
     }
 
     # ==================================================================
-    # STAGE 1 — Same-source merge
+    # STAGE 1 — Same-actor merge
     # ==================================================================
-    # Two ranges of the same source are merged when they overlap,
+    # Two ranges of the same actor are merged when they overlap,
     # are adjacent (gap of 0 segments), or the character count of the
     # gap between them is strictly less than merge_gap_threshold.
 
-    def merge_same_source(ranges: list[list[int]]) -> list[list[int]]:
+    def merge_same_actor(ranges: list[list[int]]) -> list[list[int]]:
         if not ranges:
             return []
         # Work left-to-right on a sorted copy.
@@ -290,14 +298,14 @@ def resolve_source_ranges(
 
         return merged
 
-    for sid in source_ranges:
-        source_ranges[sid] = merge_same_source(source_ranges[sid])
+    for sid in actor_ranges:
+        actor_ranges[sid] = merge_same_actor(actor_ranges[sid])
 
     # ==================================================================
-    # STAGE 2 — Cross-source partial-overlap resolution
+    # STAGE 2 — Cross-actor partial-overlap resolution
     # ==================================================================
     # A *partial* overlap between R1=[a,b] and R2=[c,d] (different
-    # sources) is the case where one range starts first and ends inside
+    # actors) is the case where one range starts first and ends inside
     # the other:
     #   a < c ≤ b < d   (R1 starts first)
     # or symmetrically c < a ≤ d < b.
@@ -347,15 +355,15 @@ def resolve_source_ranges(
     MAX_ITERS = 10_000
     for _it in range(MAX_ITERS):
         found_partial = False
-        sids = list(source_ranges.keys())
+        sids = list(actor_ranges.keys())
         for i in range(len(sids)):
             if found_partial:
                 break
             for j in range(i + 1, len(sids)):
                 if found_partial:
                     break
-                ranges1 = source_ranges[sids[i]]
-                ranges2 = source_ranges[sids[j]]
+                ranges1 = actor_ranges[sids[i]]
+                ranges2 = actor_ranges[sids[j]]
                 for ri, r1 in enumerate(ranges1):
                     if found_partial:
                         break
@@ -384,19 +392,19 @@ def resolve_source_ranges(
         )
 
     # Ranges trimmed to start > end (degenerate) are discarded.
-    for sid in source_ranges:
-        source_ranges[sid] = [r for r in source_ranges[sid] if r[0] <= r[1]]
+    for sid in actor_ranges:
+        actor_ranges[sid] = [r for r in actor_ranges[sid] if r[0] <= r[1]]
 
     # ==================================================================
     # STAGE 3 — Nesting resolution
     # ==================================================================
-    # After stage 2, every cross-source pair of ranges is either
+    # After stage 2, every cross-actor pair of ranges is either
     # disjoint or nested (one fully inside the other).  When nested,
     # we keep the smaller range (inner, more specific) and discard the
     # outer (larger).
     #
     # Tie-break: if both ranges span the same number of characters
-    # (e.g. they are identical), the range belonging to the source
+    # (e.g. they are identical), the range belonging to the actor
     # with the lower numeric index is kept.
     #
     # We iterate because discarding an outer range can reveal a new
@@ -405,7 +413,7 @@ def resolve_source_ranges(
     for _it in range(MAX_ITERS):
         # Build a flat snapshot of all live ranges with precomputed char counts.
         live: list[tuple[str, int, int, int, int]] = []
-        for sid, ranges in source_ranges.items():
+        for sid, ranges in actor_ranges.items():
             for ri, r in enumerate(ranges):
                 live.append((sid, ri, r[0], r[1], char_len(r[0], r[1])))
 
@@ -427,15 +435,15 @@ def resolve_source_ranges(
                     # outer_wins=False → discard the outer (ii)
                     outer_wins = cl1 < cl2 or (cl1 == cl2 and int(sid1) < int(sid2))
                     if outer_wins:
-                        source_ranges[sid2][ri2] = [-1, -1]   # tombstone inner
+                        actor_ranges[sid2][ri2] = [-1, -1]   # tombstone inner
                     else:
-                        source_ranges[sid1][ri1] = [-1, -1]   # tombstone outer
+                        actor_ranges[sid1][ri1] = [-1, -1]   # tombstone outer
                     found_nesting = True
                     break
 
         # Sweep out tombstones before the next iteration.
-        for sid in source_ranges:
-            source_ranges[sid] = [r for r in source_ranges[sid] if r[0] >= 0]
+        for sid in actor_ranges:
+            actor_ranges[sid] = [r for r in actor_ranges[sid] if r[0] >= 0]
 
         if not found_nesting:
             break
@@ -447,12 +455,12 @@ def resolve_source_ranges(
     # ==================================================================
     # STAGE 4 — Validation
     # ==================================================================
-    # Confirm that no two ranges from different sources share even a
+    # Confirm that no two ranges from different actors share even a
     # single segment.  Raises AssertionError if any overlap remains.
 
     all_final: list[tuple[str, int, int]] = [
         (sid, r[0], r[1])
-        for sid, ranges in source_ranges.items()
+        for sid, ranges in actor_ranges.items()
         for r in ranges
     ]
     for ii, (sid1, a1, b1) in enumerate(all_final):
@@ -462,34 +470,34 @@ def resolve_source_ranges(
             if max(a1, a2) <= min(b1, b2):
                 raise AssertionError(
                     f"Overlap remains after resolution: "
-                    f"source {sid1} [{a1},{b1}] overlaps source {sid2} [{a2},{b2}]"
+                    f"actor {sid1} [{a1},{b1}] overlaps actor {sid2} [{a2},{b2}]"
                 )
 
     # ==================================================================
     # Reconstruct AttributionResult
     # ==================================================================
-    # Sources whose every range was discarded are omitted entirely.
+    # Actors whose every range was discarded are omitted entirely.
 
-    new_sources: list[Source] = []
-    for i, src in enumerate(result.sources):
-        remaining = [r for r in source_ranges.get(str(i), []) if r[0] <= r[1]]
+    new_actors: list[Actor] = []
+    for i, actor in enumerate(result.actors):
+        remaining = [r for r in actor_ranges.get(str(i), []) if r[0] <= r[1]]
         if remaining:
-            new_sources.append(Source(
-                main=src.main,
-                other=src.other,
-                kind=src.kind,
+            new_actors.append(Actor(
+                canonical_name=actor.canonical_name,
+                aliases=actor.aliases,
+                kind=actor.kind,
                 segments=remaining,
             ))
-    return AttributionResult(sources=new_sources)
+    return AttributionResult(actors=new_actors)
 
 
-def extract_author_attribution(segments: list, max_context_tokens: int) -> AttributionResult:
+def extract_actor_attribution(segments: list, max_context_tokens: int) -> AttributionResult:
     seg_ids = [seg["id"] for seg in segments]
     result = run_attribution(segments, seg_ids[0], seg_ids[-1], max_context_tokens)
-    return resolve_source_ranges(result, segments)
+    return resolve_actor_ranges(result, segments)
 
 
-def step_2_attribute_authors(
+def step_2_attribute_actors(
     segments: list,
     model: str,
     max_context_tokens: int,
@@ -498,68 +506,69 @@ def step_2_attribute_authors(
         print("\nAttributionResult schema:\n")
         print(AttributionResult.model_json_schema())
 
-    sources = extract_author_attribution(segments, max_context_tokens)
+    attribution = extract_actor_attribution(segments, max_context_tokens)
 
+    n = len(attribution.actors)
     if verbose:
-        print(f"Results ({len(sources.sources)} sources):\n")
-        display_result(sources, segments)
+        print(f"Results ({n} actors):\n")
+        display_result(attribution, segments)
     else:
-        print(f"Attribution -> {len(sources.sources)} author{'s' if len(sources.sources) != 1 else ''}/source{'s' if len(sources.sources) != 1 else ''} identified.")
+        print(f"Attribution -> {n} actor{'s' if n != 1 else ''} identified.")
 
-    html_content = attribution_monitoring_html(sources, segments, model)
-    return sources, html_content
+    html_content = attribution_monitoring_html(attribution, segments, model)
+    return attribution, html_content
 
 
-SOURCE_COLORS = [
-    "#ffd6a5",  # source01 — soft orange
-    "#caffbf",  # source02 — soft green
-    "#9bf6ff",  # source03 — soft cyan
-    "#a0c4ff",  # source04 — soft blue
-    "#bdb2ff",  # source05 — soft purple
-    "#ffc6ff",  # source06 — soft pink
-    "#fdffb6",  # source07 — soft yellow
-    "#ffadad",  # source08 — soft red
+ACTOR_COLORS = [
+    "#ffd6a5",  # actor01 — soft orange
+    "#caffbf",  # actor02 — soft green
+    "#9bf6ff",  # actor03 — soft cyan
+    "#a0c4ff",  # actor04 — soft blue
+    "#bdb2ff",  # actor05 — soft purple
+    "#ffc6ff",  # actor06 — soft pink
+    "#fdffb6",  # actor07 — soft yellow
+    "#ffadad",  # actor08 — soft red
 ]
 
 
 def attribution_monitoring_html(
-    sources: AttributionResult,
+    attribution: AttributionResult,
     segments: list,
     model: str,
 ) -> str:
     """Return attribution_content for the monitoring report."""
     method_description = (
         f"The fine-grained segments are sent to an LLM (<strong>{model}</strong>) "
-        "that identifies every speaker or source "
+        "that identifies every actor (person, organisation or document) "
         "quoted or referenced in the text and maps each one to the inclusive segment-ID ranges "
-        "it authored or spoke. "
+        "of what it said or wrote. "
         "<ul>"
         "<li><b>Context-window splitting.</b> When the total prompt would exceed the token budget, "
         "the segment list is recursively bisected at a sentence boundary; "
-        "the two halves are attributed independently and their results merged by matching source names.</li>"
+        "the two halves are attributed independently and their results merged by matching actor names.</li>"
         "<li><b>Range resolution (4 stages).</b> "
-        "The goal is to ensure each segment is attributed to exactly 1 source "
-        "(i.e. actor, by default the text author) as an acceptable simplification. "
-        "(1) Same-source ranges that overlap or whose character gap falls below a threshold are merged. "
-        "(2) Partial cross-source overlaps are resolved by dropping the fewest characters from one side. "
-        "(3) When one source range fully contains another, the outer (larger) range is discarded. "
-        "(4) The result is validated to confirm no cross-source overlap survives.</li>"
+        "The goal is to ensure each segment is attributed to exactly 1 actor "
+        "(by default base_author, the text's own voice) as an acceptable simplification. "
+        "(1) Same-actor ranges that overlap or whose character gap falls below a threshold are merged. "
+        "(2) Partial cross-actor overlaps are resolved by dropping the fewest characters from one side. "
+        "(3) When one actor's range fully contains another's, the outer (larger) range is discarded. "
+        "(4) The result is validated to confirm no cross-actor overlap survives.</li>"
         "</ul>"
     )
 
-    ordered_sources = sorted(
-        list(getattr(sources, "sources", sources)),
-        key=lambda src: min((start for start, _ in src.segments), default=float("inf"))
+    ordered_actors = sorted(
+        list(getattr(attribution, "actors", attribution)),
+        key=lambda actor: min((start for start, _ in actor.segments), default=float("inf"))
     )
 
     seg_to_class: dict[int, str] = {}
     seg_to_name: dict[int, str] = {}
-    for rank, src in enumerate(ordered_sources, start=1):
-        css_class = f"source{rank:02d}"
-        for start, end in src.segments:
+    for rank, actor in enumerate(ordered_actors, start=1):
+        css_class = f"actor{rank:02d}"
+        for start, end in actor.segments:
             for seg_id in range(start, end + 1):
                 seg_to_class[seg_id] = css_class
-                seg_to_name[seg_id] = src.main
+                seg_to_name[seg_id] = actor.canonical_name
 
     parts = []
     for seg in segments:
@@ -574,13 +583,13 @@ def attribution_monitoring_html(
     marked_text = "".join(parts)
 
     legend_items = []
-    for rank, src in enumerate(ordered_sources, start=1):
-        css_class = f"source{rank:02d}"
-        also_names = " aka ".join(f'"{html_lib.escape(n)}"' for n in src.other)
-        also = f' <span>aka {also_names}</span>' if src.other else ""
+    for rank, actor in enumerate(ordered_actors, start=1):
+        css_class = f"actor{rank:02d}"
+        also_names = " aka ".join(f'"{html_lib.escape(n)}"' for n in actor.aliases)
+        also = f' <span>aka {also_names}</span>' if actor.aliases else ""
         legend_items.append(
             f'  <li>'
-            f'<mark class="{css_class}"><strong>{html_lib.escape(src.main)}</strong></mark> ({html_lib.escape(str(src.kind))}){also}'
+            f'<mark class="{css_class}"><strong>{html_lib.escape(actor.canonical_name)}</strong></mark> ({html_lib.escape(str(actor.kind))}){also}'
             f'</li>'
         )
     legend_html = "\n".join(legend_items)
@@ -588,7 +597,7 @@ def attribution_monitoring_html(
     attribution_content = f"""
 <article><h3>Method</h3>{method_description}</article>
 
-<h3>Speakers</h3>
+<h3>Actors</h3>
 <ul>
 {legend_html}
 </ul>

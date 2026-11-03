@@ -1,5 +1,5 @@
 {
- "336c8c5ad3a6c498e1bfd95d434cdc523895bf4de5836bb3a110d96083c0cd71": {
+ "23f64c4f15b0b96fb31acf389b71b6e103409fd877953193fcd883a37c11ce8c": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -8,7 +8,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"uncertain\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -17,8 +17,8 @@
     }
    }
   ],
-  "created": 1793687905,
-  "id": "chatcmpl-4jdn2y7bvkwt05juml12a",
+  "created": 1793701962,
+  "id": "chatcmpl-09dog4h4fwe9o7tul4fj49",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -27,7 +27,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 16,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -35,12 +35,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 596,
+   "prompt_tokens": 598,
    "prompt_tokens_details": null,
-   "total_tokens": 611
+   "total_tokens": 614
   }
  },
- "438a0051301c484c9f4fd4cdb1969cdae8b8b3401e5fdb445e052ba00d2337d0": {
+ "2f5e1a1d88b53f277c2d0593e5da03a25df6f47da071d115b3371cf6544f2dcb": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -58,8 +58,8 @@
     }
    }
   ],
-  "created": 1793687904,
-  "id": "chatcmpl-ffjyutzqllie1my8g3yjx",
+  "created": 1793701963,
+  "id": "chatcmpl-xg9qa705jj5lwde6lmros",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -76,12 +76,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 579,
+   "prompt_tokens": 597,
    "prompt_tokens_details": null,
-   "total_tokens": 594
+   "total_tokens": 612
   }
  },
- "6b15ad1a7f7b700e6095e6de75542293316fee6502a1019efd60de8d0550defb": {
+ "586c84a6992513bab349e18bf429930efd96353e3630f92215b627a9ef75530b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -90,7 +90,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"4\": {\"original\": \"Treating every American as a criminal without a trial is unjust.\", \"rephrased\": \"The current legal framework that treats every American as a criminal without a trial is fundamentally unjust, a practice that must be reformed to protect the rights of law-abiding citizens while effectively reducing crime.\", \"summary\": \"The current legal framework treating Americans as criminals without trial is unjust and must be reformed.\"}, \"5\": {\"original\": \"The two-party system is a false dichotomy that ignores the nation's diverseideas\", \"rephrased\": \"The prevailing two-party system in the United States functions as a false dichotomy that simplifies complex political realities, thereby ignoring the nation's diverse ideas and failing to serve the interests of its varied population.\", \"summary\": \"The US two-party system is a false dichotomy that ignores the nation's diverse ideas.\"}, \"6\": {\"original\": \"The USPP will face challenges regarding ballot access but welcomes theop\", \"rephrased\": \"The United States Pirate Party anticipates significant hurdles regarding ballot access due to the country's restrictive laws, yet the organization remains convinced of its capability to overcome these obstacles and welcomes the challenge of expanding political participation.\", \"summary\": \"The USPP faces ballot access challenges but is confident in its ability to succeed.\"}}",
+     "content": "{\"4\": {\"original\": \"Not treating every American as a trial.\", \"rephrased\": \"The current legal framework in the United States effectively treats every citizen as a criminal without a trial, a practice that must be reformed to protect the rights of law-abiding individuals. This systemic failure to distinguish between actual offenders and innocent people undermines the justice system and erodes public trust in the rule of law.\", \"summary\": \"The current US legal framework treats all citizens as criminals without trial, violating rights and eroding trust.\"}, \"5\": {\"original\": \"The two-party system simplifies a diverse nation into a false black-and-white.\", \"rephrased\": \"The entrenched two-party system in the United States simplifies a diverse nation into a false black-and-white dichotomy, ignoring the many shades of gray in public opinion. This rigid political structure does a disservice to the country by failing to represent the full spectrum of ideas and opinions held by its people.\", \"summary\": \"The US two-party system falsely simplifies a diverse nation, ignoring the full spectrum of public opinion.\"}, \"6\": {\"original\": \"The USPP will face the challenge of ballot access early on.\", \"rephrased\": \"The revived United States Pirate Party will face the significant challenge of ballot access early on, as the current political landscape is dominated by two major parties that make it difficult for new entrants to gain representation. Overcoming this barrier is essential for the party to compete effectively and offer voters a genuine alternative to the status quo.\", \"summary\": \"The revived US Pirate Party faces the significant challenge of ballot access in a two-party dominated landscape.\"}, \"7\": {\"original\": \"The USPP has the capability to compete against other parties and welcomes the.\", \"rephrased\": \"Despite the inherent difficulties of entering a crowded political field, the United States Pirate Party possesses the capability to compete against established parties and welcomes this challenge. The organization is convinced that by offering a distinct platform focused on privacy, transparency, and ballot reform, it can successfully attract voters dissatisfied with the existing two-party system.\", \"summary\": \"The US Pirate Party is confident in its ability to compete and welcomes the challenge of entering the political arena.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -99,8 +99,8 @@
     }
    }
   ],
-  "created": 1793687897,
-  "id": "chatcmpl-lvjxfnhgjjj4b6fkh3u9kv",
+  "created": 1793701950,
+  "id": "chatcmpl-7bh0vjivt66n1jyqfqccep",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -109,7 +109,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 275,
+   "completion_tokens": 459,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -117,12 +117,53 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2268,
+   "prompt_tokens": 2324,
    "prompt_tokens_details": null,
-   "total_tokens": 2543
+   "total_tokens": 2783
   }
  },
- "711880091e4aad80cdadfde23561387e5a8a5d6afd848c712f1a644f53e1ca72": {
+ "906184aaecd92b882c0fb23876ccdf05bc24d31f5c27e3855e256838218bddc8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Brittany Phelps\": [\"The national party is insolvent without state-level organizations.\", \"We are dedicated to protecting privacy, freedom of information, reforming patents/copyrights, and ensuring government transparency.\", \"President Obama has failed to deliver on transparency, evidenced by hidden ACTA, undisclosed torture techniques, and limited health care reform details.\", \"Current privacy safeguards are ineffective and unnecessarily invade the rights of law-abiding citizens.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701935,
+  "id": "chatcmpl-r3lf73j6t5wk4q2skdf8q",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 88,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1446,
+   "prompt_tokens_details": null,
+   "total_tokens": 1534
+  }
+ },
+ "9d9687ae443bf84a9f85dde18dfbdc919f24223cc40c6ed61938ee5cdc14500d": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -140,8 +181,8 @@
     }
    }
   ],
-  "created": 1793687904,
-  "id": "chatcmpl-61zc20fl0fjnmtvenscyw8",
+  "created": 1793701962,
+  "id": "chatcmpl-oiiylj62yel56rci0qz9c",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -158,50 +199,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 581,
+   "prompt_tokens": 598,
    "prompt_tokens_details": null,
-   "total_tokens": 596
-  }
- },
- "7c5a936c36521abcdf168bb545045bec004492947c81422d0d7d62d222d045c3": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Brittany Phelps\": [\"Treating every American as a criminal without a trial is unjust.\", \"The two-party system is a false dichotomy that ignores the nation's diverse ideas.\", \"The USPP will face challenges regarding ballot access but welcomes the opportunity to succeed.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687885,
-  "id": "chatcmpl-t0ksqbdhak8moy5nm29n4p",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 57,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1449,
-   "prompt_tokens_details": null,
-   "total_tokens": 1506
+   "total_tokens": 613
   }
  },
  "9eb2478cda44d4f53747b05345d9e22388e085e89bbaaa84b15c840db63a29c1": {
@@ -222,8 +222,8 @@
     }
    }
   ],
-  "created": 1793687881,
-  "id": "chatcmpl-oh66vb0cmbq7na3ikh3c3r",
+  "created": 1793701933,
+  "id": "chatcmpl-vnra8g9ea9nkveixpm4vzl",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -245,6 +245,47 @@
    "total_tokens": 1522
   }
  },
+ "a3d263c4463971f460984d2e59fdcb004eb09bbab6cc6f572a77932cf6072439": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Brittany Phelps\": [\"Not treating every American as a criminal without a trial.\", \"The two-party system simplifies a diverse nation into a false black-and-white dichotomy, ignoring the many shades of gray in public opinion.\", \"The USPP will face the challenge of ballot access early on.\", \"The USPP has the capability to compete against other parties and welcomes the challenge.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701938,
+  "id": "chatcmpl-0zrcw9txs8cz8zdbtdqtsi",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 80,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1446,
+   "prompt_tokens_details": null,
+   "total_tokens": 1526
+  }
+ },
  "ba22fe5bfd33b58807ec5e7cdd76a8e3467f5d031ccf325e5fb6b2579425a72c": {
   "choices": [
    {
@@ -263,8 +304,8 @@
     }
    }
   ],
-  "created": 1793687877,
-  "id": "chatcmpl-qg3l25075q8x0xg3tcemq",
+  "created": 1793701930,
+  "id": "chatcmpl-q43px74hxeoil1gukyp9",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -286,48 +327,7 @@
    "total_tokens": 1895
   }
  },
- "ba72107f778183a4da046dc2781a35bf8c4e2a1df57c3c762d8222f89dc2bb5d": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Brittany Phelps\": [\"The national party is insolvent without state-level organizations.\", \"We are dedicated to protecting privacy, freedom of information, and ensuring government transparency.\", \"President Obama has proven hope for transparency ill-placed, as ACTA is hidden and bills aren't brought to light.\", \"Current privacy safeguards are ineffective and invade the rights of law-abiding citizens.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687883,
-  "id": "chatcmpl-x0fhngurpv2fizpa9y4z3",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 78,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1449,
-   "prompt_tokens_details": null,
-   "total_tokens": 1527
-  }
- },
- "cb1c5425760e157ed42db571e4378f68d7ece4ebc508c180e86c9ce7a1acd74a": {
+ "bac0780252bd4a4e41604c144fa256895f31970a7531a1c9e9d49d6314040e3c": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -345,8 +345,8 @@
     }
    }
   ],
-  "created": 1793687905,
-  "id": "chatcmpl-1x7n5b49sxuapq3c53v67p",
+  "created": 1793701960,
+  "id": "chatcmpl-6682s16u6t5jg8ohsnjwd",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -363,12 +363,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 596,
+   "prompt_tokens": 578,
    "prompt_tokens_details": null,
-   "total_tokens": 611
+   "total_tokens": 593
   }
  },
- "cc881f04c7b65f8310dc2483c13e03b8892028b760bef1e892df70298b59059d": {
+ "d5ca390cbc86bfbb23205fb646f019519f67f0e27183b134304e66cc418f5d91": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -386,8 +386,8 @@
     }
    }
   ],
-  "created": 1793687903,
-  "id": "chatcmpl-5sv4mz352tm4xx9hqmtx5p",
+  "created": 1793701961,
+  "id": "chatcmpl-o6393ipj7ws0qp6kne1c73",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -404,12 +404,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 577,
+   "prompt_tokens": 573,
    "prompt_tokens_details": null,
-   "total_tokens": 592
+   "total_tokens": 588
   }
  },
- "d1761c884e56cd400ae1b8e580df6510eb1395e2b1625dc3e75de949f9f28750": {
+ "d9c56064bffb584a5ca19952278d0a697f7150634a32648cbed7f4d67cdd8eae": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -418,7 +418,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "content": "{\"0\": {\"original\": \"The national party is insolvent without state-level organizations.\", \"rephrased\": \"As the administrator of the revived United States Pirate Party, the leadership asserts that the national organization faces immediate financial insolvency unless it successfully cultivates and establishes independent political parties at the state level across the country. This structural dependency is presented as a critical prerequisite for the movement's long-term survival and operational viability.\", \"summary\": \"The revived US Pirate Party must build state-level organizations to avoid national financial insolvency.\"}, \"1\": {\"original\": \"We are dedicated to protecting privacy, freedom of information, reforming patent\", \"rephrased\": \"The leadership of the United States Pirate Party declares a core commitment to advancing a specific political platform that prioritizes the protection of citizen privacy, guarantees freedom of information, and demands comprehensive reforms to the patent and copyright systems. These goals are framed as essential measures to correct perceived injustices within the current intellectual property and surveillance frameworks.\", \"summary\": \"The US Pirate Party advocates for privacy, information freedom, and IP reform as core goals.\"}, \"2\": {\"original\": \"President Obama has failed to deliver on transparency, evidenced by hidden ACTA\", \"rephrased\": \"The administration of President Obama is criticized for failing to uphold necessary government transparency, a shortcoming highlighted by the secret negotiation of the Anti-Counterfeiting Trade Agreement, the concealment of torture techniques, and the restricted public access to details regarding health care reform legislation. This lack of openness is cited as evidence that the executive branch has not fulfilled its obligation to operate in the light of day.\", \"summary\": \"The Obama administration is accused of failing to provide government transparency.\"}, \"3\": {\"original\": \"Current privacy safeguards are ineffective and unnecessarily invade the rights\", \"rephrased\": \"Existing government strategies for protecting privacy are deemed ineffective because they rely on invasive measures that disproportionately harm law-abiding citizens rather than addressing the root causes of crime. The argument posits that current security approaches prioritize potential threats over civil liberties, necessitating a shift toward more effective crime reduction methods that do not require sacrificing individual privacy rights.\", \"summary\": \"Current privacy safeguards are criticized for being ineffective and overly invasive.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -427,8 +427,8 @@
     }
    }
   ],
-  "created": 1793687906,
-  "id": "chatcmpl-metyjkhr5ib46moktuo5",
+  "created": 1793701940,
+  "id": "chatcmpl-mvqm5o0hpcc7c0ebvgsz",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -437,7 +437,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 457,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -445,53 +445,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 594,
+   "prompt_tokens": 2332,
    "prompt_tokens_details": null,
-   "total_tokens": 609
+   "total_tokens": 2789
   }
  },
- "d7783712523990b9eeafbeafc53955627099666e0a67244a0f22f83a1f00d8c2": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"The national party is insolvent without state-level organizations.\", \"rephrased\": \"The revived United States Pirate Party must cultivate state-level organizations across the country, as the national entity currently lacks the financial resources to operate independently. Without establishing these local chapters, the party faces immediate insolvency, making grassroots development a prerequisite for national survival.\", \"summary\": \"State-level organizations are essential for the financial survival of the revived US Pirate Party.\"}, \"1\": {\"original\": \"We are dedicated to protecting privacy, freedom of information, and ensuring政府透明\", \"rephrased\": \"The revived United States Pirate Party is dedicated to protecting citizens' rights to privacy and freedom of information while ensuring government transparency. These core values form the foundation of the party's platform, aiming to challenge the status quo by demanding open governance and robust digital liberties for all Americans.\", \"summary\": \"The revived US Pirate Party prioritizes privacy, information freedom, and government transparency as its core goals.\"}, \"2\": {\"original\": \"President Obama has proven hope for transparency ill-placed, as ACTA is hidden\", \"rephrased\": \"The administration's record on government transparency has been deeply disappointing, with critical documents like the Anti-Counterfeiting Trade Agreement (ACTA) hidden from public view and major legislation withheld from required disclosure periods. This failure to provide the promised openness demonstrates that hope for a transparent government under current leadership is misplaced.\", \"summary\": \"The current administration's failure to disclose key documents proves that hope for government transparency is misplaced.\"}, \"3\": {\"original\": \"Current privacy safeguards are ineffective and invade the rights of law-abiding\", \"rephrased\": \"Existing privacy safeguards are fundamentally flawed because they often rely on invasive surveillance methods that disproportionately harm law-abiding citizens. Rather than protecting individual rights, these measures effectively treat the general public as potential criminals, necessitating a shift toward more effective, non-invasive strategies for reducing crime.\", \"summary\": \"Current privacy safeguards are ineffective because they rely on invasive surveillance that harms law-abiding citizens.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687887,
-  "id": "chatcmpl-l5w8a1e4ygh7vhse45wtqe",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 429,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2324,
-   "prompt_tokens_details": null,
-   "total_tokens": 2753
-  }
- },
- "fdc3e79553c73f70268be0c392a41ae457f058c22beb651e3ee1bb223a73c52f": {
+ "e07f611b442ecbdb1be9ab08df73b4ba3daa426392e432e69f237c2c6e819724": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -509,8 +468,90 @@
     }
    }
   ],
-  "created": 1793687904,
-  "id": "chatcmpl-hlkolqxjkg1cb4mserq22",
+  "created": 1793701961,
+  "id": "chatcmpl-xw9mzaw4p5b314rqis3kim",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 573,
+   "prompt_tokens_details": null,
+   "total_tokens": 588
+  }
+ },
+ "e5c84eb9ebb70975c392580f33e27b760352d7ab9f184998c22fc41eee9956fd": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"uncertain\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701963,
+  "id": "chatcmpl-4vus8fkxbdt00le9tno1y47q",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 16,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 599,
+   "prompt_tokens_details": null,
+   "total_tokens": 615
+  }
+ },
+ "f6f3b619cea875a21e5470a4c19698ad837a667bdc7fff29945a8d30654b882f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701960,
+  "id": "chatcmpl-di9zhne3j1qymd7zlqfxl",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,

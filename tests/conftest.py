@@ -52,7 +52,7 @@ def resources():
 
 @pytest.fixture(scope="session")
 def run_article(articles, resources):
-    """Run the pipeline on a test article, once per session, so that several tests can use its output."""
+    """Run Karaage on a test article, once per session, so that several tests can use its output."""
     results = {}
 
     def run(article_id):

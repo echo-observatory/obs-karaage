@@ -1,5 +1,5 @@
 {
- "0585f66f645e4ff6c7b7465beeb8c3c419f878e77f6b589a8fee5a95520f3429": {
+ "0e16c03fa5a0b63e99f98376896e371839f057fc7817901eb1e8109d9d1e33e0": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -8,7 +8,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"Fredrik de Wahl\": [\"We've married that consumer desire with the industry's interests.\"]}",
+     "content": "{\"rephrased_statement\": \"New online streaming services offer less high-quality content than traditional cable and satellite providers. Consequently, viewers have to choose between greater convenience and lower picture clarity.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -17,8 +17,8 @@
     }
    }
   ],
-  "created": 1793687511,
-  "id": "chatcmpl-ci71vfp286x5yk4qjihk9",
+  "created": 1793701562,
+  "id": "chatcmpl-eria47ro0bpw18iolq06t",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -27,7 +27,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 21,
+   "completion_tokens": 40,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -35,132 +35,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 805,
+   "prompt_tokens": 197,
    "prompt_tokens_details": null,
-   "total_tokens": 826
-  }
- },
- "0590157debdbc5019932df1f5b0ee302bb68156a5c925cbef8863b6bcee1c4ee": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"This web broadcaster allows users to choose free online television shows. The service handles the content deals and serves as a portal to the programs, offering a fresh way for viewers to access them.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687542,
-  "id": "chatcmpl-k7xai8u0ydqvne9fn0ytz",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 47,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 194,
-   "prompt_tokens_details": null,
-   "total_tokens": 241
-  }
- },
- "0d90720c0ef15f37ca3c3df062542559715fbe7380032abdd28326acf8a52878": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"established subscription cable and satellite distribution channels\": [\"content is not the highest quality broadcasted TV programming currently available through established subscription cable and satellite distribution channels\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687512,
-  "id": "chatcmpl-prkqo14ik59hprx56jx1n",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 33,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 780,
-   "prompt_tokens_details": null,
-   "total_tokens": 813
-  }
- },
- "1134285d5eaa37571e68a09bf51869f01e918859abc0cd7d294669e517b45135": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687545,
-  "id": "chatcmpl-ydrknrz6cbj1152t4o4780l",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 220,
-   "prompt_tokens_details": null,
-   "total_tokens": 235
+   "total_tokens": 237
   }
  },
  "1636ba2a7d48b4cd1e529a3232d852409ee3e787290baa1400af60a34c0a4e2e": {
@@ -181,8 +58,8 @@
     }
    }
   ],
-  "created": 1793687487,
-  "id": "chatcmpl-r9no48705xnmqig4yq2mpf",
+  "created": 1793701509,
+  "id": "chatcmpl-5tyi219diqq881drzajxis",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -204,499 +81,7 @@
    "total_tokens": 2436
   }
  },
- "16e24c9452bdff30064c6559f7dc25ea320507f17e435caa9ab5172ba5ee6c22": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"This new web broadcasting approach allows an intermediary to bargain with media conglomerates and handle a stream of content that has not yet been watched.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687541,
-  "id": "chatcmpl-8t9bx46l4hetywy4tpjuss",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 37,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 186,
-   "prompt_tokens_details": null,
-   "total_tokens": 223
-  }
- },
- "1d425c41172decb9a64cbe7fa9f4e999cc0ca6b340d0e127c164e90519410d6a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687545,
-  "id": "chatcmpl-j2ztt0xeo4lmebs8e85gm",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 254,
-   "prompt_tokens_details": null,
-   "total_tokens": 269
-  }
- },
- "1ec820e422a555ba050fb3672867364de08cf43ff5b945f0eec25f0c0b9a79f2": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"Media distribution has undergone a permanent change toward online peer-to-peer connectivity.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687534,
-  "id": "chatcmpl-owum5vi55ybzelg4y5exkc",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 24,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 171,
-   "prompt_tokens_details": null,
-   "total_tokens": 195
-  }
- },
- "2376e5651ea6a9b266c13a55a896985a308abdfc834fbe511e7d1dc841886ce9": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687544,
-  "id": "chatcmpl-hp6q50uzed64w6wduppfq6",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 317,
-   "prompt_tokens_details": null,
-   "total_tokens": 332
-  }
- },
- "275a5414b972a5d4519346533a457b336467ff970127ffe21ed1d4328a001644": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"Joost's deal with Warner Brothers positions it as the leading aggregator in the \", \"rephrased\": \"The startup web broadcaster Joost has signed a deal with Warner Brothers to host content, a move that establishes the company as a primary aggregator in the developing online television sector by bridging the gap between viewer demand for flexibility and media companies' need for content control.\", \"summary\": \"Joost's partnership with Warner Brothers establishes it as a key aggregator in online TV.\"}, \"1\": {\"original\": \"Users can interact with programming via widgets like clocks, IM, and chat rooms,\", \"rephrased\": \"Viewers of the online television service can interact with programming through integrated widgets such as clocks, instant messaging, news feeds, and chat rooms, while retaining the ability to disable these features if they prefer a standard viewing experience.\", \"summary\": \"Users can interact with online TV programming via customizable widgets.\"}, \"2\": {\"original\": \"Online broadband peer-to-peer connectivity is here to stay after a nasty birth.\", \"rephrased\": \"Despite initial controversies and legal challenges, online broadband peer-to-peer connectivity represents a permanent shift in media distribution that will continue to evolve and reshape how content is delivered to consumers globally.\", \"summary\": \"Online peer-to-peer connectivity is an irreversible shift in media distribution.\"}, \"3\": {\"original\": \"We've married that consumer desire with the industry's interests.\", \"rephrased\": \"The leadership of the startup web broadcaster Joost asserts that the service successfully combines the consumer desire for flexible, on-demand viewing with the entertainment industry's requirement to retain control over their intellectual property, creating a viable business model for the future of online television.\", \"summary\": \"Joost's leadership claims to balance consumer flexibility with industry content control.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687516,
-  "id": "chatcmpl-gbywf5ohds68azge8ewk6s",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 376,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2391,
-   "prompt_tokens_details": null,
-   "total_tokens": 2767
-  }
- },
- "2c7bc8beeeb5d66955da5004aaa68fb82d916d2d2c0d04733ccd345cf2d3a75c": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"While established subscription cable and satellite distribution channels provide the highest quality programming, the new online TV platform does not.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687536,
-  "id": "chatcmpl-hqsqxyqemasj92tcghxpjf",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 32,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 234,
-   "prompt_tokens_details": null,
-   "total_tokens": 266
-  }
- },
- "3ac1145b73ff28da20a08adbd8fd6b8b1c905fd12a84a1d1cf482f77feab347e": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"This web broadcaster allows users to choose free online television shows based on content deals the service has made.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687543,
-  "id": "chatcmpl-o2rlbxzpsafb32kfhviei",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 30,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 177,
-   "prompt_tokens_details": null,
-   "total_tokens": 207
-  }
- },
- "41c41eb4667ad06c78eb4963107af09db43cb6fa2ec8edf5a4934c34922bf7e4": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687548,
-  "id": "chatcmpl-m96df9o7c8eu027cm1sd5j",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 216,
-   "prompt_tokens_details": null,
-   "total_tokens": 231
-  }
- },
- "46b02542d7a78e5d2f67df304d30e64e919221b18cbe9f5de011194e15cb96e7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"Internet TV includes an 'on-demand' option that saves room in the distribution pipeline. This feature also sends data back to the aggregator, showing precisely which items are popular. As a result, it creates a better content distribution model than current systems.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687537,
-  "id": "chatcmpl-ibslj4keauhoyyms8qa83k",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 59,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 199,
-   "prompt_tokens_details": null,
-   "total_tokens": 258
-  }
- },
- "7e962014d44c0b2d3e7c2f47dd8919151d0001fd28324c9051b7e3b2bdd8b312": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Joost's deal with Warner Brothers positions it as the leading aggregator in the emerging online TV market.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687507,
-  "id": "chatcmpl-erovzq9atp7bldicxzhb3n",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 27,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 797,
-   "prompt_tokens_details": null,
-   "total_tokens": 824
-  }
- },
- "951cc491bfa60b4bb147eb1d5ef98b54394e96aa3103e811e59615598f0366e7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"users\": [\"Users can interact with programming via widgets like clocks, IM, and chat rooms, and can opt out of these features during viewing.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687509,
-  "id": "chatcmpl-33u4idlocdio6ji2z8564",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 32,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 860,
-   "prompt_tokens_details": null,
-   "total_tokens": 892
-  }
- },
- "997c40c08702d564037038f93874273c73cfa27adcff3e3f3162c01ddf0f5582": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"Internet TV includes an 'on-demand' option. This option saves room in the distribution pipeline. It also sends data back to the aggregator. This data shows exactly what content people want.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687538,
-  "id": "chatcmpl-p4k6bmbnfx3o38wdy5kod",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 47,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 188,
-   "prompt_tokens_details": null,
-   "total_tokens": 235
-  }
- },
- "acf8390485d37ff07a1ceb81b7aa846dbf9e59d48084921ad340064c81b25397": {
+ "1d1af1f79312463588932b44d8ff9bab65796d323dcd9c0e90f13c95186454ec": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -714,8 +99,8 @@
     }
    }
   ],
-  "created": 1793687547,
-  "id": "chatcmpl-pr0rbkh06bjp94fqahkods",
+  "created": 1793701569,
+  "id": "chatcmpl-uq8q7jnlbzotwcq8owqj1q",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -732,12 +117,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 223,
+   "prompt_tokens": 230,
    "prompt_tokens_details": null,
-   "total_tokens": 238
+   "total_tokens": 245
   }
  },
- "be2720dd0f846848a05ee36d44d9fbc5aefd6a2971f003235e552c036b4c8f7a": {
+ "28655ce826f551615c624ee6b0ee849a068eb71853184d493c675762fb853992": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -746,7 +131,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"It\": [\"It gives a middle-man leverage to negotiate with media conglomerates and manage a pipeline flooded with unviewed content, thereby conserving bandwidth.\", \"It lets viewers opt for free online TV programming through content arrangements made by the web broadcaster, who acts as a gateway to the programs.\"]}",
+     "content": "{\"base_author\": [\"Online broadband peer-to-peer connectivity is here to stay after a nasty birth.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -755,8 +140,8 @@
     }
    }
   ],
-  "created": 1793687515,
-  "id": "chatcmpl-6j2fpvnsualid4s24n9y5d",
+  "created": 1793701532,
+  "id": "chatcmpl-rqwtd41n40gi8asgjm2ts",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -765,7 +150,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 62,
+   "completion_tokens": 22,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -773,12 +158,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 776,
+   "prompt_tokens": 804,
    "prompt_tokens_details": null,
-   "total_tokens": 838
+   "total_tokens": 826
   }
  },
- "bf98ff53a928f0a5047c377e5e16153e09271b6206d79c02b80529fd69ff6775": {
+ "30e179b74481252cdacc0f071bf45af3739effb5b5ee8da1f84a9a518a5d7ddc": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -787,7 +172,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"Established subscription cable and satellite distribution channels offer the highest quality programming. The new online TV platform does not have this level of content.\"}",
+     "content": "{\"base_author\": [\"Joost's Warner Bros. deal positions it as the key aggregator in emerging online TV.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -796,8 +181,8 @@
     }
    }
   ],
-  "created": 1793687535,
-  "id": "chatcmpl-87hr7vpicdepabrc84n5tq",
+  "created": 1793701529,
+  "id": "chatcmpl-5ygigm8eca7iea55ga3soc",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -806,7 +191,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 37,
+   "completion_tokens": 25,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -814,9 +199,542 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 179,
+   "prompt_tokens": 794,
    "prompt_tokens_details": null,
-   "total_tokens": 216
+   "total_tokens": 819
+  }
+ },
+ "50cfd75367eeabf9d6d3067cdbe57e7db3869b414bac581a172829b4e001fbba": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"content is not the highest quality broadcasted TV programming currently offered\", \"rephrased\": \"The content available through the new web broadcaster does not match the highest quality programming currently provided by established subscription cable and satellite distribution channels, meaning users must weigh potential flexibility against a compromise in viewing fidelity.\", \"summary\": \"New web broadcaster content lacks the quality of established cable and satellite channels.\"}, \"5\": {\"original\": \"Frees up space in the distribution pipeline\", \"rephrased\": \"The on-demand feature of Internet TV frees up space in the distribution pipeline by delivering programming only when a user requests it, unlike traditional models that must reserve capacity for all content.\", \"summary\": \"On-demand Internet TV frees distribution capacity by delivering content only when requested.\"}, \"6\": {\"original\": \"Provides feedback to the aggregator to know exactly what is in demand\", \"rephrased\": \"The on-demand feature provides immediate feedback to content aggregators regarding exactly what programming is in demand, allowing for more efficient distribution compared to traditional models that rely on broad, untargeted scheduling.\", \"summary\": \"On-demand Internet TV gives aggregators precise data on viewer demand.\"}, \"7\": {\"original\": \"gives middle-man leverage to negotiate with media conglomerates\", \"rephrased\": \"The emerging online TV market gives middle-man web broadcasters the leverage to negotiate directly with media conglomerates, offering a new distribution model that combines consumer flexibility with industry content control.\", \"summary\": \"Online TV middle-men gain leverage to negotiate with media conglomerates.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701546,
+  "id": "chatcmpl-asel66jk09433mqwpbj5px",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 324,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1981,
+   "prompt_tokens_details": null,
+   "total_tokens": 2305
+  }
+ },
+ "740dcfb175805a38cc6ea56c37bb5191eeb46c7f2d225fa2d6d86a20cc1167b8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"users\": [\"Users can interact with programming via widgets like clocks, IM, and chat rooms, and can opt out of these features during viewing.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701530,
+  "id": "chatcmpl-idgei1twn7awk9n49g7mjh",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 32,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 857,
+   "prompt_tokens_details": null,
+   "total_tokens": 889
+  }
+ },
+ "7df64e7fe963800190448fc52e8da68344d9f3f00d346e8e0acb620743d62e38": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701567,
+  "id": "chatcmpl-nfyie6e3nkbi4ngir668",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 252,
+   "prompt_tokens_details": null,
+   "total_tokens": 267
+  }
+ },
+ "8402fd2a2a0075ba1cca7f156411357226908bdbf331456441c575315cc9aeac": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"It\": [\"gives middle-man leverage to negotiate with media conglomerates\", \"manages pipeline flooded with unviewed content to conserve bandwidth\", \"lets viewers opt for free online TV programming via web broadcaster arrangements\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701536,
+  "id": "chatcmpl-wxsoyhr0fmcgr8wqgd1c6m",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 45,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 773,
+   "prompt_tokens_details": null,
+   "total_tokens": 818
+  }
+ },
+ "85c47401f1d152a2070a00edd217dae17609140fc914134da54ace1ea0a290a1": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"established subscription cable and satellite distribution channels\": [\"content is not the highest quality broadcasted TV programming currently available through established subscription cable and satellite distribution channels\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701534,
+  "id": "chatcmpl-bevgoj40qdg541n2w7yf9b",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 33,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 777,
+   "prompt_tokens_details": null,
+   "total_tokens": 810
+  }
+ },
+ "8a39ef9560cdf36d29113ced9e4c8904bffc38e1300ffcbd9f2224d96610686e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701567,
+  "id": "chatcmpl-0lpaf5ecq8tlec4tq76eoo6",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 200,
+   "prompt_tokens_details": null,
+   "total_tokens": 215
+  }
+ },
+ "98c619276f43ac43687d26fd9b3b1a220283fbf07fcd5ab4bb031d24617ca480": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The shift to online peer-to-peer connectivity is permanent.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701561,
+  "id": "chatcmpl-yeibwd3hmfdjyw948htvs",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 21,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 210,
+   "prompt_tokens_details": null,
+   "total_tokens": 231
+  }
+ },
+ "99e389d53564a428d84a28da9e9118684cdcb90ac56b94122fcdb02624727a5b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701571,
+  "id": "chatcmpl-04ct460dfqlzq91nf1n0v29",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 221,
+   "prompt_tokens_details": null,
+   "total_tokens": 236
+  }
+ },
+ "9a75296d669fa5aed855bd12327f4a9787792d2b793424a5d3cadd9060c8beb8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701568,
+  "id": "chatcmpl-1wtw7gqhamei7hp13py4nng",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 220,
+   "prompt_tokens_details": null,
+   "total_tokens": 235
+  }
+ },
+ "9d308406f866ef66dffa2d9156f2e045d95d2d2a4bede5b5885b7b4c7f5d3e1e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Fredrik de Wahl\": [\"We've married that consumer desire with the industry's interests.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701533,
+  "id": "chatcmpl-3sc0yg5n7xl720vnajy48j",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 21,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 802,
+   "prompt_tokens_details": null,
+   "total_tokens": 823
+  }
+ },
+ "aa226972200358df3907c335b08e256c887d19ca27327eb1a939e3bd0c750dba": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The move toward online peer-to-peer connectivity cannot be undone.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701560,
+  "id": "chatcmpl-2pwr707ffjsal7ubakgwkg",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 22,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 169,
+   "prompt_tokens_details": null,
+   "total_tokens": 191
+  }
+ },
+ "cbd58360da8c04a66e5bc26e6445466f54cdc2c348cd1537c7588fc5d6501e68": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701569,
+  "id": "chatcmpl-agahhlqnwqtvofuihhd0g",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 229,
+   "prompt_tokens_details": null,
+   "total_tokens": 244
+  }
+ },
+ "cd17b5403d919de1775b7c44515e6d3b96fe9df62f4b321ce9c51815f9b36ee7": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701570,
+  "id": "chatcmpl-2klakc4ixakobj2sdymwe",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 219,
+   "prompt_tokens_details": null,
+   "total_tokens": 234
   }
  },
  "cefe316330d887aa1cc4ce3be7f83bb5320d0a20cb5a9929e44bdd9a10e0ad37": {
@@ -837,8 +755,8 @@
     }
    }
   ],
-  "created": 1793687506,
-  "id": "chatcmpl-23368tcnrwidv5bkuwfuo",
+  "created": 1793701528,
+  "id": "chatcmpl-0sohc8tp8ddas4q4bn1v7pe",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -860,7 +778,7 @@
    "total_tokens": 1293
   }
  },
- "d73f4979807f4f9a8e65a6db3e2f1927c0ab62c5141f74b02af63cb64262753a": {
+ "d1ef8bf11732b02aa331d914067cbf3f7ea50c20b2e314d130ca720fcfc3fdc6": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -869,7 +787,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"The 'on-demand' feature\": [\"Frees up space in the distribution pipeline and provides feedback to the aggregator to know exactly what is in demand.\"]}",
+     "content": "{\"The 'on-demand' feature\": [\"Frees up space in the distribution pipeline\", \"Provides feedback to the aggregator to know exactly what is in demand\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -878,8 +796,8 @@
     }
    }
   ],
-  "created": 1793687514,
-  "id": "chatcmpl-9fvdcch7u4zjwwa7mb2zh",
+  "created": 1793701535,
+  "id": "chatcmpl-k7fnwpdln0dcy0brt0dq7q",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -896,94 +814,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 772,
+   "prompt_tokens": 769,
    "prompt_tokens_details": null,
-   "total_tokens": 805
+   "total_tokens": 802
   }
  },
- "de91b5cd6d58b53f03bf43ea04113de0bed292713008a7f8ba4eaab020cdd79f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Online broadband peer-to-peer connectivity is here to stay after a nasty birth.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687510,
-  "id": "chatcmpl-k3dhqa418xcv643xw4n5s",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 22,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 807,
-   "prompt_tokens_details": null,
-   "total_tokens": 829
-  }
- },
- "e3f008b9ff7edf0df138bbddf2c44ac7e2dd0743d228c7e5b453a20ae8b213be": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687546,
-  "id": "chatcmpl-qatn59db7yvjfudkkzkr",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 213,
-   "prompt_tokens_details": null,
-   "total_tokens": 228
-  }
- },
- "f011d3e59ba7c50a5a10590b461dee23b5f1d7b549c645f05228a538f901fbb5": {
+ "d54bd1ced6bf134eed675e7785615fae86a7d3e5e2bee22ccb72406e2bbcb4dd": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1001,8 +837,8 @@
     }
    }
   ],
-  "created": 1793687510,
-  "id": "chatcmpl-jv3d3z2nxv8r4kso5yfwec",
+  "created": 1793701532,
+  "id": "chatcmpl-032lrqh1jkuowksvio8uju",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1019,12 +855,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 804,
+   "prompt_tokens": 801,
    "prompt_tokens_details": null,
-   "total_tokens": 810
+   "total_tokens": 807
   }
  },
- "f1ab657c93f1e37ab7549ed54b1d6ba9dc5a14e96cf2bba02f427498d3588a40": {
+ "d6666ab7a9d3a3b0f1146ce0beda24d1e30900c2c3ff4fe721fbb74e8115fcf3": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1033,7 +869,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "content": "{\"rephrased_statement\": \"Unlike traditional models that reserve capacity for all content, Internet TV's on-demand feature saves space in the distribution pipeline by delivering programming only when a user requests it.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1042,8 +878,8 @@
     }
    }
   ],
-  "created": 1793687546,
-  "id": "chatcmpl-tywlz84nzm7ikt40qp359",
+  "created": 1793701564,
+  "id": "chatcmpl-qfmujwzfvzmdy2mqcv9rhs",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1052,7 +888,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 42,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1060,12 +896,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 253,
+   "prompt_tokens": 262,
    "prompt_tokens_details": null,
-   "total_tokens": 268
+   "total_tokens": 304
   }
  },
- "f223d9d9775da6630bc23c57e9c9b6694381025510bbe9ec2f019e17ed4f213a": {
+ "d7194347fd4ada5cc8e65c19a63ca2b96b48ebf7627e98487033e825f30821b1": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1074,7 +910,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"This new web broadcaster model allows a middle-man to negotiate with media conglomerates and handle a stream of content that has not been watched, which helps save network bandwidth.\"}",
+     "content": "{\"8\": {\"original\": \"manages pipeline flooded with unviewed content to conserve bandwidth\", \"rephrased\": \"The emerging online TV model, which relies on peer-to-peer networking to distribute content efficiently, allows the system to manage a pipeline flooded with unviewed content in order to conserve bandwidth for users. This approach contrasts with traditional distribution methods by prioritizing the delivery of only the specific programming that viewers actively request, thereby reducing the overall strain on internet infrastructure while still providing access to a wide range of media.\", \"summary\": \"The online TV model conserves bandwidth by managing unviewed content through efficient, on-demand peer-to-peer distribution.\"}, \"9\": {\"original\": \"lets viewers opt for free online TV programming via web broadcaster arrangements\", \"rephrased\": \"The new web broadcaster model enables viewers to access free online television programming by utilizing content arrangements negotiated with media conglomerates, offering an alternative to paid cable or satellite subscriptions. This service functions as a gateway that leverages the flexibility of internet distribution to provide on-demand access to programs, although it operates within a framework where users must still rely on the availability of content provided by these industry partners rather than accessing a completely ad-free environment.\", \"summary\": \"The web broadcaster model offers free online TV by leveraging content deals with media companies, providing a flexible alternative to traditional paid subscriptions.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1083,8 +919,8 @@
     }
    }
   ],
-  "created": 1793687539,
-  "id": "chatcmpl-alccebjuk7unoobkoxj9jl",
+  "created": 1793701554,
+  "id": "chatcmpl-amdqjur0vxn87g95focl47",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1093,7 +929,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 43,
+   "completion_tokens": 280,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1101,12 +937,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 194,
+   "prompt_tokens": 1680,
    "prompt_tokens_details": null,
-   "total_tokens": 237
+   "total_tokens": 1960
   }
  },
- "f38438b814de6ea6ce4635addeef2737bbaba7f076be85d128a57141249411e9": {
+ "db7ed24d4fe8a8eec2fb3243bea43930de80cbf1306a97395456c4b67367c4d9": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1115,7 +951,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"4\": {\"original\": \"content is not the highest quality broadcasted TV programming currently offered\", \"rephrased\": \"The new online TV platform currently lacks the highest quality programming available through established subscription cable and satellite distribution channels, meaning early users must accept a trade-off between the convenience of web-based viewing and superior broadcast fidelity.\", \"summary\": \"The new online TV platform currently lacks the highest quality programming available through established subscription cable and satellite distribution channels.\"}, \"5\": {\"original\": \"Frees up space in the distribution pipeline and provides feedback to the\", \"rephrased\": \"The 'on-demand' feature of Internet TV frees up space in the distribution pipeline and provides feedback to the aggregator to know exactly what is in demand, offering a more efficient content distribution model than existing systems.\", \"summary\": \"The 'on-demand' feature of Internet TV frees up space in the distribution pipeline and provides feedback to the aggregator to know exactly what is in demand.\"}, \"6\": {\"original\": \"It gives a middle-man leverage to negotiate with media conglomerates and\", \"rephrased\": \"This emerging web broadcaster model gives a middle-man the leverage to negotiate with media conglomerates and manage a pipeline flooded with unviewed content, thereby conserving bandwidth for the network.\", \"summary\": \"This emerging web broadcaster model gives a middle-man the leverage to negotiate with media conglomerates and manage a pipeline flooded with unviewed content.\"}, \"7\": {\"original\": \"It lets viewers opt for free online TV programming through content\", \"rephrased\": \"This web broadcaster lets viewers opt for free online TV programming through content arrangements made by the service, which acts as a gateway to the programs, creating a new access point for audiences.\", \"summary\": \"This web broadcaster lets viewers opt for free online TV programming through content arrangements made by the service.\"}}",
+     "content": "{\"0\": {\"original\": \"Joost's Warner Bros. deal positions it as the key aggregator in emerging online.\", \"rephrased\": \"The startup web broadcaster Joost has signed a deal with Warner Brothers to host content, a strategic move that establishes the platform as a primary aggregator in the developing online television sector by aligning viewer demand for flexibility with industry requirements for content control.\", \"summary\": \"Joost's partnership with Warner Brothers establishes it as a key aggregator in online TV.\"}, \"1\": {\"original\": \"Users can interact with programming via widgets like clocks, IM, and chat rooms,\", \"rephrased\": \"Viewers of the online television service can interact with programming through integrated widgets such as clocks, instant messaging, news feeds, and chat rooms, while retaining the ability to disable these features during viewing sessions.\", \"summary\": \"Users can interact with online TV programming via customizable widgets.\"}, \"2\": {\"original\": \"Online broadband peer-to-peer connectivity is here to stay after a nasty birth.\", \"rephrased\": \"Despite initial controversies regarding copyright infringement, online broadband peer-to-peer connectivity represents an irreversible technological shift that will remain a permanent fixture of the digital landscape.\", \"summary\": \"Online peer-to-peer connectivity is an irreversible technological shift.\"}, \"3\": {\"original\": \"We've married that consumer desire with the industry's interests.\", \"rephrased\": \"The leadership of the startup web broadcaster Joost asserts that the platform successfully combines consumer demand for flexible viewing with the entertainment industry's need to retain control over their content, effectively resolving a key conflict in the online television market.\", \"summary\": \"Joost's leadership claims to balance consumer flexibility with industry content control.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1124,8 +960,8 @@
     }
    }
   ],
-  "created": 1793687525,
-  "id": "chatcmpl-x1bllfuyktkc098y1mv9rg",
+  "created": 1793701538,
+  "id": "chatcmpl-libz9odju7fxu5lmxlcb8",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1134,7 +970,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 382,
+   "completion_tokens": 354,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1142,12 +978,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2022,
+   "prompt_tokens": 2387,
    "prompt_tokens_details": null,
-   "total_tokens": 2404
+   "total_tokens": 2741
   }
  },
- "f501f3e1bd345e9ff98f3fad19db6ef3976f8c3364b8b38be25efd9cb7abe1c9": {
+ "e0a9c04e5e1fdfc64cf9d687e20f6f1974d0262982b49f3f153efbce11319fa0": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1165,8 +1001,172 @@
     }
    }
   ],
-  "created": 1793687545,
-  "id": "chatcmpl-hlgbka9y31izpjifu0fws",
+  "created": 1793701566,
+  "id": "chatcmpl-ht4tt7kfb7l13wfa47oe5o",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 317,
+   "prompt_tokens_details": null,
+   "total_tokens": 332
+  }
+ },
+ "e1031e9fc8d82a710dd497c184bd9c4ce6e183946200ece23211770df531cea3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Internet TV uses an on-demand feature that saves space in the distribution pipeline. It sends programming only when a user asks for it. Traditional models must keep capacity ready for all content, which is different.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701563,
+  "id": "chatcmpl-ebcugbev76bwr2nc48xdd",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 50,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 193,
+   "prompt_tokens_details": null,
+   "total_tokens": 243
+  }
+ },
+ "f90438666389c2b2506a31f779b4d8860b744454feae9fea2fc0b1cf863c7227": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701570,
+  "id": "chatcmpl-pk2ox8qvtdqj9qq7269pi",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 209,
+   "prompt_tokens_details": null,
+   "total_tokens": 224
+  }
+ },
+ "fd70de77493297eadec2c549c4fdea4dd14e2245fe0bc39919722f2fc47e7376": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Online television intermediaries hold more power when talking to media groups.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701566,
+  "id": "chatcmpl-y2rbtl4m1h7osflir7vcy",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 23,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 171,
+   "prompt_tokens_details": null,
+   "total_tokens": 194
+  }
+ },
+ "ff775efd147baefcfb0d13b2ae93cec68b43f25b25578d50d9f80954ad9b1bfb": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701568,
+  "id": "chatcmpl-q40i59lg4sj5efiqmtb5m",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,

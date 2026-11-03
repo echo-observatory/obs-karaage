@@ -22,10 +22,10 @@ def load_nlp_pipeline() -> spacy.Language:
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# FOUR-LAYER SEGMENTATION PIPELINE
+# SEGMENTATION IN FOUR LAYERS
 #
 # Goal: split text into segments fine enough that each one can be labelled
-# with a single "source" (narrator, named speaker, etc.), while preserving
+# with a single actor (the narrator, a named person, etc.), while preserving
 # every character so that concatenating all segments reconstructs the original
 # text exactly.
 #
@@ -247,7 +247,7 @@ def discourse_split(text, forced_boundaries):
 # Running benepar per-sentence also avoids a Python 3.14 retokenizer bug
 # that fires when benepar processes multi-sentence input (the retokenizer
 # exhausts its offset iterator before the last word and raises AssertionError).
-# Sentences where benepar still fails are returned unsplit; any speaker
+# Sentences where benepar still fails are returned unsplit; any actor
 # change within them will be missed downstream.
 #
 # Trailing-punctuation absorption
@@ -356,7 +356,7 @@ def extract_clauses(segment, nlp, failures=None):
     Two passes are made:
       1. spaCy alone (benepar disabled) detects sentence boundaries.
       2. benepar is run on each sentence individually to find clause splits.
-         Sentences where benepar fails are returned unsplit; any speaker
+         Sentences where benepar fails are returned unsplit; any actor
          change within them will be missed downstream.
 
     `segment` — dict {'text', 'start', 'end'} from Layer 1.
@@ -410,7 +410,7 @@ def extract_clauses(segment, nlp, failures=None):
         except (AssertionError, ValueError, StopIteration):
             # benepar fails on some sentences: AssertionError (tokenizer offset
             # mismatch), ValueError (more than 512 sub-word tokens), StopIteration
-            # (no sentence returned). Return this sentence unsplit; any speaker
+            # (no sentence returned). Return this sentence unsplit; any actor
             # change inside it will be missed downstream.
             if failures is not None:
                 failures.append({"text": sent_text, "start": sent_base, "end": sent_base + len(sent_text)})
@@ -679,7 +679,7 @@ def segment_text(text, nlp, coarse, failures=None):
 
 def step_1_segment(text, nlp):
     """
-    Run the full segmentation pipeline and return (segments, html_content).
+    Run the four segmentation layers and return (segments, html_content).
 
     Layers 0+1 (forced-boundary detection and discourse split) are computed
     here and passed to segment_text, which handles layers 2+3.
@@ -708,7 +708,7 @@ def step_1_segment(text, nlp):
 
 def segmentation_monitoring_html(segments: list) -> str:
     method_description = (
-        "The text is split into fine-grained segments using a four-layer pipeline. "
+        "The text is split into fine-grained segments in four layers. "
         "<ul><li><b>Layer 0</b> detects section headings that were merged into body prose during HTML scraping "
         "and forces a boundary before the following sentence. </li>"
         "<li><b>Layer 1</b> splits at discourse-level boundaries: colons that introduce direct quotations "
@@ -716,7 +716,7 @@ def segmentation_monitoring_html(segments: list) -> str:
         "<li><b>Layer 2</b> applies a two-pass strategy per coarse segment: first spaCy’s dependency "
         "parser (without benepar) detects sentence boundaries; then benepar runs on each sentence "
         "individually to split further at syntactic clause boundaries—the S, SBAR, SINV, and SQ nodes "
-        "directly beneath the sentence root—which mark where the attributed speaker can change "
+        "directly beneath the sentence root—which mark where the attributed actor can change "
         "mid-sentence. This design aims to mitigate issues when Benepar fails occasionally.</li>"
         "<li><b>Layer 3</b> absorbs any stray micro-fragments (≤2 chars, e.g. lone commas or quotes) "
         "into their neighbours. </li>"

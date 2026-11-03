@@ -1,5 +1,5 @@
 {
- "01c0bd2aaf52e436c4ea2b2af0a0e2baf7a0cfa00087af66f25259f54394ce27": {
+ "0bb172e7863d308e2ca5c7e3ccbcee64f848dfdd9c5b91ce1de55cc1ac0a16f8": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -8,7 +8,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"Alex Jacob\": [\"It's early days for apps in the music business, but we are seeing labels and artists experimenting with it.\"]}",
+     "content": "{\"Mark Mulligan\": [\"Digital downloads should show hockey-stick growth as a CD replacement, but are currently acting like a niche technology.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -17,1238 +17,8 @@
     }
    }
   ],
-  "created": 1793687982,
-  "id": "chatcmpl-my0lfbxyt0psrfjm084csf",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 29,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 804,
-   "prompt_tokens_details": null,
-   "total_tokens": 833
-  }
- },
- "1457112e8df6045f991d7fae81f80fb0ffd0a7c1529d1d1b5998cdcddf215f9a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Apple\": [\"released quarterly sales figures showing only 9m iPods sold in the quarter to June\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687966,
-  "id": "chatcmpl-igmexwz3dlcaw50so6ihnb",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 23,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 728,
-   "prompt_tokens_details": null,
-   "total_tokens": 751
-  }
- },
- "14b3e98d602a5c187338f962db8f7a1f55ec0034ae49462fd8132317f4c3e14e": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Trent Reznor\": [\"Nine Inch Nails released their first app in April 2009.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687981,
-  "id": "chatcmpl-nvac6qg4a43us7r339k5q",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 26,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 866,
-   "prompt_tokens_details": null,
-   "total_tokens": 892
-  }
- },
- "1e20851aaa576be9030c46f689f73e319fc2f5d02ace5bb86b345d5c16fc5451": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Mark Mulligan\": [\"Music on mobile devices currently fails to leverage the strengths of the iPhone or iPad, as the quality of apps does not match that of a standalone track.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687978,
-  "id": "chatcmpl-7xuk9ig40usz1zdpwh0o9g",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 38,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1181,
-   "prompt_tokens_details": null,
-   "total_tokens": 1219
-  }
- },
- "239048bc5dff009492ac0ca7ab38208ee6a7cd5110e4df0c592b10d92a2248c6": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"Charles Arthur cautions that the rise in digital music purchases is matching the growth of Apple hardware alone. This trend implies that buyers might stop purchasing digital tracks in the near future.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688028,
-  "id": "chatcmpl-8bu388sdpb4e72ukk6g6db",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 45,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 185,
-   "prompt_tokens_details": null,
-   "total_tokens": 230
-  }
- },
- "2475fb1dc843645a2fcf23798bfa3ad90cedef33fe9ac79b652bf8ae922257f9": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Charles Arthur\": [\"As iPod sales slow, digital music sales, which have been yoked to the device, are likely to slow too.\"], \"Alex Jacob\": [\"Across the board, in terms of growth, digital isn't making up for the fall in CD sales, though it is in certain countries, including the UK.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687973,
-  "id": "chatcmpl-d8t0ye2vqbf62m0wz1qjvi",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 69,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 824,
-   "prompt_tokens_details": null,
-   "total_tokens": 893
-  }
- },
- "2543ff93e3bfe12e3c878a1f40b06a1362ca492667410618fb759b7c53fcc0d0": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"released quarterly sales figures showing only 9m iPods sold in the quarter to\", \"rephrased\": \"Apple released quarterly sales data indicating that 9 million iPods were sold in the quarter ending June, a figure that marks a significant drop in performance for the device.\", \"summary\": \"Apple reported a sharp decline in iPod sales to 9 million units for the quarter ending June.\"}, \"1\": {\"original\": \"iPod sales hit a 2006 low at 9m, signaling device decline, though Apple remains\", \"rephrased\": \"While iPod sales have fallen to their lowest level since 2006, indicating a decline in the standalone music player market, Apple's overall business remains secure due to strong sales of the iPhone and iPad.\", \"summary\": \"The author notes that while iPod sales have hit a historic low, Apple's broader business remains robust thanks to the iPhone and iPad.\"}, \"2\": {\"original\": \"decline in MP3 player sales is a problem for record companies\", \"rephrased\": \"The decline in sales of standalone MP3 players presents a significant challenge for record companies, as the drop in physical CD revenue has not been fully offset by the growth in digital music downloads.\", \"summary\": \"Charles Arthur argues that the falling sales of MP3 players pose a serious problem for record labels because digital downloads are not replacing CD revenue fast enough.\"}, \"3\": {\"original\": \"digital music sales growth matches Apple device growth\", \"rephrased\": \"Because the growth rate of digital music sales mirrors the growth of Apple's hardware devices, the music industry risks losing consumer interest in purchasing songs from digital stores as standalone players become obsolete.\", \"summary\": \"Charles Arthur warns that digital music sales are growing only as fast as Apple devices, suggesting consumers may soon lose interest in buying digital songs.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687984,
-  "id": "chatcmpl-pj88nsr307ol20f0qlo4",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 391,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2003,
-   "prompt_tokens_details": null,
-   "total_tokens": 2394
-  }
- },
- "3b47797e1ffc076baa4643bad882f76dfa158d76e282d168d79be31cb7826d10": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"In April 2009, Nine Inch Nails launched its initial mobile application.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688029,
-  "id": "chatcmpl-xlskbsyqp7ivcjtz92io",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 28,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 175,
-   "prompt_tokens_details": null,
-   "total_tokens": 203
-  }
- },
- "4657d46716a704d867f1aab51e03a187d3cf7c1c046e6986479d411817538f0a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688039,
-  "id": "chatcmpl-rgz0q1al9fokpi148injh",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 224,
-   "prompt_tokens_details": null,
-   "total_tokens": 239
-  }
- },
- "487589b732f5cac72bb1fdeb31752dab7bb748487a818c1de6f4124574ec84bc": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"sources\": [{\"main\": \"Apple\", \"other\": [\"the company\", \"the Apple iPod\"], \"kind\": \"organisation\", \"segments\": [[0, 2], [4, 5], [10, 11], [16, 17], [40, 42], [44, 45], [48, 51], [55, 56], [58, 59], [63, 64], [66, 68], [70, 71]]}, {\"main\": \"Charles Arthur\", \"other\": [\"technology editor of The Guardian\", \"Arthur\"], \"kind\": \"person\", \"segments\": [[13, 15], [29, 32], [37, 40], [59, 60], [83, 89], [93, 95], [96, 97]]}, {\"main\": \"Mark Mulligan\", \"other\": [\"a music and digital media analyst at Forrester Research\"], \"kind\": \"person\", \"segments\": [[18, 20], [71, 78]]}, {\"main\": \"Alex Jacob\", \"other\": [\"a spokesperson for the International Federation of the Phonographic Industry\", \"Jacob\"], \"kind\": \"person\", \"segments\": [[21, 28], [34, 36], [104, 109]]}, {\"main\": \"International Federation of the Phonographic Industry\", \"other\": [\"the IFPI\", \"the worldwide music industry\"], \"kind\": \"organisation\", \"segments\": [[16, 17], [41, 42], [99, 100]]}, {\"main\": \"Nick Farrell\", \"other\": [\"a TechEYE journalist\"], \"kind\": \"person\", \"segments\": [[43, 47]]}, {\"main\": \"Steve Jobs\", \"other\": [\"CEO of Apple\"], \"kind\": \"person\", \"segments\": [[43, 44]]}, {\"main\": \"Adam Liversage\", \"other\": [\"a spokesperson of the British Phonographic Industry\"], \"kind\": \"person\", \"segments\": [[78, 89]]}, {\"main\": \"Peter Gabriel\", \"other\": [\"British singer\"], \"kind\": \"person\", \"segments\": [[90, 92]]}, {\"main\": \"Trent Reznor\", \"other\": [\"leader of the industrial rock band Nine Inch Nails\"], \"kind\": \"person\", \"segments\": [[94, 96]]}, {\"main\": \"Robert\", \"other\": [], \"kind\": \"person\", \"segments\": [[102, 103], [110, 113]]}]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687950,
-  "id": "chatcmpl-2iphy2ixna7721eebfqv7k",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 607,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2591,
-   "prompt_tokens_details": null,
-   "total_tokens": 3198
-  }
- },
- "4a00219a991af3f9b17383c487ffe003621aa492c6d47db542d105a186cedf43": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688035,
-  "id": "chatcmpl-q11n8fjtbe84eog7i1cvus",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 238,
-   "prompt_tokens_details": null,
-   "total_tokens": 253
-  }
- },
- "4a38d83cd9dbb54e6c87359a260b5aaf8e2d3d85cf342e7b0bdb114777184776": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"8\": {\"original\": \"As iPod sales slow, digital music sales, which have been yoked to the device,are\", \"rephrased\": \"As the market for portable music players like the iPod begins to stagnate, the digital music industry faces a critical challenge because its primary sales channels have been inextricably tied to the hardware's popularity. Consequently, a decline in the device's market share is expected to directly drag down overall digital music revenue, undermining the sector's ability to recover from the collapse of physical CD sales.\", \"summary\": \"Declining portable player sales threaten to drag down digital music revenue due to hardware dependency.\"}, \"9\": {\"original\": \"Across the board, in terms of growth, digital isn't making up for the fall in CD\", \"rephrased\": \"While the global market for digital music downloads continues to expand, the rate of this growth is insufficient to offset the massive financial losses currently being suffered by the worldwide music industry as physical CD sales plummet. This indicates that, for the most part, the transition to digital formats has not yet provided a viable economic solution for record labels struggling with the decline of their traditional revenue base.\", \"summary\": \"Global digital download growth is too slow to compensate for the sharp decline in physical CD sales.\"}, \"10\": {\"original\": \"International digital music sales have climbed steadily since 2004, exactly in\", \"rephrased\": \"Since the international launch of the iTunes store in 2004, total digital music sales have risen in direct proportion to the cumulative sales of Apple's iPod and iPhone devices, demonstrating a strong correlation between the hardware's market dominance and digital music revenue. However, this steady climb suggests that the industry's reliance on a single device manufacturer may be a fragile strategy, as the long-term viability of digital music remains uncertain without broader adoption across different platforms.\", \"summary\": \"Digital music sales have historically tracked perfectly with iPod sales, highlighting a risky dependency on a single hardware platform.\"}, \"11\": {\"original\": \"Record labels abandoned reliance on Apple and are experimenting with mobile apps\", \"rephrased\": \"Recognizing that their exclusive partnership with Apple no longer guarantees profitability, major record labels are actively shifting their business models away from the iTunes store to develop proprietary mobile applications. This strategic pivot aims to capture new revenue streams and reduce piracy by creating apps that are locked to specific devices, thereby offering an alternative to the dominant digital download market that has failed to replace physical CD sales.\", \"summary\": \"Record labels are pivoting to proprietary mobile apps to generate revenue and combat piracy as the iTunes model falters.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688002,
-  "id": "chatcmpl-185tmorym57i00cstnpu3",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 544,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2763,
-   "prompt_tokens_details": null,
-   "total_tokens": 3307
-  }
- },
- "589f1711b0be1bcae636fb7b357b9167d599d8354e7f5778e181f484b32218d2": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688032,
-  "id": "chatcmpl-o518eoj1w3fl8bhyy9wkcq",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 238,
-   "prompt_tokens_details": null,
-   "total_tokens": 253
-  }
- },
- "638c9ff493f2968bb479aa3ae8c3b34e0738e3b2b511551f418f32ff2c9f1126": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Mark Mulligan\": [\"Digital downloads are not replacing CDs as predicted; instead, they are following a niche technology curve rather than showing hockey-stick growth.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687969,
-  "id": "chatcmpl-g0e0i6yuej834z1otzozv7",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 34,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 844,
-   "prompt_tokens_details": null,
-   "total_tokens": 878
-  }
- },
- "69f6dbd47a61a759aa2d7b4b99377c6cbcf5f25fe2771bf22ce86bb8eefc5d39": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Alex Jacob\": [\"The digital download market is still growing, but the percentage is less than a few years ago, though it's now coming from a higher base.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687971,
-  "id": "chatcmpl-myafd4oipi6aqa4ylkcf6",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 36,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 855,
-   "prompt_tokens_details": null,
-   "total_tokens": 891
-  }
- },
- "706c667b9ff04e337c1f0b79da3b0ff4b1fa6a58970e9730ed31197033b6ac7a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688034,
-  "id": "chatcmpl-bv219l2b9rbnfvq8qtntsd",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 220,
-   "prompt_tokens_details": null,
-   "total_tokens": 235
-  }
- },
- "7137e09c7d9672d1b691ef21b17b237aefae2f7c77002edf60c239ad43b127fc": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"4\": {\"original\": \"people may lose interest in buying songs from digital stores as standalone music\", \"rephrased\": \"As the market for dedicated portable music players shrinks, consumers are likely to stop purchasing individual tracks from online digital music retailers, creating a significant challenge for the music industry's revenue model.\", \"summary\": \"Declining standalone player sales threaten consumer interest in digital music store purchases.\"}, \"5\": {\"original\": \"Digital downloads are not replacing CDs as predicted; instead, they are\", \"rephrased\": \"Current data indicates that digital music downloads are failing to replace physical CD sales as industry forecasts predicted, instead following a slow adoption curve typical of niche technologies rather than the expected rapid growth.\", \"summary\": \"Digital music downloads are not replacing CD sales as predicted by industry forecasts.\"}, \"6\": {\"original\": \"The digital download market is still growing, but the percentage is less\", \"rephrased\": \"While the global digital download market continues to expand, the rate of growth has slowed significantly compared to previous years, even though total sales figures remain higher than in the past.\", \"summary\": \"Digital download market growth is slowing despite higher overall sales figures.\"}, \"7\": {\"original\": \"CD sales fell 12.7% while digital downloads grew only 9.2%, failing to\", \"rephrased\": \"Recent figures show that CD sales have plummeted by 12.7%, whereas digital downloads have only increased by 9.2%, demonstrating that digital formats have failed to generate enough revenue to offset the massive losses from physical media.\", \"summary\": \"Digital download growth is insufficient to offset the sharp decline in CD sales.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687993,
-  "id": "chatcmpl-1y6ihm3909eegy7vxkhvqk",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 349,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2619,
-   "prompt_tokens_details": null,
-   "total_tokens": 2968
-  }
- },
- "721ee94a139c358c251f8f4eefce421c26e3e81522d86484fae0c46ffd4926f7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688031,
-  "id": "chatcmpl-wjy85s027kcb3r572lqyaa",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 219,
-   "prompt_tokens_details": null,
-   "total_tokens": 234
-  }
- },
- "73f879d584752eddd64142a5bd99cad92e2e394e42d9fe0f90d8a44be037470e": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688035,
-  "id": "chatcmpl-xb8os1zt8ukympeghkwkat",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 237,
-   "prompt_tokens_details": null,
-   "total_tokens": 252
-  }
- },
- "75aa1df67e938706c14f643ec4181bc9d5a98760f00b8fe30a5a73c01808ced8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Record labels abandoned reliance on Apple and are experimenting with mobile apps to find new revenue streams and combat piracy as iPod sales decline and digital downloads fail to replace CD revenue.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687976,
-  "id": "chatcmpl-wu9kpgj6hkyp2cc0mdf1a",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 40,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1156,
-   "prompt_tokens_details": null,
-   "total_tokens": 1196
-  }
- },
- "7dd4cacd834dfa8e63248bf9589ae00eb6f7f9cf728d24335cd8e6c171ff8b43": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"16\": {\"original\": \"It is premature to predict the iPod's death, but unlikely it will be revived by\\n\", \"rephrased\": \"While the music industry currently relies on the iPod as a primary driver of growth, experts caution that predicting the device's total demise is premature, even though it is unlikely that Apple or its founder will successfully revive it. Consequently, the sector must prepare for a future where it is forced to search for a new technological stepping stone to replace the lost revenue, as digital downloads have failed to fill the gap left by declining CD sales.\", \"summary\": \"The music industry must prepare for a new growth path as the iPod is unlikely to be revived by Apple.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688024,
-  "id": "chatcmpl-65pcseyiq2gtb2zppayqrn",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 146,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1678,
-   "prompt_tokens_details": null,
-   "total_tokens": 1824
-  }
- },
- "7e70ce506ef596a1d2a101dcdd4f95df9a095e650c83c6dac44138c3594b75c0": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688031,
-  "id": "chatcmpl-piqk61dblenjjka3uwai3g",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 252,
-   "prompt_tokens_details": null,
-   "total_tokens": 267
-  }
- },
- "7f75fe111c0e46223a85e8e037811e6d5cf11b49cc8bc23861a4b4a09ed52641": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688038,
-  "id": "chatcmpl-41r35hf686b3bohhyivjp",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 287,
-   "prompt_tokens_details": null,
-   "total_tokens": 302
-  }
- },
- "82b363e511f77c402047861538ca0a1f5663f16811e038b7c9a3ad8d846f0eb9": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688033,
-  "id": "chatcmpl-299jjykw5d2e56mq827pe",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 268,
-   "prompt_tokens_details": null,
-   "total_tokens": 283
-  }
- },
- "8b7480980e17ac7c4762774d47a6f7470a6eb4d2a2ccb5bae71f0cc37fc6dd60": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Charles Arthur\": [\"It looks like nothing will make up for the fall in CD sales, as the record business's richest years are behind it, though hope exists in the shift to an app-based economy where artists could sell music like games or timetables.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687979,
-  "id": "chatcmpl-v2u9nvqcqwprba8vi5si4",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 55,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 930,
-   "prompt_tokens_details": null,
-   "total_tokens": 985
-  }
- },
- "9263bb096c5f12e88e5a33e30c98b97d65ab723d9d27fe4b891e99d154e461a3": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688036,
-  "id": "chatcmpl-7wcu286f1kf0njbk68kfb1",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 534,
-   "prompt_tokens_details": null,
-   "total_tokens": 549
-  }
- },
- "9752ba7243fdad6eb0dbe576c76b74d81d2c7faa7341c6fe67ec3dfe7281a39a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"iPod sales hit a 2006 low at 9m, signaling device decline, though Apple remains secure via iPhone and iPad sales.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687967,
-  "id": "chatcmpl-a0tdit01lps09r5v8l8rj6",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 37,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 809,
-   "prompt_tokens_details": null,
-   "total_tokens": 846
-  }
- },
- "9eb67d049e3a178983fb283557890b5daf2a88b808a1b59a6e4294c4b62b22b7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"12\": {\"original\": \"Music on mobile devices currently fails to leverage the strengths of the iPhone,\", \"rephrased\": \"The current quality of music apps on mobile devices does not match the audio fidelity of standalone tracks, meaning the technology cannot yet fully utilize the capabilities of smartphones and tablets to deliver a superior listening experience compared to traditional formats.\", \"summary\": \"Mobile music apps currently lack the audio quality to match standalone tracks.\"}, \"13\": {\"original\": \"It looks like nothing will make up for the fall in CD sales, as the record\", \"rephrased\": \"While the recorded music industry has passed its peak profitability and digital downloads have failed to replace lost CD revenue, a potential path forward exists in adopting an app-based economy where artists sell exclusive content directly to consumers, similar to how mobile game developers operate.\", \"summary\": \"The music industry must pivot to app-based direct sales to recover after digital downloads failed to replace CD revenue.\"}, \"14\": {\"original\": \"Nine Inch Nails released their first app in April 2009.\", \"rephrased\": \"The industrial rock band Nine Inch Nails, led by frontman Trent Reznor, released its first dedicated mobile application in April 2009, marking a significant early adoption of app-based distribution by a major artist known for criticizing industry bureaucracy.\", \"summary\": \"Nine Inch Nails released its first mobile app in April 2009.\"}, \"15\": {\"original\": \"It's early days for apps in the music business, but we are seeing labels and\", \"rephrased\": \"Although the integration of mobile applications into the music sector is still in its infancy, major record labels and individual artists are already actively experimenting with these tools to offer premium content and exclusive experiences to listeners.\", \"summary\": \"Record labels and artists are beginning to experiment with mobile apps despite the technology being in its early stages.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688014,
-  "id": "chatcmpl-4cc48lvz904n23cf1vrpo",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 403,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2727,
-   "prompt_tokens_details": null,
-   "total_tokens": 3130
-  }
- },
- "a10612cce237f8c34562a931aa30974a9a3d4baad7186ce199b8a9b538a380bc": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688039,
-  "id": "chatcmpl-71hl07m56xjz2vbup4zdw",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 248,
-   "prompt_tokens_details": null,
-   "total_tokens": 263
-  }
- },
- "a367cee7edf6eb1714db6956589c10e4fbf934e377f9e05c03cd4720e8a42257": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"main_point\": \"As iPod sales decline and digital music downloads fail to replace CD revenue, record labels are abandoning their reliance on Apple and experimenting with mobile apps to find new revenue streams and combat piracy.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687963,
-  "id": "chatcmpl-jqkjljomr7m7trs6j66ql2",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 43,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2293,
-   "prompt_tokens_details": null,
-   "total_tokens": 2336
-  }
- },
- "a753af748df69d60c1313172a83b78107befadc7c7ebc3b64c0e83b9fa110594": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Apple\": [\"International digital music sales have climbed steadily since 2004, exactly in line with total iPod and iPhone sales.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687975,
-  "id": "chatcmpl-ih0mgthfeydo7nrqf9kwwd",
+  "created": 1793702022,
+  "id": "chatcmpl-ko1ftmcg6hl5sfcin284oc",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1265,217 +35,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 1110,
+   "prompt_tokens": 841,
    "prompt_tokens_details": null,
-   "total_tokens": 1140
+   "total_tokens": 871
   }
  },
- "ab54813d4be41af733b5f285224b91b0447e1a6473ae3c28719b4c74388824f7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688032,
-  "id": "chatcmpl-b9cfznv5uiqkfiyepf4ywr",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 244,
-   "prompt_tokens_details": null,
-   "total_tokens": 259
-  }
- },
- "bee186fe541f78b850e89a5d15466d8957a0a581e824a6b0b2e48461089ca88c": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688037,
-  "id": "chatcmpl-5ay1y4iwqdiqbbeqt0h7x",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 251,
-   "prompt_tokens_details": null,
-   "total_tokens": 266
-  }
- },
- "cc6bba94a9554f6985867c209ca2b3dc49e4fe7f971f0d8d3724b2818731fb3f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Robert\": [\"It is premature to predict the iPod's death, but unlikely it will be revived by Steve Jobs, forcing the industry to search for a new growth path again.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687983,
-  "id": "chatcmpl-j7gsbe9qfdr2shs83j53",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 38,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 733,
-   "prompt_tokens_details": null,
-   "total_tokens": 771
-  }
- },
- "d9aa3eb69350dbcd919f3d9eb0383f178d2bec238888a28814f6bf4e0448bdf8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688034,
-  "id": "chatcmpl-gf6bn5ekxphjewz3edzigq",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 235,
-   "prompt_tokens_details": null,
-   "total_tokens": 250
-  }
- },
- "e0901e6ba838a523853d50e5519bf6cf11651ba775cc5740f8fad336d2cabf33": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The band Nine Inch Nails put out a mobile app for the first time in April 2009.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688030,
-  "id": "chatcmpl-g6i6op66iyfzc9h44fi6j",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 33,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 222,
-   "prompt_tokens_details": null,
-   "total_tokens": 255
-  }
- },
- "e3c995c67da71d832af188118e762acf8a394747603e7e2a4f1422af568a69c2": {
+ "10ab8dafc7bfbf2e97617fa546f3e7312b5eae9bab5367f8efec5ed9ff47b5a8": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1493,8 +58,8 @@
     }
    }
   ],
-  "created": 1793687968,
-  "id": "chatcmpl-7h6ajtpn6pun0b2og0a93e",
+  "created": 1793702020,
+  "id": "chatcmpl-dalbg0cygxlzmpbov9vbv",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1511,12 +76,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 861,
+   "prompt_tokens": 858,
    "prompt_tokens_details": null,
-   "total_tokens": 908
+   "total_tokens": 905
   }
  },
- "e413504bf8c91cf56bcb5492128cd099d303b9499031c4e8da6b6d614c06b018": {
+ "1ee1594a501a499e1210794cb87e12f2b71be7142c853a7ad229dc8528e0c3e1": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1525,7 +90,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1534,8 +99,8 @@
     }
    }
   ],
-  "created": 1793688036,
-  "id": "chatcmpl-t8l7ok327a9zcivx3xyhln",
+  "created": 1793702085,
+  "id": "chatcmpl-my6xomdm095qi0z24tgc7",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1557,48 +122,7 @@
    "total_tokens": 241
   }
  },
- "efff03ee3392aa240ba2c59b44f1b1124a812199f4f575939c4b7bd463500f8b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688037,
-  "id": "chatcmpl-jlb4baic97oi8y1hjb4vv8",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 279,
-   "prompt_tokens_details": null,
-   "total_tokens": 294
-  }
- },
- "f282c36db4a3769c999158717b3cdb8a3aa872eb4f57499b9412bce230635bdc": {
+ "2c325bfb8dbf5ca7b4f86562630b4f11e467c901d694944af700927a9322ed75": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1616,8 +140,8 @@
     }
    }
   ],
-  "created": 1793688033,
-  "id": "chatcmpl-igv6pedmsmd9yt7r1tytot",
+  "created": 1793702087,
+  "id": "chatcmpl-t8z0ndo0ixrib2r4gi5p7",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1634,12 +158,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 223,
+   "prompt_tokens": 239,
    "prompt_tokens_details": null,
-   "total_tokens": 238
+   "total_tokens": 254
   }
  },
- "fae1a3f16851870e1dfd52aea9ebe2af23de3ca33520611fdce9a446098ed93c": {
+ "336dca97873a1fb513981ac93fa5a4d6e8e9acbce9dd44ee0ae9309aceabc9b1": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1648,7 +172,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"Charles Arthur\": [\"CD sales fell 12.7% while digital downloads grew only 9.2%, failing to replace lost revenue.\"]}",
+     "content": "{\"base_author\": [\"Record labels are abandoning Apple in favor of mobile apps to combat piracy and find new revenue as digital downloads fail to replace CD sales.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1657,8 +181,8 @@
     }
    }
   ],
-  "created": 1793687972,
-  "id": "chatcmpl-07m0fqlp2qftnme059czqv",
+  "created": 1793702019,
+  "id": "chatcmpl-0abk3gi3na7909lcy5rqcqnw",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1667,7 +191,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 32,
+   "completion_tokens": 33,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1675,9 +199,1403 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 822,
+   "prompt_tokens": 806,
    "prompt_tokens_details": null,
-   "total_tokens": 854
+   "total_tokens": 839
+  }
+ },
+ "34d3db57431ae1ac96a5111d59c53981d935b341b5390727aa1b5b0cf3517d8a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702088,
+  "id": "chatcmpl-avk3r001ubi856kwo6vah",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 238,
+   "prompt_tokens_details": null,
+   "total_tokens": 253
+  }
+ },
+ "38e8fdb167dac492d9ac8e83d09b356cb9615e3e694e479415fa31fa10fca816": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702091,
+  "id": "chatcmpl-4fou9qebzrivs1mbnc65ga",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 287,
+   "prompt_tokens_details": null,
+   "total_tokens": 302
+  }
+ },
+ "3b48f10ad96bfcae97e25408982e8f7e685395aabe31b7995c37cc8ad9524209": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702084,
+  "id": "chatcmpl-lt566mdmfta6128zqt1duc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 230,
+   "prompt_tokens_details": null,
+   "total_tokens": 245
+  }
+ },
+ "3e5bd7e2b9f656df7f63691019c1621bc72ff2c07996e7c164bf7e0ba148963a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702089,
+  "id": "chatcmpl-jv058xs0istkabs2m3asv",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 229,
+   "prompt_tokens_details": null,
+   "total_tokens": 244
+  }
+ },
+ "4102228e3168061b2bc43c6915f55f4781f563b4e59096139956f57ce423e07f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702086,
+  "id": "chatcmpl-jd0321lgpbesjlpmtgbjir",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 269,
+   "prompt_tokens_details": null,
+   "total_tokens": 284
+  }
+ },
+ "44681a3a3a685ad79937d455d7834c9b143bc0216fa20f03a110bdba6f4cafca": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Alex Jacob\": [\"Apps are in early stages for music, with labels and artists experimenting on premium content, but predicting the album's death is premature.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702034,
+  "id": "chatcmpl-bb4mau98jeslmrb3f2ljrs",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 33,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 801,
+   "prompt_tokens_details": null,
+   "total_tokens": 834
+  }
+ },
+ "45d51c39ba0e4334bdea5bfcc5a6e2ab880643f75ad9936a4ee29d8753955f5a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Charles Arthur\": [\"It looks like nothing will make up for the fall in CD sales, as the record business's richest years are behind it, but there are rays of hope in an app-based economy where artists pay to download content.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702032,
+  "id": "chatcmpl-52lbpqlkj0x8xwtwrq17c3",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 50,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 927,
+   "prompt_tokens_details": null,
+   "total_tokens": 977
+  }
+ },
+ "487589b732f5cac72bb1fdeb31752dab7bb748487a818c1de6f4124574ec84bc": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Apple\", \"other\": [\"the company\", \"the Apple iPod\"], \"kind\": \"organisation\", \"segments\": [[0, 2], [4, 5], [10, 11], [16, 17], [40, 42], [44, 45], [48, 51], [55, 56], [58, 59], [63, 64], [66, 68], [70, 71]]}, {\"main\": \"Charles Arthur\", \"other\": [\"technology editor of The Guardian\", \"Arthur\"], \"kind\": \"person\", \"segments\": [[13, 15], [29, 32], [37, 40], [59, 60], [83, 89], [93, 95], [96, 97]]}, {\"main\": \"Mark Mulligan\", \"other\": [\"a music and digital media analyst at Forrester Research\"], \"kind\": \"person\", \"segments\": [[18, 20], [71, 78]]}, {\"main\": \"Alex Jacob\", \"other\": [\"a spokesperson for the International Federation of the Phonographic Industry\", \"Jacob\"], \"kind\": \"person\", \"segments\": [[21, 28], [34, 36], [104, 109]]}, {\"main\": \"International Federation of the Phonographic Industry\", \"other\": [\"the IFPI\", \"the worldwide music industry\"], \"kind\": \"organisation\", \"segments\": [[16, 17], [41, 42], [99, 100]]}, {\"main\": \"Nick Farrell\", \"other\": [\"a TechEYE journalist\"], \"kind\": \"person\", \"segments\": [[43, 47]]}, {\"main\": \"Steve Jobs\", \"other\": [\"CEO of Apple\"], \"kind\": \"person\", \"segments\": [[43, 44]]}, {\"main\": \"Adam Liversage\", \"other\": [\"a spokesperson of the British Phonographic Industry\"], \"kind\": \"person\", \"segments\": [[78, 89]]}, {\"main\": \"Peter Gabriel\", \"other\": [\"British singer\"], \"kind\": \"person\", \"segments\": [[90, 92]]}, {\"main\": \"Trent Reznor\", \"other\": [\"leader of the industrial rock band Nine Inch Nails\"], \"kind\": \"person\", \"segments\": [[94, 96]]}, {\"main\": \"Robert\", \"other\": [], \"kind\": \"person\", \"segments\": [[102, 103], [110, 113]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702003,
+  "id": "chatcmpl-d49gffq0gprbf7wpo3fo6f",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 607,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2591,
+   "prompt_tokens_details": null,
+   "total_tokens": 3198
+  }
+ },
+ "493a0a304e0bfa2207d012c337b298ac0c4ec666b27846491729258e774d4fa4": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"released quarterly sales figures\", \"rephrased\": \"Apple has released its quarterly sales figures, revealing that while overall device revenue remains strong due to the iPhone and iPad, the specific sales of its dedicated music players have dropped significantly compared to previous years.\", \"summary\": \"Apple reports a significant decline in dedicated music player sales despite strong revenue from other devices.\"}, \"1\": {\"original\": \"Record labels are abandoning Apple in favor of mobile apps to combat piracy and\", \"rephrased\": \"Record labels are actively shifting their business strategies away from exclusive reliance on Apple's platform, recognizing that digital downloads have failed to fully replace CD revenue. Consequently, these industry players are now prioritizing mobile applications as a more viable method to generate income and address the persistent issue of music piracy.\", \"summary\": \"Record labels are pivoting to mobile apps to replace failing digital download revenue and combat piracy.\"}, \"2\": {\"original\": \"decline in MP3 player sales is a problem for record companies\", \"rephrased\": \"The sharp decline in sales of standalone MP3 players presents a critical challenge for record companies, as the anticipated surge in digital music consumption has not materialized to match the growth of the devices themselves. This disconnect suggests that the traditional model of selling individual songs is losing its appeal to consumers.\", \"summary\": \"The decline in MP3 player sales poses a significant problem for record companies due to stagnant digital song sales.\"}, \"3\": {\"original\": \"digital music sales growth matches Apple device growth\", \"rephrased\": \"Current data indicates that the growth rate of digital music sales is merely mirroring the growth of Apple's hardware devices rather than driving a broader market expansion. This correlation implies that the industry is not yet seeing the explosive adoption of digital downloads that was once predicted to replace physical media entirely.\", \"summary\": \"Digital music sales growth currently tracks with Apple device sales rather than driving independent market expansion.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702037,
+  "id": "chatcmpl-5bkygb51hl4irl6hyp91hm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 404,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1984,
+   "prompt_tokens_details": null,
+   "total_tokens": 2388
+  }
+ },
+ "506af49049a20e55802ad4d0421307cf899bdb56d5e8e42c8f59eb33093718be": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702087,
+  "id": "chatcmpl-441k9g6wz4xocmh0xcu6qg",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 244,
+   "prompt_tokens_details": null,
+   "total_tokens": 259
+  }
+ },
+ "5e4dc4831a3d7965cbc0df45a7771fc630f581666ec7e448f444fead879dbe96": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702084,
+  "id": "chatcmpl-7rsb5d29mn583v53oazljk",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 244,
+   "prompt_tokens_details": null,
+   "total_tokens": 259
+  }
+ },
+ "65cf33546414e5704621a43451f57a970839af8fe4361f8324a5b13b951389b1": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"16\": {\"original\": \"Apps are in early stages for music, with labels and artists experimenting on the\", \"rephrased\": \"While the music industry faces a severe crisis as CD sales collapse and digital downloads fail to generate sufficient revenue, the sector is currently in a transitional phase where record labels and artists are cautiously testing mobile applications to offer premium content and combat piracy. However, experts caution that despite this experimentation, it is too early to conclude that the traditional album format will disappear, as these new digital tools are still finding their footing in the market.\", \"summary\": \"Music industry experimentation with mobile apps for premium content is premature regarding the album's demise.\"}, \"17\": {\"original\": \"It is premature to predict the iPod's death, but unlikely it will be revived by\", \"rephrased\": \"Although the music industry is currently searching for a new growth path after the iPod failed to permanently solve the problem of piracy and declining CD sales, experts argue that it is premature to declare the device dead, yet it is highly unlikely that Apple or its founder will ever successfully revive it to restore the industry's former prosperity.\", \"summary\": \"The iPod is unlikely to be revived by Apple, forcing the music industry to seek new growth paths.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702077,
+  "id": "chatcmpl-tolhq8t98afvby8bugy6b",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 260,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1855,
+   "prompt_tokens_details": null,
+   "total_tokens": 2115
+  }
+ },
+ "689c66afe544f62fcc0e46578dd34efbfdaa7ae0dbd2ece8970a3feb5a4312f7": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Charles Arthur\": [\"CD sales fell by 12.7%, losing $1.6bn, while digital downloads grew by 9.2%, gaining less than $400m.\", \"Expectations that CDs would eventually become extinct, replaced by digital downloads, have not come to light.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702024,
+  "id": "chatcmpl-ehhdd1ju1dqt7xznkzt1go",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 64,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 819,
+   "prompt_tokens_details": null,
+   "total_tokens": 883
+  }
+ },
+ "6e7a047229facbeee9a6f1ec8ed1712ea53cd497d54fe505421996c58d33a6a2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702091,
+  "id": "chatcmpl-onx75x3munbe3nvarg0jw8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 221,
+   "prompt_tokens_details": null,
+   "total_tokens": 236
+  }
+ },
+ "7311aeb79b209e06f5a0a51902bed5b8e3369b7713560f038b818b4e20c7c50c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702090,
+  "id": "chatcmpl-xi2mdsqhqjsx3u33gcxg",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 251,
+   "prompt_tokens_details": null,
+   "total_tokens": 266
+  }
+ },
+ "77a47c4d384ab3994f68dfe04afe87d32bcf23b74bb9ebb415522614393d8e6d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Charles Arthur\": [\"As iPod sales slow, digital music sales, which have been yoked to the device, are likely to slow too. The iPod has been the key driver.\"], \"Alex Jacob\": [\"Across the board, in terms of growth, digital isn't making up for the fall in CD sales, though it is in certain countries, including the UK.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702026,
+  "id": "chatcmpl-gv8nsmktmdawaem0pseq6",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 77,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 821,
+   "prompt_tokens_details": null,
+   "total_tokens": 898
+  }
+ },
+ "7ae434c7a035b3cddeee210689a2a1d225d441a051a1c619377b798d88739a0d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Mark Mulligan\": [\"Music on mobile devices currently fails to leverage the strengths of the iPhone or iPad, as the quality of apps does not match that of a standalone song.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702030,
+  "id": "chatcmpl-vwkptz1tvgtv819ym8sp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 38,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1178,
+   "prompt_tokens_details": null,
+   "total_tokens": 1216
+  }
+ },
+ "7c0b2a5d4af64c50be585d397877275651081fe3c40fd47989f5f40d37a8ccf3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702089,
+  "id": "chatcmpl-sefkhg2gnak2nratjlqp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 529,
+   "prompt_tokens_details": null,
+   "total_tokens": 544
+  }
+ },
+ "7e5ad21b0be34ce217eb1acb8a3f097a592ab23fd5273374b8550588292700b8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"8\": {\"original\": \"Expectations that CDs would eventually become extinct, replaced by digital music\", \"rephrased\": \"The music industry's long-held expectation that compact discs would eventually disappear, only to be fully replaced by digital music downloads, has not materialized in reality. Instead, data indicates that while digital sales are growing, they are failing to offset the significant decline in CD revenue, meaning the transition to a purely digital format is not occurring as previously predicted.\", \"summary\": \"Digital music growth has failed to replace declining CD sales, disproving the industry's expectation of a full digital transition.\"}, \"9\": {\"original\": \"As iPod sales slow, digital music sales, which have been yoked to the device, ar\", \"rephrased\": \"Because digital music sales have been tightly linked to the sales of Apple's iPod, a slowdown in the device's popularity is causing a corresponding decline in digital music purchases. This dependency means that the future of digital music revenue is currently inextricably tied to the continued success of the iPod hardware.\", \"summary\": \"Digital music sales are declining because they depend on iPod hardware sales, which are slowing down.\"}, \"10\": {\"original\": \"Across the board, in terms of growth, digital isn't making up for the fall in\", \"rephrased\": \"While digital music sales are growing in specific regions like the UK, they are not compensating for the overall global drop in CD sales across the board. Consequently, the total revenue for the music industry is shrinking, as the anticipated surge in digital income is insufficient to cover the losses from physical media.\", \"summary\": \"Global digital music growth is too low to offset the worldwide decline in CD sales, causing total industry revenue to fall.\"}, \"11\": {\"original\": \"International digital music sales have climbed steadily since 2004, exactly in\", \"rephrased\": \"International digital music sales have risen steadily since 2004, a trend that mirrors the total sales figures for Apple's iPod and iPhone devices. This correlation suggests that the growth in digital music is directly driven by the popularity of Apple's mobile hardware rather than by a fundamental shift in consumer listening habits.\", \"summary\": \"International digital music sales have grown steadily since 2004, closely matching the sales of Apple's mobile devices.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702055,
+  "id": "chatcmpl-9sahoz94kb67jfa2e9vzqa",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 486,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2701,
+   "prompt_tokens_details": null,
+   "total_tokens": 3187
+  }
+ },
+ "81dc6155bf529f7ac3492f28a3d8e4ef0aef530dcc3a43bb58f301d1ced88049": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"people may lose interest in buying songs from digital stores as standalone music\", \"rephrased\": \"As the market for dedicated portable music players begins to collapse, consumers are likely to stop purchasing individual tracks from online digital music retailers, creating a significant risk for the music industry's primary revenue stream.\", \"summary\": \"Declining hardware sales threaten consumer interest in standalone digital music purchases.\"}, \"5\": {\"original\": \"Digital downloads should show hockey-stick growth as a CD replacement, but are\", \"rephrased\": \"The transition from physical CDs to digital downloads should have resulted in explosive, exponential growth, yet current data indicates that digital sales are merely following a slow, niche trajectory rather than replacing the physical format as expected.\", \"summary\": \"Digital music downloads are failing to replace CD sales with the anticipated rapid growth.\"}, \"6\": {\"original\": \"The digital download market is still growing, but at a slower rate than a few\", \"rephrased\": \"While the global market for digital music downloads continues to expand, the rate of this growth has decelerated significantly compared to previous years, even though the overall sales volume has increased.\", \"summary\": \"Digital music download growth is slowing despite an overall increase in sales volume.\"}, \"7\": {\"original\": \"CD sales fell by 12.7%, losing $1.6bn, while digital downloads grew by 9.2%,\", \"rephrased\": \"Recent financial data reveals that while CD sales have plummeted by 12.7%, representing a loss of $1.6 billion, digital music downloads have only grown by 9.2%, generating less than $400 million in value.\", \"summary\": \"The sharp decline in CD revenue has not been offset by proportional growth in digital download sales.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702046,
+  "id": "chatcmpl-2hfi27t0viywfyvqqly89",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 381,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2622,
+   "prompt_tokens_details": null,
+   "total_tokens": 3003
+  }
+ },
+ "88527ed707252dea1f7068e264ea5f34e7088d0a9dcd4e7db459860a1f0b5167": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Robert\": [\"It is premature to predict the iPod's death, but unlikely it will be revived by Steve Jobs, forcing the industry to search for a new growth path again.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702035,
+  "id": "chatcmpl-c6zstc4b7fhgubc40bnun",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 38,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 730,
+   "prompt_tokens_details": null,
+   "total_tokens": 768
+  }
+ },
+ "95785ca3c12a80a81374fcf11f1219aaa65050adad7ef37741923db6011daad6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702088,
+  "id": "chatcmpl-g3a03g8a1kpfbv0n74p4r",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 243,
+   "prompt_tokens_details": null,
+   "total_tokens": 258
+  }
+ },
+ "a367cee7edf6eb1714db6956589c10e4fbf934e377f9e05c03cd4720e8a42257": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"As iPod sales decline and digital music downloads fail to replace CD revenue, record labels are abandoning their reliance on Apple and experimenting with mobile apps to find new revenue streams and combat piracy.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702016,
+  "id": "chatcmpl-mrf4wlyljxmcz4fqpwbcjw",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 43,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2293,
+   "prompt_tokens_details": null,
+   "total_tokens": 2336
+  }
+ },
+ "a49b57baf4514fee4e2c9147b1800008fe9204785927e82e903ec69d4f700056": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702092,
+  "id": "chatcmpl-xv6nricz669evtx9p8t9c",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 247,
+   "prompt_tokens_details": null,
+   "total_tokens": 262
+  }
+ },
+ "a8ceefa142e77f54dd534018e3a43476f3e40daab47d2b36527543bfffa77e54": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702090,
+  "id": "chatcmpl-qq4srsxeg3h1xqo0t1py4",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 283,
+   "prompt_tokens_details": null,
+   "total_tokens": 298
+  }
+ },
+ "a973ccc91ae3787219852ffdb39305a6b9a4db409a0ae0d9d0ec865c02f02677": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702083,
+  "id": "chatcmpl-ioo0d300rubgcd55ejt64",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 217,
+   "prompt_tokens_details": null,
+   "total_tokens": 232
+  }
+ },
+ "aceccdf5ca89c6502a00e2cb76b2c0ee52d577d2ccf32094b97fe568a5b523c2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Record labels abandoned reliance on Apple and are experimenting with mobile apps to find new revenue streams and combat piracy as iPod sales decline and digital downloads fail to replace CD revenue.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702029,
+  "id": "chatcmpl-i4l56g5xk2r3zanttqhlm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 40,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1153,
+   "prompt_tokens_details": null,
+   "total_tokens": 1193
+  }
+ },
+ "c925dcea14c18925d76e67dc24c96d109f2b6f35f195058f8b978d4fec8a3f12": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702085,
+  "id": "chatcmpl-5jed79z4mugjgn3nhirlmg",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 222,
+   "prompt_tokens_details": null,
+   "total_tokens": 237
+  }
+ },
+ "ce6632760aa5d2d0416eaafee4480a95edd54cfcf42cfebdbc5bc8cefc4e356c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Apple\": [\"released quarterly sales figures\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702018,
+  "id": "chatcmpl-o9w8v0i1womvqz5u8dvlf",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 10,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 725,
+   "prompt_tokens_details": null,
+   "total_tokens": 735
+  }
+ },
+ "d00919b47a1358794562fbd7d25190b7217775708eae31f129234477c8c98791": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"12\": {\"original\": \"Record labels abandoned reliance on Apple and are experimenting with mobile apps\", \"rephrased\": \"As the music industry faces a crisis where digital downloads have failed to replace the lost revenue from declining CD sales, record labels have shifted their strategy away from depending on Apple's iTunes store. Recognizing that their previous business model is unsustainable, these companies are now turning to mobile applications as a viable alternative to generate new income and reduce the widespread problem of online piracy.\", \"summary\": \"Record labels are pivoting to mobile apps to replace lost CD revenue and combat piracy.\"}, \"13\": {\"original\": \"Music on mobile devices currently fails to leverage the strengths of the iPhone\", \"rephrased\": \"While the music industry explores mobile applications as a future revenue source, the current technology on devices like the iPhone and iPad cannot yet deliver the high-quality audio experience that listeners expect from standalone music files. Consequently, the industry must wait for mobile platforms to evolve before they can effectively compete with traditional music formats, as existing apps lack the necessary fidelity to match a purchased song.\", \"summary\": \"Current mobile apps fail to deliver the high-quality audio needed to compete with standalone music.\"}, \"14\": {\"original\": \"It looks like nothing will make up for the fall in CD sales, as the record\", \"rephrased\": \"The recording industry has entered a period of decline where the most profitable era is over, and existing digital formats like downloads are insufficient to replace the value of physical CDs. However, a glimmer of hope exists in the emerging app-based economy, where artists and labels can bypass traditional retailers to sell premium content directly to consumers, potentially unlocking a new path for growth.\", \"summary\": \"The music industry's golden age is over, but direct-to-consumer apps offer a potential path forward.\"}, \"15\": {\"original\": \"Nine Inch Nails released their first app in April 2009.\", \"rephrased\": \"In a significant move to adapt to the changing market, the industrial rock band Nine Inch Nails, led by frontman Trent Reznor, launched its first mobile application in April 2009. This release by a prominent artist serves as a concrete example of how major music acts are beginning to experiment with digital distribution methods to reach audiences directly, moving beyond the traditional record label model.\", \"summary\": \"Nine Inch Nails released its first app in 2009, signaling a shift toward direct artist distribution.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702066,
+  "id": "chatcmpl-mxfwjbcwpcru8007ll0qxq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 518,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2835,
+   "prompt_tokens_details": null,
+   "total_tokens": 3353
+  }
+ },
+ "dad256354ea1e81fb60d18cc172558b71a1c1f36e2f645fda0d412e96f0e2494": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Alex Jacob\": [\"The digital download market is still growing, but at a slower rate than a few years ago, despite starting from a higher sales base.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702023,
+  "id": "chatcmpl-aavbwfvuy6bzk9o3s7b1c",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 34,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 852,
+   "prompt_tokens_details": null,
+   "total_tokens": 886
+  }
+ },
+ "e74543d2774f5c9fc2c1cc13c0b05831c735e2d2cbe9f1af63f802db73dea3b4": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Apple\": [\"International digital music sales have climbed steadily since 2004, exactly in line with total iPod and iPhone sales.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702028,
+  "id": "chatcmpl-nt8acptf9yqgv2z3skkrd8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 30,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1107,
+   "prompt_tokens_details": null,
+   "total_tokens": 1137
+  }
+ },
+ "e8e2f82652404bb1649d0cdcbc261f8ea1b381e31b4aeec4a3d093cc50492182": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Trent Reznor\": [\"Nine Inch Nails released their first app in April 2009.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702033,
+  "id": "chatcmpl-n34lms6bbp0zu94081l2q",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 26,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 863,
+   "prompt_tokens_details": null,
+   "total_tokens": 889
+  }
+ },
+ "eba4bf70d89caa945c0514b504e7ea086083d7e6f68993e81733db30fe8bddce": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702086,
+  "id": "chatcmpl-copvthd2sn7wk3artlgli",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 222,
+   "prompt_tokens_details": null,
+   "total_tokens": 237
   }
  }
 }

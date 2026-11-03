@@ -48,33 +48,33 @@ def bigrams(tokens):
     return list(zip(tokens, tokens[1:]))
 
 
-def rouge2_precision(rephrased, passage):
+def rouge2_precision(rephrased, excerpt):
     rep_bigrams = bigrams(tokenize(rephrased))
     if not rep_bigrams:
         return 0.0
-    passage_bigram_set = set(bigrams(tokenize(passage)))
-    matches = sum(1 for b in rep_bigrams if b in passage_bigram_set)
+    excerpt_bigram_set = set(bigrams(tokenize(excerpt)))
+    matches = sum(1 for b in rep_bigrams if b in excerpt_bigram_set)
     return matches / len(rep_bigrams)
 
 
 def compute_rouge2_scores(statements: list) -> list[dict]:
     for s in statements:
         if 'rephrased_statement' in s:
-            s['rouge2_rephrased'] = round(rouge2_precision(s['rephrased_statement'], s['passage']), 4)
+            s['rouge2_rephrased'] = round(rouge2_precision(s['rephrased_statement'], s['excerpt']), 4)
         if 'summary' in s:
-            s['rouge2_summary'] = round(rouge2_precision(s['summary'], s['passage']), 4)
+            s['rouge2_summary'] = round(rouge2_precision(s['summary'], s['excerpt']), 4)
     return statements
 
 
-def get_metrics(source, candidate, passage, sim_model):
+def get_metrics(source, candidate, excerpt, sim_model):
     emb1 = sim_model.encode(source, convert_to_tensor=True)
     emb2 = sim_model.encode(candidate, convert_to_tensor=True)
     cosine = util.cos_sim(emb1, emb2).item()
-    rouge2 = rouge2_precision(candidate, passage)
+    rouge2 = rouge2_precision(candidate, excerpt)
     return cosine, rouge2
 
 
-def _paraphrase_text(text, initial_rouge2, passage, sim_model, schema):
+def _paraphrase_text(text, initial_rouge2, excerpt, sim_model, schema):
     best_candidate = text
     best_rouge2 = initial_rouge2
     best_cosine = 1.0
@@ -87,7 +87,7 @@ def _paraphrase_text(text, initial_rouge2, passage, sim_model, schema):
     for i in range(MAX_ITERATIONS):
         result = llm.complete_model(PARAPHRASE_SYSTEM, prompt, schema, max_tokens=llm.context_tokens())
         candidate = result.rephrased_statement
-        cosine, rouge2 = get_metrics(text, candidate, passage, sim_model)
+        cosine, rouge2 = get_metrics(text, candidate, excerpt, sim_model)
 
         status = "OK" if cosine >= TARGET_COSINE and rouge2 < ROUGE2_THRESHOLD else "fail"
         if verbose:
@@ -142,7 +142,7 @@ def paraphrase_statements(statements: list, sim_model) -> list[dict]:
         s['summary_paraphrased'] = False
         if s.get('rouge2_rephrased', 0) > ROUGE2_THRESHOLD:
             candidate, cosine, rouge2, iters = _paraphrase_text(
-                s['rephrased_statement'], s['rouge2_rephrased'], s['passage'], sim_model, ParaphraseResult,
+                s['rephrased_statement'], s['rouge2_rephrased'], s['excerpt'], sim_model, ParaphraseResult,
             )
             s['paraphrased_statement'] = candidate
             s['paraphrased_rouge2_rephrased'] = round(rouge2, 4)
@@ -153,7 +153,7 @@ def paraphrase_statements(statements: list, sim_model) -> list[dict]:
                 print(f"  rephrased -> rouge2={rouge2:.4f}  cosine={cosine:.3f}  ({iters} iter(s))")
         if s.get('rouge2_summary', 0) > ROUGE2_THRESHOLD:
             candidate, cosine, rouge2, iters = _paraphrase_text(
-                s['summary'], s['rouge2_summary'], s['passage'], sim_model, ParaphraseSummaryResult,
+                s['summary'], s['rouge2_summary'], s['excerpt'], sim_model, ParaphraseSummaryResult,
             )
             s['paraphrased_summary'] = candidate
             s['paraphrased_rouge2_summary'] = round(rouge2, 4)
@@ -181,37 +181,37 @@ def step_6_paraphrase(rephrased_statements, embedding_model, sim_model):
 def paraphrasing_monitoring_html(statements: list, embedding_model_name: str) -> str:
     """Return paraphrasing_content for the monitoring report."""
     method_description = (
-        "Rephrased statements or summaries that borrow too much wording from the source passage are "
+        "Rephrased statements or summaries that borrow too much wording from the source excerpt are "
         "rewritten a second time through an adversarial paraphrasing loop designed to "
         "maximise lexical distance while preserving meaning. "
         "<ul>"
         "<li><b>ROUGE-2 precision screening.</b> For every statement the bigram overlap with its source "
-        "passage is computed separately for the long rephrased version and for the single-sentence summary. "
+        "excerpt is computed separately for the long rephrased version and for the single-sentence summary. "
         "A statement is flagged if either score exceeds the threshold (ROUGE-2 precision &gt; 0.30). "
         "Each version that exceeds the threshold is then paraphrased independently; versions below it are "
         "passed through unchanged. "
         "This metric is chosen because it works for comparing a short text (the statement) "
-        "to a long one (the passage).</li>"
+        "to a long one (the excerpt).</li>"
         f"<li><b>Adversarial paraphrasing loop (up to {MAX_ITERATIONS} iterations).</b> The LLM is asked to "
         "rewrite the flagged version using entirely different vocabulary and sentence structure "
         "while preserving every fact, number, proper noun, and the exact same meaning. "
         "Each candidate is evaluated against two criteria: "
         f"(1) <i>cosine similarity</i> ≥ 0.75 (semantic fidelity, measured with "
         f"<code>{embedding_model_name}</code>); "
-        "(2) <i>ROUGE-2 precision</i> &lt; 0.30 (sufficient lexical distance from the passage). "
+        "(2) <i>ROUGE-2 precision</i> &lt; 0.30 (sufficient lexical distance from the excerpt). "
         "If a candidate fails, targeted feedback is returned to the model "
         "(“meaning has drifted” or “too many shared phrases”) and the loop retries. "
         "If no iteration meets both criteria, the candidate with the lowest ROUGE-2 is kept.</li>"
         "</ul>"
     )
     content_parts = []
-    current_passage_id = -1
+    current_excerpt_id = -1
     for entry in statements:
-        if entry['passage_index'] != current_passage_id:
-            current_passage_id = entry['passage_index']
+        if entry['excerpt_index'] != current_excerpt_id:
+            current_excerpt_id = entry['excerpt_index']
             content_parts.append(
-                f"<details><summary>Passage {entry['passage_index'] + 1}</summary>"
-                f"<p>{html_lib.escape(entry['passage'])}</p></details>"
+                f"<details><summary>Excerpt {entry['excerpt_index'] + 1}</summary>"
+                f"<p>{html_lib.escape(entry['excerpt'])}</p></details>"
             )
         section = f"<p><code>{entry['id']}</code> "
         if 'rephrased_statement' in entry:

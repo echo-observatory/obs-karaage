@@ -7,15 +7,15 @@
   "required": ["document_id", "status", "errors", "warnings", "text_length", "text_sha256", "main_point", "main_point_method", "actors", "statements", "provenance"],
   "properties": {
     "document_id": {"type": "string", "minLength": 1, "description": "Id of the input document. Integer ids are written as strings."},
-    "status": {"enum": ["ok", "partial", "failed"], "description": "ok: every step ran without error. partial: every step ran, but some passages or statements failed and are listed in errors, so statements may be missing. failed: a step failed as a whole, and there are no actors, statements or main point."},
-    "errors": {"type": "array", "items": {"$ref": "#/$defs/error"}, "description": "What failed, in pipeline order. Empty when the status is ok."},
+    "status": {"enum": ["ok", "partial", "failed"], "description": "ok: every step ran without error. partial: every step ran, but some excerpts or statements failed and are listed in errors, so statements may be missing. failed: a step failed as a whole, and there are no actors, statements or main point."},
+    "errors": {"type": "array", "items": {"$ref": "#/$defs/error"}, "description": "What failed, in step order. Empty when the status is ok."},
     "warnings": {"type": "array", "items": {"$ref": "#/$defs/warning"}, "description": "Input that looks wrong. Warnings never stop the run."},
     "text_length": {"type": "integer", "minimum": 0, "description": "Length of the text."},
     "text_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "SHA-256 of the UTF-8 text, so that a later change to the text can be detected."},
     "main_point": {"type": ["string", "null"], "description": "One sentence stating the central argument of the text."},
     "main_point_method": {"enum": ["single", "chunked", null], "description": "single: from the whole text in one call. chunked: the text did not fit the context, so its parts were summarised and the summaries combined."},
     "actors": {"type": "array", "items": {"$ref": "#/$defs/actor"}, "description": "The actors the text quotes or cites, as found by attribution. base_author, the text's own voice, is not listed."},
-    "statements": {"type": "array", "items": {"$ref": "#/$defs/statement"}, "description": "Every extracted statement, in extraction order (by passage, then actor), rejected ones included."},
+    "statements": {"type": "array", "items": {"$ref": "#/$defs/statement"}, "description": "Every extracted statement, in extraction order (by excerpt, then actor), rejected ones included."},
     "provenance": {"$ref": "#/$defs/provenance"}
   },
   "allOf": [
@@ -37,14 +37,14 @@
     }
   ],
   "$defs": {
-    "step": {"enum": ["segmentation", "attribution", "passages", "extraction", "rephrasing", "paraphrasing", "validation"]},
+    "step": {"enum": ["segmentation", "attribution", "excerpts", "extraction", "rephrasing", "paraphrasing", "validation"]},
     "error": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["step", "passage", "statement", "message"],
+      "required": ["step", "excerpt", "statement", "message"],
       "properties": {
         "step": {"$ref": "#/$defs/step", "description": "The step where the error happened."},
-        "passage": {"type": ["integer", "null"], "minimum": 1, "description": "The passage whose statements could not be extracted, numbered from 1 as in the HTML report; null otherwise."},
+        "excerpt": {"type": ["integer", "null"], "minimum": 1, "description": "The excerpt whose statements could not be extracted, numbered from 1 as in the HTML report; null otherwise."},
         "statement": {"type": ["string", "null"], "description": "Id of the statement that could not be rephrased or validated; null otherwise."},
         "message": {"type": "string", "description": "The error, as raised."}
       }
@@ -78,8 +78,8 @@
         "actor_aliases": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "description": "The canonical name followed by the aliases; [\"base_author\"] for base_author."},
         "text": {"type": ["string", "null"], "description": "The statement, rephrased to stand alone, and paraphrased when too close to the source wording. Null when rephrasing failed."},
         "text_short": {"type": ["string", "null"], "description": "A one-sentence version of the statement. Null when rephrasing failed."},
-        "char_start": {"type": "integer", "minimum": 0, "description": "Start of the passage the statement comes from, inclusive."},
-        "char_end": {"type": "integer", "minimum": 1, "description": "End of that passage, exclusive."},
+        "char_start": {"type": "integer", "minimum": 0, "description": "Start of the excerpt the statement comes from, inclusive."},
+        "char_end": {"type": "integer", "minimum": 1, "description": "End of that excerpt, exclusive."},
         "valid": {"type": "boolean", "description": "Whether the statement passed validation."},
         "rejection_reason": {"enum": ["validation error", "rephrasing error", "too similar to source", "not found in source text", "wrong actor attribution", null], "description": "Why the statement was rejected; null when it is valid."},
         "diagnostics": {
@@ -87,9 +87,9 @@
           "additionalProperties": false,
           "required": ["rouge2_precision", "paraphrased", "in_text", "actor_correct"],
           "properties": {
-            "rouge2_precision": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "The higher ROUGE-2 precision of text and text_short against the passage; above 0.3 means too close to the source wording. Null when rephrasing failed."},
+            "rouge2_precision": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "The higher ROUGE-2 precision of text and text_short against the excerpt; above 0.3 means too close to the source wording. Null when rephrasing failed."},
             "paraphrased": {"type": "boolean", "description": "Whether text or text_short was paraphrased to move away from the source wording."},
-            "in_text": {"enum": ["yes", "uncertain", "no", null], "description": "The validator's answer: is the statement in the passage? Null when not validated."},
+            "in_text": {"enum": ["yes", "uncertain", "no", null], "description": "The validator's answer: is the statement in the excerpt? Null when not validated."},
             "actor_correct": {"enum": ["yes", "uncertain", "no", null], "description": "The validator's answer: is the actor right? Null when not validated."}
           }
         }
