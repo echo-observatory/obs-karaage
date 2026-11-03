@@ -1,7 +1,7 @@
 # Karaage 1.1.0 design notes
 
 These notes hold the decisions behind the 1.1.0 restructuring and the reasons for them.
-Every 1.1.0 issue links here.
+Every 1.1.0 issue links here. To use Karaage, read the README: it documents what users need.
 Read `AGENTS.md` first. When an issue and these notes disagree, or neither settles a question, ask before deciding (section 9).
 
 ## 1. Scope
