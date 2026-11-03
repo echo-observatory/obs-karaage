@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling>=1.18", "hatch-vcs>=0.4"]
+requires = ["hatchling>=1.27", "hatch-vcs>=0.4"]   # 1.27: licence metadata (PEP 639)
 build-backend = "hatchling.build"
 
 [project]
@@ -8,6 +8,8 @@ dynamic = ["version"]
 description = "Extracts attributable statements from English news articles and rephrases them, with a reference to their source excerpt"
 readme = "README.md"
 requires-python = ">=3.12"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
 authors = [{ name = "DTU RSO Observatory" }]
 # Bounds allow the tested major versions; uv.lock pins the exact versions of a release.
 dependencies = [

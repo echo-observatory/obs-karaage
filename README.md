@@ -263,3 +263,10 @@ A change to the output alone, which sends no new request to the LLM, needs no re
 
 `data/test-datasets/wikinews-piracy-30/` holds 30 English Wikinews articles about piracy, file sharing and DRM, under CC BY 2.5 or in the public domain.
 See its README for sources, licences and attribution. Its canonical home is `echo-observatory/obs-test-datasets`.
+
+## Licence
+
+Karaage is free software: you can redistribute it and modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License or (at your option) any later version. See [`LICENSE`](LICENSE). Copyright © 2026 the obs-karaage authors.
+
+- `src/karaage/simple.min.css` is [Simple.css](https://simplecss.org), under the MIT licence; its notice is in the file.
+- The test dataset has its own licences: see its README.
