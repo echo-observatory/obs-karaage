@@ -50,7 +50,16 @@ filterwarnings = ["ignore:.*does not define `arg_constraints`:UserWarning"]
 # Rebuild the installed package, and so its version and commit, when the git commit or tags change.
 cache-keys = [{ file = "pyproject.toml" }, { file = "hatch_build.py" }, { git = { commit = true, tags = true } }]
 
+[tool.uv.sources]
+# The snapshot validator is private, and installed from a clone next to this repo (docs/design-1.1.0.md, section 9).
+obs-corpus-snapshot = { path = "../obs-corpus-snapshot" }
+
 [dependency-groups]
 dev = [
+    "jsonschema>=4.23",
     "pytest>=9.2.0",
+]
+# Not installed by default: uv run --group snapshot pytest
+snapshot = [
+    "obs-corpus-snapshot",
 ]
