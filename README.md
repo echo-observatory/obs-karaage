@@ -3,7 +3,7 @@
 Karaage infers attributable statements from English news articles. Each statement comes with the actor who made it, a rephrased version that stands alone, and the excerpt of the text it comes from.
 It is the "Infer statements" step of the Observatory pipeline; see the `pipeline` repo for how the components fit together.
 
-**Status:** 1.1.0 is the first release of Karaage as a versioned package. Each release is on GitHub, with its package, a requirements file of the exact dependency versions it was tested with, and a reference run on the test dataset.
+**Status:** the latest release is 1.2.0. Releases start at 1.1.0, the first of Karaage as a versioned package. Each release is on GitHub, with its package, a requirements file of the exact dependency versions it was tested with, and a reference run on the test dataset.
 
 ## Quick start
 
@@ -43,15 +43,15 @@ Karaage needs Python 3.12 or later.
 **A release,** from its git tag:
 
 ```bash
-pip install "obs-karaage @ git+https://github.com/echo-observatory/obs-karaage@v1.1.0"
+pip install "obs-karaage @ git+https://github.com/echo-observatory/obs-karaage@v1.2.0"
 karaage download-models
 ```
 
 pip resolves the dependencies' versions within the bounds of `pyproject.toml`, and library versions can change the output. For the exact versions a release was tested with, download its requirements file and wheel from the [release page](https://github.com/echo-observatory/obs-karaage/releases):
 
 ```bash
-pip install -r obs-karaage-1.1.0-requirements.txt
-pip install --no-deps obs_karaage-1.1.0-py3-none-any.whl
+pip install -r obs-karaage-1.2.0-requirements.txt
+pip install --no-deps obs_karaage-1.2.0-py3-none-any.whl
 karaage download-models
 ```
 
@@ -62,7 +62,7 @@ The package is named `obs-karaage` because `karaage` on PyPI is an unrelated pro
 ```bash
 git clone https://github.com/echo-observatory/obs-karaage.git
 cd obs-karaage
-git checkout v1.1.0              # or stay on main for the development version
+git checkout v1.2.0              # or stay on main for the development version
 uv sync                          # creates .venv with the exact versions in uv.lock
 uv run karaage download-models
 ```
@@ -259,7 +259,7 @@ Releases are made by [`.github/workflows/release.yml`](.github/workflows/release
 
 ## Development
 
-[`AGENTS.md`](AGENTS.md) holds the conventions for working on this repo, and [`docs/design-1.1.0.md`](docs/design-1.1.0.md) the decisions behind 1.1.0.
+[`AGENTS.md`](AGENTS.md) holds the conventions for working on this repo, and [`docs/design-1.1.0.md`](docs/design-1.1.0.md) the decisions behind 1.1.0, and the changes made to them since.
 
 ### Tests
 
