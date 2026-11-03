@@ -1,4 +1,4 @@
-"""Model profiles: which model, and how it is driven (docs/design-1.1.0.md, section 4.2).
+"""Model profiles: which model, on which backend, and how it is driven (docs/design-1.1.0.md, section 4.2).
 
 Shipped profiles live in karaage/profiles/ and their names are reserved. A
 profile file passed by path is a custom profile; outputs label it `custom:<name>`.
@@ -13,13 +13,29 @@ from pathlib import Path
 REASONING_OFF = ("none", "no-think-tag", "prefill-empty-think", "request-parameter")
 
 _TOP_KEYS = {"name", "description", "context_tokens", "temperature", "seed", "embedding_model", "backends"}
-_BACKEND_KEYS = {"model", "reasoning_off"}
+
+# The keys of a profile's backend section, per backend. Besides the model, a section fixes
+# the build the backend serves where it can: the build changes the answers (section 4.1).
+_BACKEND_KEYS = {
+    "lmstudio": {"model", "reasoning_off", "format", "quantization"},
+    "openrouter": {"model", "reasoning_off", "quantizations", "providers"},
+    "openai": {"model", "reasoning_off"},   # any other OpenAI-compatible server; its build can't be read
+}
 
 
 @dataclass(frozen=True)
 class BackendModel:
-    model: str           # the model id on that backend
-    reasoning_off: str   # one of REASONING_OFF
+    model: str                              # the model id on that backend
+    reasoning_off: str                      # one of REASONING_OFF
+    format: str | None = None               # lmstudio: the build's format, as LM Studio reports it (e.g. "mlx")
+    quantization: str | None = None         # lmstudio: the build's quantisation, as LM Studio reports it (e.g. "4bit")
+    quantizations: tuple[str, ...] | None = None   # openrouter: the precisions providers may serve (e.g. "bf16")
+    providers: tuple[str, ...] | None = None       # openrouter: the only providers allowed, by slug
+
+    def to_dict(self) -> dict:
+        """The section as in the profile file, without the keys it doesn't set."""
+        return {key: list(value) if isinstance(value, tuple) else value
+                for key, value in asdict(self).items() if value is not None}
 
 
 @dataclass(frozen=True)
@@ -29,7 +45,7 @@ class Profile:
     context_tokens: int
     temperature: float
     embedding_model: str
-    backends: dict[str, BackendModel]
+    backends: dict[str, BackendModel]   # exactly one: the backend the profile runs on
     seed: int | None = None
     custom: bool = False
 
@@ -38,16 +54,19 @@ class Profile:
         """The name recorded in outputs."""
         return f"custom:{self.name}" if self.custom else self.name
 
-    def for_backend(self, backend: str) -> BackendModel:
-        if backend not in self.backends:
-            raise ValueError(
-                f"Profile {self.label!r} has no section for backend {backend!r} "
-                f"(it supports: {', '.join(self.backends)})."
-            )
-        return self.backends[backend]
+    @property
+    def backend(self) -> str:
+        """The backend the profile runs on: the name of its only backend section."""
+        return next(iter(self.backends))
+
+    @property
+    def backend_model(self) -> BackendModel:
+        return self.backends[self.backend]
 
     def to_dict(self) -> dict:
-        return asdict(self)
+        data = asdict(self)
+        data["backends"] = {name: section.to_dict() for name, section in self.backends.items()}
+        return data
 
 
 def shipped_profiles() -> list[str]:
@@ -78,23 +97,33 @@ def _parse(data: dict, *, custom: bool) -> Profile:
     unknown = set(data) - _TOP_KEYS
     if unknown:
         raise ValueError(f"Unknown profile keys: {', '.join(sorted(unknown))}")
-    backends = {}
-    for backend, section in data.get("backends", {}).items():
-        unknown = set(section) - _BACKEND_KEYS
-        if unknown:
-            raise ValueError(f"Unknown keys in [backends.{backend}]: {', '.join(sorted(unknown))}")
-        if section.get("reasoning_off") not in REASONING_OFF:
-            raise ValueError(f"[backends.{backend}] reasoning_off must be one of: {', '.join(REASONING_OFF)}")
-        backends[backend] = BackendModel(model=section["model"], reasoning_off=section["reasoning_off"])
-    if not backends:
-        raise ValueError("A profile needs at least one [backends.<name>] section.")
+    sections = data.get("backends", {})
+    if len(sections) != 1:
+        raise ValueError(f"A profile needs exactly one [backends.<name>] section, the backend it runs on "
+                         f"({', '.join(_BACKEND_KEYS)}); this one has {len(sections)}.")
+    (backend, section), = sections.items()
+    if backend not in _BACKEND_KEYS:
+        raise ValueError(f"Unknown backend [backends.{backend}]; expected one of: {', '.join(_BACKEND_KEYS)}.")
+    unknown = set(section) - _BACKEND_KEYS[backend]
+    if unknown:
+        raise ValueError(f"Unknown keys in [backends.{backend}]: {', '.join(sorted(unknown))}")
+    if section.get("reasoning_off") not in REASONING_OFF:
+        raise ValueError(f"[backends.{backend}] reasoning_off must be one of: {', '.join(REASONING_OFF)}")
+    if backend == "lmstudio" and not (section.get("format") and section.get("quantization")):
+        raise ValueError("[backends.lmstudio] needs the build's format and quantization, as LM Studio reports them.")
+    if backend == "openrouter" and not (section.get("quantizations") or section.get("providers")):
+        raise ValueError("[backends.openrouter] needs quantizations or providers, "
+                         "so that the precision the model runs at is fixed.")
+    lists = {key: tuple(section[key]) for key in ("quantizations", "providers") if key in section}
+    backend_model = BackendModel(model=section["model"], reasoning_off=section["reasoning_off"],
+                                 format=section.get("format"), quantization=section.get("quantization"), **lists)
     return Profile(
         name=data["name"],
         description=data.get("description", ""),
         context_tokens=int(data["context_tokens"]),
         temperature=float(data["temperature"]),
         embedding_model=data["embedding_model"],
-        backends=backends,
+        backends={backend: backend_model},
         seed=data.get("seed"),
         custom=custom,
     )

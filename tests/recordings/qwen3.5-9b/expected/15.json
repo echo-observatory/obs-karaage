@@ -100,18 +100,16 @@
   "profile": "qwen3.5-9b",
   "profile_settings": {
    "name": "qwen3.5-9b",
-   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "description": "Qwen3.5 9B on LM Studio, MLX 4-bit, with reasoning off. Default profile; the prompts were written for this model.",
    "context_tokens": 8000,
    "temperature": 0.0,
    "embedding_model": "intfloat/multilingual-e5-large-instruct",
    "backends": {
     "lmstudio": {
      "model": "qwen/qwen3.5-9b",
-     "reasoning_off": "request-parameter"
-    },
-    "openrouter": {
-     "model": "qwen/qwen3.5-9b",
-     "reasoning_off": "request-parameter"
+     "reasoning_off": "request-parameter",
+     "format": "mlx",
+     "quantization": "4bit"
     }
    },
    "seed": null,

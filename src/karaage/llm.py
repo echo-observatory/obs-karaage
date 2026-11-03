@@ -25,7 +25,7 @@ from pathlib import Path
 from openai import APIStatusError, OpenAI
 from openai.types.chat import ChatCompletion
 
-from karaage.config import Settings
+from karaage.config import Settings, connection
 from karaage.profile import Profile
 
 MAX_RETRIES = 3          # the SDK retries connection errors, timeouts, 429 and 5xx, with exponential backoff
@@ -45,7 +45,7 @@ class RecordedError(RuntimeError):
 
 
 class LLMClient:
-    """An OpenAI-compatible client set up for one backend and one profile."""
+    """An OpenAI-compatible client set up for one profile, on the backend it names."""
 
     def __init__(self, settings: Settings, profile: Profile, *, mode: str = "live", recordings=None):
         """`mode` and `recordings` are for the test suite: `record` or `replay`, with the recordings'
@@ -54,13 +54,13 @@ class LLMClient:
             raise ValueError(f"The LLM mode must be one of: {', '.join(LLM_MODES)}.")
         if mode != "live" and recordings is None:
             raise ValueError(f"The {mode} mode needs a recordings directory.")
-        backend_model = profile.for_backend(settings.backend)
-        self.backend = settings.backend
-        self.base_url = settings.base_url
+        self.backend = profile.backend
+        self.base_url, api_key = connection(settings, self.backend)
         self.profile = profile
-        self.model = backend_model.model
-        self.reasoning_off = backend_model.reasoning_off
-        self.client = OpenAI(base_url=settings.base_url, api_key=settings.api_key,
+        self.backend_model = profile.backend_model
+        self.model = self.backend_model.model
+        self.reasoning_off = self.backend_model.reasoning_off
+        self.client = OpenAI(base_url=self.base_url, api_key=api_key,
                              max_retries=MAX_RETRIES, timeout=TIMEOUT_SECONDS)
         self.model_reported = None   # model id given by the server in its latest response
         self.model_build = None      # LM Studio only: the build that is loaded (lmstudio_build)
@@ -91,7 +91,11 @@ class LLMClient:
         self.providers.clear()
 
     def check(self) -> None:
-        """Check that the backend serves the profile's model, and on LM Studio record and check its build."""
+        """Check that the backend serves the profile's model, and on LM Studio record and check its build.
+
+        On LM Studio, a build other than the profile's is refused: the outputs would carry
+        the profile's name, but answers depend on the build (docs/design-1.1.0.md, section 4.2).
+        """
         if self.mode == "replay":
             return
         available = {m.id for m in self.client.models.list().data}
@@ -103,9 +107,18 @@ class LLMClient:
         if self.backend != "lmstudio":
             return
         self.model_build = lmstudio_build(self.base_url, self.model)
+        expected = (self.backend_model.format, self.backend_model.quantization)
         if self.model_build is None:
-            print(f"⚠️  Could not read the build of {self.model} from LM Studio's API; it will not be recorded.")
-        elif not self.model_build["loaded"]:
+            print(f"⚠️  Could not read the build of {self.model} from LM Studio's API: it will not be recorded, "
+                  f"nor checked against the {' '.join(expected)} build of profile {self.profile.label!r}.")
+            return
+        found = (self.model_build["format"], self.model_build["quantization"])
+        if found != expected:
+            raise ValueError(
+                f"LM Studio has {self.model} as {' '.join(map(str, found))}, but profile {self.profile.label!r} "
+                f"is for the {' '.join(expected)} build. Download that build, or use a profile made for this one."
+            )
+        if not self.model_build["loaded"]:
             print(f"⚠️  {self.model} is not loaded in LM Studio: it would load with LM Studio's default settings. "
                   f"Load it with a context length of at least {self.profile.context_tokens}.")
         elif self.model_build["context_length"] < self.profile.context_tokens:
@@ -128,7 +141,12 @@ class LLMClient:
             else:
                 extra_body["reasoning_effort"] = "none"
         if self.backend == "openrouter":
-            extra_body["provider"] = {"require_parameters": True, "data_collection": "deny"}
+            provider = {"require_parameters": True, "data_collection": "deny"}
+            if self.backend_model.quantizations:   # the profile fixes the precision (docs/design-1.1.0.md, section 4.2)
+                provider["quantizations"] = list(self.backend_model.quantizations)
+            if self.backend_model.providers:
+                provider["only"] = list(self.backend_model.providers)
+            extra_body["provider"] = provider
 
         kwargs = dict(
             model=self.model,

@@ -49,8 +49,8 @@ def nlp():
 
 @pytest.fixture(scope="session")
 def resources():
-    """The default profile on LM Studio, replaying recorded responses unless KARAAGE_LLM_MODE says otherwise."""
-    return karaage._setup(load_settings(backend="lmstudio", profile=PROFILE), llm_mode=LLM_MODE, recordings=RECORDINGS)
+    """The default profile, replaying recorded responses unless KARAAGE_LLM_MODE says otherwise."""
+    return karaage._setup(load_settings(profile=PROFILE), llm_mode=LLM_MODE, recordings=RECORDINGS)
 
 
 @pytest.fixture(scope="session")

@@ -121,9 +121,9 @@
         "profile_settings": {
           "type": "object",
           "required": ["name", "description", "context_tokens", "temperature", "embedding_model", "backends", "seed", "custom"],
-          "description": "The resolved profile: model id per backend, generation parameters, context size, reasoning switch-off and embedding model."
+          "description": "The resolved profile: generation parameters, context size, embedding model, and the section of the backend it runs on (since 1.2.0, exactly one): model id, reasoning switch-off and build."
         },
-        "backend": {"type": "string", "description": "lmstudio, openrouter, or openai for another OpenAI-compatible server."},
+        "backend": {"type": "string", "description": "The profile's backend: lmstudio, openrouter, or openai for another OpenAI-compatible server."},
         "model": {"type": "string", "description": "The model id the profile asks for on this backend."},
         "model_reported": {"type": ["string", "null"], "description": "The model id the server returned; null when the document needed no LLM call."},
         "model_build": {"type": ["object", "null"], "description": "On LM Studio, the loaded build (publisher, format, quantization, loaded, context_length). On OpenRouter, {\"providers\": [...]}, the providers that served this document's requests. Null when unknown."},
