@@ -1,0 +1,13 @@
+name = "qwen3.5-9b-openrouter"
+description = "Qwen3.5 9B on OpenRouter, from bf16 providers only, with reasoning off. For public data only: Retriever data must never be sent to OpenRouter."
+
+context_tokens = 8000   # as the default profile, so that texts are split the same way
+temperature = 0
+embedding_model = "intfloat/multilingual-e5-large-instruct"
+
+# bf16 is served by DeepInfra, Parasail and PrimeIntellect (November 2026); other providers
+# run the model in fp8 or fp4, or don't say.
+[backends.openrouter]
+model = "qwen/qwen3.5-9b"
+reasoning_off = "request-parameter"
+quantizations = ["bf16"]

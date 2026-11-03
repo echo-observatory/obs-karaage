@@ -117,30 +117,34 @@ Paraphrasing (step 6) and validation's rejection of statements "too similar to s
 
 ### 4.1 Backend
 
-The backend says where the model runs. It is local configuration and not part of the method.
+The backend says where the model runs: LM Studio, OpenRouter, or another OpenAI-compatible server. Since 1.2.0, the profile names it (section 4.2); how to reach it is local configuration.
+
+*Changed in 1.2.0 (#36).* Until then, the backend was local configuration and not part of the method: `KARAAGE_BACKEND` chose it, and a profile had a section for each backend that could run it. But the backend changes the answers. The same profile ran MLX 4-bit on LM Studio and bf16, fp8 or fp4 on OpenRouter, depending on the provider, and LM Studio's MLX engine does not enforce `maxLength`. The profile is what labels the method downstream (`inference_profile` in snapshots), so statements made on two backends carried the same label.
+
 Settings are read from environment variables, or from a `.env` file through python-dotenv, into a frozen dataclass (`karaage.config`).
-`load_settings(**overrides)` returns it, with keyword arguments overriding the environment. The `.env` file is looked for in the working directory and its parents.
+`load_settings(**overrides)` returns it, with keyword arguments overriding the environment, and `connection()` gives the base URL and API key for the profile's backend, with the backend's defaults. The `.env` file is looked for in the working directory and its parents.
 
 | Variable | Meaning | Default |
 | --- | --- | --- |
-| `KARAAGE_BACKEND` | `lmstudio`, `openrouter` or `openai` (any other OpenAI-compatible server) | `lmstudio` |
-| `KARAAGE_BASE_URL` | API base URL | `http://127.0.0.1:1234/v1` for `lmstudio`, `https://openrouter.ai/api/v1` for `openrouter`, none for `openai` |
-| `KARAAGE_API_KEY` | API key | `lm-studio` for `lmstudio`, required otherwise |
 | `KARAAGE_PROFILE` | name of a shipped profile, or path to a profile file | the release's default profile |
+| `KARAAGE_BASE_URL` | API base URL of the profile's backend | `http://127.0.0.1:1234/v1` for `lmstudio`, `https://openrouter.ai/api/v1` for `openrouter`, none for `openai` |
+| `KARAAGE_API_KEY` | API key | `lm-studio` for `lmstudio`, required otherwise |
 
-For `openrouter`, requests set the provider options `require_parameters: true` and `data_collection: "deny"`. With `require_parameters`, only providers that support every parameter sent are used, which is one reason why profiles send no seed at temperature 0.
+A `KARAAGE_BACKEND` still set in the environment or `.env` is an error rather than ignored, so that an old `.env` cannot send a run to another backend than intended.
 
-For `lmstudio`, `setup()` also reads LM Studio's own API (`/api/v1/models`) to record the loaded build of the model: publisher, format, quantisation and context length. It warns when the model is not loaded, because LM Studio would then load it with its own default settings, and when the loaded context is shorter than the profile's `context_tokens`.
-Retriever data must never be sent to OpenRouter or any other external API; this is a team rule that the code does not enforce.
+For `openrouter`, requests set the provider options `require_parameters: true` and `data_collection: "deny"`, plus the profile's `quantizations`, and its `providers` as `only`. With `require_parameters`, only providers that support every parameter sent are used, which is one reason why profiles send no seed at temperature 0.
+
+For `lmstudio`, `setup()` also reads LM Studio's own API (`/api/v1/models`) to record the build of the model: publisher, format, quantisation, whether it is loaded, and its context length. It refuses a build other than the profile's. It warns when it cannot read the build, which then is neither recorded nor checked; when the model is not loaded, because LM Studio would then load it with its own default settings; and when the loaded context is shorter than the profile's `context_tokens`.
+Retriever data must never be sent to OpenRouter or any other external API; this is a team rule that the code does not enforce. It comes down to the choice of a profile on a local backend.
 
 ### 4.2 Profile
 
 A profile is a TOML file. Shipped profiles live in `src/karaage/profiles/`, and their names are reserved.
-The same model can have different ids, and need a different way of turning reasoning off, on each backend. So a profile has one section per backend it supports; a backend without a section cannot run the profile.
+A profile has exactly one `[backends.<name>]` section, whose name is the backend it runs on (section 4.1). The section gives the model id on that backend, how to turn reasoning off there, and the build where the backend allows it. A table with one section, rather than a top-level `backend` key, keeps the output's `profile_settings` in the shape the schema requires, so that 1.2.0 does not break the output format.
 
 ```toml
 name = "qwen3.5-9b"
-description = "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model."
+description = "Qwen3.5 9B on LM Studio, MLX 4-bit, with reasoning off. Default profile; the prompts were written for this model."
 
 context_tokens = 8000        # LM Studio must load the model with a context length of at least this
 temperature = 0
@@ -148,13 +152,20 @@ embedding_model = "intfloat/multilingual-e5-large-instruct"
 # seed = 0                   # optional; sent with every request when set
 
 [backends.lmstudio]
-model = "qwen/qwen3.5-9b"    # LM Studio's own build: MLX 4-bit on Apple silicon, GGUF on other systems
-reasoning_off = "request-parameter"
-
-[backends.openrouter]
 model = "qwen/qwen3.5-9b"
 reasoning_off = "request-parameter"
+format = "mlx"               # the build, as LM Studio reports it
+quantization = "4bit"
 ```
+
+The build, per backend:
+- `lmstudio`: `format` and `quantization`, both required, as LM Studio reports them. LM Studio offers this model in MLX 4-bit on Apple silicon and in GGUF elsewhere, so a machine without MLX needs a profile of its own; none is shipped yet.
+- `openrouter`: `quantizations`, the precisions allowed, or `providers`, the only providers allowed by their OpenRouter slugs, or both. At least one is required, so that the precision is fixed.
+- `openai`: none, since Karaage cannot read the build of another server.
+
+Shipped profiles in 1.2.0:
+- `qwen3.5-9b`, the default: LM Studio, MLX 4-bit, the build of the 1.1.0 reference run. Its requests are those of 1.1.0.
+- `qwen3.5-9b-openrouter`: the same model and settings on OpenRouter, from bf16 providers only: DeepInfra, Parasail and PrimeIntellect in November 2026; the others run the model in fp8 or fp4, or don't say. For public data only.
 
 Unknown keys are errors, so that a typo cannot silently fall back to a default. `seed` is optional: at temperature 0 it changes nothing, and on OpenRouter it would exclude providers that do not support it.
 
@@ -185,7 +196,7 @@ Two problems in the pre-1.1.0 code that this resolves:
 ## 5. Input
 
 The Python API keeps its current shape:
-- `karaage.setup(profile=None, backend=None, base_url=None, api_key=None)` loads the NLP models, the embedding model and the LLM client once, from the backend settings and a profile; the keyword arguments override the environment (section 4.1).
+- `karaage.setup(profile=None, base_url=None, api_key=None)` loads the NLP models, the embedding model and the LLM client once, from a profile and the settings to reach its backend (`backend=` until 1.2.0); the keyword arguments override the environment (section 4.1).
 - `karaage.run(document, resources)` processes one document.
 - `karaage.save(...)` writes the output files.
 
@@ -289,7 +300,7 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
 - **Provenance:**
   - `commit` is the git commit Karaage was built from, recorded at build time, so that installed releases carry it too;
   - `profile_settings` is the resolved profile, and `paraphrase` whether paraphrasing was on (section 3.10);
-  - `model` is the id the profile asks for on this backend, and `model_reported` the id the server returns;
+  - `backend` is the profile's backend, `model` the id the profile asks for on it, and `model_reported` the id the server returns;
   - `model_build` is the loaded build as LM Studio reports it (section 4.1); on OpenRouter, the providers that served the document's requests, since they may run different precisions; `null` on other backends.
 - **`inferred_at`:** UTC in the snapshot format `YYYY-MM-DDTHH:MM:SSZ`.
 - **`step_seconds`:** the duration of each step that ran, keyed by the step names above.

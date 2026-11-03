@@ -66,15 +66,15 @@ def set_verbose(value: bool) -> None:
         mod.verbose = value
 
 
-def setup(*, profile=None, backend=None, base_url=None, api_key=None) -> Resources:
-    """Connect to the LLM backend and load the models, once per session.
+def setup(*, profile=None, base_url=None, api_key=None) -> Resources:
+    """Connect to the profile's backend and load the models, once per session.
 
-    The backend settings and the profile come from KARAAGE_* environment
-    variables or a .env file (docs/design-1.1.0.md, section 4); keyword
-    arguments override them. `profile` is a shipped profile name or a path.
+    The profile, a shipped profile name or a path, names the backend. It and the
+    connection settings come from KARAAGE_* environment variables or a .env file
+    (docs/design-1.1.0.md, section 4); keyword arguments override them.
     The LLM is always called live.
     """
-    return _setup(load_settings(profile=profile, backend=backend, base_url=base_url, api_key=api_key))
+    return _setup(load_settings(profile=profile, base_url=base_url, api_key=api_key))
 
 
 def _setup(settings, *, llm_mode: str = "live", recordings=None) -> Resources:
@@ -90,7 +90,7 @@ def _setup(settings, *, llm_mode: str = "live", recordings=None) -> Resources:
     build = client.model_build
     build_str = f", {build['format']} {build['quantization']}" if build else ""
     replay = " (replaying recorded responses)" if client.mode == "replay" else ""
-    print(f"Profile {client.profile.label}: {client.model}{build_str} on {client.backend} at {settings.base_url}{replay}")
+    print(f"Profile {client.profile.label}: {client.model}{build_str} on {client.backend} at {client.base_url}{replay}")
     sim_model = load_embedding_model(client.profile.embedding_model)
     nlp = load_nlp_pipeline()
     return Resources(client=client, nlp=nlp, sim_model=sim_model)

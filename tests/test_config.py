@@ -1,13 +1,14 @@
-"""Backend settings, profiles, request construction and record/replay (no LLM needed)."""
+"""Settings, profiles, request construction and record/replay (no LLM needed)."""
 
 import types
 
 import pytest
 from openai.types.chat import ChatCompletion
 
-from karaage.config import load_settings
+from karaage import llm
+from karaage.config import connection, load_settings
 from karaage.llm import LLMClient, RecordedError, ReplayMissError
-from karaage.profile import load_profile
+from karaage.profile import load_profile, shipped_profiles
 
 CUSTOM_PROFILE = """\
 name = "my-test"
@@ -19,6 +20,15 @@ embedding_model = "x"
 [backends.openai]
 model = "m"
 reasoning_off = "none"
+"""
+CUSTOM_HEADER = CUSTOM_PROFILE.split("[backends")[0]   # without its backend section
+
+LMSTUDIO_SECTION = """\
+[backends.lmstudio]
+model = "m"
+reasoning_off = "none"
+format = "mlx"
+quantization = "4bit"
 """
 
 
@@ -55,41 +65,74 @@ def sent_request(settings, profile):
     return sent
 
 
-def test_default_profile():
-    profile = load_profile("qwen3.5-9b")
-    assert (profile.label, profile.context_tokens, profile.temperature, profile.seed) == ("qwen3.5-9b", 8000, 0.0, None)
-    assert set(profile.backends) == {"lmstudio", "openrouter"}
+def test_shipped_profiles():
+    assert shipped_profiles() == ["qwen3.5-9b", "qwen3.5-9b-openrouter"]
+    local = load_profile("qwen3.5-9b")
+    assert (local.label, local.context_tokens, local.temperature, local.seed) == ("qwen3.5-9b", 8000, 0.0, None)
+    assert local.to_dict()["backends"] == {"lmstudio": {
+        "model": "qwen/qwen3.5-9b", "reasoning_off": "request-parameter", "format": "mlx", "quantization": "4bit"}}
+    remote = load_profile("qwen3.5-9b-openrouter")
+    assert remote.to_dict()["backends"] == {"openrouter": {
+        "model": "qwen/qwen3.5-9b", "reasoning_off": "request-parameter", "quantizations": ["bf16"]}}
+    # Otherwise the same, so that the two differ only in where, and in which build, the model runs.
+    def rest(profile):
+        return {k: v for k, v in profile.to_dict().items() if k not in ("name", "description", "backends")}
+    assert rest(remote) == rest(local)
 
 
 def test_custom_profiles(tmp_path):
-    assert load_profile(write_profile(tmp_path, CUSTOM_PROFILE)).label == "custom:my-test"
+    profile = load_profile(write_profile(tmp_path, CUSTOM_PROFILE))
+    assert (profile.label, profile.backend, profile.backend_model.model) == ("custom:my-test", "openai", "m")
     with pytest.raises(ValueError, match="reserved"):
         load_profile(write_profile(tmp_path, CUSTOM_PROFILE.replace("my-test", "qwen3.5-9b")))
     with pytest.raises(ValueError, match="Unknown profile keys: sead"):
         load_profile(write_profile(tmp_path, CUSTOM_PROFILE.replace("seed", "sead")))
     with pytest.raises(ValueError, match="No profile 'nope'"):
         load_profile("nope")
-    with pytest.raises(ValueError, match="no section for backend 'openai'"):
-        load_profile("qwen3.5-9b").for_backend("openai")
+
+
+@pytest.mark.parametrize("sections, error", [
+    ("", "exactly one"),
+    (LMSTUDIO_SECTION + '\n[backends.openai]\nmodel = "m"\nreasoning_off = "none"\n', "exactly one"),
+    ('[backends.ollama]\nmodel = "m"\nreasoning_off = "none"\n', "Unknown backend"),
+    (LMSTUDIO_SECTION.replace('quantization = "4bit"\n', ""), "needs the build's format and quantization"),
+    (LMSTUDIO_SECTION + 'quantizations = ["bf16"]\n', r"Unknown keys in \[backends.lmstudio\]: quantizations"),
+    ('[backends.openrouter]\nmodel = "m"\nreasoning_off = "none"\n', "needs quantizations or providers"),
+])
+def test_backend_sections(tmp_path, sections, error):
+    with pytest.raises(ValueError, match=error):
+        load_profile(write_profile(tmp_path, CUSTOM_HEADER + sections))
 
 
 def test_settings(monkeypatch):
     settings = load_settings()
-    assert (settings.backend, settings.base_url, settings.api_key, settings.profile) == (
-        "lmstudio", "http://127.0.0.1:1234/v1", "lm-studio", "qwen3.5-9b")
+    assert (settings.profile, settings.base_url, settings.api_key) == ("qwen3.5-9b", None, None)
     assert "api_key" not in repr(settings)
+    assert connection(settings, "lmstudio") == ("http://127.0.0.1:1234/v1", "lm-studio")
     with pytest.raises(ValueError, match="needs an API key"):
-        load_settings(backend="openrouter")
+        connection(settings, "openrouter")
     with pytest.raises(ValueError, match="needs a base URL"):
-        load_settings(backend="openai", api_key="k")
-    with pytest.raises(TypeError, match="Unknown settings"):
-        load_settings(model="x")
+        connection(load_settings(api_key="k"), "openai")
+    with pytest.raises(TypeError, match="Unknown settings: backend"):
+        load_settings(backend="openrouter")
 
-    monkeypatch.setenv("KARAAGE_BACKEND", "openrouter")
+    monkeypatch.setenv("KARAAGE_PROFILE", "qwen3.5-9b-openrouter")
     monkeypatch.setenv("KARAAGE_API_KEY", "from-env")
     settings = load_settings()
-    assert (settings.backend, settings.base_url, settings.api_key) == ("openrouter", "https://openrouter.ai/api/v1", "from-env")
-    assert load_settings(backend="lmstudio").backend == "lmstudio"   # arguments override the environment
+    assert settings.profile == "qwen3.5-9b-openrouter"
+    assert connection(settings, "openrouter") == ("https://openrouter.ai/api/v1", "from-env")
+    assert load_settings(profile="qwen3.5-9b").profile == "qwen3.5-9b"   # arguments override the environment
+
+
+@pytest.mark.parametrize("source", ["environment", ".env"])
+def test_backend_setting_is_refused(source, monkeypatch, tmp_path):
+    """Since 1.2.0 the profile sets the backend: an old KARAAGE_BACKEND is an error, not ignored."""
+    if source == ".env":
+        (tmp_path / ".env").write_text("KARAAGE_BACKEND=openrouter\n")
+    else:
+        monkeypatch.setenv("KARAAGE_BACKEND", "openrouter")
+    with pytest.raises(ValueError, match="the profile sets the backend"):
+        load_settings()
 
 
 def test_dotenv(tmp_path):
@@ -97,14 +140,17 @@ def test_dotenv(tmp_path):
     assert load_settings().profile == "from-dotenv"
 
 
-def test_requests_per_backend():
-    profile = load_profile("qwen3.5-9b")
-    sent = sent_request(load_settings(backend="lmstudio"), profile)
+def test_requests_per_backend(tmp_path):
+    sent = sent_request(load_settings(), load_profile("qwen3.5-9b"))
     assert sent["model"] == "qwen/qwen3.5-9b" and sent["temperature"] == 0.0 and sent["max_tokens"] == 5
     assert sent["extra_body"] == {"reasoning_effort": "none"} and "seed" not in sent
-    sent = sent_request(load_settings(backend="openrouter", api_key="k"), profile)
-    assert sent["extra_body"] == {"reasoning": {"effort": "none"},
-                                  "provider": {"require_parameters": True, "data_collection": "deny"}}
+    sent = sent_request(load_settings(api_key="k"), load_profile("qwen3.5-9b-openrouter"))
+    assert sent["extra_body"] == {"reasoning": {"effort": "none"}, "provider": {
+        "require_parameters": True, "data_collection": "deny", "quantizations": ["bf16"]}}
+
+    section = '[backends.openrouter]\nmodel = "m"\nreasoning_off = "none"\nproviders = ["deepinfra"]\n'
+    sent = sent_request(load_settings(api_key="k"), load_profile(write_profile(tmp_path, CUSTOM_HEADER + section)))
+    assert sent["extra_body"]["provider"] == {"require_parameters": True, "data_collection": "deny", "only": ["deepinfra"]}
 
 
 @pytest.mark.parametrize("strategy, check", [
@@ -114,8 +160,31 @@ def test_requests_per_backend():
 ])
 def test_reasoning_off_strategies(tmp_path, strategy, check):
     profile = load_profile(write_profile(tmp_path, CUSTOM_PROFILE.replace('"none"', f'"{strategy}"')))
-    sent = sent_request(load_settings(backend="openai", base_url="http://x/v1", api_key="k"), profile)
+    sent = sent_request(load_settings(base_url="http://x/v1", api_key="k"), profile)
     assert check(sent) and sent["seed"] == 7
+
+
+def fake_lmstudio(monkeypatch, client, build):
+    """Make LM Studio serve the client's model, as `build` (None: its own API can't be read)."""
+    models = types.SimpleNamespace(data=[types.SimpleNamespace(id=client.model)])
+    client.client = types.SimpleNamespace(models=types.SimpleNamespace(list=lambda: models))
+    monkeypatch.setattr(llm, "lmstudio_build", lambda base_url, model: build)
+
+
+def test_lmstudio_build_is_checked(monkeypatch, capsys):
+    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"))
+    loaded = {"publisher": "qwen", "format": "mlx", "quantization": "4bit", "loaded": True, "context_length": 8192}
+    fake_lmstudio(monkeypatch, client, loaded)
+    client.check()
+    assert client.model_build == loaded and capsys.readouterr().out == ""
+
+    fake_lmstudio(monkeypatch, client, {**loaded, "format": "gguf", "quantization": "Q4_K_M"})
+    with pytest.raises(ValueError, match="as gguf Q4_K_M, but profile 'qwen3.5-9b' is for the mlx 4bit build"):
+        client.check()
+
+    fake_lmstudio(monkeypatch, client, None)
+    client.check()
+    assert "nor checked against the mlx 4bit build" in capsys.readouterr().out
 
 
 def test_record_and_replay(tmp_path):

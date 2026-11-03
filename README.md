@@ -9,7 +9,7 @@ It is the "Infer statements" step of the Observatory pipeline; see the `pipeline
 
 On the test dataset of 30 articles, with [uv](https://docs.astral.sh/uv/) and [LM Studio](https://lmstudio.ai/):
 
-1. In LM Studio, download the model `qwen/qwen3.5-9b`, load it with a context length of at least 8,000 tokens, and start the local server.
+1. In LM Studio, on Apple silicon, download the model `qwen/qwen3.5-9b` in its MLX 4-bit build, load it with a context length of at least 8,000 tokens, and start the local server.
 2. From a clone of this repo:
 
    ```bash
@@ -74,28 +74,34 @@ In a clone, prefix commands with `uv run`, or activate `.venv`.
 
 ## Configuration
 
-Karaage needs a **backend**, which says where the LLM runs, and a **profile**, which says which model to use and how to drive it.
+Karaage needs a **profile**, which says which model to use, on which backend and in which build, and how to drive it. The backend is where the model runs; how to reach it, its URL and API key, is local.
 Set them with `KARAAGE_*` environment variables, or in a `.env` file in the working directory or one of its parents. Copy [`.env.example`](.env.example) to start.
 
 | Variable | Meaning | Default |
 | --- | --- | --- |
-| `KARAAGE_BACKEND` | `lmstudio`, `openrouter`, or `openai` for any other OpenAI-compatible server | `lmstudio` |
-| `KARAAGE_BASE_URL` | API base URL | `http://127.0.0.1:1234/v1` for LM Studio, `https://openrouter.ai/api/v1` for OpenRouter |
-| `KARAAGE_API_KEY` | API key, required for `openrouter` and `openai` | none needed for LM Studio |
 | `KARAAGE_PROFILE` | a shipped profile name, or the path to a profile file | `qwen3.5-9b` |
+| `KARAAGE_BASE_URL` | API base URL of the profile's backend | `http://127.0.0.1:1234/v1` for LM Studio, `https://openrouter.ai/api/v1` for OpenRouter |
+| `KARAAGE_API_KEY` | API key, required for profiles on OpenRouter or another OpenAI-compatible server | none needed for LM Studio |
 
-> **Team rule:** Retriever data must never be sent to OpenRouter or any other external API, and is always processed with paraphrasing on. Karaage does not check this; process such data with a local backend such as LM Studio, without `--no-paraphrase`.
+Before 1.2.0, `KARAAGE_BACKEND` chose the backend. The profile does now, and Karaage refuses to run while `KARAAGE_BACKEND` is set, so that a run doesn't go elsewhere than intended.
+
+> **Team rule:** Retriever data must never be sent to OpenRouter or any other external API, and is always processed with paraphrasing on. Karaage does not check this; process such data with a profile on a local backend, such as the default profile on LM Studio, without `--no-paraphrase`.
 
 ### Backends
 
-- **LM Studio:** load the profile's model with a context length of at least the profile's `context_tokens` (8,000 for the default profile). Karaage turns the model's reasoning off in each request, so no other setting is needed. It warns when the model is not loaded or its context is too short, and records the loaded build (format and quantisation) in each output.
-- **OpenRouter:** set `KARAAGE_API_KEY`. Requests ask for providers that support every parameter sent and don't keep the data. Each output records the providers that served it, since they may run the model at different precisions.
+- **LM Studio:** download the profile's build of its model, and load it with a context length of at least the profile's `context_tokens` (8,000 for the default profile). Karaage turns the model's reasoning off in each request, so no other setting is needed. It refuses to run when LM Studio has another build of the model than the profile's, warns when the model is not loaded or its context is too short, and records the build (format and quantisation) in each output.
+- **OpenRouter:** set `KARAAGE_API_KEY`. Requests ask for providers that support every parameter sent, don't keep the data, and run the model at the precision the profile allows. Each output records the providers that served it.
+- **Other OpenAI-compatible servers** (`openai` in a profile): set `KARAAGE_BASE_URL` and `KARAAGE_API_KEY`. Karaage can't read or check the build these serve.
 
 ### Profiles
 
-A profile fixes the model and how it is driven. A release ships named profiles, and outputs record the profile they were made with.
+A profile fixes the model, the backend and build it runs on, and how it is driven, since all of them change the answers. A release ships named profiles, and outputs record the profile they were made with.
 
-The default profile, `qwen3.5-9b`, runs Qwen3.5 9B with reasoning off; the prompts were written for it.
+| Profile | Runs | For |
+| --- | --- | --- |
+| `qwen3.5-9b` (default) | Qwen3.5 9B on LM Studio, MLX 4-bit, with reasoning off; the prompts were written for it | any data |
+| `qwen3.5-9b-openrouter` | the same model and settings on OpenRouter, from bf16 providers only | public data only (team rule above) |
+
 A custom profile is a TOML file shaped like [`src/karaage/profiles/qwen3.5-9b.toml`](src/karaage/profiles/qwen3.5-9b.toml), with a name of its own. Pass its path as the profile; outputs label it `custom:<name>`.
 
 ```toml
@@ -106,10 +112,17 @@ temperature = 0
 embedding_model = "intfloat/multilingual-e5-large-instruct"
 # seed = 0                       # optional; sent with every request when set
 
-[backends.lmstudio]              # one section per backend that can run the profile
+[backends.lmstudio]              # exactly one section: the backend the profile runs on
 model = "qwen/qwen3.5-9b"        # the model id on that backend
 reasoning_off = "request-parameter"
+format = "mlx"                   # the build, as LM Studio reports it
+quantization = "4bit"
 ```
+
+The backend section names the build where the backend allows it:
+- `lmstudio`: `format` and `quantization`, both required, as LM Studio reports them (for example `gguf` and `Q4_K_M` for a GGUF build);
+- `openrouter`: `quantizations`, the precisions allowed (for example `["bf16"]`), or `providers`, the only providers allowed, by their OpenRouter slugs (for example `["deepinfra"]`), or both;
+- `openai`, for any other OpenAI-compatible server: no build keys, since Karaage can't check them.
 
 `reasoning_off` says how to turn the model's reasoning off:
 - `none`: the model does not reason;
@@ -155,13 +168,13 @@ karaage run --input docs.jsonl --output out/ [--report] [--profile NAME] [--no-p
 ```python
 import karaage
 
-resources = karaage.setup()   # or e.g. karaage.setup(backend="openrouter", profile="my-profile.toml")
+resources = karaage.setup()   # or e.g. karaage.setup(profile="my-profile.toml")
 result = karaage.run({"id": "doc-1", "text": text, "title": title}, resources)   # paraphrase=False turns it off
 result.data                   # the output, described below
 karaage.save(result, data_path="out/doc-1.json", html_path="out/doc-1.html")
 ```
 
-`setup()` loads the models and connects to the backend once per session; its keyword arguments override the environment.
+`setup()` loads the models and connects to the profile's backend once per session; its keyword arguments (`profile`, `base_url`, `api_key`) override the environment.
 `run()` processes one document and does not raise when a step fails: the output then has the status `failed`, with the error.
 `karaage.batch.read_documents()` and `karaage.batch.run_documents()` do what `karaage run` does.
 
