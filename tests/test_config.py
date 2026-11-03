@@ -118,34 +118,35 @@ def test_reasoning_off_strategies(tmp_path, strategy, check):
     assert check(sent) and sent["seed"] == 7
 
 
-def test_record_and_replay(monkeypatch, tmp_path):
-    monkeypatch.setenv("KARAAGE_RECORDINGS", str(tmp_path / "recordings"))
+def test_record_and_replay(tmp_path):
+    recordings = tmp_path / "recordings"
     schema = {"type": "object"}
     answer = ChatCompletion.model_validate({
         "id": "x", "object": "chat.completion", "created": 0, "model": "m",
         "choices": [{"index": 0, "finish_reason": "stop", "message": {"role": "assistant", "content": '{"a": 1}'}}],
     })
 
-    monkeypatch.setenv("KARAAGE_LLM_MODE", "record")
-    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"))
+    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"), mode="record", recordings=recordings)
     fake_backend(client, answer)
     assert client.complete_json("S", "U", schema, name="X") == '{"a": 1}'
-    assert len(list((tmp_path / "recordings" / "qwen3.5-9b").glob("*.json"))) == 1
+    assert len(list((recordings / "qwen3.5-9b").glob("*.json"))) == 1
 
-    monkeypatch.setenv("KARAAGE_LLM_MODE", "replay")
-    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"))   # its backend is never called
+    # Its backend is never called.
+    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"), mode="replay", recordings=recordings)
     client.check()
     assert client.complete_json("S", "U", schema, name="X") == '{"a": 1}'
     with pytest.raises(ReplayMissError):
         client.complete_json("S", "another prompt", schema, name="X")
 
+    with pytest.raises(ValueError, match="needs a recordings directory"):
+        LLMClient(load_settings(), load_profile("qwen3.5-9b"), mode="replay")
 
-def test_recorded_http_error_is_replayed(monkeypatch, tmp_path):
+
+def test_recorded_http_error_is_replayed(tmp_path):
     import httpx
     from openai import BadRequestError
-    monkeypatch.setenv("KARAAGE_RECORDINGS", str(tmp_path / "recordings"))
-    monkeypatch.setenv("KARAAGE_LLM_MODE", "record")
-    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"))
+    recordings = tmp_path / "recordings"
+    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"), mode="record", recordings=recordings)
     response = httpx.Response(400, request=httpx.Request("POST", "http://x/v1/chat/completions"))
     def create(**kwargs):
         raise BadRequestError("Error code: 400 - context too long", response=response, body=None)
@@ -153,8 +154,26 @@ def test_recorded_http_error_is_replayed(monkeypatch, tmp_path):
     with pytest.raises(BadRequestError):
         client.complete_json("S", "U", {"type": "object"}, name="X")
 
-    monkeypatch.setenv("KARAAGE_LLM_MODE", "replay")
-    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"))
+    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"), mode="replay", recordings=recordings)
     with pytest.raises(RecordedError) as replayed:
         client.complete_json("S", "U", {"type": "object"}, name="X")
     assert f"{type(replayed.value).__name__}: {replayed.value}" == "BadRequestError: Error code: 400 - context too long"
+
+
+@pytest.mark.parametrize("source", ["environment", ".env"])
+def test_setup_is_live_whatever_the_environment_says(source, monkeypatch, tmp_path):
+    """Only the test suite records or replays (tests/conftest.py): KARAAGE_LLM_MODE doesn't reach setup()."""
+    import karaage
+    from karaage import llm, segmentation
+    monkeypatch.setattr(LLMClient, "check", lambda self: None)   # no backend to reach
+    monkeypatch.setattr(karaage, "load_embedding_model", lambda name: None)
+    monkeypatch.setattr(segmentation, "load_nlp_pipeline", lambda: None)
+    monkeypatch.setattr(llm, "_active", llm._active)   # setup() activates its client; restore the previous one
+    if source == ".env":
+        (tmp_path / ".env").write_text("KARAAGE_LLM_MODE=replay\nKARAAGE_RECORDINGS=recordings\n")
+    else:
+        monkeypatch.setenv("KARAAGE_LLM_MODE", "record")
+        monkeypatch.setenv("KARAAGE_RECORDINGS", str(tmp_path / "recordings"))
+    client = karaage.setup().client
+    assert client.mode == "live" and client.recordings is None
+    assert not (tmp_path / "recordings").exists()
