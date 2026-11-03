@@ -176,7 +176,7 @@ All LLM calls go through one client (`karaage.llm`), activated by `setup()`. It:
 - retries with backoff through the OpenAI SDK's `max_retries`, replacing the pre-1.1.0 immediate retry;
 - raises a clear error when the answer is cut off by the token limit, instead of failing later on invalid JSON;
 - falls back to `reasoning_content` when `content` is empty, and strips `<think>` blocks, as LM Studio sometimes requires;
-- records or replays responses for tests (section 7.1).
+- records or replays responses for tests, in a mode that only the test suite sets (section 7.1).
 
 Two problems in the pre-1.1.0 code that this resolves:
 - **Inconsistent reasoning switch-off.** Attribution prepends `/no_think`, which the current LM Studio build ignores (section 4.2); rephrasing, paraphrasing and validation pre-fill an empty `<think>` block; extraction (main point and excerpts) does neither. So on this build, attribution and extraction ran with reasoning on. Main-point output is capped at 250 tokens, so reasoning output would exhaust it. This may explain the truncated main points.
@@ -327,8 +327,8 @@ The profile settings, and whether paraphrasing was on, go under `snapshot.statem
 ### 7.1 Recorded LLM responses
 
 Tests run without an LLM server by replaying recorded responses.
-- **Mode:** `KARAAGE_LLM_MODE` is `live` (default), `record` or `replay`.
-- **Storage:** recordings are one JSON file per test article in `tests/recordings/<profile>/` (`KARAAGE_RECORDINGS` sets the root), holding the article's responses keyed by the SHA-256 of the request (backend, model id, messages, schema, generation parameters). Recording an article rewrites its file from scratch, so a full re-recording changes at most 60 files, and unused responses disappear. Replay looks requests up in the current recording first, then in all the files of the profile, so that two recordings of the same request each replay their own response. Three short articles are also recorded without paraphrasing, as `<id>-no-paraphrase.json` (section 3.10).
+- **Mode:** `live`, `record` or `replay`. The test suite reads it from `KARAAGE_LLM_MODE` in the shell, `replay` by default, and passes it to the client (`karaage._setup()`). The library never reads it: `karaage.setup()` and `karaage run` are always live, so that a variable left in the environment or a `.env` file can't make a run record or replay. Recording is for the tests only; evals always run live (#35).
+- **Storage:** recordings are one JSON file per test article in `tests/recordings/<profile>/`, holding the article's responses keyed by the SHA-256 of the request (backend, model id, messages, schema, generation parameters). Recording an article rewrites its file from scratch, so a full re-recording changes at most 60 files, and unused responses disappear. Replay looks requests up in the current recording first, then in all the files of the profile, so that two recordings of the same request each replay their own response. Three short articles are also recorded without paraphrasing, as `<id>-no-paraphrase.json` (section 3.10).
 - **Expected outputs:** recording also saves each article's output in `tests/recordings/<profile>/expected/`. In `replay` mode, the article test compares the output with it, so any change in behaviour shows up as a failing test, and as a diff of the expected outputs when recorded again.
 - **Same results on any machine:** the embedding model runs on the CPU, so that results do not depend on the machine's GPU.
 - **Missing recording:** in `replay` mode, a missing recording fails the test with a clear message. It never falls back to a live call.

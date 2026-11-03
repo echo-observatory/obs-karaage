@@ -256,6 +256,8 @@ uv run pytest
 
 The tests need the models (`uv run karaage download-models`) but no LLM: they replay LLM responses recorded on the test dataset, stored in `tests/recordings/`, and compare each article's output with the recorded one. GitHub Actions runs them on every pull request.
 
+Recording and replaying belong to the test suite, which reads `KARAAGE_LLM_MODE` from the shell. `karaage run` and `karaage.setup()` always call the LLM, whatever the environment or a `.env` file says.
+
 After a change to prompts, schemas or the default profile, record again, with the profile's model loaded in LM Studio. It takes about 40 minutes:
 
 ```bash

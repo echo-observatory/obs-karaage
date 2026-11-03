@@ -5,9 +5,10 @@ Every step asks for JSON matching a schema through `complete_json` or
 applies the profile: model id for the backend, temperature, seed and how
 reasoning is turned off.
 
-For tests, KARAAGE_LLM_MODE=record saves every response in KARAAGE_RECORDINGS
-(default tests/recordings), and KARAAGE_LLM_MODE=replay answers from those
-files instead of calling the backend (docs/design-1.1.0.md, section 7.1).
+The client is live unless the test suite makes it record every response in a
+recordings directory, or replay those responses instead of calling the backend
+(docs/design-1.1.0.md, section 7.1). Only the test suite sets that mode, through
+`karaage._setup()`; `karaage.setup()` and `karaage run` are always live.
 Responses are grouped in one file per recording, e.g. one per test article.
 
 We call client.chat.completions.create() rather than the SDK's parse helpers,
@@ -17,7 +18,6 @@ because those return nothing when a model mixes reasoning tokens with its JSON
 
 import hashlib
 import json
-import os
 import re
 import urllib.request
 from pathlib import Path
@@ -47,7 +47,13 @@ class RecordedError(RuntimeError):
 class LLMClient:
     """An OpenAI-compatible client set up for one backend and one profile."""
 
-    def __init__(self, settings: Settings, profile: Profile):
+    def __init__(self, settings: Settings, profile: Profile, *, mode: str = "live", recordings=None):
+        """`mode` and `recordings` are for the test suite: `record` or `replay`, with the recordings'
+        root directory. Recordings are kept in its subdirectory named after the profile."""
+        if mode not in LLM_MODES:
+            raise ValueError(f"The LLM mode must be one of: {', '.join(LLM_MODES)}.")
+        if mode != "live" and recordings is None:
+            raise ValueError(f"The {mode} mode needs a recordings directory.")
         backend_model = profile.for_backend(settings.backend)
         self.backend = settings.backend
         self.base_url = settings.base_url
@@ -59,11 +65,8 @@ class LLMClient:
         self.model_reported = None   # model id given by the server in its latest response
         self.model_build = None      # LM Studio only: the build that is loaded (lmstudio_build)
         self.providers = set()       # OpenRouter only: providers that served requests, reset per document
-        self.mode = os.environ.get("KARAAGE_LLM_MODE", "live")
-        if self.mode not in LLM_MODES:
-            raise ValueError(f"KARAAGE_LLM_MODE must be one of: {', '.join(LLM_MODES)}.")
-        self.recordings = (Path(os.environ.get("KARAAGE_RECORDINGS", "tests/recordings"))
-                           / profile.label.replace(":", "-"))
+        self.mode = mode
+        self.recordings = Path(recordings) / profile.label.replace(":", "-") if recordings is not None else None
         self._recording = None       # record mode: name and responses of the file being written
         self._recording_name = None  # replay mode: the recording looked up first
         self._replayed = None        # replay mode: every recording's responses, by recording name and request key

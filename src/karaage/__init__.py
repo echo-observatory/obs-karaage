@@ -72,10 +72,19 @@ def setup(*, profile=None, backend=None, base_url=None, api_key=None) -> Resourc
     The backend settings and the profile come from KARAAGE_* environment
     variables or a .env file (docs/design-1.1.0.md, section 4); keyword
     arguments override them. `profile` is a shipped profile name or a path.
+    The LLM is always called live.
+    """
+    return _setup(load_settings(profile=profile, backend=backend, base_url=base_url, api_key=api_key))
+
+
+def _setup(settings, *, llm_mode: str = "live", recordings=None) -> Resources:
+    """`setup()` from loaded settings, in an LLM mode that only the test suite sets (tests/conftest.py).
+
+    `llm_mode` is `live`, `record` or `replay`, with the recordings under
+    `recordings` (docs/design-1.1.0.md, section 7.1).
     """
     from karaage.segmentation import load_nlp_pipeline
-    settings = load_settings(profile=profile, backend=backend, base_url=base_url, api_key=api_key)
-    client = llm.LLMClient(settings, load_profile(settings.profile))
+    client = llm.LLMClient(settings, load_profile(settings.profile), mode=llm_mode, recordings=recordings)
     client.check()
     llm.activate(client)
     build = client.model_build

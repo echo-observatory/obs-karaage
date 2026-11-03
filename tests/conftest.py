@@ -6,6 +6,7 @@ import jsonschema
 import pytest
 
 import karaage
+from karaage.config import load_settings
 from karaage.output import output_schema
 
 DATASET = Path(__file__).parent.parent / "data" / "test-datasets" / "wikinews-piracy-30" / "articles.jsonl"
@@ -13,6 +14,11 @@ ARTICLE_IDS = range(1, 31)   # the 30 articles of the test dataset
 PROFILE = "qwen3.5-9b"
 RECORDINGS = Path(__file__).parent / "recordings"
 EXPECTED = RECORDINGS / PROFILE / "expected"
+
+# The LLM mode of the test suite (docs/design-1.1.0.md, section 7.1): `replay` by default,
+# `record` to record again (README, "Tests"), or `live`. Only the test suite reads it, and
+# from the shell's environment, read before any .env file is loaded.
+LLM_MODE = os.environ.get("KARAAGE_LLM_MODE") or "replay"
 
 # What changes between runs: the version, the time, and the build LM Studio reports, which replay doesn't know.
 VOLATILE = ("version", "commit", "inferred_at", "step_seconds", "model_build")
@@ -44,10 +50,7 @@ def nlp():
 @pytest.fixture(scope="session")
 def resources():
     """The default profile on LM Studio, replaying recorded responses unless KARAAGE_LLM_MODE says otherwise."""
-    with pytest.MonkeyPatch.context() as mp:
-        mp.setenv("KARAAGE_LLM_MODE", os.environ.get("KARAAGE_LLM_MODE") or "replay")
-        mp.setenv("KARAAGE_RECORDINGS", str(RECORDINGS))
-        yield karaage.setup(backend="lmstudio", profile=PROFILE)
+    return karaage._setup(load_settings(backend="lmstudio", profile=PROFILE), llm_mode=LLM_MODE, recordings=RECORDINGS)
 
 
 @pytest.fixture(scope="session")
