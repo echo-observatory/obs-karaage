@@ -32,6 +32,10 @@
       "then": {"properties": {"errors": {"minItems": 1}}}
     },
     {
+      "if": {"properties": {"provenance": {"properties": {"paraphrase": {"const": false}}}}},
+      "then": {"properties": {"statements": {"items": {"properties": {"rejection_reason": {"not": {"const": "too similar to source"}}, "diagnostics": {"properties": {"paraphrased": {"const": false}}}}}}}}
+    },
+    {
       "if": {"properties": {"status": {"const": "failed"}}},
       "then": {"properties": {"errors": {"minItems": 1}, "main_point": {"const": null}, "main_point_method": {"const": null}, "actors": {"maxItems": 0}, "statements": {"maxItems": 0}}}
     }
@@ -108,7 +112,7 @@
     "provenance": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["tool", "version", "commit", "profile", "profile_settings", "backend", "model", "model_reported", "model_build", "inferred_at", "step_seconds"],
+      "required": ["tool", "version", "commit", "profile", "profile_settings", "backend", "model", "model_reported", "model_build", "paraphrase", "inferred_at", "step_seconds"],
       "properties": {
         "tool": {"const": "karaage"},
         "version": {"type": "string", "description": "Karaage version, from its git tags."},
@@ -123,6 +127,7 @@
         "model": {"type": "string", "description": "The model id the profile asks for on this backend."},
         "model_reported": {"type": ["string", "null"], "description": "The model id the server returned; null when the document needed no LLM call."},
         "model_build": {"type": ["object", "null"], "description": "On LM Studio, the loaded build (publisher, format, quantization, loaded, context_length). On OpenRouter, {\"providers\": [...]}, the providers that served this document's requests. Null when unknown."},
+        "paraphrase": {"type": "boolean", "description": "Whether statements too close to their source's wording were paraphrased, and rejected when they stayed too close. Turned off only for sources whose wording may be reproduced."},
         "inferred_at": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$", "description": "When the document was processed, in UTC, in the snapshot format YYYY-MM-DDTHH:MM:SSZ."},
         "step_seconds": {
           "type": "object",

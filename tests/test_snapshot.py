@@ -94,7 +94,7 @@ def schema_field(name, type_, required, description, constraints):
     return {**field, "description": description}
 
 
-def descriptor(profile: str, profile_settings: dict) -> dict:
+def descriptor(profile: str, profile_settings: dict, paraphrase: bool) -> dict:
     resources = []
     for name, fields in FIELDS.items():
         schema = {"fields": [schema_field(*f) for f in fields], "primaryKey": ["id"]}
@@ -114,6 +114,7 @@ def descriptor(profile: str, profile_settings: dict) -> dict:
                 "description": f"Statements inferred by Karaage {karaage.__version__} with profile {profile}.",
                 "profile": profile,
                 "profile_settings": profile_settings,
+                "paraphrase": paraphrase,
             },
             "claim_inference": {"description": "None: this bundle has no claims, so every statement is set aside."},
         },
@@ -160,7 +161,7 @@ def test_outputs_make_a_valid_snapshot(tmp_path, articles, run_article, resource
     write_table(tmp_path, "inferred_statements", statements)
     write_table(tmp_path, "inferred_claims", [])
     (tmp_path / "datapackage.json").write_text(
-        json.dumps(descriptor(provenance["profile"], provenance["profile_settings"]), indent=2), encoding="utf-8")
+        json.dumps(descriptor(provenance["profile"], provenance["profile_settings"], provenance["paraphrase"]), indent=2), encoding="utf-8")
 
     report = obs_corpus_snapshot.validate(tmp_path, strict=True, allow=["statement-set-aside"])
     assert report.valid, report.format_text()

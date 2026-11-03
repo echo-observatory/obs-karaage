@@ -55,3 +55,17 @@ def test_main_point_of_a_long_text_comes_from_part_summaries(monkeypatch):
     segments, excerpts = fake_segments_and_excerpts(100, 1200)   # about 30,000 tokens
     main_point, method, summaries = extraction.extract_main_point(segments, excerpts)
     assert method == "chunked" and len(summaries) == 5 and calls == ["PartSummary"] * 5 + ["MainPoint"]
+
+
+def test_paraphrasing_off():
+    from karaage import paraphrasing
+    from karaage.validation import validate_statement
+    close = {"id": 0, "actor": "Ann", "excerpt": "the deal will close by March",
+             "rephrased_statement": "The deal will close by March.", "summary": "The deal closes in March."}
+    statements, html = paraphrasing.step_6_paraphrase([dict(close)], "e", sim_model=None, enabled=False)
+    s = statements[0]   # scored, but nothing paraphrased: the model is never called
+    assert s["rouge2_rephrased"] > paraphrasing.ROUGE2_THRESHOLD and s["paraphrased"] is False
+    assert "turned off" in html and "1 statement of 1 is above the threshold" in html
+    s.update(in_text="yes", actor_correct="yes")
+    assert validate_statement(s) == (False, "too similar to source")
+    assert validate_statement(s, check_similarity=False) == (True, None)

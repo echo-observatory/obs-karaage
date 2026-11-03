@@ -70,14 +70,15 @@ def run_validation(statements: list) -> list[dict]:
 #   3. Not in text: LLM judged the statement not grounded in the excerpt
 #   4. Wrong actor: LLM judged the attribution incorrect
 
-def validate_statement(s):
+def validate_statement(s, check_similarity=True):
+    """Whether a statement is kept, and why not. `check_similarity` is off when paraphrasing is."""
     if s.get("validation_error"):
         return False, "validation error"
     if not s.get("rephrased_statement", "").strip():
         return False, "rephrasing error"
     rouge2_rephrased = s.get("paraphrased_rouge2_rephrased") if s.get("rephrased_paraphrased") else s.get("rouge2_rephrased", 0)
     rouge2_summary = s.get("paraphrased_rouge2_summary") if s.get("summary_paraphrased") else s.get("rouge2_summary", 0)
-    if max(rouge2_rephrased or 0, rouge2_summary or 0) > ROUGE2_THRESHOLD:
+    if check_similarity and max(rouge2_rephrased or 0, rouge2_summary or 0) > ROUGE2_THRESHOLD:
         return False, "too similar to source"
     if s.get("in_text") != "yes":
         return False, "not found in source text"
@@ -86,9 +87,9 @@ def validate_statement(s):
     return True, None
 
 
-def apply_validation_filter(validated_statements: list) -> list[dict]:
+def apply_validation_filter(validated_statements: list, check_similarity=True) -> list[dict]:
     for s in validated_statements:
-        s["valid"], s["invalid_reason"] = validate_statement(s)
+        s["valid"], s["invalid_reason"] = validate_statement(s, check_similarity)
     valid_count = sum(1 for s in validated_statements if s["valid"])
     invalid_count = len(validated_statements) - valid_count
     print(f"📦 {valid_count} statement{'s' if valid_count != 1 else ''} retained ({invalid_count} candidate{'s' if invalid_count != 1 else ''} rejected)")
@@ -98,13 +99,13 @@ def apply_validation_filter(validated_statements: list) -> list[dict]:
             print(f"  [{s['id']:2d}] {status:<42}  {s['actor']}: {s['statement'][:60]}...")
     return validated_statements
 
-def step_7_validate(paraphrased_statements):
+def step_7_validate(paraphrased_statements, check_similarity=True):
     validated_statements = run_validation(paraphrased_statements)
-    filtered_statements = apply_validation_filter(validated_statements)
-    html_validation_content = validation_monitoring_html(filtered_statements)
+    filtered_statements = apply_validation_filter(validated_statements, check_similarity)
+    html_validation_content = validation_monitoring_html(filtered_statements, check_similarity)
     return filtered_statements, html_validation_content
 
-def validation_monitoring_html(validated_statements: list) -> str:
+def validation_monitoring_html(validated_statements: list, check_similarity=True) -> str:
     """Return validation_content for the monitoring report."""
     method_description = (
         "Each statement is checked against two independent signals, then filtered by four criteria applied in priority order. "
@@ -123,6 +124,8 @@ def validation_monitoring_html(validated_statements: list) -> str:
         "(4) <i>actor_correct</i> is “no” (attribution judged wrong; “uncertain” passes).</li>"
         "</ul>"
     )
+    if not check_similarity:
+        method_description += "<p><em>Paraphrasing was turned off for this run, so criterion (2) was not applied.</em></p>"
     content_parts = []
     for entry in validated_statements:
         if entry.get("valid"):

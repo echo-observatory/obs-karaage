@@ -1,0 +1,185 @@
+{
+ "document_id": "28",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 1561,
+ "text_sha256": "c7c3c5162f91e97e261f3473094142731f9883634ecda0c2d0a2ba9f6ce8c525",
+ "main_point": "The Australian Federal Court ordered ISPs to block five specific copyright-infringing websites within 15 days, marking the first enforcement of new legislation that requires ISPs to pay up to A$50 per domain and replace blocked sites with an 'access denied' message.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Australian Federal Court",
+   "aliases": [
+    "the court"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Peter Tonagh",
+   "aliases": [
+    "chief executive of copyright holders Foxtel"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Graham Bruke",
+   "aliases": [
+    "co-executive of the other copyright holder in the case, Village Roadshow"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Village Roadshow",
+   "aliases": [
+    "the other copyright holder in the case"
+   ],
+   "kind": "organisation"
+  }
+ ],
+ "statements": [
+  {
+   "id": "28-s1",
+   "actor": "Australian Federal Court",
+   "actor_aliases": [
+    "Australian Federal Court",
+    "the court"
+   ],
+   "text": "The Australian Federal Court has mandated that Internet service providers in Australia must block access to five specific websites known for copyright infringement within fifteen business days, marking the first enforcement of the nation's new digital copyright laws.",
+   "text_short": "The Australian Federal Court ordered ISPs to block five specific copyright-infringing websites within 15 days.",
+   "char_start": 0,
+   "char_end": 392,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.4,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "28-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Internet service providers in Australia retain the flexibility to select their preferred technical method for blocking infringing sites, with available options ranging from Domain Name System (DNS) blocking and IP address blocking to URL blocking, all under the framework of the new legislation.",
+   "text_short": "Australian ISPs retain the flexibility to choose their preferred technical method for blocking infringing sites.",
+   "char_start": 392,
+   "char_end": 827,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0714,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "28-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Under the new Australian copyright legislation, copyright holders are responsible for paying Internet service providers up to A$50 for each specific domain that is ordered to be blocked, a cost structure designed to incentivize the enforcement of the blocking orders.",
+   "text_short": "Under the new Australian copyright legislation, copyright holders are responsible for paying Internet service providers up to A$50 for each specific domain that is ordered to be blocked.",
+   "char_start": 392,
+   "char_end": 827,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.25,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "28-s4",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Once the mandated blocking of infringing websites is successfully implemented, the affected domains must be replaced by a landing page displaying an 'access denied' message along with a clear notice informing users that the site infringes or facilitates the infringement of copyright.",
+   "text_short": "Once the mandated blocking of infringing websites is successfully implemented, the affected domains must be replaced by a landing page displaying an 'access denied' message along with a clear notice informing users that the site infringes or facilitates the infringement of copyright.",
+   "char_start": 392,
+   "char_end": 827,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.3659,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "28-s5",
+   "actor": "Peter Tonagh",
+   "actor_aliases": [
+    "Peter Tonagh",
+    "chief executive of copyright holders Foxtel"
+   ],
+   "text": "The recent court ruling mandating that Internet service providers block specific copyright-infringing websites represents a significant advancement in the fight against digital piracy. This legal decision not only forces these platforms offline but also serves as a powerful educational tool, reinforcing the public understanding that downloading protected material from such sites constitutes theft rather than a legitimate activity.",
+   "text_short": "The court ruling blocking piracy sites is a major step in combating theft and educating the public.",
+   "char_start": 827,
+   "char_end": 1065,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.5,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "28-s6",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Under the newly enacted Australian copyright legislation, the Federal Court has issued an order requiring Internet service providers to block five specific websites within fifteen business days. This enforcement mechanism mandates that the service providers cover a fee of up to A$50 per domain and must replace access to the blocked sites with a standardized 'access denied' message, marking the first practical application of these legal requirements.",
+   "text_short": "The Federal Court ordered ISPs to block five copyright sites under new legislation requiring fees and access denial messages.",
+   "char_start": 1065,
+   "char_end": 1561,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0556,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b",
+  "paraphrase": false
+ }
+}

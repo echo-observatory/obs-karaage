@@ -37,7 +37,8 @@ def run(args, parser) -> int:
     except (InputError, OSError) as e:
         parser.error(str(e))
     resources = karaage.setup(profile=args.profile)
-    statuses = run_documents(documents, args.output, resources, report=args.report)
+    statuses = run_documents(documents, args.output, resources, report=args.report,
+                             paraphrase=not args.no_paraphrase)
     return 1 if statuses["failed"] else 0
 
 
@@ -75,6 +76,11 @@ def main(argv=None) -> int:
         help="a shipped profile name or a file (default: KARAAGE_PROFILE, or the default profile)",
     )
     run_parser.add_argument("--report", action="store_true", help="also write the HTML report of each document")
+    run_parser.add_argument(
+        "--no-paraphrase", action="store_true",
+        help="don't paraphrase statements too close to the source's wording, nor reject them for it; "
+             "only for sources whose wording may be reproduced, e.g. in the public domain, never for Retriever data",
+    )
     run_parser.add_argument(
         "--field", action="append", default=[], metavar="FIELD=NAME",
         help="read FIELD (id, text, title or published_at) from the input field NAME, "
