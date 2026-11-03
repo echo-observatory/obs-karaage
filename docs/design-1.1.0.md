@@ -187,10 +187,12 @@ A document has:
 | `id` | yes | Document id, unique in the run. Integers are accepted and stored as strings. |
 | `text` | yes | The text, in English. |
 | `title` | no | Title or headline, given as context to the main point step. |
-| `published_at` | no | Publication date or time, given as context in the same steps. |
+| `published_at` | no | Publication date or time, given as context in the same step. A string, or a Python `date` or `datetime`. |
 
-The command line reads JSONL, one document per line: `karaage run --input docs.jsonl --output DIR [--profile NAME] [--report]`.
-Field names can be mapped, e.g. the test dataset's `date` to `published_at`.
+The command line reads JSONL, one document per line: `karaage run --input docs.jsonl --output DIR [--profile NAME] [--report] [--field FIELD=NAME]...`.
+- **Field names** can be mapped with `--field`, e.g. `--field published_at=date` for the test dataset.
+- **Input check:** every line is checked before anything runs: valid JSON, an id and a text, and unique ids. All problems are listed at once, with their line numbers.
+- **Exit code:** 1 when a document failed, 2 when the input can't be run.
 
 ## 6. Output
 
@@ -198,6 +200,9 @@ Field names can be mapped, e.g. the test dataset's `date` to `published_at`.
 
 Each document gets `<id>.json`, plus `<id>.html` (the report) when asked for.
 - **File names:** must be unique per document id. Characters unsafe in file names are encoded, never dropped or truncated in a way that could collide.
+  - ASCII letters and digits, `-`, `_`, `.` and `~` are kept; anything else, `%` included, is percent-encoded, e.g. `a/b` → `a%2Fb.json`. A leading `.` is encoded too.
+  - Ids that differ only by case are refused, since some file systems ignore case.
+- **Writing:** each file is written whole or not at all, and the report before the output, so an interrupted run leaves no partial files.
 - **Report:** self-contained, with CSS inlined rather than loaded from a CDN, so it can be copied into a bundle and opened offline.
 
 ### 6.2 Document status
@@ -206,7 +211,7 @@ Each document gets `<id>.json`, plus `<id>.html` (the report) when asked for.
 - `partial`: every step ran, but some passages, batches or statements failed and are listed in `errors`, so statements may be missing.
 - `failed`: a step failed as a whole. There are no statements, actors or main point, but the file is still written, with the error, so a rerun knows to retry it.
 
-A rerun skips documents whose status is `ok` and retries the others.
+A rerun skips documents whose output is `ok` and was made from the same text (same `text_sha256`), and runs the others again.
 
 ### 6.3 Fields
 

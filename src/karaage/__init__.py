@@ -228,10 +228,8 @@ def save(
     html_path=None,
 ) -> None:
     """Write the output as JSON to data_path, and the HTML report to html_path. Failed documents are written too."""
-    from karaage.output import save_results
+    from karaage.output import save_results, write_file
+    if html_path is not None:   # before the data, whose ok status tells a rerun the document is done
+        write_file(html_path, result.html_report)
     if data_path is not None:
         save_results(pathlib.Path(data_path), result.data)
-    if html_path is not None:
-        dest = pathlib.Path(html_path)
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_text(result.html_report, encoding="utf-8")
