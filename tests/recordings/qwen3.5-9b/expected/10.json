@@ -1,134 +1,295 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Police raided The Pirate Bay and Piratbyrån servers on copyright violation grounds, but while authorities claim no arrests occurred, operators and a detained web host allege the move was a politically motivated sting by the Anti-Piracy Bureau to shut down the site and seize unrelated servers without legal basis.",
-  "main_point_method": "single",
-  "source_text_length_chars": 3854,
-  "source_text_length_segments": 66,
-  "actors": [
-   {
-    "name": "The Swedish National Criminal Police",
-    "variations": [
-     "the police",
-     "police"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "The Pirate Bay",
-    "variations": [
-     "the site",
-     "the site operators",
-     "they"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Rickard Falkvinge",
-    "variations": [
-     "head of the Swedish Pirate Party"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Ulf Goranzon",
-    "variations": [
-     "a police spokesman"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "United States media corporations",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Sveriges Television",
-    "variations": [
-     "Swedish public broadcaster"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Tobias Andersson",
-    "variations": [
-     "of Piratbyrån"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "The IFPI",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Dan Glickman",
-    "variations": [
-     "CEO of the Motion Picture Association of America",
-     "CEO of the MPAA"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Kori Bernards",
-    "variations": [
-     "an MPAA representative"
-    ],
-    "kind": "person"
+ "document_id": "10",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 3854,
+ "text_sha256": "237b05d010155b504f4127f25f548b977787eee947aaf8704b0fbef013180c4c",
+ "main_point": "Police raided The Pirate Bay and Piratbyrån servers on copyright violation grounds, but while authorities claim no arrests occurred, operators and a detained web host allege the move was a politically motivated sting by the Anti-Piracy Bureau to shut down the site and seize unrelated servers without legal basis.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "The Swedish National Criminal Police",
+   "aliases": [
+    "the police",
+    "police"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "The Pirate Bay",
+   "aliases": [
+    "the site",
+    "the site operators",
+    "they"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Rickard Falkvinge",
+   "aliases": [
+    "head of the Swedish Pirate Party"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Ulf Goranzon",
+   "aliases": [
+    "a police spokesman"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "United States media corporations",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Sveriges Television",
+   "aliases": [
+    "Swedish public broadcaster"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Tobias Andersson",
+   "aliases": [
+    "of Piratbyrån"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "The IFPI",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Dan Glickman",
+   "aliases": [
+    "CEO of the Motion Picture Association of America",
+    "CEO of the MPAA"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Kori Bernards",
+   "aliases": [
+    "an MPAA representative"
+   ],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "10-s1",
+   "actor": "The Pirate Bay",
+   "actor_aliases": [
+    "The Pirate Bay",
+    "the site",
+    "the site operators",
+    "they"
+   ],
+   "text": "The Swedish National Criminal Police launched a joint operation based on claims of copyright violation. This action involved 50 officers who raided The Pirate Bay and Piratbyrån. Piratbyrån is a Swedish group that initially created the website. The officers took control of the servers during the raid.",
+   "text_short": "Swedish police raided The Pirate Bay and Piratbyrån servers based on alleged copyright violations.",
+   "char_start": 0,
+   "char_end": 214,
+   "valid": false,
+   "rejection_reason": "too similar to source",
+   "diagnostics": {
+    "rouge2_precision": 0.3077,
+    "paraphrased": true,
+    "in_text": "no",
+    "actor_correct": "no"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "The raid on the site based on alleged copyright violations was surprising given the long-standing public legal debate.",
-    "long_statement": "A search warrant was executed to close the site for suspected copyright infringement. This action was unexpected, given that the operation's legality had been heavily debated by the public for more than three years. During this time, the operators often released press statements to support their stance.",
-    "segment_range": [
-     2,
-     7
-    ],
-    "rouge2_precision": 0.1111
-   },
-   {
-    "actor": "Rickard Falkvinge",
-    "key_statement": "Rickard Falkvinge stated that law enforcement detained three employees, but only two individuals were actually placed in custody.",
-    "long_statement": "Rickard Falkvinge, who leads the Swedish Pirate Party, stated that law enforcement detained three employees of the website. However, only two people were actually placed in custody. This difference conflicts with the official police report on how many arrests occurred.",
-    "segment_range": [
-     8,
-     10
-    ],
-    "rouge2_precision": 0.1538
-   },
-   {
-    "actor": "Dan Glickman",
-    "key_statement": "Dan Glickman praised the police action against The Pirate Bay, noting it shows that copyright thieves have no safe havens.",
-    "long_statement": "Dan Glickman, who leads the Motion Picture Association of America, praised the police operation against The Pirate Bay. He stated that this raid serves as a vital warning: copyright infringers have no safe havens. He also stressed that digital platforms must be held responsible for sharing illegal material.",
-    "segment_range": [
-     23,
-     27
-    ],
-    "rouge2_precision": 0.1702
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Official confirmation of the raid contrasts with a detained host's account of being denied legal representation.",
-    "long_statement": "Swedish officials have confirmed the authenticity of the police raid on The Pirate Bay, a move that aligns with the site's own updated notice promising a quick return, even as a detained web host alleges he was arrested and denied legal representation during the operation.",
-    "segment_range": [
-     47,
-     60
-    ],
-    "rouge2_precision": 0.1556
-   },
-   {
-    "actor": "The Swedish National Criminal Police",
-    "key_statement": "Swedish police denied a detained web host a public defender by citing the non-custodial nature of his specific charge.",
-    "long_statement": "The Swedish National Criminal Police informed the detained web host, Gottfrid Svartholm, that he was not entitled to a public defender because the specific charge he faced did not carry a potential prison sentence, a legal justification used to deny him legal representation during the interrogation phase of the raid on The Pirate Bay and associated servers.",
-    "segment_range": [
-     61,
-     64
-    ],
-    "rouge2_precision": 0.1053
+  },
+  {
+   "id": "10-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "A search warrant was executed to close the site for suspected copyright infringement. This action was unexpected, given that the operation's legality had been heavily debated by the public for more than three years. During this time, the operators often released press statements to support their stance.",
+   "text_short": "The raid on the site based on alleged copyright violations was surprising given the long-standing public legal debate.",
+   "char_start": 214,
+   "char_end": 518,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1111,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "10-s3",
+   "actor": "Rickard Falkvinge",
+   "actor_aliases": [
+    "Rickard Falkvinge",
+    "head of the Swedish Pirate Party"
+   ],
+   "text": "Rickard Falkvinge, who leads the Swedish Pirate Party, stated that law enforcement detained three employees of the website. However, only two people were actually placed in custody. This difference conflicts with the official police report on how many arrests occurred.",
+   "text_short": "Rickard Falkvinge stated that law enforcement detained three employees, but only two individuals were actually placed in custody.",
+   "char_start": 518,
+   "char_end": 743,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1538,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "10-s4",
+   "actor": "Dan Glickman",
+   "actor_aliases": [
+    "Dan Glickman",
+    "CEO of the Motion Picture Association of America",
+    "CEO of the MPAA"
+   ],
+   "text": "Dan Glickman, who leads the Motion Picture Association of America, praised the police operation against The Pirate Bay. He stated that this raid serves as a vital warning: copyright infringers have no safe havens. He also stressed that digital platforms must be held responsible for sharing illegal material.",
+   "text_short": "Dan Glickman praised the police action against The Pirate Bay, noting it shows that copyright thieves have no safe havens.",
+   "char_start": 1503,
+   "char_end": 1819,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1702,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "10-s5",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Motion Picture Association of America (MPAA) asserts that The Pirate Bay is a primary target for enforcement action, alleging the site distributes over 150,000 files, including major summer blockbusters such as 'Mission: Impossible III' and 'X-Men 3', thereby justifying the raid as a necessary measure to protect intellectual property rights.",
+   "text_short": "The MPAA frames the raid as a necessary enforcement action against a major copyright infringement hub.",
+   "char_start": 1819,
+   "char_end": 2071,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2885,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "10-s6",
+   "actor": "The Pirate Bay",
+   "actor_aliases": [
+    "The Pirate Bay",
+    "the site",
+    "the site operators",
+    "they"
+   ],
+   "text": "The Pirate Bay maintains its status as the world's largest BitTorrent tracker, asserting that its operations facilitate the sharing of both copyrighted and freely licensed material, including Linux distributions and independent music, to challenge the legal basis of the police seizure.",
+   "text_short": "The Pirate Bay defends its operations as a legitimate tracker for mixed content, rejecting the legality of the seizure.",
+   "char_start": 2366,
+   "char_end": 2926,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2195,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "10-s7",
+   "actor": "The Pirate Bay",
+   "actor_aliases": [
+    "The Pirate Bay",
+    "the site",
+    "the site operators",
+    "they"
+   ],
+   "text": "While The Pirate Bay initially suggested the police raid was a publicity stunt designed to promote awareness, this theory was quickly dismissed following the confirmation of the operation's authenticity and the subsequent arrest of a web host, indicating a more serious legal intervention.",
+   "text_short": "The Pirate Bay's initial claim of a publicity stunt was disproven by the confirmed arrest and scope of the raid.",
+   "char_start": 2366,
+   "char_end": 2926,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "10-s8",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Swedish officials have confirmed the authenticity of the police raid on The Pirate Bay, a move that aligns with the site's own updated notice promising a quick return, even as a detained web host alleges he was arrested and denied legal representation during the operation.",
+   "text_short": "Official confirmation of the raid contrasts with a detained host's account of being denied legal representation.",
+   "char_start": 2926,
+   "char_end": 3481,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1556,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "10-s9",
+   "actor": "The Swedish National Criminal Police",
+   "actor_aliases": [
+    "The Swedish National Criminal Police",
+    "the police",
+    "police"
+   ],
+   "text": "The Swedish National Criminal Police informed the detained web host, Gottfrid Svartholm, that he was not entitled to a public defender because the specific charge he faced did not carry a potential prison sentence, a legal justification used to deny him legal representation during the interrogation phase of the raid on The Pirate Bay and associated servers.",
+   "text_short": "Swedish police denied a detained web host a public defender by citing the non-custodial nature of his specific charge.",
+   "char_start": 3481,
+   "char_end": 3708,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1053,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

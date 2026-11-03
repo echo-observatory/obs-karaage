@@ -1,72 +1,146 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "An Australian court ordered ISPs to block five major copyright-infringing websites, marking the first use of new legislation to combat digital piracy by forcing access denials and offering compensation to rights holders.",
-  "main_point_method": "single",
-  "source_text_length_chars": 1561,
-  "source_text_length_segments": 28,
-  "actors": [
-   {
-    "name": "Australian Federal Court",
-    "variations": [
-     "the court"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Peter Tonagh",
-    "variations": [
-     "chief executive of copyright holders Foxtel"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Graham Bruke",
-    "variations": [
-     "co-executive of the other copyright holder in the case, Village Roadshow"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Village Roadshow",
-    "variations": [
-     "the other copyright holder in the case"
-    ],
-    "kind": "organisation"
+ "document_id": "28",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 1561,
+ "text_sha256": "c7c3c5162f91e97e261f3473094142731f9883634ecda0c2d0a2ba9f6ce8c525",
+ "main_point": "An Australian court ordered ISPs to block five major copyright-infringing websites, marking the first use of new legislation to combat digital piracy by forcing access denials and offering compensation to rights holders.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Australian Federal Court",
+   "aliases": [
+    "the court"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Peter Tonagh",
+   "aliases": [
+    "chief executive of copyright holders Foxtel"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Graham Bruke",
+   "aliases": [
+    "co-executive of the other copyright holder in the case, Village Roadshow"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Village Roadshow",
+   "aliases": [
+    "the other copyright holder in the case"
+   ],
+   "kind": "organisation"
+  }
+ ],
+ "statements": [
+  {
+   "id": "28-s1",
+   "actor": "Australian Federal Court",
+   "actor_aliases": [
+    "Australian Federal Court",
+    "the court"
+   ],
+   "text": "The Australian Federal Court has mandated that Internet service providers immediately cease access to five specific websites known for distributing unlicensed material, including the Pirate Bay and Torrentz. This ruling represents the first application of new national laws designed to fight digital piracy by legally forcing these access denials and establishing a framework for compensating rights holders. The court set a strict deadline of fifteen business days for the service providers to implement these technical blocks, signaling a decisive shift toward aggressive legal enforcement against online copyright infringement.",
+   "text_short": "The Australian Federal Court mandated ISPs block five specific piracy sites within fifteen days under new national legislation.",
+   "char_start": 0,
+   "char_end": 392,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2941,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "Australian law allows ISPs to choose blocking methods while requiring copyright holders to pay compensation for each blocked domain.",
-    "long_statement": "While the newly enacted Australian copyright laws require Internet service providers to block infringing domains, the legislation grants these companies the freedom to select their own technical methods, such as blocking DNS entries or specific IP addresses. To facilitate this process, the law mandates that copyright holders compensate the service providers with up to A$50 for each domain blocked, ensuring that the financial burden of implementing these access denials does not fall entirely on the telecommunications companies.",
-    "segment_range": [
-     7,
-     13
-    ],
-    "rouge2_precision": 0.2778
-   },
-   {
-    "actor": "Peter Tonagh",
-    "key_statement": "The chief executive of Foxtel believes the court decision represents significant progress in fighting piracy. It also helps teach people that getting content from these websites is stealing.",
-    "long_statement": "Peter Tonagh, the chief executive of the major Australian media company Foxtel, views the recent court ruling as a pivotal moment in the nation's fight against digital theft. He argues that the order to block specific piracy websites serves a dual purpose: it directly disrupts the distribution of stolen content and simultaneously educates the public that accessing material through these unauthorized channels constitutes criminal theft rather than a legitimate service.",
-    "segment_range": [
-     14,
-     16
-    ],
-    "rouge2_precision": 0.1286
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "A copyright executive labeled pirates as 'leeches and thieves' and confirmed plans to block over 50 sites to combat digital theft.",
-    "long_statement": "Graham Bruke, a co-executive for the film studio Village Roadshow, has adopted a highly aggressive rhetorical frame by labeling individuals who download copyrighted material as 'leeches and thieves,' explicitly comparing them to heroin sellers. This strong condemnation underscores the broader strategy of the Australian entertainment industry, which plans to expand the initial court order to block over 50 additional websites, reflecting a deep-seated commitment to treating digital piracy as a severe moral and legal violation.",
-    "segment_range": [
-     17,
-     27
-    ],
-    "rouge2_precision": 0.3
+  },
+  {
+   "id": "28-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "While the newly enacted Australian copyright laws require Internet service providers to block infringing domains, the legislation grants these companies the freedom to select their own technical methods, such as blocking DNS entries or specific IP addresses. To facilitate this process, the law mandates that copyright holders compensate the service providers with up to A$50 for each domain blocked, ensuring that the financial burden of implementing these access denials does not fall entirely on the telecommunications companies.",
+   "text_short": "Australian law allows ISPs to choose blocking methods while requiring copyright holders to pay compensation for each blocked domain.",
+   "char_start": 392,
+   "char_end": 827,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2778,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "28-s3",
+   "actor": "Peter Tonagh",
+   "actor_aliases": [
+    "Peter Tonagh",
+    "chief executive of copyright holders Foxtel"
+   ],
+   "text": "Peter Tonagh, the chief executive of the major Australian media company Foxtel, views the recent court ruling as a pivotal moment in the nation's fight against digital theft. He argues that the order to block specific piracy websites serves a dual purpose: it directly disrupts the distribution of stolen content and simultaneously educates the public that accessing material through these unauthorized channels constitutes criminal theft rather than a legitimate service.",
+   "text_short": "The chief executive of Foxtel believes the court decision represents significant progress in fighting piracy. It also helps teach people that getting content from these websites is stealing.",
+   "char_start": 827,
+   "char_end": 1065,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1286,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "28-s4",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Graham Bruke, a co-executive for the film studio Village Roadshow, has adopted a highly aggressive rhetorical frame by labeling individuals who download copyrighted material as 'leeches and thieves,' explicitly comparing them to heroin sellers. This strong condemnation underscores the broader strategy of the Australian entertainment industry, which plans to expand the initial court order to block over 50 additional websites, reflecting a deep-seated commitment to treating digital piracy as a severe moral and legal violation.",
+   "text_short": "A copyright executive labeled pirates as 'leeches and thieves' and confirmed plans to block over 50 sites to combat digital theft.",
+   "char_start": 1065,
+   "char_end": 1561,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.3,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

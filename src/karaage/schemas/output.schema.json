@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Karaage output for one document",
+  "description": "What karaage.run() returns for one document, and karaage.save() writes as <id>.json (docs/design-1.1.0.md, section 6). Every field is present; empty lists and null stand for absent values. Offsets and lengths count Unicode code points, like Python str indices.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["document_id", "status", "errors", "warnings", "text_length", "text_sha256", "main_point", "main_point_method", "actors", "statements", "provenance"],
+  "properties": {
+    "document_id": {"type": "string", "minLength": 1, "description": "Id of the input document. Integer ids are written as strings."},
+    "status": {"enum": ["ok", "partial", "failed"], "description": "ok: every step ran without error. partial: every step ran, but some passages or statements failed and are listed in errors, so statements may be missing. failed: a step failed as a whole, and there are no actors, statements or main point."},
+    "errors": {"type": "array", "items": {"$ref": "#/$defs/error"}, "description": "What failed, in pipeline order. Empty when the status is ok."},
+    "warnings": {"type": "array", "items": {"$ref": "#/$defs/warning"}, "description": "Input that looks wrong. Warnings never stop the run."},
+    "text_length": {"type": "integer", "minimum": 0, "description": "Length of the text."},
+    "text_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "SHA-256 of the UTF-8 text, so that a later change to the text can be detected."},
+    "main_point": {"type": ["string", "null"], "description": "One sentence stating the central argument of the text."},
+    "main_point_method": {"enum": ["single", "chunked", null], "description": "single: from the whole text in one call. chunked: the text did not fit the context, so its parts were summarised and the summaries combined."},
+    "actors": {"type": "array", "items": {"$ref": "#/$defs/actor"}, "description": "The actors the text quotes or cites, as found by attribution. base_author, the text's own voice, is not listed."},
+    "statements": {"type": "array", "items": {"$ref": "#/$defs/statement"}, "description": "Every extracted statement, in extraction order (by passage, then actor), rejected ones included."},
+    "provenance": {"$ref": "#/$defs/provenance"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "ok"}}},
+      "then": {"properties": {"errors": {"maxItems": 0}}}
+    },
+    {
+      "if": {"properties": {"status": {"enum": ["ok", "partial"]}}},
+      "then": {"properties": {"main_point": {"type": "string"}, "main_point_method": {"enum": ["single", "chunked"]}}}
+    },
+    {
+      "if": {"properties": {"status": {"const": "partial"}}},
+      "then": {"properties": {"errors": {"minItems": 1}}}
+    },
+    {
+      "if": {"properties": {"status": {"const": "failed"}}},
+      "then": {"properties": {"errors": {"minItems": 1}, "main_point": {"const": null}, "main_point_method": {"const": null}, "actors": {"maxItems": 0}, "statements": {"maxItems": 0}}}
+    }
+  ],
+  "$defs": {
+    "step": {"enum": ["segmentation", "attribution", "passages", "extraction", "rephrasing", "paraphrasing", "validation"]},
+    "error": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["step", "passage", "statement", "message"],
+      "properties": {
+        "step": {"$ref": "#/$defs/step", "description": "The step where the error happened."},
+        "passage": {"type": ["integer", "null"], "minimum": 1, "description": "The passage whose statements could not be extracted, numbered from 1 as in the HTML report; null otherwise."},
+        "statement": {"type": ["string", "null"], "description": "Id of the statement that could not be rephrased or validated; null otherwise."},
+        "message": {"type": "string", "description": "The error, as raised."}
+      }
+    },
+    "warning": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message"],
+      "properties": {
+        "code": {"enum": ["text-not-nfc", "text-has-carriage-return", "text-not-english"], "description": "text-not-nfc: the text is not in Unicode NFC. text-has-carriage-return: it contains \\r. text-not-english: too few of its words are common English words."},
+        "message": {"type": "string"}
+      }
+    },
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canonical_name", "aliases", "kind"],
+      "properties": {
+        "canonical_name": {"type": "string", "minLength": 1, "description": "The full name of a person, the official name of an organisation, or the title of a document."},
+        "aliases": {"type": "array", "items": {"type": "string"}, "description": "Other names the text uses for the actor."},
+        "kind": {"enum": ["person", "organisation", null], "description": "As in the snapshot specification; null for documents and unknown kinds."}
+      }
+    },
+    "statement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "actor", "actor_aliases", "text", "text_short", "char_start", "char_end", "valid", "rejection_reason", "diagnostics"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^.+-s[1-9][0-9]*$", "description": "<document_id>-s<n>, with n counted from 1 in extraction order, rejected statements included."},
+        "actor": {"type": "string", "minLength": 1, "description": "The actor's canonical_name, or base_author for the text's own voice."},
+        "actor_aliases": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "description": "The canonical name followed by the aliases; [\"base_author\"] for base_author."},
+        "text": {"type": ["string", "null"], "description": "The statement, rephrased to stand alone, and paraphrased when too close to the source wording. Null when rephrasing failed."},
+        "text_short": {"type": ["string", "null"], "description": "A one-sentence version of the statement. Null when rephrasing failed."},
+        "char_start": {"type": "integer", "minimum": 0, "description": "Start of the passage the statement comes from, inclusive."},
+        "char_end": {"type": "integer", "minimum": 1, "description": "End of that passage, exclusive."},
+        "valid": {"type": "boolean", "description": "Whether the statement passed validation."},
+        "rejection_reason": {"enum": ["validation error", "rephrasing error", "too similar to source", "not found in source text", "wrong actor attribution", null], "description": "Why the statement was rejected; null when it is valid."},
+        "diagnostics": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["rouge2_precision", "paraphrased", "in_text", "actor_correct"],
+          "properties": {
+            "rouge2_precision": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "The higher ROUGE-2 precision of text and text_short against the passage; above 0.3 means too close to the source wording. Null when rephrasing failed."},
+            "paraphrased": {"type": "boolean", "description": "Whether text or text_short was paraphrased to move away from the source wording."},
+            "in_text": {"enum": ["yes", "uncertain", "no", null], "description": "The validator's answer: is the statement in the passage? Null when not validated."},
+            "actor_correct": {"enum": ["yes", "uncertain", "no", null], "description": "The validator's answer: is the actor right? Null when not validated."}
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"valid": {"const": true}}},
+          "then": {"properties": {"rejection_reason": {"const": null}, "text": {"type": "string"}}}
+        },
+        {
+          "if": {"properties": {"valid": {"const": false}}},
+          "then": {"properties": {"rejection_reason": {"type": "string"}}}
+        }
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tool", "version", "commit", "profile", "profile_settings", "backend", "model", "model_reported", "model_build", "inferred_at", "step_seconds"],
+      "properties": {
+        "tool": {"const": "karaage"},
+        "version": {"type": "string", "description": "Karaage version, from its git tags."},
+        "commit": {"type": ["string", "null"], "description": "The git commit Karaage was built from; null in a source tree that was never installed."},
+        "profile": {"type": "string", "description": "Name of the profile: a shipped profile, or custom:<name>."},
+        "profile_settings": {
+          "type": "object",
+          "required": ["name", "description", "context_tokens", "temperature", "embedding_model", "backends", "seed", "custom"],
+          "description": "The resolved profile: model id per backend, generation parameters, context size, reasoning switch-off and embedding model."
+        },
+        "backend": {"type": "string", "description": "lmstudio, openrouter, or openai for another OpenAI-compatible server."},
+        "model": {"type": "string", "description": "The model id the profile asks for on this backend."},
+        "model_reported": {"type": ["string", "null"], "description": "The model id the server returned; null when the document needed no LLM call."},
+        "model_build": {"type": ["object", "null"], "description": "On LM Studio, the loaded build (publisher, format, quantization, loaded, context_length). On OpenRouter, {\"providers\": [...]}, the providers that served this document's requests. Null when unknown."},
+        "inferred_at": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$", "description": "When the document was processed, in UTC, in the snapshot format YYYY-MM-DDTHH:MM:SSZ."},
+        "step_seconds": {
+          "type": "object",
+          "propertyNames": {"$ref": "#/$defs/step"},
+          "additionalProperties": {"type": "number", "minimum": 0},
+          "description": "Duration of each step that ran, in seconds."
+        }
+      }
+    }
+  }
+}

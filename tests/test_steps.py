@@ -18,7 +18,7 @@ def test_failed_passage_is_returned(monkeypatch):
     monkeypatch.setattr(extraction.llm, "complete_json", failing_call)
     passages = [{"text": "x" * 300, "segments": [0], "speaker_pcts": {"Ann": 100.0}, "speaker_chars": {"Ann": 300}}]
     statements, errors = extraction.extract_statements(passages, "main point")
-    assert statements == [] and errors == [{"passage_index": 0, "error": "backend down"}]
+    assert statements == [] and errors == [{"passage_index": 0, "error": "RuntimeError: backend down"}]
 
 
 def fake_segments_and_passages(n_passages, chars_per_passage):

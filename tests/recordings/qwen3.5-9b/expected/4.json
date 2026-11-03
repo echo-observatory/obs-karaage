@@ -1,64 +1,148 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "The U.S. Supreme Court ruled that companies intentionally designed to facilitate copyright infringement are liable for users' violations, a strong but legally vague decision that could stifle innovation while offering hope for defendants in lower courts.",
-  "main_point_method": "single",
-  "source_text_length_chars": 1707,
-  "source_text_length_segments": 27,
-  "actors": [
-   {
-    "name": "U.S. Supreme Court",
-    "variations": [
-     "the court",
-     "the Justices"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Metro-Goldwyn-Mayer Studios Inc. et al. v. Grokster, Ltd. et al.",
-    "variations": [
-     "the case"
-    ],
-    "kind": null
-   },
-   {
-    "name": "David Souter",
-    "variations": [
-     "Justice David Souter"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Fred von Lohmann",
-    "variations": [
-     "Fred von Lohmann",
-     "senior staff attorney for the EFF"
-    ],
-    "kind": "person"
+ "document_id": "4",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 1707,
+ "text_sha256": "c7836c555258302a131a14ddf6cbadfdcc6257301b29bc9ed39bc909a93e1861",
+ "main_point": "The U.S. Supreme Court ruled that companies intentionally designed to facilitate copyright infringement are liable for users' violations, a strong but legally vague decision that could stifle innovation while offering hope for defendants in lower courts.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "U.S. Supreme Court",
+   "aliases": [
+    "the court",
+    "the Justices"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Metro-Goldwyn-Mayer Studios Inc. et al. v. Grokster, Ltd. et al.",
+   "aliases": [
+    "the case"
+   ],
+   "kind": null
+  },
+  {
+   "canonical_name": "David Souter",
+   "aliases": [
+    "Justice David Souter"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Fred von Lohmann",
+   "aliases": [
+    "Fred von Lohmann",
+    "senior staff attorney for the EFF"
+   ],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "4-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Supreme Court has established that companies intentionally designed to facilitate copyright violations must be held legally responsible for the infringing acts of their users, a decision that resolves a long-standing debate but leaves the specific criteria for liability somewhat undefined.",
+   "text_short": "The Supreme Court ruled that intentionally designed copyright facilitators are liable for user infringement, though the legal test remains vague.",
+   "char_start": 203,
+   "char_end": 498,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1579,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "David Souter",
-    "key_statement": "Distributing technology with the intent to promote copyright infringement creates liability for all resulting user violations.",
-    "long_statement": "Any individual or entity that distributes a technology with the specific intent to encourage copyright infringement, demonstrated through clear statements or active promotional steps beyond simple awareness, is legally liable for the resulting violations committed by third parties, even if the technology has legitimate uses.",
-    "segment_range": [
-     9,
-     12
-    ],
-    "rouge2_precision": 0.1591
-   },
-   {
-    "actor": "Fred von Lohmann",
-    "key_statement": "Critics argue the Supreme Court's vague inducement standard risks stifling innovation by creating legal uncertainty for developers.",
-    "long_statement": "Legal experts have criticized the Supreme Court for failing to provide a clear standard for determining when a company induces copyright infringement, warning that this ambiguity could discourage innovators from developing new technologies due to fear of unpredictable legal consequences.",
-    "segment_range": [
-     19,
-     26
-    ],
-    "rouge2_precision": 0.0769
+  },
+  {
+   "id": "4-s2",
+   "actor": "David Souter",
+   "actor_aliases": [
+    "David Souter",
+    "Justice David Souter"
+   ],
+   "text": "Any individual or entity that distributes a technology with the specific intent to encourage copyright infringement, demonstrated through clear statements or active promotional steps beyond simple awareness, is legally liable for the resulting violations committed by third parties, even if the technology has legitimate uses.",
+   "text_short": "Distributing technology with the intent to promote copyright infringement creates liability for all resulting user violations.",
+   "char_start": 498,
+   "char_end": 895,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1591,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "4-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Supreme Court issued a unanimous decision stating that companies built specifically to enable copyright infringement are subject to liability, delivering a powerful message against such business models while simultaneously creating legal uncertainty regarding the precise boundaries of this new rule.",
+   "text_short": "The Supreme Court's unanimous ruling against copyright-facilitating companies sends a strong message but introduces legal ambiguity.",
+   "char_start": 895,
+   "char_end": 1266,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2941,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "4-s4",
+   "actor": "Fred von Lohmann",
+   "actor_aliases": [
+    "Fred von Lohmann",
+    "senior staff attorney for the EFF"
+   ],
+   "text": "Legal experts have criticized the Supreme Court for failing to provide a clear standard for determining when a company induces copyright infringement, warning that this ambiguity could discourage innovators from developing new technologies due to fear of unpredictable legal consequences.",
+   "text_short": "Critics argue the Supreme Court's vague inducement standard risks stifling innovation by creating legal uncertainty for developers.",
+   "char_start": 1266,
+   "char_end": 1707,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0769,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

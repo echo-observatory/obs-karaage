@@ -1,127 +1,282 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Following an FCC investigation into Comcast's data restrictions, major ISPs like Comcast and Time Warner Cable are testing plans to slow speeds or charge extra fees for heavy internet usage, sparking debate over whether these measures unfairly target consumers and prioritize profit over network management.",
-  "main_point_method": "single",
-  "source_text_length_chars": 3399,
-  "source_text_length_segments": 50,
-  "actors": [
-   {
-    "name": "Time Warner Cable",
-    "variations": [
-     "two of the largest ISPs in North America"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "US Congress",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Free Press",
-    "variations": [
-     "an advocacy group",
-     "that pushes for better oversight of cable operators such as Comcast"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Ben Scott",
-    "variations": [
-     "head of the group"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Roger Entner",
-    "variations": [
-     "a senior vice president from Nielsen IAG"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Sena Fitzmaurice",
-    "variations": [
-     "a Comcast spokesperson"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Alex Dudley",
-    "variations": [
-     "a Time Warner Cable spokesman"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Associated Press",
-    "variations": [
-     "report"
-    ],
-    "kind": null
-   },
-   {
-    "name": "Art Brodsky",
-    "variations": [
-     "communications director of Public Knowledge",
-     "a consumer advocacy group in Washington D.C."
-    ],
-    "kind": "person"
+ "document_id": "14",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 3399,
+ "text_sha256": "80d0948645bdd5ee4790369fa0e7cc4945e70fe28a1d4d099a6e589713df3afb",
+ "main_point": "Following an FCC investigation into Comcast's data restrictions, major ISPs like Comcast and Time Warner Cable are testing plans to slow speeds or charge extra fees for heavy internet usage, sparking debate over whether these measures unfairly target consumers and prioritize profit over network management.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Time Warner Cable",
+   "aliases": [
+    "two of the largest ISPs in North America"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "US Congress",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Free Press",
+   "aliases": [
+    "an advocacy group",
+    "that pushes for better oversight of cable operators such as Comcast"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Ben Scott",
+   "aliases": [
+    "head of the group"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Roger Entner",
+   "aliases": [
+    "a senior vice president from Nielsen IAG"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Sena Fitzmaurice",
+   "aliases": [
+    "a Comcast spokesperson"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Alex Dudley",
+   "aliases": [
+    "a Time Warner Cable spokesman"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Associated Press",
+   "aliases": [
+    "report"
+   ],
+   "kind": null
+  },
+  {
+   "canonical_name": "Art Brodsky",
+   "aliases": [
+    "communications director of Public Knowledge",
+    "a consumer advocacy group in Washington D.C."
+   ],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "14-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Following the Federal Communications Commission's investigation into data restrictions, two of the largest North American internet service providers, Comcast and Time Warner Cable, announced plans to throttle speeds or charge extra fees for heavy usage, raising concerns that these measures unfairly target consumers to protect network management rather than prioritize user needs.",
+   "text_short": "Two major North American ISPs announced speed throttling and extra fees for heavy users following an FCC investigation, sparking debate over consumer fairness.",
+   "char_start": 0,
+   "char_end": 200,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0577,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "An FCC investigation into Comcast's data restrictions has sparked a congressional debate over how much control internet service providers should have over customer data.",
-    "long_statement": "The Federal Communications Commission's inquiry into whether Comcast restricted customers from sharing files has ignited a congressional debate regarding the extent of control internet service providers should have over customer data flow, highlighting a growing conflict between regulatory oversight and corporate network management strategies.",
-    "segment_range": [
-     5,
-     11
-    ],
-    "rouge2_precision": 0.2917
-   },
-   {
-    "actor": "Sena Fitzmaurice",
-    "key_statement": "Comcast will not filter traffic types but still needs to manage the network.",
-    "long_statement": "Comcast will not filter traffic types but still needs to manage the network.",
-    "segment_range": [
-     22,
-     25
-    ],
-    "rouge2_precision": 0.25
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Time Warner Cable will start measuring internet usage and sending invoices for higher speeds and bigger data packages.",
-    "long_statement": "Time Warner Cable intends to charge customers based on usage levels and speed tiers, operating as a standard utility like an electric provider or mobile carrier, instead of providing unlimited flat-rate internet access.",
-    "segment_range": [
-     26,
-     33
-    ],
-    "rouge2_precision": 0.1818
-   },
-   {
-    "actor": "Alex Dudley",
-    "key_statement": "To pay for the infrastructure needed to provide internet access, charging users based on how much data they consume is the most equitable method.",
-    "long_statement": "Internet service charges based on actual data consumption represent the most equitable method for financing the necessary network upgrades. This approach guarantees that users who download or stream large amounts of information pay their fair share toward building and maintaining the infrastructure.",
-    "segment_range": [
-     34,
-     40
-    ],
-    "rouge2_precision": 0.0
-   },
-   {
-    "actor": "Art Brodsky",
-    "key_statement": "Time Warner Cable's fee-based data plan prioritizes protecting inadequate infrastructure over relieving network congestion.",
-    "long_statement": "The proposed plan by Time Warner Cable to charge extra fees for heavy data usage functions as a rationing scheme designed to protect an inadequate infrastructure, rather than a strategy intended to relieve network congestion. This approach limits high-definition movie viewing and other essential content, effectively prioritizing the preservation of limited network capacity over meeting consumer demand for faster speeds and larger data allowances.",
-    "segment_range": [
-     41,
-     49
-    ],
-    "rouge2_precision": 0.2667
+  },
+  {
+   "id": "14-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Federal Communications Commission's inquiry into whether Comcast restricted customers from sharing files has ignited a congressional debate regarding the extent of control internet service providers should have over customer data flow, highlighting a growing conflict between regulatory oversight and corporate network management strategies.",
+   "text_short": "An FCC investigation into Comcast's data restrictions has sparked a congressional debate over how much control internet service providers should have over customer data.",
+   "char_start": 412,
+   "char_end": 841,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2917,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "14-s3",
+   "actor": "Free Press",
+   "actor_aliases": [
+    "Free Press",
+    "an advocacy group",
+    "that pushes for better oversight of cable operators such as Comcast"
+   ],
+   "text": "Comcast's network management practices unfairly discriminate against users of legal technology by specifically targeting customers who utilize file-sharing systems like BitTorrent, even when those users are accessing content they have the right to view, thereby penalizing lawful behavior.",
+   "text_short": "Comcast's network management practices unfairly discriminate against users of legal technology by targeting file-sharing systems.",
+   "char_start": 841,
+   "char_end": 1199,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.125,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "14-s4",
+   "actor": "Ben Scott",
+   "actor_aliases": [
+    "Ben Scott",
+    "head of the group"
+   ],
+   "text": "Facing the threat of regulatory scrutiny, cable companies are frantically devising new strategies to alter their network management approaches, aiming to reduce the appearance of wrongdoing by shifting from blunt throttling to more nuanced, utility-style metered billing models.",
+   "text_short": "To avoid regulatory investigation, cable firms are changing their approach from simple speed limits to usage-based charging plans, which makes their actions seem less like misconduct.",
+   "char_start": 841,
+   "char_end": 1199,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1579,
+    "paraphrased": true,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "14-s5",
+   "actor": "Roger Entner",
+   "actor_aliases": [
+    "Roger Entner",
+    "a senior vice president from Nielsen IAG"
+   ],
+   "text": "Because a tiny fraction of internet users consumes the majority of available bandwidth, network management strategies that throttle specific applications are effectively a politically correct method for prioritizing profit over fairness, unfairly penalizing the minority of users who generate the most traffic.",
+   "text_short": "Heavy internet usage by a small minority justifies prioritizing profit over fairness in network management.",
+   "char_start": 1199,
+   "char_end": 1550,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0488,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "14-s6",
+   "actor": "Sena Fitzmaurice",
+   "actor_aliases": [
+    "Sena Fitzmaurice",
+    "a Comcast spokesperson"
+   ],
+   "text": "Comcast will not filter traffic types but still needs to manage the network.",
+   "text_short": "Comcast will not filter traffic types but still needs to manage the network.",
+   "char_start": 1550,
+   "char_end": 1810,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.25,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "14-s7",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Time Warner Cable intends to charge customers based on usage levels and speed tiers, operating as a standard utility like an electric provider or mobile carrier, instead of providing unlimited flat-rate internet access.",
+   "text_short": "Time Warner Cable will start measuring internet usage and sending invoices for higher speeds and bigger data packages.",
+   "char_start": 1810,
+   "char_end": 2348,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1818,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "14-s8",
+   "actor": "Alex Dudley",
+   "actor_aliases": [
+    "Alex Dudley",
+    "a Time Warner Cable spokesman"
+   ],
+   "text": "Internet service charges based on actual data consumption represent the most equitable method for financing the necessary network upgrades. This approach guarantees that users who download or stream large amounts of information pay their fair share toward building and maintaining the infrastructure.",
+   "text_short": "To pay for the infrastructure needed to provide internet access, charging users based on how much data they consume is the most equitable method.",
+   "char_start": 2348,
+   "char_end": 2752,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "14-s9",
+   "actor": "Art Brodsky",
+   "actor_aliases": [
+    "Art Brodsky",
+    "communications director of Public Knowledge",
+    "a consumer advocacy group in Washington D.C."
+   ],
+   "text": "The proposed plan by Time Warner Cable to charge extra fees for heavy data usage functions as a rationing scheme designed to protect an inadequate infrastructure, rather than a strategy intended to relieve network congestion. This approach limits high-definition movie viewing and other essential content, effectively prioritizing the preservation of limited network capacity over meeting consumer demand for faster speeds and larger data allowances.",
+   "text_short": "Time Warner Cable's fee-based data plan prioritizes protecting inadequate infrastructure over relieving network congestion.",
+   "char_start": 2752,
+   "char_end": 3399,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2667,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

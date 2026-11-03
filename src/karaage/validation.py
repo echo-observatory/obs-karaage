@@ -43,7 +43,7 @@ def run_validation(statements: list) -> list[dict]:
             if verbose:
                 print(f"[{s['id']:2d}] {s['actor']:<35} in_text={result.in_text:<9} actor={result.actor_correct:<9}  ({elapsed:.1f}s)")
         except Exception as e:
-            validated.append({**s, "validation_error": str(e), "in_text": None, "actor_correct": None})
+            validated.append({**s, "validation_error": f"{type(e).__name__}: {e}", "in_text": None, "actor_correct": None})
             failed_ids.append(s["id"])
             print(f"  ⚠️  Validation failed for statement [{s['id']}]: {e}")
     if failed_ids:

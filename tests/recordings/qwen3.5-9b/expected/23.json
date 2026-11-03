@@ -1,101 +1,206 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Wikipedia is staging a 24-hour global blackout to protest proposed U.S. anti-piracy laws, arguing they threaten the site's existence, while opponents claim the action undermines Wikipedia's political neutrality and is irresponsible.",
-  "main_point_method": "single",
-  "source_text_length_chars": 3143,
-  "source_text_length_segments": 54,
-  "actors": [
-   {
-    "name": "Wikipedia",
-    "variations": [
-     "online encyclopedia",
-     "page"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Stop Online Piracy Act",
-    "variations": [
-     "SOPA"
-    ],
-    "kind": null
-   },
-   {
-    "name": "Wikimedia Foundation",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Jimmy Wales",
-    "variations": [
-     "co-founder of Wikipedia",
-     "Wales"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Reddit",
-    "variations": [
-     "social media site"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Google",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Motion Picture Association of America",
-    "variations": [
-     "MPAA"
-    ],
-    "kind": "organisation"
+ "document_id": "23",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 3143,
+ "text_sha256": "06f7502c7129d68da4fe5a9211603c699def69c9b99f2d4d4a31605e43ca170d",
+ "main_point": "Wikipedia is staging a 24-hour global blackout to protest proposed U.S. anti-piracy laws, arguing they threaten the site's existence, while opponents claim the action undermines Wikipedia's political neutrality and is irresponsible.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Wikipedia",
+   "aliases": [
+    "online encyclopedia",
+    "page"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Stop Online Piracy Act",
+   "aliases": [
+    "SOPA"
+   ],
+   "kind": null
+  },
+  {
+   "canonical_name": "Wikimedia Foundation",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Jimmy Wales",
+   "aliases": [
+    "co-founder of Wikipedia",
+    "Wales"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Reddit",
+   "aliases": [
+    "social media site"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Google",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Motion Picture Association of America",
+   "aliases": [
+    "MPAA"
+   ],
+   "kind": "organisation"
+  }
+ ],
+ "statements": [
+  {
+   "id": "23-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The English version of the online encyclopedia Wikipedia plans to shut down for 24 hours to protest proposed U.S. anti-piracy legislation, a move supported by a majority of its user base who favor a global blackout over a limited U.S.-only action.",
+   "text_short": "Wikipedia plans a 24-hour global shutdown to protest U.S. anti-piracy laws.",
+   "char_start": 0,
+   "char_end": 757,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2727,
+    "paraphrased": false,
+    "in_text": "uncertain",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "Protest supporters view the laws as an existential threat, while critics fear the action harms Wikipedia's neutrality.",
-    "long_statement": "Proponents of the protest argue that the proposed U.S. anti-piracy laws pose an existential threat to the online encyclopedia, whereas critics contend that the planned shutdown undermines the site's reputation for political neutrality and risks alienating the public.",
-    "segment_range": [
-     19,
-     34
-    ],
-    "rouge2_precision": 0.275
-   },
-   {
-    "actor": "Jimmy Wales",
-    "key_statement": "Wikipedia's co-founder urges preparation for the shutdown and criticizes the proposed laws as overbroad.",
-    "long_statement": "The co-founder of the online encyclopedia advised students to complete their homework early to avoid access disruptions, while expressing hope that the protest would overwhelm Washington's phone systems and arguing that the proposed legislation is poorly written and overbroad.",
-    "segment_range": [
-     35,
-     47
-    ],
-    "rouge2_precision": 0.3
-   },
-   {
-    "actor": "Motion Picture Association of America",
-    "key_statement": "The Motion Picture Association of America condemns technology companies for using disruptive online protests to punish users instead of negotiating solutions to piracy.",
-    "long_statement": "The Motion Picture Association of America asserts that certain technology companies are orchestrating disruptive online protests to punish their users and manipulate public opinion, rather than engaging in good-faith negotiations to address the genuine and damaging problem of online piracy. These corporate interests are being criticized for prioritizing theatrical displays over finding practical solutions to a crisis that affects the entire industry.",
-    "segment_range": [
-     48,
-     53
-    ],
-    "rouge2_precision": 0.2727
-   },
-   {
-    "actor": "Motion Picture Association of America",
-    "key_statement": "The Motion Picture Association of America condemns the internet blackout as an irresponsible and dangerous tactic that harms the public and fails to address the real problem of piracy.",
-    "long_statement": "The Motion Picture Association of America argues that the planned global internet blackout is an irresponsible and dangerous act that harms ordinary people who depend on the internet for daily information and services. While acknowledging the severity of the piracy issue, the organization insists that such disruptive tactics are a disservice to the public and undermine the stability of the digital ecosystem.",
-    "segment_range": [
-     48,
-     53
-    ],
-    "rouge2_precision": 0.1803
+  },
+  {
+   "id": "23-s2",
+   "actor": "Reddit",
+   "actor_aliases": [
+    "Reddit",
+    "social media site"
+   ],
+   "text": "A coordinated online protest against the proposed U.S. anti-piracy laws is taking place across multiple digital platforms. These include the social media site Reddit, the Boing Boing blog, and sites owned by the Cheezburger Network. Wikipedia is also joining this effort.",
+   "text_short": "Multiple digital platforms are joining the protest against U.S. anti-piracy laws.",
+   "char_start": 757,
+   "char_end": 1002,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2857,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
    }
-  ]
+  },
+  {
+   "id": "23-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Proponents of the protest argue that the proposed U.S. anti-piracy laws pose an existential threat to the online encyclopedia, whereas critics contend that the planned shutdown undermines the site's reputation for political neutrality and risks alienating the public.",
+   "text_short": "Protest supporters view the laws as an existential threat, while critics fear the action harms Wikipedia's neutrality.",
+   "char_start": 1002,
+   "char_end": 1915,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.275,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "23-s4",
+   "actor": "Jimmy Wales",
+   "actor_aliases": [
+    "Jimmy Wales",
+    "co-founder of Wikipedia",
+    "Wales"
+   ],
+   "text": "The co-founder of the online encyclopedia advised students to complete their homework early to avoid access disruptions, while expressing hope that the protest would overwhelm Washington's phone systems and arguing that the proposed legislation is poorly written and overbroad.",
+   "text_short": "Wikipedia's co-founder urges preparation for the shutdown and criticizes the proposed laws as overbroad.",
+   "char_start": 1915,
+   "char_end": 2612,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.3,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "23-s5",
+   "actor": "Motion Picture Association of America",
+   "actor_aliases": [
+    "Motion Picture Association of America",
+    "MPAA"
+   ],
+   "text": "The Motion Picture Association of America asserts that certain technology companies are orchestrating disruptive online protests to punish their users and manipulate public opinion, rather than engaging in good-faith negotiations to address the genuine and damaging problem of online piracy. These corporate interests are being criticized for prioritizing theatrical displays over finding practical solutions to a crisis that affects the entire industry.",
+   "text_short": "The Motion Picture Association of America condemns technology companies for using disruptive online protests to punish users instead of negotiating solutions to piracy.",
+   "char_start": 2612,
+   "char_end": 3143,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2727,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "23-s6",
+   "actor": "Motion Picture Association of America",
+   "actor_aliases": [
+    "Motion Picture Association of America",
+    "MPAA"
+   ],
+   "text": "The Motion Picture Association of America argues that the planned global internet blackout is an irresponsible and dangerous act that harms ordinary people who depend on the internet for daily information and services. While acknowledging the severity of the piracy issue, the organization insists that such disruptive tactics are a disservice to the public and undermine the stability of the digital ecosystem.",
+   "text_short": "The Motion Picture Association of America condemns the internet blackout as an irresponsible and dangerous tactic that harms the public and fails to address the real problem of piracy.",
+   "char_start": 2612,
+   "char_end": 3143,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1803,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

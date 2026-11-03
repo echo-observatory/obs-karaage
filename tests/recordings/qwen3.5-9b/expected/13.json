@@ -1,73 +1,128 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Michael Moore faces a federal investigation for filming a segment in Cuba for his upcoming documentary 'SiCKO,' which contrasts the U.S. healthcare system with other nations and highlights the lack of affordable care in America.",
-  "main_point_method": "single",
-  "source_text_length_chars": 3146,
-  "source_text_length_segments": 43,
-  "actors": [
-   {
-    "name": "Michael Moore",
-    "variations": [
-     "Moore"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Lionsgate Studios",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Office of Foreign Assets Control",
-    "variations": [
-     "agency",
-     "Office of Foreign Assets Control within the United States Department of the Treasury",
-     "Treasury department"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Health insurance companies",
-    "variations": [
-     "America's Health Insurance Plans",
-     "AHIP"
-    ],
-    "kind": "organisation"
+ "document_id": "13",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 3146,
+ "text_sha256": "10c2f7b99b327985340acbe38eb3b77458ce12b9f98e23547067b9d775e5eb5c",
+ "main_point": "Michael Moore faces a federal investigation for filming a segment in Cuba for his upcoming documentary 'SiCKO,' which contrasts the U.S. healthcare system with other nations and highlights the lack of affordable care in America.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Michael Moore",
+   "aliases": [
+    "Moore"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Lionsgate Studios",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Office of Foreign Assets Control",
+   "aliases": [
+    "agency",
+    "Office of Foreign Assets Control within the United States Department of the Treasury",
+    "Treasury department"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Health insurance companies",
+   "aliases": [
+    "America's Health Insurance Plans",
+    "AHIP"
+   ],
+   "kind": "organisation"
+  }
+ ],
+ "statements": [
+  {
+   "id": "13-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The U.S. Department of the Treasury's Office of Foreign Assets Control is conducting a federal probe into Michael Moore. This investigation stems from his alleged breach of the enduring ban on Cuba. The violation occurred while he was shooting a portion of his future film, SiCKO. This documentary examines the U.S. healthcare system by contrasting it with those in other countries.",
+   "text_short": "A federal probe into Michael Moore is underway because he recorded a portion of his work in Cuba while criticizing American medical care.",
+   "char_start": 0,
+   "char_end": 1945,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.254,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "A federal probe into Michael Moore is underway because he recorded a portion of his work in Cuba while criticizing American medical care.",
-    "long_statement": "The U.S. Department of the Treasury's Office of Foreign Assets Control is conducting a federal probe into Michael Moore. This investigation stems from his alleged breach of the enduring ban on Cuba. The violation occurred while he was shooting a portion of his future film, SiCKO. This documentary examines the U.S. healthcare system by contrasting it with those in other countries.",
-    "segment_range": [
-     0,
-     28
-    ],
-    "rouge2_precision": 0.254
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The documentary SiCKO highlights how 9/11 volunteers denied U.S. aid received free treatment in Cuba.",
-    "long_statement": "The upcoming documentary SiCKO highlights a stark contrast in healthcare access by documenting how volunteer workers who were denied aid from U.S. funds after the September 11 attacks received free treatment in Cuba, where basic medications like inhalers cost a fraction of the price compared to the United States.",
-    "segment_range": [
-     29,
-     39
-    ],
-    "rouge2_precision": 0.2041
-   },
-   {
-    "actor": "Health insurance companies",
-    "key_statement": "Health insurance companies advocate for a uniquely American public-private healthcare solution.",
-    "long_statement": "Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must pursue a uniquely American solution where public and private sectors collaborate to ensure everyone has high-quality, affordable healthcare, rejecting calls for a foreign-style system.",
-    "segment_range": [
-     40,
-     41
-    ],
-    "rouge2_precision": 0.25
+  },
+  {
+   "id": "13-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The upcoming documentary SiCKO highlights a stark contrast in healthcare access by documenting how volunteer workers who were denied aid from U.S. funds after the September 11 attacks received free treatment in Cuba, where basic medications like inhalers cost a fraction of the price compared to the United States.",
+   "text_short": "The documentary SiCKO highlights how 9/11 volunteers denied U.S. aid received free treatment in Cuba.",
+   "char_start": 1945,
+   "char_end": 2852,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2041,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "13-s3",
+   "actor": "Health insurance companies",
+   "actor_aliases": [
+    "Health insurance companies",
+    "America's Health Insurance Plans",
+    "AHIP"
+   ],
+   "text": "Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must pursue a uniquely American solution where public and private sectors collaborate to ensure everyone has high-quality, affordable healthcare, rejecting calls for a foreign-style system.",
+   "text_short": "Health insurance companies advocate for a uniquely American public-private healthcare solution.",
+   "char_start": 2852,
+   "char_end": 3067,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.25,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

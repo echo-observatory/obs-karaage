@@ -1,167 +1,362 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, arguing that its vague terms threatened internet freedom, privacy, and access to medicines.",
-  "main_point_method": "single",
-  "source_text_length_chars": 3229,
-  "source_text_length_segments": 40,
-  "actors": [
-   {
-    "name": "European Parliament",
-    "variations": [
-     "plenary session"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "activist groups",
-    "variations": [
-     "Pressure and activist groups"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Open Rights Group",
-    "variations": [
-     "ORG",
-     "the UK's Open Rights Group"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Charles Arthur",
-    "variations": [
-     "The Guardian's technology editor",
-     "Arthur"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Electronic Frontier Foundation",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Obama administration",
-    "variations": [
-     "the Obama administration"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Sebastian Nerz",
-    "variations": [
-     "vice-president of the Pirate Party of Germany"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Accessnow.org",
-    "variations": [
-     "US-based pressure group Accessnow.org"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Wikileaks",
-    "variations": [
-     "whistleblowing site Wikileaks"
-    ],
-    "kind": "organisation"
+ "document_id": "26",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 3229,
+ "text_sha256": "21ef0022bb4ca9690a0c4a5c7c82034fa3d126f67196367f57faf77d718ed1f6",
+ "main_point": "Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, arguing that its vague terms threatened internet freedom, privacy, and access to medicines.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "European Parliament",
+   "aliases": [
+    "plenary session"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "activist groups",
+   "aliases": [
+    "Pressure and activist groups"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Open Rights Group",
+   "aliases": [
+    "ORG",
+    "the UK's Open Rights Group"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Charles Arthur",
+   "aliases": [
+    "The Guardian's technology editor",
+    "Arthur"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Electronic Frontier Foundation",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Obama administration",
+   "aliases": [
+    "the Obama administration"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Sebastian Nerz",
+   "aliases": [
+    "vice-president of the Pirate Party of Germany"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Accessnow.org",
+   "aliases": [
+    "US-based pressure group Accessnow.org"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Wikileaks",
+   "aliases": [
+    "whistleblowing site Wikileaks"
+   ],
+   "kind": "organisation"
+  }
+ ],
+ "statements": [
+  {
+   "id": "26-s1",
+   "actor": "European Parliament",
+   "actor_aliases": [
+    "European Parliament",
+    "plenary session"
+   ],
+   "text": "During a plenary session, the European Parliament voted to reject the proposed Anti-Counterfeiting Trade Agreement (ACTA). The final tally showed 478 members voting against the legislation, 39 voting in favor, and 165 members abstaining from the decision.",
+   "text_short": "The European Parliament voted by a large margin to turn down the Anti-Counterfeiting Trade Agreement.",
+   "char_start": 0,
+   "char_end": 202,
+   "valid": false,
+   "rejection_reason": "too similar to source",
+   "diagnostics": {
+    "rouge2_precision": 0.3333,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "activist groups",
-    "key_statement": "Activist groups credit public mobilization for defeating the Anti-Counterfeiting Trade Agreement.",
-    "long_statement": "Activist groups across Europe attribute their successful opposition to the Anti-Counterfeiting Trade Agreement (ACTA) to the mobilization of the general public, arguing that widespread public pressure was the decisive factor in convincing Members of the European Parliament to vote against the secretive treaty.",
-    "segment_range": [
-     3,
-     8
-    ],
-    "rouge2_precision": 0.1163
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Massive public opposition and a two-million-signature petition led to ACTA's defeat.",
-    "long_statement": "The secretive Anti-Counterfeiting Trade Agreement (ACTA) provoked massive public opposition, including widespread rallies and a petition gathering two million signatures, which ultimately contributed to its defeat in the European Parliament.",
-    "segment_range": [
-     10,
-     14
-    ],
-    "rouge2_precision": 0.2
-   },
-   {
-    "actor": "Charles Arthur",
-    "key_statement": "The Anti-Counterfeiting Trade Agreement failed due to vague terms and secrecy.",
-    "long_statement": "The secretive Anti-Counterfeiting Trade Agreement (ACTA) failed to gain traction because its poorly defined provisions created unacceptable risks, such as the potential for customs officials to search travelers' electronic devices for copyright-infringing material, while the lack of transparency surrounding its negotiation further alienated the public.",
-    "segment_range": [
-     15,
-     24
-    ],
-    "rouge2_precision": 0.0909
-   },
-   {
-    "actor": "Electronic Frontier Foundation",
-    "key_statement": "The Electronic Frontier Foundation requested permission to view the classified ACTA papers.",
-    "long_statement": "The Electronic Frontier Foundation challenged the secrecy of the Anti-Counterfeiting Trade Agreement by demanding access to over 800 pages of negotiation documents, arguing that the vast majority of the material was improperly classified under the guise of national security concerns.",
-    "segment_range": [
-     25,
-     25
-    ],
-    "rouge2_precision": 0.2727
-   },
-   {
-    "actor": "Obama administration",
-    "key_statement": "The Obama administration refused to release the ACTA draft citing national security.",
-    "long_statement": "Following the transition to the Obama administration, the U.S. government maintained its refusal to release the Anti-Counterfeiting Trade Agreement draft, asserting that national security concerns justified keeping the entire document and all related materials secret from the public.",
-    "segment_range": [
-     26,
-     27
-    ],
-    "rouge2_precision": 0.2727
-   },
-   {
-    "actor": "Accessnow.org",
-    "key_statement": "Activists caution that the U.S. gains a built-in edge in competition against other countries because of ACTA.",
-    "long_statement": "The Anti-Counterfeiting Trade Agreement (ACTA) is being criticized by international pressure groups for granting the United States a structural competitive advantage over other nations, a dynamic that activists argue undermines global fairness and digital sovereignty. This concern arises because the agreement has already secured signatories from major economies including Australia, Canada, Japan, and the United States, raising fears that the resulting legal framework will disproportionately benefit one country while imposing burdens on others.",
-    "segment_range": [
-     35,
-     36
-    ],
-    "rouge2_precision": 0.1667
-   },
-   {
-    "actor": "Wikileaks",
-    "key_statement": "A leaked draft of ACTA revealed provisions threatening internet freedom and privacy, sparking public outcry.",
-    "long_statement": "Wikileaks, a whistleblowing website, published a leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA). This action caused an instant public backlash. Activists worried the document contained rules that would heavily limit internet freedom and privacy. The leaked text indicated the agreement would require internet service providers to hand over customer data. It also suggested banning multi-region CD and DVD players. Because of these points, critics labeled the deal a 'Pirate Bay killer' that endangers digital rights.",
-    "segment_range": [
-     37,
-     39
-    ],
-    "rouge2_precision": 0.2143
-   },
-   {
-    "actor": "Wikileaks",
-    "key_statement": "Under the ACTA draft, Internet Service Providers would be compelled to hand over client data, which would weaken privacy safeguards.",
-    "long_statement": "The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) includes provisions that would legally compel internet service providers to provide 'perfunctory disclosure of customer information' to authorities. This requirement represents a significant expansion of surveillance capabilities, as it mandates the routine handing over of user data, thereby eroding the privacy protections that currently shield individuals from government monitoring and data breaches.",
-    "segment_range": [
-     37,
-     39
-    ],
-    "rouge2_precision": 0.1639
-   },
-   {
-    "actor": "Wikileaks",
-    "key_statement": "The leaked ACTA draft is criticized for provisions that would outlaw multi-region media players and threaten internet freedom.",
-    "long_statement": "The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) would likely outlaw multi-region CD/DVD players, a restriction that activists argue undermines consumer rights and digital freedom. This specific provision, alongside fears of widespread internet censorship and threats to access to medicines, forms the core of the campaign against the secretive trade deal. Consequently, the agreement's vague terms are viewed as creating legal uncertainty that could disproportionately harm citizens' access to technology and information.",
-    "segment_range": [
-     37,
-     39
-    ],
-    "rouge2_precision": 0.1711
+  },
+  {
+   "id": "26-s2",
+   "actor": "activist groups",
+   "actor_aliases": [
+    "activist groups",
+    "Pressure and activist groups"
+   ],
+   "text": "Activist groups across Europe attribute their successful opposition to the Anti-Counterfeiting Trade Agreement (ACTA) to the mobilization of the general public, arguing that widespread public pressure was the decisive factor in convincing Members of the European Parliament to vote against the secretive treaty.",
+   "text_short": "Activist groups credit public mobilization for defeating the Anti-Counterfeiting Trade Agreement.",
+   "char_start": 202,
+   "char_end": 440,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1163,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "26-s3",
+   "actor": "Open Rights Group",
+   "actor_aliases": [
+    "Open Rights Group",
+    "ORG",
+    "the UK's Open Rights Group"
+   ],
+   "text": "The UK's Open Rights Group cautions that the European Commission, under the leadership of Trade Commissioner Karel de Gucht, has deferred any decision on how to proceed with the Anti-Counterfeiting Trade Agreement (ACTA) until the European Court of Justice rules on the treaty's compatibility with European law.",
+   "text_short": "The Open Rights Group notes the European Commission has delayed ACTA implementation pending a legal ruling.",
+   "char_start": 440,
+   "char_end": 664,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2653,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "26-s4",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The secretive Anti-Counterfeiting Trade Agreement (ACTA) provoked massive public opposition, including widespread rallies and a petition gathering two million signatures, which ultimately contributed to its defeat in the European Parliament.",
+   "text_short": "Massive public opposition and a two-million-signature petition led to ACTA's defeat.",
+   "char_start": 664,
+   "char_end": 983,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "26-s5",
+   "actor": "Charles Arthur",
+   "actor_aliases": [
+    "Charles Arthur",
+    "The Guardian's technology editor",
+    "Arthur"
+   ],
+   "text": "The secretive Anti-Counterfeiting Trade Agreement (ACTA) failed to gain traction because its poorly defined provisions created unacceptable risks, such as the potential for customs officials to search travelers' electronic devices for copyright-infringing material, while the lack of transparency surrounding its negotiation further alienated the public.",
+   "text_short": "The Anti-Counterfeiting Trade Agreement failed due to vague terms and secrecy.",
+   "char_start": 983,
+   "char_end": 1683,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0909,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "26-s6",
+   "actor": "Electronic Frontier Foundation",
+   "actor_aliases": [
+    "Electronic Frontier Foundation"
+   ],
+   "text": "The Electronic Frontier Foundation challenged the secrecy of the Anti-Counterfeiting Trade Agreement by demanding access to over 800 pages of negotiation documents, arguing that the vast majority of the material was improperly classified under the guise of national security concerns.",
+   "text_short": "The Electronic Frontier Foundation requested permission to view the classified ACTA papers.",
+   "char_start": 1683,
+   "char_end": 1921,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2727,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "26-s7",
+   "actor": "Obama administration",
+   "actor_aliases": [
+    "Obama administration",
+    "the Obama administration"
+   ],
+   "text": "Following the transition to the Obama administration, the U.S. government maintained its refusal to release the Anti-Counterfeiting Trade Agreement draft, asserting that national security concerns justified keeping the entire document and all related materials secret from the public.",
+   "text_short": "The Obama administration refused to release the ACTA draft citing national security.",
+   "char_start": 1921,
+   "char_end": 2171,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2727,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "26-s8",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Activists successfully defeated the secretive Anti-Counterfeiting Trade Agreement (ACTA) in the European Parliament, arguing that its vague terms threatened internet freedom, privacy, and access to medicines, thereby validating the campaign's focus on transparency and civil liberties.",
+   "text_short": "Activists defeated the secretive ACTA in the European Parliament.",
+   "char_start": 2171,
+   "char_end": 2558,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0811,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "26-s9",
+   "actor": "Accessnow.org",
+   "actor_aliases": [
+    "Accessnow.org",
+    "US-based pressure group Accessnow.org"
+   ],
+   "text": "The Anti-Counterfeiting Trade Agreement (ACTA) is being criticized by international pressure groups for granting the United States a structural competitive advantage over other nations, a dynamic that activists argue undermines global fairness and digital sovereignty. This concern arises because the agreement has already secured signatories from major economies including Australia, Canada, Japan, and the United States, raising fears that the resulting legal framework will disproportionately benefit one country while imposing burdens on others.",
+   "text_short": "Activists caution that the U.S. gains a built-in edge in competition against other countries because of ACTA.",
+   "char_start": 2558,
+   "char_end": 2822,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1667,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "26-s10",
+   "actor": "Wikileaks",
+   "actor_aliases": [
+    "Wikileaks",
+    "whistleblowing site Wikileaks"
+   ],
+   "text": "Wikileaks, a whistleblowing website, published a leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA). This action caused an instant public backlash. Activists worried the document contained rules that would heavily limit internet freedom and privacy. The leaked text indicated the agreement would require internet service providers to hand over customer data. It also suggested banning multi-region CD and DVD players. Because of these points, critics labeled the deal a 'Pirate Bay killer' that endangers digital rights.",
+   "text_short": "A leaked draft of ACTA revealed provisions threatening internet freedom and privacy, sparking public outcry.",
+   "char_start": 2822,
+   "char_end": 3229,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2143,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "26-s11",
+   "actor": "Wikileaks",
+   "actor_aliases": [
+    "Wikileaks",
+    "whistleblowing site Wikileaks"
+   ],
+   "text": "Analysts reviewing the leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) concluded that one specific section of the document functions as a 'Pirate Bay killer,' designed to dismantle peer-to-peer file-sharing networks. This assessment highlights the deep concern that the agreement's enforcement mechanisms would criminalize ordinary digital sharing practices, effectively destroying the infrastructure of the modern internet while prioritizing intellectual property protection over user rights.",
+   "text_short": "Analysts characterize the ACTA draft as a 'Pirate Bay killer' that would dismantle peer-to-peer file-sharing.",
+   "char_start": 2822,
+   "char_end": 3229,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1765,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "26-s12",
+   "actor": "Wikileaks",
+   "actor_aliases": [
+    "Wikileaks",
+    "whistleblowing site Wikileaks"
+   ],
+   "text": "The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) includes provisions that would legally compel internet service providers to provide 'perfunctory disclosure of customer information' to authorities. This requirement represents a significant expansion of surveillance capabilities, as it mandates the routine handing over of user data, thereby eroding the privacy protections that currently shield individuals from government monitoring and data breaches.",
+   "text_short": "Under the ACTA draft, Internet Service Providers would be compelled to hand over client data, which would weaken privacy safeguards.",
+   "char_start": 2822,
+   "char_end": 3229,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1639,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "26-s13",
+   "actor": "Wikileaks",
+   "actor_aliases": [
+    "Wikileaks",
+    "whistleblowing site Wikileaks"
+   ],
+   "text": "The leaked draft of the Anti-Counterfeiting Trade Agreement (ACTA) would likely outlaw multi-region CD/DVD players, a restriction that activists argue undermines consumer rights and digital freedom. This specific provision, alongside fears of widespread internet censorship and threats to access to medicines, forms the core of the campaign against the secretive trade deal. Consequently, the agreement's vague terms are viewed as creating legal uncertainty that could disproportionately harm citizens' access to technology and information.",
+   "text_short": "The leaked ACTA draft is criticized for provisions that would outlaw multi-region media players and threaten internet freedom.",
+   "char_start": 2822,
+   "char_end": 3229,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1711,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

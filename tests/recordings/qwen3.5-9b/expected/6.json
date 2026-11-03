@@ -1,78 +1,236 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Suprnova founder Andrej Preston reveals that after his site was raided in 2004 and he faced police pressure, the matter was eventually dropped, though his failed attempt to launch a decentralized alternative, eXeem, due to adware issues, highlights the legal and technical challenges of peer-to-peer file sharing.",
-  "main_point_method": "single",
-  "source_text_length_chars": 3150,
-  "source_text_length_segments": 70,
-  "actors": [
-   {
-    "name": "Andrej Preston",
-    "variations": [
-     "Sloncek"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "BitTorrent protocol",
-    "variations": [],
-    "kind": null
-   },
-   {
-    "name": "eXeem",
-    "variations": [],
-    "kind": null
-   },
-   {
-    "name": "Suprnova",
-    "variations": [
-     "Suprnova BitTorrent link site"
-    ],
-    "kind": "organisation"
+ "document_id": "6",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 3150,
+ "text_sha256": "a1067ea31151ef59e450c9659adee4fe5e86bf0e1c8882ae71126c2391276713",
+ "main_point": "Suprnova founder Andrej Preston reveals that after his site was raided in 2004 and he faced police pressure, the matter was eventually dropped, though his failed attempt to launch a decentralized alternative, eXeem, due to adware issues, highlights the legal and technical challenges of peer-to-peer file sharing.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Andrej Preston",
+   "aliases": [
+    "Sloncek"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "BitTorrent protocol",
+   "aliases": [],
+   "kind": null
+  },
+  {
+   "canonical_name": "eXeem",
+   "aliases": [],
+   "kind": null
+  },
+  {
+   "canonical_name": "Suprnova",
+   "aliases": [
+    "Suprnova BitTorrent link site"
+   ],
+   "kind": "organisation"
+  }
+ ],
+ "statements": [
+  {
+   "id": "6-s1",
+   "actor": "Andrej Preston",
+   "actor_aliases": [
+    "Andrej Preston",
+    "Sloncek"
+   ],
+   "text": "Andrej Preston, the founder of the now-defunct Suprnova file-sharing site, asserts that it is necessary for the public to learn the full details of the legal raid on his servers in 2004, marking a decisive end to his previous attempts to downplay the severity of the incident. This declaration comes as he reflects on the intense pressure from authorities that ultimately forced the closure of his platform, a situation he now feels compelled to address honestly rather than ignore.",
+   "text_short": "Preston demands public transparency regarding the 2004 raid on his file-sharing site to end his pretense of innocence.",
+   "char_start": 0,
+   "char_end": 812,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0556,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "Andrej Preston",
-    "key_statement": "Preston demands public transparency regarding the 2004 raid on his file-sharing site to end his pretense of innocence.",
-    "long_statement": "Andrej Preston, the founder of the now-defunct Suprnova file-sharing site, asserts that it is necessary for the public to learn the full details of the legal raid on his servers in 2004, marking a decisive end to his previous attempts to downplay the severity of the incident. This declaration comes as he reflects on the intense pressure from authorities that ultimately forced the closure of his platform, a situation he now feels compelled to address honestly rather than ignore.",
-    "segment_range": [
-     0,
-     18
-    ],
-    "rouge2_precision": 0.0556
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Preston's lawyers advised him to stay silent during the police interview to avoid self-incrimination.",
-    "long_statement": "Following the police raid on Andrej Preston's home and the seizure of his computers, his legal counsel advised him to remain completely silent during the subsequent interview with law enforcement, a strategy that was intended to prevent him from incriminating himself while the case was being reviewed by prosecutors.",
-    "segment_range": [
-     26,
-     38
-    ],
-    "rouge2_precision": 0.1333
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Preston's legal case was dropped and he recovered his seized property.",
-    "long_statement": "After enduring months of legal uncertainty and the seizure of his property, Andrej Preston's case against the police was eventually dropped, allowing him to retrieve his confiscated computers and CDs and effectively ending the legal threat against his file-sharing operations.",
-    "segment_range": [
-     39,
-     42
-    ],
-    "rouge2_precision": 0.0488
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Centralized tracking servers in BitTorrent create a vulnerability to legal action and content removal.",
-    "long_statement": "Despite its decentralized design, the BitTorrent protocol relies on central servers to coordinate peer connections, creating a critical vulnerability where these administrators can easily remove content and expose the entire network to legal shutdowns.",
-    "segment_range": [
-     49,
-     56
-    ],
-    "rouge2_precision": 0.0
+  },
+  {
+   "id": "6-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Following the police raid on Andrej Preston's home and the seizure of his computers, his legal counsel advised him to remain completely silent during the subsequent interview with law enforcement, a strategy that was intended to prevent him from incriminating himself while the case was being reviewed by prosecutors.",
+   "text_short": "Preston's lawyers advised him to stay silent during the police interview to avoid self-incrimination.",
+   "char_start": 1061,
+   "char_end": 1588,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1333,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "6-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "After enduring months of legal uncertainty and the seizure of his property, Andrej Preston's case against the police was eventually dropped, allowing him to retrieve his confiscated computers and CDs and effectively ending the legal threat against his file-sharing operations.",
+   "text_short": "Preston's legal case was dropped and he recovered his seized property.",
+   "char_start": 1588,
+   "char_end": 1818,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0488,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "6-s4",
+   "actor": "BitTorrent protocol",
+   "actor_aliases": [
+    "BitTorrent protocol"
+   ],
+   "text": "The BitTorrent protocol functions by using .torrent metadata files to direct client applications to specific trackers and provide verification data for files, a design that relies on a centralized server to coordinate peer-to-peer sharing and create a potential legal vulnerability for administrators.",
+   "text_short": "The BitTorrent protocol uses metadata files to direct clients to trackers, creating a central point of legal liability.",
+   "char_start": 1818,
+   "char_end": 2267,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2941,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "6-s5",
+   "actor": "BitTorrent protocol",
+   "actor_aliases": [
+    "BitTorrent protocol"
+   ],
+   "text": "The BitTorrent protocol was initially perceived as a legally safer method of file sharing because it distributed data directly across users' computers rather than storing copyrighted material on a centralized server, theoretically reducing the risk of legal liability for the network itself.",
+   "text_short": "BitTorrent was initially viewed as legally safer due to its decentralized file storage model.",
+   "char_start": 1818,
+   "char_end": 2267,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.1707,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "6-s6",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Despite its decentralized design, the BitTorrent protocol relies on central servers to coordinate peer connections, creating a critical vulnerability where these administrators can easily remove content and expose the entire network to legal shutdowns.",
+   "text_short": "Centralized tracking servers in BitTorrent create a vulnerability to legal action and content removal.",
+   "char_start": 2267,
+   "char_end": 2576,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "6-s7",
+   "actor": "eXeem",
+   "actor_aliases": [
+    "eXeem"
+   ],
+   "text": "The eXeem project was engineered as a fully decentralized alternative to BitTorrent, aiming to eliminate the need for central servers by having every user's computer act as a tracker to assist others in finding peers within the network.",
+   "text_short": "eXeem was designed as a decentralized alternative to BitTorrent to avoid central server dependencies.",
+   "char_start": 2576,
+   "char_end": 3001,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2105,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "6-s8",
+   "actor": "eXeem",
+   "actor_aliases": [
+    "eXeem"
+   ],
+   "text": "Although eXeem offered a decentralized solution to file sharing, the project ultimately failed to gain acceptance within the internet community following the discovery of bundled Cydoor adware, which tainted the software's reputation and halted its development.",
+   "text_short": "eXeem failed to gain community acceptance due to bundled adware issues.",
+   "char_start": 2576,
+   "char_end": 3001,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.25,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "6-s9",
+   "actor": "eXeem",
+   "actor_aliases": [
+    "eXeem"
+   ],
+   "text": "The development of the decentralized peer-to-peer file sharing project eXeem has permanently halted, a failure attributed to the discovery of malicious adware bundled within the software that damaged its reputation among internet users. This outcome underscores the significant technical and legal hurdles that decentralized alternatives face when attempting to compete with established systems, even when they offer superior architectural advantages by eliminating the need for central servers.",
+   "text_short": "Adware contamination caused the permanent failure of the decentralized file sharing project eXeem, highlighting the difficulties of building such systems.",
+   "char_start": 2576,
+   "char_end": 3001,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.0882,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

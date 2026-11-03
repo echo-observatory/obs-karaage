@@ -256,7 +256,7 @@ def extract_statements(passages: list, main_point: str) -> tuple[list[dict], lis
             result, elapsed = analyze_passage(passages, i, main_point)
             all_statements.append({"passage_index": i, "statements": result})
         except Exception as e:
-            errors.append({"passage_index": i, "error": str(e)})
+            errors.append({"passage_index": i, "error": f"{type(e).__name__}: {e}"})
             print(f"  Error on passage {i}: {e}")
     total = sum(len(stmts) for entry in all_statements for stmts in entry["statements"].values())
     print(f"-> {total} statement{'s' if total != 1 else ''} extracted from {len(all_statements)} passage{'s' if len(all_statements) != 1 else ''}, {len(errors)} passage{'s' if len(errors) != 1 else ''} failed.")

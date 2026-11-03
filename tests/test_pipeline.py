@@ -18,39 +18,85 @@ expected outputs from a replay instead:
 
 import json
 import os
-from pathlib import Path
 
 import pytest
 
 import karaage
-from conftest import ARTICLE_IDS
+from karaage import extraction
+from conftest import ARTICLE_IDS, PROFILE, RECORDINGS, check_output
 
-PROFILE = "qwen3.5-9b"
-RECORDINGS = Path(__file__).parent / "recordings"
 EXPECTED = RECORDINGS / PROFILE / "expected"
 
+# What changes between runs: the version, the time, and the build LM Studio reports, which replay doesn't know.
+VOLATILE = ("version", "commit", "inferred_at", "step_seconds", "model_build")
 
-@pytest.fixture(scope="module")
-def resources():
-    with pytest.MonkeyPatch.context() as mp:
-        mp.setenv("KARAAGE_LLM_MODE", os.environ.get("KARAAGE_LLM_MODE") or "replay")
-        mp.setenv("KARAAGE_RECORDINGS", str(RECORDINGS))
-        yield karaage.setup(backend="lmstudio", profile=PROFILE)
+# An invented text, for tests that need no recorded response.
+INVENTED_TEXT = (
+    "The town council voted on Monday to close the old library. "
+    "Mayor Jane Doe said the building was too expensive to repair, "
+    "and that a new library would open next to the school within two years."
+)
 
 
-def comparable(result) -> dict:
-    """The output without what changes between runs: version and timestamp."""
-    data = {k: v for k, v in result.data.items() if k not in ("karaage_version", "timestamp")}
-    return {"step_errors": result.step_errors, "failures": result.failures, "data": data}
+def comparable(data: dict) -> dict:
+    """The output without what changes between runs."""
+    return {**data, "provenance": {k: v for k, v in data["provenance"].items() if k not in VOLATILE}}
 
 
 @pytest.mark.parametrize("article_id", ARTICLE_IDS)
-def test_pipeline(article_id, articles, resources):
-    resources.client.use_recording(str(article_id))
-    output = comparable(karaage.run(articles[article_id]["text"], resources))
+def test_pipeline(article_id, articles, run_article, resources):
+    result = run_article(article_id)
+    data, text = result.data, articles[article_id]["text"]
+    check_output(data, text)
+    passages = {p["text"] for p in result.passages}
+    assert all(text[s["char_start"]:s["char_end"]] in passages for s in data["statements"])
+    assert "<link" not in result.html_report   # self-contained
     expected = EXPECTED / f"{article_id}.json"
     if resources.client.mode == "record" or os.environ.get("KARAAGE_UPDATE_EXPECTED"):
         expected.parent.mkdir(parents=True, exist_ok=True)
-        expected.write_text(json.dumps(output, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+        expected.write_text(json.dumps(comparable(data), indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     else:
-        assert output == json.loads(expected.read_text(encoding="utf-8"))
+        assert comparable(data) == json.loads(expected.read_text(encoding="utf-8"))
+
+
+def test_failed_step_gives_a_failed_output(resources, monkeypatch, tmp_path):
+    def failing_attribution(*args, **kwargs):
+        raise RuntimeError("backend down")
+    monkeypatch.setattr("karaage.attribution.step_2_attribute_authors", failing_attribution)
+
+    result = karaage.run({"id": 1001, "text": INVENTED_TEXT}, resources)
+    data = result.data
+    check_output(data, INVENTED_TEXT)
+    assert data["document_id"] == "1001" and data["status"] == "failed"
+    assert data["errors"] == [{"step": "attribution", "passage": None, "statement": None,
+                               "message": "RuntimeError: backend down"}]
+    assert list(data["provenance"]["step_seconds"]) == ["segmentation", "attribution"]
+    assert "RuntimeError: backend down" in result.html_report
+
+    karaage.save(result, data_path=tmp_path / "1001.json", html_path=tmp_path / "1001.html")
+    assert json.loads((tmp_path / "1001.json").read_text(encoding="utf-8")) == data
+
+
+def test_failed_passage_gives_a_partial_output(articles, resources, monkeypatch):
+    if resources.client.mode != "replay":
+        pytest.skip("replays article 19, whose later requests change")
+    analyze_passage = extraction.analyze_passage
+    def failing_first_passage(passages, passage_index, *args, **kwargs):
+        if passage_index == 0:
+            raise RuntimeError("backend down")
+        return analyze_passage(passages, passage_index, *args, **kwargs)
+    monkeypatch.setattr(extraction, "analyze_passage", failing_first_passage)
+
+    resources.client.use_recording("19")
+    data = karaage.run({"id": "19", "text": articles[19]["text"]}, resources).data
+    check_output(data, articles[19]["text"])
+    assert data["status"] == "partial"
+    assert data["errors"][0] == {"step": "extraction", "passage": 1, "statement": None,
+                                 "message": "RuntimeError: backend down"}
+
+
+def test_document_needs_an_id_and_a_text(resources):
+    for document in ["text alone", {"text": "no id"}, {"id": "", "text": "empty id"}, {"id": True, "text": "x"},
+                     {"id": 1}]:
+        with pytest.raises((TypeError, ValueError)):
+            karaage.run(document, resources)

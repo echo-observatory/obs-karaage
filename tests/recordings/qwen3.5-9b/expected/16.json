@@ -1,122 +1,324 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Anonymous launched a decentralized, largely opportunistic cyber-attack campaign called 'Operation Baylout' to disrupt websites of entities prosecuting The Pirate Bay, though the group's true motives remain ambiguous as participants may be acting for entertainment rather than genuine activism.",
-  "main_point_method": "single",
-  "source_text_length_chars": 5206,
-  "source_text_length_segments": 81,
-  "actors": [
-   {
-    "name": "Anonymous",
-    "variations": [
-     "the loosely defined online activist group",
-     "Operation Baylout",
-     "the group",
-     "Anon",
-     "this group",
-     "this assertion",
-     "this moralfag personal army"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Wikinews",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "International Federation of the Phonographic Industry",
-    "variations": [
-     "IFPI",
-     "this trade body",
-     "this trade group"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "MPAA",
-    "variations": [
-     "the MPAA's anti-piracy office"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Pirate Party International",
-    "variations": [
-     "local pirate parties"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Dmitriy Guzner",
-    "variations": [
-     "aged 18"
-    ],
-    "kind": "person"
+ "document_id": "16",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 5206,
+ "text_sha256": "4b5c7788ce52cb590ab613d7e5053dab85ef0509f436420bb54584f2785ed7f4",
+ "main_point": "Anonymous launched a decentralized, largely opportunistic cyber-attack campaign called 'Operation Baylout' to disrupt websites of entities prosecuting The Pirate Bay, though the group's true motives remain ambiguous as participants may be acting for entertainment rather than genuine activism.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Anonymous",
+   "aliases": [
+    "the loosely defined online activist group",
+    "Operation Baylout",
+    "the group",
+    "Anon",
+    "this group",
+    "this assertion",
+    "this moralfag personal army"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Wikinews",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "International Federation of the Phonographic Industry",
+   "aliases": [
+    "IFPI",
+    "this trade body",
+    "this trade group"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "MPAA",
+   "aliases": [
+    "the MPAA's anti-piracy office"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Pirate Party International",
+   "aliases": [
+    "local pirate parties"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Dmitriy Guzner",
+   "aliases": [
+    "aged 18"
+   ],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "16-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Anonymous, a loosely defined online activist group, has launched a decentralized campaign called 'Operation Baylout.' This action aims to disrupt the websites of organizations that prosecute The Pirate Bay. The move shows the group's opportunistic nature instead of a unified strategic objective.",
+   "text_short": "Anonymous launched an opportunistic cyber-attack campaign to disrupt websites of The Pirate Bay's prosecutors.",
+   "char_start": 0,
+   "char_end": 307,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2381,
+    "paraphrased": true,
+    "in_text": "no",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "A coordinated cyber-attack forced the law firm MAQS to shut down its website and disrupted the MPAA's fax lines.",
-    "long_statement": "The law firm MAQS, which works with the prosecution in the Pirate Bay case, was forced to shut down its website after a coordinated cyber-attack, while protesters simultaneously jammed the fax lines of the MPAA and prosecuting attorney Monique Wadsted.",
-    "segment_range": [
-     5,
-     14
-    ],
-    "rouge2_precision": 0.225
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Supporting local pirate parties offers lasting political change against industry lobbying.",
-    "long_statement": "While the decentralized 'Operation Baylout' campaign disrupts websites of entities prosecuting The Pirate Bay, the author argues that supporting local pirate parties offers a more effective solution by creating a government resistant to lobbying from the International Federation of the Phonographic Industry, ensuring lasting results rather than temporary disruption.",
-    "segment_range": [
-     17,
-     39
-    ],
-    "rouge2_precision": 0.2
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Participants in online causes are often unknowingly manipulated by trolls for entertainment.",
-    "long_statement": "The author explains that individuals often participate in a perceived cause unknowingly because they are being manipulated by trolls seeking entertainment, a dynamic that undermines the authenticity of the movement's stated goals.",
-    "segment_range": [
-     60,
-     66
-    ],
-    "rouge2_precision": 0.0625
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Skepticism regarding the existence of a unified Anonymous campaign due to the prevalence of independent retaliatory attacks.",
-    "long_statement": "The assertion that a decentralized group known as Anonymous launched a specific, coordinated campaign called 'Operation Baylout' to disrupt websites of entities prosecuting The Pirate Bay should be treated with skepticism, given that similar retaliatory cyber-attacks against Swedish government and media industry sites have become a common occurrence following legal actions against the organization. While the timing and targets align with the narrative of a unified operation, the frequency of these independent retaliations suggests the alleged master plan may be a fabrication designed to amplify the perceived scale of the conflict.",
-    "segment_range": [
-     70,
-     74
-    ],
-    "rouge2_precision": 0.1319
-   },
-   {
-    "actor": "Anonymous",
-    "key_statement": "Anonymous plans a targeted cyber-raid against the IFPI's Swedish website as part of an ongoing digital conflict.",
-    "long_statement": "The collective known as Anonymous intends to execute a cyber-attack against the International Federation of the Phonogram's Swedish website at 12:00 GMT on April 26, continuing a pattern of disrupting digital infrastructure belonging to organizations that have pursued legal action against The Pirate Bay. This planned operation represents a direct escalation of the ongoing digital conflict, targeting the intellectual property rights industry in Sweden specifically.",
-    "segment_range": [
-     75,
-     79
-    ],
-    "rouge2_precision": 0.2778
-   },
-   {
-    "actor": "Anonymous",
-    "key_statement": "In January 2008, an unidentified group took credit for a successful cyber-attack that hit the Church of Scientology's website.",
-    "long_statement": "On January 20, 2008, the collective known as Anonymous officially claimed responsibility for a distributed denial-of-service attack that successfully disabled the Church of Scientology's website, marking a significant escalation in their campaign against religious institutions that had opposed internet piracy. This admission of guilt by the group itself serves as concrete evidence of their capacity to organize and execute large-scale cyber-operations against specific targets.",
-    "segment_range": [
-     75,
-     79
-    ],
-    "rouge2_precision": 0.25
+  },
+  {
+   "id": "16-s2",
+   "actor": "International Federation of the Phonographic Industry",
+   "actor_aliases": [
+    "International Federation of the Phonographic Industry",
+    "IFPI",
+    "this trade body",
+    "this trade group"
+   ],
+   "text": "The International Federation of the Phonographic Industry faces coordinated efforts to jam its website as part of a decentralized cyber-attack campaign, a disruption caused by casual volunteers seeking entertainment rather than genuine activists committed to the group's anti-piracy mission.",
+   "text_short": "The IFPI faces a decentralized cyber-attack by casual volunteers rather than dedicated activists.",
+   "char_start": 307,
+   "char_end": 529,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2195,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
    }
-  ]
+  },
+  {
+   "id": "16-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The law firm MAQS, which works with the prosecution in the Pirate Bay case, was forced to shut down its website after a coordinated cyber-attack, while protesters simultaneously jammed the fax lines of the MPAA and prosecuting attorney Monique Wadsted.",
+   "text_short": "A coordinated cyber-attack forced the law firm MAQS to shut down its website and disrupted the MPAA's fax lines.",
+   "char_start": 529,
+   "char_end": 1040,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.225,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "16-s4",
+   "actor": "International Federation of the Phonographic Industry",
+   "actor_aliases": [
+    "International Federation of the Phonographic Industry",
+    "IFPI",
+    "this trade body",
+    "this trade group"
+   ],
+   "text": "The International Federation of the Phonographic Industry is focused on increasing short-term profits rather than long-term growth or customer needs, a strategic approach that has contributed to the current situation where the group faces significant public opposition and cyber-attacks.",
+   "text_short": "The IFPI's focus on short-term profits has contributed to its current public opposition and cyber-attacks.",
+   "char_start": 1040,
+   "char_end": 1280,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1765,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "16-s5",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "While the decentralized 'Operation Baylout' campaign disrupts websites of entities prosecuting The Pirate Bay, the author argues that supporting local pirate parties offers a more effective solution by creating a government resistant to lobbying from the International Federation of the Phonographic Industry, ensuring lasting results rather than temporary disruption.",
+   "text_short": "Supporting local pirate parties offers lasting political change against industry lobbying.",
+   "char_start": 1280,
+   "char_end": 2978,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "16-s6",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Although the decentralized group claiming responsibility for 'Operation Baylout' disrupts websites of entities prosecuting The Pirate Bay, the author notes that the group's true motives remain ambiguous, as participants may be acting for cheap entertainment rather than genuine activism.",
+   "text_short": "The true motives behind the 'Operation Baylout' cyber-attacks remain ambiguous.",
+   "char_start": 2978,
+   "char_end": 4107,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1282,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "16-s7",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The author explains that individuals often participate in a perceived cause unknowingly because they are being manipulated by trolls seeking entertainment, a dynamic that undermines the authenticity of the movement's stated goals.",
+   "text_short": "Participants in online causes are often unknowingly manipulated by trolls for entertainment.",
+   "char_start": 4107,
+   "char_end": 4340,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0625,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "16-s8",
+   "actor": "Anonymous",
+   "actor_aliases": [
+    "Anonymous",
+    "the loosely defined online activist group",
+    "Operation Baylout",
+    "the group",
+    "Anon",
+    "this group",
+    "this assertion",
+    "this moralfag personal army"
+   ],
+   "text": "The participants in the 'Operation Baylout' raids take themselves seriously without realizing they are part of a grand, subtle troll, a situation described as a slick deception where the group mocks those who believe in their own moral righteousness.",
+   "text_short": "Participants in the 'Operation Baylout' raids are unaware they are part of a grand troll.",
+   "char_start": 4340,
+   "char_end": 4542,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0789,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "16-s9",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The assertion that a decentralized group known as Anonymous launched a specific, coordinated campaign called 'Operation Baylout' to disrupt websites of entities prosecuting The Pirate Bay should be treated with skepticism, given that similar retaliatory cyber-attacks against Swedish government and media industry sites have become a common occurrence following legal actions against the organization. While the timing and targets align with the narrative of a unified operation, the frequency of these independent retaliations suggests the alleged master plan may be a fabrication designed to amplify the perceived scale of the conflict.",
+   "text_short": "Skepticism regarding the existence of a unified Anonymous campaign due to the prevalence of independent retaliatory attacks.",
+   "char_start": 4542,
+   "char_end": 4776,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1319,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "16-s10",
+   "actor": "Anonymous",
+   "actor_aliases": [
+    "Anonymous",
+    "the loosely defined online activist group",
+    "Operation Baylout",
+    "the group",
+    "Anon",
+    "this group",
+    "this assertion",
+    "this moralfag personal army"
+   ],
+   "text": "The collective known as Anonymous intends to execute a cyber-attack against the International Federation of the Phonogram's Swedish website at 12:00 GMT on April 26, continuing a pattern of disrupting digital infrastructure belonging to organizations that have pursued legal action against The Pirate Bay. This planned operation represents a direct escalation of the ongoing digital conflict, targeting the intellectual property rights industry in Sweden specifically.",
+   "text_short": "Anonymous plans a targeted cyber-raid against the IFPI's Swedish website as part of an ongoing digital conflict.",
+   "char_start": 4776,
+   "char_end": 5083,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2778,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "16-s11",
+   "actor": "Anonymous",
+   "actor_aliases": [
+    "Anonymous",
+    "the loosely defined online activist group",
+    "Operation Baylout",
+    "the group",
+    "Anon",
+    "this group",
+    "this assertion",
+    "this moralfag personal army"
+   ],
+   "text": "On January 20, 2008, the collective known as Anonymous officially claimed responsibility for a distributed denial-of-service attack that successfully disabled the Church of Scientology's website, marking a significant escalation in their campaign against religious institutions that had opposed internet piracy. This admission of guilt by the group itself serves as concrete evidence of their capacity to organize and execute large-scale cyber-operations against specific targets.",
+   "text_short": "In January 2008, an unidentified group took credit for a successful cyber-attack that hit the Church of Scientology's website.",
+   "char_start": 4776,
+   "char_end": 5083,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.25,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

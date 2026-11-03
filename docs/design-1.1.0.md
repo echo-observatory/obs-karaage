@@ -204,7 +204,7 @@ Each document gets `<id>.json`, plus `<id>.html` (the report) when asked for.
 
 - `ok`: every step ran without error. A document with no statements can be `ok`.
 - `partial`: every step ran, but some passages, batches or statements failed and are listed in `errors`, so statements may be missing.
-- `failed`: a step failed as a whole. There are no statements, but the file is still written, with the error, so a rerun knows to retry it.
+- `failed`: a step failed as a whole. There are no statements, actors or main point, but the file is still written, with the error, so a rerun knows to retry it.
 
 A rerun skips documents whose status is `ok` and retries the others.
 
@@ -256,16 +256,21 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
 ```
 
 - **Text fingerprint:** `text_length` counts code points and `text_sha256` is taken from the UTF-8 text, so a later change to the text can be detected.
-- **Warnings:**
-  - the text is not NFC-normalised;
-  - it contains `\r`;
-  - it does not look like English.
+- **Errors:** one object per failure, in pipeline order, e.g. `{"step": "extraction", "passage": 3, "statement": null, "message": "RuntimeError: …"}`.
+  - `step` is one of `segmentation`, `attribution`, `passages`, `extraction`, `rephrasing`, `paraphrasing` and `validation`.
+  - When only part of a step failed, `passage` (numbered from 1, as in the report) or `statement` (a statement id) says which.
+  - A failed document has one error: that of the step that failed.
+- **Warnings:** `{"code", "message"}` objects, with the codes:
+  - `text-not-nfc`: the text is not NFC-normalised;
+  - `text-has-carriage-return`: it contains `\r`;
+  - `text-not-english`: it does not look like English. Fewer than 15% of its words are frequent English function words, against 25% to 40% in the test articles. Texts under 20 words are not checked.
 - **`main_point_method`:** `single` or `chunked`.
 - **Statement ids:**
   - written `<document_id>-s<n>`, with `n` counted from 1 in extraction order (by passage, then actor);
   - rejected statements included, so ids don't depend on validation;
   - unique within a run.
 - **Actor:** `actor` is the actor's `canonical_name`, or `base_author`. `actor_aliases` is the canonical name followed by the aliases; for `base_author` it is `["base_author"]`.
+- **Statement texts:** `text` and `text_short` are `null` when the statement's rephrasing batch failed.
 - **Rejection reasons:** `validation error`, `rephrasing error`, `too similar to source`, `not found in source text` or `wrong actor attribution`, as in `validation.py`.
 - **Provenance:**
   - `commit` is the git commit Karaage was built from, recorded at build time, so that installed releases carry it too;
@@ -273,6 +278,7 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
   - `model` is the id the profile asks for on this backend, and `model_reported` the id the server returns;
   - `model_build` is the loaded build as LM Studio reports it (section 4.1); on OpenRouter, the providers that served the document's requests, since they may run different precisions; `null` on other backends.
 - **`inferred_at`:** UTC in the snapshot format `YYYY-MM-DDTHH:MM:SSZ`.
+- **`step_seconds`:** the duration of each step that ran, keyed by the step names above.
 
 ### 6.4 Mapping to the snapshot specification
 

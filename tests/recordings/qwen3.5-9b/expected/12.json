@@ -1,145 +1,330 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Startup Joost is advancing the Internet TV model by securing content deals with major studios and leveraging peer-to-peer technology to offer free, on-demand programming, aiming to balance consumer flexibility with industry control despite challenges regarding content quality and bandwidth efficiency.",
-  "main_point_method": "single",
-  "source_text_length_chars": 4055,
-  "source_text_length_segments": 62,
-  "actors": [
-   {
-    "name": "Joost",
-    "variations": [
-     "web broadcaster",
-     "online community",
-     "sweetheart aggregator",
-     "provider"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Warner Brothers",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Time Warner",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "John P. Gamboa",
-    "variations": [
-     "Dailey Aztec"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Niklas Zennström",
-    "variations": [],
-    "kind": "person"
-   },
-   {
-    "name": "Fredrik de Wahl",
-    "variations": [
-     "Joost chief executive officer"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "media conglomerates",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "established subscription cable and satellite distribution channels",
-    "variations": [
-     "free airwave TV"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Internet peer-to-peer networking",
-    "variations": [],
-    "kind": null
-   },
-   {
-    "name": "Kazaa",
-    "variations": [
-     "copyright bust"
-    ],
-    "kind": null
-   },
-   {
-    "name": "Sharman Networks",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "eBay",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "music record labels",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "telcom carriers",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "users",
-    "variations": [
-     "Internet users",
-     "viewers"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "music file sharing and telephony implementations",
-    "variations": [
-     "bleeding edge"
-    ],
-    "kind": null
-   },
-   {
-    "name": "The 'on-demand' feature",
-    "variations": [],
-    "kind": null
-   },
-   {
-    "name": "It",
-    "variations": [
-     "middle-man",
-     "web broadcaster"
-    ],
-    "kind": "person"
+ "document_id": "12",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 4055,
+ "text_sha256": "2a0c8d7b1b3f97137b17af1c8a81bb0b3c049a60df6fbe1cce10e2f398b93799",
+ "main_point": "Startup Joost is advancing the Internet TV model by securing content deals with major studios and leveraging peer-to-peer technology to offer free, on-demand programming, aiming to balance consumer flexibility with industry control despite challenges regarding content quality and bandwidth efficiency.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Joost",
+   "aliases": [
+    "web broadcaster",
+    "online community",
+    "sweetheart aggregator",
+    "provider"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Warner Brothers",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Time Warner",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "John P. Gamboa",
+   "aliases": [
+    "Dailey Aztec"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Niklas Zennström",
+   "aliases": [],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Fredrik de Wahl",
+   "aliases": [
+    "Joost chief executive officer"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "media conglomerates",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "established subscription cable and satellite distribution channels",
+   "aliases": [
+    "free airwave TV"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Internet peer-to-peer networking",
+   "aliases": [],
+   "kind": null
+  },
+  {
+   "canonical_name": "Kazaa",
+   "aliases": [
+    "copyright bust"
+   ],
+   "kind": null
+  },
+  {
+   "canonical_name": "Sharman Networks",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "eBay",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "music record labels",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "telcom carriers",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "users",
+   "aliases": [
+    "Internet users",
+    "viewers"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "music file sharing and telephony implementations",
+   "aliases": [
+    "bleeding edge"
+   ],
+   "kind": null
+  },
+  {
+   "canonical_name": "The 'on-demand' feature",
+   "aliases": [],
+   "kind": null
+  },
+  {
+   "canonical_name": "It",
+   "aliases": [
+    "middle-man",
+    "web broadcaster"
+   ],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "12-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The startup Joost has secured distribution agreements with major studios, including Warner Brothers, Time Warner, and Sony Pictures Television, to establish itself as a primary aggregator for free, on-demand online television content. This strategic partnership allows the service to balance the entertainment industry's need for content control with consumer demands for flexibility, despite the service currently offering lower-quality programming than traditional cable or satellite providers.",
+   "text_short": "Joost secures major studio deals to balance industry control with consumer flexibility in free online TV.",
+   "char_start": 0,
+   "char_end": 836,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1791,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "users",
-    "key_statement": "Users can customize their online TV experience by interacting with programming via optional widgets.",
-    "long_statement": "Viewers of the online television service can enhance their experience by interacting with the programming through integrated widgets such as clocks, instant messaging, news feeds, and chat rooms, which can be customized or disabled by the user during viewing sessions.",
-    "segment_range": [
-     12,
-     16
-    ],
-    "rouge2_precision": 0.1795
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Broadband peer-to-peer connectivity represents a permanent shift in how media is distributed, even though it faced initial difficulties.",
-    "long_statement": "Despite initial legal challenges and a difficult early adoption phase, online broadband peer-to-peer connectivity represents a permanent shift in media distribution that will remain the standard for delivering content to consumers with high-speed internet access.",
-    "segment_range": [
-     31,
-     39
-    ],
-    "rouge2_precision": 0.2105
+  },
+  {
+   "id": "12-s2",
+   "actor": "users",
+   "actor_aliases": [
+    "users",
+    "Internet users",
+    "viewers"
+   ],
+   "text": "Viewers of the online television service can enhance their experience by interacting with the programming through integrated widgets such as clocks, instant messaging, news feeds, and chat rooms, which can be customized or disabled by the user during viewing sessions.",
+   "text_short": "Users can customize their online TV experience by interacting with programming via optional widgets.",
+   "char_start": 836,
+   "char_end": 1097,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1795,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "12-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Despite initial legal challenges and a difficult early adoption phase, online broadband peer-to-peer connectivity represents a permanent shift in media distribution that will remain the standard for delivering content to consumers with high-speed internet access.",
+   "text_short": "Broadband peer-to-peer connectivity represents a permanent shift in how media is distributed, even though it faced initial difficulties.",
+   "char_start": 2010,
+   "char_end": 2547,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2105,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "12-s4",
+   "actor": "Fredrik de Wahl",
+   "actor_aliases": [
+    "Fredrik de Wahl",
+    "Joost chief executive officer"
+   ],
+   "text": "The leadership of the startup Joost asserts that the service successfully reconciles the consumer demand for flexible, on-demand viewing with the entertainment industry's requirement to retain control over its intellectual property, creating a viable middle ground for digital television distribution.",
+   "text_short": "Joost leadership claims to successfully balance consumer flexibility with industry content control.",
+   "char_start": 2547,
+   "char_end": 2871,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0488,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "12-s5",
+   "actor": "established subscription cable and satellite distribution channels",
+   "actor_aliases": [
+    "established subscription cable and satellite distribution channels",
+    "free airwave TV"
+   ],
+   "text": "Broadcasted television programming of the highest quality is found on established subscription cable and satellite distribution channels. Emerging Internet TV services have not reached this level of fidelity and production value.",
+   "text_short": "Established cable and satellite channels currently offer superior broadcast quality compared to emerging Internet TV services.",
+   "char_start": 2871,
+   "char_end": 3124,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2667,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "12-s6",
+   "actor": "The 'on-demand' feature",
+   "actor_aliases": [
+    "The 'on-demand' feature"
+   ],
+   "text": "Internet TV distribution uses an on-demand feature that saves a lot of network pipeline space. It does this by sending content only when a user asks for it, instead of sending continuous streams to everyone connected.",
+   "text_short": "Internet TV's on-demand feature conserves network bandwidth by delivering content only upon user request.",
+   "char_start": 3124,
+   "char_end": 3508,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2222,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "12-s7",
+   "actor": "The 'on-demand' feature",
+   "actor_aliases": [
+    "The 'on-demand' feature"
+   ],
+   "text": "The on-demand feature of Internet TV provides real-time feedback to content aggregators regarding exactly which programs are in demand, allowing for more efficient content management and distribution strategies compared to traditional broadcasting models.",
+   "text_short": "Internet TV's on-demand model provides aggregators with precise data on viewer preferences to optimize content distribution.",
+   "char_start": 3124,
+   "char_end": 3508,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2647,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "12-s8",
+   "actor": "It",
+   "actor_aliases": [
+    "It",
+    "middle-man",
+    "web broadcaster"
+   ],
+   "text": "This new Internet TV approach allows intermediaries to deal straight with media conglomerates and handle a stream full of content that no one watches. This setup saves bandwidth. It also matches what viewers want regarding flexibility with what the industry needs to keep control of its intellectual property.",
+   "text_short": "Middle-men gain power under the Internet TV model. They deal with media conglomerates. They also save bandwidth by handling content that no one watches.",
+   "char_start": 3508,
+   "char_end": 3822,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.1064,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "12-s9",
+   "actor": "It",
+   "actor_aliases": [
+    "It",
+    "middle-man",
+    "web broadcaster"
+   ],
+   "text": "The proposed Internet TV model, which relies on peer-to-peer networking to distribute content more efficiently than traditional cable or satellite systems, allows users to access free on-demand programming. This approach is designed to balance consumer flexibility with industry control by enabling a middle-man to negotiate rights with media conglomerates and manage a pipeline of unviewed content, thereby conserving bandwidth while offering a gateway to programs that might otherwise be unavailable or cost money.",
+   "text_short": "The Internet TV model offers free, efficient on-demand programming by leveraging peer-to-peer technology and negotiated content deals.",
+   "char_start": 3508,
+   "char_end": 3822,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1842,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

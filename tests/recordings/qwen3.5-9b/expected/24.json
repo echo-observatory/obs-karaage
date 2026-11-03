@@ -1,121 +1,243 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Wikipedia is conducting a 24-hour blackout to protest U.S. anti-piracy laws, aiming to raise awareness and pressure lawmakers, while its executive director defends the protest's effectiveness and the community's decision-making process despite concerns about commercial participation and future precedents.",
-  "main_point_method": "single",
-  "source_text_length_chars": 5401,
-  "source_text_length_segments": 100,
-  "actors": [
-   {
-    "name": "White House",
-    "variations": [
-     "they"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Wikinews",
-    "variations": [
-     "Tom Morris"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "admins",
-    "variations": [
-     "the admins who closed it"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Geoff Brigham",
-    "variations": [
-     "Wikimedia's legal counsel"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Italian Wikipedians",
-    "variations": [
-     "the Italian Wikipedia"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "German Wikipedia",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Arabic Wikipedia",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "Jimmy",
-    "variations": [],
-    "kind": "person"
-   },
-   {
-    "name": "community",
-    "variations": [
-     "the community",
-     "the community consensus"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Foundation",
-    "variations": [
-     "the Foundation",
-     "the Wikimedia Foundation",
-     "the Wikimedia movement"
-    ],
-    "kind": "organisation"
+ "document_id": "24",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 5401,
+ "text_sha256": "8ab82966be6e8860730fdd3c0dead273a1ee40ef42749cd54087232559e1eec4",
+ "main_point": "Wikipedia is conducting a 24-hour blackout to protest U.S. anti-piracy laws, aiming to raise awareness and pressure lawmakers, while its executive director defends the protest's effectiveness and the community's decision-making process despite concerns about commercial participation and future precedents.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "White House",
+   "aliases": [
+    "they"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Wikinews",
+   "aliases": [
+    "Tom Morris"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "admins",
+   "aliases": [
+    "the admins who closed it"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Geoff Brigham",
+   "aliases": [
+    "Wikimedia's legal counsel"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Italian Wikipedians",
+   "aliases": [
+    "the Italian Wikipedia"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "German Wikipedia",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Arabic Wikipedia",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Jimmy",
+   "aliases": [],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "community",
+   "aliases": [
+    "the community",
+    "the community consensus"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Foundation",
+   "aliases": [
+    "the Foundation",
+    "the Wikimedia Foundation",
+    "the Wikimedia movement"
+   ],
+   "kind": "organisation"
+  }
+ ],
+ "statements": [
+  {
+   "id": "24-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Wikimedia Foundation's executive director confirms that the 24-hour Wikipedia blackout against U.S. anti-piracy laws is already achieving its primary goal of raising public awareness, evidenced by thousands of news stories and trending social media activity, even though the extent to which this pressure will translate into direct contact with lawmakers remains uncertain.",
+   "text_short": "The Wikimedia Foundation's executive director confirms the blackout's success in raising awareness about U.S. anti-piracy laws, though legislative impact remains uncertain.",
+   "char_start": 679,
+   "char_end": 1588,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.1667,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "The 24-hour blackout received strong support from the biggest community discussion ever held on the English Wikipedia.",
-    "long_statement": "The largest-ever community discussion on the English Wikipedia, involving over 1,800 participants from diverse countries, overwhelmingly supported the decision to stage the 24-hour blackout, validating the democratic process used to determine the protest's scope and timing.",
-    "segment_range": [
-     28,
-     56
-    ],
-    "rouge2_precision": 0.2564
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The Wikimedia Foundation argues that each language version must independently decide whether to join the blackout based on its specific circumstances.",
-    "long_statement": "The Wikimedia Foundation maintains that there is no single correct approach for all language versions, arguing that each project must independently assess its specific circumstances to decide whether to join the 24-hour blackout or display supportive banners.",
-    "segment_range": [
-     57,
-     81
-    ],
-    "rouge2_precision": 0.1
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The absence of major commercial websites does not undermine the protest's effectiveness due to legal and financial constraints.",
-    "long_statement": "The absence of major commercial websites from the 24-hour blackout does not undermine the protest's effectiveness, as these entities are often legally or financially constrained by shareholder demands, revenue concerns, and contractual uptime obligations that prevent participation.",
-    "segment_range": [
-     57,
-     81
-    ],
-    "rouge2_precision": 0.0263
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The Wikimedia Foundation faces questions about restricting future digital protests despite valuing community decisions.",
-    "long_statement": "The Wikimedia Foundation is currently facing inquiries regarding whether it will create formal policies or specific conditions to restrict future digital protests and advocacy campaigns, even as it acknowledges the value of community-led decision-making processes.",
-    "segment_range": [
-     57,
-     81
-    ],
-    "rouge2_precision": 0.0
+  },
+  {
+   "id": "24-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The largest-ever community discussion on the English Wikipedia, involving over 1,800 participants from diverse countries, overwhelmingly supported the decision to stage the 24-hour blackout, validating the democratic process used to determine the protest's scope and timing.",
+   "text_short": "The 24-hour blackout received strong support from the biggest community discussion ever held on the English Wikipedia.",
+   "char_start": 1588,
+   "char_end": 3395,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2564,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "24-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Wikimedia Foundation maintains that there is no single correct approach for all language versions, arguing that each project must independently assess its specific circumstances to decide whether to join the 24-hour blackout or display supportive banners.",
+   "text_short": "The Wikimedia Foundation argues that each language version must independently decide whether to join the blackout based on its specific circumstances.",
+   "char_start": 3395,
+   "char_end": 4660,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "24-s4",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The absence of major commercial websites from the 24-hour blackout does not undermine the protest's effectiveness, as these entities are often legally or financially constrained by shareholder demands, revenue concerns, and contractual uptime obligations that prevent participation.",
+   "text_short": "The absence of major commercial websites does not undermine the protest's effectiveness due to legal and financial constraints.",
+   "char_start": 3395,
+   "char_end": 4660,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0263,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "24-s5",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Wikimedia Foundation is currently facing inquiries regarding whether it will create formal policies or specific conditions to restrict future digital protests and advocacy campaigns, even as it acknowledges the value of community-led decision-making processes.",
+   "text_short": "The Wikimedia Foundation faces questions about restricting future digital protests despite valuing community decisions.",
+   "char_start": 3395,
+   "char_end": 4660,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "24-s6",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Wikimedia Foundation recognizes that its limited experience in political advocacy means the organization is likely to make errors while learning how to effectively support digital rights campaigns, even though it currently has no plans to create binding rules for such activities.",
+   "text_short": "The Wikimedia Foundation admits its lack of advocacy experience makes mistakes likely while avoiding formal protest policies.",
+   "char_start": 4660,
+   "char_end": 4970,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0625,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "24-s7",
+   "actor": "Foundation",
+   "actor_aliases": [
+    "Foundation",
+    "the Foundation",
+    "the Wikimedia Foundation",
+    "the Wikimedia movement"
+   ],
+   "text": "The Wikimedia Foundation has no current intention to establish binding policies that would govern future protests or advocacy work, yet it remains committed to creating open forums where diverse stakeholders can share expertise and discuss the complexities of digital rights activism.",
+   "text_short": "The Wikimedia Foundation refuses to create binding protest policies but supports open discussions on digital rights.",
+   "char_start": 4970,
+   "char_end": 5401,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

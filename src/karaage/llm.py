@@ -78,6 +78,11 @@ class LLMClient:
             self._recording = (self.recordings / f"{name}.json", {})
             self._recording[0].unlink(missing_ok=True)
 
+    def start_document(self) -> None:
+        """Forget the model id and the providers reported for the previous document."""
+        self.model_reported = None
+        self.providers.clear()
+
     def check(self) -> None:
         """Check that the backend serves the profile's model, and on LM Studio record and check its build."""
         if self.mode == "replay":

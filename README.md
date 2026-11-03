@@ -13,10 +13,16 @@ One English text per document. Karaage does not translate: sources in other lang
 
 ## Outputs
 
-For each document, a JSON file with the main point of the text, the actors found in it, and the extracted statements, each with its actor, a rephrased statement, a one-sentence version and the range of segments it comes from.
-Optionally, an HTML report for checking the results by hand.
+For each document, a JSON output described by the JSON Schema [`src/karaage/schemas/output.schema.json`](src/karaage/schemas/output.schema.json):
+- a status (`ok`, `partial` or `failed`), with the errors, and warnings about input that looks wrong;
+- the text's length and SHA-256;
+- the main point of the text, and the actors found in it;
+- every extracted statement, rejected ones included: its actor and the actor's aliases, a rephrased statement, a one-sentence version, the character offsets of the passage it comes from, and the validation result;
+- provenance: Karaage version and commit, profile, backend and model.
 
-For 1.1.0, the output will be aligned with the snapshot specification in `obs-corpus-snapshot`.
+Optionally, an HTML report for checking the results by hand. It is self-contained, so it opens offline.
+
+The output maps onto the snapshot specification of `obs-corpus-snapshot` as described in [`docs/design-1.1.0.md`](docs/design-1.1.0.md), section 6.4.
 
 ## Setup
 
@@ -59,7 +65,7 @@ From Python:
 import karaage
 
 resources = karaage.setup()   # or e.g. karaage.setup(backend="openrouter", profile="my-profile.toml")
-result = karaage.run(text, resources)
+result = karaage.run({"id": "doc-1", "text": text}, resources)
 karaage.save(result, data_path="out/doc.json", html_path="out/doc.html")
 ```
 
@@ -85,6 +91,8 @@ Each article's responses are in one file, `tests/recordings/qwen3.5-9b/<id>.json
 Then check the changed outputs in `tests/recordings/qwen3.5-9b/expected/` before committing them.
 
 A change to the output alone, which sends no new request to the LLM, needs no recording: `KARAAGE_UPDATE_EXPECTED=1 uv run pytest tests/test_pipeline.py` rewrites the expected outputs from a replay.
+
+`tests/test_snapshot.py` converts the outputs into a snapshot bundle and checks it with the snapshot validator. The validator is private: clone `obs-corpus-snapshot` next to this repo, then run `uv run --with ../obs-corpus-snapshot pytest`. Without it, and in GitHub Actions, the test is skipped.
 
 ## Test dataset
 

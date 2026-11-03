@@ -132,7 +132,7 @@ def rephrase_statements(statements: list, passages: list, main_point: str) -> li
                 s['summary'] = rephrased[str(s["id"])]["summary"]
         except Exception as e:
             for s in batch:
-                s['rephrasing_error'] = str(e)
+                s['rephrasing_error'] = f"{type(e).__name__}: {e}"
     n_ok  = sum(1 for s in statements if 'rephrased_statement' in s)
     n_err = sum(1 for s in statements if 'rephrasing_error'    in s)
     print(f"-> Rephrasing for {n_ok} statement{'s' if n_ok != 1 else ''} succeeded, {n_err} failed.")
