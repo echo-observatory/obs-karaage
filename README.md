@@ -3,7 +3,7 @@
 Karaage infers attributable statements from English news articles. Each statement comes with the actor who made it, a rephrased version that stands alone, and the excerpt of the text it comes from.
 It is the "Infer statements" step of the Observatory pipeline; see the `pipeline` repo for how the components fit together.
 
-**Status:** 1.1.0, the first release of Karaage as a versioned package, is in preparation. Until its tag `v1.1.0` exists, install from a clone.
+**Status:** 1.1.0 is the first release of Karaage as a versioned package. Each release is on GitHub, with its package, a requirements file of the exact dependency versions it was tested with, and a reference run on the test dataset.
 
 ## Quick start
 
@@ -44,6 +44,14 @@ Karaage needs Python 3.12 or later.
 
 ```bash
 pip install "obs-karaage @ git+https://github.com/echo-observatory/obs-karaage@v1.1.0"
+karaage download-models
+```
+
+pip resolves the dependencies' versions within the bounds of `pyproject.toml`, and library versions can change the output. For the exact versions a release was tested with, download its requirements file and wheel from the [release page](https://github.com/echo-observatory/obs-karaage/releases):
+
+```bash
+pip install -r obs-karaage-1.1.0-requirements.txt
+pip install --no-deps obs_karaage-1.1.0-py3-none-any.whl
 karaage download-models
 ```
 
@@ -232,7 +240,9 @@ Versions are `MAJOR.MINOR.PATCH`, and every output records the version and the g
 
 A released version is never changed: a fix is a new version.
 The version comes from git tags: `1.1.0` on tag `v1.1.0`, and development versions such as `1.1.1.dev3+g1a2b3c4` in between. `karaage --version` prints it.
-Until 1.1.0 is released, development versions read `1.1.0.devN+g…`, counted from the tag `start-1.1.0.dev0`, which marks the start of the restructuring and is not a release.
+Before 1.1.0, development versions read `1.1.0.devN+g…`, counted from the tag `start-1.1.0.dev0`, which marks the start of the restructuring and is not a release.
+
+Releases are made by [`.github/workflows/release.yml`](.github/workflows/release.yml) when a `v*` tag is pushed on `main`. It runs the tests, builds the package, exports the requirements file and creates a draft release. The maintainer then attaches the reference run, made live with the default profile on the test dataset, and publishes the release ([`COMMIT_CHECKLIST.md`](COMMIT_CHECKLIST.md)).
 
 ## Development
 

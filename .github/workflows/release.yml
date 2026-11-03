@@ -1,0 +1,82 @@
+name: Release
+
+# Pushing a v* tag runs the tests, builds the package and creates a draft GitHub release with
+# the built files and a requirements file of the exact versions in uv.lock. The maintainer then
+# attaches the reference run and publishes the release (AGENTS.md, COMMIT_CHECKLIST.md).
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write   # to create the release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ github.ref_name }}
+    steps:
+      - name: Stop if a release already exists for the tag
+        run: |
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            echo "::error::A release already exists for $TAG. A released version is never changed: tag a new version."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0   # the version comes from git tags (hatch-vcs)
+
+      - uses: astral-sh/setup-uv@v10.3.3   # setup-uv publishes no major-version tags
+        with:
+          enable-cache: true
+
+      - name: Build the package
+        run: uv build
+
+      - name: Check that the package version is the tag's
+        run: |
+          VERSION="${TAG#v}"
+          ls dist/
+          test -f "dist/obs_karaage-$VERSION-py3-none-any.whl" || { echo "::error::The built version is not $VERSION."; exit 1; }
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+
+      - name: Install the locked environment
+        run: uv sync --frozen
+
+      - name: Cache the benepar and embedding models
+        uses: actions/cache@v6
+        with:
+          path: |
+            ~/nltk_data
+            ~/.cache/huggingface
+          key: models-${{ hashFiles('src/karaage/profiles/*.toml', 'uv.lock') }}
+
+      - name: Download the models
+        run: uv run karaage download-models
+
+      - name: Run the tests, replaying recorded LLM responses
+        run: uv run pytest
+
+      - name: Export the exact dependency versions
+        run: uv export --frozen --no-dev --no-emit-project --output-file "dist/obs-karaage-$VERSION-requirements.txt"
+
+      - name: Create the draft release
+        run: |
+          PROFILES=$(uv run --frozen python -c "from karaage.profile import load_profile, shipped_profiles; print('\n'.join(f'- \`{n}\`: {load_profile(n).description}' for n in shipped_profiles()))")
+          cat > notes.md <<EOF
+          Karaage $VERSION.
+
+          **Shipped profiles:**
+          $PROFILES
+
+          **Install:** see the README. The requirements file pins every dependency to the version this release was tested with:
+
+          \`\`\`bash
+          pip install -r obs-karaage-$VERSION-requirements.txt
+          pip install --no-deps obs_karaage-$VERSION-py3-none-any.whl
+          \`\`\`
+          EOF
+          gh release create "$TAG" --draft --verify-tag --title "obs-karaage $VERSION" --notes-file notes.md dist/*
