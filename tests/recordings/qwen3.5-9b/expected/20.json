@@ -1,91 +1,244 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "The Open Rights Group held its first conference to educate activists on reforming intellectual property laws, emphasizing a shift from 'information wants to be free' to a focus on digital rights management and sustainable copyright systems.",
-  "main_point_method": "single",
-  "source_text_length_chars": 2609,
-  "source_text_length_segments": 43,
-  "actors": [
-   {
-    "name": "The Open Rights Group",
-    "variations": [
-     "ORG",
-     "Open Rights Group"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Cory Doctorow",
-    "variations": [],
-    "kind": "person"
-   },
-   {
-    "name": "John Buckman",
-    "variations": [
-     "John Buckman of Magnatune"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "James Boyle",
-    "variations": [
-     "Boyle"
-    ],
-    "kind": "person"
+ "document_id": "20",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 2609,
+ "text_sha256": "75709bbd6fb43e0b3413d61903f8ea4b99740d9eef920b5b95703b1a22a2eb7d",
+ "main_point": "The Open Rights Group held its first conference to educate activists on reforming intellectual property laws, emphasizing a shift from 'information wants to be free' to a focus on digital rights management and sustainable copyright systems.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "The Open Rights Group",
+   "aliases": [
+    "ORG",
+    "Open Rights Group"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Cory Doctorow",
+   "aliases": [],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "John Buckman",
+   "aliases": [
+    "John Buckman of Magnatune"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "James Boyle",
+   "aliases": [
+    "Boyle"
+   ],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "20-s1",
+   "actor": "The Open Rights Group",
+   "actor_aliases": [
+    "The Open Rights Group",
+    "ORG",
+    "Open Rights Group"
+   ],
+   "text": "The Open Rights Group, a pressure group dedicated to reforming intellectual property laws in the United Kingdom, organized its inaugural conference to serve as a practical training ground for activists. This event was designed to shift the movement's focus from the abstract ideal that information should be free toward developing sustainable, rights-based systems that balance digital access with legal frameworks.",
+   "text_short": "The Open Rights Group launched an inaugural UK conference to reorient activist efforts toward sustainable intellectual property reform.",
+   "char_start": 0,
+   "char_end": 519,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2353,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "Cory Doctorow",
-    "key_statement": "Digital rights activist Cory Doctorow argues that digital rights should prioritize network control over the ideal of free information.",
-    "long_statement": "Digital rights activist Cory Doctorow argues that the prevailing slogan 'information wants to be free' is fundamentally flawed and requires a complete reframing. He contends that the true priority is not artistic expression but rather the implementation of robust control mechanisms within the information network, asserting that the most critical aspect of digital rights involves managing how data is distributed and accessed rather than ensuring it remains costless.",
-    "segment_range": [
-     6,
-     24
-    ],
-    "rouge2_precision": 0.2239
-   },
-   {
-    "actor": "Cory Doctorow",
-    "key_statement": "Digital rights activist Cory Doctorow asserts that digital rights concerns are distinct from the realm of art.",
-    "long_statement": "In a keynote address, digital rights activist Cory Doctorow asserts that the core concerns of digital rights are entirely distinct from the realm of art. He emphasizes that the primary objective is to reconfigure the underlying information infrastructure to function with necessary limitations, rather than focusing on protecting creative works or ensuring artists receive fair compensation for their output.",
-    "segment_range": [
-     6,
-     24
-    ],
-    "rouge2_precision": 0.25
-   },
-   {
-    "actor": "Cory Doctorow",
-    "key_statement": "Cory Doctorow, who fights for digital rights, argues that DRM systems mess up the market. They do this by stopping people from swapping data with one another.",
-    "long_statement": "Digital rights activist Cory Doctorow warns that Digital Rights Management (DRM) technologies fundamentally distort the market by artificially restricting how consumers exchange and share information. He argues that these technological controls create unsustainable barriers to access, effectively abusing market dynamics by preventing the natural flow of digital content that users expect to be able to utilize freely.",
-    "segment_range": [
-     6,
-     24
-    ],
-    "rouge2_precision": 0.2143
-   },
-   {
-    "actor": "James Boyle",
-    "key_statement": "The current intellectual property era resembles a historical period of restrictive monopolies that stifled innovation.",
-    "long_statement": "The current era of intellectual property law resembles the pre-Smith period of mercantilist monopolies, a historical phase characterized by entrenched market restrictions that stifled innovation and competition. This comparison highlights a critical need to move beyond outdated regulatory frameworks that favor monopoly power over public access to information and knowledge.",
-    "segment_range": [
-     25,
-     31
-    ],
-    "rouge2_precision": 0.0714
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Young activists led the workshops. The Pirate Party UK sent representatives to the conference, yet they did not join the important sessions.",
-    "long_statement": "Although the Pirate Party UK sent representatives to the Open Rights Group conference in London, these members did not participate in the main keynote discussions or panel sessions, choosing instead to engage only in a fringe meeting. In contrast, the conference workshops and open forum discussions were dominated by student groups and young activists, who took the lead in shaping the day's debates on intellectual property reform.",
-    "segment_range": [
-     32,
-     42
-    ],
-    "rouge2_precision": 0.2381
+  },
+  {
+   "id": "20-s2",
+   "actor": "Cory Doctorow",
+   "actor_aliases": [
+    "Cory Doctorow"
+   ],
+   "text": "Digital rights activist Cory Doctorow argues that the prevailing slogan 'information wants to be free' is fundamentally flawed and requires a complete reframing. He contends that the true priority is not artistic expression but rather the implementation of robust control mechanisms within the information network, asserting that the most critical aspect of digital rights involves managing how data is distributed and accessed rather than ensuring it remains costless.",
+   "text_short": "Digital rights activist Cory Doctorow argues that digital rights should prioritize network control over the ideal of free information.",
+   "char_start": 519,
+   "char_end": 1251,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2239,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "20-s3",
+   "actor": "Cory Doctorow",
+   "actor_aliases": [
+    "Cory Doctorow"
+   ],
+   "text": "In a keynote address, digital rights activist Cory Doctorow asserts that the core concerns of digital rights are entirely distinct from the realm of art. He emphasizes that the primary objective is to reconfigure the underlying information infrastructure to function with necessary limitations, rather than focusing on protecting creative works or ensuring artists receive fair compensation for their output.",
+   "text_short": "Digital rights activist Cory Doctorow asserts that digital rights concerns are distinct from the realm of art.",
+   "char_start": 519,
+   "char_end": 1251,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.25,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "20-s4",
+   "actor": "Cory Doctorow",
+   "actor_aliases": [
+    "Cory Doctorow"
+   ],
+   "text": "Digital rights activist Cory Doctorow warns that Digital Rights Management (DRM) technologies fundamentally distort the market by artificially restricting how consumers exchange and share information. He argues that these technological controls create unsustainable barriers to access, effectively abusing market dynamics by preventing the natural flow of digital content that users expect to be able to utilize freely.",
+   "text_short": "Cory Doctorow, who fights for digital rights, argues that DRM systems mess up the market. They do this by stopping people from swapping data with one another.",
+   "char_start": 519,
+   "char_end": 1251,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2143,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "20-s5",
+   "actor": "James Boyle",
+   "actor_aliases": [
+    "James Boyle",
+    "Boyle"
+   ],
+   "text": "The current era of intellectual property law resembles the pre-Smith period of mercantilist monopolies, a historical phase characterized by entrenched market restrictions that stifled innovation and competition. This comparison highlights a critical need to move beyond outdated regulatory frameworks that favor monopoly power over public access to information and knowledge.",
+   "text_short": "The current intellectual property era resembles a historical period of restrictive monopolies that stifled innovation.",
+   "char_start": 1251,
+   "char_end": 1874,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0714,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "20-s6",
+   "actor": "James Boyle",
+   "actor_aliases": [
+    "James Boyle",
+    "Boyle"
+   ],
+   "text": "A reformed copyright system must be grounded in a 'jaw-droppingly simple' concept that effectively balances the rights of creators with the public's need for access, moving away from the complex and often counterproductive legal structures of the past. Such a system should be designed to be intuitive and fair, ensuring that intellectual property laws serve the public good rather than protecting obsolete business models.",
+   "text_short": "A reformed copyright system must be based on a simple, fair concept that balances creator rights with public access.",
+   "char_start": 1251,
+   "char_end": 1874,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1667,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "20-s7",
+   "actor": "James Boyle",
+   "actor_aliases": [
+    "James Boyle",
+    "Boyle"
+   ],
+   "text": "The current approach to intellectual property reform must simultaneously support necessary legal changes while firmly opposing digital piracy, recognizing that these two goals are not mutually exclusive. By addressing the root causes of piracy through fair and accessible copyright laws, society can reduce the incentive for illegal downloading without resorting to heavy-handed enforcement measures that alienate the public.",
+   "text_short": "Effective reform requires supporting legal changes while opposing piracy by addressing its root causes through fair laws.",
+   "char_start": 1251,
+   "char_end": 1874,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0172,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "20-s8",
+   "actor": "James Boyle",
+   "actor_aliases": [
+    "James Boyle",
+    "Boyle"
+   ],
+   "text": "A significant tragedy in modern society is that an entire generation has lost the fundamental moral understanding that breaking the law is wrong, a shift that has been accelerated by the widespread availability of digital content. This erosion of legal and ethical norms poses a serious challenge to the rule of law and requires a concerted effort to re-educate the public on the importance of respecting legal boundaries in the digital age.",
+   "text_short": "One entire generation no longer grasps the ethical truth that violating legal statutes is incorrect. This shift creates a major threat to the rule of law.",
+   "char_start": 1251,
+   "char_end": 1874,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1806,
+    "paraphrased": true,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "20-s9",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Although the Pirate Party UK sent representatives to the Open Rights Group conference in London, these members did not participate in the main keynote discussions or panel sessions, choosing instead to engage only in a fringe meeting. In contrast, the conference workshops and open forum discussions were dominated by student groups and young activists, who took the lead in shaping the day's debates on intellectual property reform.",
+   "text_short": "Young activists led the workshops. The Pirate Party UK sent representatives to the conference, yet they did not join the important sessions.",
+   "char_start": 1874,
+   "char_end": 2609,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2381,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

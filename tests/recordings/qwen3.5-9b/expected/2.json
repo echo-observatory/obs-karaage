@@ -1,39 +1,112 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "The Supreme Court's upcoming ruling in MGM v. Grokster will determine whether software companies can be held legally responsible for copyright infringement by users of peer-to-peer technology, a decision that could either affirm the legality of such networks or overturn the precedent set by the 1984 Betamax case, thereby impacting billions in future revenues.",
-  "main_point_method": "single",
-  "source_text_length_chars": 2715,
-  "source_text_length_segments": 37,
-  "actors": [
-   {
-    "name": "Pew Internet & American Life Project",
-    "variations": [
-     "Pew Internet & American Life Project"
-    ],
-    "kind": "organisation"
+ "document_id": "2",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 2715,
+ "text_sha256": "33ae569191a7ac2682ab8d62924bc456cb31aeeb4e0b7b1f05fa4ea951ae203b",
+ "main_point": "The Supreme Court's upcoming ruling in MGM v. Grokster will determine whether software companies can be held legally responsible for copyright infringement by users of peer-to-peer technology, a decision that could either affirm the legality of such networks or overturn the precedent set by the 1984 Betamax case, thereby impacting billions in future revenues.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Pew Internet & American Life Project",
+   "aliases": [
+    "Pew Internet & American Life Project"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Sony Corp. v. Universal City Studios",
+   "aliases": [
+    "Betamax decision",
+    "Betamax case"
+   ],
+   "kind": null
+  }
+ ],
+ "statements": [
+  {
+   "id": "2-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The United States Supreme Court is set to issue a decision in the upcoming MGM v. Grokster case that will determine whether software developers can be held legally liable for copyright infringement committed by users of peer-to-peer networks. This ruling carries the potential to either affirm the existing legal protections for technology companies established in the 1984 Betamax case or overturn that precedent, a shift that would fundamentally alter the liability landscape for digital content distribution and impact billions of dollars in future revenues for the entertainment industry.",
+   "text_short": "The Supreme Court's pending ruling on MGM v. Grokster will decide if software makers face liability for user piracy, potentially overturning the 1984 Betamax precedent and affecting billions in revenue.",
+   "char_start": 0,
+   "char_end": 2132,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1348,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "2-s2",
+   "actor": "Pew Internet & American Life Project",
+   "actor_aliases": [
+    "Pew Internet & American Life Project"
+   ],
+   "text": "Recent survey data indicates that a significant majority of the American public, including 53% of internet users, believes that owners and operators of file-sharing networks should be held legally responsible for the music and movie piracy facilitated by their technology. This public sentiment highlights a strong demand for shifting liability away from individual users and onto the companies that provide the tools for digital content distribution, challenging the traditional legal framework that currently shields technology providers from such claims.",
+   "text_short": "A recent survey reveals that a majority of Americans believe file-sharing network owners should be held responsible for user piracy.",
+   "char_start": 2132,
+   "char_end": 2413,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.05,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "2-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The outcome of the MGM v. Grokster litigation will determine whether the United States legal system will uphold the 1984 Betamax precedent, which protects technology manufacturers, or overturn it to impose liability on software creators for unauthorized copying by their users. This judicial decision is critical because it stands to redefine the economic viability of the home video market, with billions of dollars in future revenues now hanging in the balance depending on whether the court affirms or rejects the established legal standard for peer-to-peer technology.",
+   "text_short": "The MGM v. Grokster ruling will decide whether to uphold or overturn the 1984 Betamax precedent, a choice that could determine billions in future revenues for the home video market.",
+   "char_start": 2413,
+   "char_end": 2715,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2069,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
    },
-   {
-    "name": "Sony Corp. v. Universal City Studios",
-    "variations": [
-     "Betamax decision",
-     "Betamax case"
-    ],
-    "kind": null
-   }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "The MGM v. Grokster ruling will decide whether to uphold or overturn the 1984 Betamax precedent, a choice that could determine billions in future revenues for the home video market.",
-    "long_statement": "The outcome of the MGM v. Grokster litigation will determine whether the United States legal system will uphold the 1984 Betamax precedent, which protects technology manufacturers, or overturn it to impose liability on software creators for unauthorized copying by their users. This judicial decision is critical because it stands to redefine the economic viability of the home video market, with billions of dollars in future revenues now hanging in the balance depending on whether the court affirms or rejects the established legal standard for peer-to-peer technology.",
-    "segment_range": [
-     32,
-     36
-    ],
-    "rouge2_precision": 0.2069
-   }
-  ]
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

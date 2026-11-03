@@ -1,104 +1,274 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Police raids and voluntary closures across Europe are dismantling major BitTorrent and ed2k link sites, proving that hosting such sites is illegal and exposing operators to prosecution, despite their claims of legal loopholes.",
-  "main_point_method": "single",
-  "source_text_length_chars": 6008,
-  "source_text_length_segments": 101,
-  "actors": [
-   {
-    "name": "Tim Kuik",
-    "variations": [
-     "head of BREIN"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "SuprNova.org",
-    "variations": [],
-    "kind": null
-   },
-   {
-    "name": "TorrentBits.org",
-    "variations": [],
-    "kind": null
-   },
-   {
-    "name": "Delirium Vault",
-    "variations": [],
-    "kind": null
-   },
-   {
-    "name": "copyright owners",
-    "variations": [],
-    "kind": "organisation"
-   },
-   {
-    "name": "MPAA",
-    "variations": [
-     "Motion Picture Association of America",
-     "trade association representing the interests of major movie studios based in the United States"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "MetaMachine",
-    "variations": [],
-    "kind": "organisation"
+ "document_id": "1",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 6008,
+ "text_sha256": "893d3886ad47f4498591488c1361bb20e005718fdd0419dbcbc8678c2bd1ae76",
+ "main_point": "Police raids and voluntary closures across Europe are dismantling major BitTorrent and ed2k link sites, proving that hosting such sites is illegal and exposing operators to prosecution, despite their claims of legal loopholes.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Tim Kuik",
+   "aliases": [
+    "head of BREIN"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "SuprNova.org",
+   "aliases": [],
+   "kind": null
+  },
+  {
+   "canonical_name": "TorrentBits.org",
+   "aliases": [],
+   "kind": null
+  },
+  {
+   "canonical_name": "Delirium Vault",
+   "aliases": [],
+   "kind": null
+  },
+  {
+   "canonical_name": "copyright owners",
+   "aliases": [],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "MPAA",
+   "aliases": [
+    "Motion Picture Association of America",
+    "trade association representing the interests of major movie studios based in the United States"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "MetaMachine",
+   "aliases": [],
+   "kind": "organisation"
+  }
+ ],
+ "statements": [
+  {
+   "id": "1-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Across several European nations, law enforcement raids and voluntary shutdowns have recently forced major BitTorrent and ed2k link sites offline, effectively dismantling these platforms. This wave of action serves as practical proof that hosting such sites constitutes an illegal act, directly contradicting the operators' previous assertions that they could operate within legal loopholes by avoiding centralized storage of infringing files.",
+   "text_short": "European police raids and voluntary closures dismantle major P2P link sites, proving hosting is illegal.",
+   "char_start": 0,
+   "char_end": 1767,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0714,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "European police raids and voluntary closures dismantle major P2P link sites, proving hosting is illegal.",
-    "long_statement": "Across several European nations, law enforcement raids and voluntary shutdowns have recently forced major BitTorrent and ed2k link sites offline, effectively dismantling these platforms. This wave of action serves as practical proof that hosting such sites constitutes an illegal act, directly contradicting the operators' previous assertions that they could operate within legal loopholes by avoiding centralized storage of infringing files.",
-    "segment_range": [
-     0,
-     26
-    ],
-    "rouge2_precision": 0.0714
-   },
-   {
-    "actor": "SuprNova.org",
-    "key_statement": "SuprNova.org voluntarily closed its BitTorrent links after arrests of other admins and legal warnings.",
-    "long_statement": "Following reports of arrests for administrators of other prominent peer-to-peer sites and receiving formal legal warnings, the operators of the Slovenian-based SuprNova.org decided to voluntarily shut down the section of their website hosting BitTorrent links. While the site's discussion forums and IRC network will remain accessible, the platform will no longer distribute links to copyrighted files, a decision made to avoid further legal consequences in the face of increasing enforcement pressure.",
-    "segment_range": [
-     27,
-     45
-    ],
-    "rouge2_precision": 0.24
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The decentralized eXeem project was developed to eliminate reliance on centralized link sites.",
-    "long_statement": "To avoid legal problems linked to centralized link sites, the decentralized BitTorrent project eXeem, created by the makers of SuprNova.org, entered beta in late 2004. This project sought to remove the requirement for outside torrent link sites and trackers. It let users publish and share new files directly on the network without using dedicated servers. This approach tried to fix the legal troubles that caused the shutdown of its parent organization's link site.",
-    "segment_range": [
-     46,
-     55
-    ],
-    "rouge2_precision": 0.1667
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Police frequently close unproven P2P sites by seizing servers, exploiting the operators' inability to fight legal battles.",
-    "long_statement": "While the legal status of peer-to-peer link sites remains unproven and no such operator has successfully been sued by copyright owners, law enforcement agencies across multiple countries are frequently closing these sites upon receiving accusations of copyright violations. This enforcement strategy relies on the practical reality that seizing the physical servers of these sites effectively destroys them, as the operators are typically volunteers running non-profit services who lack the resources to engage in extended legal disputes.",
-    "segment_range": [
-     61,
-     79
-    ],
-    "rouge2_precision": 0.1026
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "In 2002, BitTorrent launched as a peer-to-peer application built for quick, distributed file sharing.",
-    "long_statement": "The BitTorrent system, developed by programmer Bram Cohen and introduced in 2002, functions as a peer-to-peer file distribution tool that allows users to swap file portions with one another rather than relying on a single centralised server, a design that supports the rapid distribution of new files to large numbers of users across Europe and globally.",
-    "segment_range": [
-     85,
-     94
-    ],
-    "rouge2_precision": 0.2807
+  },
+  {
+   "id": "1-s2",
+   "actor": "SuprNova.org",
+   "actor_aliases": [
+    "SuprNova.org"
+   ],
+   "text": "Following reports of arrests for administrators of other prominent peer-to-peer sites and receiving formal legal warnings, the operators of the Slovenian-based SuprNova.org decided to voluntarily shut down the section of their website hosting BitTorrent links. While the site's discussion forums and IRC network will remain accessible, the platform will no longer distribute links to copyrighted files, a decision made to avoid further legal consequences in the face of increasing enforcement pressure.",
+   "text_short": "SuprNova.org voluntarily closed its BitTorrent links after arrests of other admins and legal warnings.",
+   "char_start": 1767,
+   "char_end": 2847,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.24,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "1-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "To avoid legal problems linked to centralized link sites, the decentralized BitTorrent project eXeem, created by the makers of SuprNova.org, entered beta in late 2004. This project sought to remove the requirement for outside torrent link sites and trackers. It let users publish and share new files directly on the network without using dedicated servers. This approach tried to fix the legal troubles that caused the shutdown of its parent organization's link site.",
+   "text_short": "The decentralized eXeem project was developed to eliminate reliance on centralized link sites.",
+   "char_start": 2847,
+   "char_end": 3537,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1667,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "1-s4",
+   "actor": "TorrentBits.org",
+   "actor_aliases": [
+    "TorrentBits.org"
+   ],
+   "text": "The torrent site TorrentBits.org was closed around the same time as other major link sites in Europe, yet the specific reasons for its shutdown remain unknown. Unlike some contemporaneous sites that were taken down by police raids or voluntarily closed due to legal pressure, the circumstances surrounding the disappearance of TorrentBits.org have not been clarified, leaving the precise cause of its cessation ambiguous.",
+   "text_short": "TorrentBits.org closed around the same time as other raids, but the reason remains unknown.",
+   "char_start": 3537,
+   "char_end": 3910,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2857,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "1-s5",
+   "actor": "Delirium Vault",
+   "actor_aliases": [
+    "Delirium Vault"
+   ],
+   "text": "Delirium Vault, a peer-to-peer file sharing site, has reportedly ceased operations without a publicly stated reason or specific actor identified as responsible for the shutdown. This closure aligns with a broader pattern where authorities in various European nations are dismantling similar networks, often exploiting legal ambiguities to target operators who rely on volunteer-run infrastructure that cannot withstand prolonged legal battles.",
+   "text_short": "Delirium Vault closed without a stated reason, reflecting a trend of authorities dismantling vulnerable P2P sites.",
+   "char_start": 3537,
+   "char_end": 3910,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0667,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "1-s6",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "While the legal status of peer-to-peer link sites remains unproven and no such operator has successfully been sued by copyright owners, law enforcement agencies across multiple countries are frequently closing these sites upon receiving accusations of copyright violations. This enforcement strategy relies on the practical reality that seizing the physical servers of these sites effectively destroys them, as the operators are typically volunteers running non-profit services who lack the resources to engage in extended legal disputes.",
+   "text_short": "Police frequently close unproven P2P sites by seizing servers, exploiting the operators' inability to fight legal battles.",
+   "char_start": 3910,
+   "char_end": 4858,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1026,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "1-s7",
+   "actor": "MPAA",
+   "actor_aliases": [
+    "MPAA",
+    "Motion Picture Association of America",
+    "trade association representing the interests of major movie studios based in the United States"
+   ],
+   "text": "Although the extent of their involvement remains unknown, the Motion Picture Association of America is suspected of coordinating with international police forces to facilitate the closure of file sharing sites. This trade association, representing major Hollywood studios, has taken public credit for the shutdown of the Finnish site FinReactor, despite official denials from Finnish authorities regarding any direct contact with the organization.",
+   "text_short": "The MPAA is suspected of coordinating with police to close P2P sites, despite official denials from local authorities.",
+   "char_start": 4858,
+   "char_end": 5282,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2951,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "1-s8",
+   "actor": "MPAA",
+   "actor_aliases": [
+    "MPAA",
+    "Motion Picture Association of America",
+    "trade association representing the interests of major movie studios based in the United States"
+   ],
+   "text": "The Motion Picture Association of America has publicly claimed responsibility for the closure of the Finnish file sharing site FinReactor, even though the Finnish National Bureau of Investigation has officially denied any contact or involvement with the American trade association. This discrepancy highlights the complex and sometimes contested nature of international copyright enforcement efforts against decentralized file sharing networks.",
+   "text_short": "The MPAA claimed credit for FinReactor's closure, though Finnish police denied any involvement.",
+   "char_start": 4858,
+   "char_end": 5282,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.1897,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "1-s9",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The BitTorrent system, developed by programmer Bram Cohen and introduced in 2002, functions as a peer-to-peer file distribution tool that allows users to swap file portions with one another rather than relying on a single centralised server, a design that supports the rapid distribution of new files to large numbers of users across Europe and globally.",
+   "text_short": "In 2002, BitTorrent launched as a peer-to-peer application built for quick, distributed file sharing.",
+   "char_start": 5282,
+   "char_end": 5716,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2807,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "1-s10",
+   "actor": "MetaMachine",
+   "actor_aliases": [
+    "MetaMachine"
+   ],
+   "text": "MetaMachine created the eDonkey2000 network using the Multisource File Transfer Protocol. This peer-to-peer file sharing application promotes permanent sharing to keep files available over time. However, it usually works less well than the BitTorrent system when spreading new releases to many users quickly.",
+   "text_short": "MetaMachine created the eDonkey2000 peer-to-peer sharing app. This app focuses on keeping files available for a long time instead of quickly spreading new releases.",
+   "char_start": 5716,
+   "char_end": 6008,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2955,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

@@ -1,71 +1,187 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Brittany Phelps, administrator of the revived United States Pirate Party, argues that the party must cultivate state-level organizations to survive financially while advocating for government transparency, privacy, and ballot reform to challenge the two-party system.",
-  "main_point_method": "single",
-  "source_text_length_chars": 4040,
-  "source_text_length_segments": 97,
-  "actors": [
-   {
-    "name": "Brittany Phelps",
-    "variations": [
-     "administrator of the United States Pirate Party"
-    ],
-    "kind": "person"
+ "document_id": "19",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 4040,
+ "text_sha256": "f95fe64db967875e0f6c95343fa649f0cf8c5ff54b1a3dd3f52ebb0c90d77dee",
+ "main_point": "Brittany Phelps, administrator of the revived United States Pirate Party, argues that the party must cultivate state-level organizations to survive financially while advocating for government transparency, privacy, and ballot reform to challenge the two-party system.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Brittany Phelps",
+   "aliases": [
+    "administrator of the United States Pirate Party"
+   ],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "19-s1",
+   "actor": "Brittany Phelps",
+   "actor_aliases": [
+    "Brittany Phelps",
+    "administrator of the United States Pirate Party"
+   ],
+   "text": "The revived United States Pirate Party must cultivate state-level organizations across the country, as the national entity currently lacks the financial resources to operate independently. Without establishing these local chapters, the party faces immediate insolvency, making grassroots development a prerequisite for national survival.",
+   "text_short": "State-level organizations are essential for the financial survival of the revived US Pirate Party.",
+   "char_start": 0,
+   "char_end": 2081,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2143,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "Brittany Phelps",
-    "key_statement": "State-level organizations are essential for the financial survival of the revived US Pirate Party.",
-    "long_statement": "The revived United States Pirate Party must cultivate state-level organizations across the country, as the national entity currently lacks the financial resources to operate independently. Without establishing these local chapters, the party faces immediate insolvency, making grassroots development a prerequisite for national survival.",
-    "segment_range": [
-     0,
-     43
-    ],
-    "rouge2_precision": 0.2143
-   },
-   {
-    "actor": "Brittany Phelps",
-    "key_statement": "The revived US Pirate Party prioritizes privacy, information freedom, and government transparency as its core goals.",
-    "long_statement": "The revived United States Pirate Party is dedicated to protecting citizens' rights to privacy and freedom of information while ensuring government transparency. These core values form the foundation of the party's platform, aiming to challenge the status quo by demanding open governance and robust digital liberties for all Americans.",
-    "segment_range": [
-     0,
-     43
-    ],
-    "rouge2_precision": 0.2857
-   },
-   {
-    "actor": "Brittany Phelps",
-    "key_statement": "The current administration's failure to disclose key documents proves that hope for government transparency is misplaced.",
-    "long_statement": "The administration's record on government transparency has been deeply disappointing, with critical documents like the Anti-Counterfeiting Trade Agreement (ACTA) hidden from public view and major legislation withheld from required disclosure periods. This failure to provide the promised openness demonstrates that hope for a transparent government under current leadership is misplaced.",
-    "segment_range": [
-     0,
-     43
-    ],
-    "rouge2_precision": 0.1875
-   },
-   {
-    "actor": "Brittany Phelps",
-    "key_statement": "Current privacy safeguards are ineffective because they rely on invasive surveillance that harms law-abiding citizens.",
-    "long_statement": "Existing privacy safeguards are fundamentally flawed because they often rely on invasive surveillance methods that disproportionately harm law-abiding citizens. Rather than protecting individual rights, these measures effectively treat the general public as potential criminals, necessitating a shift toward more effective, non-invasive strategies for reducing crime.",
-    "segment_range": [
-     0,
-     43
-    ],
-    "rouge2_precision": 0.1333
-   },
-   {
-    "actor": "Brittany Phelps",
-    "key_statement": "The US two-party system is a false dichotomy that ignores the nation's diverse ideas.",
-    "long_statement": "The prevailing two-party system in the United States functions as a false dichotomy that simplifies complex political realities, thereby ignoring the nation's diverse ideas and failing to serve the interests of its varied population.",
-    "segment_range": [
-     44,
-     96
-    ],
-    "rouge2_precision": 0.1714
+  },
+  {
+   "id": "19-s2",
+   "actor": "Brittany Phelps",
+   "actor_aliases": [
+    "Brittany Phelps",
+    "administrator of the United States Pirate Party"
+   ],
+   "text": "The revived United States Pirate Party is dedicated to protecting citizens' rights to privacy and freedom of information while ensuring government transparency. These core values form the foundation of the party's platform, aiming to challenge the status quo by demanding open governance and robust digital liberties for all Americans.",
+   "text_short": "The revived US Pirate Party prioritizes privacy, information freedom, and government transparency as its core goals.",
+   "char_start": 0,
+   "char_end": 2081,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2857,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "19-s3",
+   "actor": "Brittany Phelps",
+   "actor_aliases": [
+    "Brittany Phelps",
+    "administrator of the United States Pirate Party"
+   ],
+   "text": "The administration's record on government transparency has been deeply disappointing, with critical documents like the Anti-Counterfeiting Trade Agreement (ACTA) hidden from public view and major legislation withheld from required disclosure periods. This failure to provide the promised openness demonstrates that hope for a transparent government under current leadership is misplaced.",
+   "text_short": "The current administration's failure to disclose key documents proves that hope for government transparency is misplaced.",
+   "char_start": 0,
+   "char_end": 2081,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1875,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "19-s4",
+   "actor": "Brittany Phelps",
+   "actor_aliases": [
+    "Brittany Phelps",
+    "administrator of the United States Pirate Party"
+   ],
+   "text": "Existing privacy safeguards are fundamentally flawed because they often rely on invasive surveillance methods that disproportionately harm law-abiding citizens. Rather than protecting individual rights, these measures effectively treat the general public as potential criminals, necessitating a shift toward more effective, non-invasive strategies for reducing crime.",
+   "text_short": "Current privacy safeguards are ineffective because they rely on invasive surveillance that harms law-abiding citizens.",
+   "char_start": 0,
+   "char_end": 2081,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1333,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "19-s5",
+   "actor": "Brittany Phelps",
+   "actor_aliases": [
+    "Brittany Phelps",
+    "administrator of the United States Pirate Party"
+   ],
+   "text": "The current legal framework that treats every American as a criminal without a trial is fundamentally unjust, a practice that must be reformed to protect the rights of law-abiding citizens while effectively reducing crime.",
+   "text_short": "The current legal framework treating Americans as criminals without trial is unjust and must be reformed.",
+   "char_start": 2081,
+   "char_end": 4040,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2059,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "19-s6",
+   "actor": "Brittany Phelps",
+   "actor_aliases": [
+    "Brittany Phelps",
+    "administrator of the United States Pirate Party"
+   ],
+   "text": "The prevailing two-party system in the United States functions as a false dichotomy that simplifies complex political realities, thereby ignoring the nation's diverse ideas and failing to serve the interests of its varied population.",
+   "text_short": "The US two-party system is a false dichotomy that ignores the nation's diverse ideas.",
+   "char_start": 2081,
+   "char_end": 4040,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1714,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "19-s7",
+   "actor": "Brittany Phelps",
+   "actor_aliases": [
+    "Brittany Phelps",
+    "administrator of the United States Pirate Party"
+   ],
+   "text": "The United States Pirate Party anticipates significant hurdles regarding ballot access due to the country's restrictive laws, yet the organization remains convinced of its capability to overcome these obstacles and welcomes the challenge of expanding political participation.",
+   "text_short": "The USPP faces ballot access challenges but is confident in its ability to succeed.",
+   "char_start": 2081,
+   "char_end": 4040,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2162,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

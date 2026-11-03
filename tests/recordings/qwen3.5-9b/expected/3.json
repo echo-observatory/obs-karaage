@@ -1,57 +1,150 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Protesters staged a symbolic act by having MPAA president Jack Valenti sign Betamax tapes, highlighting the irony that he previously condemned the VCR as a 'Boston strangler' despite the technology's legal protection, drawing a parallel to the current Supreme Court case over digital file-sharing.",
-  "main_point_method": "single",
-  "source_text_length_chars": 1876,
-  "source_text_length_segments": 21,
-  "actors": [
-   {
-    "name": "Electronic Frontier Foundation",
-    "variations": [
-     "EFF"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Seth Schoen",
-    "variations": [
-     "EFF Staff Technologist"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Annalee Newitz",
-    "variations": [
-     "EFF Media Coordinator"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Recording Artists' Coalition",
-    "variations": [
-     "RAC"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "US Constitution",
-    "variations": [],
-    "kind": null
+ "document_id": "3",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 1876,
+ "text_sha256": "6424340432b09d20bbcaedd31df34fabb5efb6fbe7c013f34fc1d7a565eb25e1",
+ "main_point": "Protesters staged a symbolic act by having MPAA president Jack Valenti sign Betamax tapes, highlighting the irony that he previously condemned the VCR as a 'Boston strangler' despite the technology's legal protection, drawing a parallel to the current Supreme Court case over digital file-sharing.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Electronic Frontier Foundation",
+   "aliases": [
+    "EFF"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Seth Schoen",
+   "aliases": [
+    "EFF Staff Technologist"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Annalee Newitz",
+   "aliases": [
+    "EFF Media Coordinator"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Recording Artists' Coalition",
+   "aliases": [
+    "RAC"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "US Constitution",
+   "aliases": [],
+   "kind": null
+  }
+ ],
+ "statements": [
+  {
+   "id": "3-s1",
+   "actor": "Annalee Newitz",
+   "actor_aliases": [
+    "Annalee Newitz",
+    "EFF Media Coordinator"
+   ],
+   "text": "The Electronic Frontier Foundation's Media Coordinator, Annalee Newitz, requested that Jack Valenti, the former president of the Motion Picture Association of America, sign a Betamax tape during a protest at the US Supreme Court. This symbolic act was designed to underscore the contradiction between Valenti's past characterization of the VCR as a 'Boston strangler' and the technology's eventual legal protection, drawing a parallel to the current dispute over digital file-sharing.",
+   "text_short": "The EFF requested that the former MPAA president sign a Betamax tape to highlight the irony of his past condemnation of the technology versus its current legal protection.",
+   "char_start": 208,
+   "char_end": 482,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1781,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "US Constitution",
-    "key_statement": "The copyright provision within the US Constitution highlights a specific goal: to encourage advancement in science and useful arts by ensuring authors hold exclusive rights.",
-    "long_statement": "The original text of the US Constitution's copyright clause states that the purpose of securing exclusive rights to authors and inventors is to promote the progress of science and useful arts, rather than to grant rights for their own sake. This foundational legal principle underpins the current Supreme Court case over digital file-sharing, emphasizing that copyright law is intended to foster public advancement through the dissemination of knowledge.",
-    "segment_range": [
-     17,
-     20
-    ],
-    "rouge2_precision": 0.2917
+  },
+  {
+   "id": "3-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Jack Valenti, the former president of the Motion Picture Association of America, signed Betamax tapes during a protest, an action that highlighted the irony of his past testimony before Congress where he condemned the VCR as a 'Boston strangler' despite the technology's eventual legal protection. This historical contradiction serves as a parallel to the current Supreme Court case concerning digital file-sharing, suggesting that legal precedents regarding media technology have evolved significantly over time.",
+   "text_short": "Jack Valenti signing Betamax tapes highlighted the irony of his past condemnation of the VCR versus its eventual legal protection, drawing a parallel to the current Supreme Court case over digital file-sharing.",
+   "char_start": 482,
+   "char_end": 1458,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.125,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "3-s3",
+   "actor": "US Constitution",
+   "actor_aliases": [
+    "US Constitution"
+   ],
+   "text": "The original text of the US Constitution's copyright clause states that the purpose of securing exclusive rights to authors and inventors is to promote the progress of science and useful arts, rather than to grant rights for their own sake. This foundational legal principle underpins the current Supreme Court case over digital file-sharing, emphasizing that copyright law is intended to foster public advancement through the dissemination of knowledge.",
+   "text_short": "The copyright provision within the US Constitution highlights a specific goal: to encourage advancement in science and useful arts by ensuring authors hold exclusive rights.",
+   "char_start": 1458,
+   "char_end": 1876,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2917,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "3-s4",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The current Supreme Court case concerning digital file-sharing relies on a specific legal principle found in the US Constitution. This constitutional provision, known as the copyright clause, declares: 'To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.' Essentially, this text means that copyright law is designed to help society gain new knowledge. It achieves this by providing creators with a temporary monopoly over their specific works, such as writings and discoveries.",
+   "text_short": "The original text of the US Constitution's copyright clause clarifies that the intent of copyright law is to advance public knowledge by temporarily granting exclusive rights to creators.",
+   "char_start": 1458,
+   "char_end": 1876,
+   "valid": false,
+   "rejection_reason": "too similar to source",
+   "diagnostics": {
+    "rouge2_precision": 0.3596,
+    "paraphrased": true,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

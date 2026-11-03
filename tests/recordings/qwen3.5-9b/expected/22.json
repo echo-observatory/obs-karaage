@@ -1,71 +1,156 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "Aaron Swartz, an open source programmer and Harvard fellow, faces federal fraud charges for downloading millions of academic papers from JSTOR, an act that has sparked a public debate over copyright enforcement and access to knowledge.",
-  "main_point_method": "single",
-  "source_text_length_chars": 1640,
-  "source_text_length_segments": 20,
-  "actors": [
-   {
-    "name": "JSTOR",
-    "variations": [
-     "academic journal repository",
-     "JSTOR"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "U.S. District Court in Massachusetts",
-    "variations": [
-     "U.S. District Court in Massachusetts"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "FBI",
-    "variations": [
-     "FBI"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Wikimedia Foundation's Board of Trustees",
-    "variations": [
-     "Wikimedia Foundation's Board of Trustees"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Greg Maxwell",
-    "variations": [
-     "contributor to Wikipedia and Wikimedia Commons",
-     "Maxwell"
-    ],
-    "kind": "person"
+ "document_id": "22",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 1640,
+ "text_sha256": "304e2cebefdff49a89687195d4aadc4fdb8952f81acc921b87fe2b0bf11d0aa5",
+ "main_point": "Aaron Swartz, an open source programmer and Harvard fellow, faces federal fraud charges for downloading millions of academic papers from JSTOR, an act that has sparked a public debate over copyright enforcement and access to knowledge.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "JSTOR",
+   "aliases": [
+    "academic journal repository",
+    "JSTOR"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "U.S. District Court in Massachusetts",
+   "aliases": [
+    "U.S. District Court in Massachusetts"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "FBI",
+   "aliases": [
+    "FBI"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Wikimedia Foundation's Board of Trustees",
+   "aliases": [
+    "Wikimedia Foundation's Board of Trustees"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Greg Maxwell",
+   "aliases": [
+    "contributor to Wikipedia and Wikimedia Commons",
+    "Maxwell"
+   ],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "22-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Aaron Swartz, a Harvard fellow and open source programmer, was arrested and charged with multiple federal fraud counts after downloading two-thirds of JSTOR's academic journal repository by connecting a laptop to the MIT network. This legal action stems from the broader debate regarding the enforcement of copyright laws versus public access to scholarly information.",
+   "text_short": "Aaron Swartz faces federal fraud charges for downloading millions of academic papers from JSTOR.",
+   "char_start": 0,
+   "char_end": 692,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2727,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "Aaron Swartz faces federal fraud charges for downloading millions of academic papers from JSTOR.",
-    "long_statement": "Aaron Swartz, a Harvard fellow and open source programmer, was arrested and charged with multiple federal fraud counts after downloading two-thirds of JSTOR's academic journal repository by connecting a laptop to the MIT network. This legal action stems from the broader debate regarding the enforcement of copyright laws versus public access to scholarly information.",
-    "segment_range": [
-     0,
-     6
-    ],
-    "rouge2_precision": 0.2727
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "Aaron Swartz entered a not guilty plea and was freed on an unsecured bond worth $100,000.",
-    "long_statement": "Aaron Swartz was released on a $100,000 unsecured bond after pleading not guilty to all federal fraud charges, a legal status that allows him to remain free while awaiting trial for the alleged unauthorized downloading of millions of academic papers from JSTOR.",
-    "segment_range": [
-     10,
-     17
-    ],
-    "rouge2_precision": 0.2857
+  },
+  {
+   "id": "22-s2",
+   "actor": "JSTOR",
+   "actor_aliases": [
+    "JSTOR",
+    "academic journal repository"
+   ],
+   "text": "JSTOR intends not to pursue civil litigation against Aaron Swartz, the individual charged with federal fraud for downloading millions of academic papers, choosing instead to rely on the federal government to prosecute the case. This decision reflects a strategic choice to avoid a separate civil lawsuit while the criminal justice system handles the matter.",
+   "text_short": "JSTOR will not file a civil lawsuit against Aaron Swartz.",
+   "char_start": 692,
+   "char_end": 913,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.0943,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
    }
-  ]
+  },
+  {
+   "id": "22-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Aaron Swartz was released on a $100,000 unsecured bond after pleading not guilty to all federal fraud charges, a legal status that allows him to remain free while awaiting trial for the alleged unauthorized downloading of millions of academic papers from JSTOR.",
+   "text_short": "Aaron Swartz entered a not guilty plea and was freed on an unsecured bond worth $100,000.",
+   "char_start": 913,
+   "char_end": 1288,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2857,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "22-s4",
+   "actor": "Greg Maxwell",
+   "actor_aliases": [
+    "Greg Maxwell",
+    "contributor to Wikipedia and Wikimedia Commons",
+    "Maxwell"
+   ],
+   "text": "Greg Maxwell, who works for Wikipedia and Wikimedia Commons, released a torrent on The Pirate Bay. This file holds 33 gigabytes of documents from the Royal Society that date back before 1923. In the United States, these papers are in the public domain. However, JSTOR used to sell them only. This event shows the conflict between copyright rules and access to old knowledge.",
+   "text_short": "Greg Maxwell uploaded a large collection of Royal Society documents from before 1923 to The Pirate Bay.",
+   "char_start": 1288,
+   "char_end": 1508,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.25,
+    "paraphrased": true,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

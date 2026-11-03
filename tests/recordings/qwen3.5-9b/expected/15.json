@@ -1,69 +1,124 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "A Swedish court sentenced four administrators of The Pirate Bay to prison and damages for copyright infringement, but the site's operators claim the verdict is a media stunt and refuse to pay the fines while planning to appeal.",
-  "main_point_method": "single",
-  "source_text_length_chars": 1194,
-  "source_text_length_segments": 25,
-  "actors": [
-   {
-    "name": "The Stockholm district court",
-    "variations": [
-     "the court",
-     "Stockholm district court"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Carl Lundström",
-    "variations": [],
-    "kind": "person"
-   },
-   {
-    "name": "A spokesman for TPB",
-    "variations": [
-     "the spokesman"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Investigators",
-    "variations": [],
-    "kind": "person"
+ "document_id": "15",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 1194,
+ "text_sha256": "01ae3fa28f5449d93958c0c64275ec955d1a7678d584222994b135886253e066",
+ "main_point": "A Swedish court sentenced four administrators of The Pirate Bay to prison and damages for copyright infringement, but the site's operators claim the verdict is a media stunt and refuse to pay the fines while planning to appeal.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "The Stockholm district court",
+   "aliases": [
+    "the court",
+    "Stockholm district court"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Carl Lundström",
+   "aliases": [],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "A spokesman for TPB",
+   "aliases": [
+    "the spokesman"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Investigators",
+   "aliases": [],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "15-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "A Swedish judge ordered four people who managed The Pirate Bay to go to jail and pay money for breaking copyright laws. This ruling proves that the site's operators are legally responsible.",
+   "text_short": "A Swedish court sentenced four The Pirate Bay administrators to prison and damages for copyright infringement.",
+   "char_start": 0,
+   "char_end": 337,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2667,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "A Swedish court sentenced four The Pirate Bay administrators to prison and damages for copyright infringement.",
-    "long_statement": "A Swedish judge ordered four people who managed The Pirate Bay to go to jail and pay money for breaking copyright laws. This ruling proves that the site's operators are legally responsible.",
-    "segment_range": [
-     0,
-     4
-    ],
-    "rouge2_precision": 0.2667
-   },
-   {
-    "actor": "The Stockholm district court",
-    "key_statement": "A Stockholm district court handed down one-year prison terms to four people for violating copyright rules.",
-    "long_statement": "The Stockholm district court ruled that four people are guilty of helping to break copyright rules. It sentenced each person to one year in jail. This decision shows that the legal system will punish the people who run the website for violating intellectual property laws.",
-    "segment_range": [
-     5,
-     8
-    ],
-    "rouge2_precision": 0.1875
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "The Pirate Bay operators dismissed the prison verdict as a media stunt and refused to pay fines.",
-    "long_statement": "Although a Swedish court sentenced four administrators to prison, the operators of The Pirate Bay dismiss the verdict as a media stunt and refuse to pay the imposed fines, asserting that file-sharing operations will continue unaffected.",
-    "segment_range": [
-     9,
-     24
-    ],
-    "rouge2_precision": 0.1111
+  },
+  {
+   "id": "15-s2",
+   "actor": "The Stockholm district court",
+   "actor_aliases": [
+    "The Stockholm district court",
+    "the court",
+    "Stockholm district court"
+   ],
+   "text": "The Stockholm district court ruled that four people are guilty of helping to break copyright rules. It sentenced each person to one year in jail. This decision shows that the legal system will punish the people who run the website for violating intellectual property laws.",
+   "text_short": "A Stockholm district court handed down one-year prison terms to four people for violating copyright rules.",
+   "char_start": 337,
+   "char_end": 575,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1875,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "15-s3",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Although a Swedish court sentenced four administrators to prison, the operators of The Pirate Bay dismiss the verdict as a media stunt and refuse to pay the imposed fines, asserting that file-sharing operations will continue unaffected.",
+   "text_short": "The Pirate Bay operators dismissed the prison verdict as a media stunt and refused to pay fines.",
+   "char_start": 575,
+   "char_end": 1194,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1111,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }

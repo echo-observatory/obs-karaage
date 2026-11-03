@@ -1,128 +1,324 @@
 {
- "step_errors": {},
- "failures": [],
- "data": {
-  "source_text_main_point": "France is passing a controversial copyright law that mandates digital locks and fines for file sharing, sparking intense political debate over industry lobbying, the threat of criminalizing ordinary users, and potential constitutional challenges.",
-  "main_point_method": "single",
-  "source_text_length_chars": 5219,
-  "source_text_length_segments": 65,
-  "actors": [
-   {
-    "name": "French National Assembly",
-    "variations": [
-     "Assembly"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Renaud Donnedieu de Vabres",
-    "variations": [
-     "Minister of Culture"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "European directive on copyright",
-    "variations": [
-     "2001 European directive on copyright",
-     "directive"
-    ],
-    "kind": null
-   },
-   {
-    "name": "Lawmakers",
-    "variations": [
-     "lawmakers",
-     "UMPs",
-     "UMP lawmakers",
-     "opposition lawmakers",
-     "some lawmakers",
-     "some UMP and opposition lawmakers",
-     "some UMP, UDF and opposition lawmakers"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "US news sources",
-    "variations": [
-     "US news sources"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Vivendi Universal",
-    "variations": [
-     "Vivendi Universal amendment",
-     "major entertainment company"
-    ],
-    "kind": "organisation"
-   },
-   {
-    "name": "Bernard Carayon",
-    "variations": [
-     "UMP lawmakers"
-    ],
-    "kind": "person"
-   },
-   {
-    "name": "Jacques Chirac",
-    "variations": [
-     "president"
-    ],
-    "kind": "person"
+ "document_id": "9",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 5219,
+ "text_sha256": "5e19e4a15c305582afc6794ca3329429006bd9ddc710fa2febedc560a864d8d4",
+ "main_point": "France is passing a controversial copyright law that mandates digital locks and fines for file sharing, sparking intense political debate over industry lobbying, the threat of criminalizing ordinary users, and potential constitutional challenges.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "French National Assembly",
+   "aliases": [
+    "Assembly"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Renaud Donnedieu de Vabres",
+   "aliases": [
+    "Minister of Culture"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "European directive on copyright",
+   "aliases": [
+    "2001 European directive on copyright",
+    "directive"
+   ],
+   "kind": null
+  },
+  {
+   "canonical_name": "Lawmakers",
+   "aliases": [
+    "lawmakers",
+    "UMPs",
+    "UMP lawmakers",
+    "opposition lawmakers",
+    "some lawmakers",
+    "some UMP and opposition lawmakers",
+    "some UMP, UDF and opposition lawmakers"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "US news sources",
+   "aliases": [
+    "US news sources"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Vivendi Universal",
+   "aliases": [
+    "Vivendi Universal amendment",
+    "major entertainment company"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Bernard Carayon",
+   "aliases": [
+    "UMP lawmakers"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Jacques Chirac",
+   "aliases": [
+    "president"
+   ],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "9-s1",
+   "actor": "French National Assembly",
+   "actor_aliases": [
+    "French National Assembly",
+    "Assembly"
+   ],
+   "text": "The French National Assembly is scheduled to pass the DADVSI bill, a legislative measure designed to enforce stricter copyright protections and digital locks within the country.",
+   "text_short": "France's parliament is set to pass a controversial copyright law.",
+   "char_start": 0,
+   "char_end": 212,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.16,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
    }
-  ],
-  "statements": [
-   {
-    "actor": "base_author",
-    "key_statement": "The new law updates French copyright rules to enforce digital locks.",
-    "long_statement": "New laws in France will change the rules for intellectual property. This change is needed to follow a 2001 European directive. That rule requires that digital locks be enforced by law. These locks stop users from copying or playing protected material without permission.",
-    "segment_range": [
-     2,
-     18
-    ],
-    "rouge2_precision": 0.2
-   },
-   {
-    "actor": "Lawmakers",
-    "key_statement": "French lawmakers opposed a draft law that would have criminalized file sharing.",
-    "long_statement": "Representatives from both the ruling majority and the opposition parties in the French National Assembly argued that the initial draft of the copyright bill was unwise because it threatened to criminalize millions of ordinary citizens for merely downloading files.",
-    "segment_range": [
-     19,
-     28
-    ],
-    "rouge2_precision": 0.1316
-   },
-   {
-    "actor": "Lawmakers",
-    "key_statement": "French lawmakers from all political factions mandated that DRM publishers provide technical specs for compatible players.",
-    "long_statement": "French lawmakers from the governing majority, the centrist Union for French Democracy, and the opposition united to amend the controversial copyright bill, mandating that publishers of digital rights management-protected content must provide technical specifications to anyone wishing to create compatible players, thereby ensuring interoperability for free software developers.",
-    "segment_range": [
-     19,
-     28
-    ],
-    "rouge2_precision": 0.2292
-   },
-   {
-    "actor": "base_author",
-    "key_statement": "US media criticized the French copyright law as a targeted attack on Apple's iTunes and iPod systems.",
-    "long_statement": "American media outlets criticized the French copyright legislation as a direct attack on Apple's iTunes and iPod ecosystem, arguing that the law's restrictions on digital locks would disproportionately harm the US tech giant, even though it remains uncertain whether the rules apply to companies that do not voluntarily claim the new legal protections for their digital rights management systems.",
-    "segment_range": [
-     29,
-     33
-    ],
-    "rouge2_precision": 0.1167
-   },
-   {
-    "actor": "Lawmakers",
-    "key_statement": "Lawmakers in France cautioned that the proposed copyright legislation would weaken the ability to create personal copies of protected works.",
-    "long_statement": "French legislators voiced significant alarm that the draft copyright law would erode established legal exceptions, specifically the right for individuals to make private copies of copyrighted material for personal use, a fundamental freedom that the proposed restrictions on digital locks and file sharing threaten to undermine.",
-    "segment_range": [
-     34,
-     35
-    ],
-    "rouge2_precision": 0.2222
+  },
+  {
+   "id": "9-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "New laws in France will change the rules for intellectual property. This change is needed to follow a 2001 European directive. That rule requires that digital locks be enforced by law. These locks stop users from copying or playing protected material without permission.",
+   "text_short": "The new law updates French copyright rules to enforce digital locks.",
+   "char_start": 212,
+   "char_end": 1843,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
-  ]
+  },
+  {
+   "id": "9-s3",
+   "actor": "Lawmakers",
+   "actor_aliases": [
+    "Lawmakers",
+    "lawmakers",
+    "UMPs",
+    "UMP lawmakers",
+    "opposition lawmakers",
+    "some lawmakers",
+    "some UMP and opposition lawmakers",
+    "some UMP, UDF and opposition lawmakers"
+   ],
+   "text": "Representatives from both the ruling majority and the opposition parties in the French National Assembly argued that the initial draft of the copyright bill was unwise because it threatened to criminalize millions of ordinary citizens for merely downloading files.",
+   "text_short": "French lawmakers opposed a draft law that would have criminalized file sharing.",
+   "char_start": 1843,
+   "char_end": 2486,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1316,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "9-s4",
+   "actor": "Lawmakers",
+   "actor_aliases": [
+    "Lawmakers",
+    "lawmakers",
+    "UMPs",
+    "UMP lawmakers",
+    "opposition lawmakers",
+    "some lawmakers",
+    "some UMP and opposition lawmakers",
+    "some UMP, UDF and opposition lawmakers"
+   ],
+   "text": "In response to concerns about the initial draft, French lawmakers from across the political spectrum adopted an amendment that replaced the threat of prison with a fixed €38 fine for downloading a single copyrighted file.",
+   "text_short": "Lawmakers amended the bill to replace prison sentences with a small fine for downloading.",
+   "char_start": 1843,
+   "char_end": 2486,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0882,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "9-s5",
+   "actor": "Lawmakers",
+   "actor_aliases": [
+    "Lawmakers",
+    "lawmakers",
+    "UMPs",
+    "UMP lawmakers",
+    "opposition lawmakers",
+    "some lawmakers",
+    "some UMP and opposition lawmakers",
+    "some UMP, UDF and opposition lawmakers"
+   ],
+   "text": "French lawmakers from the governing majority, the centrist Union for French Democracy, and the opposition united to amend the controversial copyright bill, mandating that publishers of digital rights management-protected content must provide technical specifications to anyone wishing to create compatible players, thereby ensuring interoperability for free software developers.",
+   "text_short": "French lawmakers from all political factions mandated that DRM publishers provide technical specs for compatible players.",
+   "char_start": 1843,
+   "char_end": 2486,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2292,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "9-s6",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "American media outlets criticized the French copyright legislation as a direct attack on Apple's iTunes and iPod ecosystem, arguing that the law's restrictions on digital locks would disproportionately harm the US tech giant, even though it remains uncertain whether the rules apply to companies that do not voluntarily claim the new legal protections for their digital rights management systems.",
+   "text_short": "US media criticized the French copyright law as a targeted attack on Apple's iTunes and iPod systems.",
+   "char_start": 2486,
+   "char_end": 2853,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1167,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "9-s7",
+   "actor": "Lawmakers",
+   "actor_aliases": [
+    "Lawmakers",
+    "lawmakers",
+    "UMPs",
+    "UMP lawmakers",
+    "opposition lawmakers",
+    "some lawmakers",
+    "some UMP and opposition lawmakers",
+    "some UMP, UDF and opposition lawmakers"
+   ],
+   "text": "French legislators voiced significant alarm that the draft copyright law would erode established legal exceptions, specifically the right for individuals to make private copies of copyrighted material for personal use, a fundamental freedom that the proposed restrictions on digital locks and file sharing threaten to undermine.",
+   "text_short": "Lawmakers in France cautioned that the proposed copyright legislation would weaken the ability to create personal copies of protected works.",
+   "char_start": 2853,
+   "char_end": 3057,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2222,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "9-s8",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "In a surprising reversal, French lawmakers from a bipartisan coalition adopted an amendment to the copyright bill that would legalize peer-to-peer file sharing as a 'private copy' right, a move that angered the Minister of Culture but ultimately forced the government to reintroduce the article due to fears that removing it entirely would violate the French Constitution.",
+   "text_short": "French lawmakers unexpectedly legalized peer-to-peer sharing as a private copy right, forcing the government to reintroduce the article due to constitutional concerns.",
+   "char_start": 3057,
+   "char_end": 3637,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2414,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "9-s9",
+   "actor": "French National Assembly",
+   "actor_aliases": [
+    "French National Assembly",
+    "Assembly"
+   ],
+   "text": "The French National Assembly rejected the initial draft of the copyright bill, which included provisions to legalize peer-to-peer file sharing, and instead passed an amended version that maintains strict legal restrictions on digital copying. This legislative pivot reflects a decisive rejection of the industry's push to bypass existing copyright exceptions, ensuring that the law upholds the constitutional right of private users to make personal copies without authorization.",
+   "text_short": "The French National Assembly rejected the initial copyright bill's legalization of peer-to-peer sharing, passing an amended version that preserves strict digital restrictions.",
+   "char_start": 3848,
+   "char_end": 4109,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2917,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "9-s10",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Following its adoption by the National Assembly, the controversial copyright bill is now scheduled to move to the French Senate for further amendment and approval, where it will likely undergo harmonization in a joint commission before a final vote. This procedural step is critical as lawmakers and constitutional experts anticipate that the legislation's contentious provisions regarding digital locks and user fines may face significant legal challenges and require substantial revision before the President can sign it into law.",
+   "text_short": "The disputed copyright legislation is now heading to the French Senate for additional changes and ratification. It probably will encounter court battles before it becomes law.",
+   "char_start": 4631,
+   "char_end": 4920,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.16,
+    "paraphrased": true,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b"
  }
 }
