@@ -3,9 +3,9 @@
 Karaage doesn't assemble bundles (docs/design-1.1.0.md, section 1). This test is a
 minimal bundle builder following the mapping of section 6.4, to check that the
 outputs fit snapshot specification 1.0. It needs the validator, installed from a
-clone of obs-corpus-snapshot next to this repo:
+clone of obs-corpus-snapshot next to this repo, for this run only:
 
-    uv run --group snapshot pytest tests/test_snapshot.py
+    uv run --with ../obs-corpus-snapshot pytest tests/test_snapshot.py
 """
 
 import csv
@@ -17,7 +17,7 @@ import karaage
 from conftest import ARTICLE_IDS
 
 obs_corpus_snapshot = pytest.importorskip(
-    "obs_corpus_snapshot", reason="needs the snapshot validator: uv run --group snapshot pytest")
+    "obs_corpus_snapshot", reason="needs the snapshot validator: uv run --with ../obs-corpus-snapshot pytest")
 
 TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 UPDATED_AT = "2026-11-02T00:00:00Z"   # the test dataset records no ingestion time

@@ -92,7 +92,7 @@ Then check the changed outputs in `tests/recordings/qwen3.5-9b/expected/` before
 
 A change to the output alone, which sends no new request to the LLM, needs no recording: `KARAAGE_UPDATE_EXPECTED=1 uv run pytest tests/test_pipeline.py` rewrites the expected outputs from a replay.
 
-`tests/test_snapshot.py` converts the outputs into a snapshot bundle and checks it with the snapshot validator. The validator is private: clone `obs-corpus-snapshot` next to this repo, then run `uv run --group snapshot pytest`. Without it, and in GitHub Actions, the test is skipped.
+`tests/test_snapshot.py` converts the outputs into a snapshot bundle and checks it with the snapshot validator. The validator is private: clone `obs-corpus-snapshot` next to this repo, then run `uv run --with ../obs-corpus-snapshot pytest`. Without it, and in GitHub Actions, the test is skipped.
 
 ## Test dataset
 
