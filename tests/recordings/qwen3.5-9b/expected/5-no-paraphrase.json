@@ -1,0 +1,161 @@
+{
+ "document_id": "5",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 2047,
+ "text_sha256": "cdc0465e43c4c8e5016ad45842a861f9e5ffb6b3754d34c4558e240169cc5fdf",
+ "main_point": "Consumers are suing Sony BMG because its music CDs contain hidden rootkit software that secretly compromises computer security and tracks usage, while the company defends the technology and plans to expand it.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Mathew Gilliat-Smith",
+   "aliases": [
+    "CEO of First 4 Internet"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Sony BMG Music Entertainment",
+   "aliases": [
+    "Sony"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Mark Russinovich",
+   "aliases": [],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Thomas Hesse",
+   "aliases": [],
+   "kind": "person"
+  }
+ ],
+ "statements": [
+  {
+   "id": "5-s1",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Consumers in California, Italy, and New York are initiating legal action against Sony BMG because the company's digital rights management software, embedded in at least 20 music discs, secretly compromises computer security and tracks user usage without explicit consent. This litigation challenges the company's defense of the technology, arguing that the hidden rootkit violates consumer protection laws and creates dangerous vulnerabilities in personal computers.",
+   "text_short": "Consumers in California, Italy, and New York are suing Sony BMG over security-compromising DRM software.",
+   "char_start": 0,
+   "char_end": 884,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.4667,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "5-s2",
+   "actor": "Sony BMG Music Entertainment",
+   "actor_aliases": [
+    "Sony BMG Music Entertainment",
+    "Sony"
+   ],
+   "text": "A senior executive at Sony BMG Music Entertainment argues that the general public lacks sufficient knowledge about rootkit technology, implying that consumers should not be concerned about the security risks posed by the hidden software. This stance minimizes the severity of the threat, even as the company releases patches to address the vulnerabilities discovered by independent programmers.",
+   "text_short": "A Sony BMG executive argues that consumers should not worry about rootkits due to public ignorance.",
+   "char_start": 884,
+   "char_end": 1212,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1333,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "5-s3",
+   "actor": "Mark Russinovich",
+   "actor_aliases": [
+    "Mark Russinovich"
+   ],
+   "text": "The removal tools provided to fix the security issues are themselves problematic because they rely on ActiveX applications, a technology that security experts widely advise users to deactivate due to its high execution privileges on host computers. Consequently, the company's solution to the rootkit problem inadvertently introduces new security risks for users attempting to clean their systems.",
+   "text_short": "The uninstall kits for the rootkit rely on dangerous ActiveX technology, creating new security risks.",
+   "char_start": 1212,
+   "char_end": 1418,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2456,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "5-s4",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Sony's digital rights management software secretly transmits data to the company every time a CD is played, a behavior that is deliberately concealed from users in the license agreement and hidden within the rootkit itself. This undisclosed tracking capability raises significant privacy concerns and contradicts the transparency expected in consumer software agreements.",
+   "text_short": "Sony's DRM software secretly tracks users, a behavior hidden from the license agreement.",
+   "char_start": 1418,
+   "char_end": 1826,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.3846,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "5-s5",
+   "actor": "Thomas Hesse",
+   "actor_aliases": [
+    "Thomas Hesse"
+   ],
+   "text": "Thomas Hesse, a representative for Sony BMG Music Entertainment, stated that approximately sixty percent of music compact discs distributed in the United States currently utilize digital rights management copy protection measures. He further indicated that the company intends to expand this implementation so that every single disc released in the market will include such technology by the beginning of 2006, prioritizing the enforcement of these restrictions over consumer concerns regarding software security and privacy.",
+   "text_short": "Sony BMG plans to fully implement copy protection on all US music CDs by early 2006.",
+   "char_start": 1826,
+   "char_end": 2047,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2667,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b",
+  "paraphrase": false
+ }
+}

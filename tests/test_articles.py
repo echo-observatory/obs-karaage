@@ -10,6 +10,9 @@ model loaded in LM Studio:
 Recording an article rewrites its file from scratch. One article alone:
     KARAAGE_LLM_MODE=record uv run pytest "tests/test_articles.py::test_article[30]"
 
+Three short articles are also run without paraphrasing, recorded as
+<id>-no-paraphrase.json; they are recorded with the others.
+
 After a change to the output alone, which changes no LLM request, rewrite the
 expected outputs from a replay instead:
 
@@ -34,7 +37,31 @@ def test_article(article_id, articles, run_article, resources):
     excerpts = {p["text"] for p in result.excerpts}
     assert all(text[s["char_start"]:s["char_end"]] in excerpts for s in data["statements"])
     assert "<link" not in result.html_report   # self-contained
-    expected = EXPECTED / f"{article_id}.json"
+    compare_with_expected(str(article_id), data, resources)
+
+
+# Short articles where paraphrasing changed statements, run without it too (#28).
+WITHOUT_PARAPHRASING = [3, 5, 28]
+
+
+@pytest.mark.parametrize("article_id", WITHOUT_PARAPHRASING)
+def test_article_without_paraphrasing(article_id, articles, resources):
+    """Recorded as `<id>-no-paraphrase`; one alone: "tests/test_articles.py::test_article_without_paraphrasing[28]"."""
+    name = f"{article_id}-no-paraphrase"
+    resources.client.use_recording(name)
+    result = karaage.run(as_document(articles[article_id]), resources, paraphrase=False)
+    data = result.data
+    check_output(data, articles[article_id]["text"])
+    assert data["provenance"]["paraphrase"] is False
+    assert not any(s["diagnostics"]["paraphrased"] for s in data["statements"])
+    assert "too similar to source" not in {s["rejection_reason"] for s in data["statements"]}
+    assert "Paraphrasing was turned off" in result.html_report
+    compare_with_expected(name, data, resources)
+
+
+def compare_with_expected(name: str, data: dict, resources) -> None:
+    """Compare an output with expected/<name>.json, or write it there when recording."""
+    expected = EXPECTED / f"{name}.json"
     if resources.client.mode == "record" or os.environ.get("KARAAGE_UPDATE_EXPECTED"):
         expected.parent.mkdir(parents=True, exist_ok=True)
         expected.write_text(json.dumps(comparable(data), indent=1, ensure_ascii=False) + "\n", encoding="utf-8")

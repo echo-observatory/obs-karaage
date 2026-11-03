@@ -104,6 +104,15 @@ Statements that fail validation are kept, with `valid: false` and a reason. The 
 The distribution name is `obs-karaage`, because `karaage` on PyPI is an unrelated project. The import name stays `karaage`.
 1.1.0 is not published on PyPI: install it from the git tag, e.g. `pip install "obs-karaage @ git+https://github.com/echo-observatory/obs-karaage@v1.1.0"`.
 
+### 3.10 Paraphrasing can be turned off
+
+Paraphrasing (step 6) and validation's rejection of statements "too similar to source" are on by default, and can be turned off together for a run: `paraphrase=False` in `run()`, `--no-paraphrase` on the command line (#28).
+- **When:** only for sources whose wording may be reproduced, e.g. in the public domain. Retriever data is always processed with paraphrasing on (team rule, not enforced by the code).
+- **Output:** `provenance.paraphrase` records the setting. The ROUGE-2 precision is still computed and reported in `diagnostics`.
+- **Not in the profile:** the profile is about the model, while whether to paraphrase depends on the source's licence.
+
+*Reason:* paraphrasing keeps outputs from reproducing their sources, for ethical and legal reasons. It isn't needed when reproducing them is allowed, and turning it off saves LLM calls and keeps the wording closer to the source.
+
 ## 4. LLM configuration
 
 ### 4.1 Backend
@@ -279,7 +288,7 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
 - **Rejection reasons:** `validation error`, `rephrasing error`, `too similar to source`, `not found in source text` or `wrong actor attribution`, as in `validation.py`.
 - **Provenance:**
   - `commit` is the git commit Karaage was built from, recorded at build time, so that installed releases carry it too;
-  - `profile_settings` is the resolved profile;
+  - `profile_settings` is the resolved profile, and `paraphrase` whether paraphrasing was on (section 3.10);
   - `model` is the id the profile asks for on this backend, and `model_reported` the id the server returns;
   - `model_build` is the loaded build as LM Studio reports it (section 4.1); on OpenRouter, the providers that served the document's requests, since they may run different precisions; `null` on other backends.
 - **`inferred_at`:** UTC in the snapshot format `YYYY-MM-DDTHH:MM:SSZ`.
@@ -310,7 +319,7 @@ The bundle builder (not Karaage) turns outputs into snapshot tables (spec 1.0, `
 - `monitoring_report_path` points to the HTML report once the builder has copied it under `monitoring/`.
 - `title`, `published_at` and the text come from the corpus, not from Karaage.
 
-The profile settings go under `snapshot.statement_inference` in the bundle descriptor.
+The profile settings, and whether paraphrasing was on, go under `snapshot.statement_inference` in the bundle descriptor.
 `inferred_actors` is not filled from Karaage output: its actors are reconciled ones, and Karaage's are raw.
 
 ## 7. Testing and quality
@@ -319,7 +328,7 @@ The profile settings go under `snapshot.statement_inference` in the bundle descr
 
 Tests run without an LLM server by replaying recorded responses.
 - **Mode:** `KARAAGE_LLM_MODE` is `live` (default), `record` or `replay`.
-- **Storage:** recordings are one JSON file per test article in `tests/recordings/<profile>/` (`KARAAGE_RECORDINGS` sets the root), holding the article's responses keyed by the SHA-256 of the request (backend, model id, messages, schema, generation parameters). Recording an article rewrites its file from scratch, so a full re-recording changes at most 60 files, and unused responses disappear. Replay looks requests up in all the files of the profile.
+- **Storage:** recordings are one JSON file per test article in `tests/recordings/<profile>/` (`KARAAGE_RECORDINGS` sets the root), holding the article's responses keyed by the SHA-256 of the request (backend, model id, messages, schema, generation parameters). Recording an article rewrites its file from scratch, so a full re-recording changes at most 60 files, and unused responses disappear. Replay looks requests up in the current recording first, then in all the files of the profile, so that two recordings of the same request each replay their own response. Three short articles are also recorded without paraphrasing, as `<id>-no-paraphrase.json` (section 3.10).
 - **Expected outputs:** recording also saves each article's output in `tests/recordings/<profile>/expected/`. In `replay` mode, the article test compares the output with it, so any change in behaviour shows up as a failing test, and as a diff of the expected outputs when recorded again.
 - **Same results on any machine:** the embedding model runs on the CPU, so that results do not depend on the machine's GPU.
 - **Missing recording:** in `replay` mode, a missing recording fails the test with a clear message. It never falls back to a live call.

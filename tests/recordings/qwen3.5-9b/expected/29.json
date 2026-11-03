@@ -555,6 +555,7 @@
   },
   "backend": "lmstudio",
   "model": "qwen/qwen3.5-9b",
-  "model_reported": "qwen/qwen3.5-9b"
+  "model_reported": "qwen/qwen3.5-9b",
+  "paraphrase": true
  }
 }

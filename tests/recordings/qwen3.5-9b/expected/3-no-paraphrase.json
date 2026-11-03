@@ -1,0 +1,151 @@
+{
+ "document_id": "3",
+ "status": "ok",
+ "errors": [],
+ "warnings": [],
+ "text_length": 1876,
+ "text_sha256": "6424340432b09d20bbcaedd31df34fabb5efb6fbe7c013f34fc1d7a565eb25e1",
+ "main_point": "As the MGM v. Grokster copyright case proceeds, EFF protesters ironically handed Betamax tapes to MPAA president Jack Valenti, highlighting the hypocrisy of his past support for outlawing VCRs despite the Supreme Court's eventual ruling that such technology was legal.",
+ "main_point_method": "single",
+ "actors": [
+  {
+   "canonical_name": "Electronic Frontier Foundation",
+   "aliases": [
+    "EFF"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "Seth Schoen",
+   "aliases": [
+    "EFF Staff Technologist"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Annalee Newitz",
+   "aliases": [
+    "EFF Media Coordinator"
+   ],
+   "kind": "person"
+  },
+  {
+   "canonical_name": "Recording Artists' Coalition",
+   "aliases": [
+    "RAC"
+   ],
+   "kind": "organisation"
+  },
+  {
+   "canonical_name": "US Constitution",
+   "aliases": [],
+   "kind": null
+  }
+ ],
+ "statements": [
+  {
+   "id": "3-s1",
+   "actor": "Annalee Newitz",
+   "actor_aliases": [
+    "Annalee Newitz",
+    "EFF Media Coordinator"
+   ],
+   "text": "The Electronic Frontier Foundation's Media Coordinator, Annalee Newitz, requested that Jack Valenti, the president of the Motion Picture Association of America, sign a Betamax tape as a symbolic gesture during the ongoing MGM v. Grokster copyright case.",
+   "text_short": "An EFF coordinator asked the MPAA president to sign a VCR tape.",
+   "char_start": 208,
+   "char_end": 482,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.3243,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "3-s2",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Jack Valenti, the president of the Motion Picture Association of America, signed a Betamax tape, an action that contradicts his 1982 testimony before Congress where he advocated outlawing VCRs by comparing them to a serial killer, despite the Supreme Court later ruling that such technology was legal.",
+   "text_short": "The MPAA president signed a VCR tape, contradicting his past call to ban the technology.",
+   "char_start": 482,
+   "char_end": 1458,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0652,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "3-s3",
+   "actor": "US Constitution",
+   "actor_aliases": [
+    "US Constitution"
+   ],
+   "text": "The original text of the US Constitution's copyright clause mandates that laws must promote the progress of science and useful arts by securing exclusive rights to authors and inventors for limited times, rather than granting absolute monopolies that stifle innovation.",
+   "text_short": "The US Constitution's copyright clause aims to promote progress by limiting exclusive rights.",
+   "char_start": 1458,
+   "char_end": 1876,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.5,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "3-s4",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The original text of the US Constitution's copyright clause reads: 'To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries;' which establishes that copyright laws are intended to advance public knowledge rather than merely protect private interests.",
+   "text_short": "The original US Constitution copyright clause prioritizes public progress over private rights.",
+   "char_start": 1458,
+   "char_end": 1876,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.6111,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  }
+ ],
+ "provenance": {
+  "tool": "karaage",
+  "profile": "qwen3.5-9b",
+  "profile_settings": {
+   "name": "qwen3.5-9b",
+   "description": "Qwen3.5 9B with reasoning off. Default profile of Karaage 1.1.0; the prompts were written for this model.",
+   "context_tokens": 8000,
+   "temperature": 0.0,
+   "embedding_model": "intfloat/multilingual-e5-large-instruct",
+   "backends": {
+    "lmstudio": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    },
+    "openrouter": {
+     "model": "qwen/qwen3.5-9b",
+     "reasoning_off": "request-parameter"
+    }
+   },
+   "seed": null,
+   "custom": false
+  },
+  "backend": "lmstudio",
+  "model": "qwen/qwen3.5-9b",
+  "model_reported": "qwen/qwen3.5-9b",
+  "paraphrase": false
+ }
+}

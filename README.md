@@ -31,7 +31,7 @@ Karaage runs seven steps on each text, one module each in `src/karaage/`:
 3. **Excerpts:** groups consecutive segments into excerpts of about 2,000 characters at most, each dominated by one actor where possible.
 4. **Extraction:** an LLM states the main point of the text, then extracts up to four statements per actor and excerpt.
 5. **Rephrasing:** an LLM rewrites each statement so that it stands alone, plus a one-sentence version.
-6. **Paraphrasing:** statements too close to the source wording are paraphrased again, with an embedding check that the meaning is kept.
+6. **Paraphrasing:** statements too close to the source wording are paraphrased again, with an embedding check that the meaning is kept. It can be turned off (see [Paraphrasing](#paraphrasing)).
 7. **Validation:** an LLM checks that each statement is in its excerpt and attributed to the right actor. Statements that fail are kept in the output, marked as rejected.
 
 Karaage never modifies the text: all offsets point into the text as given.
@@ -76,7 +76,7 @@ Set them with `KARAAGE_*` environment variables, or in a `.env` file in the work
 | `KARAAGE_API_KEY` | API key, required for `openrouter` and `openai` | none needed for LM Studio |
 | `KARAAGE_PROFILE` | a shipped profile name, or the path to a profile file | `qwen3.5-9b` |
 
-> **Team rule:** Retriever data must never be sent to OpenRouter or any other external API. Karaage does not check this; process such data with a local backend such as LM Studio.
+> **Team rule:** Retriever data must never be sent to OpenRouter or any other external API, and is always processed with paraphrasing on. Karaage does not check this; process such data with a local backend such as LM Studio, without `--no-paraphrase`.
 
 ### Backends
 
@@ -129,12 +129,13 @@ Documents, in English. Karaage does not translate: sources in other languages mu
 `karaage run` reads a JSONL file, one document per line:
 
 ```bash
-karaage run --input docs.jsonl --output out/ [--report] [--profile NAME] [--field FIELD=NAME]...
+karaage run --input docs.jsonl --output out/ [--report] [--profile NAME] [--no-paraphrase] [--field FIELD=NAME]...
 ```
 
 - **Output:** `out/<id>.json` for each document, and `out/<id>.html` with `--report`. Characters unsafe in file names are percent-encoded, e.g. id `a/b` gives `a%2Fb.json`.
 - **Field names:** `--field FIELD=NAME` reads a field under another name, e.g. `--field published_at=date`.
 - **Input check:** every line is checked before anything runs: valid JSON, an id and a text, and unique ids. Ids that differ only by case are refused, since some file systems ignore case.
+- **Paraphrasing:** `--no-paraphrase` turns it off; see [Paraphrasing](#paraphrasing).
 - **Resume:** running the same command again skips the documents whose output is `ok` and was made from the same text. Documents that failed or are partial are run again, so the same command also retries them.
 - **Summary:** at the end, the number of documents per status, and the time per 1,000 characters.
 - **Exit code:** 0 when no document failed, 1 when one did, 2 when the input can't be run.
@@ -147,7 +148,7 @@ karaage run --input docs.jsonl --output out/ [--report] [--profile NAME] [--fiel
 import karaage
 
 resources = karaage.setup()   # or e.g. karaage.setup(backend="openrouter", profile="my-profile.toml")
-result = karaage.run({"id": "doc-1", "text": text, "title": title}, resources)
+result = karaage.run({"id": "doc-1", "text": text, "title": title}, resources)   # paraphrase=False turns it off
 result.data                   # the output, described below
 karaage.save(result, data_path="out/doc-1.json", html_path="out/doc-1.html")
 ```
@@ -157,6 +158,14 @@ karaage.save(result, data_path="out/doc-1.json", html_path="out/doc-1.html")
 `karaage.batch.read_documents()` and `karaage.batch.run_documents()` do what `karaage run` does.
 
 [`examples/using-karaage-from-python.ipynb`](examples/using-karaage-from-python.ipynb) walks through these on the test dataset. To open it: `uv run --with jupyter jupyter lab examples/using-karaage-from-python.ipynb`.
+
+### Paraphrasing
+
+Statements must not reproduce their source's wording, for ethical and legal reasons. So step 6 paraphrases the statements whose wording is too close to their excerpt (ROUGE-2 precision above 0.3), and validation rejects those that stay too close ("too similar to source").
+
+This isn't needed when the source's wording may be reproduced, typically when it is in the public domain or under a licence that allows it. `--no-paraphrase`, or `paraphrase=False` in Python, then turns off both the paraphrasing and the rejection. The similarity is still measured and reported in each statement's `diagnostics`, and the output records the setting in `provenance.paraphrase`.
+
+Retriever data is always processed with paraphrasing on (team rule).
 
 ### Time
 
@@ -178,7 +187,7 @@ Each document's output is a JSON object, described by the JSON Schema [`src/kara
 | `main_point_method` | `single`, or `chunked` when the text did not fit the model's context: its parts were summarised, and the summaries combined. |
 | `actors` | The actors quoted or cited (*inferred actors*, in the snapshot specification's terms): `canonical_name`, `aliases`, and `kind` (`person`, `organisation`, or `null`). |
 | `statements` | Every statement extracted, rejected ones included (below). |
-| `provenance` | Karaage version and commit, profile and its settings, backend, model and its build, `inferred_at` (UTC, `YYYY-MM-DDTHH:MM:SSZ`), and the duration of each step. |
+| `provenance` | Karaage version and commit, profile and its settings, backend, model and its build, whether paraphrasing was on (`paraphrase`), `inferred_at` (UTC, `YYYY-MM-DDTHH:MM:SSZ`), and the duration of each step. |
 
 Each statement has:
 - `id`: `<document_id>-s<n>`, numbered from 1 in extraction order;
@@ -211,7 +220,7 @@ Karaage outputs are meant to go into snapshot bundles (specification 1.0, in `ob
 | `inference_tool`, `inference_version` | `provenance.tool`, `provenance.version` |
 | `inference_profile` (flex field) | `provenance.profile` |
 
-`main_point` goes into `source_documents`, and the HTML report under `monitoring/`. The profile settings go under `snapshot.statement_inference` in the descriptor.
+`main_point` goes into `source_documents`, and the HTML report under `monitoring/`. The profile settings, and whether paraphrasing was on, go under `snapshot.statement_inference` in the descriptor.
 Karaage's actors are not reconciled, so they don't fill `inferred_actors`. [`tests/test_snapshot.py`](tests/test_snapshot.py) builds a valid bundle from the test dataset this way.
 
 ## Versions

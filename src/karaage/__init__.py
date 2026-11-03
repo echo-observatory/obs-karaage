@@ -113,9 +113,13 @@ def read_document(document) -> tuple[str, str, str | None, str | None]:
     return str(document_id), text, title or None, published_at or None
 
 
-def run(document, resources: Resources) -> RunResult:
+def run(document, resources: Resources, *, paraphrase: bool = True) -> RunResult:
     """Process one document: a dict with an `id` (string or integer) and a `text`,
     and optionally a `title` and a `published_at` date, given as context to the main point step.
+
+    `paraphrase=False` turns off step 6, which rewords statements too close to their
+    source, and validation's check for them. Only for sources whose wording may be
+    reproduced, e.g. in the public domain; never for Retriever data (README).
 
     Never raises on a failing step: the output then has the status `failed`, with the error.
     """
@@ -154,14 +158,15 @@ def run(document, resources: Resources) -> RunResult:
     excerpts_list,  html_exc  = _step("excerpts",     lambda: step_3_excerpts(segments, attribution))
     all_stmts, main_point, html_extr, excerpt_errors, main_point_method = _step("extraction", lambda: step_4_key_statements(segments, excerpts_list, title, published_at), n_returns=5)
     rephrased,      html_reph = _step("rephrasing",   lambda: step_5_rephrase(all_stmts, excerpts_list, main_point))
-    paraphrased,    html_para = _step("paraphrasing", lambda: step_6_paraphrase(rephrased, resources.embedding_model, resources.sim_model))
-    validated,      html_val  = _step("validation",   lambda: step_7_validate(paraphrased))
+    paraphrased,    html_para = _step("paraphrasing", lambda: step_6_paraphrase(rephrased, resources.embedding_model, resources.sim_model, paraphrase))
+    validated,      html_val  = _step("validation",   lambda: step_7_validate(paraphrased, check_similarity=paraphrase))
 
     provenance = {
         "tool": TOOL,
         "version": __version__,
         "commit": __commit_id__,
         **resources.client.provenance(),
+        "paraphrase": paraphrase,
         "inferred_at": timestamp(datetime.datetime.now(datetime.timezone.utc)),
         "step_seconds": step_seconds,
     }

@@ -165,7 +165,12 @@ def paraphrase_statements(statements: list, sim_model) -> list[dict]:
         s['paraphrased'] = s['rephrased_paraphrased'] or s['summary_paraphrased']
     return statements
 
-def step_6_paraphrase(rephrased_statements, embedding_model, sim_model):
+def step_6_paraphrase(rephrased_statements, embedding_model, sim_model, enabled=True):
+    """Paraphrase the statements too close to their excerpt's wording.
+
+    With `enabled` false (`karaage run --no-paraphrase`), the ROUGE-2 scores are still
+    computed, for the output's diagnostics, but nothing is paraphrased.
+    """
     scored_statements = compute_rouge2_scores(rephrased_statements)
     
     if verbose:
@@ -174,9 +179,25 @@ def step_6_paraphrase(rephrased_statements, embedding_model, sim_model):
         for s in scored_statements:
             print(f"{s['id']:>3}  {s.get('rouge2_rephrased', 0):>8.4f}  {s.get('rouge2_summary', 0):>8.4f}  {s.get('rephrased_statement', '')[:55]}...")
 
+    if not enabled:
+        for s in scored_statements:
+            s['paraphrased'] = s['rephrased_paraphrased'] = s['summary_paraphrased'] = False
+        return scored_statements, paraphrasing_off_html(scored_statements)
     paraphrased_statements = paraphrase_statements(scored_statements, sim_model)
     html_paraphrasing_content = paraphrasing_monitoring_html(paraphrased_statements, embedding_model)
     return paraphrased_statements, html_paraphrasing_content
+
+
+def paraphrasing_off_html(statements: list) -> str:
+    """Return paraphrasing_content for the monitoring report of a run without paraphrasing."""
+    above = sum(1 for s in statements
+                if max(s.get('rouge2_rephrased', 0), s.get('rouge2_summary', 0)) > ROUGE2_THRESHOLD)
+    return (
+        "<p><em>Paraphrasing was turned off for this run. Statements keep the wording of the rephrasing step, "
+        "and validation does not reject those too close to their excerpt's wording. "
+        f"{above} statement{'s' if above != 1 else ''} of {len(statements)} "
+        f"{'are' if above != 1 else 'is'} above the threshold (ROUGE-2 precision &gt; {ROUGE2_THRESHOLD:.2f}).</em></p>"
+    )
 
 def paraphrasing_monitoring_html(statements: list, embedding_model_name: str) -> str:
     """Return paraphrasing_content for the monitoring report."""

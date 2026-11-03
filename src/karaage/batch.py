@@ -95,7 +95,8 @@ def is_done(previous: dict | None, text: str) -> bool:
             and previous.get("text_sha256") == hashlib.sha256(text.encode("utf-8")).hexdigest())
 
 
-def run_documents(documents: list[dict], output_dir, resources, *, report: bool = False) -> Counter:
+def run_documents(documents: list[dict], output_dir, resources, *, report: bool = False,
+                  paraphrase: bool = True) -> Counter:
     """Run each document and write `<name>.json`, plus `<name>.html` with `report`.
 
     Documents whose output is already ok are skipped, so an interrupted run resumes where
@@ -105,7 +106,7 @@ def run_documents(documents: list[dict], output_dir, resources, *, report: bool 
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     statuses, seconds, chars, other_runs = Counter(), 0.0, 0, 0
-    current = (resources.client.profile.label, karaage.__version__)
+    current = (resources.client.profile.label, karaage.__version__, paraphrase)
     for i, document in enumerate(documents, 1):
         document_id = str(document["id"])
         name = output_name(document_id)
@@ -113,11 +114,11 @@ def run_documents(documents: list[dict], output_dir, resources, *, report: bool 
         if is_done(previous, document["text"]):
             statuses["skipped"] += 1
             provenance = previous.get("provenance") or {}
-            other_runs += (provenance.get("profile"), provenance.get("version")) != current
+            other_runs += (provenance.get("profile"), provenance.get("version"), provenance.get("paraphrase")) != current
             continue
         print(f"[{i}/{len(documents)}] Document {document_id}")
         t0 = time.perf_counter()
-        result = karaage.run(document, resources)
+        result = karaage.run(document, resources, paraphrase=paraphrase)
         seconds += time.perf_counter() - t0
         chars += len(document["text"])
         karaage.save(result, data_path=output_dir / f"{name}.json",
@@ -135,7 +136,7 @@ def print_summary(statuses: Counter, seconds: float, chars: int, other_runs: int
     if statuses["skipped"]:
         print("Skipped documents already had an ok output, made from the same text.")
     if other_runs:
-        print(f"⚠️  {other_runs} of them were made by another profile or Karaage version. "
+        print(f"⚠️  {other_runs} of them were made by another profile, Karaage version or paraphrasing setting. "
               f"Use another output directory to run them again.")
     if statuses["failed"] or statuses["partial"]:
         print("Run the same command again to retry the failed and partial documents.")

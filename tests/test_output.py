@@ -29,6 +29,7 @@ PROVENANCE = {
     "profile_settings": {"name": "qwen3.5-9b", "description": "", "context_tokens": 8000, "temperature": 0.0,
                          "embedding_model": "e", "backends": {}, "seed": None, "custom": False},
     "backend": "lmstudio", "model": "qwen/qwen3.5-9b", "model_reported": "qwen/qwen3.5-9b", "model_build": None,
+    "paraphrase": True,
     "inferred_at": "2026-11-03T10:11:00Z", "step_seconds": {"segmentation": 0.4},
 }
 
@@ -124,3 +125,7 @@ def test_schema_rejects_inconsistent_outputs():
     assert not validator.is_valid({**data, "status": "failed"})             # failed without errors
     assert not validator.is_valid({**data, "statements": [{**data["statements"][0], "rejection_reason": "too similar to source"}]})
     assert not validator.is_valid({**data, "extra": 1})
+    paraphrase_off = {**data["provenance"], "paraphrase": False}
+    rejected = {**data["statements"][0], "valid": False, "rejection_reason": "too similar to source"}
+    assert not validator.is_valid({**data, "provenance": paraphrase_off, "statements": [rejected]})
+    assert validator.is_valid({**data, "provenance": paraphrase_off})

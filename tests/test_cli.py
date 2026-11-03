@@ -90,7 +90,7 @@ def test_run_command(tmp_path, articles, replay, monkeypatch):
 
     # Running again skips the documents that are ok, and retries the one that failed.
     calls, run = [], karaage.run
-    monkeypatch.setattr(karaage, "run", lambda document, resources: calls.append(document["id"]) or run(document, resources))
+    monkeypatch.setattr(karaage, "run", lambda document, resources, **kw: calls.append(document["id"]) or run(document, resources, **kw))
     assert cli.main(argv) == 1 and calls == ["invented/1"]
 
 
@@ -99,15 +99,34 @@ def test_interrupted_run_resumes(tmp_path, articles, replay, monkeypatch):
     out = tmp_path / "out"
     calls, run = [], karaage.run
 
-    def interrupted_at_19(document, resources):
+    def interrupted_at_19(document, resources, **kw):
         if document["id"] == 19:
             raise KeyboardInterrupt
-        return run(document, resources)
+        return run(document, resources, **kw)
     monkeypatch.setattr(karaage, "run", interrupted_at_19)
     with pytest.raises(KeyboardInterrupt):
         run_documents(documents, out, replay)
     assert [p.name for p in out.iterdir()] == ["7.json"]
 
-    monkeypatch.setattr(karaage, "run", lambda document, resources: calls.append(document["id"]) or run(document, resources))
+    monkeypatch.setattr(karaage, "run", lambda document, resources, **kw: calls.append(document["id"]) or run(document, resources, **kw))
     statuses = run_documents(documents, out, replay)
     assert calls == [19] and statuses["skipped"] == 1 and sum(statuses.values()) == 2
+
+
+def test_run_command_without_paraphrasing(tmp_path, articles, replay, capsys):
+    from test_articles import WITHOUT_PARAPHRASING
+    records = [{k: articles[i][k] for k in ("id", "text", "title", "date")} for i in WITHOUT_PARAPHRASING]
+    out = tmp_path / "out"
+    argv = ["run", "--input", str(write_jsonl(tmp_path / "docs.jsonl", records)), "--output", str(out),
+            "--field", "published_at=date"]
+    assert cli.main(argv + ["--no-paraphrase"]) == 0
+    for article_id in WITHOUT_PARAPHRASING:
+        data = json.loads((out / f"{article_id}.json").read_text(encoding="utf-8"))
+        check_output(data, articles[article_id]["text"])
+        expected = EXPECTED / f"{article_id}-no-paraphrase.json"
+        assert comparable(data) == json.loads(expected.read_text(encoding="utf-8"))
+
+    # Without the flag, these outputs are skipped as done, with a warning that they were made otherwise.
+    capsys.readouterr()
+    assert cli.main(argv) == 0
+    assert "3 of them were made by another profile, Karaage version or paraphrasing setting" in capsys.readouterr().out

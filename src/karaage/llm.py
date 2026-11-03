@@ -65,15 +65,19 @@ class LLMClient:
         self.recordings = (Path(os.environ.get("KARAAGE_RECORDINGS", "tests/recordings"))
                            / profile.label.replace(":", "-"))
         self._recording = None       # record mode: name and responses of the file being written
-        self._replayed = None        # replay mode: every recorded response, by request key
+        self._recording_name = None  # replay mode: the recording looked up first
+        self._replayed = None        # replay mode: every recording's responses, by recording name and request key
         if self.mode == "record":
             self.use_recording("default")
 
     def use_recording(self, name: str) -> None:
         """Record the next responses in `<recordings>/<name>.json`, written from scratch.
 
-        In replay mode it changes nothing: responses are looked up in every recording.
+        In replay mode, responses are looked up in that recording first, then in all the
+        others. So when two recordings hold the same request, as an article run with and
+        without paraphrasing does, each replays its own response.
         """
+        self._recording_name = name
         if self.mode == "record":
             self._recording = (self.recordings / f"{name}.json", {})
             self._recording[0].unlink(missing_ok=True)
@@ -153,15 +157,15 @@ class LLMClient:
         ).hexdigest()
         if self.mode == "replay":
             if self._replayed is None:
-                self._replayed = {}
-                for path in sorted(self.recordings.glob("*.json")):
-                    self._replayed.update(json.loads(path.read_text(encoding="utf-8")))
-            if key not in self._replayed:
+                self._replayed = {path.stem: json.loads(path.read_text(encoding="utf-8"))
+                                  for path in sorted(self.recordings.glob("*.json"))}
+            current = self._replayed.get(self._recording_name, {})
+            recorded = current.get(key) or next((r[key] for r in self._replayed.values() if key in r), None)
+            if recorded is None:
                 raise ReplayMissError(
                     f"No recorded response for this request in {self.recordings}. Re-record when prompts, "
                     "schemas or the profile change (docs/design-1.1.0.md, section 7.1)."
                 )
-            recorded = self._replayed[key]
             if "error" in recorded:
                 # Raise it under its original class name, so that step errors read as in the recording.
                 error = recorded["error"]
