@@ -1,45 +1,4 @@
 {
- "06c0c66edbff37c74cef4dcfb70c982716b76fc90a020d0c3b194d60a152e835": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Moore's film contrasts U.S. healthcare with Cuba's model, showing 9/11 workers denied aid in the U.S. but treated free in Havana, where an inhaler costs 5 cents versus $120 in the U.S.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687559,
-  "id": "chatcmpl-mr9qko19v3xqkttguer9e",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 59,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1204,
-   "prompt_tokens_details": null,
-   "total_tokens": 1263
-  }
- },
  "2f56937486085bedd919293d8275acf565d83ff36b039028cc97fe6818a2981f": {
   "choices": [
    {
@@ -58,8 +17,8 @@
     }
    }
   ],
-  "created": 1793687549,
-  "id": "chatcmpl-gjf66yhhq96yl338s2tb6",
+  "created": 1793701572,
+  "id": "chatcmpl-0kd8bjhm8f24e2yedif5vq",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -81,88 +40,6 @@
    "total_tokens": 1602
   }
  },
- "369c21d66316cbcb3fb136412ba7ab6428c29b3e3870f3302a591182b9cb1f6e": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Health insurance companies\": [\"We need a uniquely American solution in which the public and private sectors work together to make sure that everyone has high-quality, affordable healthcare.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687561,
-  "id": "chatcmpl-k3sm5468p0gxyfa5ye50jt",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 35,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 856,
-   "prompt_tokens_details": null,
-   "total_tokens": 891
-  }
- },
- "40e0c751d3d1c6cbe03c6d78a822258e25b302e16ee6838070427e385056e41b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687573,
-  "id": "chatcmpl-ww02192x8bmwcehld7zbea",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 536,
-   "prompt_tokens_details": null,
-   "total_tokens": 551
-  }
- },
  "43fed3ef5a2d4fc2559aa018ed7587be2eca9d3748ea4ccdb46ad8d3053fdf61": {
   "choices": [
    {
@@ -181,8 +58,8 @@
     }
    }
   ],
-  "created": 1793687556,
-  "id": "chatcmpl-aiv2jx2zrhrtp5douytjls",
+  "created": 1793701579,
+  "id": "chatcmpl-4yb32xo101412mxiu9hpmff",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -204,7 +81,7 @@
    "total_tokens": 1035
   }
  },
- "4f47558ba50ac0d988d6dbd9c513c48e3f8286f3cb714c5b1a60c3a991bde602": {
+ "61511b7b27ee286b2f9c47f0660e00d91ed7c29bf79f4fd158d3426cebb46397": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -213,7 +90,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"0\": {\"original\": \"Reports confirm Michael Moore's documentary 'Sicko' was leaked online, marking a\", \"rephrased\": \"The upcoming documentary 'Sicko,' produced by Lionsgate Studios and directed by Michael Moore, has already been distributed on peer-to-peer networks, representing a second unauthorized pre-release leak within a single month. This incident occurs as the film, which critiques the United States healthcare system by comparing it to international models, faces scrutiny from federal authorities regarding its content.\", \"summary\": \"Lionsgate's documentary 'Sicko' has been leaked online, marking a second pre-release breach.\"}, \"1\": {\"original\": \"Moore's film contrasts U.S. healthcare with Cuba's model, showing 9/11 workers\", \"rephrased\": \"The documentary 'Sicko' highlights a stark disparity in healthcare access by documenting how volunteer workers who served at the World Trade Center after the September 11 attacks were denied necessary medical aid in the United States, yet received free treatment in Havana, Cuba. This contrast is further illustrated by the fact that a specific respiratory inhaler costs approximately five cents in Cuba compared to 120 dollars in the U.S., underscoring the film's argument that the American system prioritizes profit over patient care.\", \"summary\": \"The film 'Sicko' contrasts U.S. healthcare denial with Cuba's free treatment model using 9/11 worker testimonies.\"}, \"2\": {\"original\": \"We need a uniquely American solution in which the public and private sectors\", \"rephrased\": \"Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must pursue a uniquely American solution where public and private sectors collaborate to ensure everyone has high-quality, affordable healthcare. This position is adopted in direct response to the upcoming release of the documentary 'Sicko,' which calls for a healthcare system modeled after Canada, France, or the United Kingdom.\", \"summary\": \"Health insurers advocate for a public-private hybrid model to ensure affordable care, opposing the film's call for foreign-style systems.\"}}",
+     "content": "{\"base_author\": [\"Reports confirm Michael Moore's documentary 'Sicko' was leaked to peer-to-peer networks, marking a second pre-release leak in a month for Lionsgate Studios.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -222,8 +99,8 @@
     }
    }
   ],
-  "created": 1793687562,
-  "id": "chatcmpl-tehyrvsha0g51exdquwitr",
+  "created": 1793701581,
+  "id": "chatcmpl-nr28ktn094i4lnsgowril6",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -232,7 +109,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 439,
+   "completion_tokens": 40,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -240,12 +117,53 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2125,
+   "prompt_tokens": 1151,
    "prompt_tokens_details": null,
-   "total_tokens": 2564
+   "total_tokens": 1191
   }
  },
- "687d9a13c7eb0c00c87979cac3f9a09ea15de63b693f285bf2acdda2e4382f95": {
+ "94162fb610ec6ec3721fbb02ef6869729383e9e651a7cad68529ab2db2776155": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"Reports confirm Michael Moore's documentary 'Sicko' was leaked to peer-to-peer\\n\\n\", \"rephrased\": \"The upcoming documentary 'Sicko,' which critiques the U.S. healthcare system by comparing it to Cuba's model, has been leaked onto peer-to-peer networks. This incident represents a second pre-release leak in a month for Lionsgate Studios, the studio distributing the film. Such leaks undermine the controlled release strategy and raise concerns about the film's potential impact on public discourse regarding healthcare reform before its official debut.\", \"summary\": \"A leaked copy of the controversial healthcare documentary 'Sicko' marks a second pre-release breach for its distributor.\"}, \"1\": {\"original\": \"Moore's film contrasts U.S. healthcare with Cuba's model, showing 9/11\\n\\n\", \"rephrased\": \"The documentary 'Sicko' highlights a stark contrast between the U.S. and Cuba's healthcare systems by documenting how 9/11 volunteers denied aid in the United States were able to receive free treatment in Havana. This comparison, which includes data showing an inhaler costs five cents in Cuba versus 120 dollars in the U.S., serves as evidence that the current American system fails to provide affordable care even to those with insurance, thereby challenging the necessity of the existing private-sector-dominated model.\", \"summary\": \"The film 'Sicko' uses the case of 9/11 victims to argue that the U.S. healthcare system is fundamentally broken compared to Cuba's model.\"}, \"2\": {\"original\": \"\\\"We need a uniquely American solution in which the public and private sectors\\n\\n\", \"rephrased\": \"In response to the release of the documentary 'Sicko,' which calls for a healthcare system modeled after Canada, France, or the UK, the health insurance industry insists that the United States must develop a unique solution. This approach requires the public and private sectors to work together to ensure everyone has access to high-quality, affordable healthcare, rejecting the notion of adopting a foreign system in favor of a hybrid domestic reform.\", \"summary\": \"Health insurance companies oppose adopting foreign healthcare models, advocating instead for a unique American hybrid of public and private sectors.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701585,
+  "id": "chatcmpl-eurzb7zwtvvtzlbbeiyn68",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 466,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2128,
+   "prompt_tokens_details": null,
+   "total_tokens": 2594
+  }
+ },
+ "99031f3c301867a6c5e64b9dab1221d8a03a5d5cf891e64368450d647628f0f1": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -263,8 +181,8 @@
     }
    }
   ],
-  "created": 1793687573,
-  "id": "chatcmpl-vbae5itvc2a11ygokzoin",
+  "created": 1793701599,
+  "id": "chatcmpl-nzgq2lai9eltplwvsz94n",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -281,12 +199,94 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 349,
+   "prompt_tokens": 355,
    "prompt_tokens_details": null,
-   "total_tokens": 364
+   "total_tokens": 370
   }
  },
- "9eb0754a1923023f208bfe601faad918f0e42b3deacefad6e011687276b16280": {
+ "aea0f79bb5ab3824dc1dcab59b705953debb96026d68570c12c1e01779005f11": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Lionsgate Studios, the distributor, has faced a second pre-release leak this month. The film 'Sicko' was shared on peer-to-peer networks. This movie criticizes the U.S. healthcare system by contrasting it with Cuba's model. These leaks hurt the planned release strategy. They also create worry about how the film will affect public discussion on healthcare reform before it officially opens.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701596,
+  "id": "chatcmpl-c705aczspilsvwfii6wt1e",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 89,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 240,
+   "prompt_tokens_details": null,
+   "total_tokens": 329
+  }
+ },
+ "b2a4c5631d205acb54503319e95e159967266770856c0031ce8dcdabb94ddb02": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Health insurance companies\": [\"We need a uniquely American solution in which the public and private sectors work together to make sure that everyone has high-quality, affordable healthcare.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701584,
+  "id": "chatcmpl-zq4t7zaka6sj20kvy18uom",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 35,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 853,
+   "prompt_tokens_details": null,
+   "total_tokens": 888
+  }
+ },
+ "c4c50f622a06fac6615cc10a04ced7d63db18faa74b9ea2e2848ef1016ae54f8": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -304,8 +304,8 @@
     }
    }
   ],
-  "created": 1793687574,
-  "id": "chatcmpl-84nji7ffkswq9h9sdb1ooj",
+  "created": 1793701599,
+  "id": "chatcmpl-sm8mo48ayb71fdob1mco9",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -322,12 +322,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 204,
+   "prompt_tokens": 202,
    "prompt_tokens_details": null,
-   "total_tokens": 219
+   "total_tokens": 217
   }
  },
- "f1d3275d65d40dfb77a4a63928c24ed028b488e66bede3ac625b89c9d243d2ab": {
+ "d6e7cef26484a216c532edf2da3e1e25a8b79bf0a4bf34f66ec5a8dd71771f02": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -336,7 +336,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"Reports confirm Michael Moore's documentary 'Sicko' was leaked online, marking a second pre-release leak in a month for Lionsgate Studios.\"]}",
+     "content": "{\"base_author\": [\"Moore's film contrasts U.S. healthcare with Cuba's model, showing 9/11 volunteers denied aid in the U.S. but treated free in Havana, where an inhaler costs 5 cents versus $120 in the U.S.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -345,8 +345,8 @@
     }
    }
   ],
-  "created": 1793687557,
-  "id": "chatcmpl-v8yk1id339dul9w3lk08",
+  "created": 1793701582,
+  "id": "chatcmpl-5jyh7y1l0ltxkj7j38upo",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -355,7 +355,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 36,
+   "completion_tokens": 59,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -363,12 +363,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 1154,
+   "prompt_tokens": 1201,
    "prompt_tokens_details": null,
-   "total_tokens": 1190
+   "total_tokens": 1260
   }
  },
- "fe73df70c96cc85f7b0a97d20c8127a53edad61a433ad03da766cf3d0d595850": {
+ "f2c5f4bbd6b6b380c46a6c4f8bb531608959005f41edff8b5117d33a3abcdf87": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -377,7 +377,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"The online leak of Lionsgate's film 'Sicko' represents another instance of a pre-release breach.\"}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -386,8 +386,8 @@
     }
    }
   ],
-  "created": 1793687572,
-  "id": "chatcmpl-lgz9ywwk21lsnbolrf7klr",
+  "created": 1793701598,
+  "id": "chatcmpl-b7fgvca4zichs8unv8mku",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -396,7 +396,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 32,
+   "completion_tokens": 15,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -404,9 +404,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 180,
+   "prompt_tokens": 537,
    "prompt_tokens_details": null,
-   "total_tokens": 212
+   "total_tokens": 552
   }
  }
 }

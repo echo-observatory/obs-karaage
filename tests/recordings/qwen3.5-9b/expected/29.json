@@ -215,14 +215,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Recording Industry Association of America (RIAA) issued a Digital Millennium Copyright Act (DMCA) takedown notice to the code hosting platform GitHub, asserting that the open-source video downloader youtube-dl was specifically engineered to bypass the technological protections employed by authorized streaming services and to distribute copyrighted music without permission. This legal action, which stripped identifying metadata before publication, relies on the software's internal unit tests as evidence of intent, despite the tool's primary design for downloading public domain content and Creative Commons licensed material.",
-   "text_short": "The RIAA sent a DMCA notice to GitHub claiming the open-source video downloader was designed to bypass streaming protections.",
+   "text": "The Recording Industry Association of America sent a Digital Millennium Copyright Act notice to the code hosting platform GitHub, requesting the removal of the open-source video downloader youtube-dl. This legal action was based on the claim that the software's source code explicitly contained instructions for bypassing the technological protections used by authorized streaming services to distribute music without permission, even though the tool is also capable of downloading public domain and freely licensed content.",
+   "text_short": "The RIAA demanded GitHub remove the open-source video downloader by citing alleged code designed to bypass streaming protections.",
    "char_start": 327,
    "char_end": 1222,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.092,
+    "rouge2_precision": 0.1447,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -237,14 +237,14 @@
     "YouTube community",
     "YouTube Movies"
    ],
-   "text": "The Recording Industry Association of America (RIAA) points to specific comments within the source code of the open-source video downloader youtube-dl as proof that the software was created with the intent to circumvent the technological measures protecting content on YouTube. This argument forms the core of the RIAA's legal challenge, which seeks to have the tool and its associated code repositories removed from the GitHub platform, even though the software also functions to download legally available public domain and Creative Commons works.",
-   "text_short": "The RIAA cites code comments in the open-source video downloader as evidence of intent to circumvent YouTube's protections.",
+   "text": "The Recording Industry Association of America relied on a specific unit test within the software's code, which included a link to a copyrighted song, to argue that the open-source video downloader was intentionally designed to circumvent digital rights management systems. This evidence was used to justify a takedown request against the project, despite the fact that the software includes numerous other tests verifying its ability to download legally available, public domain, and Creative Commons licensed material.",
+   "text_short": "The RIAA used a single unit test downloading copyrighted music to claim the tool was designed to bypass digital protections.",
    "char_start": 1222,
    "char_end": 1721,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.1579,
+    "rouge2_precision": 0.0526,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"
@@ -259,14 +259,14 @@
     "the RIAA",
     "our member companies"
    ],
-   "text": "The Recording Industry Association of America (RIAA) is alleging a violation of 17 U.S. Code § 1201, which prohibits the circumvention of technological measures that effectively control access to copyrighted works. This legal framework is being used to justify a demand that the code hosting platform GitHub make the open-source video downloader youtube-dl and its various derivative versions inaccessible, arguing that the software's ability to bypass digital locks infringes upon federal anti-circumvention laws regardless of how the tool is actually used.",
-   "text_short": "The RIAA alleges a violation of U.S. anti-circumvention law to demand that GitHub block the open-source video downloader.",
+   "text": "The Recording Industry Association of America filed a formal complaint alleging that the open-source video downloader violated Section 1201 of the U.S. Copyright Act, which prohibits circumventing technological measures that control access to protected works. The association argued that the software's existence itself constituted a violation of this federal law, regardless of whether any specific user had actually infringed on copyright or caused measurable harm.",
+   "text_short": "The RIAA alleged the video downloader violated U.S. law by circumventing technological measures that control access to protected works.",
    "char_start": 1721,
    "char_end": 2061,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.131,
+    "rouge2_precision": 0.1053,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -281,14 +281,14 @@
     "the RIAA",
     "our member companies"
    ],
-   "text": "The Recording Industry Association of America (RIAA) has requested that the code hosting platform GitHub make inaccessible a specific list of forked versions of the open-source video downloader youtube-dl. This broad takedown request targets derivative projects that the RIAA believes are related to the original tool, aiming to ensure that no accessible version of the software remains available on the platform, even if those specific forks do not contain the same code comments cited as evidence of copyright infringement.",
-   "text_short": "The RIAA requested that GitHub block multiple forked versions of the open-source video downloader.",
+   "text": "Following the initial complaint, the Recording Industry Association of America provided a list of alternative versions of the software hosted on the same platform and demanded that the code hosting service make all of them inaccessible. This broad request sought to eliminate the entire ecosystem of the open-source project, effectively banning the tool for all users rather than targeting only the specific instance that triggered the legal notice.",
+   "text_short": "The RIAA requested that the code hosting service make all alternative versions of the software inaccessible.",
    "char_start": 1721,
    "char_end": 2061,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.025,
+    "rouge2_precision": 0.0,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -301,16 +301,16 @@
     "Creative Commons Attribution license",
     "Creative Commons Attribution (CC BY) license"
    ],
-   "text": "When copyright holders voluntarily release their work under a Creative Commons Attribution license, they explicitly grant the public the right to freely own, share, and modify that content, provided users properly attribute the original author. This legal framework ensures that legitimate uses of such material remain accessible to everyone, regardless of the restrictions imposed by other entities on the platforms hosting the content.",
-   "text_short": "Creative Commons licenses grant the public broad rights to share and modify voluntarily released works.",
+   "text": "When copyright holders voluntarily release their work under a Creative Commons Attribution license, they explicitly grant the public the right to freely own, share, and modify that content, provided users properly attribute the original author. This legal framework ensures that legitimate uses of such material remain protected even when platforms attempt to restrict access through copyright enforcement measures.",
+   "text_short": "Voluntary Creative Commons licenses grant public rights to share and modify content, countering claims that such tools facilitate copyright infringement.",
    "char_start": 2289,
    "char_end": 2516,
    "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.129,
+    "rouge2_precision": 0.1404,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "no",
     "actor_correct": "no"
    }
   },
@@ -320,14 +320,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The open-source tool youtube-dl is designed to support fair use and evidence gathering, demonstrating that the tool's functionality extends beyond copyright infringement. Furthermore, standard web browsers can already download and record copyrighted photos and videos, proving that no technological barriers effectively prevent users from accessing and sharing digital content.",
-   "text_short": "youtube-dl supports fair use, and standard browsers can already download copyrighted content.",
+   "text": "The open-source video downloader supports legitimate activities like gathering evidence and exercising fair use, while standard web browsers already possess the inherent ability to download copyrighted content through screenshots and screen recording, demonstrating that technological barriers to access are often weak or non-existent.",
+   "text_short": "The tool facilitates legitimate uses and evidence gathering, while standard browsers can already download content, proving technological barriers are weak.",
    "char_start": 3105,
    "char_end": 4466,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.25,
+    "rouge2_precision": 0.1136,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -339,14 +339,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The decision by the software hosting platform GitHub to remove the youtube-dl tool backfired, triggering a 'Streisand effect' where the ban inadvertently caused the software's source code to spread more widely. Users successfully bypassed the restriction by sharing the code through decentralized networks, self-hosted servers, and the Tor network, rendering the removal effort counterproductive.",
-   "text_short": "GitHub's removal of the tool backfired, causing users to share the code via alternative channels.",
+   "text": "The removal of the open-source video downloader by the platform hosting it triggered a 'Streisand effect,' where the attempt to censor the software caused users to bypass the ban by hosting the code on decentralized self-hosted servers, anonymous Tor sites, and via the torrent protocol, thereby increasing the software's availability.",
+   "text_short": "Removing the tool triggered a 'Streisand effect,' causing users to bypass the ban by hosting the code on decentralized servers and via torrents.",
    "char_start": 4466,
    "char_end": 5025,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2,
+    "rouge2_precision": 0.2692,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -358,14 +358,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Following the removal of the tool, users of the software hosting platform engaged in acts of digital vandalism to restore access, with one individual merging the source code into the very repository designated for copyright takedown notices. This strategic move allowed users to access the code directly from the DMCA folder, provided they knew the specific commit identifier, effectively circumventing the intended ban.",
-   "text_short": "Users vandalized the repository to merge the code into the DMCA folder, restoring access.",
+   "text": "Following the takedown notice, users of the platform vandalized the repository by merging the software's source code directly into the official complaint folder, a workaround that allows anyone with the specific commit ID to access the code despite the ban.",
+   "text_short": "Users vandalized the repository by merging the code into the DMCA folder, allowing access if users know the commit ID.",
    "char_start": 5249,
    "char_end": 5509,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0806,
+    "rouge2_precision": 0.1053,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -378,16 +378,16 @@
     "Richard Stallman",
     "the founder of the Free Software Foundation"
    ],
-   "text": "Richard Stallman, the founder of the Free Software Foundation, has long maintained that digital rights management systems are fundamentally flawed and harmful to software freedom, a stance that informs his sharp criticism of the RIAA's demand to remove the open-source video downloader from GitHub.",
-   "text_short": "Richard Stallman condemns digital rights management as inherently harmful to software freedom.",
+   "text": "Richard Stallman, the founder of the Free Software Foundation, has long maintained that Digital Rights Management systems are fundamentally flawed and harmful to the public interest, a stance that informs his strong opposition to the current legal framework.",
+   "text_short": "Richard Stallman believes that Digital Rights Management systems cause serious harm.",
    "char_start": 5744,
    "char_end": 6013,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2727,
-    "paraphrased": false,
-    "in_text": "yes",
+    "rouge2_precision": 0.3,
+    "paraphrased": true,
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
@@ -400,16 +400,16 @@
     "one of the maintainers of youtube-dl script",
     "he"
    ],
-   "text": "The maintainer of the open-source video downloader could restore the project's code on GitHub by the weekend, yet views the RIAA's demand for the tool's complete removal as an unacceptable and damaging outcome that undermines the software's utility.",
-   "text_short": "The youtube-dl maintainer can restore the code but deems the RIAA's removal demand unacceptable.",
+   "text": "The project maintainers could restore the open-source video downloader's code on GitHub by the weekend, yet they view the conditions required to do so as an unacceptable compromise that fails to address the root cause of the conflict.",
+   "text_short": "Project maintainers could restore the code but view the required conditions as unacceptable.",
    "char_start": 6280,
    "char_end": 6622,
    "valid": false,
-   "rejection_reason": "not found in source text",
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
     "rouge2_precision": 0.0,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "no"
    }
   },
@@ -422,10 +422,67 @@
     "one of the maintainers of youtube-dl script",
     "he"
    ],
-   "text": "The project maintainers cannot promise they will fully comply with the RIAA's demands to remove the video downloader, noting that they must balance the risk of legal retaliation against the need to preserve the tool for users who rely on it for lawful purposes.",
-   "text_short": "The project maintainers will likely resist the RIAA's demands to protect the tool's availability.",
+   "text": "The project team cannot guarantee they will fully comply with the copyright holder's demands, noting that the pressure to surrender the software's functionality creates a difficult situation where legal safety might come at the cost of the tool's utility.",
+   "text_short": "The project team cannot guarantee full compliance with the copyright holder's demands.",
    "char_start": 6280,
    "char_end": 6622,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0244,
+    "paraphrased": false,
+    "in_text": "uncertain",
+    "actor_correct": "uncertain"
+   }
+  },
+  {
+   "id": "29-s12",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Digital rights advocates have not yet issued a formal public statement regarding the removal of the tool, while independent journalists have reached out to former project leaders to document the community's reaction to the takedown notice.",
+   "text_short": "Digital rights advocates have not yet issued a formal public statement regarding the removal.",
+   "char_start": 6622,
+   "char_end": 6898,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1389,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "29-s13",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The removal of the open-source video downloader youtube-dl by GitHub, triggered by a Digital Millennium Copyright Act notice from the Recording Industry Association of America, represents a significant disruption to a tool widely used for accessing public domain content and conducting research. While the tool's functionality for downloading legally available media remains intact, the takedown action has forced the community to host the code on alternative platforms to preserve its utility for users who rely on it for fair use purposes.",
+   "text_short": "GitHub's removal of the open-source video downloader youtube-dl following a copyright notice disrupts access to a tool used for legal research and public domain content.",
+   "char_start": 6898,
+   "char_end": 7116,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.037,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "29-s14",
+   "actor": "you",
+   "actor_aliases": [
+    "you"
+   ],
+   "text": "Digital Rights Management technology is actively employed by the video platform to restrict access to its premium movie content, creating a technical barrier that standard web browsers cannot easily overcome. This encryption strategy is specifically designed to protect copyrighted films from unauthorized downloading and redistribution, distinguishing them from standard user-generated videos that remain freely accessible.",
+   "text_short": "The video platform employs Digital Rights Management technology to restrict access to its premium movie content, preventing unauthorized downloading.",
+   "char_start": 7116,
+   "char_end": 7318,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
@@ -436,79 +493,41 @@
    }
   },
   {
-   "id": "29-s12",
-   "actor": "base_author",
-   "actor_aliases": [
-    "base_author"
-   ],
-   "text": "While the Electronic Frontier Foundation has not yet issued a formal response to inquiries regarding the takedown, the news organization has already contacted the project's former maintainers to gather details on the situation and the community's reaction to the RIAA's actions.",
-   "text_short": "The EFF has not yet commented, but journalists are actively seeking information from the project team.",
-   "char_start": 6622,
-   "char_end": 6898,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.0233,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "29-s13",
-   "actor": "you",
-   "actor_aliases": [
-    "you"
-   ],
-   "text": "While the tool in question is designed to download content from over 1,000 services, it cannot access videos protected by Digital Rights Management technology, such as those found on YouTube Movies, because the platform enforces these restrictions to prevent unauthorized copying.",
-   "text_short": "DRM protection on specific YouTube content prevents the open-source downloader from accessing those files.",
-   "char_start": 7116,
-   "char_end": 7318,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
-   "diagnostics": {
-    "rouge2_precision": 0.0244,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "29-s14",
+   "id": "29-s15",
    "actor": "Raspberry Pi",
    "actor_aliases": [
     "Raspberry Pi"
    ],
-   "text": "The open-source video downloader allows users to play high-quality videos on hardware devices like Raspberry Pis that are otherwise unable to access the streaming services due to technical limitations or lack of native support.",
-   "text_short": "The tool enables video playback on devices that cannot natively access certain streaming services.",
+   "text": "The open-source video downloader allows users to play high-quality video files on hardware devices, such as the Raspberry Pi, where the official streaming services fail to function properly due to compatibility issues or restrictive licensing. This capability ensures that individuals with limited internet connections or older hardware can still access and view content that would otherwise be inaccessible through standard web interfaces.",
+   "text_short": "The open-source video downloader enables video playback on hardware devices where official streaming services fail to function properly.",
    "char_start": 7892,
    "char_end": 8181,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2308,
+    "rouge2_precision": 0.1667,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"
    }
   },
   {
-   "id": "29-s15",
+   "id": "29-s16",
    "actor": "base_author",
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Although the inclusion of copyrighted test cases in the source code was driven by user demand for specific video support, these elements can be easily removed to resolve legal concerns without compromising the tool's overall functionality or its legitimate uses for public domain material.",
-   "text_short": "User-requested copyrighted test cases can be removed from the tool's codebase without affecting its core functions.",
+   "text": "The inclusion of copyrighted material within the source code of the video downloader was a direct result of user requests to support specific video formats, a decision that has now become a legal liability for the project. Although these specific test cases can be easily removed without compromising the tool's overall functionality, their presence has triggered legal challenges that threaten the project's existence on major hosting platforms.",
+   "text_short": "The inclusion of copyrighted material in the video downloader's source code was a result of user requests, creating a legal liability that threatens the project's existence.",
    "char_start": 8465,
    "char_end": 8948,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1765,
+    "rouge2_precision": 0.1111,
     "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
+    "in_text": "no",
+    "actor_correct": "no"
    }
   }
  ],

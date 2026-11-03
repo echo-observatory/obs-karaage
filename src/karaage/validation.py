@@ -14,10 +14,10 @@ class StatementValidation(BaseModel):
 
 
 SYSTEM_PROMPT_VALIDATION = """You are validating statements extracted from a news article.
-For each statement you receive the source passage, the statement text, and the actor it is attributed to.
+For each statement you receive the source excerpt, the statement text, and the actor it is attributed to.
 
 Respond with:
-- in_text: whether the statement's content is represented in the passage ("yes", "uncertain", or "no")
+- in_text: whether the statement's content is represented in the excerpt ("yes", "uncertain", or "no")
 - actor_correct: whether the statement is correctly attributed to the stated actor ("yes", "uncertain", or "no")
 
 "base_author" means the article's narrator/journalist, not a quoted source."""
@@ -33,7 +33,7 @@ def run_validation(statements: list) -> list[dict]:
             validated.append({**s, "in_text": None, "actor_correct": None})
             continue
         final_summary = s.get("paraphrased_summary") if s.get("summary_paraphrased") else s["summary"]
-        user_prompt = f'Passage:\n{s["passage"]}\n\nStatement: "{final_summary}"\nAttributed to: {s["actor"]}'
+        user_prompt = f'Excerpt:\n{s["excerpt"]}\n\nStatement: "{final_summary}"\nAttributed to: {s["actor"]}'
         try:
             t0 = time.perf_counter()
             result = llm.complete_model(SYSTEM_PROMPT_VALIDATION, user_prompt, StatementValidation,
@@ -67,7 +67,7 @@ def run_validation(statements: list) -> list[dict]:
 #   0. Validation error: the LLM call itself failed
 #   1. Rephrasing error: rephrased_statement is an empty string
 #   2. Too similar to source: rephrased but ROUGE-2 precision above threshold
-#   3. Not in text: LLM judged the statement not grounded in the passage
+#   3. Not in text: LLM judged the statement not grounded in the excerpt
 #   4. Wrong actor: LLM judged the attribution incorrect
 
 def validate_statement(s):
@@ -109,12 +109,12 @@ def validation_monitoring_html(validated_statements: list) -> str:
     method_description = (
         "Each statement is checked against two independent signals, then filtered by four criteria applied in priority order. "
         "<ul>"
-        "<li><b>LLM grounding check.</b> The model receives the source passage, the statement’s summary "
+        "<li><b>LLM grounding check.</b> The model receives the source excerpt, the statement’s summary "
         "(paraphrased version if available, otherwise the rephrasing-step summary), and its attributed actor. "
-        "It returns two three-way verdicts: <i>in_text</i> (is the summary’s content represented in the passage?) "
+        "It returns two three-way verdicts: <i>in_text</i> (is the summary’s content represented in the excerpt?) "
         "and <i>actor_correct</i> (is the attribution right?) — each “yes”, “uncertain”, or “no”. "
         "Validating the summary rather than the original extraction serves as a consistency check: "
-        "a summary that has drifted from the passage will be caught here.</li>"
+        "a summary that has drifted from the excerpt will be caught here.</li>"
         "<li><b>Filtering.</b> A statement is dropped if: "
         "(1) its rephrased form is empty (rephrasing error); "
         "(2) the ROUGE-2 precision of either the long or the summary version remains above 0.30 after paraphrasing "

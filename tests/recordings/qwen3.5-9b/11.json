@@ -1,5 +1,5 @@
 {
- "1029bc7083b4caef875fd8b3482a7aee7b983a9ba9b69a3e94d9da3b229ab2c3": {
+ "02b58d941b20d352f5ff7c0ca3941d681e6ac8b64848e8c84987f718d8c5fa80": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -17,8 +17,8 @@
     }
    }
   ],
-  "created": 1793687475,
-  "id": "chatcmpl-8jm8rdbjxaeb0717bzi5hs",
+  "created": 1793701497,
+  "id": "chatcmpl-fleysxwmefa9pitxzrdyht",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -35,12 +35,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 537,
+   "prompt_tokens": 202,
    "prompt_tokens_details": null,
-   "total_tokens": 552
+   "total_tokens": 217
   }
  },
- "103a6b0e213217ce189321e59482ed976c5df00fc6f2265350a017790684068d": {
+ "0dac9c07870e8948b823b3b0cc1ca6a4fb7e62385350254219fb92db24c55189": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -49,7 +49,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"base_author\": [\"Swedish authorities likely acted on U.S. MPAA orders to shut down the Pirate Bay, not just rumors.\", \"The raid has sparked public outrage in Sweden over foreign interference.\", \"Pirate Party membership stands at 6,543, funded by 108,000 SEK in donations.\", \"Recent donations after the raid secured enough ballots to avoid running out on election day.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -58,8 +58,8 @@
     }
    }
   ],
-  "created": 1793687480,
-  "id": "chatcmpl-wthn02jfywpgok01eie9a6",
+  "created": 1793701367,
+  "id": "chatcmpl-m0z38u71c2nb860ybild7q",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -68,7 +68,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 88,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -76,12 +76,94 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 333,
+   "prompt_tokens": 1095,
    "prompt_tokens_details": null,
-   "total_tokens": 348
+   "total_tokens": 1183
   }
  },
- "1cdaabd7244a315a3f917b5b8faeb115db4ed59d136b1c084380f7ecc36c7904": {
+ "100d84b282b2de2332dc4445bb9333e7237f5bf6b79fe3acb4cbbb14688e51d6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The Pirate Party\": [\"Media publishes our comments next to the Minister's statement because of our increased visibility following the Pirate Bay raid.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701373,
+  "id": "chatcmpl-lbnjby6czszd5k6dp5dap",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 29,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 799,
+   "prompt_tokens_details": null,
+   "total_tokens": 828
+  }
+ },
+ "13ec6774cebd2cbe846e9c4a4e3d5edf77b8bface31d367ebaaa32e9b59b1971": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The Pirate Party\": [\"argues for drastically limiting copyright scope and enforcement, abolishing patent law, and protecting privacy against a 'control and surveillance society'\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701366,
+  "id": "chatcmpl-8kxup5w3wv41bli6erhhha",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 34,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1107,
+   "prompt_tokens_details": null,
+   "total_tokens": 1141
+  }
+ },
+ "17905dc1d40734e4189332633b13fed23283235a17ebac42775b83dda686163f": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -99,8 +181,8 @@
     }
    }
   ],
-  "created": 1793687484,
-  "id": "chatcmpl-m456xl6xqyijonqs0ybg3",
+  "created": 1793701494,
+  "id": "chatcmpl-x8no3i4gnmwzms865exuo",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -117,12 +199,135 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 311,
+   "prompt_tokens": 559,
    "prompt_tokens_details": null,
-   "total_tokens": 326
+   "total_tokens": 574
   }
  },
- "1d4266146820af841cfa5271edb1c37da70be422874d02c2627a3ceb3e7d6998": {
+ "195b2a5ed7111868e52a1063c34e74120e8b165dc1ffa9a2bd2bbd0b6bbfc669": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701493,
+  "id": "chatcmpl-rbaqgiw1k0m4er7d2kw2um",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 224,
+   "prompt_tokens_details": null,
+   "total_tokens": 239
+  }
+ },
+ "253031ffaac3ef64cbd1477abe442c43bc8922ab5553e2c3d28c9c5da20df53f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701508,
+  "id": "chatcmpl-r2pr30dg8i68evvqncox3",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 578,
+   "prompt_tokens_details": null,
+   "total_tokens": 593
+  }
+ },
+ "27a2afd3e643eaf5bcd433a67ecb92dde51e2056930fc81819cd871322cd0cbf": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The Pirate Party\": [\"Established parties are now echoing our message that current copyright laws fail, but they don't understand the underlying reasons.\", \"We will teach both politicians and voters what these laws actually mean.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701371,
+  "id": "chatcmpl-rnj9wo980fbtl4oq2q3iu",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 45,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 782,
+   "prompt_tokens_details": null,
+   "total_tokens": 827
+  }
+ },
+ "2b0e0185ade5d974088344b72cd041a4c82328d324229b5ab1a96b79dcb321fb": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -140,8 +345,213 @@
     }
    }
   ],
-  "created": 1793687479,
-  "id": "chatcmpl-mn4hwrcwa2cp8nc6kp18h",
+  "created": 1793701495,
+  "id": "chatcmpl-eax7r60ncl8xyzgdcfhgye",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 534,
+   "prompt_tokens_details": null,
+   "total_tokens": 549
+  }
+ },
+ "2c3d0a01da3661d7fbe3cd4c7650728784984a383f667ccf80c4b91eef72d9fc": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Rickard Falkvinge\": [\"Leaning towards new culture over limiting rights, though unconsidered cases exist.\", \"Trademark law is adequate as it reduces transaction costs without hidden drawbacks.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701385,
+  "id": "chatcmpl-pxw4ls2eqqfmwp2kuixmjp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 40,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 852,
+   "prompt_tokens_details": null,
+   "total_tokens": 892
+  }
+ },
+ "34bc16389d7d7e50923bae92bb98925455be0aa10297742b46ef31811ab2368f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"EU copyright law requires that three specific moral rights be maintained: the right of attribution, the right to ensure a work remains anonymous or is published under a pseudonym, and the right to the integrity of the work.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701489,
+  "id": "chatcmpl-fq4mvhdpmqdqmd659han4e",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 53,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 273,
+   "prompt_tokens_details": null,
+   "total_tokens": 326
+  }
+ },
+ "38b4e0ef069d19817c4af1a8bc6913f57452555cf9c962f4c1121c3fd906b480": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"20\": {\"original\": \"We strongly safeguard the right to attribution to promote culture, as anonymous\\n\", \"rephrased\": \"The Swedish Pirate Party asserts that while the right to attribution must be preserved to encourage cultural creation, the right to integrity should be reformed to allow free sampling and derivative works, arguing that current restrictions stifle the promotion of new culture. This position aligns with the party's broader goal of updating copyright laws to reflect modern digital realities rather than punishing ordinary citizens for sharing content.\", \"summary\": \"The Swedish Pirate Party prioritizes cultural promotion by supporting free sampling and reforming the right to integrity while maintaining attribution rights.\"}, \"21\": {\"original\": \"In the 50s and 60s, rock bands covering classical music created great new\\n\", \"rephrased\": \"Historical precedents show that rock bands in the 1950s and 1960s successfully created new cultural forms by covering classical music, even though such acts technically violated the original artists' rights to integrity. This historical evidence suggests that legal frameworks protecting the integrity of works may be outdated and should be adjusted to accommodate the evolution of culture and the creation of derivative works.\", \"summary\": \"Historical examples of successful musical covers suggest that current integrity laws are outdated and should be reformed to accommodate cultural evolution.\"}, \"22\": {\"original\": \"Leaning towards new culture over limiting rights, though unconsidered cases\\n\", \"rephrased\": \"The leadership of the Swedish Pirate Party indicates a preference for prioritizing the promotion of new culture over strict limitations on intellectual property rights, while acknowledging that specific edge cases might require further examination. This stance supports the party's central argument that copyright laws must evolve to reflect the reality of how culture is created and shared in the digital age, rather than enforcing rigid rules that criminalize everyday behavior.\", \"summary\": \"The Swedish Pirate Party leadership prioritizes promoting new culture over strict copyright limitations, while noting the need to address specific edge cases.\"}, \"23\": {\"original\": \"Trademark law is adequate as it reduces transaction costs without hidden\\n\", \"rephrased\": \"The Swedish Pirate Party maintains that current trademark laws are sufficient because they effectively reduce transaction costs in markets where buyers and sellers are not personally acquainted, with no observed hidden costs outweighing these benefits. This assessment supports the party's broader argument that not all intellectual property laws require reform, distinguishing between areas where the law aligns with economic reality and those where it does not.\", \"summary\": \"The Swedish Pirate Party argues that current trademark laws are adequate because they reduce transaction costs without significant negative consequences.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701447,
+  "id": "chatcmpl-hi99981yz7y3s6wrpj87j",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 547,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2874,
+   "prompt_tokens_details": null,
+   "total_tokens": 3421
+  }
+ },
+ "39598ff7bbccb531044c77624d66f179b0466cdfa11abf7b8888c2ac16a557a6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"16\": {\"original\": \"It is a crime that 20% of voters are breaking by facing jail time, which we must\", \"rephrased\": \"Current copyright laws criminalize ordinary citizens by threatening jail time for activities performed by approximately 20% of the Swedish electorate, a situation that must be corrected by reforming the legal framework to decriminalize these acts.\", \"summary\": \"Current laws criminalize 20% of voters, necessitating reform.\"}, \"17\": {\"original\": \"We are reclaiming the word 'pirate' from media conglomerates who use it to shame\", \"rephrased\": \"The party is actively reclaiming the stigmatized label 'pirate' from media conglomerates that use it to shame activists, arguing that wearing the term proudly serves to neutralize negative public perception and reframe the debate around copyright reform.\", \"summary\": \"The party reclaims the 'pirate' label to neutralize stigma.\"}, \"18\": {\"original\": \"The author frames the Pirate Party's strategy as a calculated political maneuver\", \"rephrased\": \"The author characterizes the Pirate Party's approach as a calculated political strategy designed to gain influence by holding the balance of power in parliament, rather than forming a formal coalition, to preserve their bargaining position against established parties.\", \"summary\": \"The author frames the strategy as a calculated power play.\"}, \"19\": {\"original\": \"The right of attribution, the right to have a work published anonymously or\", \"rephrased\": \"The European Union's copyright framework mandates the preservation of specific moral rights, including the right of attribution, the right to have a work published anonymously or pseudonymously, and the right to the integrity of the work.\", \"summary\": \"EU law mandates specific moral rights for creators.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701438,
+  "id": "chatcmpl-3erln8kslbekf1ac3b05t",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 380,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2890,
+   "prompt_tokens_details": null,
+   "total_tokens": 3270
+  }
+ },
+ "3f2645a364d43114796b21c91a30a1cdc5f8cfb00f26802b8b6c0ca9c96dc7d2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701508,
+  "id": "chatcmpl-zullwvl73fobss33zjqf",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -163,7 +573,89 @@
    "total_tokens": 329
   }
  },
- "1f77cc20589dc0069a76a0f2a4296926295d78d012cacddf6fa82633fd3e7333": {
+ "419a83a7903680cb0640794d6377eadc881bebfb47a8921cf0a244553627876b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701505,
+  "id": "chatcmpl-vz7jibitmalcdv353jaodl",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 244,
+   "prompt_tokens_details": null,
+   "total_tokens": 259
+  }
+ },
+ "44845ece65e3ed002b8b51b11e1086e14d543f721825056626a5750d499f1c7f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"The raid has sparked public outrage in Sweden over foreign interference.\", \"rephrased\": \"The Swedish public has reacted with significant anger to the police action against the Pirate Bay, largely because many believe the authorities were acting on instructions from a foreign power rather than based on Swedish law. This perception of external control has become a major source of controversy in the country.\", \"summary\": \"Swedish public anger stems from the belief that the Pirate Bay raid was driven by foreign powers.\"}, \"5\": {\"original\": \"Pirate Party membership stands at 6,543, funded by 108,000 SEK in donations.\", \"rephrased\": \"The Pirate Party currently has over 6,500 registered members who pay electronic fees, generating enough funds to purchase millions of ballots for the upcoming September election. This financial stability ensures the party can participate effectively without relying on external fundraising, even if they do not achieve a full victory.\", \"summary\": \"The Pirate Party has secured sufficient membership and funds to compete in the upcoming election.\"}, \"6\": {\"original\": \"Recent donations after the raid secured enough ballots to avoid running out on选举\", \"rephrased\": \"Additional donations received following the police raid have provided the Pirate Party with enough ballots to guarantee their presence in the next parliament, preventing a scenario where they would run out of voting materials on election day. This surge in support demonstrates that the incident has successfully translated public concern into tangible political resources for the party.\", \"summary\": \"Post-raid donations have secured enough ballots for the Pirate Party to remain competitive in the election.\"}, \"7\": {\"original\": \"We no longer need advertising after the raid and our member count tripled.\", \"rephrased\": \"The police raid on the Pirate Bay has dramatically increased the group's visibility, leading to a tripling of their membership and eliminating the need for paid advertising campaigns. Consequently, the organization now receives extensive free media coverage on national television, allowing them to reach a much wider audience without additional marketing costs.\", \"summary\": \"The raid has boosted the Pirate Bay's membership and media exposure, removing the need for paid advertising.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701406,
+  "id": "chatcmpl-okg30dmi6936ilqt0sum1",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 452,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2494,
+   "prompt_tokens_details": null,
+   "total_tokens": 2946
+  }
+ },
+ "4a7d23cd9c8a3218e620e1a5218137bbcd2973c02d9a4d983eab227ffef6f1df": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -181,8 +673,8 @@
     }
    }
   ],
-  "created": 1793687483,
-  "id": "chatcmpl-wqn9i2q07qklsqix16fef",
+  "created": 1793701499,
+  "id": "chatcmpl-cfjfo18yjgvnquktmwkhc",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -199,12 +691,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 241,
+   "prompt_tokens": 219,
    "prompt_tokens_details": null,
-   "total_tokens": 256
+   "total_tokens": 234
   }
  },
- "1f8cfaaeb65c2778489a527799c02af98d28bb9042b9a6b7fa85a1b6c04dc9fe": {
+ "50a628d866ae1a36249d9371fc14b3dc63e4327944a463e8c9048ff30cbe11bd": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -213,7 +705,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"16\": {\"original\": \"In the 50s and 60s, rock bands covering classical music created great newculture\", \"rephrased\": \"Historical precedents show that when rock bands in the 1950s and 1960s covered classical music, they generated significant new cultural value even though such acts technically violated the original artists' rights to integrity. This suggests that rigid adherence to current copyright rules regarding the integrity of a work may stifle the creation of new culture, implying that legal frameworks should be flexible enough to accommodate transformative uses that benefit society as a whole.\", \"summary\": \"Historical examples of musical covers suggest that rigid copyright rules on integrity may stifle new cultural creation.\"}, \"17\": {\"original\": \"Leaning towards new culture over limiting rights, though unconsidered cases\", \"rephrased\": \"While acknowledging that unconsidered edge cases might exist, the stance favors prioritizing the promotion of new culture over the preservation of strict limitations on rights. This approach argues that the primary goal of intellectual property law should be to foster cultural development rather than to enforce rigid boundaries that might inadvertently hinder the creation of new works, even if it means challenging traditional concepts of authorship and control.\", \"summary\": \"The position prioritizes promoting new culture over strict adherence to traditional copyright limitations.\"}, \"18\": {\"original\": \"Trademark law is adequate as it reduces transaction costs without hidden downs\", \"rephrased\": \"Current trademark laws are considered adequate because they effectively reduce transaction costs in markets where buyers and sellers are not personally acquainted, with no observed hidden costs outweighing these benefits. This assessment supports the view that existing regulations provide a necessary balance for commercial markets, ensuring that legal frameworks do not impose unnecessary burdens on economic exchange while protecting brand identity.\", \"summary\": \"Existing trademark laws are deemed adequate for reducing transaction costs in impersonal markets.\"}, \"19\": {\"original\": \"Countries need to think more like corporations, accepting fines when they are\", \"rephrased\": \"National governments should adopt a pragmatic, corporate-like mindset by accepting financial penalties when the cost of non-compliance is lower than the broader societal damage caused by the violation. This perspective argues that when international treaties impose fines for copyright infringement, states have a moral and practical obligation to pay them rather than risking greater harm to the public, treating legal compliance as a cost of doing business rather than an absolute moral imperative.\", \"summary\": \"States should accept international copyright fines when the penalty is less than the societal cost of infringement.\"}}",
+     "content": "{\"rephrased_statement\": \"The Swedish Pirate Party leadership states that the Swedish government received direct orders from the U.S. Motion Picture Association to close the Pirate Bay website. Although rumors about foreign interference existed, this confirmation is now clear. Many Swedes are very angry because they feel their own officials were told by a foreign country to destroy a site that was legal under Swedish rules. These citizens believe the group was not charged for breaking the law, but was instead shut down by foreign command.\", \"preserved_facts\": [\"Swedish Pirate Party leadership confirms\", \"Swedish government acted on direct instructions\", \"Instructions came from the U.S. Motion Picture Association\", \"Target was the Pirate Bay website\", \"Action was to shut down the website\", \"Rumors of foreign interference circulated\", \"Significant outrage occurred within Sweden\", \"Citizens believe domestic authorities were ordered by a foreign power\", \"Entity was operating in a legal gray area according to Swedish law\", \"Entity was not prosecuted for clear violations\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -222,8 +714,8 @@
     }
    }
   ],
-  "created": 1793687438,
-  "id": "chatcmpl-0g9vq32pnqwhithz2qyp68l",
+  "created": 1793701483,
+  "id": "chatcmpl-u7o8ofneest7tuwri836lt",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -232,7 +724,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 528,
+   "completion_tokens": 206,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -240,176 +732,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2868,
+   "prompt_tokens": 246,
    "prompt_tokens_details": null,
-   "total_tokens": 3396
+   "total_tokens": 452
   }
  },
- "22543ebd6f8c6d1304b02e56d215b77a6bf9218f0d767be22cd06e7d9da9a64f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687480,
-  "id": "chatcmpl-eov4jv3op4jfcxvlb6qb3f",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 531,
-   "prompt_tokens_details": null,
-   "total_tokens": 546
-  }
- },
- "24dfbe2190452a4fc1373db47684de811dbd4979f53b5c1fc632311364c9594b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Rickard Falkvinge\": [\"We will never be able to pay for television ads unless a very wealthy donor comes on stage.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687377,
-  "id": "chatcmpl-7k7cjib89dollejdwv3vb",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 29,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 913,
-   "prompt_tokens_details": null,
-   "total_tokens": 942
-  }
- },
- "27e77eb34727c0b63bd5e4cea2bde2f53f79f54d22df6321a7e9bb60e46aa7fd": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"24\": {\"original\": \"Current laws force people to buy their service regardless of whether it adds [16\", \"rephrased\": \"The music industry in Sweden currently operates under a legal framework that mandates consumers purchase services even when those services no longer provide necessary value as middlemen. This situation is unsustainable because the industry has legislated forced sales rather than adapting to a reality where non-commercial copying is permitted and distribution control is lost. The sector must either restructure to offer services people actually want to buy or face eventual disappearance, as laws compelling unnecessary purchases cannot hold in the long term.\", \"summary\": \"The Swedish music industry argues that current laws force unnecessary purchases and must adapt or vanish.\"}, \"25\": {\"original\": \"We face a crossroads: either society values copyright enough to abandon private \", \"rephrased\": \"Society currently stands at a critical junction regarding intellectual property rights and digital privacy, where the choice lies between enforcing copyright by sacrificing private communications or protecting the right to unmonitored communication by reforming copyright laws. This dilemma arises because modern technology allows private transmission of copyrighted works, making total enforcement impossible without constant surveillance of all private communications, a precedent set by historical monitoring of physical mail. The decision requires prioritizing either the value of copyright or the fundamental right to private communication, as the current system of monitoring is unworkable and public support for digital freedom is growing.\", \"summary\": \"Society must choose between enforcing copyright by sacrificing privacy or protecting private communication by reforming laws.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687460,
-  "id": "chatcmpl-q7e2tvn333nli8dm9e6ja",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 316,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2344,
-   "prompt_tokens_details": null,
-   "total_tokens": 2660
-  }
- },
- "27fd57b9f392714b19f0bc3164b8d48deced5217fdcca669e2569a80012439a8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"The European Union\": []}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687383,
-  "id": "chatcmpl-h63v5hhsg2637zw4h1khwa",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 8,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1191,
-   "prompt_tokens_details": null,
-   "total_tokens": 1199
-  }
- },
- "28e235a655fb8c7d41208fa1f0c2118cf0dcc65c9c572897913261a9c7402101": {
+ "51697a9f63c0e9f9e977194ba8025071b5d2572e70fe4f4692f54a03ab47db1c": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -427,8 +755,213 @@
     }
    }
   ],
-  "created": 1793687485,
-  "id": "chatcmpl-yeiyggwzfcn7cn9s3x4gb2",
+  "created": 1793701503,
+  "id": "chatcmpl-fndqlv9ridsi9cid44wu",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 201,
+   "prompt_tokens_details": null,
+   "total_tokens": 216
+  }
+ },
+ "522f407b3c6bbef028b6040c3fb5a77ddba62ec861fb269482d3f25117e6ae78": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701504,
+  "id": "chatcmpl-73tqf7jzkab4lqz9847x5w",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 245,
+   "prompt_tokens_details": null,
+   "total_tokens": 260
+  }
+ },
+ "58f3ad3ac079982f7ec6832bb2df2434788ed8a85c95cc5c16819761507ee3e3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701499,
+  "id": "chatcmpl-6b0iel9yzgk7871vn7gr2o",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 259,
+   "prompt_tokens_details": null,
+   "total_tokens": 274
+  }
+ },
+ "637410354dd3dfda9dd1ae8a44429bcc0422057c082fb0a6069404cfcf4b5954": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"If copying for non-commercial purposes is allowed, the music business will no longer manage how music is shared. It will exist only as a service bureau.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701490,
+  "id": "chatcmpl-2zrvhqri2s9bwj7lhwxn0b",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 40,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 180,
+   "prompt_tokens_details": null,
+   "total_tokens": 220
+  }
+ },
+ "658e26145299813bffc7ca4f17177d9a0c69aa11230d4211ecb5b11d663c8bd3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"The Swedish Pirate Party proposes legalizing internet file-sharing to reform uns\", \"rephrased\": \"The newly formed Swedish Pirate Party asserts that the current framework for intellectual property rights is fundamentally broken and criminalizes ordinary citizens, necessitating a complete overhaul to legalize digital file-sharing and safeguard personal privacy. This political movement, which has recently gained significant public attention following a police raid on a popular file-sharing website, aims to leverage this widespread backlash against foreign copyright enforcement to shift the national debate and secure a foothold in the upcoming parliamentary election.\", \"summary\": \"The Swedish Pirate Party argues that current copyright laws are unsustainable and criminalize ordinary citizens, proposing to reform them to legalize file-sharing and protect privacy, while leveraging the public backlash against the Pirate Bay raid to gain political influence and shift the national.\"}, \"1\": {\"original\": \"Copyright law in its current form is not sustainable.\", \"rephrased\": \"The leader of the Swedish Pirate Party contends that the existing legal framework governing intellectual property is inherently unsustainable and fails to function effectively in the modern digital age. By adopting the controversial label of 'Internet pirates,' the party's leadership argues that the current system is not merely outdated but actively harmful, thereby justifying a radical rethinking of how content is shared and protected online.\", \"summary\": \"The leader of the Swedish Pirate Party argues that current copyright laws are unsustainable and require a radical rethinking of how content is shared and protected online.\"}, \"2\": {\"original\": \"argues for drastically limiting copyright scope and enforcement, abolishing\", \"rephrased\": \"The Swedish Pirate Party advocates for a comprehensive restructuring of the nation's legal landscape, specifically calling for a drastic reduction in the scope and enforcement of copyright laws alongside the total abolition of patent legislation. Furthermore, the party emphasizes the urgent need to protect individual privacy rights against what it describes as an emerging 'control and surveillance society,' positioning these demands as essential reforms to ensure a free and open internet for all Swedish citizens.\", \"summary\": \"The Swedish Pirate Party advocates for drastically limiting copyright scope and enforcement, abolishing patent law, and protecting privacy against a 'control and surveillance society'.\"}, \"3\": {\"original\": \"Swedish authorities likely acted on U.S. MPAA orders to shut down the Pirate Bay\", \"rephrased\": \"While rumors circulated regarding foreign interference, the Swedish Pirate Party's leadership confirms that the Swedish government was indeed acting on direct instructions from the U.S. Motion Picture Association to shut down the Pirate Bay website. This revelation has caused significant outrage within Sweden, as many citizens believe their domestic authorities were ordered by a foreign power to forcefully dismantle an entity that was operating in a legal gray area according to Swedish law, rather than being prosecuted for clear violations.\", \"summary\": \"The Swedish Pirate Party confirms that Swedish authorities acted on U.S. MPAA orders to shut down the Pirate Bay, a move that has caused significant outrage in Sweden as it appears to be foreign interference in domestic legal matters.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701392,
+  "id": "chatcmpl-5h58wei7bzxha778j1q8ld",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 616,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2435,
+   "prompt_tokens_details": null,
+   "total_tokens": 3051
+  }
+ },
+ "66e885908abc97fa3efdbeb0f50fc04c546d13637ad97a89eef5370c35ea8efb": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701500,
+  "id": "chatcmpl-xle3j2dw4likkokfizlzd8",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -450,7 +983,7 @@
    "total_tokens": 332
   }
  },
- "355a50b542f5fd4844be4d524e36cee7ef23a0fe1c9ac2a7407ef795433d1fee": {
+ "6a8fc569a1461c506c7b689a857e4cbc7b2b82f2313f6f7d2d82457cfd421e50": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -459,7 +992,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"Rickard Falkvinge\": [\"We will never be able to pay for television ads unless a very wealthy donor comes on stage.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -468,8 +1001,8 @@
     }
    }
   ],
-  "created": 1793687474,
-  "id": "chatcmpl-wjskgiuufkmfxyzbcujec",
+  "created": 1793701374,
+  "id": "chatcmpl-ihhwkafukypmbl9et7j72",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -478,7 +1011,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 29,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -486,299 +1019,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 207,
+   "prompt_tokens": 910,
    "prompt_tokens_details": null,
-   "total_tokens": 222
+   "total_tokens": 939
   }
  },
- "362edded3f77f1c0047e0ad00fe00006c040e4f51028722843361cc18729ddc1": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687478,
-  "id": "chatcmpl-lyam99rilf7veldnc39o2",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 320,
-   "prompt_tokens_details": null,
-   "total_tokens": 335
-  }
- },
- "3c08d298b2168bfacb40304783d89a9a3a37e340834d8f3a18e3ea8503434ec8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"We do not want to change people's behavior. We want to change the law so it reflects what the world actually looks like.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687389,
-  "id": "chatcmpl-4foflsiqmb67klqpgu78q",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 33,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 973,
-   "prompt_tokens_details": null,
-   "total_tokens": 1006
-  }
- },
- "3d0f572a67a6b436de8be578e254764a27cd62e078cc17bf68366284561d4029": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687476,
-  "id": "chatcmpl-847hrmoocdshyrzxqundos",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 255,
-   "prompt_tokens_details": null,
-   "total_tokens": 270
-  }
- },
- "407387d42f9331d0698b4b533174f10b08bacfbc68dff832c4a59fb1c98f37c5": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"The Pirate Bay\": [\"Following the raid and our tripling of members, we no longer need advertising, having been featured on national television news almost every hour for the last week.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687373,
-  "id": "chatcmpl-pxia7nig3zpaesh4iafps7",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 39,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1116,
-   "prompt_tokens_details": null,
-   "total_tokens": 1155
-  }
- },
- "479ddbc939af875049f6da344876b6c97d38343bd018464183fe5cfa39eac5c4": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"Artists will probably keep the music industry alive, but only if it functions as a service bureau that does not control them.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687472,
-  "id": "chatcmpl-8emcqyqrb0qjz846lr6n4n",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 35,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 175,
-   "prompt_tokens_details": null,
-   "total_tokens": 210
-  }
- },
- "47d26e2a2741804a1a46c6f442d06d8a2712755f8bf9412020dd688fb7f2a63b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687477,
-  "id": "chatcmpl-695oo697tf4qr27bnytvd8",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 214,
-   "prompt_tokens_details": null,
-   "total_tokens": 229
-  }
- },
- "4f91febc3531eded689aa84cba4b7dbcf2c21bcb96c8dcefab0f262ec9cc4590": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"8\": {\"original\": \"We will never be able to pay for television ads unless a very wealthy donor come\", \"rephrased\": \"The Swedish Pirate Party acknowledges that its current funding model relies on voluntary donations and explicitly states that purchasing traditional television advertising is financially impossible without securing a single, very wealthy benefactor. Consequently, the party must rely on alternative, cost-efficient spending strategies for the upcoming election cycle, as it cannot compete with established parties using standard media buys.\", \"summary\": \"The Swedish Pirate Party states that its election strategy depends on voluntary donations rather than expensive television advertising.\"}, \"9\": {\"original\": \"The party expects to gain momentum and prove feasibility once it enters the Swed\", \"rephrased\": \"While the Swedish Pirate Party currently lacks the political momentum to pass its copyright reform agenda, the party asserts that it will only achieve the necessary critical mass and prove the feasibility of its proposals once it secures a seat within the Swedish Parliament. This suggests that the party views its entry into the legislature as the pivotal moment required to shift the national debate and demonstrate that legalizing file-sharing is a viable policy option.\", \"summary\": \"The Swedish Pirate Party argues that entering the Swedish Parliament is the critical step needed to gain momentum and prove the feasibility of its copyright reforms.\"}, \"10\": {\"original\": \"Current copyright laws criminalize 20% of voters by threatening jail time, which\", \"rephrased\": \"The Swedish Pirate Party identifies the core problem of the current copyright regime as the criminalization of ordinary citizens, noting that approximately 20% of the voting population engages in file-sharing activities that are punishable by jail time. The party argues that this legal framework is fundamentally broken and must be reformed to decriminalize these common behaviors, directly challenging the narrative held by established political parties that the voters themselves are the problem.\", \"summary\": \"The Swedish Pirate Party argues that current copyright laws unjustly criminalize a significant portion of the voting population and must be reformed.\"}, \"11\": {\"original\": \"We are reclaiming the word 'pirate' from media conglomerates who use it to sh\", \"rephrased\": \"The Swedish Pirate Party frames its identity as a deliberate reclamation of the term 'pirate' from media conglomerates, which historically used the label to shame activists and associate the party with illegal acts. By wearing 'PIRATE' in bright colors and embracing the label, the party aims to neutralize the negative stigma and reframe the public discourse, arguing that the term no longer carries the same negative weight in Sweden due to years of public education efforts by the Pirate Bureau.\", \"summary\": \"The Swedish Pirate Party explains that it intentionally reclaims the term 'pirate' to counteract negative media framing and reframe the public debate.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687413,
-  "id": "chatcmpl-u8h4psjxtuqhkyvg1ohml",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 578,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2825,
-   "prompt_tokens_details": null,
-   "total_tokens": 3403
-  }
- },
- "5279043967122a515f9fb32b7008aecb940dfe8903226bcfdfbf615900ea5419": {
+ "6b5f45cb1a9a9942f5ebda734a8aa474be5fca9043171768989a7fd8fbfb82b6": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -796,8 +1042,8 @@
     }
    }
   ],
-  "created": 1793687484,
-  "id": "chatcmpl-tikscsjn3ajg2omb5yv5tl",
+  "created": 1793701500,
+  "id": "chatcmpl-yqv8t6xjx9eq99c0eq102m",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -814,12 +1060,176 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 309,
+   "prompt_tokens": 313,
    "prompt_tokens_details": null,
-   "total_tokens": 324
+   "total_tokens": 328
   }
  },
- "55383135c35ba6e60eba9fe1e8349a78859b22041efd369f7cb9d9c3c9ca28cb": {
+ "6c66faca10e4467a7016b50d40c25b4fa0116ef9fa6a94bc03e70645d0a188a1": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701496,
+  "id": "chatcmpl-qtzpx7bovr0rm90q86932j",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 534,
+   "prompt_tokens_details": null,
+   "total_tokens": 549
+  }
+ },
+ "71a21b9f969cfe119f2f0bbd118150d6c29f46e881c312726a7c412b08366fde": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The Pirate Bay\": [\"We no longer need advertising after the raid and our member count tripled.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701370,
+  "id": "chatcmpl-n0jdl3kevzovqbak9wjha9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 23,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1113,
+   "prompt_tokens_details": null,
+   "total_tokens": 1136
+  }
+ },
+ "786530ba298c9e5f1b4313efb36338fceeec77b8fbae64090951cea6e613bb6e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The European Union\": [\"The right of attribution, the right to have a work published anonymously or pseudonymously, and the right to the integrity of the work.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701381,
+  "id": "chatcmpl-8z4lgwgfdagfzyw4bqjlbs",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 36,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1188,
+   "prompt_tokens_details": null,
+   "total_tokens": 1224
+  }
+ },
+ "7d12c5123713cb0c6f9ccc6ecc486396215db346453ab84e4c472c4c482c4d99": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Rickard Falkvinge\": [\"Copyright law in its current form is not sustainable.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701365,
+  "id": "chatcmpl-idn0jg70hw6v014g243x6",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 20,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 896,
+   "prompt_tokens_details": null,
+   "total_tokens": 916
+  }
+ },
+ "7f604ea7271da1127d0916944ca08547e031413de9feda4e7a611ee1bc9685c2": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -837,8 +1247,8 @@
     }
    }
   ],
-  "created": 1793687481,
-  "id": "chatcmpl-vt2bgz497md6vdzjk0rw2o",
+  "created": 1793701493,
+  "id": "chatcmpl-a26tjkkqnuj4jkq742gpty",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -855,12 +1265,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 330,
+   "prompt_tokens": 245,
    "prompt_tokens_details": null,
-   "total_tokens": 345
+   "total_tokens": 260
   }
  },
- "59b012050269717c7d121a9dc17617d12d46dd6cdd1a3a1559ddb635bc49d14b": {
+ "8512e85092b6cb3b68d0e522fb0543421c6467728db66c9f225d6dc01e262e5b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -869,7 +1279,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"4\": {\"original\": \"Following the raid and our tripling of members, we no longer need advertising,  \", \"rephrased\": \"The recent shutdown of the file-sharing website known as the Pirate Bay has generated such intense media coverage that the organization now receives mentions on national television news almost every hour, rendering paid advertising campaigns unnecessary for the time being.\", \"summary\": \"Intense media coverage following the Pirate Bay raid has made paid advertising unnecessary.\"}, \"5\": {\"original\": \"Established parties are now echoing our message that current copyright laws fail\", \"rephrased\": \"While established political parties in Sweden have begun to acknowledge that the current copyright framework is failing, they are merely echoing the Pirate Party's critique without fully grasping the underlying systemic issues or the specific arguments regarding the law's unsustainability.\", \"summary\": \"Established Swedish parties are echoing the Pirate Party's critique of copyright laws without fully understanding the underlying issues.\"}, \"6\": {\"original\": \"open to changes to copyright laws that would make file-sharing legal\", \"rephrased\": \"The Swedish Minister of Justice has publicly stated an openness to reforming existing copyright legislation to legalize file-sharing, a position that aligns with the Pirate Party's long-standing argument that current laws criminalize ordinary citizens and are fundamentally broken.\", \"summary\": \"The Swedish Minister of Justice has expressed openness to legalizing file-sharing through copyright reform.\"}, \"7\": {\"original\": \"Media publishes our comments next to the Minister's statement because of our\", \"rephrased\": \"The significant increase in public recognition for the Pirate Party, driven by the high-profile raid on the Pirate Bay, has elevated the organization's profile to the point where media outlets now routinely publish its comments alongside official government statements regarding file-sharing laws.\", \"summary\": \"Increased public recognition following the Pirate Bay raid has elevated the Pirate Party's media profile.\"}}",
+     "content": "{\"rephrased_statement\": \"Artists will probably keep the music business alive, but the sector will likely function merely as a service bureau that cannot manage distribution.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -878,8 +1288,8 @@
     }
    }
   ],
-  "created": 1793687403,
-  "id": "chatcmpl-17b2lcxd43mknhhl2gny3e",
+  "created": 1793701491,
+  "id": "chatcmpl-rcgyj5ock2e7r2q24wexps",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -888,7 +1298,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 390,
+   "completion_tokens": 36,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -896,12 +1306,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2799,
+   "prompt_tokens": 177,
    "prompt_tokens_details": null,
-   "total_tokens": 3189
+   "total_tokens": 213
   }
  },
- "5af733af0f4e5e60f369271e7f2be5d83e82f7836df2b079ac84a4a046121561": {
+ "8e22dd9f55051aaf98807f532acfadf2ac19c0b1b147b970c499be14ec7887a6": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -910,7 +1320,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"The Pirate Party\": [\"Media publishes our comments next to the Minister's statement because of our increased visibility following the Pirate Bay raid.\"]}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -919,8 +1329,8 @@
     }
    }
   ],
-  "created": 1793687376,
-  "id": "chatcmpl-ytszjtq2fy8ivc8un6ui9p",
+  "created": 1793701506,
+  "id": "chatcmpl-6s16ob3kb4m4hpi72mnmbc",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -929,7 +1339,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 29,
+   "completion_tokens": 15,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -937,12 +1347,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 802,
+   "prompt_tokens": 322,
    "prompt_tokens_details": null,
-   "total_tokens": 831
+   "total_tokens": 337
   }
  },
- "5bec51a363ce273703a1c1ea8b0b7442b177477bb01af67051c96929cea9194d": {
+ "8e986e47e4dd7f7f916eae0ac30715c9769e9a8947e82ead0f5efff93ebd469a": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -951,7 +1361,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"Rickard Falkvinge\": [\"We safeguard the right to attribution strongly, as it promotes culture.\", \"Publishing anonymously or pseudonymously happens every day, so it is no big deal.\", \"We support free sampling and want to strengthen the right to derivative works.\"]}",
+     "content": "{\"base_author\": [\"Copyright enforcement requires constant monitoring of all private communications, a choice between sacrificing privacy or copyright, which I believe means copyright must give way.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -960,49 +1370,8 @@
     }
    }
   ],
-  "created": 1793687384,
-  "id": "chatcmpl-drk3s5lxn5qh8zu4y10pze",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 57,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 906,
-   "prompt_tokens_details": null,
-   "total_tokens": 963
-  }
- },
- "64ddad434dafb3e2e688cdba4938a0bd64fee7801fbb5c187fecc294e64188f6": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The Pirate Party's media presence has grown because the public became more aware of it after the raid on the Pirate Bay.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687471,
-  "id": "chatcmpl-2k2ls021uvb27fegn0zqdz",
+  "created": 1793701391,
+  "id": "chatcmpl-e3iliz66y5dvyjkrssv59g",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1019,53 +1388,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 175,
+   "prompt_tokens": 1174,
    "prompt_tokens_details": null,
-   "total_tokens": 209
+   "total_tokens": 1208
   }
  },
- "678e2bfb8715041195748865abb0ed7173dc5c19a66e9d2d6968f8927a0915cf": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687477,
-  "id": "chatcmpl-k4h85bzg11gdnqj3li2nvg",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 203,
-   "prompt_tokens_details": null,
-   "total_tokens": 218
-  }
- },
- "6a957b1ade0647dea113570064a301b2591854d54fa8a47dc964974787751dd0": {
+ "9031866535a1020587bd9908c6904adc0febe895e848fd55b091100a1b8b524c": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1083,746 +1411,8 @@
     }
    }
   ],
-  "created": 1793687483,
-  "id": "chatcmpl-yni3jfev88ae88nomch0r",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 240,
-   "prompt_tokens_details": null,
-   "total_tokens": 255
-  }
- },
- "6c1b4291809d3360200ed42983ec010a06bc4bb5f749abd4680a52014632ea5e": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"The Pirate Party\": [\"Established parties are now echoing our message that current copyright laws fail, despite not understanding the underlying issues.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687374,
-  "id": "chatcmpl-1wufmso9ba5iwjzc6ar4x",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 29,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 785,
-   "prompt_tokens_details": null,
-   "total_tokens": 814
-  }
- },
- "712491bb3a927c034fedfa6541a35e19dc9ef94035b7a989f82aea4828e51b15": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"The Pirate Party\": [\"argues for drastically limiting the scope and enforcement of copyright law, abolishing patent law, and protecting privacy in what it sees as a 'control and surveillance society'\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687370,
-  "id": "chatcmpl-uucgl0k9mpszciusmdyfo",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 41,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1110,
-   "prompt_tokens_details": null,
-   "total_tokens": 1151
-  }
- },
- "719b3384ed8dc34609aa5f6631f9cbb7a7da1b4b6c0c808114fccd50a0df2f26": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Rickard Falkvinge\": [\"Leaning towards new culture over limiting rights, though unconsidered cases exist.\", \"Trademark law is adequate as it reduces transaction costs without hidden downsides.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687387,
-  "id": "chatcmpl-j1b3n9pzs3svfhvzl1k8g",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 41,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 855,
-   "prompt_tokens_details": null,
-   "total_tokens": 896
-  }
- },
- "73313a935c35e56ca1ee168e37f843a7d76ddb7f47c3efa4a9df29517d130481": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"The Minister of Justice\": [\"open to changes to copyright laws that would make file-sharing legal\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687375,
-  "id": "chatcmpl-l5k9mda04y9awt7ozsi2s",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 21,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 801,
-   "prompt_tokens_details": null,
-   "total_tokens": 822
-  }
- },
- "79445ede381a3942e4979ecde2dfc74d028248fea35b82d5f82ddfcb7240c7a7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687485,
-  "id": "chatcmpl-0vsq19ekt17mofhzwxloyt",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 305,
-   "prompt_tokens_details": null,
-   "total_tokens": 320
-  }
- },
- "83289b4db8637a1d9120c23e22be7c523f0052c6460dfcf2e320742c96c6f890": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The group suggests capping copyright rules, ending patents, and safeguarding privacy.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687468,
-  "id": "chatcmpl-ay6ig4saf28ua81uwycca",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 26,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 172,
-   "prompt_tokens_details": null,
-   "total_tokens": 198
-  }
- },
- "836587733b53dcab287210a7d5e78b8badd78d346bcf373a31f86ddbf25bb732": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The Swedish government probably followed instructions from the U.S. MPAA to close the Pirate Bay.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687469,
-  "id": "chatcmpl-07xnipjleoyrkam5ezhqje",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 29,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 177,
-   "prompt_tokens_details": null,
-   "total_tokens": 206
-  }
- },
- "845f44d21f8ecd1268bd3e5292d2f11ef023a7fca819cb8a5fe62b2f648a9ad3": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The Pirate Bay may have been closed because Swedish officials heeded commands issued by the U.S. MPAA.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687470,
-  "id": "chatcmpl-7jbd497p6motcgxkbhvxmb",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 32,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 224,
-   "prompt_tokens_details": null,
-   "total_tokens": 256
-  }
- },
- "85e8805177ea9a694b33d354b80b6a59f98bb597251649cbda96d4083820605c": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Swedish authorities likely acted on U.S. MPAA orders to shut down the Pirate Bay, causing public outrage over foreign interference in Swedish legal matters.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687372,
-  "id": "chatcmpl-94lx7cckncilx0u5jw1j3",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 37,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1098,
-   "prompt_tokens_details": null,
-   "total_tokens": 1135
-  }
- },
- "9708533dccc1df12699ec12cd94d727f84b2777bc6f03fd08abe6be7da1988fc": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"The music industry\": [\"The industry will lose its current chokepoint as it no longer adds value to the end product.\", \"They will likely survive only as a service bureau for artists, unable to control distribution.\", \"They must provide a service people want to buy or they will vanish.\", \"Current laws force people to buy their service regardless of whether it adds value.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687391,
-  "id": "chatcmpl-w2grhew054j7bfza3f8hue",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 76,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1327,
-   "prompt_tokens_details": null,
-   "total_tokens": 1403
-  }
- },
- "9c01871ba9afd07c78ae807dbac07e5c6952d5236c666f2e86fae326db065ef1": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"The Swedish Pirate Party, a new political group, aims to legalize internet file‑\", \"rephrased\": \"The newly formed Swedish Pirate Party seeks to reform the nation's copyright framework to permit legal file-sharing and safeguard individual privacy, a strategy that has gained traction due to recent media coverage of a police raid on a major file-sharing site.\", \"summary\": \"The Swedish Pirate Party proposes legalizing file-sharing and protecting privacy.\"}, \"1\": {\"original\": \"Copyright law in its current form is not sustainable.\", \"rephrased\": \"The current structure of copyright legislation is fundamentally unsustainable, a reality demonstrated by the widespread public adoption of file-sharing tools despite legal prohibitions, which proves the existing laws fail to reflect actual societal needs.\", \"summary\": \"Current copyright laws are unsustainable and fail to reflect societal needs.\"}, \"2\": {\"original\": \"argues for drastically limiting the scope and enforcement of copyright law, abol\", \"rephrased\": \"To address the unsustainability of the existing legal framework, the party advocates for drastically reducing the scope and enforcement of copyright laws, abolishing patent legislation entirely, and implementing robust privacy protections to counteract what they describe as a pervasive control and surveillance society.\", \"summary\": \"The party proposes limiting copyright, abolishing patents, and protecting privacy.\"}, \"3\": {\"original\": \"Swedish authorities likely acted on U.S. MPAA orders to shut down the Pirate Bay\", \"rephrased\": \"Swedish government officials appear to have acted under pressure from the U.S. Motion Picture Association to forcibly shut down the Pirate Bay, a move that has sparked significant public outrage in Sweden by suggesting foreign powers are interfering in domestic legal affairs.\", \"summary\": \"Swedish authorities likely acted on U.S. MPAA orders to shut down the Pirate Bay.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687394,
-  "id": "chatcmpl-xk7cv1w65afkuu8g0mqlp",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 380,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2455,
-   "prompt_tokens_details": null,
-   "total_tokens": 2835
-  }
- },
- "aa658a1084a2a90152d0422dc64ff4b0761519da0eb6ec2b6abe0fe522a9f07b": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Rickard Falkvinge\": [\"Current copyright laws criminalize 20% of voters by threatening jail time, which we must change.\", \"We are reclaiming the word 'pirate' from media conglomerates who use it to shame us, and we wear it proudly.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687380,
-  "id": "chatcmpl-hdzwz6v8ocumaqxwagya4k",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 59,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1272,
-   "prompt_tokens_details": null,
-   "total_tokens": 1331
-  }
- },
- "b12d255da5e666e3b25284c246ccfc2c8d58454382878b36249c7731367795d5": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687478,
-  "id": "chatcmpl-xpldn5d1znb8o768gkuzog",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 257,
-   "prompt_tokens_details": null,
-   "total_tokens": 272
-  }
- },
- "b5e825f0e91baf2bd5ae7b9d4c49a54aa8bb48b6cec6204bb85a075e24a35262": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687486,
-  "id": "chatcmpl-wzaequ2rbzhfv8xuq9y8lg",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 309,
-   "prompt_tokens_details": null,
-   "total_tokens": 324
-  }
- },
- "b93e111511d2ee65e550ec23c2c37566c50ad1f37b0137b1735640823ab87912": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687486,
-  "id": "chatcmpl-ujnu9d6vmn3mw92l79yin",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 575,
-   "prompt_tokens_details": null,
-   "total_tokens": 590
-  }
- },
- "c0b4f5ac0e171c120f8866414dfccd74c084f59f86b29df43941dc492ad3bcc4": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"sources\": [{\"main\": \"Rickard Falkvinge\", \"other\": [\"leader of the Pirate Party\"], \"kind\": \"person\", \"segments\": [[11, 12], [19, 20], [27, 29], [42, 47], [50, 59], [92, 99], [115, 124], [127, 138], [146, 156], [158, 162], [165, 172], [178, 186], [188, 198], [207, 209], [213, 216], [235, 237], [241, 257], [261, 278], [280, 313], [318, 318]], \"id\": 0}, {\"main\": \"The Pirate Party\", \"other\": [\"a new Swedish political party\", \"the party\", \"Pirate Party\"], \"kind\": \"organisation\", \"segments\": [[1, 2], [14, 16], [17, 18], [66, 77], [83, 88], [110, 111], [139, 141]], \"id\": 1}, {\"main\": \"Wikinews\", \"other\": [], \"kind\": \"document\", \"segments\": [[5, 5]], \"id\": 2}, {\"main\": \"The Pirate Bay\", \"other\": [\"an extremely popular BitTorrent tracker\", \"the site\", \"Pirate Bay\"], \"kind\": \"organisation\", \"segments\": [[4, 4], [7, 8], [55, 56], [64, 65]], \"id\": 3}, {\"main\": \"The MPAA\", \"other\": [\"the U.S. MPAA\", \"the MPAA\"], \"kind\": \"organisation\", \"segments\": [[22, 23], [28, 28]], \"id\": 4}, {\"main\": \"Swedish authorities\", \"other\": [\"Swedish authorities\"], \"kind\": \"organisation\", \"segments\": [[22, 23], [34, 35], [55, 56]], \"id\": 5}, {\"main\": \"U.S. interests\", \"other\": [], \"kind\": \"unknown\", \"segments\": [[25, 25]], \"id\": 6}, {\"main\": \"The Minister of Justice\", \"other\": [\"Bodström\", \"his name\"], \"kind\": \"person\", \"segments\": [[81, 82], [89, 90]], \"id\": 7}, {\"main\": \"The established parties\", \"other\": [\"the established parties\", \"Parties representing almost half of the elected parliament\"], \"kind\": \"organisation\", \"segments\": [[66, 77]], \"id\": 8}, {\"main\": \"The media\", \"other\": [\"the media\", \"national media\", \"media\"], \"kind\": \"organisation\", \"segments\": [[81, 82], [85, 85], [168, 168], [233, 233]], \"id\": 9}, {\"main\": \"The Department of Justice\", \"other\": [\"the Department of Justice\"], \"kind\": \"organisation\", \"segments\": [[234, 234]], \"id\": 10}, {\"main\": \"The music industry\", \"other\": [\"the music industry\"], \"kind\": \"organisation\", \"segments\": [[258, 278]], \"id\": 11}, {\"main\": \"The European Union\", \"other\": [\"European Union\"], \"kind\": \"organisation\", \"segments\": [[174, 174]], \"id\": 12}, {\"main\": \"The Pirate Bureau\", \"other\": [\"Piratbyrån\"], \"kind\": \"organisation\", \"segments\": [[139, 141]], \"id\": 13}, {\"main\": \"The government of Sweden\", \"other\": [\"the next government of Sweden\"], \"kind\": \"organisation\", \"segments\": [[142, 142]], \"id\": 14}, {\"main\": \"Established politicians\", \"other\": [\"established politicians\"], \"kind\": \"person\", \"segments\": [[160, 160]], \"id\": 15}, {\"main\": \"The United States\", \"other\": [\"countries\", \"a foreign power\"], \"kind\": \"organisation\", \"segments\": [[225, 226]], \"id\": 16}, {\"main\": \"Hollywood studios\", \"other\": [\"foreign companies\", \"Hollywood studios\"], \"kind\": \"organisation\", \"segments\": [[239, 245]], \"id\": 17}, {\"main\": \"The Xerox copier\", \"other\": [\"the Xerox copier\"], \"kind\": \"document\", \"segments\": [[299, 299]], \"id\": 18}, {\"main\": \"Sister link\", \"other\": [], \"kind\": \"document\", \"segments\": [[319, 319]], \"id\": 19}]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687339,
-  "id": "chatcmpl-jen6ofi0xpnnnrjn68qjd",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 1186,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 5159,
-   "prompt_tokens_details": null,
-   "total_tokens": 6345
-  }
- },
- "c20901ea043c482c3ec9dab9ea50ce16cc8ce39a80ab96c25628ea262c26f42f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"The Swedish Pirate Party, a new political group, aims to legalize internet file-sharing and protect privacy, drawing significant media attention following a police raid on The Pirate Bay.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687368,
-  "id": "chatcmpl-r9qfwl4sn0q8awyjulqyju",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 40,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 809,
-   "prompt_tokens_details": null,
-   "total_tokens": 849
-  }
- },
- "c4df0e9479b1015f541d52cf1b6d3d1a000c6223019bdc7b5b9409d2c01719c1": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687473,
-  "id": "chatcmpl-zngkiysd9r1d9dp8jfdi",
+  "created": 1793701506,
+  "id": "chatcmpl-tcklpeve59h772g8euurpv",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1844,7 +1434,7 @@
    "total_tokens": 330
   }
  },
- "cac877df8c3704e95fdf23ae916221ba147dd850c35c37ac795fad6787b9db0e": {
+ "981b606b4d01dc731525b44c9eb207d184e50ebb215e606e6896a622e90f5a7e": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1853,7 +1443,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"Media attention for the Pirate Party rose after the raid on the Pirate Bay, which also boosted public awareness.\"}",
+     "content": "{\"base_author\": [\"Countries need to think more like corporations, accepting fines when they are less than the cost to society.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1862,8 +1452,8 @@
     }
    }
   ],
-  "created": 1793687472,
-  "id": "chatcmpl-5xnpr5x9y6pxkueczwd1c8",
+  "created": 1793701386,
+  "id": "chatcmpl-7i3amyl5epkmzmr7q3jnz",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1872,7 +1462,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 31,
+   "completion_tokens": 27,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1880,9 +1470,378 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 228,
+   "prompt_tokens": 831,
    "prompt_tokens_details": null,
-   "total_tokens": 259
+   "total_tokens": 858
+  }
+ },
+ "9ebade344d7e63aa34acaed3f8394316e04a5b4041845e51292f253bb8cb84fc": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"In the 50s and 60s, rock bands covering classical music created great new culture, even though it violated the original artist's integrity.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701384,
+  "id": "chatcmpl-by1s02x6pnqefai5b2x7q8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 39,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 931,
+   "prompt_tokens_details": null,
+   "total_tokens": 970
+  }
+ },
+ "a301eed9c1102e36a0152ddba785d05a6b6dc0db0283d00bfddad16e9ee9de29": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"12\": {\"original\": \"We will never be able to pay for television ads unless a very wealthy donor come\", \"rephrased\": \"The Swedish Pirate Party acknowledges that funding traditional television advertising campaigns is currently unfeasible due to budget constraints, noting that such marketing efforts would only become viable if a single, exceptionally wealthy individual provided a substantial donation. This limitation shapes their current strategy, which relies on leveraging public interest and media coverage rather than purchasing airtime to communicate their message about copyright reform and digital privacy to the Swedish electorate.\", \"summary\": \"The Swedish Pirate Party relies on alternative funding and media leverage rather than expensive TV ads due to budget constraints.\"}, \"13\": {\"original\": \"Claims no other countries have achieved the necessary momentum for similar\", \"rephrased\": \"The Swedish Pirate Party asserts that while similar initiatives for copyright reform exist in other nations, none have yet generated the critical mass of public support or political momentum that their own movement has achieved within Sweden. This unique position is attributed to the specific context of the recent raid on the Pirate Bay, which has significantly amplified their profile and allowed them to demonstrate that their proposed legal framework for file-sharing is politically viable in the current Swedish landscape.\", \"summary\": \"The Swedish Pirate Party claims their movement uniquely possesses the momentum for copyright reform compared to similar initiatives abroad.\"}, \"14\": {\"original\": \"Notes the 'Pirate Party' name risks antagonizing voters by associating with\", \"rephrased\": \"The Swedish Pirate Party recognizes that their organization's name carries a negative connotation in the public consciousness, as it is frequently associated with illegal software and media piracy, a stigma that could potentially alienate undecided voters. Despite this risk, the party argues that the name serves a strategic purpose by reclaiming a derogatory label used by media conglomerates and transforming it into a symbol of pride and resistance against an unjust legal system that criminalizes ordinary citizens.\", \"summary\": \"The Swedish Pirate Party acknowledges the negative stigma of their name but argues it strategically reclaims a label used to shame them.\"}, \"15\": {\"original\": \"Questions whether the name will alienate potential allies like the Electronic\", \"rephrased\": \"The Swedish Pirate Party anticipates that their name, which implies criminal behavior, may hinder alliances with established international advocacy groups such as the Electronic Frontier Foundation or Creative Commons, who support a more balanced copyright regime. However, the party maintains that their specific approach to legalizing file-sharing and protecting privacy is distinct enough that these organizations should still be willing to engage with them, provided the party can clearly articulate how their goals align with broader digital rights objectives.\", \"summary\": \"The Swedish Pirate Party expects their name might alienate international allies but believes their specific goals align with digital rights advocates.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701425,
+  "id": "chatcmpl-z5ji9o2unl3l8u42ctwkr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 569,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2612,
+   "prompt_tokens_details": null,
+   "total_tokens": 3181
+  }
+ },
+ "a7f825274c2f6661daca0cc763da9c681208a357e8a51ffc091a0a6594aed055": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701492,
+  "id": "chatcmpl-4r1te8gx5oucvias7qf0wa",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 350,
+   "prompt_tokens_details": null,
+   "total_tokens": 365
+  }
+ },
+ "b2199b594a2843cb1b4589cb0b1f9f1d07ec93cbe8720cd0f84f43868eebcebe": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701505,
+  "id": "chatcmpl-kf5xf8f3dsmpnc3acfahbr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 246,
+   "prompt_tokens_details": null,
+   "total_tokens": 261
+  }
+ },
+ "ba870681f79d0feaf688ada79558ae7d93533b16252b2c96011b4959d507f9c4": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701502,
+  "id": "chatcmpl-av64no04sb5cl7riqz5aef",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 519,
+   "prompt_tokens_details": null,
+   "total_tokens": 534
+  }
+ },
+ "c0b4f5ac0e171c120f8866414dfccd74c084f59f86b29df43941dc492ad3bcc4": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Rickard Falkvinge\", \"other\": [\"leader of the Pirate Party\"], \"kind\": \"person\", \"segments\": [[11, 12], [19, 20], [27, 29], [42, 47], [50, 59], [92, 99], [115, 124], [127, 138], [146, 156], [158, 162], [165, 172], [178, 186], [188, 198], [207, 209], [213, 216], [235, 237], [241, 257], [261, 278], [280, 313], [318, 318]], \"id\": 0}, {\"main\": \"The Pirate Party\", \"other\": [\"a new Swedish political party\", \"the party\", \"Pirate Party\"], \"kind\": \"organisation\", \"segments\": [[1, 2], [14, 16], [17, 18], [66, 77], [83, 88], [110, 111], [139, 141]], \"id\": 1}, {\"main\": \"Wikinews\", \"other\": [], \"kind\": \"document\", \"segments\": [[5, 5]], \"id\": 2}, {\"main\": \"The Pirate Bay\", \"other\": [\"an extremely popular BitTorrent tracker\", \"the site\", \"Pirate Bay\"], \"kind\": \"organisation\", \"segments\": [[4, 4], [7, 8], [55, 56], [64, 65]], \"id\": 3}, {\"main\": \"The MPAA\", \"other\": [\"the U.S. MPAA\", \"the MPAA\"], \"kind\": \"organisation\", \"segments\": [[22, 23], [28, 28]], \"id\": 4}, {\"main\": \"Swedish authorities\", \"other\": [\"Swedish authorities\"], \"kind\": \"organisation\", \"segments\": [[22, 23], [34, 35], [55, 56]], \"id\": 5}, {\"main\": \"U.S. interests\", \"other\": [], \"kind\": \"unknown\", \"segments\": [[25, 25]], \"id\": 6}, {\"main\": \"The Minister of Justice\", \"other\": [\"Bodström\", \"his name\"], \"kind\": \"person\", \"segments\": [[81, 82], [89, 90]], \"id\": 7}, {\"main\": \"The established parties\", \"other\": [\"the established parties\", \"Parties representing almost half of the elected parliament\"], \"kind\": \"organisation\", \"segments\": [[66, 77]], \"id\": 8}, {\"main\": \"The media\", \"other\": [\"the media\", \"national media\", \"media\"], \"kind\": \"organisation\", \"segments\": [[81, 82], [85, 85], [168, 168], [233, 233]], \"id\": 9}, {\"main\": \"The Department of Justice\", \"other\": [\"the Department of Justice\"], \"kind\": \"organisation\", \"segments\": [[234, 234]], \"id\": 10}, {\"main\": \"The music industry\", \"other\": [\"the music industry\"], \"kind\": \"organisation\", \"segments\": [[258, 278]], \"id\": 11}, {\"main\": \"The European Union\", \"other\": [\"European Union\"], \"kind\": \"organisation\", \"segments\": [[174, 174]], \"id\": 12}, {\"main\": \"The Pirate Bureau\", \"other\": [\"Piratbyrån\"], \"kind\": \"organisation\", \"segments\": [[139, 141]], \"id\": 13}, {\"main\": \"The government of Sweden\", \"other\": [\"the next government of Sweden\"], \"kind\": \"organisation\", \"segments\": [[142, 142]], \"id\": 14}, {\"main\": \"Established politicians\", \"other\": [\"established politicians\"], \"kind\": \"person\", \"segments\": [[160, 160]], \"id\": 15}, {\"main\": \"The United States\", \"other\": [\"countries\", \"a foreign power\"], \"kind\": \"organisation\", \"segments\": [[225, 226]], \"id\": 16}, {\"main\": \"Hollywood studios\", \"other\": [\"foreign companies\", \"Hollywood studios\"], \"kind\": \"organisation\", \"segments\": [[239, 245]], \"id\": 17}, {\"main\": \"The Xerox copier\", \"other\": [\"the Xerox copier\"], \"kind\": \"document\", \"segments\": [[299, 299]], \"id\": 18}, {\"main\": \"Sister link\", \"other\": [], \"kind\": \"document\", \"segments\": [[319, 319]], \"id\": 19}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701333,
+  "id": "chatcmpl-dko12x7xf7gwpw954yr0h",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 1186,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 5159,
+   "prompt_tokens_details": null,
+   "total_tokens": 6345
+  }
+ },
+ "c134f550ce1fe79d11774f8d1fb99d6d1fa1a19a56a3140a22873645e7f2d4d2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"8\": {\"original\": \"Established parties are now echoing our message that current copyright laws fail\", \"rephrased\": \"While established political parties in Sweden have begun to acknowledge that the current copyright framework is failing, they remain unable to articulate the specific reasons for this failure, merely repeating the Pirate Party's diagnosis without grasping the underlying mechanics of the legal system.\", \"summary\": \"Established Swedish parties acknowledge failing copyright laws but lack the understanding to explain why.\"}, \"9\": {\"original\": \"We will teach both politicians and voters what these laws actually mean.\", \"rephrased\": \"The Pirate Party in Sweden asserts that it must educate both the political establishment and the general public on the true meaning of copyright laws, as the current system is broken and politicians are currently misinterpreting the legal reality that ordinary citizens are already violating.\", \"summary\": \"The Swedish Pirate Party pledges to educate politicians and voters on the broken nature of current copyright laws.\"}, \"10\": {\"original\": \"open to changes to copyright laws that would make file-sharing legal\", \"rephrased\": \"The Swedish Minister of Justice has publicly stated an openness to reforming copyright legislation to legalize file-sharing, a position that directly contradicts the prevailing strict enforcement stance and aligns with the Pirate Party's argument that the existing legal framework criminalizes the majority of the population.\", \"summary\": \"The Swedish Minister of Justice signals openness to legalizing file-sharing through copyright reform.\"}, \"11\": {\"original\": \"Media publishes our comments next to the Minister's statement because of our\", \"rephrased\": \"The increased media visibility of the Swedish Pirate Party, driven by the public outcry following the raid on the Pirate Bay, has resulted in news outlets placing the party's comments alongside the Minister of Justice's statements, effectively amplifying the party's voice in the national debate on digital rights.\", \"summary\": \"Post-Pirate Bay raid media coverage has elevated the Pirate Party's influence by pairing their comments with government statements.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701415,
+  "id": "chatcmpl-4abrppcqcqm2xd014njehj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 413,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2708,
+   "prompt_tokens_details": null,
+   "total_tokens": 3121
+  }
+ },
+ "c14c35bfd7e937e5962b64d9aadaf50a4e2a4efef93ec98c38c25ccb5b1870b2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The Swedish Pirate Party supports severely restricting copyright rules and enforcement, ending patent legislation, and defending privacy from a society focused on control and surveillance.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701482,
+  "id": "chatcmpl-4257iqlw2s86tdwjcrmfkq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 38,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 187,
+   "prompt_tokens_details": null,
+   "total_tokens": 225
+  }
+ },
+ "c91ffe1142ef497abf90e68bb4163083ae65b18cbe8067a569807fb695edac70": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Rickard Falkvinge\": [\"We strongly safeguard the right to attribution to promote culture, as anonymous publishing is common online, but we propose strengthening the right to integrity by supporting free sampling and derivative works.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701382,
+  "id": "chatcmpl-vwi54w26momcilr7vvtv3",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 44,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 903,
+   "prompt_tokens_details": null,
+   "total_tokens": 947
   }
  },
  "cec6c58bbaa3169929741e1e0ebb51beaaffb08d957ece2504a83b268b49500f": {
@@ -1903,8 +1862,8 @@
     }
    }
   ],
-  "created": 1793687364,
-  "id": "chatcmpl-avkl9bhw5ofxguj61049kj",
+  "created": 1793701360,
+  "id": "chatcmpl-aeuohf15q5hnop00kx52q",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1926,7 +1885,745 @@
    "total_tokens": 4923
   }
  },
- "d3699c4ec278b3bff3d36e86eb39ff8d50000afb8fab514d37ee96916751784a": {
+ "d3ebe23ead81ac068c78fbdd84d586699d26104ff31fbb837c0e99cac80ce5fd": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701495,
+  "id": "chatcmpl-r1ybpytmg3zd9gbln078i",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 531,
+   "prompt_tokens_details": null,
+   "total_tokens": 546
+  }
+ },
+ "d86e2a33f5485dbc583922b609e2129f789056ffa118510b7f0eacf1dccca8cd": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701498,
+  "id": "chatcmpl-l7pv73ni52jmyrjrb576e",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 202,
+   "prompt_tokens_details": null,
+   "total_tokens": 217
+  }
+ },
+ "dd1da74ae79772dee5a3cba417fd3d1b676502576ab010c237dff26614880001": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701497,
+  "id": "chatcmpl-r6095wolsntkgtx2apfcba",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 250,
+   "prompt_tokens_details": null,
+   "total_tokens": 265
+  }
+ },
+ "dd57f35df79cb92199c848c18dc427fd2e8ac7835c02b833837c74814057c4bb": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Claims no other countries have achieved the necessary momentum for similar initiatives yet.\", \"Notes the 'Pirate Party' name risks antagonizing voters by associating with criminal piracy.\", \"Questions whether the name will alienate potential allies like the Electronic Frontier Foundation or Creative Commons.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701375,
+  "id": "chatcmpl-y4hmpe5jg7lx0pxcscmte",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 60,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 993,
+   "prompt_tokens_details": null,
+   "total_tokens": 1053
+  }
+ },
+ "e10333c0090172eeea8f11bf0876b98f528b02986fec2e5dc36a3c20d525713d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701504,
+  "id": "chatcmpl-msjncp32av8hh19nf1hc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 250,
+   "prompt_tokens_details": null,
+   "total_tokens": 265
+  }
+ },
+ "e19998e4509af506a573ee2cdacb3a838f1aaacce9d0db6aeb796bb2b6153d5a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"24\": {\"original\": \"Countries need to think more like corporations, accepting fines when they are in\", \"rephrased\": \"The Swedish Pirate Party asserts that national governments must adopt a pragmatic, cost-benefit approach to international intellectual property enforcement, arguing that states should accept unavoidable penalties rather than attempting to impose fines that exceed the actual societal cost of infringement. This stance challenges the current legal framework by suggesting that the pursuit of such excessive penalties is economically irrational and that nations should prioritize minimizing harm to the public over rigidly enforcing outdated treaties.\", \"summary\": \"The Swedish Pirate Party argues that nations should accept fines exceeding societal costs rather than enforcing irrational intellectual property laws.\"}, \"25\": {\"original\": \"We do not want to change people's behavior. We want to change the law so it re\", \"rephrased\": \"The Swedish Pirate Party maintains that the primary goal of copyright reform is not to alter individual consumer habits, but rather to update legislation so it aligns with the reality of how people currently share digital content. This position frames the conflict as a necessary legal adjustment to modern technological usage, rejecting the idea that the law should force a return to restrictive distribution models that no longer reflect actual market behavior.\", \"summary\": \"The Swedish Pirate Party argues that copyright reform should update laws to match reality rather than trying to change human behavior.\"}, \"26\": {\"original\": \"The industry will lose its current chokepoint as it no longer adds value to the\", \"rephrased\": \"The music industry faces an existential threat as its traditional role as a distribution gatekeeper becomes obsolete, since it no longer provides essential value to the final product in a digital environment where non-commercial copying is permitted. Consequently, the sector will likely be forced to transform into a mere service bureau for artists, losing its ability to control how music is distributed to the public.\", \"summary\": \"The music industry will lose its distribution control and survive only as a service bureau if non-commercial copying is permitted.\"}, \"27\": {\"original\": \"It will likely survive only as a service bureau for artists, unable to control\", \"rephrased\": \"The music industry is expected to survive only as a service bureau for artists, completely stripped of its power to control distribution channels. This outcome is presented as a natural market correction, where the industry will only remain viable if it can offer a service that consumers actively want to purchase, rather than relying on forced sales of unnecessary intermediaries.\", \"summary\": \"The music industry will likely survive only as a service bureau for artists, unable to control distribution.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701459,
+  "id": "chatcmpl-81u8es6ekdj1nganr25v",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 531,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2861,
+   "prompt_tokens_details": null,
+   "total_tokens": 3392
+  }
+ },
+ "e2cd0a75c980f8697ece1e2bf3fd95ca764c096ab787ac8c6569fb6fd954c793": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701503,
+  "id": "chatcmpl-me3hxvlc5uy65d2okdgml",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 332,
+   "prompt_tokens_details": null,
+   "total_tokens": 347
+  }
+ },
+ "e5b1f960421ba26d152095a57c5b7258051ede5b05fee3b82a1b6715d072d255": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701501,
+  "id": "chatcmpl-e0dzakqp8h796fwv3ixzq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 300,
+   "prompt_tokens_details": null,
+   "total_tokens": 315
+  }
+ },
+ "e610dafa7129193eede214ccc7eb27625c7415525e3f6a490eaf034b3577cfb2": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"We do not want to change people's behavior. We want to change the law so it reflects what the world actually looks like.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701387,
+  "id": "chatcmpl-wwpb0e4u1z9rax56rps6j",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 33,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 970,
+   "prompt_tokens_details": null,
+   "total_tokens": 1003
+  }
+ },
+ "e7c100884196976d9d1d5ca36a151b081526bfc5391b719acd932c93e8ea92bb": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701502,
+  "id": "chatcmpl-71pnja5itnm4tebosforv",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 300,
+   "prompt_tokens_details": null,
+   "total_tokens": 315
+  }
+ },
+ "e85d607f2600e6d88968afe91fba4968dfaff4976ee29cc08f711453dec50428": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701501,
+  "id": "chatcmpl-1rs0ppo5dv8vygxmxx6npr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 316,
+   "prompt_tokens_details": null,
+   "total_tokens": 331
+  }
+ },
+ "eb916e34f0d85ddfa387e3a9e1d06d1a08ed1e2dbd19054eab59e7616b444a80": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Rickard Falkvinge\": [\"It is a crime that 20% of voters are breaking by facing jail time, which we must change.\", \"We are reclaiming the word 'pirate' from media conglomerates who use it to shame us, and we wear it proudly.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701377,
+  "id": "chatcmpl-wi3q31ote9k8kdtf8rit0k",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 61,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1269,
+   "prompt_tokens_details": null,
+   "total_tokens": 1330
+  }
+ },
+ "ec5112a85c09540160b6cf62000fde3543d9e82ee8c973ee5440ee1c9c2b4d2d": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The music industry\": [\"The industry will lose its current chokepoint as it no longer adds value to the end product.\", \"It will likely survive only as a service bureau for artists, unable to control distribution.\", \"They must provide a service people want to buy or they will vanish.\", \"Current laws force people to buy their service regardless of whether it adds value.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701389,
+  "id": "chatcmpl-fy4ids6vdgggkcx9pxh5ce",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 76,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1324,
+   "prompt_tokens_details": null,
+   "total_tokens": 1400
+  }
+ },
+ "f2b9b5dd30076cdef34a3dff298367bf5eb04973d088972b6a614108bd1b5c6a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The Swedish Pirate Party proposes legalizing internet file-sharing to reform unsustainable copyright laws, a move gaining traction after a police raid on The Pirate Bay.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701364,
+  "id": "chatcmpl-bwe1bz4legetjhoddoa0hq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 36,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 806,
+   "prompt_tokens_details": null,
+   "total_tokens": 842
+  }
+ },
+ "f3b318ee4367f60ea4ae8d411d6738bd87a0799f92c39f15d61273a0ddec72e5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The author frames the Pirate Party's strategy as a calculated political maneuver to gain influence by holding the balance of power, rather than forming a formal coalition, to avoid weakening their bargaining position.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701379,
+  "id": "chatcmpl-rn410a3yo5d9bqeanz18dr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 44,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1164,
+   "prompt_tokens_details": null,
+   "total_tokens": 1208
+  }
+ },
+ "fa99768bdc27116ec479e44fc2c51261c79d5c69124e82d2be1c8154416792a5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"28\": {\"original\": \"They must provide a service people want to buy or they will vanish.\", \"rephrased\": \"The music industry must provide a service that consumers actually want to purchase, or the sector will disappear entirely. This is because the industry currently operates as an unnecessary middleman that adds no value to the final product, and it has forced legislation requiring people to buy this redundant service regardless of its utility. In a world where non-commercial copying is permitted, the industry's survival depends entirely on its ability to adapt and offer a valuable service rather than relying on outdated legal chokepoints.\", \"summary\": \"The music industry must adapt by offering valuable services or face extinction as non-commercial copying renders its current distribution model obsolete.\"}, \"29\": {\"original\": \"Current laws force people to buy their service regardless of whether it adds.\", \"rephrased\": \"Existing copyright laws compel individuals to purchase music services even when those services no longer add value to the consumer experience. This legal framework forces the music industry to maintain a monopoly on distribution despite the fact that the industry itself has lost its ability to control how music is shared, creating a situation where people are punished for accessing content they cannot legally obtain through traditional channels.\", \"summary\": \"Current copyright laws force consumers to buy unnecessary music services, punishing them for accessing content that is already widely available.\"}, \"30\": {\"original\": \"Copyright enforcement requires constant monitoring of all private communications\", \"rephrased\": \"Enforcing current copyright laws would require the constant monitoring of all private digital communications, a measure that is both technically unfeasible and a violation of fundamental privacy rights. Society faces a critical choice: either sacrifice the ability to communicate privately to protect intellectual property, or allow copyright laws to evolve and adapt to the reality of digital technology where private sharing is inevitable.\", \"summary\": \"Enforcing copyright requires invasive monitoring of private communications, forcing a choice between sacrificing privacy or reforming outdated laws.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701472,
+  "id": "chatcmpl-gcg63zhniv72ovyectbsud",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 403,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2393,
+   "prompt_tokens_details": null,
+   "total_tokens": 2796
+  }
+ },
+ "fdf4119213e34b9f2a442ce422b4ed2b481c4ed502e765ae4d1b934cd7248460": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"The Minister of Justice\": [\"open to changes to copyright laws that would make file-sharing legal\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701372,
+  "id": "chatcmpl-10szm2f7yithpvdeov8yatr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 21,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 798,
+   "prompt_tokens_details": null,
+   "total_tokens": 819
+  }
+ },
+ "fdf88b19d53f45dcb99f6433e55777ce480f3f4012b40b119beec057b5e395fa": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793701507,
+  "id": "chatcmpl-66w8x5tmg8styprfusk6ui",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 315,
+   "prompt_tokens_details": null,
+   "total_tokens": 330
+  }
+ },
+ "febae7128a6d8f0c3c1b37462884f3dedf73cc5670d9ec865898234ddbf542f8": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1944,8 +2641,8 @@
     }
    }
   ],
-  "created": 1793687482,
-  "id": "chatcmpl-qrwcji8ecwfft0rjyi0ck",
+  "created": 1793701507,
+  "id": "chatcmpl-4bph1ghtfwspydhchebgtk",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1962,12 +2659,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 240,
+   "prompt_tokens": 318,
    "prompt_tokens_details": null,
-   "total_tokens": 255
+   "total_tokens": 333
   }
  },
- "d7e3fd88fa46e67035e0c142d5daf52538af3885de7103a1053b25b063124f98": {
+ "ff1197e95c2190da5a5c96201578294c90b9ac1dc8ef8e5c78b05802c1ef8d22": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1976,7 +2673,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"The party expects to gain momentum and prove feasibility once it enters the Swedish Parliament.\"]}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1985,213 +2682,8 @@
     }
    }
   ],
-  "created": 1793687379,
-  "id": "chatcmpl-bwskrvvbehimbuio7ri7cl",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 23,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 996,
-   "prompt_tokens_details": null,
-   "total_tokens": 1019
-  }
- },
- "d99ff34d8a052b47b603935bc7da37ed6ba7fad30acce0d3cbb8ce67e661691f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"We face a crossroads: either society values copyright enough to abandon private communications, or we prioritize private communication, forcing copyright to give way.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687393,
-  "id": "chatcmpl-og55tu8yyogviip9py9oo",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 35,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1177,
-   "prompt_tokens_details": null,
-   "total_tokens": 1212
-  }
- },
- "e537da19ab11790bd65fc016385ab3215ba24065f3cdf46a50364a57e51b318a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"uncertain\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687481,
-  "id": "chatcmpl-9tyfpfhzpp415ag4ik86b",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 16,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 336,
-   "prompt_tokens_details": null,
-   "total_tokens": 352
-  }
- },
- "e743d784a3fa8b0e321c65abeb0836ed558b6ac647b3e11176c2a1cb220ddfa6": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"12\": {\"original\": \"We safeguard the right to attribution very strongly. After all, what we are... (\", \"rephrased\": \"The Swedish Pirate Party firmly upholds the right to attribution, arguing that this principle is essential for promoting culture and ensuring creators receive proper recognition for their work. While the party views anonymous or pseudonymous publishing as a common and acceptable practice on the internet, it identifies the right to integrity as a more contentious issue that requires careful examination regarding the balance between protecting original works and fostering new cultural creations.\", \"summary\": \"The Swedish Pirate Party strongly supports attribution rights while viewing anonymous publishing as acceptable and prioritizing the right to derivative works.\"}, \"13\": {\"original\": \"Publishing anonymously or pseudonymously happens every day, so no big deal there\", \"rephrased\": \"The Swedish Pirate Party considers the right to have a work published anonymously or pseudonymously to be a non-issue, noting that such practices occur daily on the internet without causing significant harm to copyright holders. This stance reflects a broader commitment to prioritizing the promotion of new culture over rigid limitations on how works are shared or attributed.\", \"summary\": \"The Swedish Pirate Party views anonymous and pseudonymous publishing as a common, harmless practice that should not be restricted by copyright laws.\"}, \"14\": {\"original\": \"We support free sampling and want to strengthen the right to derivative works.\", \"rephrased\": \"The Swedish Pirate Party advocates for the freedom to sample existing sounds and phrases in new musical compositions, arguing that this practice fosters innovation and the creation of new culture. Consequently, the party proposes strengthening legal protections for derivative works, provided that the new creation adds a distinct creative touch to the original material.\", \"summary\": \"The Swedish Pirate Party supports free sampling and aims to strengthen legal protections for derivative works that add significant creative value.\"}, \"15\": {\"original\": \"So I don't have a definite answer on the integrity issue. While I am leaning...\", \"rephrased\": \"Regarding the right to integrity, the Swedish Pirate Party acknowledges a lack of a definitive position but leans toward prioritizing the promotion of new culture over strict limitations on how works can be modified. This nuanced approach suggests that while the party values the original artist's rights, it believes the law should ultimately encourage the creation of new cultural forms, even if they incorporate elements of existing works.\", \"summary\": \"The Swedish Pirate Party tentatively prioritizes the promotion of new culture over the right to integrity, though it acknowledges the complexity of the issue.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687426,
-  "id": "chatcmpl-vjvmgcv222sb3224lt1e48",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 526,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2904,
-   "prompt_tokens_details": null,
-   "total_tokens": 3430
-  }
- },
- "e9682fd9b7493b2b61ebaae2ec29525edb9d0f38802b64088aca9f5124253239": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"The author notes the Pirate Bureau's 2003 public education efforts improved the term 'pirate' in Sweden, while highlighting the party's strategy to hold a balance of power by withholding specific cooperation preferences until they can influence the government.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687382,
-  "id": "chatcmpl-zmj2j1su44kqelwi02wf7",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 56,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1167,
-   "prompt_tokens_details": null,
-   "total_tokens": 1223
-  }
- },
- "e984b5882cc0dee2335a4dec9b4ac7aa673a184fc2464746905251df585d1674": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687475,
-  "id": "chatcmpl-lfanu4cfgrg6as1ue4w7gw",
+  "created": 1793701498,
+  "id": "chatcmpl-v7kngx1j3ugo9sa3eneo4",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -2208,12 +2700,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 233,
+   "prompt_tokens": 253,
    "prompt_tokens_details": null,
-   "total_tokens": 248
+   "total_tokens": 268
   }
  },
- "e9f79efaf8a5c4f551f7b318e23e20c1a980a26228935309421017eec71604c9": {
+ "ff8e37f6598aa7baaf6acec61025a41607c7d8a6cadf77ed9f52f1e2c9be2fa0": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -2222,7 +2714,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"Countries need to think more like corporations, accepting fines when they are less than the cost to society.\"]}",
+     "content": "{\"rephrased_statement\": \"Under EU copyright rules, certain moral rights must be kept intact. These include the right of attribution, the right to publish a work anonymously or under a pseudonym, and the right to the integrity of the work.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -2231,8 +2723,8 @@
     }
    }
   ],
-  "created": 1793687388,
-  "id": "chatcmpl-dnv98127mipi37dbzgqw9",
+  "created": 1793701487,
+  "id": "chatcmpl-dn0vn8mesthp2qbxdhnaj",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -2241,7 +2733,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 27,
+   "completion_tokens": 53,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -2249,255 +2741,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 834,
+   "prompt_tokens": 201,
    "prompt_tokens_details": null,
-   "total_tokens": 861
-  }
- },
- "eba5a0a268e1948d5fc28c48175bebcfa1474593547f15ef0e812be03008335a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687479,
-  "id": "chatcmpl-aa2wj90o4j6zzg6p2djl7",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 311,
-   "prompt_tokens_details": null,
-   "total_tokens": 326
-  }
- },
- "ee2acc575382bd9037ea797197314562f6dff25890e39a4dac67c9ef26b431c5": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687476,
-  "id": "chatcmpl-t9tepyni3fcuhfd70zca58",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 197,
-   "prompt_tokens_details": null,
-   "total_tokens": 212
-  }
- },
- "ee504dd3b1154f4712f5a6afdd4973be0ddd0a83cded49447d183b786a92c96e": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Rickard Falkvinge\": [\"Copyright law in its current form is not sustainable.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687369,
-  "id": "chatcmpl-ucnmlob9nlgs1mgmomr5um",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 20,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 899,
-   "prompt_tokens_details": null,
-   "total_tokens": 919
-  }
- },
- "f63c3f942cd1b5ca5510ae50f8022cd045e07a2aba94ec89f6af628cdb78f21f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"20\": {\"original\": \"We do not want to change people's behavior. We want to change the law so it fits\", \"rephrased\": \"The Swedish Pirate Party rejects the strategy of attempting to alter individual user habits, arguing instead that legal frameworks must be reformed to align with the current reality of digital technology and private communication. This approach prioritizes adapting outdated copyright rules to the actual world rather than forcing citizens to act against their natural technological environment.\", \"summary\": \"The Swedish Pirate Party prioritizes reforming laws to match technological reality over changing user behavior.\"}, \"21\": {\"original\": \"The industry will lose its current chokepoint as it no longer adds value to the\", \"rephrased\": \"The music industry in Sweden faces the imminent loss of its monopoly over distribution because it no longer provides essential value to the final product for consumers. Consequently, the sector's traditional control mechanism is becoming obsolete as the market shifts toward non-commercial copying and digital sharing.\", \"summary\": \"The music industry's distribution monopoly is becoming obsolete due to a lack of added value.\"}, \"22\": {\"original\": \"They will likely survive only as a service bureau for artists, unable to control\", \"rephrased\": \"Rather than disappearing entirely, the music industry is expected to survive only by transforming into a service bureau that assists artists, while permanently losing its ability to control how music is distributed to the public. This shift reflects a market reality where the industry can no longer dictate terms without offering tangible services.\", \"summary\": \"The music industry will likely survive only as a non-controlling service bureau for artists.\"}, \"23\": {\"original\": \"They must provide a service people want to buy or they will vanish.\", \"rephrased\": \"The music industry must immediately adapt by offering services that consumers actively desire to purchase, or it faces the certain prospect of complete market irrelevance and disappearance. This survival depends entirely on providing genuine value rather than relying on forced sales through restrictive legal enforcement.\", \"summary\": \"The music industry must provide desired services or face total market disappearance.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687450,
-  "id": "chatcmpl-quhnznztbks8977fdl3tix",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 433,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2560,
-   "prompt_tokens_details": null,
-   "total_tokens": 2993
-  }
- },
- "fb78c22c15e318814dd03cfd42455b4903a2c8972d0d37ae789111d888de5c76": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"In the 50s and 60s, rock bands covering classical music created great new culture, even though it violated the original artist's integrity.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687386,
-  "id": "chatcmpl-fgpw2c79home3wdi0vxhtc",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 39,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 934,
-   "prompt_tokens_details": null,
-   "total_tokens": 973
-  }
- },
- "fe984daa5fdb94104611b3fa0c3abf64a637ebdea1fd29d643f8aa57467ce414": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"uncertain\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793687482,
-  "id": "chatcmpl-58efad2prr8frp32qq1mj7",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 16,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 241,
-   "prompt_tokens_details": null,
-   "total_tokens": 257
+   "total_tokens": 254
   }
  }
 }

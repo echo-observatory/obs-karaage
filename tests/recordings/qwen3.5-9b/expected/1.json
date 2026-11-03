@@ -56,14 +56,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "European law enforcement agencies, acting on pressure from copyright organizations, have conducted raids and issued legal threats that are compelling filesharing link sites in countries like the Netherlands, Finland, and Slovenia to shut down. These actions demonstrate that hosting such sites is considered illegal, even though the servers do not store the actual copyrighted files, thereby closing a potential legal loophole for users.",
-   "text_short": "European police raids and legal pressure are forcing filesharing link sites to close, proving that hosting them is illegal.",
+   "text": "European law enforcement agencies, including the Dutch FIOD-ECD and Finnish National Bureau of Investigation, have conducted raids on hosting providers and seized servers for filesharing link sites in countries such as the Netherlands, Finland, France, and Slovenia. These actions, often initiated by national copyright oversight organizations, have resulted in the shutdown of major sites like Mindlab and FinReactor, demonstrating that authorities consider the hosting of such links illegal even when the servers do not store the actual files. This legal pressure has effectively forced operators to cease providing torrent links, thereby closing down these distribution networks.",
+   "text_short": "European police raids and legal pressure are forcing filesharing link sites to close, proving that hosting such sites is illegal even if the files themselves are not stored on the servers.",
    "char_start": 0,
    "char_end": 1767,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1452,
+    "rouge2_precision": 0.1771,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -75,17 +75,17 @@
    "actor_aliases": [
     "SuprNova.org"
    ],
-   "text": "The operators of the Slovenian-based BitTorrent site SuprNova.org decided to voluntarily shut down their link distribution service following reports of arrests against other site administrators and after receiving formal legal warnings from copyright enforcement groups. This decision was made to avoid the risk of having their servers seized by authorities, even though the site's owners maintain that hosting links to unauthorized files is not inherently illegal under Slovenian law.",
-   "text_short": "Copyright enforcement groups issued formal legal warnings. Other site administrators faced arrest reports. In response, the operators of SuprNova.org, a BitTorrent site based in Slovenia, chose to stop their link distribution service voluntarily.",
+   "text": "SuprNova.org, a BitTorrent platform based in Slovenia, chose to turn off the part of its website that shared file links. This choice came after officials reported arrests of admins from other major peer-to-peer sites and after the site got official legal notices. While the site's discussion boards and IRC chat stayed active, they stopped sending torrent links. This move showed that the risk of legal trouble and the arrest of other users was greater than the safety they felt having the site in Slovenia.",
+   "text_short": "Administrators of other major peer-to-peer sites were arrested. Following these arrests and after getting official legal notices, the people running the Slovenian BitTorrent website SuprNova.org chose to turn off the part of their site that contained file links.",
    "char_start": 1767,
    "char_end": 2847,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2424,
+    "rouge2_precision": 0.1609,
     "paraphrased": true,
     "in_text": "yes",
-    "actor_correct": "no"
+    "actor_correct": "yes"
    }
   },
   {
@@ -94,55 +94,55 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "In an effort to circumvent the legal and operational risks associated with centralized hosting, the decentralized filesharing project eXeem, developed by the creators of the now-closed SuprNova.org, reached its beta stage in late 2004. This system was designed to allow users to publish and distribute files directly without relying on central servers or trackers, aiming to eliminate the specific legal vulnerability that led to the closure of the original link site.",
-   "text_short": "The decentralized filesharing project eXeem, developed by the creators of the now-closed SuprNova.org, reached its beta stage in late 2004 to allow users to publish and distribute files directly without relying on central servers or trackers.",
+   "text": "To avoid legal risks tied to centralized link sites, the owners of the Slovenian site SuprNova.org created a project called eXeem. This project was designed to spread the BitTorrent link network across a decentralized system. By late 2004, the project had reached a beta phase and included more than 5,000 users. The goal was to let every user publish new files easily, without depending on centralized servers or dedicated trackers. This approach aimed to remove the need for the link sites that are now closed.",
+   "text_short": "In an effort to circumvent the legal vulnerabilities associated with centralized link sites, a project named eXeem was developed by the owners of the Slovenian site SuprNova.org to decentralize the BitTorrent link network.",
    "char_start": 2847,
    "char_end": 3537,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1622,
-    "paraphrased": false,
-    "in_text": "yes",
+    "rouge2_precision": 0.2727,
+    "paraphrased": true,
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
   {
    "id": "1-s4",
-   "actor": "TorrentBits.org",
+   "actor": "base_author",
    "actor_aliases": [
-    "TorrentBits.org"
+    "base_author"
    ],
-   "text": "The filesharing link site TorrentBits.org was shut down around the same time as other major European sites, yet the specific reasons for its closure remain unknown. While other sites in the region were forced offline by police raids or voluntarily closed due to legal pressure, the circumstances surrounding the disappearance of TorrentBits.org have not been clarified by its founder.",
-   "text_short": "The filesharing link site TorrentBits.org was shut down around the same time as other major European sites, yet the specific reasons for its closure remain unknown.",
-   "char_start": 3537,
-   "char_end": 3910,
+   "text": "Most major filesharing networks, including Gnutella, Gnutella 2, KaZaA, and eDonkey2000, operate on a decentralized architecture designed to avoid the legal pitfalls faced by centralized systems like the defunct Napster. Unlike these networks, which distribute files directly between users, traditional link sites relied on centralized servers to coordinate the sharing of files, a structural difference that has made the former more resilient to police raids and legal pressure targeting specific hosting providers.",
+   "text_short": "Centralized platforms such as the now-defunct Napster encountered significant legal challenges. To sidestep these issues, prominent filesharing networks like Gnutella, Gnutella 2, KaZaA, and eDonkey2000 utilize a decentralized design.",
+   "char_start": 2847,
+   "char_end": 3537,
    "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1538,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "no"
+    "rouge2_precision": 0.2069,
+    "paraphrased": true,
+    "in_text": "no",
+    "actor_correct": "yes"
    }
   },
   {
    "id": "1-s5",
-   "actor": "Delirium Vault",
+   "actor": "base_author",
    "actor_aliases": [
-    "Delirium Vault"
+    "base_author"
    ],
-   "text": "Delirium Vault, a peer-to-peer link site, has reportedly ceased operations alongside other similar services like Youceff Torrents and Phoenix Torrents, joining a wave of closures affecting sites in France, the Netherlands, Finland, and Slovenia. This pattern of shutdowns suggests that law enforcement actions are effectively dismantling these networks, even when the sites themselves do not store illegal files directly.",
-   "text_short": "Delirium Vault joins other closed link sites, indicating a broader trend of enforcement actions dismantling filesharing networks.",
-   "char_start": 3537,
-   "char_end": 3910,
+   "text": "To address the legal vulnerability of centralized link sites, the eXeem project aims to decentralize file distribution by enabling users to publish and share files directly without relying on central servers or dedicated trackers, thereby removing the specific infrastructure that authorities target during raids.",
+   "text_short": "Decentralizing file distribution removes the centralized infrastructure targeted by police raids.",
+   "char_start": 2847,
+   "char_end": 3537,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0667,
+    "rouge2_precision": 0.0698,
     "paraphrased": false,
     "in_text": "no",
-    "actor_correct": "no"
+    "actor_correct": "yes"
    }
   },
   {
@@ -151,58 +151,54 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Law enforcement agencies across Europe are utilizing police raids and legal pressure to force the closure of filesharing link sites, a strategy that demonstrates hosting such sites is illegal even if the servers do not contain the actual infringing files. This approach relies on the fact that many operators are volunteers running non-profit services who lack the resources to withstand prolonged legal battles or the loss of donated server equipment.",
-   "text_short": "European police raids and legal pressure are proving that hosting filesharing sites is illegal, forcing their closure even when files aren't stored on the servers.",
-   "char_start": 3910,
-   "char_end": 4858,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "text": "Although the eXeem project successfully completed beta testing with over 5,000 users by December 2004, its long-term viability remains uncertain following the shutdown of the primary link site, SuprNova.org, which had been its foundation.",
+   "text_short": "The decentralized eXeem project's future is uncertain after the closure of its parent link site.",
+   "char_start": 2847,
+   "char_end": 3537,
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0714,
+    "rouge2_precision": 0.2,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
   {
    "id": "1-s7",
-   "actor": "MPAA",
+   "actor": "TorrentBits.org",
    "actor_aliases": [
-    "MPAA",
-    "Motion Picture Association of America",
-    "trade association representing the interests of major movie studios based in the United States"
+    "TorrentBits.org"
    ],
-   "text": "The Motion Picture Association of America may be connected to police operations that shut down filesharing sites in Europe, though this link is not yet confirmed. While the Finnish National Bureau of Investigation says it has no contact with the trade group, the group claims responsibility for closing the Finnish site FinReactor. This creates doubt about who really drives these coordinated enforcement actions.",
-   "text_short": "The MPAA is suspected of linking to police actions, though official denials exist, raising questions about the true drivers behind European site closures.",
-   "char_start": 4858,
-   "char_end": 5282,
+   "text": "TorrentBits.org, a major filesharing link site, was shut down around the same time as other European sites, likely due to the same wave of police raids and legal pressure, even though the specific reasons for its closure have not been publicly disclosed.",
+   "text_short": "TorrentBits.org closed alongside other sites, likely due to police raids despite unknown specific reasons.",
+   "char_start": 3537,
+   "char_end": 3910,
    "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1364,
-    "paraphrased": true,
-    "in_text": "yes",
+    "rouge2_precision": 0.1429,
+    "paraphrased": false,
+    "in_text": "no",
     "actor_correct": "no"
    }
   },
   {
    "id": "1-s8",
-   "actor": "MPAA",
+   "actor": "Delirium Vault",
    "actor_aliases": [
-    "MPAA",
-    "Motion Picture Association of America",
-    "trade association representing the interests of major movie studios based in the United States"
+    "Delirium Vault"
    ],
-   "text": "FinReactor, a significant Finnish filesharing platform, was closed. The Motion Picture Association of America claims responsibility for this shutdown. However, the Finnish National Bureau of Investigation states there were no contacts between the association and Finnish authorities. This difference shows that international cooperation between copyright enforcement groups and local police forces is complicated and often disputed when shutting down digital services.",
-   "text_short": "The MPAA claims credit for FinReactor's closure, despite official denials from Finnish authorities regarding any contact.",
-   "char_start": 4858,
-   "char_end": 5282,
+   "text": "Delirium Vault is included in the growing list of filesharing link sites that have been forced to shut down, reflecting a broader pattern where legal pressure and police actions are driving the disappearance of these platforms across Europe.",
+   "text_short": "Delirium Vault joins other sites in closing, illustrating the trend of legal pressure forcing link sites offline.",
+   "char_start": 3537,
+   "char_end": 3910,
    "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1875,
-    "paraphrased": true,
-    "in_text": "yes",
+    "rouge2_precision": 0.0811,
+    "paraphrased": false,
+    "in_text": "no",
     "actor_correct": "no"
    }
   },
@@ -212,36 +208,97 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The BitTorrent system, created by programmer Bram Cohen and introduced in 2002, functions as a peer-to-peer file distribution tool that allows users to download files at high speeds by swapping file portions with one another rather than relying on a single centralised server, a design that makes it particularly effective for quickly spreading new releases to large numbers of users.",
-   "text_short": "BitTorrent is a 2002 peer-to-peer tool that enables fast file distribution by swapping data chunks between users instead of using a central server.",
-   "char_start": 5282,
-   "char_end": 5716,
-   "valid": true,
-   "rejection_reason": null,
+   "text": "While the activities of peer-to-peer link sites have not been legally proven to be illegal, law enforcement agencies in various European countries are increasingly willing to shut down these platforms upon accusation of copyright violations. This trend of police raids and legal pressure effectively forces the operators to close, demonstrating that the act of hosting such sites is treated as illegal even when the actual files are not stored on the servers themselves.",
+   "text_short": "Police raids and legal pressure force link sites to close, proving hosting is illegal even if files aren't stored on servers.",
+   "char_start": 3910,
+   "char_end": 4858,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.25,
+    "rouge2_precision": 0.1892,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
   {
    "id": "1-s10",
+   "actor": "MPAA",
+   "actor_aliases": [
+    "MPAA",
+    "Motion Picture Association of America",
+    "trade association representing the interests of major movie studios based in the United States"
+   ],
+   "text": "The Motion Picture Association of America, a trade group for major U.S. movie studios, is thought to be connected to police operations that shut down filesharing sites. While officials deny any direct contact, this association is suspected of organizing some of these coordinated enforcement actions, though the full scope of their role is unclear.",
+   "text_short": "Police raids that shut down filesharing websites are thought to be connected to the MPAA.",
+   "char_start": 4858,
+   "char_end": 5282,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.1667,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "1-s11",
+   "actor": "MPAA",
+   "actor_aliases": [
+    "MPAA",
+    "Motion Picture Association of America",
+    "trade association representing the interests of major movie studios based in the United States"
+   ],
+   "text": "The Motion Picture Association of America claims responsibility for shutting down the Finnish filesharing website FinReactor. However, the official Finnish police have stated they never communicated with the association. This assertion by the trade group underscores the continuing argument about who actually started the raids on European filesharing platforms.",
+   "text_short": "FinReactor, a Finnish filesharing website, closed down. The MPAA claims responsibility for this shutdown.",
+   "char_start": 4858,
+   "char_end": 5282,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1042,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "1-s12",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Programmer Bram Cohen developed BitTorrent in 2002. This peer-to-peer file distribution tool allows for rapid downloads by letting users exchange file segments with each other. Because the system operates without a single centralized server or individual, it can quickly share new files with many users.",
+   "text_short": "BitTorrent uses a peer-to-peer model where users swap file portions, enabling fast distribution to many people without a central server.",
+   "char_start": 5282,
+   "char_end": 5716,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2391,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "1-s13",
    "actor": "MetaMachine",
    "actor_aliases": [
     "MetaMachine"
    ],
-   "text": "MetaMachine created the eDonkey2000 software, which uses the Multisource File Transfer Protocol. This peer-to-peer file sharing system promotes permanent file sharing to keep files available over time. However, it is usually not as good as the BitTorrent system for quickly spreading new releases to many users.",
-   "text_short": "The eDonkey2000 application, developed by MetaMachine, functions as a peer-to-peer sharing tool. It values keeping files available for extended periods more than quickly spreading out fresh releases.",
+   "text": "The eDonkey2000 network operates as a peer-to-peer file sharing system that relies on the Multisource File Transfer Protocol to distribute content across a decentralized network of users, ensuring files remain available for long-term sharing without depending on a single central server.",
+   "text_short": "The eDonkey2000 network uses a decentralized peer-to-peer protocol to ensure long-term file availability.",
    "char_start": 5716,
    "char_end": 6008,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2766,
-    "paraphrased": true,
+    "rouge2_precision": 0.2326,
+    "paraphrased": false,
     "in_text": "yes",
-    "actor_correct": "no"
+    "actor_correct": "yes"
    }
   }
  ],

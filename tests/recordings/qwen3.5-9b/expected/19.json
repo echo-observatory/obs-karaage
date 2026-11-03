@@ -24,14 +24,14 @@
     "Brittany Phelps",
     "administrator of the United States Pirate Party"
    ],
-   "text": "The revived United States Pirate Party must cultivate state-level organizations across the country, as the national entity currently lacks the financial resources to operate independently. Without establishing these local chapters, the party faces immediate insolvency, making grassroots development a prerequisite for national survival.",
-   "text_short": "State-level organizations are essential for the financial survival of the revived US Pirate Party.",
+   "text": "As the administrator of the revived United States Pirate Party, the leadership asserts that the national organization faces immediate financial insolvency unless it successfully cultivates and establishes independent political parties at the state level across the country. This structural dependency is presented as a critical prerequisite for the movement's long-term survival and operational viability.",
+   "text_short": "The revived US Pirate Party must build state-level organizations to avoid national financial insolvency.",
    "char_start": 0,
    "char_end": 2081,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2143,
+    "rouge2_precision": 0.2,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -44,14 +44,14 @@
     "Brittany Phelps",
     "administrator of the United States Pirate Party"
    ],
-   "text": "The revived United States Pirate Party is dedicated to protecting citizens' rights to privacy and freedom of information while ensuring government transparency. These core values form the foundation of the party's platform, aiming to challenge the status quo by demanding open governance and robust digital liberties for all Americans.",
-   "text_short": "The revived US Pirate Party prioritizes privacy, information freedom, and government transparency as its core goals.",
+   "text": "The leadership of the United States Pirate Party declares a core commitment to advancing a specific political platform that prioritizes the protection of citizen privacy, guarantees freedom of information, and demands comprehensive reforms to the patent and copyright systems. These goals are framed as essential measures to correct perceived injustices within the current intellectual property and surveillance frameworks.",
+   "text_short": "The US Pirate Party advocates for privacy, information freedom, and IP reform as core goals.",
    "char_start": 0,
    "char_end": 2081,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2857,
+    "rouge2_precision": 0.2105,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -64,14 +64,14 @@
     "Brittany Phelps",
     "administrator of the United States Pirate Party"
    ],
-   "text": "The administration's record on government transparency has been deeply disappointing, with critical documents like the Anti-Counterfeiting Trade Agreement (ACTA) hidden from public view and major legislation withheld from required disclosure periods. This failure to provide the promised openness demonstrates that hope for a transparent government under current leadership is misplaced.",
-   "text_short": "The current administration's failure to disclose key documents proves that hope for government transparency is misplaced.",
+   "text": "The administration of President Obama is criticized for failing to uphold necessary government transparency, a shortcoming highlighted by the secret negotiation of the Anti-Counterfeiting Trade Agreement, the concealment of torture techniques, and the restricted public access to details regarding health care reform legislation. This lack of openness is cited as evidence that the executive branch has not fulfilled its obligation to operate in the light of day.",
+   "text_short": "The Obama administration is accused of failing to provide government transparency.",
    "char_start": 0,
    "char_end": 2081,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1875,
+    "rouge2_precision": 0.1194,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -84,14 +84,14 @@
     "Brittany Phelps",
     "administrator of the United States Pirate Party"
    ],
-   "text": "Existing privacy safeguards are fundamentally flawed because they often rely on invasive surveillance methods that disproportionately harm law-abiding citizens. Rather than protecting individual rights, these measures effectively treat the general public as potential criminals, necessitating a shift toward more effective, non-invasive strategies for reducing crime.",
-   "text_short": "Current privacy safeguards are ineffective because they rely on invasive surveillance that harms law-abiding citizens.",
+   "text": "Existing government strategies for protecting privacy are deemed ineffective because they rely on invasive measures that disproportionately harm law-abiding citizens rather than addressing the root causes of crime. The argument posits that current security approaches prioritize potential threats over civil liberties, necessitating a shift toward more effective crime reduction methods that do not require sacrificing individual privacy rights.",
+   "text_short": "Current privacy safeguards are criticized for being ineffective and overly invasive.",
    "char_start": 0,
    "char_end": 2081,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1333,
+    "rouge2_precision": 0.0517,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -104,17 +104,17 @@
     "Brittany Phelps",
     "administrator of the United States Pirate Party"
    ],
-   "text": "The current legal framework that treats every American as a criminal without a trial is fundamentally unjust, a practice that must be reformed to protect the rights of law-abiding citizens while effectively reducing crime.",
-   "text_short": "The current legal framework treating Americans as criminals without trial is unjust and must be reformed.",
+   "text": "The current legal framework in the United States effectively treats every citizen as a criminal without a trial, a practice that must be reformed to protect the rights of law-abiding individuals. This systemic failure to distinguish between actual offenders and innocent people undermines the justice system and erodes public trust in the rule of law.",
+   "text_short": "The current US legal framework treats all citizens as criminals without trial, violating rights and eroding trust.",
    "char_start": 2081,
    "char_end": 4040,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2059,
+    "rouge2_precision": 0.1636,
     "paraphrased": false,
     "in_text": "no",
-    "actor_correct": "no"
+    "actor_correct": "uncertain"
    }
   },
   {
@@ -124,14 +124,14 @@
     "Brittany Phelps",
     "administrator of the United States Pirate Party"
    ],
-   "text": "The prevailing two-party system in the United States functions as a false dichotomy that simplifies complex political realities, thereby ignoring the nation's diverse ideas and failing to serve the interests of its varied population.",
-   "text_short": "The US two-party system is a false dichotomy that ignores the nation's diverse ideas.",
+   "text": "The entrenched two-party system in the United States simplifies a diverse nation into a false black-and-white dichotomy, ignoring the many shades of gray in public opinion. This rigid political structure does a disservice to the country by failing to represent the full spectrum of ideas and opinions held by its people.",
+   "text_short": "The US two-party system falsely simplifies a diverse nation, ignoring the full spectrum of public opinion.",
    "char_start": 2081,
    "char_end": 4040,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1714,
+    "rouge2_precision": 0.283,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -144,17 +144,37 @@
     "Brittany Phelps",
     "administrator of the United States Pirate Party"
    ],
-   "text": "The United States Pirate Party anticipates significant hurdles regarding ballot access due to the country's restrictive laws, yet the organization remains convinced of its capability to overcome these obstacles and welcomes the challenge of expanding political participation.",
-   "text_short": "The USPP faces ballot access challenges but is confident in its ability to succeed.",
+   "text": "The revived United States Pirate Party will face the significant challenge of ballot access early on, as the current political landscape is dominated by two major parties that make it difficult for new entrants to gain representation. Overcoming this barrier is essential for the party to compete effectively and offer voters a genuine alternative to the status quo.",
+   "text_short": "The revived US Pirate Party faces the significant challenge of ballot access in a two-party dominated landscape.",
    "char_start": 2081,
    "char_end": 4040,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2162,
+    "rouge2_precision": 0.1228,
     "paraphrased": false,
     "in_text": "yes",
-    "actor_correct": "no"
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "19-s8",
+   "actor": "Brittany Phelps",
+   "actor_aliases": [
+    "Brittany Phelps",
+    "administrator of the United States Pirate Party"
+   ],
+   "text": "Despite the inherent difficulties of entering a crowded political field, the United States Pirate Party possesses the capability to compete against established parties and welcomes this challenge. The organization is convinced that by offering a distinct platform focused on privacy, transparency, and ballot reform, it can successfully attract voters dissatisfied with the existing two-party system.",
+   "text_short": "The US Pirate Party is confident in its ability to compete and welcomes the challenge of entering the political arena.",
+   "char_start": 2081,
+   "char_end": 4040,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1636,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "uncertain"
    }
   }
  ],

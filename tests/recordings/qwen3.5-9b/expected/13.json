@@ -45,14 +45,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The upcoming documentary 'Sicko,' produced by Lionsgate Studios and directed by Michael Moore, has already been distributed on peer-to-peer networks, representing a second unauthorized pre-release leak within a single month. This incident occurs as the film, which critiques the United States healthcare system by comparing it to international models, faces scrutiny from federal authorities regarding its content.",
-   "text_short": "The online leak of Lionsgate's film 'Sicko' represents another instance of a pre-release breach.",
+   "text": "Lionsgate Studios, the distributor, has faced a second pre-release leak this month. The film 'Sicko' was shared on peer-to-peer networks. This movie criticizes the U.S. healthcare system by contrasting it with Cuba's model. These leaks hurt the planned release strategy. They also create worry about how the film will affect public discussion on healthcare reform before it officially opens.",
+   "text_short": "A leaked copy of the controversial healthcare documentary 'Sicko' marks a second pre-release breach for its distributor.",
    "char_start": 0,
    "char_end": 1945,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2034,
+    "rouge2_precision": 0.2381,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -64,14 +64,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The documentary 'Sicko' highlights a stark disparity in healthcare access by documenting how volunteer workers who served at the World Trade Center after the September 11 attacks were denied necessary medical aid in the United States, yet received free treatment in Havana, Cuba. This contrast is further illustrated by the fact that a specific respiratory inhaler costs approximately five cents in Cuba compared to 120 dollars in the U.S., underscoring the film's argument that the American system prioritizes profit over patient care.",
-   "text_short": "The film 'Sicko' contrasts U.S. healthcare denial with Cuba's free treatment model using 9/11 worker testimonies.",
+   "text": "The documentary 'Sicko' highlights a stark contrast between the U.S. and Cuba's healthcare systems by documenting how 9/11 volunteers denied aid in the United States were able to receive free treatment in Havana. This comparison, which includes data showing an inhaler costs five cents in Cuba versus 120 dollars in the U.S., serves as evidence that the current American system fails to provide affordable care even to those with insurance, thereby challenging the necessity of the existing private-sector-dominated model.",
+   "text_short": "The film 'Sicko' uses the case of 9/11 victims to argue that the U.S. healthcare system is fundamentally broken compared to Cuba's model.",
    "char_start": 1945,
    "char_end": 2852,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2892,
+    "rouge2_precision": 0.2,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -85,14 +85,14 @@
     "America's Health Insurance Plans",
     "AHIP"
    ],
-   "text": "Health insurance companies, speaking through their trade group America's Health Insurance Plans, argue that the United States must pursue a uniquely American solution where public and private sectors collaborate to ensure everyone has high-quality, affordable healthcare. This position is adopted in direct response to the upcoming release of the documentary 'Sicko,' which calls for a healthcare system modeled after Canada, France, or the United Kingdom.",
-   "text_short": "Health insurers advocate for a public-private hybrid model to ensure affordable care, opposing the film's call for foreign-style systems.",
+   "text": "In response to the release of the documentary 'Sicko,' which calls for a healthcare system modeled after Canada, France, or the UK, the health insurance industry insists that the United States must develop a unique solution. This approach requires the public and private sectors to work together to ensure everyone has access to high-quality, affordable healthcare, rejecting the notion of adopting a foreign system in favor of a hybrid domestic reform.",
+   "text_short": "Health insurance companies oppose adopting foreign healthcare models, advocating instead for a unique American hybrid of public and private sectors.",
    "char_start": 2852,
    "char_end": 3067,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1667,
+    "rouge2_precision": 0.1579,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "no"

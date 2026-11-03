@@ -46,12 +46,12 @@ class Resources:
 
 
 @dataclass
-class PipelineResult:
+class RunResult:
     data: dict              # the output (docs/design-1.1.0.md, section 6.3; schemas/output.schema.json)
     html_report: str
     # intermediate state exposed for batch_debug
     all_statements: list
-    passages: list
+    excerpts: list
 
 
 def load_embedding_model(model_name: str) -> SentenceTransformer:
@@ -61,8 +61,8 @@ def load_embedding_model(model_name: str) -> SentenceTransformer:
 
 
 def set_verbose(value: bool) -> None:
-    from karaage import segmentation, attribution, passages, extraction, rephrasing, paraphrasing, validation, output
-    for mod in [segmentation, attribution, passages, extraction, rephrasing, paraphrasing, validation, output]:
+    from karaage import segmentation, attribution, excerpts, extraction, rephrasing, paraphrasing, validation, output
+    for mod in [segmentation, attribution, excerpts, extraction, rephrasing, paraphrasing, validation, output]:
         mod.verbose = value
 
 
@@ -113,20 +113,20 @@ def read_document(document) -> tuple[str, str, str | None, str | None]:
     return str(document_id), text, title or None, published_at or None
 
 
-def run(document, resources: Resources) -> PipelineResult:
+def run(document, resources: Resources) -> RunResult:
     """Process one document: a dict with an `id` (string or integer) and a `text`,
     and optionally a `title` and a `published_at` date, given as context to the main point step.
 
     Never raises on a failing step: the output then has the status `failed`, with the error.
     """
     from karaage.segmentation import step_1_segment
-    from karaage.attribution import step_2_attribute_authors
-    from karaage.passages import step_3_passages
+    from karaage.attribution import step_2_attribute_actors
+    from karaage.excerpts import step_3_excerpts
     from karaage.extraction import step_4_key_statements
     from karaage.rephrasing import step_5_rephrase
     from karaage.paraphrasing import step_6_paraphrase
     from karaage.validation import step_7_validate
-    from karaage.output import STEPS, TOOL, build_output, build_html_report, build_speaker_styles, error, timestamp
+    from karaage.output import STEPS, TOOL, build_output, build_html_report, build_actor_styles, error, timestamp
 
     document_id, text, title, published_at = read_document(document)
     llm.activate(resources.client)
@@ -150,10 +150,10 @@ def run(document, resources: Resources) -> PipelineResult:
             step_seconds[name] = round(time.perf_counter() - t0, 1)
 
     segments,       html_seg  = _step("segmentation", lambda: step_1_segment(text, resources.nlp))
-    sources,        html_attr = _step("attribution",  lambda: step_2_attribute_authors(segments, model, resources.max_context_tokens))
-    passages_list,  html_pass = _step("passages",     lambda: step_3_passages(segments, sources))
-    all_stmts, main_point, html_extr, passage_errors, main_point_method = _step("extraction", lambda: step_4_key_statements(segments, passages_list, title, published_at), n_returns=5)
-    rephrased,      html_reph = _step("rephrasing",   lambda: step_5_rephrase(all_stmts, passages_list, main_point))
+    attribution,    html_attr = _step("attribution",  lambda: step_2_attribute_actors(segments, model, resources.max_context_tokens))
+    excerpts_list,  html_exc  = _step("excerpts",     lambda: step_3_excerpts(segments, attribution))
+    all_stmts, main_point, html_extr, excerpt_errors, main_point_method = _step("extraction", lambda: step_4_key_statements(segments, excerpts_list, title, published_at), n_returns=5)
+    rephrased,      html_reph = _step("rephrasing",   lambda: step_5_rephrase(all_stmts, excerpts_list, main_point))
     paraphrased,    html_para = _step("paraphrasing", lambda: step_6_paraphrase(rephrased, resources.embedding_model, resources.sim_model))
     validated,      html_val  = _step("validation",   lambda: step_7_validate(paraphrased))
 
@@ -168,9 +168,9 @@ def run(document, resources: Resources) -> PipelineResult:
     data = build_output(
         document_id, text,
         failure=failure,
-        passage_errors=passage_errors or [],
+        excerpt_errors=excerpt_errors or [],
         segments=segments,
-        sources=sources,
+        attribution=attribution,
         statements=validated,
         main_point=main_point,
         main_point_method=main_point_method,
@@ -189,20 +189,20 @@ def run(document, resources: Resources) -> PipelineResult:
         return html_content
 
     step_html = {
-        "segmentation": html_seg, "attribution": html_attr, "passages": html_pass, "extraction": html_extr,
+        "segmentation": html_seg, "attribution": html_attr, "excerpts": html_exc, "extraction": html_extr,
         "rephrasing": html_reph, "paraphrasing": html_para, "validation": html_val,
     }
     sections = [{"title": title, "html": _section_html(name, step_html[name])} for name, title in STEPS.items()]
-    speaker_styles = build_speaker_styles(sources) if sources is not None else ""
-    html_report = build_html_report(data, speaker_styles, sections)
+    actor_styles = build_actor_styles(attribution) if attribution is not None else ""
+    html_report = build_html_report(data, actor_styles, sections)
 
     print_time(step_seconds, chars=len(text), compact=True)
 
-    return PipelineResult(
+    return RunResult(
         data=data,
         html_report=html_report,
         all_statements=all_stmts or [],
-        passages=passages_list or [],
+        excerpts=excerpts_list or [],
     )
 
 def print_time(step_seconds, chars, compact=False):
@@ -222,7 +222,7 @@ def print_time(step_seconds, chars, compact=False):
 
 
 def save(
-    result: PipelineResult,
+    result: RunResult,
     *,
     data_path=None,
     html_path=None,

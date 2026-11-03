@@ -45,14 +45,14 @@
     "Australian Federal Court",
     "the court"
    ],
-   "text": "The Australian Federal Court has mandated that Internet service providers block access to five specific websites known for copyright infringement within fifteen business days, establishing a new legal precedent for enforcing intellectual property rights in the digital space.",
-   "text_short": "A directive from the Australian Federal Court requires five websites that breach copyright rules to be shut down in a 15-day window.",
+   "text": "The Australian Federal Court has mandated that Internet service providers in Australia must block access to five specific websites known for copyright infringement within fifteen business days, marking the first enforcement of the nation's new digital copyright laws.",
+   "text_short": "Within 15 days, the Australian Federal Court directed internet service providers to stop five specific websites that break copyright rules.",
    "char_start": 0,
    "char_end": 392,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "too similar to source",
    "diagnostics": {
-    "rouge2_precision": 0.2973,
+    "rouge2_precision": 0.3158,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -64,35 +64,34 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Under the new Australian legislation, the Federal Court requires Internet service providers to block five specific copyright-infringing sites within 15 days, a process funded by copyright holders paying up to A$50 per domain and resulting in blocked sites being replaced by an 'access denied' landing page.",
-   "text_short": "New Australian legislation requires ISPs to block five copyright sites within 15 days, funded by copyright holders.",
+   "text": "Internet service providers in Australia retain the flexibility to select their preferred technical method for blocking infringing sites, with available options ranging from Domain Name System (DNS) blocking and IP address blocking to URL blocking, all under the framework of the new legislation.",
+   "text_short": "Australian ISPs retain the flexibility to choose their preferred technical method for blocking infringing sites.",
    "char_start": 392,
    "char_end": 827,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1702,
+    "rouge2_precision": 0.0714,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
   {
    "id": "28-s3",
-   "actor": "Peter Tonagh",
+   "actor": "base_author",
    "actor_aliases": [
-    "Peter Tonagh",
-    "chief executive of copyright holders Foxtel"
+    "base_author"
    ],
-   "text": "Peter Tonagh, chief executive of the media company Foxtel, views the Federal Court's recent judgment as a pivotal moment for directly combating digital piracy and educating the public that accessing content through unauthorized sites constitutes theft rather than legitimate use.",
-   "text_short": "The chief executive of Foxtel believes the court ruling represents significant progress in fighting piracy and informing the public.",
-   "char_start": 827,
-   "char_end": 1065,
+   "text": "Under the new Australian copyright legislation, copyright holders are responsible for paying Internet service providers up to A$50 for each specific domain that is ordered to be blocked, a cost structure designed to incentivize the enforcement of the blocking orders.",
+   "text_short": "Under the new Australian copyright legislation, copyright holders are responsible for paying Internet service providers up to A$50 for each specific domain that is ordered to be blocked.",
+   "char_start": 392,
+   "char_end": 827,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.3,
-    "paraphrased": true,
+    "rouge2_precision": 0.25,
+    "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -103,16 +102,55 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Graham Bruke, co-executive of the film studio Village Roadshow, characterized individuals who illegally download copyrighted material as 'leeches and thieves' and compared their actions to selling heroin, a strong moral stance reflecting the company's commitment to protecting intellectual property rights.",
-   "text_short": "A co-executive from Village Roadshow stated that pirates are 'leeches and thieves,' noting they are similar to heroin sellers.",
+   "text": "After the required blocking of sites that violate copyright rules is put into effect, the blocked domains must show a landing page. This page must display an 'access denied' message and a clear notice telling users that the site either breaks copyright laws or helps others break them.",
+   "text_short": "After the required blocking of sites that violate copyright rules is put into effect, the blocked domains must show a landing page. This page must display an 'access denied' message and a clear notice telling users that the site either breaks copyright laws or helps others break them.",
+   "char_start": 392,
+   "char_end": 827,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1277,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "28-s5",
+   "actor": "Peter Tonagh",
+   "actor_aliases": [
+    "Peter Tonagh",
+    "chief executive of copyright holders Foxtel"
+   ],
+   "text": "The recent court ruling mandating that Internet service providers block specific copyright-infringing websites represents a significant advancement in the fight against digital piracy. This legal decision not only forces these platforms offline but also serves as a powerful educational tool, reinforcing the public understanding that downloading protected material from such sites constitutes theft rather than a legitimate activity.",
+   "text_short": "Stopping access to illegal download platforms through a legal decision is a significant move against stealing content and teaching people about copyright.",
+   "char_start": 827,
+   "char_end": 1065,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0476,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "28-s6",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Under the newly enacted Australian copyright legislation, the Federal Court has issued an order requiring Internet service providers to block five specific websites within fifteen business days. This enforcement mechanism mandates that the service providers cover a fee of up to A$50 per domain and must replace access to the blocked sites with a standardized 'access denied' message, marking the first practical application of these legal requirements.",
+   "text_short": "The Federal Court ordered ISPs to block five copyright sites under new legislation requiring fees and access denial messages.",
    "char_start": 1065,
    "char_end": 1561,
    "valid": false,
-   "rejection_reason": "too similar to source",
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.3158,
-    "paraphrased": true,
-    "in_text": "yes",
+    "rouge2_precision": 0.0556,
+    "paraphrased": false,
+    "in_text": "no",
     "actor_correct": "yes"
    }
   }

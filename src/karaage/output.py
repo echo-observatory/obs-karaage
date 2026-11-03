@@ -13,7 +13,7 @@ import re
 import unicodedata
 from importlib.resources import files
 
-from karaage.attribution import SOURCE_COLORS
+from karaage.attribution import ACTOR_COLORS
 
 verbose = False
 
@@ -23,7 +23,7 @@ TOOL = "karaage"
 STEPS = {
     "segmentation": "Segmentation",
     "attribution": "Attribution",
-    "passages": "Passages",
+    "excerpts": "Excerpts",
     "extraction": "Key statements extraction",
     "rephrasing": "Rephrasing",
     "paraphrasing": "Paraphrasing",
@@ -74,8 +74,8 @@ def snapshot_kind(kind):
     return kind if kind in ("person", "organisation") else None
 
 
-def error(step: str, message: str, *, passage: int | None = None, statement: str | None = None) -> dict:
-    return {"step": step, "passage": passage, "statement": statement, "message": message}
+def error(step: str, message: str, *, excerpt: int | None = None, statement: str | None = None) -> dict:
+    return {"step": step, "excerpt": excerpt, "statement": statement, "message": message}
 
 
 def statement_id(document_id: str, s: dict) -> str:
@@ -102,7 +102,7 @@ def build_statement(s: dict, document_id: str, segments_by_id: dict, aliases_by_
         "actor_aliases": aliases_by_actor.get(s["actor"], [s["actor"]]),
         "text": text or None,
         "text_short": text_short or None,
-        # The passage's offsets (docs/design-1.1.0.md, section 3.2).
+        # The excerpt's offsets (docs/design-1.1.0.md, section 3.2).
         "char_start": segments_by_id[min(s["segments"])]["start"],
         "char_end": segments_by_id[max(s["segments"])]["end"],
         "valid": s["valid"],
@@ -133,9 +133,9 @@ def build_output(
     text: str,
     *,
     failure: dict | None,
-    passage_errors: list,
+    excerpt_errors: list,
     segments: list | None,
-    sources,
+    attribution,
     statements: list | None,
     main_point: str | None,
     main_point_method: str | None,
@@ -145,22 +145,22 @@ def build_output(
 
     failure: the error of a step that failed as a whole, or None. The document
     is then `failed`, and the results of the steps that ran are left out.
-    passage_errors: the passages whose extraction failed ({"passage_index", "error"}).
+    excerpt_errors: the excerpts whose extraction failed ({"excerpt_index", "error"}).
     statements: the statements as validated by step 7.
     """
     if failure:
         status, errors = "failed", [failure]
         actors, statements_out, main_point, main_point_method = [], [], None, None
     else:
-        errors = [error("extraction", e["error"], passage=e["passage_index"] + 1) for e in passage_errors]
+        errors = [error("extraction", e["error"], excerpt=e["excerpt_index"] + 1) for e in excerpt_errors]
         errors += statement_errors(statements, document_id)
         status = "partial" if errors else "ok"
-        source_list = list(getattr(sources, "sources", sources))
+        actor_list = list(getattr(attribution, "actors", attribution))
         actors = [
-            {"canonical_name": src.main, "aliases": list(src.other), "kind": snapshot_kind(src.kind)}
-            for src in source_list
+            {"canonical_name": actor.canonical_name, "aliases": list(actor.aliases), "kind": snapshot_kind(actor.kind)}
+            for actor in actor_list
         ]
-        aliases_by_actor = {src.main: list(dict.fromkeys([src.main, *src.other])) for src in source_list}
+        aliases_by_actor = {actor.canonical_name: list(dict.fromkeys([actor.canonical_name, *actor.aliases])) for actor in actor_list}
         aliases_by_actor["base_author"] = ["base_author"]
         segments_by_id = {seg["id"]: seg for seg in segments}
         statements_out = [build_statement(s, document_id, segments_by_id, aliases_by_actor) for s in statements]
@@ -179,14 +179,14 @@ def build_output(
     }
 
 
-def build_speaker_styles(sources) -> str:
-    ordered_sources = sorted(
-        list(getattr(sources, "sources", sources)),
-        key=lambda src: min((start for start, _ in src.segments), default=float("inf"))
+def build_actor_styles(attribution) -> str:
+    ordered_actors = sorted(
+        list(getattr(attribution, "actors", attribution)),
+        key=lambda actor: min((start for start, _ in actor.segments), default=float("inf"))
     )
     style_rules = [
-        f"  .source{rank:02d} {{ background-color: {SOURCE_COLORS[(rank - 1) % len(SOURCE_COLORS)]}; }}"
-        for rank in range(1, len(ordered_sources) + 1)
+        f"  .actor{rank:02d} {{ background-color: {ACTOR_COLORS[(rank - 1) % len(ACTOR_COLORS)]}; }}"
+        for rank in range(1, len(ordered_actors) + 1)
     ]
     return "\n".join(style_rules)
 
@@ -213,7 +213,7 @@ def save_results(dest: pathlib.Path, result: dict) -> None:
 def _problems_html(data: dict) -> str:
     """The document's errors and warnings, for the top of the report."""
     def item(e):
-        where = e["step"] + (f", passage {e['passage']}" if e["passage"] else "") + (f", {e['statement']}" if e["statement"] else "")
+        where = e["step"] + (f", excerpt {e['excerpt']}" if e["excerpt"] else "") + (f", {e['statement']}" if e["statement"] else "")
         return f"<li>{html_lib.escape(where)}: <code>{html_lib.escape(e['message'])}</code></li>"
     parts = []
     if data["errors"]:
@@ -224,7 +224,7 @@ def _problems_html(data: dict) -> str:
     return "\n".join(parts)
 
 
-def build_html_report(data: dict, speaker_styles: str, sections: list) -> str:
+def build_html_report(data: dict, actor_styles: str, sections: list) -> str:
     """The report of one document, self-contained so that it opens offline.
 
     data: the document's output. sections: list of {"title": str, "html": str}.
@@ -254,7 +254,7 @@ def build_html_report(data: dict, speaker_styles: str, sections: list) -> str:
         .seg0 {{ background-color: #eeeeee; }}
         .seg1 {{ background-color: #d4e0ef; }}
         mark {{ margin-right: 0.10em; font-style: normal; }}
-        {speaker_styles}
+        {actor_styles}
     </style>
     </head>
     <body>

@@ -80,14 +80,14 @@
     "Dvdrs",
     "DVDRS"
    ],
-   "text": "The administrators of the Usenet search engine dvdrs.net state that they have not received any direct communication from the Motion Picture Association of America (MPAA) regarding the legal action taken against their site. They express deep outrage at this procedural failure, arguing that the public announcement of lawsuits without prior contact is an unacceptable method of enforcement that damages their reputation and trust.",
-   "text_short": "The dvdrs.net administrators claim they were not directly notified by the MPAA before public lawsuits were filed, causing them significant outrage.",
+   "text": "The administrators of the Usenet search engine dvdrs.net state that they have not received any direct communication from the Motion Picture Association of America (MPAA) regarding the legal action taken against their site. They express deep outrage at this procedural failure, arguing that the public announcement of lawsuits without prior contact is an unacceptable method of enforcement that damages their reputation and operations.",
+   "text_short": "The dvdrs.net administrators claim they were not directly notified by the MPAA before public lawsuits were filed, calling the method unacceptable.",
    "char_start": 531,
    "char_end": 1836,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1905,
+    "rouge2_precision": 0.2381,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -99,14 +99,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The administrators of the affected websites express shock and outrage that the Motion Picture Association of America (MPAA) chose to announce its lawsuits publicly rather than contacting them directly first. They assert that, had they been given proper prior notice, they would have cooperated fully with the MPAA's concerns and worked toward a resolution, indicating that the lack of direct communication is the primary issue.",
-   "text_short": "Website administrators express shock and outrage that the MPAA announced lawsuits publicly instead of contacting them directly, noting they would have cooperated with proper notice.",
+   "text": "The administrators of the affected websites, including Binnews and dvdrs.net, have expressed significant shock and outrage upon learning of the lawsuits only after the Motion Picture Association of America (MPAA) made a public announcement. They emphasize that this lack of direct, prior notification has caused distress, as they were unaware of the legal proceedings until they were already public knowledge.",
+   "text_short": "Website administrators expressed shock and outrage at learning of the MPAA lawsuits only after the public announcement.",
    "char_start": 1836,
    "char_end": 2157,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.125,
+    "rouge2_precision": 0.0625,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -120,14 +120,14 @@
     "Dvdrs",
     "DVDRS"
    ],
-   "text": "The administrators of the Usenet search engine dvdrs.net emphasize that they would have willingly cooperated with the Motion Picture Association of America (MPAA) had the organization contacted them personally to discuss their concerns. However, they argue that being publicly portrayed as an established piracy ring without prior direct engagement is an outrage, as they maintain their site operates within international laws and has worked hard to comply with legal standards.",
-   "text_short": "The dvdrs.net administrators state they would have cooperated with the MPAA if contacted personally, but condemn the public portrayal of their site as a piracy ring.",
+   "text": "The operators of the Usenet search engine dvdrs.net assert that they would have willingly cooperated with the Motion Picture Association of America (MPAA) had the organization contacted them directly to discuss their concerns. However, they maintain that being publicly portrayed as an established piracy ring without such personal contact is an outrage, arguing that their site operates within international laws and that the public smear campaign is destroying the reputation they have built over two years.",
+   "text_short": "The dvdrs.net operators claim they would have cooperated with the MPAA if contacted directly, but condemn the public portrayal as a piracy ring.",
    "char_start": 2157,
    "char_end": 2655,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1429,
+    "rouge2_precision": 0.1579,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -139,15 +139,15 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Although the US Digital Millennium Copyright Act provides a legal framework for addressing alleged copyright infringement, the administrators of the Binnews and dvdrs.net search sites claim they have established internal procedures to comply with such laws. However, these operators assert that they have never received any formal takedown notices from the copyright holders, despite the existence of these legal mechanisms.",
-   "text_short": "Usenet site administrators claim they have legal procedures to handle infringement but deny receiving any takedown notices.",
+   "text": "Binnews and dvdrs.net have set up specific steps to deal with copyright violations according to the US Digital Millennium Copyright Act. However, the people running these sites say they have not gotten an official takedown notice from any group, even though these internal rules exist.",
+   "text_short": "Usenet site operators claim they have internal copyright compliance procedures but deny receiving any formal infringement notices.",
    "char_start": 2655,
    "char_end": 2978,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1667,
-    "paraphrased": false,
+    "rouge2_precision": 0.2222,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -160,14 +160,14 @@
     "Binnews.com",
     "BinNews.com"
    ],
-   "text": "The administrators of the Binnews search site explicitly state that they have never received a copyright infringement notice from any organization, despite maintaining proper guidelines for handling Digital Millennium Copyright Act requests on their platform.",
-   "text_short": "Binnews administrators confirm they have never received any copyright infringement notices from any organization.",
+   "text": "The Binnews website operator confirms that their organization has never received a Digital Millennium Copyright Act notice, attributing this lack of contact to the fact that they maintain proper site guidelines and utilize a dedicated cell phone line for direct communication.",
+   "text_short": "Binnews operators confirm they have never received a copyright infringement notice due to their direct communication channels.",
    "char_start": 2978,
    "char_end": 3181,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1538,
+    "rouge2_precision": 0.1875,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "no"
@@ -179,14 +179,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Motion Picture Association of America (MPAA) initiated lawsuits against Usenet search sites without first notifying the site administrators, a procedural failure that has caused significant outrage among the operators. These administrators argue that their sites operate legally and would have cooperated fully with the MPAA to resolve the issues had they been contacted directly and properly before the public announcement.",
-   "text_short": "The MPAA sued Usenet sites without prior notice, causing outrage among administrators who claim their sites are legal and would have cooperated had they been contacted properly.",
+   "text": "The Motion Picture Association of America sued specific Usenet search sites without providing prior notification to the site administrators, a procedural failure that has caused significant outrage among the operators who maintain that their sites operate legally and would have cooperated fully had they been contacted directly.",
+   "text_short": "The MPAA's lawsuit against Usenet sites without prior notice has caused outrage among operators who claim their sites are legal.",
    "char_start": 3181,
    "char_end": 3703,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0769,
+    "rouge2_precision": 0.0652,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -200,14 +200,14 @@
     "Dvdrs",
     "DVDRS"
    ],
-   "text": "The operators of the dvdrs.net search site assert that they would immediately delete any offending files upon receiving a formal request and would conduct a thorough investigation into any connected files. They emphasize that they are fully committed to complying with legal standards and would respond personally to any valid takedown notices to resolve the matter efficiently.",
-   "text_short": "The dvdrs.net operators assert they would immediately delete offending files and conduct thorough research upon receiving a formal request.",
+   "text": "The administrators of the dvdrs.net site stated that if a copyright infringement notice were issued, they would immediately delete the offending files from their servers and conduct a thorough investigation into any other content connected to the flagged material.",
+   "text_short": "Usenet site administrators pledge to immediately remove infringing files and investigate related content upon receiving a notice.",
    "char_start": 3703,
    "char_end": 4104,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2105,
+    "rouge2_precision": 0.2821,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -219,14 +219,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Administrators of Usenet search sites like Binnews and Dvdrs assert that their platforms operate legally by indexing files already hosted on commercial, tax-paying companies rather than storing the content themselves, functioning similarly to standard search engines. They maintain that without the premium services of these third-party hosts, their text-based indexes would be useless, arguing that they merely point to existing files without hosting illegal material directly.",
-   "text_short": "Usenet site administrators assert their platforms operate legally by indexing files from commercial hosts rather than storing content directly.",
+   "text": "The Motion Picture Association of America initiated legal action against Usenet search sites without providing prior notification, a procedural failure that has sparked significant anger among site administrators. These operators assert that their services are legal and would have immediately complied with takedown requests had they been given the proper opportunity to respond.",
+   "text_short": "The MPAA's failure to notify Usenet sites before suing has angered admins who claim legality and promise cooperation if contacted properly.",
    "char_start": 4104,
    "char_end": 4803,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0882,
+    "rouge2_precision": 0.0476,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "no"
@@ -239,14 +239,14 @@
     "Descds",
     "administrator of dvdrs.net"
    ],
-   "text": "The Descds administration contends that if the Motion Picture Association of America (MPAA) considers their Usenet indexing service unlawful, they must also sue premium paid Usenet providers that function as file carriers. This position points out a perceived inconsistency, observing that large providers such as Easynews and Usenetserver provide both indexing and carrier services but have not faced lawsuits from the MPAA.",
-   "text_short": "The Descds administration maintains that if the MPAA decides their service is unlawful, they must also go after premium paid Usenet providers, since those providers handle the transfer of these files.",
+   "text": "The Descds administration argues that if the Motion Picture Association of America determines their services illegal, the organization must also pursue legal action against premium paid Usenet providers who act as the transit for these files. This stance highlights a perceived inconsistency, noting that major carriers like Easynews and Usenetserver, which offer both indexing and file transfer, have not yet been targeted by such lawsuits.",
+   "text_short": "Descds maintains that if the MPAA classifies them as unlawful, it must also pursue premium paid Usenet providers, since these services function as the transit route for the files.",
    "char_start": 4803,
    "char_end": 5706,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2667,
+    "rouge2_precision": 0.2969,
     "paraphrased": true,
     "in_text": "no",
     "actor_correct": "no"
@@ -259,15 +259,15 @@
     "Descds",
     "administrator of dvdrs.net"
    ],
-   "text": "The Descds administration expresses frustration that Newzbin, the creators and promoters of the NZB format and arguably the largest Usenet indexing site in the world, has not been sued by the MPAA. They describe their situation as being 'rail roaded' and unhappy about the selective legal approach, contrasting their treatment with the lack of action against the primary source of the indexing format.",
-   "text_short": "The Descds administration expresses frustration that Newzbin, the largest Usenet indexing site, has not been sued by the MPAA, describing their situation as being unfairly targeted.",
+   "text": "The Descds administration believes it is ironic that Newzbin, which developed and promoted the NZB format and is likely the biggest Usenet indexing site globally, has not yet faced any lawsuits. As a result, the administration feels they are being hurried into legal proceedings without proper due process and show deep displeasure with the method currently used by the Motion Picture Association of America.",
+   "text_short": "Descds feels it is ironic that Newzbin, which operates as the biggest Usenet indexing site, has not faced any lawsuits. This situation makes Descds believe they are being pushed into legal trouble too quickly and without fair cause.",
    "char_start": 4803,
    "char_end": 5706,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2903,
-    "paraphrased": false,
+    "rouge2_precision": 0.2162,
+    "paraphrased": true,
     "in_text": "no",
     "actor_correct": "no"
    }
@@ -278,17 +278,17 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Although the Descds administration operates outside of US jurisdiction, they state they are willing to assist the Motion Picture Association of America (MPAA) in resolving the legal dispute. They offer to remove any sections deemed illegal immediately upon receiving communication and legal judgment, while simultaneously hoping the MPAA will retract its claim that they are an organized pirate network and restore their reputation.",
-   "text_short": "Although operating outside US jurisdiction, the Descds administration states they are willing to assist the MPAA in resolving the legal dispute by removing illegal content upon request.",
+   "text": "Despite operating outside US jurisdiction, the Descds administration expressed a willingness to assist the Motion Picture Association of America and remove specific sections if the files are legally deemed illegal. The organization emphasizes a desire to resolve the dispute through direct communication and legal judgment rather than immediate litigation, while also seeking support from legal bodies like the Electronic Frontier Foundation if the MPAA refuses to communicate.",
+   "text_short": "Descds, despite being outside US jurisdiction, expressed willingness to assist the MPAA and remove NZB sections if deemed illegal, while seeking a resolution through direct communication.",
    "char_start": 5706,
    "char_end": 6217,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1538,
+    "rouge2_precision": 0.24,
     "paraphrased": false,
     "in_text": "yes",
-    "actor_correct": "no"
+    "actor_correct": "yes"
    }
   },
   {
@@ -299,16 +299,16 @@
     "Dvdrs",
     "DVDRS"
    ],
-   "text": "The entity operating the Dvdrs.net website asserts that its service does not constitute a pirate network, despite the Motion Picture Association of America (MPAA) labeling it as such. This claim relies on the premise that the site merely indexes files hosted by others rather than distributing them directly, arguing that the accusation misrepresents the organization's actual function and damages its reputation as a legitimate community resource.",
-   "text_short": "Dvdrs.net denies being a pirate network, arguing its indexing service is legitimate and the MPAA's accusation is false.",
+   "text": "The claim that the US-based hosting service Dvdrs.net operates as a pirate network is factually incorrect and deeply offensive to its community, which has always maintained a legitimate, non-piracy-focused presence. This organization insists that its role is strictly informational and that labeling it a pirate site misrepresents its actual operations and values.",
+   "text_short": "Dvdrs.net rejects the pirate network label as false and insulting to its community.",
    "char_start": 6217,
    "char_end": 6906,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1579,
+    "rouge2_precision": 0.0909,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -320,14 +320,14 @@
     "Dvdrs",
     "DVDRS"
    ],
-   "text": "Although the Dvdrs.net server is physically located in the United States, the operator emphasizes that they are a British citizen and therefore not legally bound by US communications regulations or judicial judgments. This distinction is used to argue that the US-based Motion Picture Association of America (MPAA) lacks the legal authority to enforce its claims against the operator, suggesting that the organization's resolve to comply depends entirely on establishing proper communication and jurisdictional respect.",
-   "text_short": "The Dvdrs.net operator argues that their UK citizenship exempts them from US laws, challenging the MPAA's legal authority to enforce its claims.",
+   "text": "Although the US-based hosting service Dvdrs.net is operated by a UK citizen, the entity acknowledges that it is currently subject to US laws and regulations despite its foreign ownership. This individual emphasizes that while they are not personally bound by US jurisdiction, the organization itself must adhere to local legal standards.",
+   "text_short": "The Dvdrs.net operator notes that the US-hosted service is subject to US laws despite UK citizenship.",
    "char_start": 6217,
    "char_end": 6906,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0526,
+    "rouge2_precision": 0.1176,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -341,14 +341,14 @@
     "Dvdrs",
     "DVDRS"
    ],
-   "text": "The administrators of the Dvdrs.net website state that they would be willing to remove specific files if the Motion Picture Association of America (MPAA) had approached them directly and professionally before initiating legal action. They contend that the lack of prior notification and the immediate lawsuit created an unnecessary conflict, asserting that a proper dialogue would have allowed the site to cooperate and resolve the issue without litigation.",
-   "text_short": "Dvdrs.net administrators claim they would have cooperated with the MPAA if they had been contacted properly before the lawsuit.",
+   "text": "The US-based hosting service Dvdrs.net states that it would immediately remove any content deemed illegal by the Motion Picture Association if the organization had engaged in proper, direct communication beforehand. This stance highlights a belief that the current legal conflict stems from a lack of prior dialogue rather than any inherent illegality in the service's operations.",
+   "text_short": "Dvdrs.net asserts it would comply with the MPAA if contacted properly first.",
    "char_start": 6217,
    "char_end": 6906,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0526,
+    "rouge2_precision": 0.0833,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -362,14 +362,14 @@
     "Dvdrs",
     "DVDRS"
    ],
-   "text": "The leadership behind the Dvdrs.net website expresses a strong desire for the Motion Picture Association of America (MPAA) to retract its public statement labeling the site as an organized pirate network. They argue that this accusation is factually incorrect and has caused significant harm to the site's reputation and the trust of its member base, urging the industry group to restore the organization's good name through a retraction.",
-   "text_short": "Dvdrs.net leadership urges the MPAA to retract its false accusation and restore the site's reputation.",
+   "text": "The US-based hosting service Dvdrs.net formally requests that the Motion Picture Association retract its false accusation that the organization is an organized pirate network, arguing that such a claim damages the service's reputation and misrepresents its legitimate function. The organization urges the industry group to restore its good name by acknowledging that no laws currently prohibit the hosting of the specific files in question.",
+   "text_short": "Dvdrs.net demands the MPAA retract false claims of organized piracy to restore its reputation.",
    "char_start": 6217,
    "char_end": 6906,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.125,
+    "rouge2_precision": 0.1429,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -381,16 +381,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The operators of Binnews assert that the service does not host any copyrighted files, explicitly rejecting the accusation that the site distributes over 3,000 movies as entirely false. They maintain that their platform provides a legitimate utility to copyright holders rather than facilitating infringement, arguing that the site's actual function is to assist rights owners in managing their intellectual property. This denial serves as a direct rebuttal to the premise that the site is an illegal repository of pirated content.",
-   "text_short": "Binnews operators deny hosting files and claim their service legitimately assists copyright holders.",
+   "text": "The administrators of Binnews assert that the service does not host any copyrighted files, explicitly rejecting the accusation that the site distributes over 3,000 movies as entirely false. They maintain that Binnews provides a legitimate utility to copyright holders by monitoring Usenet content rather than facilitating piracy, arguing that their operations are lawful and that they would have removed specific files immediately had they been contacted by legal representatives to do so.",
+   "text_short": "Binnews administrators deny hosting files, claiming their service is legitimate and would comply with legal requests if contacted properly.",
    "char_start": 6906,
    "char_end": 7372,
    "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1358,
+    "rouge2_precision": 0.1389,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "no",
     "actor_correct": "no"
    }
   },
@@ -401,14 +401,14 @@
     "Joe",
     "Joe from Binnews"
    ],
-   "text": "The administrators of Binnews insist that their primary intent has never been to facilitate piracy, arguing instead that they offer specific guides designed to help companies eliminate it. They contend that their service acts as a tool for rights holders to track and remove infringing content from Usenet networks, positioning the platform as a proactive solution to copyright infringement rather than a source of illegal downloads. This stance frames the conflict as a misunderstanding of the site's actual purpose and value to the entertainment industry.",
-   "text_short": "Binnews administrators claim their intent is to help companies stop piracy, not facilitate it.",
+   "text": "The operators of Binnews emphasize that their primary intent has never been to facilitate piracy, but rather to assist companies in eliminating it through the creation of specific guides. They argue that their service is designed to help copyright holders manage their intellectual property on Usenet networks, positioning the site as a tool for anti-piracy efforts rather than a source of infringement.",
+   "text_short": "Binnews operators claim their service is designed to help companies stop piracy, not facilitate it.",
    "char_start": 7372,
    "char_end": 7612,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0769,
+    "rouge2_precision": 0.0645,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -420,14 +420,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The creators of Dvdrs.net explain that the website originated in March 2004 as a general community forum for discussing movies and home cinema issues, evolving into a Usenet indexing service only after user requests. They emphasize that the site was never contacted by legal representatives prior to the lawsuit, arguing that the absence of prior notification suggests the legal action is premature and ignores the site's initial legitimate community roots. This narrative frames the dispute as a failure of proper communication rather than evidence of inherent illegal activity.",
-   "text_short": "Dvdrs.net administrators describe the site's origins as a legitimate community forum and note a lack of prior legal contact.",
+   "text": "The creators of Dvdrs.net state that the website originated in March 2004 as a community forum for discussing movies and home cinema issues, evolving into a platform for sharing Newzbin files only after user requests. They assert that the site has always adhered to local and international laws, noting that they would have removed the files in question had they been notified by legal authorities, as no specific law currently prohibits hosting such files.",
+   "text_short": "Dvdrs.net administrators claim the site began as a community forum and would comply with laws if properly contacted.",
    "char_start": 7612,
    "char_end": 8365,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1573,
+    "rouge2_precision": 0.2222,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"

@@ -83,17 +83,17 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The 24-hour Wikipedia blackout against U.S. anti-piracy laws has successfully raised public awareness, as demonstrated by thousands of news stories and trending social media topics, although the extent to which this pressure will translate into direct contact with lawmakers remains to be seen.",
-   "text_short": "The blackout successfully raised awareness but its impact on legislative pressure is uncertain.",
+   "text": "The Wikimedia Foundation's executive director confirms that the 24-hour Wikipedia blackout against U.S. anti-piracy laws has successfully raised public awareness, evidenced by thousands of news stories and trending social media topics, though the impact on legislative pressure remains to be seen. This success validates the community-led decision-making process, which involved a month-long discussion period where the vast majority of participants supported taking action.",
+   "text_short": "The blackout successfully raised awareness and validated the community-led decision process.",
    "char_start": 679,
    "char_end": 1588,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.0833,
+    "rouge2_precision": 0.1818,
     "paraphrased": false,
     "in_text": "yes",
-    "actor_correct": "yes"
+    "actor_correct": "no"
    }
   },
   {
@@ -102,15 +102,15 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Wikimedia Foundation defends its community-led decision-making process as the largest-ever discussion on English Wikipedia, noting that an overwhelming majority supported the action, and asserts that opponents should accept this consensus despite the intensive technical planning required over a weekend and public holiday.",
-   "text_short": "The Foundation defends its community-led decision-making process as robust and representative.",
+   "text": "The decision to halt operations was reached through the largest-ever community discussion on the English Wikipedia, involving over 1,800 participants from diverse countries, with an overwhelming majority supporting the protest against the proposed U.S. anti-piracy laws. This consensus was achieved after a month of deliberation, and the subsequent technical execution required intensive planning over a weekend and a public holiday to ensure a successful launch.",
+   "text_short": "The blackout was carried out technically because the English Wikipedia had its biggest community consensus ever.",
    "char_start": 1588,
    "char_end": 3395,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "too similar to source",
    "diagnostics": {
-    "rouge2_precision": 0.25,
-    "paraphrased": false,
+    "rouge2_precision": 0.3333,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -121,14 +121,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Wikimedia Foundation acknowledges that there is no single right answer for all language versions, arguing that each project must determine its own appropriate response based on its specific circumstances, ranging from full blackouts to supportive banners or no action.",
-   "text_short": "The Foundation advocates for a flexible, project-specific approach to protest actions.",
+   "text": "The Wikimedia Foundation maintains that there is no single correct approach for all language versions, as each project faces unique circumstances that may justify different types of action or no action at all. Consequently, while the English Wikipedia enacted a full blackout, other sister projects like the German and Italian versions chose to display informational banners instead, a flexible strategy that respects the specific context of each language community.",
+   "text_short": "Different language projects adopted varied protest strategies based on their unique circumstances.",
    "char_start": 3395,
    "char_end": 4660,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1282,
+    "rouge2_precision": 0.1471,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -140,14 +140,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Wikimedia Foundation argues that the lack of participation by major commercial internet sites is not a concern, as these entities are constrained by shareholders, revenue protection, and contractual uptime agreements, which makes the participation of the non-profit Wikipedia project particularly powerful and important.",
-   "text_short": "The Foundation argues that Wikipedia's participation is uniquely powerful due to commercial site constraints.",
+   "text": "The absence of major commercial websites in the protest is not a concern, as these large corporations are constrained by shareholders, revenue protection, and contractual uptime agreements that prevent them from participating. This limitation actually highlights the unique power of the Wikipedia blackout, as it demonstrates that even a non-profit, community-run platform can effectively mobilize against legislation that threatens free expression.",
+   "text_short": "Commercial constraints make the non-profit Wikipedia blackout uniquely powerful in the protest.",
    "char_start": 3395,
    "char_end": 4660,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2727,
+    "rouge2_precision": 0.0833,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -159,36 +159,39 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "While the Wikimedia Foundation acknowledges that the current community-led decision to halt Wikipedia in protest of U.S. anti-piracy laws was robust, the organization recognizes that repeated actions could set a problematic precedent for future advocacy efforts. Consequently, there is a growing call for the Foundation to establish clear guidelines or conditions that would determine when and how such disruptive protests should be conducted to avoid unintended negative consequences for the platform.",
-   "text_short": "The Wikimedia Foundation faces pressure to create future advocacy policies to prevent disruptive protests from becoming a harmful precedent.",
-   "char_start": 3395,
-   "char_end": 4660,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.0411,
-    "paraphrased": false,
-    "in_text": "uncertain",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "24-s6",
-   "actor": "base_author",
-   "actor_aliases": [
-    "base_author"
-   ],
-   "text": "The Wikimedia Foundation admits that its movement has limited experience with political advocacy and lobbying, which means that as it attempts to influence legislation regarding internet freedom, it is likely to make errors in judgment or strategy. This self-awareness highlights the inherent risks the organization takes when stepping outside its traditional role of neutral content curation to engage in direct political pressure campaigns.",
-   "text_short": "The Wikimedia Foundation admits its lack of advocacy experience, acknowledging that its political efforts carry a high risk of strategic mistakes.",
+   "text": "The Wikimedia movement, which is currently organizing a 24-hour blackout to protest U.S. anti-piracy legislation, acknowledges that it possesses limited experience in conducting political advocacy campaigns. Consequently, the organization recognizes that its initial efforts to pressure lawmakers may result in strategic errors, even as it validates the community-led decision-making process that authorized the protest.",
+   "text_short": "The Wikimedia movement acknowledges its limited advocacy experience and the potential for strategic errors in its current protest against U.S. anti-piracy laws.",
    "char_start": 4660,
    "char_end": 4970,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.05,
+    "rouge2_precision": 0.087,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "24-s6",
+   "actor": "Foundation",
+   "actor_aliases": [
+    "Foundation",
+    "the Foundation",
+    "the Wikimedia Foundation",
+    "the Wikimedia movement"
+   ],
+   "text": "The Wikimedia Foundation currently has no intention of establishing formal policies that would govern future protests or advocacy work by its community. However, the organization supports the creation of informal discussion venues, such as dedicated mailing lists, to allow members to share expertise and refine their collective thinking on how to effectively engage with lawmakers regarding digital rights issues.",
+   "text_short": "The Wikimedia Foundation currently lacks plans for formal advocacy policies but supports creating informal venues for community discussions on digital rights.",
+   "char_start": 4970,
+   "char_end": 5401,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.15,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
    }
   },
   {
@@ -200,17 +203,17 @@
     "the Wikimedia Foundation",
     "the Wikimedia movement"
    ],
-   "text": "Despite the risks associated with political activism, the Wikimedia Foundation currently has no intention of drafting formal policies to govern future protests or advocacy campaigns. Instead, the organization prefers to foster open, community-led discussions through dedicated forums and mailing lists, believing that a flexible, bottom-up approach is more effective than rigid top-down rules for navigating the complex landscape of digital rights and internet legislation.",
-   "text_short": "The Wikimedia Foundation rejects formal advocacy policies in favor of flexible, community-led discussions to guide future political actions.",
+   "text": "While the Wikimedia Foundation does not intend to impose rigid rules on future activism, it believes it is prudent to establish structured channels for dialogue. By creating dedicated spaces, such as a specialized mailing list for lobbying and advocacy, the organization aims to facilitate the sharing of expert knowledge and strategic planning, ensuring that future community-led actions against legislation like SOPA are informed and effective.",
+   "text_short": "The Wikimedia Foundation advocates for creating informal discussion channels to improve the quality of future community-led advocacy efforts.",
    "char_start": 4970,
    "char_end": 5401,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
     "rouge2_precision": 0.1111,
     "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "no"
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
   }
  ],

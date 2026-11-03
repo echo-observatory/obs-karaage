@@ -1,6 +1,6 @@
 # obs-karaage
 
-Karaage infers attributable statements from English news articles. Each statement comes with the actor who made it, a rephrased version that stands alone, and the passage of the text it comes from.
+Karaage infers attributable statements from English news articles. Each statement comes with the actor who made it, a rephrased version that stands alone, and the excerpt of the text it comes from.
 It is the "Infer statements" step of the Observatory pipeline; see the `pipeline` repo for how the components fit together.
 
 **Status:** 1.1.0, the first release of Karaage as a versioned package, is in preparation. Until its tag `v1.1.0` exists, install from a clone.
@@ -28,11 +28,11 @@ Karaage runs seven steps on each text, one module each in `src/karaage/`:
 
 1. **Segmentation:** splits the text into clause-level segments, with spaCy and benepar.
 2. **Attribution:** an LLM assigns the segments to the actors quoted or cited in the text. Segments in the text's own voice go to `base_author`.
-3. **Passages:** groups consecutive segments into passages of about 2,000 characters at most, each dominated by one actor where possible.
-4. **Extraction:** an LLM states the main point of the text, then extracts up to four statements per actor and passage.
+3. **Excerpts:** groups consecutive segments into excerpts of about 2,000 characters at most, each dominated by one actor where possible.
+4. **Extraction:** an LLM states the main point of the text, then extracts up to four statements per actor and excerpt.
 5. **Rephrasing:** an LLM rewrites each statement so that it stands alone, plus a one-sentence version.
 6. **Paraphrasing:** statements too close to the source wording are paraphrased again, with an embedding check that the meaning is kept.
-7. **Validation:** an LLM checks that each statement is in its passage and attributed to the right actor. Statements that fail are kept in the output, marked as rejected.
+7. **Validation:** an LLM checks that each statement is in its excerpt and attributed to the right actor. Statements that fail are kept in the output, marked as rejected.
 
 Karaage never modifies the text: all offsets point into the text as given.
 
@@ -156,7 +156,7 @@ karaage.save(result, data_path="out/doc-1.json", html_path="out/doc-1.html")
 `run()` processes one document and does not raise when a step fails: the output then has the status `failed`, with the error.
 `karaage.batch.read_documents()` and `karaage.batch.run_documents()` do what `karaage run` does.
 
-[`examples/pipeline-usage.ipynb`](examples/pipeline-usage.ipynb) walks through these on the test dataset. To open it: `uv run --with jupyter jupyter lab examples/pipeline-usage.ipynb`.
+[`examples/using-karaage-from-python.ipynb`](examples/using-karaage-from-python.ipynb) walks through these on the test dataset. To open it: `uv run --with jupyter jupyter lab examples/using-karaage-from-python.ipynb`.
 
 ### Time
 
@@ -171,12 +171,12 @@ Each document's output is a JSON object, described by the JSON Schema [`src/kara
 | --- | --- |
 | `document_id` | The input id, as a string. |
 | `status` | `ok`, `partial` or `failed` (see below). |
-| `errors` | What failed: `{"step", "passage", "statement", "message"}`, with `passage` (numbered from 1, as in the report) or `statement` saying which part, when only part of a step failed. |
+| `errors` | What failed: `{"step", "excerpt", "statement", "message"}`, with `excerpt` (numbered from 1, as in the report) or `statement` saying which part, when only part of a step failed. |
 | `warnings` | Input that looks wrong: `{"code", "message"}`, with the codes `text-not-nfc`, `text-has-carriage-return` and `text-not-english`. Karaage runs anyway. |
 | `text_length`, `text_sha256` | Length of the text in Unicode code points, and SHA-256 of its UTF-8 bytes, to detect a later change to the text. |
 | `main_point` | One sentence stating the central argument of the text. |
 | `main_point_method` | `single`, or `chunked` when the text did not fit the model's context: its parts were summarised, and the summaries combined. |
-| `actors` | The actors quoted or cited: `canonical_name`, `aliases`, and `kind` (`person`, `organisation`, or `null`). |
+| `actors` | The actors quoted or cited (*inferred actors*, in the snapshot specification's terms): `canonical_name`, `aliases`, and `kind` (`person`, `organisation`, or `null`). |
 | `statements` | Every statement extracted, rejected ones included (below). |
 | `provenance` | Karaage version and commit, profile and its settings, backend, model and its build, `inferred_at` (UTC, `YYYY-MM-DDTHH:MM:SSZ`), and the duration of each step. |
 
@@ -184,13 +184,13 @@ Each statement has:
 - `id`: `<document_id>-s<n>`, numbered from 1 in extraction order;
 - `actor`: the actor's canonical name, or `base_author` for the text's own voice. `actor_aliases` lists the canonical name, then the aliases;
 - `text`: the statement, rephrased to stand alone. `text_short`: a one-sentence version. Both are `null` if rephrasing failed;
-- `char_start` and `char_end`: the offsets of the passage the statement comes from, in code points, end excluded;
+- `char_start` and `char_end`: the offsets of the excerpt the statement comes from, in code points, end excluded;
 - `valid` and `rejection_reason`: `validation error`, `rephrasing error`, `too similar to source`, `not found in source text` or `wrong actor attribution`;
-- `diagnostics`: the ROUGE-2 precision against the passage, whether the statement was paraphrased, and the validator's answers.
+- `diagnostics`: the ROUGE-2 precision against the excerpt, whether the statement was paraphrased, and the validator's answers.
 
 **Status:**
 - `ok`: every step ran without error. A document with no statements can be `ok`.
-- `partial`: every step ran, but some passages or statements failed, and statements may be missing.
+- `partial`: every step ran, but some excerpts or statements failed, and statements may be missing.
 - `failed`: a step failed as a whole. There are no actors, statements or main point, but the output is still written, with the error.
 
 **HTML report:** with `--report`, or `html_path` in `save()`, a page showing each step's result, for checking by hand. It is self-contained and opens offline.
@@ -240,13 +240,13 @@ The tests need the models (`uv run karaage download-models`) but no LLM: they re
 After a change to prompts, schemas or the default profile, record again, with the profile's model loaded in LM Studio. It takes about 40 minutes:
 
 ```bash
-KARAAGE_LLM_MODE=record uv run pytest tests/test_pipeline.py
+KARAAGE_LLM_MODE=record uv run pytest tests/test_articles.py
 ```
 
-Each article's responses are in one file, `tests/recordings/qwen3.5-9b/<id>.json`, rewritten from scratch when the article is recorded again; `"tests/test_pipeline.py::test_pipeline[30]"` records article 30 alone.
+Each article's responses are in one file, `tests/recordings/qwen3.5-9b/<id>.json`, rewritten from scratch when the article is recorded again; `"tests/test_articles.py::test_article[30]"` records article 30 alone.
 Then check the changed outputs in `tests/recordings/qwen3.5-9b/expected/` before committing them. A change to the method is also checked by a human on the HTML reports of the test articles.
 
-A change to the output alone, which sends no new request to the LLM, needs no recording: `KARAAGE_UPDATE_EXPECTED=1 uv run pytest tests/test_pipeline.py` rewrites the expected outputs from a replay.
+A change to the output alone, which sends no new request to the LLM, needs no recording: `KARAAGE_UPDATE_EXPECTED=1 uv run pytest tests/test_articles.py` rewrites the expected outputs from a replay.
 
 `tests/test_snapshot.py` converts the outputs into a snapshot bundle and checks it with the snapshot validator. The validator is private: clone `obs-corpus-snapshot` next to this repo, then run `uv run --with ../obs-corpus-snapshot pytest`. Without it, and in GitHub Actions, the test is skipped.
 

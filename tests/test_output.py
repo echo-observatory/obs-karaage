@@ -2,7 +2,7 @@
 
 import jsonschema
 
-from karaage.attribution import Source
+from karaage.attribution import Actor
 from karaage.output import build_output, output_schema, text_warnings
 
 # Invented texts on the same subject, written for these tests.
@@ -46,15 +46,15 @@ def test_warnings():
     assert codes(ENGLISH.replace(". ", ".\r\n")) == ["text-has-carriage-return"]
 
 
-# An invented document: two segments, one passage, Jane Doe and the text's own voice.
+# An invented document: two segments, one excerpt, Jane Doe and the text's own voice.
 TEXT = "The mayor spoke. Jane Doe said the school would open in May."
 SEGMENTS = [{"id": 0, "text": "The mayor spoke. ", "start": 0, "end": 17},
             {"id": 1, "text": "Jane Doe said the school would open in May.", "start": 17, "end": 60}]
-SOURCES = [Source(main="Jane Doe", other=["Doe", "the mayor"], kind="person", segments=[[1, 1]])]
+ACTORS = [Actor(canonical_name="Jane Doe", aliases=["Doe", "the mayor"], kind="person", segments=[[1, 1]])]
 
 
 def statement(n, actor="Jane Doe", **fields):
-    s = {"id": n, "actor": actor, "statement": "S", "passage": TEXT, "segments": [0, 1],
+    s = {"id": n, "actor": actor, "statement": "S", "excerpt": TEXT, "segments": [0, 1],
          "rephrased_statement": "The school opens in May.", "summary": "School opens in May.",
          "rouge2_rephrased": 0.1, "rouge2_summary": 0.2, "paraphrased": False,
          "in_text": "yes", "actor_correct": "yes", "valid": True, "invalid_reason": None}
@@ -62,7 +62,7 @@ def statement(n, actor="Jane Doe", **fields):
 
 
 def output(**overrides):
-    args = dict(failure=None, passage_errors=[], segments=SEGMENTS, sources=SOURCES, statements=[],
+    args = dict(failure=None, excerpt_errors=[], segments=SEGMENTS, attribution=ACTORS, statements=[],
                 main_point="A school will open.", main_point_method="single", provenance=PROVENANCE)
     data = build_output("doc-7", TEXT, **{**args, **overrides})
     jsonschema.Draft202012Validator(output_schema()).validate(data)
@@ -92,7 +92,7 @@ def test_partial_output_lists_what_failed():
     rephrasing_failed = {k: v for k, v in statement(3).items()
                          if k not in ("rephrased_statement", "summary", "rouge2_rephrased", "rouge2_summary")}
     data = output(
-        passage_errors=[{"passage_index": 0, "error": "RuntimeError: backend down"}],
+        excerpt_errors=[{"excerpt_index": 0, "error": "RuntimeError: backend down"}],
         statements=[
             statement(2, validation_error="RuntimeError: timeout", in_text=None, actor_correct=None,
                       valid=False, invalid_reason="validation error"),
@@ -102,16 +102,16 @@ def test_partial_output_lists_what_failed():
     )
     assert data["status"] == "partial"
     assert data["errors"] == [
-        {"step": "extraction", "passage": 1, "statement": None, "message": "RuntimeError: backend down"},
-        {"step": "rephrasing", "passage": None, "statement": "doc-7-s4", "message": "ValueError: cut off"},
-        {"step": "validation", "passage": None, "statement": "doc-7-s3", "message": "RuntimeError: timeout"},
+        {"step": "extraction", "excerpt": 1, "statement": None, "message": "RuntimeError: backend down"},
+        {"step": "rephrasing", "excerpt": None, "statement": "doc-7-s4", "message": "ValueError: cut off"},
+        {"step": "validation", "excerpt": None, "statement": "doc-7-s3", "message": "RuntimeError: timeout"},
     ]
     s4 = data["statements"][1]
     assert (s4["text"], s4["text_short"], s4["diagnostics"]["rouge2_precision"]) == (None, None, None)
 
 
 def test_failed_output_has_no_results():
-    failure = {"step": "rephrasing", "passage": None, "statement": None, "message": "RuntimeError: backend down"}
+    failure = {"step": "rephrasing", "excerpt": None, "statement": None, "message": "RuntimeError: backend down"}
     data = output(failure=failure, statements=None)
     assert data["status"] == "failed" and data["errors"] == [failure]
     assert (data["main_point"], data["main_point_method"], data["actors"], data["statements"]) == (None, None, [], [])

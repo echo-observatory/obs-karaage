@@ -138,14 +138,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The newly formed Swedish Pirate Party seeks to reform the nation's copyright framework to permit legal file-sharing and safeguard individual privacy, a strategy that has gained traction due to recent media coverage of a police raid on a major file-sharing site.",
-   "text_short": "The Swedish Pirate Party proposes legalizing file-sharing and protecting privacy.",
+   "text": "The newly formed Swedish Pirate Party asserts that the current framework for intellectual property rights is fundamentally broken and criminalizes ordinary citizens, necessitating a complete overhaul to legalize digital file-sharing and safeguard personal privacy. This political movement, which has recently gained significant public attention following a police raid on a popular file-sharing website, aims to leverage this widespread backlash against foreign copyright enforcement to shift the national debate and secure a foothold in the upcoming parliamentary election.",
+   "text_short": "The Swedish Pirate Party argues that current copyright laws are unsustainable and criminalize ordinary citizens, proposing to reform them to legalize file-sharing and protect privacy, while leveraging the public backlash against the Pirate Bay raid to gain political influence and shift the national.",
    "char_start": 0,
    "char_end": 850,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1163,
+    "rouge2_precision": 0.093,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -158,16 +158,16 @@
     "Rickard Falkvinge",
     "leader of the Pirate Party"
    ],
-   "text": "The current structure of copyright legislation is fundamentally unsustainable, a reality demonstrated by the widespread public adoption of file-sharing tools despite legal prohibitions, which proves the existing laws fail to reflect actual societal needs.",
-   "text_short": "Current copyright laws are unsustainable and fail to reflect societal needs.",
+   "text": "The leader of the Swedish Pirate Party contends that the existing legal framework governing intellectual property is inherently unsustainable and fails to function effectively in the modern digital age. By adopting the controversial label of 'Internet pirates,' the party's leadership argues that the current system is not merely outdated but actively harmful, thereby justifying a radical rethinking of how content is shared and protected online.",
+   "text_short": "The leader of the Swedish Pirate Party argues that current copyright laws are unsustainable and require a radical rethinking of how content is shared and protected online.",
    "char_start": 850,
    "char_end": 1097,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0,
+    "rouge2_precision": 0.1923,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
@@ -180,14 +180,14 @@
     "the party",
     "Pirate Party"
    ],
-   "text": "To address the unsustainability of the existing legal framework, the party advocates for drastically reducing the scope and enforcement of copyright laws, abolishing patent legislation entirely, and implementing robust privacy protections to counteract what they describe as a pervasive control and surveillance society.",
-   "text_short": "The group suggests capping copyright rules, ending patents, and safeguarding privacy.",
+   "text": "The Swedish Pirate Party advocates for a comprehensive restructuring of the nation's legal landscape, specifically calling for a drastic reduction in the scope and enforcement of copyright laws alongside the total abolition of patent legislation. Furthermore, the party emphasizes the urgent need to protect individual privacy rights against what it describes as an emerging 'control and surveillance society,' positioning these demands as essential reforms to ensure a free and open internet for all Swedish citizens.",
+   "text_short": "The Swedish Pirate Party supports severely restricting copyright rules and enforcement, ending patent legislation, and defending privacy from a society focused on control and surveillance.",
    "char_start": 1097,
    "char_end": 1521,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2857,
+    "rouge2_precision": 0.1467,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -199,333 +199,29 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Swedish government officials appear to have acted under pressure from the U.S. Motion Picture Association to forcibly shut down the Pirate Bay, a move that has sparked significant public outrage in Sweden by suggesting foreign powers are interfering in domestic legal affairs.",
-   "text_short": "The Pirate Bay may have been closed because Swedish officials heeded commands issued by the U.S. MPAA.",
+   "text": "The Swedish Pirate Party leadership states that the Swedish government received direct orders from the U.S. Motion Picture Association to close the Pirate Bay website. Although rumors about foreign interference existed, this confirmation is now clear. Many Swedes are very angry because they feel their own officials were told by a foreign country to destroy a site that was legal under Swedish rules. These citizens believe the group was not charged for breaking the law, but was instead shut down by foreign command.",
+   "text_short": "The Swedish Pirate Party confirms that Swedish authorities acted on U.S. MPAA orders to shut down the Pirate Bay, a move that has caused significant outrage in Sweden as it appears to be foreign interference in domestic legal matters.",
    "char_start": 1521,
    "char_end": 3100,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2941,
+    "rouge2_precision": 0.2564,
     "paraphrased": true,
     "in_text": "yes",
-    "actor_correct": "yes"
+    "actor_correct": "no"
    }
   },
   {
    "id": "11-s5",
-   "actor": "The Pirate Bay",
-   "actor_aliases": [
-    "The Pirate Bay",
-    "an extremely popular BitTorrent tracker",
-    "the site",
-    "Pirate Bay"
-   ],
-   "text": "The recent shutdown of the file-sharing website known as the Pirate Bay has generated such intense media coverage that the organization now receives mentions on national television news almost every hour, rendering paid advertising campaigns unnecessary for the time being.",
-   "text_short": "Intense media coverage following the Pirate Bay raid has made paid advertising unnecessary.",
-   "char_start": 3100,
-   "char_end": 3310,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.25,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s6",
-   "actor": "The Pirate Party",
-   "actor_aliases": [
-    "The Pirate Party",
-    "a new Swedish political party",
-    "the party",
-    "Pirate Party"
-   ],
-   "text": "While established political parties in Sweden have begun to acknowledge that the current copyright framework is failing, they are merely echoing the Pirate Party's critique without fully grasping the underlying systemic issues or the specific arguments regarding the law's unsustainability.",
-   "text_short": "Established Swedish parties are echoing the Pirate Party's critique of copyright laws without fully understanding the underlying issues.",
-   "char_start": 3310,
-   "char_end": 3796,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.0244,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s7",
-   "actor": "The Minister of Justice",
-   "actor_aliases": [
-    "The Minister of Justice",
-    "Bodström",
-    "his name"
-   ],
-   "text": "The Swedish Minister of Justice has publicly stated an openness to reforming existing copyright legislation to legalize file-sharing, a position that aligns with the Pirate Party's long-standing argument that current laws criminalize ordinary citizens and are fundamentally broken.",
-   "text_short": "The Swedish Minister of Justice has expressed openness to legalizing file-sharing through copyright reform.",
-   "char_start": 3796,
-   "char_end": 3999,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.2143,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s8",
-   "actor": "The Pirate Party",
-   "actor_aliases": [
-    "The Pirate Party",
-    "a new Swedish political party",
-    "the party",
-    "Pirate Party"
-   ],
-   "text": "The significant increase in public recognition for the Pirate Party, driven by the high-profile raid on the Pirate Bay, has elevated the organization's profile to the point where media outlets now routinely publish its comments alongside official government statements regarding file-sharing laws.",
-   "text_short": "Increased public recognition following the Pirate Bay raid has elevated the Pirate Party's media profile.",
-   "char_start": 3999,
-   "char_end": 4289,
-   "valid": false,
-   "rejection_reason": "too similar to source",
-   "diagnostics": {
-    "rouge2_precision": 0.3333,
-    "paraphrased": true,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s9",
-   "actor": "Rickard Falkvinge",
-   "actor_aliases": [
-    "Rickard Falkvinge",
-    "leader of the Pirate Party"
-   ],
-   "text": "The Swedish Pirate Party acknowledges that its current funding model relies on voluntary donations and explicitly states that purchasing traditional television advertising is financially impossible without securing a single, very wealthy benefactor. Consequently, the party must rely on alternative, cost-efficient spending strategies for the upcoming election cycle, as it cannot compete with established parties using standard media buys.",
-   "text_short": "The Swedish Pirate Party states that its election strategy depends on voluntary donations rather than expensive television advertising.",
-   "char_start": 4289,
-   "char_end": 4713,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
-   "diagnostics": {
-    "rouge2_precision": 0.0345,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "11-s10",
    "actor": "base_author",
    "actor_aliases": [
     "base_author"
    ],
-   "text": "While the Swedish Pirate Party currently lacks the political momentum to pass its copyright reform agenda, the party asserts that it will only achieve the necessary critical mass and prove the feasibility of its proposals once it secures a seat within the Swedish Parliament. This suggests that the party views its entry into the legislature as the pivotal moment required to shift the national debate and demonstrate that legalizing file-sharing is a viable policy option.",
-   "text_short": "The Swedish Pirate Party argues that entering the Swedish Parliament is the critical step needed to gain momentum and prove the feasibility of its copyright reforms.",
-   "char_start": 4713,
-   "char_end": 5482,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.1333,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s11",
-   "actor": "Rickard Falkvinge",
-   "actor_aliases": [
-    "Rickard Falkvinge",
-    "leader of the Pirate Party"
-   ],
-   "text": "The Swedish Pirate Party identifies the core problem of the current copyright regime as the criminalization of ordinary citizens, noting that approximately 20% of the voting population engages in file-sharing activities that are punishable by jail time. The party argues that this legal framework is fundamentally broken and must be reformed to decriminalize these common behaviors, directly challenging the narrative held by established political parties that the voters themselves are the problem.",
-   "text_short": "The Swedish Pirate Party argues that current copyright laws unjustly criminalize a significant portion of the voting population and must be reformed.",
-   "char_start": 5482,
-   "char_end": 6077,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.0972,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s12",
-   "actor": "Rickard Falkvinge",
-   "actor_aliases": [
-    "Rickard Falkvinge",
-    "leader of the Pirate Party"
-   ],
-   "text": "The Swedish Pirate Party frames its identity as a deliberate reclamation of the term 'pirate' from media conglomerates, which historically used the label to shame activists and associate the party with illegal acts. By wearing 'PIRATE' in bright colors and embracing the label, the party aims to neutralize the negative stigma and reframe the public discourse, arguing that the term no longer carries the same negative weight in Sweden due to years of public education efforts by the Pirate Bureau.",
-   "text_short": "The Swedish Pirate Party explains that it intentionally reclaims the term 'pirate' to counteract negative media framing and reframe the public debate.",
-   "char_start": 5482,
-   "char_end": 6077,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.0759,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s13",
-   "actor": "base_author",
-   "actor_aliases": [
-    "base_author"
-   ],
-   "text": "The Swedish Pirate Party firmly upholds the right to attribution, arguing that this principle is essential for promoting culture and ensuring creators receive proper recognition for their work. While the party views anonymous or pseudonymous publishing as a common and acceptable practice on the internet, it identifies the right to integrity as a more contentious issue that requires careful examination regarding the balance between protecting original works and fostering new cultural creations.",
-   "text_short": "The Swedish Pirate Party strongly supports attribution rights while viewing anonymous publishing as acceptable and prioritizing the right to derivative works.",
-   "char_start": 6077,
-   "char_end": 7855,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.0282,
-    "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s14",
-   "actor": "Rickard Falkvinge",
-   "actor_aliases": [
-    "Rickard Falkvinge",
-    "leader of the Pirate Party"
-   ],
-   "text": "The Swedish Pirate Party considers the right to have a work published anonymously or pseudonymously to be a non-issue, noting that such practices occur daily on the internet without causing significant harm to copyright holders. This stance reflects a broader commitment to prioritizing the promotion of new culture over rigid limitations on how works are shared or attributed.",
-   "text_short": "The Swedish Pirate Party views anonymous and pseudonymous publishing as a common, harmless practice that should not be restricted by copyright laws.",
-   "char_start": 8121,
-   "char_end": 8925,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.1552,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s15",
-   "actor": "Rickard Falkvinge",
-   "actor_aliases": [
-    "Rickard Falkvinge",
-    "leader of the Pirate Party"
-   ],
-   "text": "The Swedish Pirate Party advocates for the freedom to sample existing sounds and phrases in new musical compositions, arguing that this practice fosters innovation and the creation of new culture. Consequently, the party proposes strengthening legal protections for derivative works, provided that the new creation adds a distinct creative touch to the original material.",
-   "text_short": "The Swedish Pirate Party supports free sampling and aims to strengthen legal protections for derivative works that add significant creative value.",
-   "char_start": 8121,
-   "char_end": 8925,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.15,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s16",
-   "actor": "Rickard Falkvinge",
-   "actor_aliases": [
-    "Rickard Falkvinge",
-    "leader of the Pirate Party"
-   ],
-   "text": "Regarding the right to integrity, the Swedish Pirate Party acknowledges a lack of a definitive position but leans toward prioritizing the promotion of new culture over strict limitations on how works can be modified. This nuanced approach suggests that while the party values the original artist's rights, it believes the law should ultimately encourage the creation of new cultural forms, even if they incorporate elements of existing works.",
-   "text_short": "The Swedish Pirate Party tentatively prioritizes the promotion of new culture over the right to integrity, though it acknowledges the complexity of the issue.",
-   "char_start": 8121,
-   "char_end": 8925,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.2174,
-    "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "uncertain"
-   }
-  },
-  {
-   "id": "11-s17",
-   "actor": "base_author",
-   "actor_aliases": [
-    "base_author"
-   ],
-   "text": "Historical precedents show that when rock bands in the 1950s and 1960s covered classical music, they generated significant new cultural value even though such acts technically violated the original artists' rights to integrity. This suggests that rigid adherence to current copyright rules regarding the integrity of a work may stifle the creation of new culture, implying that legal frameworks should be flexible enough to accommodate transformative uses that benefit society as a whole.",
-   "text_short": "Historical examples of musical covers suggest that rigid copyright rules on integrity may stifle new cultural creation.",
-   "char_start": 8925,
-   "char_end": 9305,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.0972,
-    "paraphrased": false,
-    "in_text": "uncertain",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "11-s18",
-   "actor": "Rickard Falkvinge",
-   "actor_aliases": [
-    "Rickard Falkvinge",
-    "leader of the Pirate Party"
-   ],
-   "text": "While acknowledging that unconsidered edge cases might exist, the stance favors prioritizing the promotion of new culture over the preservation of strict limitations on rights. This approach argues that the primary goal of intellectual property law should be to foster cultural development rather than to enforce rigid boundaries that might inadvertently hinder the creation of new works, even if it means challenging traditional concepts of authorship and control.",
-   "text_short": "The position prioritizes promoting new culture over strict adherence to traditional copyright limitations.",
-   "char_start": 9305,
-   "char_end": 9727,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
-   "diagnostics": {
-    "rouge2_precision": 0.0833,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "11-s19",
-   "actor": "Rickard Falkvinge",
-   "actor_aliases": [
-    "Rickard Falkvinge",
-    "leader of the Pirate Party"
-   ],
-   "text": "Current trademark laws are considered adequate because they effectively reduce transaction costs in markets where buyers and sellers are not personally acquainted, with no observed hidden costs outweighing these benefits. This assessment supports the view that existing regulations provide a necessary balance for commercial markets, ensuring that legal frameworks do not impose unnecessary burdens on economic exchange while protecting brand identity.",
-   "text_short": "Existing trademark laws are deemed adequate for reducing transaction costs in impersonal markets.",
-   "char_start": 9305,
-   "char_end": 9727,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
-   "diagnostics": {
-    "rouge2_precision": 0.1667,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "11-s20",
-   "actor": "base_author",
-   "actor_aliases": [
-    "base_author"
-   ],
-   "text": "National governments should adopt a pragmatic, corporate-like mindset by accepting financial penalties when the cost of non-compliance is lower than the broader societal damage caused by the violation. This perspective argues that when international treaties impose fines for copyright infringement, states have a moral and practical obligation to pay them rather than risking greater harm to the public, treating legal compliance as a cost of doing business rather than an absolute moral imperative.",
-   "text_short": "States should accept international copyright fines when the penalty is less than the societal cost of infringement.",
-   "char_start": 9727,
-   "char_end": 10110,
+   "text": "The Swedish public has reacted with significant anger to the police action against the Pirate Bay, largely because many believe the authorities were acting on instructions from a foreign power rather than based on Swedish law. This perception of external control has become a major source of controversy in the country.",
+   "text_short": "Swedish public anger stems from the belief that the Pirate Bay raid was driven by foreign powers.",
+   "char_start": 1521,
+   "char_end": 3100,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
@@ -536,101 +232,403 @@
    }
   },
   {
-   "id": "11-s21",
+   "id": "11-s6",
    "actor": "base_author",
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Swedish Pirate Party rejects the strategy of attempting to alter individual user habits, arguing instead that legal frameworks must be reformed to align with the current reality of digital technology and private communication. This approach prioritizes adapting outdated copyright rules to the actual world rather than forcing citizens to act against their natural technological environment.",
-   "text_short": "The Swedish Pirate Party prioritizes reforming laws to match technological reality over changing user behavior.",
-   "char_start": 10419,
-   "char_end": 11192,
+   "text": "The Pirate Party currently has over 6,500 registered members who pay electronic fees, generating enough funds to purchase millions of ballots for the upcoming September election. This financial stability ensures the party can participate effectively without relying on external fundraising, even if they do not achieve a full victory.",
+   "text_short": "The Pirate Party has secured sufficient membership and funds to compete in the upcoming election.",
+   "char_start": 1521,
+   "char_end": 3100,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0714,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s7",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Additional donations received following the police raid have provided the Pirate Party with enough ballots to guarantee their presence in the next parliament, preventing a scenario where they would run out of voting materials on election day. This surge in support demonstrates that the incident has successfully translated public concern into tangible political resources for the party.",
+   "text_short": "Post-raid donations have secured enough ballots for the Pirate Party to remain competitive in the election.",
+   "char_start": 1521,
+   "char_end": 3100,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.125,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s8",
+   "actor": "The Pirate Bay",
+   "actor_aliases": [
+    "The Pirate Bay",
+    "an extremely popular BitTorrent tracker",
+    "the site",
+    "Pirate Bay"
+   ],
+   "text": "The police raid on the Pirate Bay has dramatically increased the group's visibility, leading to a tripling of their membership and eliminating the need for paid advertising campaigns. Consequently, the organization now receives extensive free media coverage on national television, allowing them to reach a much wider audience without additional marketing costs.",
+   "text_short": "The raid has boosted the Pirate Bay's membership and media exposure, removing the need for paid advertising.",
+   "char_start": 3100,
+   "char_end": 3310,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1765,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s9",
+   "actor": "The Pirate Party",
+   "actor_aliases": [
+    "The Pirate Party",
+    "a new Swedish political party",
+    "the party",
+    "Pirate Party"
+   ],
+   "text": "While established political parties in Sweden have begun to acknowledge that the current copyright framework is failing, they remain unable to articulate the specific reasons for this failure, merely repeating the Pirate Party's diagnosis without grasping the underlying mechanics of the legal system.",
+   "text_short": "Established Swedish parties acknowledge failing copyright laws but lack the understanding to explain why.",
+   "char_start": 3310,
+   "char_end": 3796,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0233,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s10",
+   "actor": "The Pirate Party",
+   "actor_aliases": [
+    "The Pirate Party",
+    "a new Swedish political party",
+    "the party",
+    "Pirate Party"
+   ],
+   "text": "The Pirate Party in Sweden asserts that it must educate both the political establishment and the general public on the true meaning of copyright laws, as the current system is broken and politicians are currently misinterpreting the legal reality that ordinary citizens are already violating.",
+   "text_short": "The Swedish Pirate Party pledges to educate politicians and voters on the broken nature of current copyright laws.",
+   "char_start": 3310,
+   "char_end": 3796,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.0,
+    "rouge2_precision": 0.0588,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"
    }
   },
   {
-   "id": "11-s22",
-   "actor": "The music industry",
+   "id": "11-s11",
+   "actor": "The Minister of Justice",
    "actor_aliases": [
-    "The music industry",
-    "the music industry"
+    "The Minister of Justice",
+    "Bodström",
+    "his name"
    ],
-   "text": "The music industry in Sweden faces the imminent loss of its monopoly over distribution because it no longer provides essential value to the final product for consumers. Consequently, the sector's traditional control mechanism is becoming obsolete as the market shifts toward non-commercial copying and digital sharing.",
-   "text_short": "The music industry's distribution monopoly is becoming obsolete due to a lack of added value.",
-   "char_start": 11192,
-   "char_end": 11919,
+   "text": "The Swedish Minister of Justice has publicly stated an openness to reforming copyright legislation to legalize file-sharing, a position that directly contradicts the prevailing strict enforcement stance and aligns with the Pirate Party's argument that the existing legal framework criminalizes the majority of the population.",
+   "text_short": "The Swedish Minister of Justice signals openness to legalizing file-sharing through copyright reform.",
+   "char_start": 3796,
+   "char_end": 3999,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2308,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s12",
+   "actor": "The Pirate Party",
+   "actor_aliases": [
+    "The Pirate Party",
+    "a new Swedish political party",
+    "the party",
+    "Pirate Party"
+   ],
+   "text": "The increased media visibility of the Swedish Pirate Party, driven by the public outcry following the raid on the Pirate Bay, has resulted in news outlets placing the party's comments alongside the Minister of Justice's statements, effectively amplifying the party's voice in the national debate on digital rights.",
+   "text_short": "Post-Pirate Bay raid media coverage has elevated the Pirate Party's influence by pairing their comments with government statements.",
+   "char_start": 3999,
+   "char_end": 4289,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.2105,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s13",
+   "actor": "Rickard Falkvinge",
+   "actor_aliases": [
+    "Rickard Falkvinge",
+    "leader of the Pirate Party"
+   ],
+   "text": "The Swedish Pirate Party acknowledges that funding traditional television advertising campaigns is currently unfeasible due to budget constraints, noting that such marketing efforts would only become viable if a single, exceptionally wealthy individual provided a substantial donation. This limitation shapes their current strategy, which relies on leveraging public interest and media coverage rather than purchasing airtime to communicate their message about copyright reform and digital privacy to the Swedish electorate.",
+   "text_short": "The Swedish Pirate Party relies on alternative funding and media leverage rather than expensive TV ads due to budget constraints.",
+   "char_start": 4289,
+   "char_end": 4713,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0526,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s14",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Swedish Pirate Party asserts that while similar initiatives for copyright reform exist in other nations, none have yet generated the critical mass of public support or political momentum that their own movement has achieved within Sweden. This unique position is attributed to the specific context of the recent raid on the Pirate Bay, which has significantly amplified their profile and allowed them to demonstrate that their proposed legal framework for file-sharing is politically viable in the current Swedish landscape.",
+   "text_short": "The Swedish Pirate Party claims their movement uniquely possesses the momentum for copyright reform compared to similar initiatives abroad.",
+   "char_start": 4713,
+   "char_end": 5482,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.1333,
+    "rouge2_precision": 0.1111,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"
    }
   },
   {
-   "id": "11-s23",
-   "actor": "The music industry",
+   "id": "11-s15",
+   "actor": "base_author",
    "actor_aliases": [
-    "The music industry",
-    "the music industry"
+    "base_author"
    ],
-   "text": "Rather than disappearing entirely, the music industry is expected to survive only by transforming into a service bureau that assists artists, while permanently losing its ability to control how music is distributed to the public. This shift reflects a market reality where the industry can no longer dictate terms without offering tangible services.",
-   "text_short": "Artists will probably keep the music industry alive, but only if it functions as a service bureau that does not control them.",
-   "char_start": 11192,
-   "char_end": 11919,
+   "text": "The Swedish Pirate Party recognizes that their organization's name carries a negative connotation in the public consciousness, as it is frequently associated with illegal software and media piracy, a stigma that could potentially alienate undecided voters. Despite this risk, the party argues that the name serves a strategic purpose by reclaiming a derogatory label used by media conglomerates and transforming it into a symbol of pride and resistance against an unjust legal system that criminalizes ordinary citizens.",
+   "text_short": "The Swedish Pirate Party acknowledges the negative stigma of their name but argues it strategically reclaims a label used to shame them.",
+   "char_start": 4713,
+   "char_end": 5482,
    "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2857,
+    "rouge2_precision": 0.0519,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s16",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The Swedish Pirate Party anticipates that their name, which implies criminal behavior, may hinder alliances with established international advocacy groups such as the Electronic Frontier Foundation or Creative Commons, who support a more balanced copyright regime. However, the party maintains that their specific approach to legalizing file-sharing and protecting privacy is distinct enough that these organizations should still be willing to engage with them, provided the party can clearly articulate how their goals align with broader digital rights objectives.",
+   "text_short": "The Swedish Pirate Party expects their name might alienate international allies but believes their specific goals align with digital rights advocates.",
+   "char_start": 4713,
+   "char_end": 5482,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.1899,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s17",
+   "actor": "Rickard Falkvinge",
+   "actor_aliases": [
+    "Rickard Falkvinge",
+    "leader of the Pirate Party"
+   ],
+   "text": "Current copyright laws criminalize ordinary citizens by threatening jail time for activities performed by approximately 20% of the Swedish electorate, a situation that must be corrected by reforming the legal framework to decriminalize these acts.",
+   "text_short": "Current laws criminalize 20% of voters, necessitating reform.",
+   "char_start": 5482,
+   "char_end": 6077,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1429,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s18",
+   "actor": "Rickard Falkvinge",
+   "actor_aliases": [
+    "Rickard Falkvinge",
+    "leader of the Pirate Party"
+   ],
+   "text": "The party is actively reclaiming the stigmatized label 'pirate' from media conglomerates that use it to shame activists, arguing that wearing the term proudly serves to neutralize negative public perception and reframe the debate around copyright reform.",
+   "text_short": "The party reclaims the 'pirate' label to neutralize stigma.",
+   "char_start": 5482,
+   "char_end": 6077,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.0278,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s19",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The author characterizes the Pirate Party's approach as a calculated political strategy designed to gain influence by holding the balance of power in parliament, rather than forming a formal coalition, to preserve their bargaining position against established parties.",
+   "text_short": "The author frames the strategy as a calculated power play.",
+   "char_start": 6077,
+   "char_end": 7855,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1579,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s20",
+   "actor": "The European Union",
+   "actor_aliases": [
+    "The European Union",
+    "European Union"
+   ],
+   "text": "EU copyright law requires that three specific moral rights be maintained: the right of attribution, the right to ensure a work remains anonymous or is published under a pseudonym, and the right to the integrity of the work.",
+   "text_short": "EU law mandates specific moral rights for creators.",
+   "char_start": 7855,
+   "char_end": 8121,
+   "valid": false,
+   "rejection_reason": "too similar to source",
+   "diagnostics": {
+    "rouge2_precision": 0.4324,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "no"
    }
   },
   {
-   "id": "11-s24",
-   "actor": "The music industry",
+   "id": "11-s21",
+   "actor": "Rickard Falkvinge",
    "actor_aliases": [
-    "The music industry",
-    "the music industry"
+    "Rickard Falkvinge",
+    "leader of the Pirate Party"
    ],
-   "text": "The music industry must immediately adapt by offering services that consumers actively desire to purchase, or it faces the certain prospect of complete market irrelevance and disappearance. This survival depends entirely on providing genuine value rather than relying on forced sales through restrictive legal enforcement.",
-   "text_short": "The music industry must provide desired services or face total market disappearance.",
-   "char_start": 11192,
-   "char_end": 11919,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "text": "The Swedish Pirate Party asserts that while the right to attribution must be preserved to encourage cultural creation, the right to integrity should be reformed to allow free sampling and derivative works, arguing that current restrictions stifle the promotion of new culture. This position aligns with the party's broader goal of updating copyright laws to reflect modern digital realities rather than punishing ordinary citizens for sharing content.",
+   "text_short": "The Swedish Pirate Party prioritizes cultural promotion by supporting free sampling and reforming the right to integrity while maintaining attribution rights.",
+   "char_start": 8121,
+   "char_end": 8925,
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1818,
+    "rouge2_precision": 0.2,
     "paraphrased": false,
     "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s22",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Historical precedents show that rock bands in the 1950s and 1960s successfully created new cultural forms by covering classical music, even though such acts technically violated the original artists' rights to integrity. This historical evidence suggests that legal frameworks protecting the integrity of works may be outdated and should be adjusted to accommodate the evolution of culture and the creation of derivative works.",
+   "text_short": "Historical examples of successful musical covers suggest that current integrity laws are outdated and should be reformed to accommodate cultural evolution.",
+   "char_start": 8925,
+   "char_end": 9305,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0806,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "11-s23",
+   "actor": "Rickard Falkvinge",
+   "actor_aliases": [
+    "Rickard Falkvinge",
+    "leader of the Pirate Party"
+   ],
+   "text": "The leadership of the Swedish Pirate Party indicates a preference for prioritizing the promotion of new culture over strict limitations on intellectual property rights, while acknowledging that specific edge cases might require further examination. This stance supports the party's central argument that copyright laws must evolve to reflect the reality of how culture is created and shared in the digital age, rather than enforcing rigid rules that criminalize everyday behavior.",
+   "text_short": "The Swedish Pirate Party leadership prioritizes promoting new culture over strict copyright limitations, while noting the need to address specific edge cases.",
+   "char_start": 9305,
+   "char_end": 9727,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0571,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s24",
+   "actor": "Rickard Falkvinge",
+   "actor_aliases": [
+    "Rickard Falkvinge",
+    "leader of the Pirate Party"
+   ],
+   "text": "The Swedish Pirate Party maintains that current trademark laws are sufficient because they effectively reduce transaction costs in markets where buyers and sellers are not personally acquainted, with no observed hidden costs outweighing these benefits. This assessment supports the party's broader argument that not all intellectual property laws require reform, distinguishing between areas where the law aligns with economic reality and those where it does not.",
+   "text_short": "The Swedish Pirate Party argues that current trademark laws are adequate because they reduce transaction costs without significant negative consequences.",
+   "char_start": 9305,
+   "char_end": 9727,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0758,
+    "paraphrased": false,
+    "in_text": "no",
     "actor_correct": "no"
    }
   },
   {
    "id": "11-s25",
-   "actor": "The music industry",
+   "actor": "base_author",
    "actor_aliases": [
-    "The music industry",
-    "the music industry"
+    "base_author"
    ],
-   "text": "The music industry in Sweden currently operates under a legal framework that mandates consumers purchase services even when those services no longer provide necessary value as middlemen. This situation is unsustainable because the industry has legislated forced sales rather than adapting to a reality where non-commercial copying is permitted and distribution control is lost. The sector must either restructure to offer services people actually want to buy or face eventual disappearance, as laws compelling unnecessary purchases cannot hold in the long term.",
-   "text_short": "The Swedish music industry argues that current laws force unnecessary purchases and must adapt or vanish.",
-   "char_start": 11192,
-   "char_end": 11919,
+   "text": "The Swedish Pirate Party asserts that national governments must adopt a pragmatic, cost-benefit approach to international intellectual property enforcement, arguing that states should accept unavoidable penalties rather than attempting to impose fines that exceed the actual societal cost of infringement. This stance challenges the current legal framework by suggesting that the pursuit of such excessive penalties is economically irrational and that nations should prioritize minimizing harm to the public over rigidly enforcing outdated treaties.",
+   "text_short": "The Swedish Pirate Party argues that nations should accept fines exceeding societal costs rather than enforcing irrational intellectual property laws.",
+   "char_start": 9727,
+   "char_end": 10110,
    "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1585,
+    "rouge2_precision": 0.0,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "no",
     "actor_correct": "no"
    }
   },
@@ -640,14 +638,113 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Society currently stands at a critical junction regarding intellectual property rights and digital privacy, where the choice lies between enforcing copyright by sacrificing private communications or protecting the right to unmonitored communication by reforming copyright laws. This dilemma arises because modern technology allows private transmission of copyrighted works, making total enforcement impossible without constant surveillance of all private communications, a precedent set by historical monitoring of physical mail. The decision requires prioritizing either the value of copyright or the fundamental right to private communication, as the current system of monitoring is unworkable and public support for digital freedom is growing.",
-   "text_short": "Society must choose between enforcing copyright by sacrificing privacy or protecting private communication by reforming laws.",
+   "text": "The Swedish Pirate Party maintains that the primary goal of copyright reform is not to alter individual consumer habits, but rather to update legislation so it aligns with the reality of how people currently share digital content. This position frames the conflict as a necessary legal adjustment to modern technological usage, rejecting the idea that the law should force a return to restrictive distribution models that no longer reflect actual market behavior.",
+   "text_short": "The Swedish Pirate Party argues that copyright reform should update laws to match reality rather than trying to change human behavior.",
+   "char_start": 10419,
+   "char_end": 11192,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.0563,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s27",
+   "actor": "The music industry",
+   "actor_aliases": [
+    "The music industry",
+    "the music industry"
+   ],
+   "text": "The music industry faces an existential threat as its traditional role as a distribution gatekeeper becomes obsolete, since it no longer provides essential value to the final product in a digital environment where non-commercial copying is permitted. Consequently, the sector will likely be forced to transform into a mere service bureau for artists, losing its ability to control how music is distributed to the public.",
+   "text_short": "If copying for non-commercial purposes is allowed, the music business will no longer manage how music is shared. It will exist only as a service bureau.",
+   "char_start": 11192,
+   "char_end": 11919,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2308,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s28",
+   "actor": "The music industry",
+   "actor_aliases": [
+    "The music industry",
+    "the music industry"
+   ],
+   "text": "The music industry is expected to survive only as a service bureau for artists, completely stripped of its power to control distribution channels. This outcome is presented as a natural market correction, where the industry will only remain viable if it can offer a service that consumers actively want to purchase, rather than relying on forced sales of unnecessary intermediaries.",
+   "text_short": "Artists will probably keep the music business alive, but the sector will likely function merely as a service bureau that cannot manage distribution.",
+   "char_start": 11192,
+   "char_end": 11919,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.2373,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s29",
+   "actor": "The music industry",
+   "actor_aliases": [
+    "The music industry",
+    "the music industry"
+   ],
+   "text": "The music industry must provide a service that consumers actually want to purchase, or the sector will disappear entirely. This is because the industry currently operates as an unnecessary middleman that adds no value to the final product, and it has forced legislation requiring people to buy this redundant service regardless of its utility. In a world where non-commercial copying is permitted, the industry's survival depends entirely on its ability to adapt and offer a valuable service rather than relying on outdated legal chokepoints.",
+   "text_short": "The music industry must adapt by offering valuable services or face extinction as non-commercial copying renders its current distribution model obsolete.",
+   "char_start": 11192,
+   "char_end": 11919,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.2381,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s30",
+   "actor": "The music industry",
+   "actor_aliases": [
+    "The music industry",
+    "the music industry"
+   ],
+   "text": "Existing copyright laws compel individuals to purchase music services even when those services no longer add value to the consumer experience. This legal framework forces the music industry to maintain a monopoly on distribution despite the fact that the industry itself has lost its ability to control how music is shared, creating a situation where people are punished for accessing content they cannot legally obtain through traditional channels.",
+   "text_short": "Current copyright laws force consumers to buy unnecessary music services, punishing them for accessing content that is already widely available.",
+   "char_start": 11192,
+   "char_end": 11919,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0746,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "11-s31",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Enforcing current copyright laws would require the constant monitoring of all private digital communications, a measure that is both technically unfeasible and a violation of fundamental privacy rights. Society faces a critical choice: either sacrifice the ability to communicate privately to protect intellectual property, or allow copyright laws to evolve and adapt to the reality of digital technology where private sharing is inevitable.",
+   "text_short": "Enforcing copyright requires invasive monitoring of private communications, forcing a choice between sacrificing privacy or reforming outdated laws.",
    "char_start": 11919,
    "char_end": 13974,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.0909,
+    "rouge2_precision": 0.1129,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"

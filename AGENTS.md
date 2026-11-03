@@ -2,7 +2,7 @@
 
 ## About this repo
 
-Karaage extracts attributable statements from English news articles and rephrases them, each with a reference to the passage it comes from.
+Karaage extracts attributable statements from English news articles and rephrases them, each with a reference to the excerpt it comes from.
 It is the "Infer statements" step of the pipeline, and its output is meant to go into snapshot bundles (see `obs-corpus-snapshot`).
 
 ## Pipeline context

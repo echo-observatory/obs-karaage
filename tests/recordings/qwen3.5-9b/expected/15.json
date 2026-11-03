@@ -41,7 +41,7 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "A Swedish judge ordered four people who managed The Pirate Bay to go to jail and pay money for breaking copyright laws. This ruling proves that the site's operators are legally responsible.",
+   "text": "A Swedish judge ordered four people running the file-sharing website The Pirate Bay to go to jail for a minimum of one year and to pay compensation. This decision proves that the site's operators are legally responsible for copyright violations, even though the site is still running.",
    "text_short": "A Swedish court sentenced four The Pirate Bay administrators to prison and damages for copyright infringement.",
    "char_start": 0,
    "char_end": 337,
@@ -62,14 +62,14 @@
     "the court",
     "Stockholm district court"
    ],
-   "text": "The Stockholm district court ruled that four people are guilty of helping to break copyright rules. It sentenced each person to one year in jail. This decision shows that the legal system will punish the people who run the website for violating intellectual property laws.",
-   "text_short": "A Stockholm district court handed down one-year prison terms to four people for violating copyright rules.",
+   "text": "The Stockholm district court has determined that four specific individuals are legally responsible as accessories to copyright infringement, resulting in a formal conviction that mandates a one-year prison sentence for each defendant.",
+   "text_short": "The Stockholm district court found four people guilty of copyright infringement and gave them one-year prison sentences.",
    "char_start": 337,
    "char_end": 575,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1875,
+    "rouge2_precision": 0.2353,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -81,14 +81,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Although a Swedish court sentenced four administrators to prison, the operators of The Pirate Bay dismiss the verdict as a media stunt and refuse to pay the imposed fines, asserting that file-sharing operations will continue unaffected.",
-   "text_short": "The Pirate Bay operators dismissed the prison verdict as a media stunt and refused to pay fines.",
+   "text": "The operators of The Pirate Bay characterize the Swedish court's verdict as a theatrical media stunt designed to generate headlines, asserting that the decision will not disrupt their file-sharing services or force them to pay the imposed damages while they prepare to appeal the ruling.",
+   "text_short": "The operators of The Pirate Bay dismissed the court's verdict as a media stunt and refuse to pay the fines.",
    "char_start": 575,
    "char_end": 1194,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1111,
+    "rouge2_precision": 0.1087,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"

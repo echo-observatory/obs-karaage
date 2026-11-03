@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "obs-karaage"
 dynamic = ["version"]
-description = "Extracts attributable statements from English news articles and rephrases them, with a reference to their source passage"
+description = "Extracts attributable statements from English news articles and rephrases them, with a reference to their source excerpt"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [{ name = "DTU RSO Observatory" }]

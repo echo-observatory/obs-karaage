@@ -54,7 +54,7 @@
     "base_author"
    ],
    "text": "Aaron Swartz, a Harvard fellow and open source programmer, has been arrested and charged with multiple computer crimes for downloading millions of copyrighted academic articles from JSTOR, an act that has sparked debate over copyright enforcement and digital access to knowledge.",
-   "text_short": "Aaron Swartz faces arrest for downloading millions of copyrighted academic articles from JSTOR.",
+   "text_short": "Aaron Swartz faces arrest and charges for downloading millions of copyrighted academic articles from JSTOR.",
    "char_start": 0,
    "char_end": 692,
    "valid": true,
@@ -73,15 +73,15 @@
     "JSTOR",
     "academic journal repository"
    ],
-   "text": "JSTOR intends not to pursue civil litigation against Aaron Swartz, despite his indictment by the U.S. District Court in Massachusetts for downloading millions of copyrighted academic articles, signaling a strategic choice to avoid further legal escalation while the criminal case proceeds.",
-   "text_short": "JSTOR will not file a civil lawsuit against Aaron Swartz.",
+   "text": "JSTOR intends not to pursue civil litigation against Aaron Swartz, despite his arrest and indictment by the U.S. District Court in Massachusetts for downloading millions of copyrighted academic articles, signaling a decision to rely solely on criminal prosecution rather than private legal action to resolve the dispute over access to their digital repository.",
+   "text_short": "JSTOR intends to rely on criminal prosecution rather than civil litigation against Aaron Swartz.",
    "char_start": 692,
    "char_end": 913,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2927,
-    "paraphrased": true,
+    "rouge2_precision": 0.2264,
+    "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"
    }
@@ -92,14 +92,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Aaron Swartz was arrested for downloading millions of copyrighted academic articles from JSTOR. He pleaded not guilty to all charges, which included wire fraud and computer fraud. He was released on a $100,000 unsecured bond.",
-   "text_short": "Aaron Swartz entered a not guilty plea and was freed on an unsecured bond worth $100,000.",
+   "text": "Aaron Swartz was released on a $100,000 unsecured bond after pleading not guilty to all charges, including wire fraud and computer fraud, marking a temporary suspension of his detention while the legal system processes the case regarding his unauthorized access to the JSTOR database.",
+   "text_short": "Aaron Swartz entered bail following a plea of not guilty to every criminal charge.",
    "char_start": 913,
    "char_end": 1288,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2571,
+    "rouge2_precision": 0.2727,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -113,17 +113,17 @@
     "contributor to Wikipedia and Wikimedia Commons",
     "Maxwell"
    ],
-   "text": "Greg Maxwell, who contributes to Wikipedia and Wikimedia Commons, uploaded a torrent to The Pirate Bay. This file holds 33 gigabytes of documents from the Philosophical Transactions of the Royal Society. These papers are public domain in the United States, yet JSTOR previously sold them for a fee. This situation mirrors the legal and ethical issues found in Swartz's case.",
-   "text_short": "Greg Maxwell published a torrent of public domain Royal Society papers previously sold by JSTOR.",
+   "text": "Greg Maxwell, who contributes to Wikipedia and Wikimedia Commons, uploaded a torrent to The Pirate Bay. This file holds 33 gigabytes of papers from the Philosophical Transactions of the Royal Society. The upload reflects the public domain status of works published before 1923 in the United States. This action challenges how copyright restrictions on old academic knowledge are currently enforced.",
+   "text_short": "Greg Maxwell uploaded many academic papers that are in the public domain to The Pirate Bay, which opposes rules about copyright.",
    "char_start": 1288,
    "char_end": 1508,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.2857,
+    "rouge2_precision": 0.2881,
     "paraphrased": true,
     "in_text": "no",
-    "actor_correct": "yes"
+    "actor_correct": "no"
    }
   }
  ],

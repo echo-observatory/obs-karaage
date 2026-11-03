@@ -1,5 +1,5 @@
 {
- "0e1d6de645141f261524364c3ba671815e835fd4248c32c40f95daf579c76c5e": {
+ "04053c70307f959fc9e271f4d92f8ba43d3b595956929477dd63444c09cb98c9": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -8,7 +8,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"A co-executive from Village Roadshow stated that pirates are 'leeches and thieves,' noting they are similar to heroin sellers.\"}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -17,8 +17,8 @@
     }
    }
   ],
-  "created": 1793688326,
-  "id": "chatcmpl-5xtnvr7vxgov5ghdyhwcnh",
+  "created": 1793702386,
+  "id": "chatcmpl-jn562nsdv8e6kzhjqohzdu",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -27,7 +27,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 37,
+   "completion_tokens": 15,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -35,12 +35,135 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 237,
+   "prompt_tokens": 239,
    "prompt_tokens_details": null,
-   "total_tokens": 274
+   "total_tokens": 254
   }
  },
- "1bc364d4b8cec5f622d183458a08f3667e3e30b231621461e0c26eaacbcdf93b": {
+ "3c9b2f8206b5aae8aafdde9f73218736c0b311b18421cd6f26a73a7c9ac40ee9": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"After the required blocking of sites that violate copyright rules is put into effect, the blocked domains must show a landing page. This page must display an 'access denied' message and a clear notice telling users that the site either breaks copyright laws or helps others break them.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702382,
+  "id": "chatcmpl-dns6yshzxpnvyqzd8nb8u9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 63,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 206,
+   "prompt_tokens_details": null,
+   "total_tokens": 269
+  }
+ },
+ "6679730faaa28d07db1f484d13f071c28efa3874e20a025f12f439fecfeca98b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"ISPs can choose blocking methods like DNS, IP, or URL blocking.\", \"Copyright holders pay up to A$50 per domain for blocking.\", \"Blocked sites are replaced by an 'access denied' landing page with a copyright infringement notice.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702359,
+  "id": "chatcmpl-qrwvr3iqjemh18uqoeocut",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 56,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 817,
+   "prompt_tokens_details": null,
+   "total_tokens": 873
+  }
+ },
+ "79a638ff5cb6ed83d3768c63cd3478efa86b4a3958d724b8334a4d2893cfd14a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Stopping access to illegal download platforms through a legal decision is a significant move against stealing content and teaching people about copyright.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702385,
+  "id": "chatcmpl-i279anrykks3dheimev4dp",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 33,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 176,
+   "prompt_tokens_details": null,
+   "total_tokens": 209
+  }
+ },
+ "7bb92443a1b626619faacb270a3961c8a7bcabc960f159e92ae86aaca4658f31": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -58,8 +181,8 @@
     }
    }
   ],
-  "created": 1793688327,
-  "id": "chatcmpl-9c6f4cq74mkyfyoi5mwgoq",
+  "created": 1793702389,
+  "id": "chatcmpl-n3kwgi0991bm24p8nosxcb",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -76,135 +199,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 249,
+   "prompt_tokens": 260,
    "prompt_tokens_details": null,
-   "total_tokens": 264
+   "total_tokens": 275
   }
  },
- "2446160e69c414435f257b1b4b10f82b12e5ac7296b8017b4503b795dcc906bf": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"Ordered ISPs to block five specific copyright-infringing websites within 15 days\", \"rephrased\": \"The Australian Federal Court has mandated that Internet service providers block access to five specific websites known for copyright infringement within fifteen business days, establishing a new legal precedent for enforcing intellectual property rights in the digital space.\", \"summary\": \"The Australian Federal Court mandated blocking five copyright-infringing websites within 15 days.\"}, \"1\": {\"original\": \"The court requires ISPs to block five specific sites within 15 days, with...\", \"rephrased\": \"Under the new Australian legislation, the Federal Court requires Internet service providers to block five specific copyright-infringing sites within 15 days, a process funded by copyright holders paying up to A$50 per domain and resulting in blocked sites being replaced by an 'access denied' landing page.\", \"summary\": \"New Australian legislation requires ISPs to block five copyright sites within 15 days, funded by copyright holders.\"}, \"2\": {\"original\": \"This judgment is a major step in both directly combating piracy and educating...\", \"rephrased\": \"Peter Tonagh, chief executive of the media company Foxtel, views the Federal Court's recent judgment as a pivotal moment for directly combating digital piracy and educating the public that accessing content through unauthorized sites constitutes theft rather than legitimate use.\", \"summary\": \"Foxtel's CEO views the court judgment as a major step in combating piracy and educating the public.\"}, \"3\": {\"original\": \"Graham Bruke, co-executive of Village Roadshow, called pirates 'leeches and...'\", \"rephrased\": \"Graham Bruke, co-executive of the film studio Village Roadshow, characterized individuals who illegally download copyrighted material as 'leeches and thieves' and compared their actions to selling heroin, a strong moral stance reflecting the company's commitment to protecting intellectual property rights.\", \"summary\": \"Village Roadshow's co-executive characterized pirates as 'leeches and thieves' and compared them to heroin sellers.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688312,
-  "id": "chatcmpl-m092vh6i63pq8esj6lnlcg",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 434,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1860,
-   "prompt_tokens_details": null,
-   "total_tokens": 2294
-  }
- },
- "29b0ee999386830c1fc840444fea9be58af6eac7a74a803a50f99e1e59c1be0f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"The court requires ISPs to block five specific sites within 15 days, with copyright holders paying up to A$50 per domain and blocked sites replaced by an 'access denied' message.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688308,
-  "id": "chatcmpl-c93kvq7cvtswgf8kwj7syp",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 46,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 820,
-   "prompt_tokens_details": null,
-   "total_tokens": 866
-  }
- },
- "36ac0b91124291886c8aa6c34b3281bb85a605a49af645b7be3803581631e060": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"A directive from the Australian Federal Court requires five websites that breach copyright rules to be shut down in a 15-day window.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688323,
-  "id": "chatcmpl-8dso3ts7okniwuqbchvgzp",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 36,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 224,
-   "prompt_tokens_details": null,
-   "total_tokens": 260
-  }
- },
- "4ea1d197271fb9c08f2575bfa30c7d6f6086126d9c0a85701a14a4f3b2e40184": {
+ "7ebaa251f9b7e7f44391574b161faf1000faf5326dd7ccf46c1d2b7925435d22": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -222,8 +222,8 @@
     }
    }
   ],
-  "created": 1793688307,
-  "id": "chatcmpl-5k7j1cycc6vo4aupi4r8e",
+  "created": 1793702358,
+  "id": "chatcmpl-1tbw3y8xaf6g44dnmaoqcw",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -240,9 +240,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 762,
+   "prompt_tokens": 759,
    "prompt_tokens_details": null,
-   "total_tokens": 788
+   "total_tokens": 785
   }
  },
  "81766730350d64fb715c90ad62eb05226dc9750223ffab34e9473d473c8026a7": {
@@ -263,8 +263,8 @@
     }
    }
   ],
-  "created": 1793688302,
-  "id": "chatcmpl-6pa5x28tsi8fqs5fa4vdll",
+  "created": 1793702353,
+  "id": "chatcmpl-c53et85adcdrrdve60ub89",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -286,7 +286,48 @@
    "total_tokens": 1064
   }
  },
- "82213f920c249722dc911396fef44238a2ac9c95dcc595f05db57a7cdd375013": {
+ "88c6e3e51262d27a1d94afca7166d59e4b0e87c215905265bd22c828c70662eb": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"After the required blocking of sites that violate copyright rules is put into effect, the blocked domains must show a landing page. This page must display an 'access denied' message and a clear notice telling users that the site either breaks copyright laws or helps others break them.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702384,
+  "id": "chatcmpl-r5e0j3eo8m4vqjoio06u4",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 63,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 206,
+   "prompt_tokens_details": null,
+   "total_tokens": 269
+  }
+ },
+ "978a9354020a7c498e8905cacfb52d6cdd176286deeffda181de6436fba66b3a": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -304,8 +345,8 @@
     }
    }
   ],
-  "created": 1793688328,
-  "id": "chatcmpl-c8gia6j49ef1p9aeol85zv",
+  "created": 1793702388,
+  "id": "chatcmpl-cajb1u2inpsjo7oyoq203",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -322,12 +363,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 267,
+   "prompt_tokens": 281,
    "prompt_tokens_details": null,
-   "total_tokens": 282
+   "total_tokens": 296
   }
  },
- "922b5dd05b13c46801e9edae666fe725b9dd103fe800861486889c66125a89ca": {
+ "97951d635d57b63a831b4553aacf27410ad97c2f8c7303d1fd06f4c5289cbdaa": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -336,7 +377,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"Graham Bruke, co-executive of Village Roadshow, called pirates 'leeches and thieves' and compared them to heroin sellers in October.\"]}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -345,8 +386,8 @@
     }
    }
   ],
-  "created": 1793688311,
-  "id": "chatcmpl-vv0uu1feoff3vr6btlizq",
+  "created": 1793702387,
+  "id": "chatcmpl-cfg51n3wgq52mblsu4k1l",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -355,7 +396,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 38,
+   "completion_tokens": 15,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -363,50 +404,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 747,
+   "prompt_tokens": 245,
    "prompt_tokens_details": null,
-   "total_tokens": 785
-  }
- },
- "92ad9596a4927316cfe9e0c0e552307142b8b633879a5c8055c69259569d0bb1": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"A co-executive at Village Roadshow described pirates as 'leeches and thieves' and likened them to heroin dealers.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688325,
-  "id": "chatcmpl-vur0g8rkkkrfe37s552ggb",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 36,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 183,
-   "prompt_tokens_details": null,
-   "total_tokens": 219
+   "total_tokens": 260
   }
  },
  "a082d1e67f1c14b685bd9635bde6099283e5cf43ed57cefdee5e47a6fe3b6201": {
@@ -427,8 +427,8 @@
     }
    }
   ],
-  "created": 1793688306,
-  "id": "chatcmpl-isdctphitn8araffxt9cmj",
+  "created": 1793702357,
+  "id": "chatcmpl-azjq5mqaytsbb1e5g0wfut",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -450,7 +450,7 @@
    "total_tokens": 647
   }
  },
- "b5bd47d279ad605da0f119214e7ce5ebdf6096a926b365163035fe93af6334ed": {
+ "a32f1f0b919790a69e6ec800dae3dcdb2cc0a06af61e277c1ee4f4ab5802f465": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -459,7 +459,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"base_author\": [\"The court ordered ISPs to block five copyright sites within 15 days, marking the first enforcement of new legislation requiring ISPs to pay up to A$50 per domain and replace blocked sites with an 'access denied' message.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -468,8 +468,8 @@
     }
    }
   ],
-  "created": 1793688327,
-  "id": "chatcmpl-httfvcgevlfn41cm9g98kr",
+  "created": 1793702362,
+  "id": "chatcmpl-axp6scdwqdiauu8yyag5k5",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -478,7 +478,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 53,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -486,135 +486,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 241,
+   "prompt_tokens": 744,
    "prompt_tokens_details": null,
-   "total_tokens": 256
+   "total_tokens": 797
   }
  },
- "bf26d9021b870daeba30ea0af095582cc286672fd90a39515758799f5c7f7928": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688328,
-  "id": "chatcmpl-434jzqzc6ej17d1k5tw87l",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 211,
-   "prompt_tokens_details": null,
-   "total_tokens": 226
-  }
- },
- "c321857c8f2614ba6e0cd151ce73836ad20ef665e6de2b192bca2d21c50c9115": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The chief executive of Foxtel believes the court ruling represents significant progress in fighting piracy and informing the public.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688324,
-  "id": "chatcmpl-7yw9o2lse3eslcfwyirb7f",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 32,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 179,
-   "prompt_tokens_details": null,
-   "total_tokens": 211
-  }
- },
- "cd0067a6e77b30aac17907fc4c1d0bf10716bbed7ab519dcfebeef5153e54a37": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"The Australian Federal Court ordered that five sites violating copyright laws be blocked within 15 days.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793688322,
-  "id": "chatcmpl-8jrxi6q9lw3s4krdfpcay",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 29,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 176,
-   "prompt_tokens_details": null,
-   "total_tokens": 205
-  }
- },
- "fda412594ec86c2a128fc8d81b0a9f1fd5585af4be9186114bb2b862e606111f": {
+ "b72a77a42830036b263903e54ca67341036b438b98c72ee36a06f9faa016155b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -632,8 +509,8 @@
     }
    }
   ],
-  "created": 1793688310,
-  "id": "chatcmpl-99kqduulz1dd9f2fqz3im",
+  "created": 1793702361,
+  "id": "chatcmpl-lypk2op8trsc97v2wmdzw",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -650,9 +527,255 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 847,
+   "prompt_tokens": 844,
    "prompt_tokens_details": null,
-   "total_tokens": 886
+   "total_tokens": 883
+  }
+ },
+ "cd04f2631cc20b02d37f3524302c67717d704665b1ce31370874fa4a798aee41": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Within 15 days, the Australian Federal Court directed internet service providers to stop five specific websites that break copyright rules.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702381,
+  "id": "chatcmpl-4h8j7pf5ao2xiifkivzzwa",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 34,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 234,
+   "prompt_tokens_details": null,
+   "total_tokens": 268
+  }
+ },
+ "ea8d3f58c8ca07ca7f718dd1a201b914ec59282085dec7d9db6b214223fad51c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The Australian Federal Court commanded internet service providers to prevent access to five particular sites violating copyright laws within a 15-day timeframe.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702380,
+  "id": "chatcmpl-nvkxsmopbz82qduskzqy18",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 36,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 179,
+   "prompt_tokens_details": null,
+   "total_tokens": 215
+  }
+ },
+ "ef0b47a48dc3a51f3821588157eebb94f4ff43dfebc7e1ced0e6f7a6f01493f9": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702387,
+  "id": "chatcmpl-v2ukkvet9edj35b4otvxd",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 261,
+   "prompt_tokens_details": null,
+   "total_tokens": 276
+  }
+ },
+ "f296e48e51786f299ef4226e1caa1097918b6cd57c32cbc3a5d6ba9fb89b2651": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702388,
+  "id": "chatcmpl-4udu3nv2yam39b0m9o7qw",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 212,
+   "prompt_tokens_details": null,
+   "total_tokens": 227
+  }
+ },
+ "fd053ab08b1416924905770138c4c9bf86de54bcbc604e16c0907d0824c967a6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"\\\"\\n\\nPeter Tonagh, the chief executive of copyright holders Foxtel said, \\\"This jud\", \"rephrased\": \"The recent court ruling mandating that Internet service providers block specific copyright-infringing websites represents a significant advancement in the fight against digital piracy. This legal decision not only forces these platforms offline but also serves as a powerful educational tool, reinforcing the public understanding that downloading protected material from such sites constitutes theft rather than a legitimate activity.\", \"summary\": \"The court ruling blocking piracy sites is a major step in combating theft and educating the public.\"}, \"5\": {\"original\": \"The court ordered ISPs to block five copyright sites within 15 days, marking the\", \"rephrased\": \"Under the newly enacted Australian copyright legislation, the Federal Court has issued an order requiring Internet service providers to block five specific websites within fifteen business days. This enforcement mechanism mandates that the service providers cover a fee of up to A$50 per domain and must replace access to the blocked sites with a standardized 'access denied' message, marking the first practical application of these legal requirements.\", \"summary\": \"The Federal Court ordered ISPs to block five copyright sites under new legislation requiring fees and access denial messages.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702374,
+  "id": "chatcmpl-dprc64grq57bl01kzlw04m",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 259,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1749,
+   "prompt_tokens_details": null,
+   "total_tokens": 2008
+  }
+ },
+ "ff83cb823b233233b4ced751cfa3bb9ef43eea6f5a650b65bbc04251c4384eba": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"Ordered ISPs to block five specific copyright-infringing websites within 15 days\", \"rephrased\": \"The Australian Federal Court has mandated that Internet service providers in Australia must block access to five specific websites known for copyright infringement within fifteen business days, marking the first enforcement of the nation's new digital copyright laws.\", \"summary\": \"The Australian Federal Court ordered ISPs to block five specific copyright-infringing websites within 15 days.\"}, \"1\": {\"original\": \"ISPs can choose blocking methods like DNS, IP, or URL blocking.\", \"rephrased\": \"Internet service providers in Australia retain the flexibility to select their preferred technical method for blocking infringing sites, with available options ranging from Domain Name System (DNS) blocking and IP address blocking to URL blocking, all under the framework of the new legislation.\", \"summary\": \"Australian ISPs retain the flexibility to choose their preferred technical method for blocking infringing sites.\"}, \"2\": {\"original\": \"Copyright holders pay up to A$50 per domain for blocking.\", \"rephrased\": \"Under the new Australian copyright legislation, copyright holders are responsible for paying Internet service providers up to A$50 for each specific domain that is ordered to be blocked, a cost structure designed to incentivize the enforcement of the blocking orders.\", \"summary\": \"Under the new Australian copyright legislation, copyright holders are responsible for paying Internet service providers up to A$50 for each specific domain that is ordered to be blocked.\"}, \"3\": {\"original\": \"Blocked sites are replaced by an 'access denied' landing page with a copyright\", \"rephrased\": \"Once the mandated blocking of infringing websites is successfully implemented, the affected domains must be replaced by a landing page displaying an 'access denied' message along with a clear notice informing users that the site infringes or facilitates the infringement of copyright.\", \"summary\": \"Once the mandated blocking of infringing websites is successfully implemented, the affected domains must be replaced by a landing page displaying an 'access denied' message along with a clear notice informing users that the site infringes or facilitates the infringement of copyright.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793702364,
+  "id": "chatcmpl-9br88ipu5pa00a27xwaqobxq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 444,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1803,
+   "prompt_tokens_details": null,
+   "total_tokens": 2247
   }
  }
 }

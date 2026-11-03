@@ -41,14 +41,14 @@
     "Andrej Preston",
     "Sloncek"
    ],
-   "text": "Andrej Preston, the founder of the now-defunct Suprnova file-sharing site, asserts that it is necessary for the public to learn the full reality of the legal crackdown that forced his service offline, marking a definitive end to his pretense that the events surrounding the police raids and subsequent legal battles never occurred.",
-   "text_short": "Preston demands public acknowledgment of the truth regarding the legal events that shut down his site.",
+   "text": "Andrej Preston, the founder of the now-defunct Suprnova file-sharing site, asserts that it is necessary for the public to learn the full reality of the events that led to his website's shutdown, marking a definitive end to his previous silence regarding the incident. He emphasizes that he must now cease pretending that the legal and operational challenges his site faced were merely temporary or insignificant, as the situation involved serious police raids and legal proceedings that fundamentally altered the landscape for his project and the wider file-sharing community.",
+   "text_short": "Preston demands public transparency regarding the severe legal consequences his file-sharing site faced, ending his previous silence on the matter.",
    "char_start": 0,
    "char_end": 812,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0755,
+    "rouge2_precision": 0.044,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -60,16 +60,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Following police raids on his residence and the seizure of digital equipment, Andrej Preston was summoned to a formal hearing by authorities, a process during which he chose to remain completely silent and refrain from answering any questions, ultimately resulting in the case being transferred to a prosecutor for further review.",
-   "text_short": "Preston remained silent during a police hearing after his home was raided and evidence was seized.",
+   "text": "Following police raids on his residence and the seizure of digital equipment, Andrej Preston was summoned to a formal hearing a month later, where he chose to remain completely silent during the interview with law enforcement, a decision that resulted in the case being transferred to a prosecutor for further review. This strategic refusal to answer questions during the initial police interview was a calculated move to avoid self-incrimination while the authorities prepared to escalate the matter to the prosecutorial level, highlighting the intense legal pressure faced by the site's operator.",
+   "text_short": "Preston strategically remained silent during a police hearing a month after raids, leading to the case being transferred to prosecutors.",
    "char_start": 1061,
    "char_end": 1588,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.04,
+    "rouge2_precision": 0.087,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -79,14 +79,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "After enduring a period of severe depression following the initial police raids and legal proceedings, Andrej Preston received a decisive victory when the prosecutor's office officially dropped all charges against him and returned his seized computers and media files, effectively clearing his name and restoring his property.",
-   "text_short": "Preston's legal troubles ended when charges were dropped and his property was returned.",
+   "text": "Although Andrej Preston initially experienced profound emotional distress upon receiving a notice to collect a letter regarding his legal case, he was ultimately relieved to discover that the criminal charges against him had been completely dropped and that his seized computers and other property had been returned to him. This positive legal outcome, which reversed the grim expectations he had formed, signifies a complete resolution of the legal conflict that had threatened his livelihood and the future of his file-sharing project.",
+   "text_short": "Preston's initial despair over legal notices turned to relief when charges were dropped and his property was returned.",
    "char_start": 1588,
    "char_end": 1818,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0213,
+    "rouge2_precision": 0.0494,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -98,17 +98,17 @@
    "actor_aliases": [
     "BitTorrent protocol"
    ],
-   "text": "The BitTorrent protocol functions by utilizing small metadata files to instruct client applications on which central servers to contact for locating other users and verifying file integrity, a design that distinguishes it from systems hosting files directly on a central server.",
-   "text_short": "BitTorrent relies on metadata files to guide clients toward trackers and peers.",
+   "text": "The BitTorrent protocol operates by utilizing small metadata files to connect client applications to central trackers, which then facilitate the location of peers and the verification of file integrity, thereby enabling users to download content without hosting the actual files on a central server. This decentralized architecture was originally perceived as a safer alternative to traditional file sharing systems from a legal standpoint, as it distributed the storage burden entirely across individual users' computers rather than relying on a single, easily targeted central repository.",
+   "text_short": "The BitTorrent protocol uses metadata to connect clients to trackers, offering a decentralized file-sharing method originally seen as legally safer.",
    "char_start": 1818,
    "char_end": 2267,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.1818,
-    "paraphrased": true,
+    "rouge2_precision": 0.2,
+    "paraphrased": false,
     "in_text": "yes",
-    "actor_correct": "yes"
+    "actor_correct": "no"
    }
   },
   {
@@ -117,7 +117,7 @@
    "actor_aliases": [
     "BitTorrent protocol"
    ],
-   "text": "The BitTorrent protocol was initially perceived as a legally safer alternative to traditional file sharing systems because it did not rely on centralized servers to host copyrighted files, instead distributing data directly across users' personal computers.",
+   "text": "The BitTorrent protocol was initially perceived as a legally safer alternative to traditional file sharing systems because it distributed data files directly across individual users' computers instead of hosting them on centralized servers, thereby reducing the risk of legal action against the service provider.",
    "text_short": "BitTorrent was initially viewed as legally safer than traditional file sharing due to its decentralized nature.",
    "char_start": 1818,
    "char_end": 2267,
@@ -136,14 +136,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "While BitTorrent trackers can be legally targeted for assisting in the distribution of data, the administrators of these trackers possess the practical capacity to easily remove specific torrents and halt user downloads, offering a mechanism for legal enforcement.",
-   "text_short": "BitTorrent trackers are legal targets, yet administrators can easily remove torrents to stop downloads.",
+   "text": "While BitTorrent trackers are considered legal targets for assisting in the distribution of data, the administrators of these trackers possess the practical capacity to easily remove specific torrents and halt user downloads, offering a mechanism for legal compliance.",
+   "text_short": "BitTorrent administrators can easily remove torrents to stop illegal downloads despite the protocol's legal risks.",
    "char_start": 2267,
    "char_end": 2576,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1081,
+    "rouge2_precision": 0.0667,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -155,14 +155,14 @@
    "actor_aliases": [
     "eXeem"
    ],
-   "text": "The eXeem project was engineered as a completely decentralized peer-to-peer network that eliminated the need for centralized trackers, but its development ultimately ceased following the discovery of embedded Cydoor adware within the software.",
-   "text_short": "eXeem was a decentralized network that ceased development after the discovery of adware.",
+   "text": "The eXeem file-sharing network was engineered as a completely decentralized system that eliminated the need for centralized trackers by having each peer assist others, yet its development ultimately ceased after the software was found to bundle unwanted Cydoor adware.",
+   "text_short": "The decentralized eXeem network ceased development after being discovered to bundle adware.",
    "char_start": 2576,
    "char_end": 3001,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2353,
+    "rouge2_precision": 0.1282,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"
