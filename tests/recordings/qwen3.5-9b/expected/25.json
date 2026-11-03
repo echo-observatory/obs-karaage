@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 2113,
  "text_sha256": "0dfd4ee4477e4ba85f012571f9e02701e6e660e434e1d5cd7dd60ec633c28c35",
- "main_point": "In retaliation for the FBI's shutdown of the file-sharing site Megaupload and proposed anti-piracy laws, the hacker group Anonymous launched a massive coordinated cyberattack that took down the websites of the US Justice Department, FBI, and major record labels.",
+ "main_point": "In retaliation for the FBI's shutdown of the file-sharing site Megaupload and proposed anti-piracy laws, the hacker group Anonymous coordinated a massive cyberattack that took major US government and music industry websites offline.",
  "main_point_method": "single",
  "actors": [
   {
@@ -66,14 +66,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "In response to the United States government's decision to shut down the file-sharing site Megaupload and advance strict anti-piracy legislation, the hacker collective Anonymous executed a synchronized cyberoperation that successfully disabled the online portals of the Federal Bureau of Investigation, the Department of Justice, and major music corporations. This coordinated retaliation was designed to demonstrate the group's capacity to disrupt critical digital infrastructure as a direct countermeasure against federal enforcement actions.",
-   "text_short": "Anonymous executed a coordinated cyberattack against US government and record label websites as retaliation for the Megaupload shutdown and anti-piracy laws.",
+   "text": "In response to the United States government's proposed anti-piracy legislation and the Federal Bureau of Investigation's shutdown of the file-sharing site Megaupload, the hacker collective Anonymous launched a coordinated cyberattack that successfully took the websites of the US Justice Department, the FBI, the Recording Industry Association of America, and Universal Music Group offline, causing significant disruption to federal and entertainment industry digital services.",
+   "text_short": "Anonymous launched a coordinated cyberattack against US government and music industry websites in retaliation for the FBI's shutdown of Megaupload and proposed anti-piracy laws.",
    "char_start": 0,
    "char_end": 614,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0811,
+    "rouge2_precision": 0.2424,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -81,83 +81,60 @@
   },
   {
    "id": "25-s2",
-   "actor": "Anonymous",
-   "actor_aliases": [
-    "Anonymous",
-    "members of online activist group Anonymous",
-    "members of Anonymous",
-    "YourAnonNews",
-    "Another member of Anonymous"
-   ],
-   "text": "Members of the hacker group Anonymous publicly claimed credit for disabling the websites of the US Justice Department, the Federal Bureau of Investigation, and the Recording Industry Association of America, framing these actions as a necessary protest against the FBI's seizure of the Megaupload file-sharing service and opposition to proposed American anti-piracy laws. The group argued that this direct confrontation was a justified response to what they viewed as excessive government overreach in the digital space.",
-   "text_short": "Anonymous claimed responsibility for taking down government and record label websites as a protest against the Megaupload seizure and anti-piracy laws.",
-   "char_start": 0,
-   "char_end": 614,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.1667,
-    "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "25-s3",
    "actor": "Federal Bureau of Investigation",
    "actor_aliases": [
     "Federal Bureau of Investigation",
     "FBI",
     "www.fbi.gov"
    ],
-   "text": "The Federal Bureau of Investigation carried out the seizure and permanent shutdown of the Megaupload file-sharing website, an action taken to enforce copyright laws and dismantle a platform accused of facilitating massive-scale digital piracy and financial fraud. This enforcement move involved the arrest of the site's founder and several associates, marking a significant escalation in the government's crackdown on online copyright infringement.",
-   "text_short": "The FBI seized and shut down the Megaupload file-sharing website to enforce copyright laws and arrest its operators.",
+   "text": "The Federal Bureau of Investigation seized and permanently shut down the file-sharing website Megaupload, an action that directly precipitated a retaliatory cyberattack by the hacker group Anonymous against major US government and music industry digital infrastructure.",
+   "text_short": "The FBI's shutdown of the file-sharing site Megaupload triggered a retaliatory cyberattack by the hacker group Anonymous.",
    "char_start": 614,
    "char_end": 1051,
    "valid": false,
-   "rejection_reason": "not found in source text",
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
     "rouge2_precision": 0.2222,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "no"
    }
   },
   {
-   "id": "25-s4",
+   "id": "25-s3",
    "actor": "base_author",
    "actor_aliases": [
     "base_author"
    ],
-   "text": "On Thursday, the Federal Bureau of Investigation executed the seizure and shutdown of the Megaupload website, resulting in the arrest of the site's founder and six other individuals on charges including copyright infringement, racketeering, and conspiracy to commit money laundering. Authorities stated that these legal actions were necessary to dismantle an operation that had cost the entertainment industry hundreds of millions of dollars in damages through unauthorized distribution of copyrighted material.",
-   "text_short": "The FBI seized the Megaupload website and arrested its operators for copyright infringement and money laundering.",
+   "text": "On Thursday, the Federal Bureau of Investigation executed a seizure and shutdown of the file-sharing website Megaupload, resulting in the arrest and indictment of seven individuals, including the site's founder, on charges ranging from copyright infringement to money laundering conspiracy.",
+   "text_short": "The FBI seized and shut down the file-sharing site Megaupload, leading to the arrest and indictment of seven individuals on serious federal charges.",
    "char_start": 1493,
    "char_end": 1789,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2667,
+    "rouge2_precision": 0.2174,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
    }
   },
   {
-   "id": "25-s5",
+   "id": "25-s4",
    "actor": "Megaupload",
    "actor_aliases": [
     "Megaupload",
     "file-sharing website Megaupload",
     "the website"
    ],
-   "text": "The file-sharing platform Megaupload enabled users to access copyrighted content, including films, music, and software, often before their official theatrical or commercial release, thereby facilitating widespread unauthorized distribution that the entertainment industry argues caused hundreds of millions of dollars in financial losses.",
-   "text_short": "Megaupload provided a mechanism for the mass, pre-release distribution of copyrighted media, resulting in significant financial damages for the entertainment industry.",
+   "text": "The file-sharing website Megaupload enabled individuals to download movies, music, television programs, electronic books, and business software on a massive scale, a capability that the entertainment industry cites as the primary justification for the Federal Bureau of Investigation's subsequent seizure and shutdown of the site.",
+   "text_short": "Megaupload allowed users to download vast amounts of copyrighted media, a function that justified the FBI's decision to seize and shut down the website.",
    "char_start": 1789,
    "char_end": 2002,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0476,
+    "rouge2_precision": 0.2826,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "no"

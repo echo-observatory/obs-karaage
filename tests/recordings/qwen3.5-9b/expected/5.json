@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 2047,
  "text_sha256": "cdc0465e43c4c8e5016ad45842a861f9e5ffb6b3754d34c4558e240169cc5fdf",
- "main_point": "Three states are suing Sony BMG over its music CD software, which secretly installs a dangerous rootkit that compromises computer security and violates consumer protection laws.",
+ "main_point": "Consumers are suing Sony BMG because its music CDs contain hidden rootkit software that secretly compromises computer security and tracks usage, while the company defends the technology and plans to expand it.",
  "main_point_method": "single",
  "actors": [
   {
@@ -40,15 +40,15 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "California, Italy, and New York have initiated legal action against Sony BMG, alleging that the company's digital rights management software contains a hidden rootkit. This malicious code automatically installs on users' computers, creating security vulnerabilities and violating consumer protection laws, which the states argue justifies their lawsuit for damages and injunctions.",
-   "text_short": "Three states are suing Sony BMG over dangerous DRM software that compromises computer security and violates consumer laws.",
+   "text": "Consumers in California, Italy, and New York are initiating legal action against Sony BMG because the company's digital rights management software, embedded in at least 20 music discs, secretly compromises computer security and tracks user data without explicit consent. This litigation challenges the corporation's distribution of technology that violates consumer protection laws by creating hidden vulnerabilities in operating systems.",
+   "text_short": "Lawsuits are being filed by residents of California, Italy, and New York against Sony BMG. The legal action concerns DRM software that damages security.",
    "char_start": 0,
    "char_end": 884,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "too similar to source",
    "diagnostics": {
-    "rouge2_precision": 0.2549,
-    "paraphrased": false,
+    "rouge2_precision": 0.3043,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -60,14 +60,14 @@
     "Sony BMG Music Entertainment",
     "Sony"
    ],
-   "text": "A senior executive at Sony BMG Music Entertainment argues that the general public lacks sufficient knowledge about rootkits, suggesting that this widespread ignorance renders the security risks posed by the hidden software irrelevant to most consumers. This perspective minimizes the urgency of the threat, even as the company releases patches to address the issue.",
-   "text_short": "A Sony BMG executive minimizes the security risk of rootkits by claiming most consumers do not understand what they are.",
+   "text": "A senior executive at Sony BMG Music Entertainment argues that the general public lacks sufficient knowledge about rootkit technology, implying that widespread consumer awareness is a prerequisite for demanding accountability regarding the security risks posed by the company's digital rights management systems.",
+   "text_short": "A Sony BMG executive argues that consumers lack knowledge about rootkits and therefore should not be concerned about the security risks.",
    "char_start": 884,
    "char_end": 1212,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1053,
+    "rouge2_precision": 0.1,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -79,17 +79,17 @@
    "actor_aliases": [
     "Mark Russinovich"
    ],
-   "text": "The remedial uninstall kits provided to remove the malicious rootkit software are distributed exclusively through an ActiveX application, a technology widely regarded by security professionals as dangerous. Experts warn that this delivery method grants the application high execution privileges on the host computer, thereby creating a new security vulnerability that contradicts the goal of fixing the original problem.",
-   "text_short": "The uninstall kits for the rootkit use a dangerous ActiveX technology that creates new security vulnerabilities.",
+   "text": "Security specialists strongly recommend turning off ActiveX technology because it grants dangerous high execution privileges on host computers, which creates a new vulnerability. This is the only way to receive the remedial uninstall kits designed to fix the security flaws found in the rootkit software.",
+   "text_short": "The uninstall kits for the rootkit are distributed via ActiveX, a technology experts warn against due to its high security risks.",
    "char_start": 1212,
    "char_end": 1418,
    "valid": false,
-   "rejection_reason": "not found in source text",
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.1579,
-    "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "uncertain"
+    "rouge2_precision": 0.25,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
    }
   },
   {
@@ -98,14 +98,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Sony's digital rights management software secretly transmits data to the company's servers every time a CD is played, a behavior that is explicitly concealed from the license agreement and the rootkit itself. This hidden surveillance capability raises significant concerns among media rights activists and artists regarding privacy and consent, as users are unaware that their usage patterns are being monitored without their knowledge.",
-   "text_short": "Sony's DRM software secretly monitors CD usage in a way hidden from the license agreement and users.",
+   "text": "Beyond legal challenges, the digital rights management software developed by Sony BMG faces significant criticism from media rights activists and artists because the technology secretly transmits usage data to the company's servers, a behavior that is concealed from users in the license agreement and hidden within the rootkit itself.",
+   "text_short": "Sony BMG's DRM software faces criticism for secretly transmitting usage data, a behavior hidden from users.",
    "char_start": 1418,
    "char_end": 1826,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2941,
+    "rouge2_precision": 0.1633,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -117,7 +117,7 @@
    "actor_aliases": [
     "Thomas Hesse"
    ],
-   "text": "Thomas Hesse, a representative for Sony BMG, states that approximately sixty percent of music compact discs distributed in the United States currently utilize digital rights management software to restrict copying, and the company intends to expand this coverage to include every single disc released in the market by the beginning of 2006. This aggressive expansion of proprietary control measures represents a significant escalation in the industry's approach to protecting intellectual property, even as legal challenges regarding the security risks of the underlying technology intensify.",
+   "text": "Thomas Hesse, a representative for Sony BMG Music Entertainment, states that approximately sixty percent of music compact discs currently distributed in the United States contain digital rights management software designed to prevent unauthorized copying. He asserts that the company intends to expand this implementation so that every single disc released in the American market will include these restrictive measures by the beginning of 2006, prioritizing the protection of intellectual property over consumer concerns regarding software security and privacy.",
    "text_short": "Sony BMG plans to fully implement copy protection on all US music CDs by early 2006.",
    "char_start": 1826,
    "char_end": 2047,

@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 2715,
  "text_sha256": "33ae569191a7ac2682ab8d62924bc456cb31aeeb4e0b7b1f05fa4ea951ae203b",
- "main_point": "The Supreme Court's upcoming ruling in MGM v. Grokster will determine whether software companies can be held legally responsible for copyright infringement by users of peer-to-peer technology, a decision that could either affirm the legality of such networks or overturn the precedent set by the 1984 Betamax case, thereby impacting billions in future revenues.",
+ "main_point": "The U.S. Supreme Court is hearing a landmark case where entertainment companies seek to hold P2P software makers liable for copyright infringement, a ruling that could overturn the 1984 Betamax precedent and determine the future legality of peer-to-peer technology in the U.S.",
  "main_point_method": "single",
  "actors": [
   {
@@ -31,15 +31,15 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The United States Supreme Court is set to issue a decision in the upcoming MGM v. Grokster case that will determine whether software developers can be held legally liable for copyright infringement committed by users of peer-to-peer networks. This ruling carries the potential to either affirm the existing legal protections for technology companies established in the 1984 Betamax case or overturn that precedent, a shift that would fundamentally alter the liability landscape for digital content distribution and impact billions of dollars in future revenues for the entertainment industry.",
-   "text_short": "The Supreme Court's pending ruling on MGM v. Grokster will decide if software makers face liability for user piracy, potentially overturning the 1984 Betamax precedent and affecting billions in revenue.",
+   "text": "On March 29, the U.S. Supreme Court listened to oral arguments in the MGM v. Grokster case. In this lawsuit, 28 entertainment companies sued peer-to-peer software makers, asking the court to make them legally liable for copyright infringement. The case aims to reverse the 1984 Betamax precedent. That earlier ruling had shielded technology distributors. This decision will decide whether peer-to-peer networks are legal in the United States.",
+   "text_short": "A landmark case is before the U.S. Supreme Court. Entertainment firms want to make P2P software makers responsible for copyright infringement. This decision might change the 1984 Betamax precedent. It could also decide if peer-to-peer technology is legal in the U.S.",
    "char_start": 0,
    "char_end": 2132,
    "valid": false,
-   "rejection_reason": "not found in source text",
+   "rejection_reason": "too similar to source",
    "diagnostics": {
-    "rouge2_precision": 0.1348,
-    "paraphrased": false,
+    "rouge2_precision": 0.3099,
+    "paraphrased": true,
     "in_text": "no",
     "actor_correct": "yes"
    }
@@ -50,14 +50,14 @@
    "actor_aliases": [
     "Pew Internet & American Life Project"
    ],
-   "text": "Recent survey data indicates that a significant majority of the American public, including 53% of internet users, believes that owners and operators of file-sharing networks should be held legally responsible for the music and movie piracy facilitated by their technology. This public sentiment highlights a strong demand for shifting liability away from individual users and onto the companies that provide the tools for digital content distribution, challenging the traditional legal framework that currently shields technology providers from such claims.",
-   "text_short": "A recent survey reveals that a majority of Americans believe file-sharing network owners should be held responsible for user piracy.",
+   "text": "A recent survey by the Pew Internet & American Life Project reveals that 49% of all Americans and 53% of internet users believe that owners of file-sharing networks should be held legally responsible for the piracy of music and movie files. This public opinion data underscores a significant societal demand for stricter liability regarding digital content distribution, contrasting with the legal protections previously afforded to technology companies.",
+   "text_short": "A recent survey by the Pew Internet & American Life Project reveals that 49% of all Americans and 53% of internet users believe that owners of file-sharing networks should be held legally responsible for the piracy of music and movie files.",
    "char_start": 2132,
    "char_end": 2413,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.05,
+    "rouge2_precision": 0.125,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -69,15 +69,15 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The outcome of the MGM v. Grokster litigation will determine whether the United States legal system will uphold the 1984 Betamax precedent, which protects technology manufacturers, or overturn it to impose liability on software creators for unauthorized copying by their users. This judicial decision is critical because it stands to redefine the economic viability of the home video market, with billions of dollars in future revenues now hanging in the balance depending on whether the court affirms or rejects the established legal standard for peer-to-peer technology.",
-   "text_short": "The MGM v. Grokster ruling will decide whether to uphold or overturn the 1984 Betamax precedent, a choice that could determine billions in future revenues for the home video market.",
+   "text": "The outcome of the MGM v. Grokster case will either affirm the 1984 Betamax precedent or overturn it, representing a pivotal moment for the U.S. technology sector. This legal decision carries billions of dollars in future revenues at stake, as it determines whether modern peer-to-peer technology will be protected under the same legal framework that originally enabled the home video market.",
+   "text_short": "The MGM v. Grokster ruling will either uphold the 1984 Betamax decision or reverse it. This result is a critical turning point for the U.S. technology industry, as billions of dollars in future income depend on the outcome.",
    "char_start": 2413,
    "char_end": 2715,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2069,
-    "paraphrased": false,
+    "rouge2_precision": 0.2105,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }

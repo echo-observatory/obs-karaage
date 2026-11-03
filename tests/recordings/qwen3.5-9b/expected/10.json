@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 3854,
  "text_sha256": "237b05d010155b504f4127f25f548b977787eee947aaf8704b0fbef013180c4c",
- "main_point": "Police raided The Pirate Bay and Piratbyrån servers on copyright violation grounds, but while authorities claim no arrests occurred, operators and a detained web host allege the move was a politically motivated sting by the Anti-Piracy Bureau to shut down the site and seize unrelated servers without legal basis.",
+ "main_point": "Swedish police raided The Pirate Bay and Piratbyrån on copyright violation grounds, sparking debate over the legality of the site, the involvement of US media corporations, and the lawfulness of seizing unrelated servers.",
  "main_point_method": "single",
  "actors": [
   {
@@ -89,16 +89,16 @@
     "the site operators",
     "they"
    ],
-   "text": "The Swedish National Criminal Police launched a joint operation based on claims of copyright violation. This action involved 50 officers who raided The Pirate Bay and Piratbyrån. Piratbyrån is a Swedish group that initially created the website. The officers took control of the servers during the raid.",
-   "text_short": "Swedish police raided The Pirate Bay and Piratbyrån servers based on alleged copyright violations.",
+   "text": "The Swedish National Criminal Police launched an operation against the servers of The Pirate Bay and Piratbyrån. This Swedish lobby group created the website. The police used 50 officers for the raid. They acted because of suspected copyright violations.",
+   "text_short": "Swedish law enforcement officers conducted a search of The Pirate Bay and Piratbyrån servers, acting on reports of possible copyright breaches.",
    "char_start": 0,
    "char_end": 214,
    "valid": false,
    "rejection_reason": "too similar to source",
    "diagnostics": {
-    "rouge2_precision": 0.3077,
+    "rouge2_precision": 0.3158,
     "paraphrased": true,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "no"
    }
   },
@@ -108,14 +108,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "A search warrant was executed to close the site for suspected copyright infringement. This action was unexpected, given that the operation's legality had been heavily debated by the public for more than three years. During this time, the operators often released press statements to support their stance.",
-   "text_short": "The raid on the site based on alleged copyright violations was surprising given the long-standing public legal debate.",
+   "text": "Swedish officials have launched raids against The Pirate Bay and Piratbyrån, claiming copyright infringement. This move comes as a shock because the site's legal status has been debated openly for more than three years. During this time, the operators often released press statements arguing that these actions are not lawful.",
+   "text_short": "The raid on The Pirate Bay is surprising given the site's long-standing public debate over its legality.",
    "char_start": 214,
    "char_end": 518,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1111,
+    "rouge2_precision": 0.16,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -128,14 +128,14 @@
     "Rickard Falkvinge",
     "head of the Swedish Pirate Party"
    ],
-   "text": "Rickard Falkvinge, who leads the Swedish Pirate Party, stated that law enforcement detained three employees of the website. However, only two people were actually placed in custody. This difference conflicts with the official police report on how many arrests occurred.",
+   "text": "Rickard Falkvinge, who leads the Swedish Pirate Party, stated that law enforcement detained three employees of The Pirate Bay. However, only two individuals were actually held in custody. This gap indicates a difference between the original arrest warrants and the final results regarding who was taken into custody.",
    "text_short": "Rickard Falkvinge stated that law enforcement detained three employees, but only two individuals were actually placed in custody.",
    "char_start": 518,
    "char_end": 743,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1538,
+    "rouge2_precision": 0.1489,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -149,14 +149,14 @@
     "CEO of the Motion Picture Association of America",
     "CEO of the MPAA"
    ],
-   "text": "Dan Glickman, who leads the Motion Picture Association of America, praised the police operation against The Pirate Bay. He stated that this raid serves as a vital warning: copyright infringers have no safe havens. He also stressed that digital platforms must be held responsible for sharing illegal material.",
-   "text_short": "Dan Glickman praised the police action against The Pirate Bay, noting it shows that copyright thieves have no safe havens.",
+   "text": "Dan Glickman, who leads the Motion Picture Association of America, praised the Swedish police operation against The Pirate Bay. He stated this action shows that copyright thieves have no safe havens. The MPAA also claims the website provided more than 150,000 files, which included major summer blockbusters.",
+   "text_short": "Dan Glickman, who works for the MPAA, praised the raid. He said this shows that copyright thieves have no safe harbors.",
    "char_start": 1503,
    "char_end": 1819,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1702,
+    "rouge2_precision": 0.2,
     "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -168,16 +168,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Motion Picture Association of America (MPAA) asserts that The Pirate Bay is a primary target for enforcement action, alleging the site distributes over 150,000 files, including major summer blockbusters such as 'Mission: Impossible III' and 'X-Men 3', thereby justifying the raid as a necessary measure to protect intellectual property rights.",
-   "text_short": "The MPAA frames the raid as a necessary enforcement action against a major copyright infringement hub.",
+   "text": "The Motion Picture Association of America (MPAA) designates The Pirate Bay as a primary target for enforcement, asserting that the site distributes over 150,000 files, including major Hollywood blockbusters, thereby justifying aggressive action against it as a hub for copyright infringement.",
+   "text_short": "The MPAA identifies The Pirate Bay as a top copyright infringement target hosting major blockbusters.",
    "char_start": 1819,
    "char_end": 2071,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2885,
+    "rouge2_precision": 0.2143,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -190,17 +190,17 @@
     "the site operators",
     "they"
    ],
-   "text": "The Pirate Bay maintains its status as the world's largest BitTorrent tracker, asserting that its operations facilitate the sharing of both copyrighted and freely licensed material, including Linux distributions and independent music, to challenge the legal basis of the police seizure.",
-   "text_short": "The Pirate Bay defends its operations as a legitimate tracker for mixed content, rejecting the legality of the seizure.",
+   "text": "The Pirate Bay asserts that it operates as the world's largest BitTorrent tracker, a claim that underscores its role as a central distribution point for digital content regardless of whether the hosted files are copyrighted or freely licensed.",
+   "text_short": "The Pirate Bay states that it is the biggest BitTorrent tracker on the planet.",
    "char_start": 2366,
    "char_end": 2926,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2195,
-    "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "no"
+    "rouge2_precision": 0.2308,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
   },
   {
@@ -212,17 +212,17 @@
     "the site operators",
     "they"
    ],
-   "text": "While The Pirate Bay initially suggested the police raid was a publicity stunt designed to promote awareness, this theory was quickly dismissed following the confirmation of the operation's authenticity and the subsequent arrest of a web host, indicating a more serious legal intervention.",
-   "text_short": "The Pirate Bay's initial claim of a publicity stunt was disproven by the confirmed arrest and scope of the raid.",
+   "text": "The Pirate Bay distinguishes the current police raid from a similar event one year prior, clarifying that the previous incident was merely a routine server update rather than a publicity stunt, and noting that the current seizure of unrelated private servers lacks a clear legal basis.",
+   "text_short": "The Pirate Bay clarifies the current raid is not a publicity stunt and questions the legality of seizing unrelated servers.",
    "char_start": 2366,
    "char_end": 2926,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2,
+    "rouge2_precision": 0.1111,
     "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "no"
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
   },
   {
@@ -231,14 +231,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Swedish officials have confirmed the authenticity of the police raid on The Pirate Bay, a move that aligns with the site's own updated notice promising a quick return, even as a detained web host alleges he was arrested and denied legal representation during the operation.",
-   "text_short": "Official confirmation of the raid contrasts with a detained host's account of being denied legal representation.",
+   "text": "Swedish officials have confirmed the authenticity of the police raid on The Pirate Bay, which was followed by a site notice promising restoration within days, while the site's owner was arrested and interrogated without access to a public defender or legal representation.",
+   "text_short": "Officials confirm the raid's authenticity, noting the arrest of the site owner without legal representation.",
    "char_start": 2926,
    "char_end": 3481,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1556,
+    "rouge2_precision": 0.1905,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -252,17 +252,17 @@
     "the police",
     "police"
    ],
-   "text": "The Swedish National Criminal Police informed the detained web host, Gottfrid Svartholm, that he was not entitled to a public defender because the specific charge he faced did not carry a potential prison sentence, a legal justification used to deny him legal representation during the interrogation phase of the raid on The Pirate Bay and associated servers.",
-   "text_short": "Swedish police denied a detained web host a public defender by citing the non-custodial nature of his specific charge.",
+   "text": "Swedish authorities informed the owner of the hosting company that they were not required to assign a public defender to him, arguing that the copyright charges he faced did not carry a potential prison sentence. This decision to withhold legal representation was made despite the fact that the raid had also resulted in the seizure of private servers belonging to unrelated customers, raising concerns about the proportionality of the law enforcement actions.",
+   "text_short": "Swedish police denied the right to a public defender for a hosting owner, citing the non-custodial nature of the copyright charges.",
    "char_start": 3481,
    "char_end": 3708,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1053,
+    "rouge2_precision": 0.0952,
     "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
+    "in_text": "no",
+    "actor_correct": "no"
    }
   }
  ],

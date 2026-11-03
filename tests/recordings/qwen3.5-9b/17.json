@@ -1,5 +1,128 @@
 {
- "0da5890c9a9cdc03f96a8e341710a8d49c7744f60559dc035fe511deedd7abbe": {
+ "011dbd46e3d260e8be66184fc1d7e3ebce79e8c2f4dbea81339db915e8911a5e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Chet Baker\": [\"his estate alleges the record labels failed to pay royalties for hundreds of thousands of unlicensed songs\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687763,
+  "id": "chatcmpl-h8tc1nze1man4uafp9tgvs",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 26,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 927,
+   "prompt_tokens_details": null,
+   "total_tokens": 953
+  }
+ },
+ "080d14eb51f6cd67a0b88f8d52efcf38ceb52e04d050d0d116ef8cb64fb8851b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"may see the country's largest players in the music industry facing upwards of [b\", \"rephrased\": \"Under the Class Proceedings Act of 1992, a copyright case involving the estate of jazz musician Chet Baker and collecting societies suggests that Canada's four major record labels could face penalties totaling billions of dollars. This potential financial liability stems from allegations that these industry giants failed to pay royalties for hundreds of thousands of unlicensed songs, a claim supported by expert analysis of the legal framework and the scale of the alleged infringement.\", \"summary\": \"A copyright lawsuit alleges major Canadian record labels face billions in penalties for failing to pay royalties on hundreds of thousands of unlicensed songs.\"}, \"1\": {\"original\": \"A lawsuit led by Chet Baker's estate targets four major Canadian labels and thei\", \"rephrased\": \"A class action lawsuit initiated by the estate of the late jazz musician Chet Baker is targeting four major Canadian record labels and their parent companies for failing to pay royalties on hundreds of thousands of unlicensed songs. This legal action seeks to address a systemic failure in the industry's licensing model, arguing that the labels have withheld compensation for a vast catalog of musical works that should have been properly licensed and paid for.\", \"summary\": \"Chet Baker's estate is suing four major Canadian record labels for failing to pay royalties on hundreds of thousands of unlicensed songs.\"}, \"2\": {\"original\": \"Initially named as a defendant in the lawsuit, SODRAC later switched sides to j\", \"rephrased\": \"The Society for Reproduction Rights of Authors (SODRAC), a Canadian collecting society, initially joined the lawsuit as a defendant but later switched sides in January to become a plaintiff alongside the estate of Chet Baker. This strategic shift occurred as SODRAC and the Canadian Musical Reproduction Rights Agency (CMRRA) united to challenge the four major record labels, arguing that the industry's handling of licensing rights has caused significant harm to copyright holders.\", \"summary\": \"SODRAC switched from being a defendant to a plaintiff in the lawsuit against major Canadian record labels to join the fight for proper royalty payments.\"}, \"3\": {\"original\": \"his estate alleges the record labels failed to pay royalties for hundreds of th\", \"rephrased\": \"The estate of the late jazz musician Chet Baker alleges that major Canadian record labels failed to pay royalties for hundreds of thousands of unlicensed songs, a claim that forms the core of a class action lawsuit. This legal challenge asserts that the labels' refusal to properly license and compensate for these works constitutes copyright infringement, potentially resulting in massive statutory damages for the affected class of rightsholders.\", \"summary\": \"Chet Baker's estate alleges major Canadian record labels failed to pay royalties for hundreds of thousands of unlicensed songs, constituting copyright infringement.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687781,
+  "id": "chatcmpl-0xipsehc7qlq16q1z1tew5d",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 591,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2292,
+   "prompt_tokens_details": null,
+   "total_tokens": 2883
+  }
+ },
+ "0f90475a92836ed35e7205688ff194074b3be5e45dc277a1b33f64ae047d1873": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The current MLA mandates labels submit quarterly pending lists for royalty collection, while Basskin argues these terms are overly broad and strip parties of the right to decline licensing.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687770,
+  "id": "chatcmpl-b43ymq96xkvspsugjg7lfe",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 39,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 889,
+   "prompt_tokens_details": null,
+   "total_tokens": 928
+  }
+ },
+ "1beac0d1d30fc5a0bde4c4853b38628bcc107e5f0da0f4218db19ba75b6f822c": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -17,8 +140,8 @@
     }
    }
   ],
-  "created": 1793651312,
-  "id": "chatcmpl-ryo5msqs7s7p9pe8c8gri",
+  "created": 1793687841,
+  "id": "chatcmpl-dh4pfgysju9qdwfolb0odj",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -35,12 +158,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 271,
+   "prompt_tokens": 298,
    "prompt_tokens_details": null,
-   "total_tokens": 286
+   "total_tokens": 313
   }
  },
- "14b7b401c3c9cf5c4344e075932911fade290974ba8a66a4af26ab7dc3317511": {
+ "1eaceb886cdf0397fe5302e4219a87701c52a7c2f9f711e45d1ef341aecb4b0a": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -49,7 +172,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"base_author\": [\"A lawsuit led by Chet Baker's estate targets four major Canadian labels and their parent companies over unpaid royalties for hundreds of thousands of unlicensed songs.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -58,172 +181,8 @@
     }
    }
   ],
-  "created": 1793651315,
-  "id": "chatcmpl-ccu0quc40zjij8kd9inah",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 428,
-   "prompt_tokens_details": null,
-   "total_tokens": 443
-  }
- },
- "1719ed5c18d6f49b4e39f8388158331e8fe5836bb4d9ac0d29a895bc5f8df3ad": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Lauzon's affidavit\": [\"Alain Lauzon, SODRAC's General Manager, submitted a followup affidavit on January 28, 2009 to join the society as a plaintiff in the lawsuit.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651246,
-  "id": "chatcmpl-nn7cuowrw4db9yyg8rt09",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 50,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 908,
-   "prompt_tokens_details": null,
-   "total_tokens": 958
-  }
- },
- "1ea4a13a5ce47f8d89ef49b12ccb42ad6118071b2673efa944109374ccb4c38c": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"main_point\": \"A class action lawsuit led by the estate of jazz musician Chet Baker and collective societies alleges that major Canadian record labels have failed to pay royalties for hundreds of thousands of works, potentially resulting in billions in penalties, while the industry defends its practices by citing a 'pending list' of unlicensed works and dismissing the lawsuit as exaggerated.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651230,
-  "id": "chatcmpl-iw9ab7bnjctvidcsx05gd",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 73,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2894,
-   "prompt_tokens_details": null,
-   "total_tokens": 2967
-  }
- },
- "1eefff8a225a0229e200cabf7808229ddf0438fd29cd40878886a5ac5f866575": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651311,
-  "id": "chatcmpl-0rlwp6ec2710zymj8926cwb",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 378,
-   "prompt_tokens_details": null,
-   "total_tokens": 393
-  }
- },
- "20a9c136fa3137e0ff24addc892bfe9b483b0c3c71fac5dc94974901a398a2a3": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"David A. Basskin\": [\"CMRRA's Basskin, a lawyer and industry insider, details major labels resisting twenty years of collective societies fighting, and failing.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651253,
-  "id": "chatcmpl-uw529sdht8746j4b3ddt",
+  "created": 1793687760,
+  "id": "chatcmpl-euxxtl30cl44ck60uhoco4",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -240,12 +199,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 1137,
+   "prompt_tokens": 813,
    "prompt_tokens_details": null,
-   "total_tokens": 1174
+   "total_tokens": 850
   }
  },
- "23f8d7b7032487b54d1df48bbc61cca7895835cdab0738becedd64dd5eaa99e8": {
+ "21393ecaee45a3d845d8936e829d83522f46f7dc807870ea0e57961b38f25a14": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -254,7 +213,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"12\": {\"original\": \"Don Hogarth directed a response to a blog by CRIA lobbyist Barry Sookman, which \", \"rephrased\": \"The Canadian Recording Industry Association (CRIA) representative, Don Hogarth, directed a response to a blog post by the CRIA's own lobbyist, Barry Sookman, instead of answering the specific questions posed by the media. This decision to rely on a blog entry written by an industry insider, rather than providing direct answers, suggests an attempt to deflect scrutiny from the lawsuit's allegations of unpaid royalties. Given that the blog post contains numerous factual inaccuracies and misdirecting statements, this approach risks further misleading the public and undermining the credibility of the industry's defense against the claims of unpaid mechanical royalties.\", \"summary\": \"The CRIA representative deflected media scrutiny by directing responses to an industry lobbyist's inaccurate blog post instead of answering specific questions.\"}, \"13\": {\"original\": \"CMRRA's Basskin, a lawyer and industry insider, details major labels resisting  \", \"rephrased\": \"David A. Basskin, a lawyer and industry insider representing the Canadian Mechanical Reproduction Rights Agency (CMRRA), argues that the four major record labels in Canada have actively resisted and failed to negotiate a licensing system for twenty years. This resistance has prevented the collective societies from securing adequate measures to mechanically license musical works and collect the fees and royalties owed to rights holders. The statement frames the industry's refusal to adapt to the growing use of digital services as the primary cause of the ongoing financial dispute and unpaid debts.\", \"summary\": \"The CMRRA representative argues that major record labels have resisted and failed to negotiate a fair licensing system for twenty years, causing unpaid royalties.\"}, \"14\": {\"original\": \"The pending list's value is rising by over C$1.1 million quarterly, suggesting  \", \"rephrased\": \"The value of the list of unlicensed musical works is increasing by over C$1.1 million every quarter, a trend that indicates the four major record labels will owe at least C$73 million in outstanding debt by the end of 2012. This rapid growth in the pending list demonstrates that the industry's failure to mechanically license works and pay due fees is accelerating the financial liability, contradicting claims that the situation is stable or manageable. The data suggests that without immediate and comprehensive action to resolve the licensing backlog, the penalties for the class action lawsuit will reach billions of dollars.\", \"summary\": \"The rising value of the unlicensed works list indicates that major record labels face massive future debt, contradicting claims that the licensing backlog is manageable.\"}}",
+     "content": "{\"base_author\": [\"The MLA between the majors and CMRRA expired in 2012 after decades of negotiation, yet Basskin claims the major labels are responsible for creating and maintaining the disputed 'Pending Lists' that form the basis of the lawsuit.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -263,8 +222,8 @@
     }
    }
   ],
-  "created": 1793651288,
-  "id": "chatcmpl-lxaktg046hvpf7a6nizb",
+  "created": 1793687767,
+  "id": "chatcmpl-x7742ev859lmtw31ws0o",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -273,7 +232,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 547,
+   "completion_tokens": 55,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -281,12 +240,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2582,
+   "prompt_tokens": 949,
    "prompt_tokens_details": null,
-   "total_tokens": 3129
+   "total_tokens": 1004
   }
  },
- "29a0e63eef38b56b3da6d7a5b8e6e7e347b0977ddd6dcf289650a04a2c0a3e8b": {
+ "2399e06fa0c44af605bcf0f9cd8654f7d89dd113c5b0e0916a5435227c7a5776": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -295,7 +254,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"Lauzon, a qualified Chartered Accountant with 20+ years of experience, oversees industry-wide music licensing agreements and radio/online services. He states with confidence that SODRAC represents 10–15% of Canadian sound recordings (over 50% in Quebec) and that major labels bear the legal and customary responsibility for mechanical licenses.\"]}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -304,90 +263,8 @@
     }
    }
   ],
-  "created": 1793651248,
-  "id": "chatcmpl-xb7cj4mww2sk115llopkb9",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 82,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1075,
-   "prompt_tokens_details": null,
-   "total_tokens": 1157
-  }
- },
- "32b8f9ff2e002175df32ffc23772a9be9a1a4482fcd7e7b47506de7f7504a67a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Chet Baker\": [\"his estate views the 'pending list' as evidence of copyright infringement\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651237,
-  "id": "chatcmpl-ic6pw8h2sigsn57u8meqg",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 21,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 932,
-   "prompt_tokens_details": null,
-   "total_tokens": 953
-  }
- },
- "3e121b6b3973f0109ddd5e16409d8088f2de090d852494172ff7bbf44a5767b5": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651311,
-  "id": "chatcmpl-ef2nui3jmvrtx3fpi3nxhb",
+  "created": 1793687836,
+  "id": "chatcmpl-1sfyzeg26v4w3dyymoofeg",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -404,12 +281,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 213,
+   "prompt_tokens": 266,
    "prompt_tokens_details": null,
-   "total_tokens": 228
+   "total_tokens": 281
   }
  },
- "40258145074374a7ede32ed60637a45d215bdbbad8f88b96836aff61d23cd84b": {
+ "25059c64139c1f43f79b6b2b2f4bf8c8b121d2273b031c71e1fc188dec4d1633": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -418,7 +295,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"Lauzon, a qualified Chartered Accountant with over 20 years of experience, represents SODRAC and agrees that record labels have generally been unwilling to take steps to resolve the 'Pending List' problem.\"]}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -427,172 +304,8 @@
     }
    }
   ],
-  "created": 1793651250,
-  "id": "chatcmpl-laozagdvjbm0rlgk61vqkxb",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 52,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1056,
-   "prompt_tokens_details": null,
-   "total_tokens": 1108
-  }
- },
- "45c5b937e07835edf0a6b756ced166e78c0ab5010042065c1c3e54d24e64ccd5": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"sources\": [{\"main\": \"Professor Michael Geist\", \"other\": [\"Geist\"], \"kind\": \"person\", \"segments\": [[0, 0], [27, 27], [49, 49], [102, 102], [106, 106], [110, 110]]}, {\"main\": \"David A. Basskin\", \"other\": [\"Basskin\", \"President and CEO of CMRRA\"], \"kind\": \"person\", \"segments\": [[13, 13], [18, 18], [32, 32], [42, 42], [56, 56], [62, 62], [64, 64], [115, 115]]}, {\"main\": \"Society for Reproduction Rights of Authors (SODRAC)\", \"other\": [\"SODRAC\"], \"kind\": \"organisation\", \"segments\": [[7, 7], [10, 10], [73, 73], [78, 78], [80, 80], [85, 85], [108, 108]]}, {\"main\": \"Canadian Musical Reproduction Rights Agency (CMRRA)\", \"other\": [\"CMRRA\"], \"kind\": \"organisation\", \"segments\": [[7, 7], [10, 10], [29, 29], [30, 30], [52, 52], [59, 59], [61, 61], [62, 62], [85, 85], [115, 115], [119, 119]]}, {\"main\": \"Alain Lauzon\", \"other\": [\"Lauzon\", \"General Manager of Canada's Society for Reproduction Rights of Authors, Composers and Publishers (SODRAC)\"], \"kind\": \"person\", \"segments\": [[65, 65], [66, 66], [68, 68], [69, 69], [70, 70], [72, 72], [73, 73], [75, 75], [78, 78], [80, 80], [83, 83], [85, 85]]}, {\"main\": \"Wikinews\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[88, 88]]}, {\"main\": \"Don Hogarth\", \"other\": [], \"kind\": \"person\", \"segments\": [[90, 90], [92, 92], [99, 99]]}, {\"main\": \"Brian McNeil\", \"other\": [], \"kind\": \"person\", \"segments\": [[92, 92]]}, {\"main\": \"Barry Sookman\", \"other\": [\"Sookman\", \"lobbyist at the Canadian Parliament\", \"lobbyist\"], \"kind\": \"person\", \"segments\": [[94, 94], [95, 95], [97, 97], [98, 98], [100, 100], [102, 102], [103, 104], [105, 105], [110, 110], [111, 111], [113, 113], [114, 114], [121, 121], [122, 122]]}, {\"main\": \"Canadian Recording Industry Association (CRIA)\", \"other\": [\"CRIA\", \"the 'majors'' industry body\"], \"kind\": \"organisation\", \"segments\": [[36, 36], [47, 47], [48, 48], [74, 74], [88, 88], [89, 89], [91, 91], [98, 98], [128, 128]]}, {\"main\": \"Sony BMG Music\", \"other\": [\"Sony BMG Music\", \"Sony\"], \"kind\": \"organisation\", \"segments\": [[12, 12], [127, 127], [128, 128]]}, {\"main\": \"EMI Music Canada\", \"other\": [\"EMI Music Canada\"], \"kind\": \"organisation\", \"segments\": [[12, 12]]}, {\"main\": \"Universal Music Canada\", \"other\": [\"Universal Music Canada\"], \"kind\": \"organisation\", \"segments\": [[12, 12]]}, {\"main\": \"Warner Music Canada\", \"other\": [\"Warner Music Canada\", \"Warner Brothers Canada\"], \"kind\": \"organisation\", \"segments\": [[12, 12], [90, 90]]}, {\"main\": \"Chet Baker\", \"other\": [\"Baker\", \"the late jazz musician Chet Baker\", \"Baker's estate\", \"Baker legal team\"], \"kind\": \"person\", \"segments\": [[3, 3], [11, 11], [14, 14]]}, {\"main\": \"The Mechanical Licensing Agreement (MLA)\", \"other\": [\"MLA\"], \"kind\": \"document\", \"segments\": [[36, 36], [40, 40], [59, 59], [61, 61]]}, {\"main\": \"The Class Proceedings Act of 1992\", \"other\": [\"Class Proceedings Act of 1992\"], \"kind\": \"document\", \"segments\": [[1, 1]]}, {\"main\": \"Copyright Act\", \"other\": [\"Copyright Act\"], \"kind\": \"document\", \"segments\": [[25, 25]]}, {\"main\": \"The Mechanical Licensing Agreement (MLA) between the CMRRA and the CRIA\", \"other\": [\"MLA\"], \"kind\": \"document\", \"segments\": [[60, 60]]}, {\"main\": \"Basskin's affidavit\", \"other\": [\"Basskin's affidavit\", \"his sworn affidavit\", \"his first encounter with pending lists\"], \"kind\": \"document\", \"segments\": [[13, 13], [27, 27], [32, 32], [64, 64], [78, 78], [79, 79], [85, 85], [115, 115]]}, {\"main\": \"Lauzon's affidavit\", \"other\": [\"Lauzon's followup affidavit\", \"his followup affidavit\"], \"kind\": \"document\", \"segments\": [[65, 65], [75, 75], [78, 78]]}, {\"main\": \"Sookman's blog post\", \"other\": [\"Sookman's blog\", \"his blog\", \"his blog's sitemap\", \"a blog entry by Barry Sookman\", \"a posting\"], \"kind\": \"document\", \"segments\": [[94, 94], [95, 95], [102, 102], [103, 104], [105, 105], [110, 110], [111, 111], [113, 113], [114, 114]]}, {\"main\": \"The court\", \"other\": [\"the court\"], \"kind\": \"organisation\", \"segments\": [[76, 76], [106, 106]]}, {\"main\": \"The industry's side\", \"other\": [\"the industry's side\"], \"kind\": \"organisation\", \"segments\": [[88, 88]]}]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651190,
-  "id": "chatcmpl-lt1z5x8ae8akg2914vv2lh",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 1759,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 3226,
-   "prompt_tokens_details": null,
-   "total_tokens": 4985
-  }
- },
- "45dee9f4a8a0724845181ec57ed614121ef7bf4c9b00113afcfde6b8f3f4f800": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651314,
-  "id": "chatcmpl-5e1taw30xqlws81j3xwklk",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 258,
-   "prompt_tokens_details": null,
-   "total_tokens": 273
-  }
- },
- "523f1aa1486cc96ef023ab7b81a81a659ab0205739daa9e651e84d84236dffd3": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"The Mechanical Licensing Agreement expired Dec 31, 2012, following earlier terms set in 1990, 1998, 2004, 2006, and 2008.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651241,
-  "id": "chatcmpl-etrf97koaej6n6qxuxwb48",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 59,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 954,
-   "prompt_tokens_details": null,
-   "total_tokens": 1013
-  }
- },
- "5702b3b9cb1b9588c09b721f6002c6ac6f592211bff2cb4bd6e7effce951fcb6": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651316,
-  "id": "chatcmpl-1mqt24wdxg3dqbx33jj0b5",
+  "created": 1793687840,
+  "id": "chatcmpl-u4hlrzyhae1chgp7hoi56",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -614,7 +327,7 @@
    "total_tokens": 247
   }
  },
- "6880e5945ae53a845fe8b52749e6bedb9b7b1b3833753f640c1a358dd6c4d704": {
+ "3d44b6b6bc1bfa00164962ac11e5db07516b78687839a28d31470a9db9bd9d0d": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -632,8 +345,8 @@
     }
    }
   ],
-  "created": 1793651312,
-  "id": "chatcmpl-c07kzzo3o3tt12vnkj1gm",
+  "created": 1793687838,
+  "id": "chatcmpl-es1vylk04jcr6f8hqxcna",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -650,12 +363,299 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 365,
+   "prompt_tokens": 253,
    "prompt_tokens_details": null,
-   "total_tokens": 380
+   "total_tokens": 268
   }
  },
- "69fde2a0e25df273459844ce37a453732057cdabf3787e1439e7e21e24771670": {
+ "421d0385d9ec366cc6846605f2775bd3230953ca927a22374a4fac72524603ce": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687840,
+  "id": "chatcmpl-kmqh5uoo3tnzdzg02sga4d",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 480,
+   "prompt_tokens_details": null,
+   "total_tokens": 495
+  }
+ },
+ "45c5b937e07835edf0a6b756ced166e78c0ab5010042065c1c3e54d24e64ccd5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"sources\": [{\"main\": \"Professor Michael Geist\", \"other\": [\"Geist\"], \"kind\": \"person\", \"segments\": [[0, 0], [27, 27], [49, 49], [102, 102], [106, 106], [110, 110]]}, {\"main\": \"David A. Basskin\", \"other\": [\"Basskin\", \"President and CEO of CMRRA\"], \"kind\": \"person\", \"segments\": [[13, 13], [18, 18], [32, 32], [42, 42], [56, 56], [62, 62], [64, 64], [115, 115]]}, {\"main\": \"Society for Reproduction Rights of Authors (SODRAC)\", \"other\": [\"SODRAC\"], \"kind\": \"organisation\", \"segments\": [[7, 7], [10, 10], [73, 73], [78, 78], [80, 80], [85, 85], [108, 108]]}, {\"main\": \"Canadian Musical Reproduction Rights Agency (CMRRA)\", \"other\": [\"CMRRA\"], \"kind\": \"organisation\", \"segments\": [[7, 7], [10, 10], [29, 29], [30, 30], [52, 52], [59, 59], [61, 61], [62, 62], [85, 85], [115, 115], [119, 119]]}, {\"main\": \"Alain Lauzon\", \"other\": [\"Lauzon\", \"General Manager of Canada's Society for Reproduction Rights of Authors, Composers and Publishers (SODRAC)\"], \"kind\": \"person\", \"segments\": [[65, 65], [66, 66], [68, 68], [69, 69], [70, 70], [72, 72], [73, 73], [75, 75], [78, 78], [80, 80], [83, 83], [85, 85]]}, {\"main\": \"Wikinews\", \"other\": [], \"kind\": \"organisation\", \"segments\": [[88, 88]]}, {\"main\": \"Don Hogarth\", \"other\": [], \"kind\": \"person\", \"segments\": [[90, 90], [92, 92], [99, 99]]}, {\"main\": \"Brian McNeil\", \"other\": [], \"kind\": \"person\", \"segments\": [[92, 92]]}, {\"main\": \"Barry Sookman\", \"other\": [\"Sookman\", \"lobbyist at the Canadian Parliament\", \"lobbyist\"], \"kind\": \"person\", \"segments\": [[94, 94], [95, 95], [97, 97], [98, 98], [100, 100], [102, 102], [103, 104], [105, 105], [110, 110], [111, 111], [113, 113], [114, 114], [121, 121], [122, 122]]}, {\"main\": \"Canadian Recording Industry Association (CRIA)\", \"other\": [\"CRIA\", \"the 'majors'' industry body\"], \"kind\": \"organisation\", \"segments\": [[36, 36], [47, 47], [48, 48], [74, 74], [88, 88], [89, 89], [91, 91], [98, 98], [128, 128]]}, {\"main\": \"Sony BMG Music\", \"other\": [\"Sony BMG Music\", \"Sony\"], \"kind\": \"organisation\", \"segments\": [[12, 12], [127, 127], [128, 128]]}, {\"main\": \"EMI Music Canada\", \"other\": [\"EMI Music Canada\"], \"kind\": \"organisation\", \"segments\": [[12, 12]]}, {\"main\": \"Universal Music Canada\", \"other\": [\"Universal Music Canada\"], \"kind\": \"organisation\", \"segments\": [[12, 12]]}, {\"main\": \"Warner Music Canada\", \"other\": [\"Warner Music Canada\", \"Warner Brothers Canada\"], \"kind\": \"organisation\", \"segments\": [[12, 12], [90, 90]]}, {\"main\": \"Chet Baker\", \"other\": [\"Baker\", \"the late jazz musician Chet Baker\", \"Baker's estate\", \"Baker legal team\"], \"kind\": \"person\", \"segments\": [[3, 3], [11, 11], [14, 14]]}, {\"main\": \"The Mechanical Licensing Agreement (MLA)\", \"other\": [\"MLA\"], \"kind\": \"document\", \"segments\": [[36, 36], [40, 40], [59, 59], [61, 61]]}, {\"main\": \"The Class Proceedings Act of 1992\", \"other\": [\"Class Proceedings Act of 1992\"], \"kind\": \"document\", \"segments\": [[1, 1]]}, {\"main\": \"Copyright Act\", \"other\": [\"Copyright Act\"], \"kind\": \"document\", \"segments\": [[25, 25]]}, {\"main\": \"The Mechanical Licensing Agreement (MLA) between the CMRRA and the CRIA\", \"other\": [\"MLA\"], \"kind\": \"document\", \"segments\": [[60, 60]]}, {\"main\": \"Basskin's affidavit\", \"other\": [\"Basskin's affidavit\", \"his sworn affidavit\", \"his first encounter with pending lists\"], \"kind\": \"document\", \"segments\": [[13, 13], [27, 27], [32, 32], [64, 64], [78, 78], [79, 79], [85, 85], [115, 115]]}, {\"main\": \"Lauzon's affidavit\", \"other\": [\"Lauzon's followup affidavit\", \"his followup affidavit\"], \"kind\": \"document\", \"segments\": [[65, 65], [75, 75], [78, 78]]}, {\"main\": \"Sookman's blog post\", \"other\": [\"Sookman's blog\", \"his blog\", \"his blog's sitemap\", \"a blog entry by Barry Sookman\", \"a posting\"], \"kind\": \"document\", \"segments\": [[94, 94], [95, 95], [102, 102], [103, 104], [105, 105], [110, 110], [111, 111], [113, 113], [114, 114]]}, {\"main\": \"The court\", \"other\": [\"the court\"], \"kind\": \"organisation\", \"segments\": [[76, 76], [106, 106]]}, {\"main\": \"The industry's side\", \"other\": [\"the industry's side\"], \"kind\": \"organisation\", \"segments\": [[88, 88]]}]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687719,
+  "id": "chatcmpl-7lcj0304rlnv9lprwfbnsr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 1759,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 3226,
+   "prompt_tokens_details": null,
+   "total_tokens": 4985
+  }
+ },
+ "4c21e0e8564bc019c5fc112b4e361ca4378b932429da4c22bc4c07f28e032603": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"8\": {\"original\": \"The current MLA mandates labels submit quarterly pending lists for royalty 100%.\", \"rephrased\": \"Under the current Mechanical Licensing Agreement between the Canadian Recording Industry Association and the Canadian Music Rights Association, major record labels are legally required to submit updated cumulative pending lists to the collective society with every quarterly royalty payment, a mechanism that allows the society to collect interest on unlicensed works while the labels resist negotiating specific terms for those songs.\", \"summary\": \"The current licensing agreement forces major labels to submit pending lists for royalty collection.\"}, \"9\": {\"original\": \"Alain Lauzon, SODRAC's General Manager, submitted a followup affidavit on Jan 28\", \"rephrased\": \"Alain Lauzon, the General Manager of the Society for Reproduction Rights of Authors, Composers and Publishers (SODRAC), formally submitted a follow-up affidavit on January 28, 2009, to identify his organization as a plaintiff in the class action lawsuit against major Canadian record labels, thereby confirming the collective society's active participation in the legal dispute over unpaid royalties.\", \"summary\": \"SODRAC's General Manager formally joined the lawsuit as a plaintiff.\"}, \"10\": {\"original\": \"Lauzon, a qualified Chartered Accountant with 20+ years of experience, oversees \", \"rephrased\": \"Alain Lauzon, a qualified Chartered Accountant with over 20 years of business experience, serves as the General Manager of SODRAC and is directly responsible for negotiating and administering the industry-wide agreements that govern the licensing of music reproduction and distribution across Canada, including radio and online services.\", \"summary\": \"SODRAC's experienced General Manager oversees the administration of music licensing agreements.\"}, \"11\": {\"original\": \"Lauzon, a qualified Chartered Accountant with over 20 years of experience, rep\", \"rephrased\": \"Drawing on his extensive background as a qualified Chartered Accountant with over 20 years of experience, Alain Lauzon confirms that the four major record labels in Canada are legally and contractually responsible for obtaining mechanical licenses, supporting the class action claim that these companies have failed to pay royalties for hundreds of thousands of unlicensed songs.\", \"summary\": \"An expert witness confirms major labels are responsible for obtaining mechanical licenses.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687805,
+  "id": "chatcmpl-7khql3cc93urntbfgd1t0d",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 496,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 3092,
+   "prompt_tokens_details": null,
+   "total_tokens": 3588
+  }
+ },
+ "50d1b93645249b4e3ffa108c75c77393f701b1b0e8054559f9c1c69f53d48777": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687834,
+  "id": "chatcmpl-pnnymk8dekipv49lv3df1l",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 224,
+   "prompt_tokens_details": null,
+   "total_tokens": 239
+  }
+ },
+ "54d4357c9e3e550f3c27dd418362fd9f5abf04f9964f6f67c3a492aaaed72b7b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Canadian Musical Reproduction Rights Agency (CMRRA)\": [\"CMRRA and SODRAC are required to provide lists of all collections they represent to record labels, and for labels to supply copies of material being released to permit assessment of content that either group may represent interested parties for.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687768,
+  "id": "chatcmpl-pd1brh1j6ta48h245w4nzc",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 61,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1010,
+   "prompt_tokens_details": null,
+   "total_tokens": 1071
+  }
+ },
+ "5ab59a136c4e4121916d4268131d3a54aa8fec70d23eed2fe902fbb5ae342218": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"4\": {\"original\": \"The lawsuit seeks an independent audit of labels' books and demands damages for \", \"rephrased\": \"The legal action initiated by the estate of Chet Baker and collecting societies requires the four major Canadian record labels to undergo an independent audit of their financial records, specifically including the contents of the disputed 'Pending Lists' that track unlicensed works. This demand for transparency aims to establish the scale of unpaid royalties, forming the evidentiary basis for a potential six billion dollar claim in damages or profits against the industry.\", \"summary\": \"The lawsuit demands an independent audit of major Canadian labels' books to calculate damages for unlicensed songs.\"}, \"5\": {\"original\": \"The lawsuit relies on statutory damages ranging from CA$500 to $20,000 per unlic\", \"rephrased\": \"The class action lawsuit relies on statutory damages under the Copyright Act, ranging from a minimum of CA$500 to a maximum of CA$20,000 per unlicensed song, to quantify penalties for copyright infringement. This legal framework is applied to a history where the current mechanical license system replaced a previous compulsory license scheme that had poor recordkeeping and resulted in one of the lowest fees in the world.\", \"summary\": \"The lawsuit uses statutory damages per unlicensed song, built on a history of replacing a failed compulsory license system.\"}, \"6\": {\"original\": \"The MLA between the majors and CMRRA expired in 2012 after decades of negotiatio\", \"rephrased\": \"Although the Mechanical Licensing Agreement between the major record labels and the Canadian Musical Reproduction Rights Agency expired in 2012 following decades of negotiation, the plaintiff's representative asserts that the major labels remain responsible for creating and maintaining the disputed 'Pending Lists' that form the core of the current litigation.\", \"summary\": \"The plaintiff asserts major labels are responsible for the disputed 'Pending Lists' despite the expiration of their licensing agreement.\"}, \"7\": {\"original\": \"CMRRA and SODRAC are required to provide lists of all collections they represent\", \"rephrased\": \"Under the current licensing framework, the Canadian Musical Reproduction Rights Agency and the Society for Reproduction Rights of Authors are contractually required to provide record labels with lists of all collections they represent, while labels must supply copies of released material to permit content assessment for interested parties.\", \"summary\": \"Collecting societies are required to provide collection lists to labels to facilitate content assessment and royalty collection.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687794,
+  "id": "chatcmpl-qidjdlv5eogww49qdcmur",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 524,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2880,
+   "prompt_tokens_details": null,
+   "total_tokens": 3404
+  }
+ },
+ "7685925d9d6cc151ceec6e4305afd56c337d2956955c7091cbeb0292bd95efd1": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The pending list value is rising by over C$1.1 million quarterly, suggesting massive future debt if unlicensed songs aren't mechanically licensed and fees paid.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687779,
+  "id": "chatcmpl-djncrwmef3ckqm1avwzin",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 39,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 849,
+   "prompt_tokens_details": null,
+   "total_tokens": 888
+  }
+ },
+ "799b676c2dfe6e3a5872c8822bafa9e3bed81cb51a2b94504d3d6a6a29a0277e": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -673,8 +673,8 @@
     }
    }
   ],
-  "created": 1793651313,
-  "id": "chatcmpl-27tje4enz78zu5iwizlgc",
+  "created": 1793687835,
+  "id": "chatcmpl-gmsdb3i3s3uv0u4swwhjf7",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -691,12 +691,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 260,
+   "prompt_tokens": 216,
    "prompt_tokens_details": null,
-   "total_tokens": 275
+   "total_tokens": 231
   }
  },
- "755326d4de82dafa1f9840b2296cddcb90ab89292c203f5a8e5605f7a01d3f75": {
+ "7b0d791964f30e77cd2ee09fdbeac376e2f0ba209746bf7f0bb62f8a994601e9": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -705,7 +705,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"On October 6, the estate of the late jazz artist Chet Baker updated and refiled a class action suit. This legal action targets four large Canadian record labels and their parent firms. The lawsuit claims these companies did not pay royalties for hundreds of thousands of musical works.\"}",
+     "content": "{\"base_author\": [\"The lawsuit relies on statutory damages ranging from CA$500 to $20,000 per unlicensed song, and the plaintiff's history involves replacing a failed compulsory license system with the current mechanical license framework.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -714,8 +714,8 @@
     }
    }
   ],
-  "created": 1793651301,
-  "id": "chatcmpl-eho75zcvend2sziqcl1hes",
+  "created": 1793687765,
+  "id": "chatcmpl-p5pg3ug0yub2b4sa2crdv",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -724,7 +724,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 66,
+   "completion_tokens": 52,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -732,12 +732,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 213,
+   "prompt_tokens": 979,
    "prompt_tokens_details": null,
-   "total_tokens": 279
+   "total_tokens": 1031
   }
  },
- "76f8677efa5a351d0b08b3b0f298b06843624e634bf8911c8f2e796dceb1efa2": {
+ "80a6da85f184828e0e780ef10b8e455d217e1e5ea11065aed6aa61c70967bb8a": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -746,7 +746,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"The pending list's value is rising by over C$1.1 million quarterly, suggesting massive future debt if unlicensed works aren't mechanically licensed and fees paid.\"]}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -755,8 +755,8 @@
     }
    }
   ],
-  "created": 1793651255,
-  "id": "chatcmpl-dvecacd2117r5sekyg7w0a",
+  "created": 1793687836,
+  "id": "chatcmpl-g19rzevj8sul0eoicfo6v",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -765,7 +765,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 40,
+   "completion_tokens": 15,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -773,12 +773,422 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 854,
+   "prompt_tokens": 371,
    "prompt_tokens_details": null,
-   "total_tokens": 894
+   "total_tokens": 386
   }
  },
- "7a12ae2b7f24ee95def37734acfb6be0b285d199740c4741068409531d37cd6a": {
+ "8d28e4fd9308e0bec476f380ed78bac66a679a5c1640d24657613582dbe347e6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Society for Reproduction Rights of Authors (SODRAC)\": [\"Initially named as a defendant in the lawsuit, SODRAC later switched sides to join the plaintiffs in January.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687761,
+  "id": "chatcmpl-g9vddzwp0bkw1q2cc372ck",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 41,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 824,
+   "prompt_tokens_details": null,
+   "total_tokens": 865
+  }
+ },
+ "91a5f055122f45a99133148dd4db2b4960bf402ffd6fa6a505e7c43a5359ac93": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"A class action lawsuit led by the estate of Chet Baker and collecting societies alleges that major Canadian record labels have failed to pay royalties for hundreds of thousands of unlicensed songs, potentially resulting in billions in penalties, while the industry defends its use of 'pending lists' and dismisses the claims as exaggerated.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687756,
+  "id": "chatcmpl-z72yqsj2aic7fdg1gjutbj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 68,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2923,
+   "prompt_tokens_details": null,
+   "total_tokens": 2991
+  }
+ },
+ "9565638d0dc555258d7041655c0a0b27cd53d39f3c5ccfc32960b7da2c718fe8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"12\": {\"original\": \"Don Hogarth directed Wikinews to a blog by CRIA lobbyist Barry Sookman, which is\", \"rephrased\": \"The representative for the Canadian Recording Industry Association (CRIA) directed inquiries to a blog post by a paid industry lobbyist, Barry Sookman, instead of answering specific questions. This post contains numerous factual inaccuracies and misdirects the public regarding the legal dispute over unpaid royalties, effectively shielding the major record labels from direct accountability while promoting a narrative that contradicts the court's findings.\", \"summary\": \"The CRIA representative deflected inquiries to an industry lobbyist's blog containing false claims to avoid answering questions about unpaid royalties.\"}, \"13\": {\"original\": \"CMRRA's Basskin, a lawyer and industry insider, details major labels resisting\", \"rephrased\": \"David A. Basskin, a lawyer representing the Canadian Mechanical Reproduction Rights Agency (CMRRA), asserts that the four major Canadian record labels have actively resisted twenty years of efforts by collective societies to negotiate adequate licensing and payment. This resistance highlights a systemic failure by the industry to resolve the long-standing issue of unlicensed songs, a problem that has now escalated into a class action lawsuit seeking billions in penalties.\", \"summary\": \"A lawyer for the CMRRA claims major Canadian record labels have failed for two decades to negotiate proper licensing and payment for unlicensed songs.\"}, \"14\": {\"original\": \"The pending list value is rising by over C$1.1 million quarterly, suggesting\", \"rephrased\": \"The value of the pending list of unlicensed songs is increasing by over C$1.1 million every quarter, a trend that indicates the four major Canadian record labels will owe at least C$73 million in outstanding debt by the end of 2012. This rapid growth in unpaid fees demonstrates that the industry's refusal to mechanically license works is causing a rapidly expanding financial liability that threatens to result in massive penalties.\", \"summary\": \"The quarterly value of unlicensed songs is rising sharply, indicating major Canadian record labels face massive future debt and potential penalties.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687817,
+  "id": "chatcmpl-kumiott2srhb2yhzq2zt",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 440,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2582,
+   "prompt_tokens_details": null,
+   "total_tokens": 3022
+  }
+ },
+ "9810f56102ee8dc809d864dfc4cedac475ad0265a490035d8c2855021ad6b720": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Alain Lauzon is the General Manager of SODRAC. He holds a Chartered Accountant credential and has more than 20 years of business experience. His role involves handling industry-wide agreements. These contracts control how music is licensed for reproduction and distribution throughout Canada. This covers radio and online platforms.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687832,
+  "id": "chatcmpl-02jodlqakw8ltlnnkrng0mk",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 73,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 219,
+   "prompt_tokens_details": null,
+   "total_tokens": 292
+  }
+ },
+ "9c46b6b2d1686856359688775eec3a0e681ac12aa2dc9531fc421f73ae8fd80b": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The lawsuit seeks an independent audit of labels' books and demands damages for over 300,000 unlicensed songs, forming the basis for a six billion dollar calculation.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687764,
+  "id": "chatcmpl-l6qzsfj6726phom8j81uo",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 44,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 980,
+   "prompt_tokens_details": null,
+   "total_tokens": 1024
+  }
+ },
+ "9d45e971a87d2bfb2ec0bdead082a22ad3cb3ba5d7784579685b82643b244cd3": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Lauzon's affidavit\": [\"Alain Lauzon, SODRAC's General Manager, submitted a followup affidavit on January 28, 2009 to identify the society as a plaintiff in the case.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687772,
+  "id": "chatcmpl-lu38o3bqp2v39p6c4hr08",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 50,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 903,
+   "prompt_tokens_details": null,
+   "total_tokens": 953
+  }
+ },
+ "a66bf5a1f869d40527b6a4b7f49fb38a234ca9dae565217d56c64af307126e67": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687837,
+  "id": "chatcmpl-1d10n3y5ya8jvikkctmela",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 361,
+   "prompt_tokens_details": null,
+   "total_tokens": 376
+  }
+ },
+ "a84d792def636a3f226586a2d7d0032a3d854fbb96644bf318a3713186bdb531": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Lauzon, a qualified Chartered Accountant with 20+ years of experience, oversees industry-wide music licensing agreements and radio/online services.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687773,
+  "id": "chatcmpl-xju2giqk11hxvhv3s35qr",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 38,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1070,
+   "prompt_tokens_details": null,
+   "total_tokens": 1108
+  }
+ },
+ "adb5beaea8a551fc4777491f099eaa8fb117786659ff79356e4ca8ac7424ff36": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Lauzon, a qualified Chartered Accountant with over 20 years of experience, represents SODRAC in a class action alleging major Canadian record labels failed to pay royalties for hundreds of thousands of unlicensed songs, potentially resulting in billions in penalties.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687775,
+  "id": "chatcmpl-ze24d2hehimnfvgqp5c8b9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 60,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1051,
+   "prompt_tokens_details": null,
+   "total_tokens": 1111
+  }
+ },
+ "c1cea99d63ceb8029300c83cc5332ad52eac083fc90298a48c386cc939c7cef7": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"The Mechanical Licensing Agreement, which involved decades of talks between the major record labels and the Canadian Musical Reproduction Rights Agency, ended in 2012. However, the plaintiff's representative claims that the major labels are still in charge of making and keeping the 'Pending Lists' that are central to this lawsuit.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687827,
+  "id": "chatcmpl-tbqklyu4ldr8042vg8yg6g",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 73,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 218,
+   "prompt_tokens_details": null,
+   "total_tokens": 291
+  }
+ },
+ "c2d80e918c6815d02cbb89f0eb5a8cf12e1d2bd10b4acb8bcd84356c72eae3f2": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -796,8 +1206,8 @@
     }
    }
   ],
-  "created": 1793651310,
-  "id": "chatcmpl-8506zj2wa29v66gl3igehr",
+  "created": 1793687835,
+  "id": "chatcmpl-m83pjwp4hwvco7ec0zs5k",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -814,12 +1224,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 232,
+   "prompt_tokens": 239,
    "prompt_tokens_details": null,
-   "total_tokens": 248
+   "total_tokens": 255
   }
  },
- "82d58ca7dcd0111ceae82bd946445e21f25b625d858dbad5a2914d4c58a4bb20": {
+ "ccc00385d747f252a55a2ea06517ec5a5fbc10b3011d4cdc9118eb37efec241c": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -828,7 +1238,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "content": "{\"base_author\": [\"Don Hogarth directed Wikinews to a blog by CRIA lobbyist Barry Sookman, which contains factual inaccuracies and misdirects the public, rather than answering submitted questions.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -837,8 +1247,8 @@
     }
    }
   ],
-  "created": 1793651316,
-  "id": "chatcmpl-5f3xuumhvciac7xwxxu8lw",
+  "created": 1793687776,
+  "id": "chatcmpl-vs3tipvi84xffcm6hhyy",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -847,7 +1257,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 44,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -855,53 +1265,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 303,
+   "prompt_tokens": 1063,
    "prompt_tokens_details": null,
-   "total_tokens": 318
+   "total_tokens": 1107
   }
  },
- "95873862fbb353bef1a51ed3388d8dd1c15b194f0747468c6d7446852eba36a8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"8\": {\"original\": \"Basskin argues current Mechanical License Agreements are overly broad, legally 1\", \"rephrased\": \"The current Mechanical Licensing Agreement between the Canadian Recording Industry Association and the collective societies is structured so broadly that it legally prevents any party from refusing to grant a license, while simultaneously requiring record labels to submit quarterly lists of unlicensed works to facilitate royalty collection by the societies.\", \"summary\": \"The current licensing agreement prevents labels from refusing licenses and mandates quarterly pending list submissions for royalty collection.\"}, \"9\": {\"original\": \"Alain Lauzon, SODRAC's General Manager, submitted a followup affidavit on Janu\", \"rephrased\": \"Alain Lauzon, the General Manager of the Society for Reproduction Rights of Authors, Composers and Publishers, formally submitted a follow-up affidavit in January 2009 to join his organization as a plaintiff in the class action lawsuit against major Canadian record labels regarding unpaid royalties.\", \"summary\": \"SODRAC's General Manager formally joined the lawsuit against major record labels as a plaintiff in January 2009.\"}, \"10\": {\"original\": \"Lauzon, a qualified Chartered Accountant with 20+ years of experience, overse\", \"rephrased\": \"Drawing on his expertise as a qualified Chartered Accountant with over two decades of experience managing industry-wide music licensing, Alain Lauzon asserts that his organization represents a significant portion of Canadian musical works and confirms that major record labels bear the legal and customary responsibility for obtaining mechanical licenses.\", \"summary\": \"An expert in music licensing confirms that major labels are legally responsible for obtaining mechanical licenses for Canadian works.\"}, \"11\": {\"original\": \"Lauzon, a qualified Chartered Accountant with over 20 years of experience, r\", \"rephrased\": \"Reinforcing the legal and customary obligation of record labels to secure mechanical licenses, Alain Lauzon, representing the collective society, states with professional confidence that the industry has generally failed to take necessary steps to resolve the persistent problem of unlicensed works.\", \"summary\": \"An industry expert confirms that record labels have generally failed to resolve the problem of unlicensed works.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651278,
-  "id": "chatcmpl-nlwnvvhgm5abb7kyr6uzfc",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 458,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 3133,
-   "prompt_tokens_details": null,
-   "total_tokens": 3591
-  }
- },
- "9a78682e5312505d8218e4b1d9e05c68644fdbc6de0de58b05b515759905fc17": {
+ "d692bd52d34a4b607066a647c28db728db46efdd185c6906342c5315717b357b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -919,8 +1288,8 @@
     }
    }
   ],
-  "created": 1793651313,
-  "id": "chatcmpl-twd4kyd2p5qrsq6s1spp5m",
+  "created": 1793687839,
+  "id": "chatcmpl-ht0v44vzewi4uz2iik2v",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -937,12 +1306,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 257,
+   "prompt_tokens": 420,
    "prompt_tokens_details": null,
-   "total_tokens": 272
+   "total_tokens": 435
   }
  },
- "a64c9c8cea5f7d93f8dc98ff1b5d8e965aa2bf642e124da133b2168bc249e828": {
+ "d72b6db56190c9b3f98e1c71fad515fe610b62ddc9e212b49462ea32561c6680": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -951,7 +1320,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"A series of earlier terms, established in 1990, 1998, 2004, 2006, and 2008, led to the expiration of the Mechanical Licensing Agreement on December 31, 2012. This agreement was originally between the Canadian Musical Reproduction Rights Agency and the Canadian Recording Industry Association.\"}",
+     "content": "{\"rephrased_statement\": \"On January 28, 2009, Alain Lauzon, who serves as the General Manager of the Society for Reproduction Rights of Authors, Composers and Publishers (SODRAC), filed a supplementary affidavit. This document officially listed his organization as a plaintiff in the class action lawsuit targeting major Canadian record labels. By doing so, Lauzon confirmed that the collective society is actively involved in the legal battle concerning unpaid royalties.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -960,8 +1329,8 @@
     }
    }
   ],
-  "created": 1793651304,
-  "id": "chatcmpl-1tg0vim87la4ktoa22ehwc",
+  "created": 1793687829,
+  "id": "chatcmpl-yefpa2lqxtjp5i23gtvrg",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -970,7 +1339,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 89,
+   "completion_tokens": 99,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -978,12 +1347,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 330,
+   "prompt_tokens": 238,
    "prompt_tokens_details": null,
-   "total_tokens": 419
+   "total_tokens": 337
   }
  },
- "ae763d7ab1b76c9a9773cdbdee4a049825c57df72dfd20dd307d3afe52c67048": {
+ "de4ea4c280471a1ce7e59b73c8865e506c295a44093e594742e47449edcbb890": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -992,7 +1361,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "content": "{\"The Class Proceedings Act of 1992\": [\"may see the country's largest players in the music industry facing upwards of billion in penalties\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1001,8 +1370,8 @@
     }
    }
   ],
-  "created": 1793651314,
-  "id": "chatcmpl-hwit03r3ypr45s5gyxi21f",
+  "created": 1793687759,
+  "id": "chatcmpl-llcur3saadl9yi2grdtad",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1011,7 +1380,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 32,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1019,504 +1388,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 255,
+   "prompt_tokens": 751,
    "prompt_tokens_details": null,
-   "total_tokens": 270
+   "total_tokens": 783
   }
  },
- "ba1685e3b5dcfb0d3a71ca22a96c355afc7ff7f2b607f43abd5be1baa8d8d123": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Society for Reproduction Rights of Authors (SODRAC)\": [\"Initially named as a defendant in the lawsuit, SODRAC later switched sides to join the plaintiffs against the major record labels in January.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651236,
-  "id": "chatcmpl-wli6vdfydul1vrq1dhs3ip",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 46,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 829,
-   "prompt_tokens_details": null,
-   "total_tokens": 875
-  }
- },
- "ba54988aaed2fe1074f9a380ab5f2e68237579a97bfc23bb530a87428c5a03e4": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"A copyright case under this Act may see the country's largest music industry 0\", \"rephrased\": \"Under the Class Proceedings Act of 1992, a copyright lawsuit involving Canada's largest music industry players could result in penalties exceeding one billion dollars if the legal team's claims regarding unpaid royalties for hundreds of thousands of works are substantiated.\", \"summary\": \"A copyright lawsuit under Canada's Class Proceedings Act could impose over a billion dollars in penalties on major music labels.\"}, \"1\": {\"original\": \"A lawsuit led by Chet Baker's estate targets four major Canadian labels and 0\", \"rephrased\": \"The estate of late jazz musician Chet Baker has filed a class action lawsuit against four major Canadian record labels and their parent companies, alleging that these companies failed to pay royalties for hundreds of thousands of musical works, with the suit being amended and reissued on October 6.\", \"summary\": \"Chet Baker's estate filed an amended class action lawsuit against major Canadian record labels for unpaid royalties on hundreds of thousands of works.\"}, \"2\": {\"original\": \"Initially named as a defendant in the lawsuit, SODRAC later switched sides to 0\", \"rephrased\": \"The Society for Reproduction Rights of Authors (SODRAC), which was initially named as a defendant in the copyright lawsuit, switched sides in January to join the plaintiffs alongside the estate of Chet Baker and other rightsholders in suing the major record labels.\", \"summary\": \"SODRAC switched from being a defendant to joining the plaintiffs in the copyright lawsuit against major record labels.\"}, \"3\": {\"original\": \"his estate views the 'pending list' as evidence of copyright infringement\", \"rephrased\": \"The estate of Chet Baker views the 'pending list'—a record of works not correctly licensed for reproduction maintained by the Canadian Musical Reproduction Rights Agency—as clear evidence of copyright infringement by the major record labels.\", \"summary\": \"Chet Baker's estate views the 'pending list' of unlicensed works as evidence of copyright infringement by major record labels.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651256,
-  "id": "chatcmpl-vk4ukn56z5doqscsu8tlbr",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 443,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2312,
-   "prompt_tokens_details": null,
-   "total_tokens": 2755
-  }
- },
- "bb35a270036b1db2f96536372e93f9f6f90331b5cbf7849741cce861216fdd49": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Basskin argues current Mechanical License Agreements are overly broad, legally blocking parties from refusing licenses, and require labels to submit quarterly pending lists for royalty collection.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651245,
-  "id": "chatcmpl-nmmyhhtenqe445g3568qi3",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 39,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 894,
-   "prompt_tokens_details": null,
-   "total_tokens": 933
-  }
- },
- "c49bcb83fff964480d62730e1939f83d3cfe4d6363e5a122790b56d7ccb56f0c": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"The Class Proceedings Act of 1992\": [\"A copyright case under this Act may see the country's largest music industry players facing upwards of a billion in penalties.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651233,
-  "id": "chatcmpl-8u36ttjvtggvrvr3e346l",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 38,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 756,
-   "prompt_tokens_details": null,
-   "total_tokens": 794
-  }
- },
- "ca5cda3a9acb14362876c74dd688506f300a7020067c3c77b9e7be02b4bb29ee": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"A specialist in the field states that music companies have mostly been unable to fix the issue of unauthorized recordings.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651308,
-  "id": "chatcmpl-hzoc21d2de7ftoektcxuac",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 31,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 177,
-   "prompt_tokens_details": null,
-   "total_tokens": 208
-  }
- },
- "cf7dc060085db0224639c84f6ed9d8024350d03dd052cff451bf8943be271d16": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Don Hogarth directed a response to a blog by CRIA lobbyist Barry Sookman, which the author characterizes as containing factual inaccuracies and potential lies, rather than addressing submitted questions.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651252,
-  "id": "chatcmpl-w5u2bzv5u5d4j7dwvhvy8v",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 45,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1068,
-   "prompt_tokens_details": null,
-   "total_tokens": 1113
-  }
- },
- "d56a92a44aabc0f7429e2deaca57dfec4d7e8a6a1c70c0c4473584e9863d21ec": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"A lawsuit led by Chet Baker's estate targets four major Canadian labels and their parent companies over unpaid royalties for hundreds of thousands of works, with the suit amended and reissued on October 6.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651234,
-  "id": "chatcmpl-b7rhi7i6lfc17krtt2c0ap",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 47,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 818,
-   "prompt_tokens_details": null,
-   "total_tokens": 865
-  }
- },
- "dedbf15cd9f180a9e4be977663c198f911f30bcb6d1646c8abae3ef0fb6a71dd": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"The lawsuit relies on statutory damages ranging from CA$500 to $20,000 per unlicensed work, while the record labels defend their position by citing a history of a flawed compulsory license scheme that was later replaced by the current mechanical license system.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651239,
-  "id": "chatcmpl-88osuzze263ejhwg889v58",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 61,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 984,
-   "prompt_tokens_details": null,
-   "total_tokens": 1045
-  }
- },
- "e1b79109bf9147ea79592202a6b14ecb163ed88636069bf1e5e2adab82e057b7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"In January 2009, Alain Lauzon, who serves as the General Manager of the Society for Reproduction Rights of Authors, Composers and Publishers, officially filed a supplementary affidavit. This document was intended to add his organization as a plaintiff in the class action lawsuit targeting major Canadian record labels over the issue of unpaid royalties.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651306,
-  "id": "chatcmpl-j28o8cvn8odc7ciu18kjo",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 77,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 215,
-   "prompt_tokens_details": null,
-   "total_tokens": 292
-  }
- },
- "e2fc0781332b54e90033914d7499b8260b085dcd0365ca015af792dabfde9673": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651315,
-  "id": "chatcmpl-3hbwyk0b5w8vla4oyacee",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 481,
-   "prompt_tokens_details": null,
-   "total_tokens": 496
-  }
- },
- "e6d5f2a1614e40a9d2010ad7bfc6d1ec640b186764a174e775ffb746c553a56c": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"The record labels claim it is economically infeasible to fix licensing issues internally and have been unwilling to take necessary steps to resolve the problem.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651238,
-  "id": "chatcmpl-qowjfqti8sflall6q8wf7",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 35,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 985,
-   "prompt_tokens_details": null,
-   "total_tokens": 1020
-  }
- },
- "e8083c127de5d3bf7265187c625627b855e80df8f1782ed0e4b3d30522eb80a8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Canadian Musical Reproduction Rights Agency (CMRRA)\": [\"CMRRA and SODRAC are required to provide lists of all collections they represent to record labels, and for labels to supply copies of released material to permit content assessment.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651243,
-  "id": "chatcmpl-ucadetxdewl2r7y0mtcx49",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 51,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1015,
-   "prompt_tokens_details": null,
-   "total_tokens": 1066
-  }
- },
- "eafe36bb9322d51fa03d4587de0622a4533bb38a2931f45a525f96cb5e896a85": {
+ "e13c6cd33d067873426beb8dd82854176b381c3f4cafe4d5f1ac6e5aa2eabe35": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1534,8 +1411,8 @@
     }
    }
   ],
-  "created": 1793651309,
-  "id": "chatcmpl-nrkoci4djfdr02lxbxgn1",
+  "created": 1793687837,
+  "id": "chatcmpl-c6yezyemag0yjoo5fyk7vg",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1552,12 +1429,53 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 220,
+   "prompt_tokens": 254,
    "prompt_tokens_details": null,
-   "total_tokens": 235
+   "total_tokens": 269
   }
  },
- "eb5325e3853abfe84b2f7bfa558d0cfff3dcfdaf6d8bc130a81ec740bda5ea00": {
+ "ed75814883ba8c383b33bbf6e9b918210311eac1d7a163b08ae3de898e34af2e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793687839,
+  "id": "chatcmpl-uz6hiwaumcs6g90tz9eiik",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 254,
+   "prompt_tokens_details": null,
+   "total_tokens": 269
+  }
+ },
+ "f67835546cb193a7569082d22d2a4a75475849fc40d140641970305c19447966": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1575,8 +1493,8 @@
     }
    }
   ],
-  "created": 1793651310,
-  "id": "chatcmpl-z4cb1cjljlqppdk5t7tonn",
+  "created": 1793687834,
+  "id": "chatcmpl-5ysstafqasrodbo8xatzmb",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1598,7 +1516,7 @@
    "total_tokens": 267
   }
  },
- "ee77f4964193ef98b53679191c3144826a8551bb162a4200e575b86e57a5b0e1": {
+ "fa89e5aeb7db42e1168163b31ef622383ef1a8b839487f0e71432a496102f085": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1607,7 +1525,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"4\": {\"original\": \"The record labels claim it is economically infeasible to fix licensing issues\", \"rephrased\": \"The four major Canadian record labels assert that developing internal systems to resolve the backlog of unlicensed works is economically unfeasible, a stance that the lawsuit's author argues contradicts the plaintiffs' evidence of the labels' refusal to cooperate in fixing the problem.\", \"summary\": \"Major Canadian record labels claim internal fixes for unlicensed works are too costly, contradicting the lawsuit's evidence of their refusal to cooperate.\"}, \"5\": {\"original\": \"The lawsuit relies on statutory damages ranging from CA$500 to $20,000 per un\", \"rephrased\": \"The class action lawsuit against major Canadian record labels relies on statutory damages of CA$500 to $20,000 per unlicensed work, while the industry defends its position by citing a history of a flawed compulsory license scheme that was later replaced by the current mechanical license system.\", \"summary\": \"The lawsuit seeks massive statutory damages for unlicensed works, while the industry defends its practices by citing a history of a flawed licensing system.\"}, \"6\": {\"original\": \"The Mechanical Licensing Agreement expired Dec 31, 2012, following earlier terms\", \"rephrased\": \"The current Mechanical Licensing Agreement between the Canadian Musical Reproduction Rights Agency and the Canadian Recording Industry Association expired on December 31, 2012, following a series of earlier terms set in 1990, 1998, 2004, 2006, and 2008.\", \"summary\": \"The current licensing agreement between the Canadian collective society and major record labels expired in December 2012 after several previous iterations.\"}, \"7\": {\"original\": \"CMRRA and SODRAC are required to provide lists of all collections they repres\", \"rephrased\": \"Under the current licensing framework, the Canadian Musical Reproduction Rights Agency and the Society for Reproduction Rights of Authors are contractually required to provide lists of all collections they represent to record labels, while the labels must supply copies of released material to permit content assessment.\", \"summary\": \"The licensing framework requires Canadian collective societies to provide collection lists to labels, while labels must supply copies of released material for assessment.\"}}",
+     "content": "{\"David A. Basskin\": [\"CMRRA's Basskin, a lawyer and industry insider, details major labels resisting twenty years of collective societies fighting, and failing, to negotiate adequate licensing and payment.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1616,8 +1534,8 @@
     }
    }
   ],
-  "created": 1793651266,
-  "id": "chatcmpl-85b7mtwzmo5cykiyg1yo0s",
+  "created": 1793687778,
+  "id": "chatcmpl-jhbs96zgb784c0l409tci",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1626,7 +1544,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 494,
+   "completion_tokens": 44,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1634,12 +1552,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2879,
+   "prompt_tokens": 1132,
    "prompt_tokens_details": null,
-   "total_tokens": 3373
+   "total_tokens": 1176
   }
  },
- "ff92c9df3f72672bf284275406fe7ea51573e13958dd47948a8ceb494025462a": {
+ "fcd78d5819ff08179f13227c6c06f660047f901db45c3b58f34cf70d598d7662": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1648,7 +1566,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"rephrased_statement\": \"The Mechanical Licensing Agreement between the Canadian Recording Industry Association and the Canadian Musical Reproduction Rights Agency ended on December 31, 2012. This conclusion followed a sequence of previous terms established in 1990, 1998, 2004, 2006, and 2008.\"}",
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1657,8 +1575,8 @@
     }
    }
   ],
-  "created": 1793651302,
-  "id": "chatcmpl-xhm073knwg8xcto3b5xyud",
+  "created": 1793687838,
+  "id": "chatcmpl-qfpmumzufhanalltbou7r",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1667,7 +1585,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 82,
+   "completion_tokens": 15,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1675,9 +1593,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 229,
+   "prompt_tokens": 244,
    "prompt_tokens_details": null,
-   "total_tokens": 311
+   "total_tokens": 259
   }
  }
 }

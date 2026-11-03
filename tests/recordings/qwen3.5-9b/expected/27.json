@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 2391,
  "text_sha256": "4655ad1ba8f9cff8f91e1057ed6d33bc8a32fe0f839067a0fc85d27ea04413a7",
- "main_point": "The Delhi High Court has restored a copyright infringement case against Delhi University's photocopy service, ruling that the legality of distributing course packs depends on expert evidence to determine if the practice constitutes fair use rather than absolute violation.",
+ "main_point": "The Delhi High Court has restored a copyright infringement case against Delhi University's photocopy service, ruling that the issue requires expert evidence to determine if the practice constitutes fair use rather than absolute violation.",
  "main_point_method": "single",
  "actors": [
   {
@@ -65,16 +65,16 @@
     "The bench",
     "The High Court"
    ],
-   "text": "The Delhi High Court has reinstated legal proceedings against the Rameshwari Photocopy Service at Delhi University regarding allegations that distributing course packs violates copyright laws, overturning a previous ruling that had dismissed the charges. This decision shifts the legal focus from an absolute prohibition to a nuanced evaluation of whether the specific distribution practices constitute fair use under Indian law.",
-   "text_short": "The Delhi High Court reinstated copyright infringement proceedings against a university photocopy service, ruling that legality depends on fair use analysis rather than absolute violation.",
+   "text": "The Delhi High Court has reinstated legal proceedings against the Rameshwari Photocopy Service at Delhi University regarding allegations that distributing course packs violates copyright laws, overturning a previous ruling that had dismissed the charges. This decision marks a shift from the earlier view that such instructional use was a fair exception, signaling that the court now believes the matter requires a fresh, detailed examination of the specific circumstances involved.",
+   "text_short": "The Delhi High Court reinstated copyright infringement proceedings against a university photocopy service, overturning a prior dismissal to allow for a fresh legal review.",
    "char_start": 0,
    "char_end": 341,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2083,
+    "rouge2_precision": 0.2174,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -84,14 +84,14 @@
    "actor_aliases": [
     "Oxford University Press"
    ],
-   "text": "The Delhi High Court bench has restored the copyright infringement case against the Rameshwari Photocopy Service, permitting the shop to continue selling course packs containing copyrighted material from publishers like Oxford University Press, Cambridge University Press, and Taylor and Francis while the legal dispute over fair use is resolved. This interim measure ensures that students retain access to essential study materials during the litigation process.",
-   "text_short": "The Delhi High Court bench restored the copyright case, allowing the photocopy service to continue selling copyrighted course packs pending a final fair use determination.",
+   "text": "While the Delhi High Court bench has restored the copyright infringement case against the Rameshwari Photocopy Service, they have simultaneously permitted the shop to continue selling course packs containing copyrighted material from publishers like Oxford University Press, Cambridge University Press, and Taylor and Francis. This interim arrangement ensures that students can still access essential study materials while the legal dispute over whether this distribution constitutes a fair use or an absolute violation is resolved through expert evidence.",
+   "text_short": "The Delhi High Court restored the copyright case but temporarily allowed the photocopy service to continue selling copyrighted course packs pending a final ruling.",
    "char_start": 341,
    "char_end": 693,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2656,
+    "rouge2_precision": 0.2237,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"
@@ -105,16 +105,16 @@
     "Dharam Pal",
     "The owner of the photocopy service shop"
    ],
-   "text": "The owner of the Rameshwari Photocopy Service at Delhi University argues that the shop's course packs contain only readings explicitly required or recommended by professors, along with only important sections of books, thereby justifying the reproduction of copyrighted material as a necessary educational tool rather than an unauthorized commercial exploitation.",
-   "text_short": "The Rameshwari Photocopy Service owner argues that course packs contain only required readings and important sections, justifying the reproduction of copyrighted material as a necessary educational tool.",
+   "text": "The owner of the Rameshwari Photocopy Service at Delhi University argues that the shop's course packs contain only readings explicitly required or recommended by professors, along with only important sections of books, thereby justifying the copying as a necessary educational tool rather than an unauthorized reproduction of entire texts.",
+   "text_short": "The photocopy service owner defends the practice by stating that course packs include only professor-recommended readings and essential book sections.",
    "char_start": 693,
    "char_end": 1109,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2,
+    "rouge2_precision": 0.2041,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -126,14 +126,14 @@
     "The bench",
     "The High Court"
    ],
-   "text": "The Delhi High Court bench asserts that Indian law does not warrant judging the legality of course packs by whether they have become textbooks, but rather by considering whether the inclusion of copyrighted works is justified by the specific educational purpose of the course pack. This legal framework requires a purpose-based analysis to determine if the distribution of course packs constitutes fair use or copyright infringement.",
-   "text_short": "The Delhi High Court bench asserts that Indian law requires judging course pack legality based on whether the inclusion of copyrighted works is justified by the educational purpose, rather than by whether the packs have become textbooks.",
+   "text": "The Delhi High Court bench asserts that Indian copyright law dictates that cases involving course packs should be judged based on whether the inclusion of copyrighted works was justified by the specific purpose of the course, rather than simply determining if the resulting pack functions as a substitute textbook. This legal framework emphasizes the educational intent behind the compilation over the commercial impact on the original authors.",
+   "text_short": "The Delhi High Court ruled that Indian copyright law requires judging course pack cases based on the justification of inclusion for educational purposes, not on whether the pack replaces a textbook.",
    "char_start": 1109,
    "char_end": 1408,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1944,
+    "rouge2_precision": 0.1364,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -147,16 +147,16 @@
     "Dharam Pal",
     "The owner of the photocopy service shop"
    ],
-   "text": "The owner of the photocopy shop argues that the current distribution of course packs is a necessary response to severe market failures, where textbooks are often unavailable, prohibitively expensive, or out of print. He contends that because students rely on these compilations to access essential educational content, the practice serves a vital instructional purpose rather than constituting an absolute violation of intellectual property rights.",
-   "text_short": "The photocopy shop owner argues that course packs are a necessary response to textbook unavailability and high costs.",
+   "text": "The owner of the photocopy shop argues that the current restrictions on book availability, high prices, and limited circulation in Delhi force students to rely on course packs, which preserve access to older texts and essential sections of expensive publications that are otherwise inaccessible.",
+   "text_short": "High book costs and scarcity in Delhi necessitate student reliance on course packs.",
    "char_start": 1408,
    "char_end": 1871,
-   "valid": true,
-   "rejection_reason": null,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0588,
+    "rouge2_precision": 0.0833,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
@@ -167,15 +167,15 @@
     "Justice Rajiv Sahan Endlaw",
     "Justice Endlaw"
    ],
-   "text": "The judge asserts that copyright law in India is not designed to grant authors absolute ownership over their creations, but rather to function as a tool for increasing public knowledge and motivating creative activity. Consequently, the court must evaluate whether the inclusion of copyrighted material in course packs is justified by the specific educational purpose of the course, rather than automatically ruling it as an infringement.",
-   "text_short": "The judge states that the goal of copyright is to expand public knowledge, not to provide total ownership.",
+   "text": "The Delhi High Court judge asserts that copyright law in India is not designed to grant authors absolute ownership over their works, but rather to serve as a mechanism that increases public knowledge and motivates creative activity for the benefit of society as a whole.",
+   "text_short": "Indian copyright law prioritizes public knowledge over absolute author ownership.",
    "char_start": 1871,
    "char_end": 2391,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1176,
-    "paraphrased": true,
+    "rouge2_precision": 0.0455,
+    "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
    }

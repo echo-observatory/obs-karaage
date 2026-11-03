@@ -1,87 +1,5 @@
 {
- "022b43a82c9441a6e132b1188f71465f4bb0a2aebef89cfb42952c79327e03c5": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"The ruling, long awaited by all sides, holds businesses liable for infringement\", \"rephrased\": \"The Supreme Court has established that companies intentionally designed to facilitate copyright violations must be held legally responsible for the infringing acts of their users, a decision that resolves a long-standing debate but leaves the specific criteria for liability somewhat undefined.\", \"summary\": \"The Supreme Court ruled that intentionally designed copyright facilitators are liable for user infringement, though the legal test remains vague.\"}, \"1\": {\"original\": \"One who distributes a device with the object of promoting its use to infringe\", \"rephrased\": \"Any individual or entity that distributes a technology with the specific intent to encourage copyright infringement, demonstrated through clear statements or active promotional steps beyond simple awareness, is legally liable for the resulting violations committed by third parties, even if the technology has legitimate uses.\", \"summary\": \"Distributing technology with the intent to promote copyright infringement creates liability for all resulting user violations.\"}, \"2\": {\"original\": \"The Supreme Court's unanimous ruling against companies designed to facilitate\", \"rephrased\": \"The Supreme Court issued a unanimous decision stating that companies built specifically to enable copyright infringement are subject to liability, delivering a powerful message against such business models while simultaneously creating legal uncertainty regarding the precise boundaries of this new rule.\", \"summary\": \"The Supreme Court's unanimous ruling against copyright-facilitating companies sends a strong message but introduces legal ambiguity.\"}, \"3\": {\"original\": \"Panned the court for lacking a clear inducement test, arguing it would\", \"rephrased\": \"Legal experts have criticized the Supreme Court for failing to provide a clear standard for determining when a company induces copyright infringement, warning that this ambiguity could discourage innovators from developing new technologies due to fear of unpredictable legal consequences.\", \"summary\": \"Critics argue the Supreme Court's vague inducement standard risks stifling innovation by creating legal uncertainty for developers.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650309,
-  "id": "chatcmpl-0gfiomse6yfblbq0v4upqz",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 402,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1907,
-   "prompt_tokens_details": null,
-   "total_tokens": 2309
-  }
- },
- "074e7d25eecc6f32872a631c51d621a2f157c73d9686592953e86fb311ee390a": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"main_point\": \"The U.S. Supreme Court ruled that companies intentionally designed to facilitate copyright infringement are liable for users' violations, a strong but legally vague decision that could stifle innovation while offering hope for defendants in lower courts.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650303,
-  "id": "chatcmpl-ttunbthsql1oci8euzhg4",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 49,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 578,
-   "prompt_tokens_details": null,
-   "total_tokens": 627
-  }
- },
- "075eceb95308fadbba0d4e3a2f38ff6a86c4d439437aa520e567fbbebe69371e": {
+ "1cef8fafc5387d9f85fd11ef8fc40ed55caf628f9dc73b2e5f60c3336f986e02": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -99,8 +17,8 @@
     }
    }
   ],
-  "created": 1793650319,
-  "id": "chatcmpl-w8145qems9gf6c7uh317q",
+  "created": 1793686810,
+  "id": "chatcmpl-5w00tjkc11qnwikk2glcq",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -117,12 +35,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 255,
+   "prompt_tokens": 277,
    "prompt_tokens_details": null,
-   "total_tokens": 270
+   "total_tokens": 292
   }
  },
- "3062789e627c7f3913505e7235fc55568ed92c28c9cd6c923f624bba1f813725": {
+ "3406f2944d328a89857d3d9b4b6730a95e7ab7fb86d83c0107c3b38b05d8bb89": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -131,7 +49,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"The Supreme Court's unanimous ruling against companies designed to facilitate copyright infringement is a strong but legally vague message.\"]}",
+     "content": "{\"0\": {\"original\": \"The Supreme Court unanimously ruled that companies designed to facilitate copyri\", \"rephrased\": \"The U.S. Supreme Court has issued a unanimous decision stating that businesses intentionally created to enable copyright violations must be held legally responsible for the resulting infringements, even if the technology itself has lawful applications. This ruling sends a definitive message to the industry that companies designed specifically to promote illegal file-sharing face liability, while the specific legal standards for applying this rule will be determined by lower courts.\", \"summary\": \"The U.S. Supreme Court ruled that companies designed to facilitate copyright infringement are liable for resulting violations.\"}, \"1\": {\"original\": \"One who distributes a device with the object of promoting its use to infringe\", \"rephrased\": \"Justice David Souter, writing for the U.S. Supreme Court, established that any individual or entity distributing a device with the explicit intent to promote its use for copyright infringement is liable for the resulting violations by third parties. This legal standard applies when there is clear expression or affirmative steps taken to foster illegal activity, going beyond mere knowledge of potential misuse, thereby holding distributors accountable regardless of the device's other lawful capabilities.\", \"summary\": \"Justice David Souter defined liability for copyright infringement as attaching to those who distribute devices with the intent to promote illegal use.\"}, \"2\": {\"original\": \"The Supreme Court's unanimous ruling against file-swapping services was unexpec\", \"rephrased\": \"The U.S. Supreme Court's unanimous decision against file-swapping services was unexpected, marking the first major Internet copyright case to reach the nation's highest court in many years. This historic unanimity signals a strong, zero-tolerance stance from the Justices toward companies designed to violate copyright law, reinforcing the legal framework for holding such entities accountable for facilitating widespread infringement.\", \"summary\": \"The U.S. Supreme Court's unexpected unanimous ruling against file-swapping services signals zero tolerance for companies designed to violate copyright law.\"}, \"3\": {\"original\": \"Panned the court for lacking a clear inducement test, fearing it would discou\", \"rephrased\": \"Fred von Lohmann, senior staff attorney for the Electronic Frontier Foundation, criticized the U.S. Supreme Court for failing to provide a clear legal test for what constitutes inducement of copyright infringement. He argued that this lack of specific guidance could discourage innovators who are unsure whether their projects might inadvertently violate the law, though he remains optimistic about the specific defendants' chances in lower courts.\", \"summary\": \"Fred von Lohmann criticized the U.S. Supreme Court for lacking a clear inducement test, fearing it would discourage innovators unsure of their project's legality.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -140,8 +58,8 @@
     }
    }
   ],
-  "created": 1793650307,
-  "id": "chatcmpl-48kn28qx4tj0oc09ctxnuge",
+  "created": 1793686793,
+  "id": "chatcmpl-6f5dz05jg9616q2vdj2mqx",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -150,7 +68,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 28,
+   "completion_tokens": 555,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -158,12 +76,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 831,
+   "prompt_tokens": 1915,
    "prompt_tokens_details": null,
-   "total_tokens": 859
+   "total_tokens": 2470
   }
  },
- "49c7df7815e3923276730318316e94259587256515d1e9d086f7030441eb5258": {
+ "42d3231526f6d0ee44c37307743517466098a32c51b6b9a8f47d7244f25a236b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -172,7 +90,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"David Souter\": [\"One who distributes a device with the object of promoting its use to infringe copyright, as shown by clear expression or other affirmative steps taken to foster infringement, going beyond mere distribution with knowledge of third-party action, is liable for the resulting acts of infringement by third parties using the device, regardless of the device's lawful uses.\"]}",
+     "content": "{\"Fred von Lohmann\": [\"Panned the court for lacking a clear inducement test, fearing it would discourage innovators unsure of their project's legality.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -181,172 +99,8 @@
     }
    }
   ],
-  "created": 1793650305,
-  "id": "chatcmpl-qqyivnt53fkzd6svbf78",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 73,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 792,
-   "prompt_tokens_details": null,
-   "total_tokens": 865
-  }
- },
- "6aeb4327d636a7fc0dae6c97d025bbe9eda2a09c063451d58ec06bbf69bfaee2": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650318,
-  "id": "chatcmpl-wn9pfd1ly8ogtmoq2sk9",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 231,
-   "prompt_tokens_details": null,
-   "total_tokens": 246
-  }
- },
- "79eb1a82fa69e3a19589cadf6298b15de935ad59f86201031b7ec11e5f276538": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"The ruling, long awaited by all sides, holds businesses liable for infringement if they were created specifically to facilitate copyright violations.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650304,
-  "id": "chatcmpl-msfcxtegwneasrnmc11eh",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 31,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 768,
-   "prompt_tokens_details": null,
-   "total_tokens": 799
-  }
- },
- "9109c6cc3d0330d0d7d528e110f656a8ecca9531d9f4ae9f39f703567457e62f": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650318,
-  "id": "chatcmpl-lq4lu01kfwdyfh4buoobsj",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 232,
-   "prompt_tokens_details": null,
-   "total_tokens": 247
-  }
- },
- "bcebe6146805bca63265db41843a6de5c04d3bd2a058512730cd774204d79cdd": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Fred von Lohmann\": [\"Panned the court for lacking a clear inducement test, arguing it would discourage innovators unsure of their project's legality.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793650308,
-  "id": "chatcmpl-kmlviw1vy6rnayj2817n",
+  "created": 1793686791,
+  "id": "chatcmpl-etm5a7wpyzu8i6ih850bq3",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -368,7 +122,7 @@
    "total_tokens": 787
   }
  },
- "d21cef08a877c65c4f6f19044081cdd5a865773dea81d70f7a9f6077cbe67e87": {
+ "61add3fb9a9fff89ab1f12db391d468565aea4db2861754f2693890ed808f7d5": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -377,7 +131,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
+     "content": "{\"rephrased_statement\": \"Justice David Souter, speaking on behalf of the U.S. Supreme Court, ruled that distributors face liability for third-party copyright violations if they sell a device knowing it will be used to break copyright laws. This rule applies only when there is obvious proof or active measures encouraging illegal use, not just awareness of possible misuse. Consequently, distributors are held responsible even if the device can also be used legally.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -386,8 +140,90 @@
     }
    }
   ],
-  "created": 1793650318,
-  "id": "chatcmpl-zxl8k6u7fkil1gili23n2l",
+  "created": 1793686805,
+  "id": "chatcmpl-8twpim82ll92mo4wp18p6",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 90,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 241,
+   "prompt_tokens_details": null,
+   "total_tokens": 331
+  }
+ },
+ "9b316353c422a569ec3140d28bddb51a993d322982c2e34511ce1aecf9f7b50c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The Supreme Court's unanimous ruling against file-swapping services was unexpected, signaling zero tolerance for companies designed to violate copyright law.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686791,
+  "id": "chatcmpl-yo2zqfsmc9kyh6po4g1uf8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 32,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 831,
+   "prompt_tokens_details": null,
+   "total_tokens": 863
+  }
+ },
+ "a8b9c7ac73261e1e8c47aad5bccd752b8f79588612e9c1a586cf7f54e914791c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686809,
+  "id": "chatcmpl-1i3cr54kcfts28fgpih94d",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -404,9 +240,173 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 213,
+   "prompt_tokens": 210,
    "prompt_tokens_details": null,
-   "total_tokens": 228
+   "total_tokens": 225
+  }
+ },
+ "acae3af67b57006d4d2ff63d4b291b250dd6d4add579ad8a6f029bd9e6444897": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"rephrased_statement\": \"Fred von Lohmann expressed disapproval of the U.S. Supreme Court because it does not have a definite inducement test. He worried this would make innovators hesitant to start projects they are not sure are legal.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686807,
+  "id": "chatcmpl-af8v5d2rn2d69xsagld61u",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 54,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 191,
+   "prompt_tokens_details": null,
+   "total_tokens": 245
+  }
+ },
+ "ae6ef10f405c91f6f495dbae11e73dc492b97a2bbf5645dff50f5dfc4011f4ff": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"The Supreme Court unanimously ruled that companies designed to facilitate copyright infringement are liable for resulting violations, sending a strong message against file-swapping services.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686787,
+  "id": "chatcmpl-tyehng54bfffx953ghpoz9",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 35,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 768,
+   "prompt_tokens_details": null,
+   "total_tokens": 803
+  }
+ },
+ "c0582cc7bde7a15e1a9e3259e88d34683ed2c2f4a88b995d2041194f60a9db6e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686809,
+  "id": "chatcmpl-6pxs0wub2snrnso0og2ii",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 236,
+   "prompt_tokens_details": null,
+   "total_tokens": 251
+  }
+ },
+ "c4dd26e86fe3376e3573cc9f637a97dfa2ddc1fcf08b4cc17c6ecfdd52b02e2f": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"David Souter\": [\"One who distributes a device with the object of promoting its use to infringe copyright, as shown by clear expression or other affirmative steps taken to foster infringement, going beyond mere distribution with knowledge of third-party action, is liable for the resulting acts of infringement by third parties using the device, regardless of the device's lawful uses.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686789,
+  "id": "chatcmpl-vvotp3626iyh2yel3o97",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 73,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 792,
+   "prompt_tokens_details": null,
+   "total_tokens": 865
   }
  },
  "d333e01313d468bbe66e5ca7769ccd2eab0edefe6f87ba3d7f62f1e41a4e18f8": {
@@ -427,8 +427,8 @@
     }
    }
   ],
-  "created": 1793650298,
-  "id": "chatcmpl-b62h9e16f4qdjzzr0avgow",
+  "created": 1793686782,
+  "id": "chatcmpl-u5i9drem3eoddodmaxsukh",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -448,6 +448,88 @@
    "prompt_tokens": 910,
    "prompt_tokens_details": null,
    "total_tokens": 1105
+  }
+ },
+ "ebdb418f70aecd813a889ad02625c04fcda49e03012b14b60a430b978e4537db": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"main_point\": \"The U.S. Supreme Court unanimously ruled that companies intentionally designed to facilitate copyright infringement are liable for the resulting violations, sending a strong message against file-swapping services while leaving the specific legal application to lower courts.\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686786,
+  "id": "chatcmpl-nbgs3tt63bawu81i62b1p",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 49,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 608,
+   "prompt_tokens_details": null,
+   "total_tokens": 657
+  }
+ },
+ "fe5488104d685935d569bc50ebc0a3638edce5c590a09d2f4737755b7aea3707": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793686810,
+  "id": "chatcmpl-l7xpd5lsay31mfhtzi8gu",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 237,
+   "prompt_tokens_details": null,
+   "total_tokens": 252
   }
  }
 }

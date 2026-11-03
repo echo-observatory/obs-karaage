@@ -1,5 +1,5 @@
 {
- "05c8601df05b95f1fe7fde5e808234cd894fcc80c50462335246045436759584": {
+ "00fd65ce82d6fb31abfe9be261ca7563a920a498bbd87c483b8ba97bee37277a": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -17,8 +17,8 @@
     }
    }
   ],
-  "created": 1793651961,
-  "id": "chatcmpl-igly95vnxhicpqeai156u",
+  "created": 1793688470,
+  "id": "chatcmpl-oj2a5rsj29iezutknlbti",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -35,12 +35,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 207,
+   "prompt_tokens": 215,
    "prompt_tokens_details": null,
-   "total_tokens": 222
+   "total_tokens": 230
   }
  },
- "0c2411262293c3da1f7e7858e3b29495ff98f0634f0521e7b1d5f52e871d322c": {
+ "04dcfc7e825b616b14c95b75dfd976c6363b972dae2e91b2e7b35c88b64c3c5b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -49,7 +49,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"4\": {\"original\": \"When a copyright holder chooses to release their work under a Creative Commons (\", \"rephrased\": \"When copyright holders voluntarily release their work under a Creative Commons Attribution license, they explicitly grant the public the right to freely own, share, and modify that material, provided users properly credit the original author. This legal framework ensures that legitimate content remains accessible to everyone, regardless of the restrictions imposed by other entities on tools used to access such material.\", \"summary\": \"Creative Commons licenses grant public rights to freely use and share voluntarily released works.\"}, \"5\": {\"original\": \"youtube-dl supports fair use and evidence gathering, and browsers can already\", \"rephrased\": \"The open-source tool youtube-dl serves legitimate purposes such as gathering evidence and exercising fair use rights, while standard web browsers already possess the inherent capability to download copyrighted photos and record videos. This demonstrates that the internet lacks any effective technological measures preventing content sharing, rendering claims that the tool circumvents security systems fundamentally flawed.\", \"summary\": \"youtube-dl supports legitimate uses and proves no technology prevents content downloading.\"}, \"6\": {\"original\": \"GitHub's ban on youtube-dl triggered a Streisand effect, driving users to\", \"rephrased\": \"The decision by the software hosting platform GitHub to block the open-source video downloader youtube-dl has triggered a Streisand effect, causing the information to spread more widely. Consequently, users are actively bypassing the ban by hosting the code on self-managed servers, accessing it through Tor sites, or downloading it via the Torrent protocol, ensuring the software remains available despite the takedown notice.\", \"summary\": \"GitHub's ban on youtube-dl backfired, driving users to bypass the block via alternative methods.\"}, \"7\": {\"original\": \"GitHub users vandalized the repository, with one merging the code into the DMCA\", \"rephrased\": \"In response to the takedown notice, members of the public actively vandalized the repository on the software hosting platform, with one user merging the source code directly into the folder designated for copyright complaints. This act of digital vandalism successfully enabled users to access the code within the restricted repository, provided they possess the specific commit identifier required to view the merged files.\", \"summary\": \"GitHub users bypassed the ban by merging the code into the DMCA repository.\"}}",
+     "content": "{\"main_point\": \"GitHub removed the open-source video downloader youtube-dl following a DMCA notice from the RIAA, a move criticized by digital rights advocates as an overreaction that ignores the tool's legitimate uses for public domain content and fair use, prompting users to bypass the ban by hosting the code elsewhere.\"}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -58,8 +58,8 @@
     }
    }
   ],
-  "created": 1793651925,
-  "id": "chatcmpl-2c5tjloh3mdux5b5zndeo9",
+  "created": 1793688404,
+  "id": "chatcmpl-0u50codtz9ipvuwt0y61oiq",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -68,7 +68,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 487,
+   "completion_tokens": 66,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -76,12 +76,135 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 2770,
+   "prompt_tokens": 2953,
    "prompt_tokens_details": null,
-   "total_tokens": 3257
+   "total_tokens": 3019
   }
  },
- "0e4743db17925dd756431d6791560c59c7a6a891d876d0ac843b4242b212a56d": {
+ "08a54efc525aa30e7b4ae5fa84a9f9de27e60d1c969cd894adc4c38108608125": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"12\": {\"original\": \"YouTube implements DRM for YouTube Movies.\", \"rephrased\": \"While the tool in question is designed to download content from over 1,000 services, it cannot access videos protected by Digital Rights Management technology, such as those found on YouTube Movies, because the platform enforces these restrictions to prevent unauthorized copying.\", \"summary\": \"DRM protection on specific YouTube content prevents the open-source downloader from accessing those files.\"}, \"13\": {\"original\": \"It enables video playback on many devices (e.g. Raspberry Pi) where the video服务的\", \"rephrased\": \"The open-source video downloader allows users to play high-quality videos on hardware devices like Raspberry Pis that are otherwise unable to access the streaming services due to technical limitations or lack of native support.\", \"summary\": \"The tool enables video playback on devices that cannot natively access certain streaming services.\"}, \"14\": {\"original\": \"Users added copyrighted tests because they requested support for those videos, a\", \"rephrased\": \"Although the inclusion of copyrighted test cases in the source code was driven by user demand for specific video support, these elements can be easily removed to resolve legal concerns without compromising the tool's overall functionality or its legitimate uses for public domain material.\", \"summary\": \"User-requested copyrighted test cases can be removed from the tool's codebase without affecting its core functions.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688459,
+  "id": "chatcmpl-i1treeozdxkq607icw9eyl",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 291,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2231,
+   "prompt_tokens_details": null,
+   "total_tokens": 2522
+  }
+ },
+ "1ac3a1542d427c0b628e0ac204c35eeb529f19d7cab9e5dd11d16395f73d48ba": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Sergey M.\": [\"I could reinstate the repo by Saturday/Sunday but this is an unsatisfactory outcome.\", \"I can't guarantee whether we will bend over them considering the situation with @phihag but we'll see soon what we can do to keep the max we have and mitigate potential legal issues.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688418,
+  "id": "chatcmpl-5uopxk1ewnlc30hgtry1u",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 69,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 807,
+   "prompt_tokens_details": null,
+   "total_tokens": 876
+  }
+ },
+ "21b44a8252b774e7d1505c2500ee157aadc913c92acfbdc16f2e4960efe40a56": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"youtube-dl supports fair use and evidence gathering, and browsers can already download copyrighted photos, proving no technological barriers exist to content sharing.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688413,
+  "id": "chatcmpl-k8fjkai0rrot1favrfrrk",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 34,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1049,
+   "prompt_tokens_details": null,
+   "total_tokens": 1083
+  }
+ },
+ "2d130c70635f7c1d1d4b9410292d5c35cc87abab02decd5687d9208144d982f1": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -99,8 +222,8 @@
     }
    }
   ],
-  "created": 1793651960,
-  "id": "chatcmpl-plxtqyzi7rhu2reo25qyks",
+  "created": 1793688472,
+  "id": "chatcmpl-i9my9lbgt2ilxcdff72v3d",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -117,135 +240,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 267,
+   "prompt_tokens": 219,
    "prompt_tokens_details": null,
-   "total_tokens": 282
+   "total_tokens": 234
   }
  },
- "1a783c2020bff5c404a6b10f07ccccf5a02849e3d28855e5d6092925b21fe74e": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651957,
-  "id": "chatcmpl-l72qvn78lcg8qncbr4vrjm",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 344,
-   "prompt_tokens_details": null,
-   "total_tokens": 359
-  }
- },
- "1b23a1fe21018d5e3048cc986948357ca1cda57d94cffe5e2420057428f217e4": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"you\": [\"YouTube implements DRM for YouTube Movies.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651908,
-  "id": "chatcmpl-hcma5yvm6dkffewu9tz7xa",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 13,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 752,
-   "prompt_tokens_details": null,
-   "total_tokens": 765
-  }
- },
- "2f886c541b0dc98cb004570b356a7925aef721d2dad20fb999d17bb7a9b584c0": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Recording Industry Association of America\": [\"alleged violation of 17 U.S. Code § 1201 Circumvention of copyright protection systems\", \"listed a number of forks of youtube-dl and requested GitHub to make them inaccessible\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651896,
-  "id": "chatcmpl-mjrsfg6q0tjndlrr34ucp",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 53,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 827,
-   "prompt_tokens_details": null,
-   "total_tokens": 880
-  }
- },
- "3742e4117c2c24cf789c4cae33d4cddadf8fdcd84fd6eb92fa0ba178b0fe719f": {
+ "2e24716f760be1f1b7f0368cf7ba75a94f235160bb55e379bc1c954ae6128a21": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -263,8 +263,8 @@
     }
    }
   ],
-  "created": 1793651964,
-  "id": "chatcmpl-eqoobocm03skbluni4rz9",
+  "created": 1793688468,
+  "id": "chatcmpl-v09udtsle8vky1jve36t",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -281,12 +281,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 262,
+   "prompt_tokens": 202,
    "prompt_tokens_details": null,
-   "total_tokens": 277
+   "total_tokens": 217
   }
  },
- "43a0999b5ac2e484c1f6ed5777801da84ddcd57475a28cef194a8ffdda28b907": {
+ "3207e09df2cb9fd93b226ba33dee3fc40c4c382db287f58ffab164d2931ab369": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -304,8 +304,8 @@
     }
    }
   ],
-  "created": 1793651962,
-  "id": "chatcmpl-1w110hcziciju9wsu71msha",
+  "created": 1793688471,
+  "id": "chatcmpl-m2f5p2w5nlm3pyets96ef",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -322,9 +322,50 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 274,
+   "prompt_tokens": 241,
    "prompt_tokens_details": null,
-   "total_tokens": 289
+   "total_tokens": 256
+  }
+ },
+ "3e7705d3d6eb2c26f141bf789619384b6cf813b552a3cdd163af37dba1039410": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"GitHub's ban on the tool backfired, triggering a 'Streisand effect' where users bypassed the lock by sharing code via self-hosted servers, Tor, and torrents.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688414,
+  "id": "chatcmpl-7xy76qykbllkmm1inpt35t",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 45,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 1025,
+   "prompt_tokens_details": null,
+   "total_tokens": 1070
   }
  },
  "47d6c48738883a6b9608177c71261125b56d729a24983abd95fddb05c484ff82": {
@@ -345,8 +386,8 @@
     }
    }
   ],
-  "created": 1793651816,
-  "id": "chatcmpl-ob1j018i34i17c0fny1oru",
+  "created": 1793688330,
+  "id": "chatcmpl-co72foy27t51txhae6goe",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -368,7 +409,7 @@
    "total_tokens": 6908
   }
  },
- "490d7cdd46d600867827d04d64b59547d9a03615967a7cc8cac64de634e2d635": {
+ "48e23f42be0fda7f535124acb736efd173408800aec2552d507967b96b5f734b": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -386,8 +427,8 @@
     }
    }
   ],
-  "created": 1793651960,
-  "id": "chatcmpl-lhsikd6zxdlosl5qkoe5uq",
+  "created": 1793688470,
+  "id": "chatcmpl-w75i8io42oril6igje5ehq",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -404,12 +445,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 416,
+   "prompt_tokens": 209,
    "prompt_tokens_details": null,
-   "total_tokens": 431
+   "total_tokens": 224
   }
  },
- "6e37a59b855f30f49a9a638a6a2c217c1416b395c4562da826ab1cae1596f124": {
+ "4cad6f470b125fa41033c57e3595aecafcc67e350595a3727af38ce5bbb11f37": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -418,7 +459,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"Raspberry Pi\": [\"It enables video playback on many devices (e.g. Raspberry Pi) where the video services don't work properly.\"]}",
+     "content": "{\"YouTube\": [\"The RIAA's notice claims the tool's code comments show it was designed to circumvent YouTube's technological measures.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -427,8 +468,8 @@
     }
    }
   ],
-  "created": 1793651909,
-  "id": "chatcmpl-dhhd3m8lbwcar31ploxw7s",
+  "created": 1793688409,
+  "id": "chatcmpl-oy2rkh15v99u7qw3vjziu",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -437,7 +478,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 31,
+   "completion_tokens": 30,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -445,12 +486,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 816,
+   "prompt_tokens": 955,
    "prompt_tokens_details": null,
-   "total_tokens": 847
+   "total_tokens": 985
   }
  },
- "713fe6cbbcfd7dfd7246738f15b3f0904c3644f040d0f9d645ca19bc46fc1e68": {
+ "4f6c5d4bdd66d6786848d054e77f0531b1264831ebc50b830c6570be19ad75a3": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -459,7 +500,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"no\"}",
+     "content": "{\"Recording Industry Association of America\": [\"alleged violation of 17 U.S. Code § 1201 Circumvention of copyright protection systems\", \"listed a number of forks of youtube-dl and requested GitHub to make them inaccessible\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -468,8 +509,8 @@
     }
    }
   ],
-  "created": 1793651963,
-  "id": "chatcmpl-unef7cw4aroh7lx2ga02o",
+  "created": 1793688410,
+  "id": "chatcmpl-ghvjafw02q6qjtckekvoop",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -478,7 +519,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 15,
+   "completion_tokens": 53,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -486,545 +527,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 191,
+   "prompt_tokens": 829,
    "prompt_tokens_details": null,
-   "total_tokens": 206
+   "total_tokens": 882
   }
  },
- "7335346a45703a30696f35474422c069017862fe72f9d6a07373e9e06fc6b765": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"12\": {\"original\": \"YouTube implements DRM for YouTube Movies.\", \"rephrased\": \"While the tool in question is designed to download content from over 1,000 services, it currently cannot access videos protected by Digital Rights Management (DRM) on YouTube Movies, a limitation that restricts its ability to handle specific premium content despite its utility for public domain and licensed material.\", \"summary\": \"The tool lacks the technical capability to bypass DRM on premium YouTube Movies.\"}, \"13\": {\"original\": \"It enables video playback on many devices (e.g. Raspberry Pi) where the video服务的\", \"rephrased\": \"The software provides a critical workaround for users by enabling video playback on hardware devices, such as Raspberry Pi units, where official streaming services fail to function correctly, thereby ensuring access to content that would otherwise be inaccessible.\", \"summary\": \"The software ensures access to content on devices where official services fail.\"}, \"14\": {\"original\": \"Users added copyrighted tests because they requested support for those videos, a\", \"rephrased\": \"The inclusion of copyrighted test cases in the codebase resulted from user requests for specific video support, a modification that can be easily removed to resolve legal concerns without compromising the tool's overall functionality or its legitimate uses for archival and research.\", \"summary\": \"Copyrighted test cases can be easily removed without affecting the tool's core functions.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651949,
-  "id": "chatcmpl-68d52dvcxmlgq4dc6woads",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 293,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2231,
-   "prompt_tokens_details": null,
-   "total_tokens": 2524
-  }
- },
- "75039dbf1dd438654dbf92a45fdb14e0d1fe4937e7505b7d660160b23eab840d": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"0\": {\"original\": \"GitHub published a stripped DMCA notice from the RIAA, alleging the tool's sole \", \"rephrased\": \"The Recording Industry Association of America sent a Digital Millennium Copyright Act notice to the code hosting platform GitHub, demanding that the open-source video downloader be removed. This legal action asserts that the software is designed exclusively to bypass copyright protections, even though the tool is publicly available and capable of downloading legally licensed or public domain media. By publishing a redacted version of this complaint, the industry group argues that the software's existence itself constitutes a violation of federal anti-circumvention laws, ignoring the fact that the tool supports legitimate uses for content that creators have explicitly allowed to be shared.\", \"summary\": \"The RIAA demanded GitHub remove an open-source video tool, arguing it violates copyright laws despite the software's legitimate uses for licensed and public domain content.\"}, \"1\": {\"original\": \"The RIAA's notice claims the tool's comments show it was designed to circumvent \", \"rephrased\": \"The Recording Industry Association of America argues that specific comments found within the source code of the open-source video downloader prove the software was created with the intent to bypass the technological restrictions used by streaming services. This assertion relies on a single line of code that references downloading copyrighted songs, which the industry group uses to justify a broad takedown request against the entire project, regardless of the tool's extensive testing for legally compliant downloads or its ability to access public domain material.\", \"summary\": \"The RIAA claims specific comments in the video downloader's code prove it was designed to bypass streaming service restrictions, ignoring the tool's legitimate uses.\"}, \"2\": {\"original\": \"alleged violation of 17 U.S. Code § 1201 Circumvention of copyright protection \", \"rephrased\": \"The Recording Industry Association of America is alleging a violation of the U.S. federal law that prohibits circumventing technological measures that control access to copyrighted works. This legal framework is being invoked to demand the removal of a specific open-source script from a major code repository, based on the claim that the software's primary function is to bypass digital locks on streaming platforms, even though the tool is capable of accessing content that is legally free to download.\", \"summary\": \"The RIAA is invoking federal anti-circumvention laws to demand the removal of an open-source script, claiming it bypasses digital locks despite the tool's ability to access legal content.\"}, \"3\": {\"original\": \"listed a number of forks of youtube-dl and requested GitHub to make them \", \"rephrased\": \"The Recording Industry Association of America has identified multiple alternative versions of the open-source video downloader and requested that the code hosting platform make all of them inaccessible. This broad enforcement strategy aims to eliminate the software entirely from the internet by targeting its various rewrites, effectively blocking access to a tool that many users rely on for downloading public domain and licensed media, rather than addressing specific instances of actual copyright infringement.\", \"summary\": \"The RIAA requested that the code hosting platform block all alternative versions of the video downloader, aiming to eliminate the tool entirely rather than addressing specific infringement cases.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651911,
-  "id": "chatcmpl-h9lef6f5lwyrn9wyjmfk",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 663,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2141,
-   "prompt_tokens_details": null,
-   "total_tokens": 2804
-  }
- },
- "906566a1b72256d709b944fb2103f2c6cc94a6ff67b1d601fb189e02f2a638e0": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651958,
-  "id": "chatcmpl-ixm6fvvmzx91midbotq3b",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 264,
-   "prompt_tokens_details": null,
-   "total_tokens": 279
-  }
- },
- "a733a5d8fd785abfb4f641f033a2c594e8905e77498d7236c9d09d3856b3dcc7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"no\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651959,
-  "id": "chatcmpl-3u4itwzgn8pkv99ls7z6pm",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 247,
-   "prompt_tokens_details": null,
-   "total_tokens": 262
-  }
- },
- "a77900ad78bfb949cd73203ea76fd3ebd99933af13cc45bedcfeb6e4577c78f7": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651963,
-  "id": "chatcmpl-57jw1ogi8lvc10fhxx8ke",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 256,
-   "prompt_tokens_details": null,
-   "total_tokens": 271
-  }
- },
- "a92d60acfb29befe0b8d2d5c9c6b1bb39fba80bacb7ef84ed7e596576be0ff20": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"rephrased_statement\": \"People on GitHub avoided the prohibition by combining the code with the DMCA repository.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651956,
-  "id": "chatcmpl-16kcom0ancqsaabsvwpt1g",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 26,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 174,
-   "prompt_tokens_details": null,
-   "total_tokens": 200
-  }
- },
- "a9d6e9f8fb3a465fb58841157027ee1220650107a075c424a8e90deaa031530d": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"8\": {\"original\": \"Richard Stallman, the founder of the Free Software Foundation, has been highly c\", \"rephrased\": \"Richard Stallman, the founder of the Free Software Foundation, has long maintained that Digital Rights Management systems are fundamentally flawed and harmful to the public interest, a stance that informs his sharp criticism of the RIAA's demand to remove the open-source tool youtube-dl from GitHub. He argues that such copyright enforcement mechanisms stifle innovation and restrict access to information that should remain free for everyone to use and share.\", \"summary\": \"Richard Stallman argues that Digital Rights Management systems are fundamentally flawed and harmful to the public interest.\"}, \"9\": {\"original\": \"I could reinstate the repo by Saturday/Sunday but this is an unsatisfactory out\", \"rephrased\": \"The maintainers of the open-source video downloader youtube-dl acknowledge that they could restore the project's code on GitHub by the weekend, yet they characterize the RIAA's demand for the complete removal of the tool as an unacceptable and disproportionate outcome given its legitimate uses for public domain and licensed content.\", \"summary\": \"The maintainers of the open-source video downloader youtube-dl acknowledge that they could restore the project's code on GitHub by the weekend, yet they characterize the RIAA's demand for the complete removal of the tool as an unacceptable and disproportionate outcome given its legitimate uses for.\"}, \"10\": {\"original\": \"I can't guarantee whether we will bend over them considering the situation with\", \"rephrased\": \"The maintainers of the open-source video downloader youtube-dl state that they cannot guarantee whether they will comply with the RIAA's demands to remove the tool, noting that the pressure to surrender the project's code to the music industry is a significant concern that could undermine the software's future availability and the community's ability to defend it against legal threats.\", \"summary\": \"The maintainers of the open-source video downloader youtube-dl state that they cannot guarantee whether they will comply with the RIAA's demands to remove the tool, noting that the pressure to surrender the project's code to the music industry is a significant concern that could undermine the.\"}, \"11\": {\"original\": \"EFF remains unresponsive to inquiries; former maintainer Philipp Hagemeister is\", \"rephrased\": \"Digital rights advocates represented by the Electronic Frontier Foundation have not yet provided a public response to inquiries regarding the RIAA's takedown notice against the open-source tool youtube-dl, while the project's former maintainer, Philipp Hagemeister, is currently being contacted to obtain his initial reaction to the situation involving the music industry's legal action.\", \"summary\": \"Digital rights advocates represented by the Electronic Frontier Foundation have not yet provided a public response to inquiries regarding the RIAA's takedown notice against the open-source tool youtube-dl, while the project's former maintainer, Philipp Hagemeister, is currently being contacted to.\"}}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651936,
-  "id": "chatcmpl-xwc8ng2wecjcp2t0fb8f47",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 613,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2236,
-   "prompt_tokens_details": null,
-   "total_tokens": 2849
-  }
- },
- "aa4259419d67a69e874d2b0eebc4abec2d84f5d9f2b275ac6d7a06845f240f06": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"uncertain\", \"actor_correct\": \"yes\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651961,
-  "id": "chatcmpl-ec8kqww6eovpn32lvknik",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 16,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 219,
-   "prompt_tokens_details": null,
-   "total_tokens": 235
-  }
- },
- "aac5d943f4268783addd60f500eba404ff834709f48dbe124851f3b6cba82b44": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"EFF remains unresponsive to inquiries; former maintainer Philipp Hagemeister is being contacted for reaction details.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651907,
-  "id": "chatcmpl-e0364p76m2bpa4guqwqywc",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 28,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 803,
-   "prompt_tokens_details": null,
-   "total_tokens": 831
-  }
- },
- "ab4f537878ac50dec02509c5a28136568fd0edce1451a75b7654d98bd9191756": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Sergey M.\": [\"I could reinstate the repo by Saturday/Sunday but this is an unsatisfactory outcome.\", \"I can't guarantee whether we will bend over them considering the situation with @phihag but we'll see soon what we can do to keep the max we have and mitigate potential legal issues.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651905,
-  "id": "chatcmpl-pvtiqo6ozyjop10jauue9",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 69,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 805,
-   "prompt_tokens_details": null,
-   "total_tokens": 874
-  }
- },
- "b1d858ec0992fc04b6d5330e6260bcca71ee0a7232b6a0bf380b1217127f2db0": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"GitHub's ban on youtube-dl triggered a Streisand effect, driving users to bypass the block via self-hosted servers, Tor sites, and torrents while the software's binary files remain available.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651901,
-  "id": "chatcmpl-50c4ao0q9ygm9wyh32wno",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 47,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1023,
-   "prompt_tokens_details": null,
-   "total_tokens": 1070
-  }
- },
- "b76f53698706072abb911c4dc5aab21fc8a587dbb4126e8503ac11474e677b39": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": []}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651908,
-  "id": "chatcmpl-89bweeh1uciytrlrk8av8d",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 7,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 763,
-   "prompt_tokens_details": null,
-   "total_tokens": 770
-  }
- },
- "b7d92070c7872d95df6fd3051e928557f48a3782f77a6bf10f1cf77f5a47f0e2": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"Creative Commons Attribution license\": [\"When a copyright holder chooses to release their work under a Creative Commons Attribution (CC BY) license, they allow everyone to freely own, share or modify the work as long as the reusers properly attribute the author.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651898,
-  "id": "chatcmpl-9b9kx67bh2x9lfrkr0hy",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 52,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 749,
-   "prompt_tokens_details": null,
-   "total_tokens": 801
-  }
- },
- "bc7b33fa6de9a19de72c7aa88d8fb8bcea66da462559bb21470dc5b6ca378179": {
+ "56138e65c8f28510c58cb0f86bdede937fc2ac791aa6ca6f2df77409700cdfde": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1042,8 +550,8 @@
     }
    }
   ],
-  "created": 1793651904,
-  "id": "chatcmpl-w9vr72hmz4a001mjdwi3dy85",
+  "created": 1793688417,
+  "id": "chatcmpl-hirvq20tunliya8iedevdb",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1060,12 +568,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 773,
+   "prompt_tokens": 775,
    "prompt_tokens_details": null,
-   "total_tokens": 816
+   "total_tokens": 818
   }
  },
- "ccbc158db89741c47e7abf116d7fab7097221357b845d4511c033d24df0b33b3": {
+ "58bd359b81f9a50f4cc0231fabc3fea1600ff892f980a9137bc08d0fabe20ebf": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1074,7 +582,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"GitHub users vandalized the repository, with one merging the code into the DMCA folder to bypass the ban, provided users know the commit ID.\"]}",
+     "content": "{\"4\": {\"original\": \"When a copyright holder chooses to release their work under a Creative Commons, \", \"rephrased\": \"When copyright holders voluntarily release their work under a Creative Commons Attribution license, they explicitly grant the public the right to freely own, share, and modify that content, provided users properly attribute the original author. This legal framework ensures that legitimate uses of such material remain accessible to everyone, regardless of the restrictions imposed by other entities on the platforms hosting the content.\", \"summary\": \"Creative Commons licenses grant the public broad rights to share and modify voluntarily released works.\"}, \"5\": {\"original\": \"youtube-dl supports fair use and evidence gathering, and browsers can already d\", \"rephrased\": \"The open-source tool youtube-dl is designed to support fair use and evidence gathering, demonstrating that the tool's functionality extends beyond copyright infringement. Furthermore, standard web browsers can already download and record copyrighted photos and videos, proving that no technological barriers effectively prevent users from accessing and sharing digital content.\", \"summary\": \"youtube-dl supports fair use, and standard browsers can already download copyrighted content.\"}, \"6\": {\"original\": \"GitHub's ban on the tool backfired, triggering a 'Streisand effect' where users\", \"rephrased\": \"The decision by the software hosting platform GitHub to remove the youtube-dl tool backfired, triggering a 'Streisand effect' where the ban inadvertently caused the software's source code to spread more widely. Users successfully bypassed the restriction by sharing the code through decentralized networks, self-hosted servers, and the Tor network, rendering the removal effort counterproductive.\", \"summary\": \"GitHub's removal of the tool backfired, causing users to share the code via alternative channels.\"}, \"7\": {\"original\": \"GitHub users vandalized the repository, and one merged the code into the DMCA f\", \"rephrased\": \"Following the removal of the tool, users of the software hosting platform engaged in acts of digital vandalism to restore access, with one individual merging the source code into the very repository designated for copyright takedown notices. This strategic move allowed users to access the code directly from the DMCA folder, provided they knew the specific commit identifier, effectively circumventing the intended ban.\", \"summary\": \"Users vandalized the repository to merge the code into the DMCA folder, restoring access.\"}}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1083,8 +591,8 @@
     }
    }
   ],
-  "created": 1793651902,
-  "id": "chatcmpl-fnt4wfajtiiq1xeup8l2g",
+  "created": 1793688438,
+  "id": "chatcmpl-52fuyez8lb8k8y8fki1pkp",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1093,7 +601,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 36,
+   "completion_tokens": 492,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1101,12 +609,217 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 754,
+   "prompt_tokens": 2762,
+   "prompt_tokens_details": null,
+   "total_tokens": 3254
+  }
+ },
+ "731a9960f5ca033e8e835f5aa7aabe3c0525697ec68099ee3a71f2d17da8d97c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Raspberry Pi\": [\"It enables video playback on many devices (e.g. Raspberry Pi) where the video services don't work properly.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688422,
+  "id": "chatcmpl-q4801qceqdic9bl0hcbu",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 31,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 818,
+   "prompt_tokens_details": null,
+   "total_tokens": 849
+  }
+ },
+ "88609e943f1036f8a11ff0f8fce3c0b6abf648a55f7488ff50d877a338f88388": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"GitHub published a stripped DMCA notice from the RIAA, alleging the tool was designed to circumvent streaming protections and distribute music without authorization.\"], \"YouTube\": []}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688407,
+  "id": "chatcmpl-9vue2n92a2vwnkjmi8eutm",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 41,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 947,
+   "prompt_tokens_details": null,
+   "total_tokens": 988
+  }
+ },
+ "89bbfb384a66e2e7f2cfbc31ce5d6237c10c796d011ddd578aadf7e2b6ad93b8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"Creative Commons Attribution license\": [\"When a copyright holder chooses to release their work under a Creative Commons Attribution license, they allow everyone to freely own, share or modify the work as long as the reusers properly attribute the author.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688411,
+  "id": "chatcmpl-tjm3jat0adfn8xtqjo9qer",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 48,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 751,
+   "prompt_tokens_details": null,
+   "total_tokens": 799
+  }
+ },
+ "8e55ad263fe4f4f677a90581f4ae2e43c06fee8debeec1cdd5eea64b279c76a6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688472,
+  "id": "chatcmpl-r9z3yb25d19j11192ny0e",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 194,
+   "prompt_tokens_details": null,
+   "total_tokens": 209
+  }
+ },
+ "9e59edbfa7ba078ab90f6f06f267769a375879e182f58a994b0ded5845536e76": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"GitHub users vandalized the repository, and one merged the code into the DMCA folder, allowing access if users know the commit ID.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688416,
+  "id": "chatcmpl-zszz16djzw086y9fae2qmd",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 34,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 756,
    "prompt_tokens_details": null,
    "total_tokens": 790
   }
  },
- "cd0018b37863ef6898151f9ec862c84165bad93bf59f57915ea227fc6db62891": {
+ "a27fc3e194fa05c9feecc358449518b22b7677a2b1e0ab4df3afbe2440437ccf": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1124,8 +837,8 @@
     }
    }
   ],
-  "created": 1793651958,
-  "id": "chatcmpl-exfnbgttijfu10iy6ufw4e",
+  "created": 1793688469,
+  "id": "chatcmpl-ts8bap8e5i9f021vxhfwfr",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1142,12 +855,12 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 254,
+   "prompt_tokens": 418,
    "prompt_tokens_details": null,
-   "total_tokens": 269
+   "total_tokens": 433
   }
  },
- "ce8c7ac08f8fd9566d33df546a50df9842a90258e8bf3c14aa4efc0fe7f95022": {
+ "a44d181162b3adce9d2d7c9b15ce873b2830f9a73a7bab59da7f231e5b488187": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1156,7 +869,7 @@
     "message": {
      "annotations": null,
      "audio": null,
-     "content": "{\"base_author\": [\"GitHub published a stripped DMCA notice from the RIAA, alleging the tool's sole purpose is copyright circumvention despite its public domain status and legitimate uses for licensed content.\"], \"YouTube\": []}",
+     "content": "{\"base_author\": [\"EFF has not yet responded to inquiries about the takedown; Wikinews also contacted former maintainer Philipp Hagemeister regarding the removal.\"]}",
      "function_call": null,
      "reasoning_content": "",
      "refusal": null,
@@ -1165,8 +878,8 @@
     }
    }
   ],
-  "created": 1793651894,
-  "id": "chatcmpl-zn00zfyfffsg9j72xexky",
+  "created": 1793688420,
+  "id": "chatcmpl-w4fn414vmmdsf0bgh240vc",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1175,7 +888,7 @@
   "stats": {},
   "system_fingerprint": "qwen/qwen3.5-9b",
   "usage": {
-   "completion_tokens": 47,
+   "completion_tokens": 35,
    "completion_tokens_details": {
     "accepted_prediction_tokens": null,
     "audio_tokens": null,
@@ -1183,12 +896,504 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 945,
+   "prompt_tokens": 805,
    "prompt_tokens_details": null,
-   "total_tokens": 992
+   "total_tokens": 840
   }
  },
- "cf3e09c4fc326c5d68b033f650841c3dcb1fcd0c2dbcd5678924fd33743089bd": {
+ "acbf4986efecec27bb43a15d5a6260dd69d097a64b0ce4089e0d1c7f3044df0c": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688466,
+  "id": "chatcmpl-t5emjdqmc7oyu70ferdys",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 337,
+   "prompt_tokens_details": null,
+   "total_tokens": 352
+  }
+ },
+ "b2f0a428b74d4f09b3f15605489a8526bbd8e5aa41706e96d8053294073f7268": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688468,
+  "id": "chatcmpl-mrrydcpxxp13kl25buv41f",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 234,
+   "prompt_tokens_details": null,
+   "total_tokens": 249
+  }
+ },
+ "b43fae6910d16e270e58d668055bc9cfad452a80fd5a544e6d1745339d35dca8": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"8\": {\"original\": \"Richard Stallman, the founder of the Free Software Foundation, has been highly c\", \"rephrased\": \"Richard Stallman, the founder of the Free Software Foundation, has long maintained that digital rights management systems are fundamentally flawed and harmful to software freedom, a stance that informs his sharp criticism of the RIAA's demand to remove the open-source video downloader from GitHub.\", \"summary\": \"Richard Stallman condemns digital rights management as inherently harmful to software freedom.\"}, \"9\": {\"original\": \"I could reinstate the repo by Saturday/Sunday but this is an unsatisfactory outc\", \"rephrased\": \"The maintainer of the open-source video downloader could restore the project's code on GitHub by the weekend, yet views the RIAA's demand for the tool's complete removal as an unacceptable and damaging outcome that undermines the software's utility.\", \"summary\": \"The youtube-dl maintainer can restore the code but deems the RIAA's removal demand unacceptable.\"}, \"10\": {\"original\": \"I can't guarantee whether we will bend over them considering the situation with\", \"rephrased\": \"The project maintainers cannot promise they will fully comply with the RIAA's demands to remove the video downloader, noting that they must balance the risk of legal retaliation against the need to preserve the tool for users who rely on it for lawful purposes.\", \"summary\": \"The project maintainers will likely resist the RIAA's demands to protect the tool's availability.\"}, \"11\": {\"original\": \"EFF has not yet responded to inquiries about the takedown; Wikinews also contact\", \"rephrased\": \"While the Electronic Frontier Foundation has not yet issued a formal response to inquiries regarding the takedown, the news organization has already contacted the project's former maintainers to gather details on the situation and the community's reaction to the RIAA's actions.\", \"summary\": \"The EFF has not yet commented, but journalists are actively seeking information from the project team.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688449,
+  "id": "chatcmpl-uhpf1day74zq4m3ogi3kg",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 425,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2245,
+   "prompt_tokens_details": null,
+   "total_tokens": 2670
+  }
+ },
+ "c34c1cfab2892a6083de3f7aaf1f251016f817093d1d16b45a1405c8a55976d4": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"you\": [\"YouTube implements DRM for YouTube Movies.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688421,
+  "id": "chatcmpl-olnlxxl1t3et9ig0gd8th",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 13,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 754,
+   "prompt_tokens_details": null,
+   "total_tokens": 767
+  }
+ },
+ "c47d4006e5a800428d8dc92e1e953a6452cd4048f4b0fd23ad68b8a9528dd062": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"0\": {\"original\": \"GitHub published a stripped DMCA notice from the RIAA, alleging the tool was des\", \"rephrased\": \"The Recording Industry Association of America (RIAA) issued a Digital Millennium Copyright Act (DMCA) takedown notice to the code hosting platform GitHub, asserting that the open-source video downloader youtube-dl was specifically engineered to bypass the technological protections employed by authorized streaming services and to distribute copyrighted music without permission. This legal action, which stripped identifying metadata before publication, relies on the software's internal unit tests as evidence of intent, despite the tool's primary design for downloading public domain content and Creative Commons licensed material.\", \"summary\": \"The RIAA sent a DMCA notice to GitHub claiming the open-source video downloader was designed to bypass streaming protections.\"}, \"1\": {\"original\": \"The RIAA's notice claims the tool's code comments show it was designed to circum\", \"rephrased\": \"The Recording Industry Association of America (RIAA) points to specific comments within the source code of the open-source video downloader youtube-dl as proof that the software was created with the intent to circumvent the technological measures protecting content on YouTube. This argument forms the core of the RIAA's legal challenge, which seeks to have the tool and its associated code repositories removed from the GitHub platform, even though the software also functions to download legally available public domain and Creative Commons works.\", \"summary\": \"The RIAA cites code comments in the open-source video downloader as evidence of intent to circumvent YouTube's protections.\"}, \"2\": {\"original\": \"alleged violation of 17 U.S. Code § 1201 Circumvention of copyright protection\", \"rephrased\": \"The Recording Industry Association of America (RIAA) is alleging a violation of 17 U.S. Code § 1201, which prohibits the circumvention of technological measures that effectively control access to copyrighted works. This legal framework is being used to justify a demand that the code hosting platform GitHub make the open-source video downloader youtube-dl and its various derivative versions inaccessible, arguing that the software's ability to bypass digital locks infringes upon federal anti-circumvention laws regardless of how the tool is actually used.\", \"summary\": \"The RIAA alleges a violation of U.S. anti-circumvention law to demand that GitHub block the open-source video downloader.\"}, \"3\": {\"original\": \"listed a number of forks of youtube-dl and requested GitHub to make them in\", \"rephrased\": \"The Recording Industry Association of America (RIAA) has requested that the code hosting platform GitHub make inaccessible a specific list of forked versions of the open-source video downloader youtube-dl. This broad takedown request targets derivative projects that the RIAA believes are related to the original tool, aiming to ensure that no accessible version of the software remains available on the platform, even if those specific forks do not contain the same code comments cited as evidence of copyright infringement.\", \"summary\": \"The RIAA requested that GitHub block multiple forked versions of the open-source video downloader.\"}}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688424,
+  "id": "chatcmpl-euen8menhk6kbpc7ts623",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 651,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 2138,
+   "prompt_tokens_details": null,
+   "total_tokens": 2789
+  }
+ },
+ "ce6922a4ad2a68fe11e29eb90d5608b77cb6f730041559252592327eaf6e020a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688469,
+  "id": "chatcmpl-mx7m203nznp4atho6l32xq",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 266,
+   "prompt_tokens_details": null,
+   "total_tokens": 281
+  }
+ },
+ "d24d588bd9049e01c5e5ed44acb2639240048cd6c7dc59acf09e650b2ed62d5a": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688473,
+  "id": "chatcmpl-9oirj48rw6lci2knyzsle",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 267,
+   "prompt_tokens_details": null,
+   "total_tokens": 282
+  }
+ },
+ "d4362e60da2c69fd7cbed7343d869edfad8785a739a441564991fb1b977fb9f6": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": [\"Users added copyrighted tests because they requested support for those videos, but these can be removed without breaking the tool.\"]}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688423,
+  "id": "chatcmpl-8madd18colu8g6cq4s4e8",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 29,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 819,
+   "prompt_tokens_details": null,
+   "total_tokens": 848
+  }
+ },
+ "d8d4bd2e830cca369c3fc1321c9f05397eb1c3691d89d51f954df7e62dad19f5": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"yes\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688467,
+  "id": "chatcmpl-gbn5c4vd9vp79oheos8f",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 243,
+   "prompt_tokens_details": null,
+   "total_tokens": 258
+  }
+ },
+ "db24f815e0f1b2d8c0a068902d89a737ab16f0f9c83095c8224707fa2fd9913e": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688467,
+  "id": "chatcmpl-vlnwa1z1ivd9mu6eet8idj",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 258,
+   "prompt_tokens_details": null,
+   "total_tokens": 273
+  }
+ },
+ "ea98a93ebe767c01b2d0d009d669bbffa35c7a7e571fd5393eb51721a42c3689": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"base_author\": []}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688421,
+  "id": "chatcmpl-eatw01ki1no22tr3o9t3wx",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 7,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 765,
+   "prompt_tokens_details": null,
+   "total_tokens": 772
+  }
+ },
+ "f84c49485ede32979039a7f4efbf496cc607ee3ee7ed2192eda1c681397d4a39": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "logprobs": null,
+    "message": {
+     "annotations": null,
+     "audio": null,
+     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
+     "function_call": null,
+     "reasoning_content": "",
+     "refusal": null,
+     "role": "assistant",
+     "tool_calls": []
+    }
+   }
+  ],
+  "created": 1793688473,
+  "id": "chatcmpl-rje5zzfqimhyrf1bqbbnx7",
+  "metadata": null,
+  "model": "qwen/qwen3.5-9b",
+  "moderation": null,
+  "object": "chat.completion",
+  "service_tier": null,
+  "stats": {},
+  "system_fingerprint": "qwen/qwen3.5-9b",
+  "usage": {
+   "completion_tokens": 15,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": null,
+    "audio_tokens": null,
+    "reasoning_tokens": 0,
+    "rejected_prediction_tokens": null,
+    "text_tokens": null
+   },
+   "prompt_tokens": 213,
+   "prompt_tokens_details": null,
+   "total_tokens": 228
+  }
+ },
+ "fcd2f6257723058980bd6a58420106d24552766e3880491f2ec8464040ce2a4f": {
   "choices": [
    {
     "finish_reason": "stop",
@@ -1206,8 +1411,8 @@
     }
    }
   ],
-  "created": 1793651962,
-  "id": "chatcmpl-x79osu98lmp9yfez4r4k",
+  "created": 1793688471,
+  "id": "chatcmpl-dues0o7jpg0x1n3k5o9u3j",
   "metadata": null,
   "model": "qwen/qwen3.5-9b",
   "moderation": null,
@@ -1224,255 +1429,9 @@
     "rejected_prediction_tokens": null,
     "text_tokens": null
    },
-   "prompt_tokens": 275,
+   "prompt_tokens": 239,
    "prompt_tokens_details": null,
-   "total_tokens": 290
-  }
- },
- "d336b910ea523e54aa04dfe1f89c3dccd4ecad11b104d7324cd7572c238edf33": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"YouTube\": [\"The RIAA's notice claims the tool's comments show it was designed to circumvent YouTube's technological measures.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651895,
-  "id": "chatcmpl-bj9fkm9yzer1vfpq85yc",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 29,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 953,
-   "prompt_tokens_details": null,
-   "total_tokens": 982
-  }
- },
- "d45ea85fa3739f8129af68358f6b43012d0dfac5f5d18de254eb47c74f67b2c6": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"main_point\": \"GitHub blocked the open-source video downloader youtube-dl following an RIAA DMCA notice alleging copyright circumvention, a move criticized by digital rights advocates as disproportionate because the tool has legitimate uses for public domain and licensed content, prompting users to bypass the ban by hosting the code elsewhere.\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651891,
-  "id": "chatcmpl-eyounnd23vuhaiv3smv7f",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 64,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 2920,
-   "prompt_tokens_details": null,
-   "total_tokens": 2984
-  }
- },
- "da563ffb822cad14d2d3b5ed3667dd9e670a4ded72b2e12aa67f2de92b1bf4d2": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"Users added copyrighted tests because they requested support for those videos, a change that can be made trivially without losing functionality.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651910,
-  "id": "chatcmpl-bk9txgmshq66ryz98k7c7h",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 31,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 817,
-   "prompt_tokens_details": null,
-   "total_tokens": 848
-  }
- },
- "e1587bf6d8e56fddf15b98f5e515e15e8267b315a8c2dc54dff5e49481a362d8": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651964,
-  "id": "chatcmpl-odjf3fbhynlsx7qc1y9lbr",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 210,
-   "prompt_tokens_details": null,
-   "total_tokens": 225
-  }
- },
- "e23acee5bf5645b06608a485832dc1e29078ec124ecc8f130ef680394ee563ac": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"in_text\": \"yes\", \"actor_correct\": \"no\"}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651959,
-  "id": "chatcmpl-tsq6wptk9x8ta9a1o90x6",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 15,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 201,
-   "prompt_tokens_details": null,
-   "total_tokens": 216
-  }
- },
- "ef4e4532802c75e1c3cd9b75e2a8e7d03ace56b1132792b05e2da03e0667b56d": {
-  "choices": [
-   {
-    "finish_reason": "stop",
-    "index": 0,
-    "logprobs": null,
-    "message": {
-     "annotations": null,
-     "audio": null,
-     "content": "{\"base_author\": [\"youtube-dl supports fair use and evidence gathering, and browsers can already download copyrighted photos or record videos, proving no technological measure prevents content sharing.\"]}",
-     "function_call": null,
-     "reasoning_content": "",
-     "refusal": null,
-     "role": "assistant",
-     "tool_calls": []
-    }
-   }
-  ],
-  "created": 1793651899,
-  "id": "chatcmpl-m2qyqvhl8aes60p5xqige",
-  "metadata": null,
-  "model": "qwen/qwen3.5-9b",
-  "moderation": null,
-  "object": "chat.completion",
-  "service_tier": null,
-  "stats": {},
-  "system_fingerprint": "qwen/qwen3.5-9b",
-  "usage": {
-   "completion_tokens": 36,
-   "completion_tokens_details": {
-    "accepted_prediction_tokens": null,
-    "audio_tokens": null,
-    "reasoning_tokens": 0,
-    "rejected_prediction_tokens": null,
-    "text_tokens": null
-   },
-   "prompt_tokens": 1047,
-   "prompt_tokens_details": null,
-   "total_tokens": 1083
+   "total_tokens": 254
   }
  }
 }

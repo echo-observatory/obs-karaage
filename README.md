@@ -9,7 +9,8 @@ The decisions behind the restructuring are in [`docs/design-1.1.0.md`](docs/desi
 
 ## Inputs
 
-One English text per document. Karaage does not translate: sources in other languages must be translated beforehand.
+Documents, each with an id and an English text, and optionally a title and a publication date, given to the model as context when it states the text's main point.
+Karaage does not translate: sources in other languages must be translated beforehand.
 
 ## Outputs
 

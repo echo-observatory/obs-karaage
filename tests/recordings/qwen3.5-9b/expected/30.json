@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 39332,
  "text_sha256": "9c12a0574b5cfe54e4d6a44a9f1aa698f413ef7b98cc7aa4e6f4302d871626c0",
- "main_point": "Following a legal victory where the EFF successfully argued that YouTube-dl's unit tests constitute fair use, Richard Stallman condemns the DMCA and DRM as tools of corporate oppression that stifle user freedom, advocating for a complete elimination of these restrictions in favor of free software principles.",
+ "main_point": "Richard Stallman argues that the current software and copyright system is fundamentally corrupt, asserting that DRM and the DMCA act as shackles that deny users freedom and consolidate corporate power.",
  "main_point_method": "chunked",
  "actors": [
   {
@@ -186,16 +186,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Recording Industry Association of America (RIAA) asserts that the youtube-dl software was engineered to circumvent technological protection measures on streaming services, arguing that specific test cases within the code constitute illegal copyright infringement rather than legitimate quality assurance checks.",
-   "text_short": "The RIAA claims youtube-dl's test cases are illegal copyright circumvention tools.",
+   "text": "The Recording Industry Association of America (RIAA) has issued a legal demand to GitHub, claiming that the open-source tool youtube-dl is engineered to bypass the technological locks protecting music streaming services and to illegally share copyrighted songs without permission. This accusation relies on the premise that the software violates U.S. copyright laws by attempting to break encryption barriers that restrict public access to media.",
+   "text_short": "The RIAA alleges that the open-source tool youtube-dl illegally bypasses streaming encryption to distribute copyrighted music.",
    "char_start": 645,
    "char_end": 1161,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.25,
+    "rouge2_precision": 0.1212,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -207,14 +207,14 @@
     "Senior Staff Attorney of the Electronic Frontier Foundation (EFF)",
     "EFF's attorney Stoltz"
    ],
-   "text": "The Electronic Frontier Foundation (EFF) clarifies that the disputed code files are merely automated tests verifying the functionality of the youtube-dl program, explicitly stating they do not contain permanent copies of copyrighted songs.",
-   "text_short": "The EFF clarifies the disputed code files are automated tests, not song copies.",
+   "text": "The Electronic Frontier Foundation (EFF) argues that the temporary streaming of short song clips within the youtube-dl software's test files constitutes a legal 'fair use' exception, as these brief samples are strictly necessary to verify the program's functionality and do not result in permanent downloads or distribution of the music.",
+   "text_short": "The EFF argues that temporary song clips in software tests constitute legal fair use.",
    "char_start": 1161,
    "char_end": 1882,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2424,
+    "rouge2_precision": 0.1731,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -228,73 +228,71 @@
     "Senior Staff Attorney of the Electronic Frontier Foundation (EFF)",
     "EFF's attorney Stoltz"
    ],
-   "text": "U.S. copyright law permits fair use when a small, temporary segment of a song is streamed just to test independently made software, according to the Electronic Frontier Foundation (EFF).",
-   "text_short": "The EFF argues streaming brief clips for software testing is fair use.",
+   "text": "The Electronic Frontier Foundation (EFF) asserts that the source code for the youtube-dl tool contains no actual copies of copyrighted music and does not possess the ability to decrypt commercial digital rights management (DRM) systems, thereby refuting claims that the software facilitates illegal piracy or breaks encryption.",
+   "text_short": "The EFF asserts that the youtube-dl source code contains no copyrighted music and cannot decrypt DRM.",
    "char_start": 1161,
    "char_end": 1882,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1724,
-    "paraphrased": true,
+    "rouge2_precision": 0.25,
+    "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
    }
   },
   {
    "id": "30-s4",
-   "actor": "Mitchell Stoltz",
-   "actor_aliases": [
-    "Mitchell Stoltz",
-    "Senior Staff Attorney of the Electronic Frontier Foundation (EFF)",
-    "EFF's attorney Stoltz"
-   ],
-   "text": "The Electronic Frontier Foundation (EFF) emphasizes that the youtube-dl software does not possess the capability to decrypt video streams protected by commercial Digital Rights Management (DRM) technologies, distinguishing it from tools designed to break encryption.",
-   "text_short": "The EFF emphasizes youtube-dl cannot decrypt commercially encrypted streams.",
-   "char_start": 1161,
-   "char_end": 1882,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.1714,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "30-s5",
    "actor": "base_author",
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Following the legal victory that established youtube-dl's unit tests as fair use, the Electronic Frontier Foundation (EFF) removed the specific URLs of copyrighted songs from the software's source code to resolve the dispute. To maintain the functionality of the automated testing suite without infringing on rights, the organization substituted these references with a test video uploaded by the project's former maintainer, Philipp Hagemeister, ensuring the tool could continue to verify its operation legally.",
-   "text_short": "The EFF removed copyrighted song URLs from youtube-dl's code, replacing them with a test video to preserve the software's legal status and functionality.",
+   "text": "Following the legal pressure from the Recording Industry Association of America (RIAA), the developers of the youtube-dl software removed the specific URLs to copyrighted songs from their codebase and replaced them with a generic test video, a modification made to ensure the software's continued availability while attempting to address the copyright infringement concerns.",
+   "text_short": "Developers removed copyrighted song URLs from the codebase to address RIAA concerns.",
    "char_start": 1882,
    "char_end": 2321,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.16,
+    "rouge2_precision": 0.1481,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
    }
   },
   {
-   "id": "30-s6",
+   "id": "30-s5",
    "actor": "YouTube",
    "actor_aliases": [
     "YouTube"
    ],
-   "text": "The platform asserts that any software running JavaScript can access video streams, implying that its own access controls are merely a barrier to information rather than a necessary security measure. This stance suggests that the Digital Millennium Copyright Act (DMCA) and Digital Rights Management (DRM) technologies are being misused to create artificial restrictions that stifle user freedom and contradict the reality of how the web functions.",
-   "text_short": "The platform argues that its access controls are artificial barriers, framing DMCA and DRM as tools that wrongly stifle user freedom.",
+   "text": "The current system presents a contradiction where YouTube provides clear instructions for accessing video streams to everyone, yet the platform's restrictive policies prevent users from using independent tools to follow those instructions, effectively locking out legitimate access to content that the company itself makes available.",
+   "text_short": "YouTube's policies create a barrier to accessing its own publicly available content.",
    "char_start": 2321,
    "char_end": 2557,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0308,
+    "rouge2_precision": 0.0,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "30-s6",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Although the platform openly displays the necessary steps for users to retrieve video data, the surrounding legal and technological framework acts as a barrier that denies individuals the freedom to use those instructions, thereby consolidating corporate control over information that should be accessible.",
+   "text_short": "The system's design restricts user freedom despite providing clear access instructions.",
+   "char_start": 2761,
+   "char_end": 3320,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "yes"
@@ -302,41 +300,41 @@
   },
   {
    "id": "30-s7",
-   "actor": "base_author",
-   "actor_aliases": [
-    "base_author"
-   ],
-   "text": "The author characterizes the recent legal decision as a restoration of public access, utilizing an analogy of a magical door that opens when a specific phrase is spoken to illustrate the situation. By comparing the platform's instructions to a password that unlocks a door, the perspective highlights that the rules presented to users are artificial obstacles designed to prevent access to information that is otherwise available, thereby framing the conflict as a struggle against unnecessary censorship.",
-   "text_short": "The author frames the legal victory as a restoration of access, using an analogy to characterize the platform's rules as artificial barriers to information.",
-   "char_start": 2761,
-   "char_end": 3320,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.0132,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "30-s8",
    "actor": "Uberspace",
    "actor_aliases": [
     "Uberspace",
     "main website hoster Uberspace"
    ],
-   "text": "The hosting provider Uberspace is currently facing a lawsuit in Germany for hosting a small website that serves as a repository for open-source software developers. This legal action has already forced the organization to spend thousands of Euros on legal defense, highlighting the severe financial risks that even small-scale hosting services face when supporting projects that challenge restrictive copyright enforcement measures.",
-   "text_short": "The hosting provider Uberspace is facing a costly lawsuit in Germany for supporting open-source software, highlighting the severe financial risks for small hosting services.",
+   "text": "The aggressive enforcement of copyright laws by major record labels has led to the prosecution of small, independent hosting providers in Europe, forcing them to spend significant sums on legal defense to protect the right to share open-source software and public domain material.",
+   "text_short": "Aggressive copyright enforcement threatens small hosting providers with costly legal battles.",
    "char_start": 3320,
    "char_end": 3622,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1129,
+    "rouge2_precision": 0.0233,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "no"
+   }
+  },
+  {
+   "id": "30-s8",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The decision to reinstate access to the software demonstrates that the current copyright enforcement mechanisms are fundamentally flawed, as they punish tools used for legitimate purposes like preserving evidence and accessing public domain works rather than addressing actual infringement.",
+   "text_short": "Restoring access highlights the flaws in current copyright enforcement mechanisms.",
+   "char_start": 3622,
+   "char_end": 4145,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0789,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
    }
   },
   {
@@ -345,79 +343,60 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "This device acts as a contemporary replacement for the videocassette recorder, allowing people to manage their own consumption of free-to-air video. Since the technology gives power to individuals facing strict copyright enforcement, it needs protection from the copyright cartel so users can keep their liberty to view and handle media.",
-   "text_short": "The tool empowers users to control personal media access and must be protected from restrictive copyright enforcement.",
-   "char_start": 3622,
-   "char_end": 4145,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.2157,
-    "paraphrased": true,
-    "in_text": "no",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "30-s10",
-   "actor": "base_author",
-   "actor_aliases": [
-    "base_author"
-   ],
-   "text": "This code has valid uses, including adjusting playback rates for accessibility, saving proof for human rights cases, and getting freely licensed videos. Therefore, lawyers must closely examine new takedown notices to stop unfair claims. Also, a large money pool should be created to shield open source developers from harsh legal moves.",
-   "text_short": "The code serves legitimate purposes and requires legal scrutiny and financial protection for developers.",
+   "text": "The platform hosting the codebase acknowledged that while the tool can access copyrighted material, it also serves legitimate purposes such as changing playback speeds for accessibility, preserving evidence for human rights, and downloading freely licensed videos. Consequently, the platform committed to carefully scrutinizing future takedown notices to reject unwarranted claims and pledged a donation to a developer defense fund to protect creators from legal risks.",
+   "text_short": "The hosting platform acknowledged the tool's legitimate uses and pledged to scrutinize takedown claims while funding developer defense.",
    "char_start": 4145,
    "char_end": 6164,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.14,
-    "paraphrased": true,
+    "rouge2_precision": 0.2969,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "30-s10",
+   "actor": "Sergey M",
+   "actor_aliases": [
+    "Sergey M",
+    "one of the maintainers of youtube-dl"
+   ],
+   "text": "While the primary repository was inaccessible, the project's maintainer continued development on an alternative hosting site but subsequently made that backup repository private once the original access was restored, prioritizing the reinstated public availability over maintaining a parallel public copy.",
+   "text_short": "The maintainer prioritized restoring public access on the primary platform by making the alternative backup repository private.",
+   "char_start": 6164,
+   "char_end": 6461,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.125,
+    "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
    }
   },
   {
    "id": "30-s11",
-   "actor": "Sergey M",
-   "actor_aliases": [
-    "Sergey M",
-    "one of the maintainers of youtube-dl"
-   ],
-   "text": "While the primary hosting platform blocked public access to the repository, the project was temporarily maintained on an alternative code-sharing site. Once the original platform restored access, the project was moved back to that site and the alternative repository was made private, ensuring the software remains available to the public.",
-   "text_short": "The project was temporarily hosted on an alternative site before returning to the primary platform.",
-   "char_start": 6164,
-   "char_end": 6461,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.06,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "30-s12",
    "actor": "base_author",
    "actor_aliases": [
     "base_author"
    ],
-   "text": "An interview was conducted with the founder of the Free Software Foundation to examine the specific harms caused by digital rights management and the anti-circumvention provisions of the DMCA. The discussion highlights the view that these legal frameworks are designed to repress user freedom and protect corporate power rather than legitimate rights.",
-   "text_short": "An interview examined the view that digital rights management and DMCA provisions repress user freedom and protect corporate power.",
+   "text": "Following the restoration of public access to the software, the news outlet interviewed the founder of the Free Software Foundation to discuss the harms of digital rights management and the Digital Millennium Copyright Act, framing these technologies as instruments that restrict user freedom and empower corporate interests.",
+   "text_short": "The news outlet interviewed a free software advocate to discuss how digital restrictions and copyright laws harm user freedom and empower corporations.",
    "char_start": 6461,
    "char_end": 6844,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1731,
+    "rouge2_precision": 0.2391,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "uncertain",
     "actor_correct": "yes"
    }
   },
   {
-   "id": "30-s13",
+   "id": "30-s12",
    "actor": "Richard Stallman",
    "actor_aliases": [
     "Richard Stallman",
@@ -435,53 +414,72 @@
     "the speaker",
     "people like me"
    ],
-   "text": "Digital rights management systems function as digital restrictions that grant powerful corporations additional authority over everyone else, creating a fundamental injustice by shifting power away from users rather than protecting legitimate rights. This system of oppression must be dismantled because it serves only to protect corporate power instead of upholding the freedom of individuals to use copies of works.",
-   "text_short": "Digital rights management systems grant corporations unjust power over users, serving as a tool of oppression rather than protecting rights.",
+   "text": "Digital rights management is fundamentally a system of digital restrictions designed to give the more powerful additional control over everyone else, rather than protecting rights. This dynamic creates an injustice by consolidating corporate power and restricting users, which should not exist in a society that values freedom.",
+   "text_short": "Digital rights management is an unjust system that consolidates corporate power and restricts user freedom.",
    "char_start": 6844,
    "char_end": 7304,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1053,
+    "rouge2_precision": 0.2826,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
    }
   },
   {
-   "id": "30-s14",
+   "id": "30-s13",
    "actor": "base_author",
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Digital Millennium Copyright Act was introduced primarily as a mechanism to repress users and make it easier for powerful entities to stop people from sharing content, representing a system of oppression rather than a fair legal framework. This legislation distorts the law by prioritizing the interests of large publishing companies over the public's ability to share and access information freely.",
-   "text_short": "The DMCA acts as a system of oppression designed to repress users and prioritize corporate interests over fair legal principles.",
+   "text": "The Digital Millennium Copyright Act (DMCA) functions as a mechanism of oppression that systematically represses individuals and prevents the lawful sharing of creative works, prioritizing corporate control over user freedom. This legal framework is fundamentally flawed because its primary purpose is to make it easier for powerful entities to suppress information rather than to protect genuine rights.",
+   "text_short": "The DMCA acts as an oppressive system designed to repress users and stop the sharing of works.",
    "char_start": 7304,
    "char_end": 7886,
    "valid": false,
-   "rejection_reason": "not found in source text",
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2632,
+    "rouge2_precision": 0.125,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "no"
    }
   },
   {
-   "id": "30-s15",
+   "id": "30-s14",
    "actor": "DMCA",
    "actor_aliases": [
     "DMCA",
     "Digital Millennium Copyright Act"
    ],
-   "text": "The Digital Millennium Copyright Act fundamentally serves to grant publishing companies the power to stop people from sharing works, while its specific provisions regarding digital rights management are engineered to prevent individuals from breaking the digital restrictions that companies impose on their products. These measures collectively function to restrict user freedom and maintain corporate control over digital content.",
-   "text_short": "The DMCA empowers companies to restrict sharing and enforces digital restrictions that stifle user freedom and competition.",
+   "text": "The Digital Millennium Copyright Act (DMCA) grants excessive power to publishing companies, enabling them to stop people from sharing content and effectively acting as a system of oppression designed to repress users. This legislation distorts the law by creating a takedown system that facilitates the suppression of information, thereby undermining the moral right of individuals to share copies of published works.",
+   "text_short": "Companies hold authority under the DMCA to prevent content sharing, functioning as an oppressive mechanism.",
    "char_start": 7886,
    "char_end": 9512,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.2105,
+    "rouge2_precision": 0.2333,
+    "paraphrased": true,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "30-s15",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Digital Rights Management (DRM) systems increase corporate control by forcing industry-wide monopolies on restrictive technical standards, which eliminates competition and compels users to surrender their freedom. Because effective DRM requires everyone to follow the same standard, competing companies collude to adopt identical restrictive measures, ensuring that users cannot find alternative products that respect their freedom to copy and modify content.",
+   "text_short": "DRM increases corporate control by forcing industry-wide monopolies on restrictive standards.",
+   "char_start": 9512,
+   "char_end": 11525,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.1,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"
@@ -493,35 +491,48 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Digital rights management schemes increase corporate control by forcing entire industries to adopt identical, restrictive technical standards, thereby eliminating competition and trapping users in a monopolistic system. This strategy ensures that all publishers restrict users in the same way, preventing the diversity of approaches that would otherwise allow consumers to find non-restrictive options and undermining the health of an independent society.",
-   "text_short": "DRM harms society by forcing industry-wide monopolies on standards, which stifles competition and traps users in restrictive corporate systems.",
-   "char_start": 9512,
-   "char_end": 11525,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "text": "The inability to write a Blu-ray disc without Digital Rights Management (DRM) marks a significant step backward compared to the previous DVD standard, as it further entrenches a monopolistic system that restricts user freedom. This technical limitation ensures that all video publishing companies use the same restrictive DRM system, thereby removing the competition that previously allowed consumers to choose between DRM-free and DRM-protected media.",
+   "text_short": "Creating a Blu-ray disc without DRM is impossible, which represents a regression.",
+   "char_start": 11525,
+   "char_end": 11787,
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.082,
-    "paraphrased": false,
+    "rouge2_precision": 0.25,
+    "paraphrased": true,
     "in_text": "yes",
-    "actor_correct": "no"
+    "actor_correct": "yes"
    }
   },
   {
    "id": "30-s17",
-   "actor": "base_author",
+   "actor": "Richard Stallman",
    "actor_aliases": [
-    "base_author"
+    "Richard Stallman",
+    "founder of Free Software Foundation",
+    "you",
+    "I",
+    "we",
+    "your",
+    "our",
+    "they",
+    "their",
+    "us",
+    "me",
+    "my",
+    "the speaker",
+    "people like me"
    ],
-   "text": "The current legal framework prevents the creation and sale of Blu-ray discs that lack Digital Rights Management, representing a significant regression from the more open standards of the previous DVD era. This restriction effectively forces all publishers to adopt a uniform, restrictive system that eliminates consumer choice and competition in the market for video playback technology.",
-   "text_short": "Current laws ban the sale of non-DRM Blu-ray discs, forcing a uniform, restrictive market standard that harms consumer choice.",
-   "char_start": 11525,
-   "char_end": 11787,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "text": "The concept of 'intellectual property' creates fundamental confusion by grouping together distinct legal frameworks—such as patent laws, trade secret regulations, trademark rules, and copyright statutes—into a single, misleading category. This vague terminology obscures the specific purposes and mechanisms of each law, preventing a clear understanding of how they actually function in society. Consequently, this conflation hinders meaningful public discourse and policy analysis regarding these different areas of regulation.",
+   "text_short": "Richard Stallman argues that the term 'intellectual property' is a misleading generalization that conflates distinct legal frameworks, thereby hindering clear public understanding.",
+   "char_start": 11787,
+   "char_end": 13941,
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1,
+    "rouge2_precision": 0.1905,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -544,17 +555,17 @@
     "the speaker",
     "people like me"
    ],
-   "text": "Digital Rights Management systems actively harm users by embedding undetectable surveillance tools and backdoors into software, whereas older copy-protection methods like those on DVDs were visible and transparent. Unlike the previous era where users could easily identify restrictions, modern DRM schemes allow corporations to monitor and control user behavior without consent, creating a hidden layer of oppression that undermines personal privacy and autonomy.",
-   "text_short": "Modern DRM systems enable undetectable user surveillance and control, representing a harmful evolution from transparent copy-protection methods.",
-   "char_start": 11787,
-   "char_end": 13941,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "text": "The term 'intellectual property' is dismissed as meaningless jargon that actively misleads the public by masking the significant differences between various legal systems like copyright, patents, and trademarks. Because this broad label causes people to treat unrelated laws as minor variations of one another, it prevents society from grasping the unique nature and consequences of each specific regulation. Therefore, the term should be abandoned entirely to allow for a clearer, more accurate discussion of how these different laws impact individuals and industries.",
+   "text_short": "Richard Stallman rejects the term 'intellectual property' as harmful jargon that obscures the distinct nature of different legal frameworks.",
+   "char_start": 13941,
+   "char_end": 15958,
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0,
+    "rouge2_precision": 0.1667,
     "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "no"
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
   },
   {
@@ -576,14 +587,14 @@
     "the speaker",
     "people like me"
    ],
-   "text": "The concept of 'intellectual property' is fundamentally flawed because it misleadingly conflates distinct legal frameworks—such as patents, trade secrets, and trademarks—into a single, vague category. This linguistic confusion obscures the unique purposes and mechanisms of each law, preventing society from critically evaluating whether specific regulations truly serve the public interest or merely protect corporate monopolies.",
-   "text_short": "The term 'intellectual property' is a misleading umbrella that obscures the distinct purposes of unrelated legal frameworks like patents and trademarks.",
-   "char_start": 11787,
-   "char_end": 13941,
+   "text": "The commonly used phrase 'protecting software' is rejected as a deceptive and meaningless concept because it relies on the ordinary definition of protection—preventing destruction or damage—rather than addressing the actual intent of restricting user actions. Instead of accepting this vague terminology, the focus must shift to concrete descriptions of specific restrictions, such as preventing users from copying, modifying, or sharing software, to ensure that laws address real harms rather than manufactured problems. This approach demands that proponents of software restrictions clearly articulate exactly what they wish to stop users from doing, rather than relying on euphemisms that hide the true nature of the control being exerted.",
+   "text_short": "Richard Stallman argues that the phrase 'protecting software' is a deceptive euphemism that must be replaced with concrete descriptions of specific user restrictions.",
+   "char_start": 13941,
+   "char_end": 15958,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.25,
+    "rouge2_precision": 0.0455,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -608,17 +619,17 @@
     "the speaker",
     "people like me"
    ],
-   "text": "The term 'intellectual property' must be rejected entirely because it lumps together unrelated legal systems, causing widespread confusion that hinders clear public discourse. By treating patents, copyrights, and trade secrets as minor variations of a single concept, this terminology prevents people from understanding that these laws have vastly different goals and effects, ultimately allowing corporations to hide behind vague arguments to protect their software and restrict user freedoms.",
-   "text_short": "The term 'intellectual property' must be abandoned as it conflates distinct laws, enabling corporations to obscure the real impact of restrictive regulations.",
-   "char_start": 11787,
-   "char_end": 13941,
+   "text": "From a moral standpoint, computer software should be treated identically to physical tools, meaning users must possess the fundamental freedom to modify, repair, and share the software they own or use. Just as individuals are free to paint a chair or fix a car tire, users should have the unrestricted right to alter software to suit their needs or to distribute modified versions to others. This principle of user freedom is the ethical foundation for the free software movement, which advocates for releasing programs that grant users full control over their computing devices, rejecting any system that subjugates users by denying them this basic liberty.",
+   "text_short": "Richard Stallman argues that software should be treated morally like physical tools, guaranteeing users the freedom to modify and share it.",
+   "char_start": 13941,
+   "char_end": 15958,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1429,
+    "rouge2_precision": 0.0288,
     "paraphrased": false,
     "in_text": "no",
-    "actor_correct": "no"
+    "actor_correct": "yes"
    }
   },
   {
@@ -640,16 +651,16 @@
     "the speaker",
     "people like me"
    ],
-   "text": "The term 'intellectual property' is fundamentally misleading because it falsely treats distinct legal frameworks—such as patent laws, trade secret protections, trademarks, and copyright—as minor variations of a single concept. This vague over-generalization causes significant confusion for everyone involved, as these laws apply to different areas, serve different purposes, and operate under different principles. Consequently, the term should be rejected entirely to allow people to understand the specific differences between these various laws, which is a prerequisite for addressing the actual issues in any given case.",
-   "text_short": "The term 'intellectual property' is rejected as a confusing label that obscures the distinct purposes of different legal frameworks.",
-   "char_start": 13941,
-   "char_end": 15958,
-   "valid": true,
-   "rejection_reason": null,
+   "text": "The term 'intellectual property' is rejected as misleading gobbledygook that obscures the distinct purposes of different laws, such as patents, trade secrets, and copyright, thereby preventing a clear understanding of the specific legal issues at hand. Instead, concrete descriptions of the laws in question are required to avoid confusion and ensure meaningful discussion about legal frameworks.",
+   "text_short": "The term 'intellectual property' is rejected as misleading gobbledygook that obscures the distinct purposes of different laws.",
+   "char_start": 15958,
+   "char_end": 17960,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1667,
+    "rouge2_precision": 0.0,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
@@ -672,14 +683,14 @@
     "the speaker",
     "people like me"
    ],
-   "text": "The vague terminology of 'intellectual property' is dismissed as 'gobbledygook' that actively confuses the public and prevents clear thinking about specific legal issues. Instead of engaging with this misleading concept, the focus must shift to concrete questions regarding whether anyone should possess the power to stop individuals from making copies or modifying software. The burden of proof should lie on those who argue for such restrictive powers to demonstrate why they are necessary, rather than relying on broad, unexamined justifications.",
-   "text_short": "The term 'intellectual property' is dismissed as confusing 'gobbledygook' that must be replaced with concrete questions about user rights to copying and modification.",
-   "char_start": 15958,
-   "char_end": 17960,
+   "text": "Users must possess the freedom to modify software and distribute those modified versions to others, a principle that distinguishes free software from non-free programs which subjugate users by restricting their control over the tools they use. This approach ensures that individuals retain ownership and agency over their computing devices, preventing the software from acting as an instrument of oppression.",
+   "text_short": "Users must possess the freedom to modify software and distribute those modified versions to others.",
+   "char_start": 17960,
+   "char_end": 19113,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1266,
+    "rouge2_precision": 0.0714,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -704,14 +715,14 @@
     "the speaker",
     "people like me"
    ],
-   "text": "Software is currently treated differently than physical tools because it was historically classified as written work under copyright law, a legal category that did not originally apply to functional tools. This historical distinction, combined with modern lobbying by large corporations, has allowed companies to exploit both copyright and trade secret laws simultaneously to restrict user freedom. As a result, users are denied the ability to modify or publish modified versions of software, a fundamental right that should be granted to all tools regardless of their medium.",
-   "text_short": "Software is treated differently than physical tools due to historical legal classifications, allowing corporations to exploit multiple laws to restrict user freedom.",
-   "char_start": 17960,
-   "char_end": 19113,
+   "text": "Software companies successfully lobbied to exploit a legal loophole that allows them to claim source code as a trade secret while publishing compiled executables, thereby securing the benefits of both copyright and trade secret laws simultaneously. This strategy enables corporations to restrict users from accessing or modifying the underlying code, effectively consolidating corporate power and leaving users helplessly under the control of proprietary software systems.",
+   "text_short": "Software companies successfully lobbied to exploit a legal loophole that allows them to claim source code as a trade secret while publishing compiled executables.",
+   "char_start": 19113,
+   "char_end": 21136,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0941,
+    "rouge2_precision": 0.1406,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -736,15 +747,15 @@
     "the speaker",
     "people like me"
    ],
-   "text": "The current system for software protection is the result of corporate lobbying that allowed companies to claim source code is a trade secret while publishing compiled executables as copyrighted works. This strategy enables corporations to restrict users through two separate legal mechanisms: preventing access to the source code to stop modifications and using copyright to forbid redistribution. This arrangement, driven by a revolving door between business and government, leaves users helplessly under the power of the software company, a situation that necessitated the development of free software principles.",
-   "text_short": "Corporate lobbying created a system where software is protected by both copyright and trade secret laws, leaving users helpless and necessitating the free software movement.",
+   "text": "The revolving door between business and government represents a fundamental form of corruption where lawmakers prioritize pleasing companies for future employment over serving the public interest. This systemic issue led to the creation of a legal framework that restricts user freedom, allowing corporations to maintain control over software through restrictive copyright and trade secret laws, ultimately necessitating the development of free software to restore user autonomy.",
+   "text_short": "A key type of corruption is the revolving door connecting business and government. In this situation, legislators choose to make companies happy so they can get jobs later, instead of working for the public good.",
    "char_start": 19113,
    "char_end": 21136,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2184,
-    "paraphrased": false,
+    "rouge2_precision": 0.2647,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -768,17 +779,17 @@
     "the speaker",
     "people like me"
    ],
-   "text": "Unlike physical tools where owners can open and modify components, non-free software acts as digital shackles that prevent users from changing the programs, effectively stripping them of control over their own computing devices. This fundamental difference in how software is treated compared to other goods creates an unacceptable situation where users are helplessly subjugated by the software's restrictions.",
-   "text_short": "Non-free software acts as unremovable digital shackles that strip users of control over their computing devices.",
-   "char_start": 21136,
-   "char_end": 23185,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "text": "The current legal framework for software, which allows companies to withhold source code while simultaneously enforcing copyright restrictions, traps users in a state of helplessness where they cannot modify or share the programs they rely on. This specific arrangement, born from corporate lobbying and a revolving door between business and government, consolidates corporate control over computing in a way that is morally corrupt and fundamentally unacceptable to users.",
+   "text_short": "The current software legal framework traps users in helplessness by consolidating corporate power through withheld source code and copyright restrictions.",
+   "char_start": 19113,
+   "char_end": 21136,
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.125,
+    "rouge2_precision": 0.0896,
     "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "uncertain"
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
   },
   {
@@ -800,14 +811,14 @@
     "the speaker",
     "people like me"
    ],
-   "text": "Car and tractor manufacturers must be legally required to make the software embedded in their vehicles free, ensuring that users retain the freedom to study, modify, and repair the programs controlling their machinery. This legal mandate is necessary to prevent manufacturers from using proprietary code to restrict user access and repair rights, thereby restoring genuine ownership and control to the consumer.",
-   "text_short": "Car and tractor manufacturers must be legally required to make embedded software free to restore user control.",
-   "char_start": 21136,
-   "char_end": 23185,
+   "text": "Non-free software functions by relying on either the secrecy of its source code or the implementation of technical restrictions to prevent users from modifying the programs they own. This practice must be stopped because it effectively subjugates users by denying them control over their own computing tools, a situation that is ethically indefensible and incompatible with the concept of true ownership.",
+   "text_short": "Non-free software subjugates users by relying on secrecy or technical restrictions to deny them control over their computing tools.",
+   "char_start": 19113,
+   "char_end": 21136,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1875,
+    "rouge2_precision": 0.1053,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -832,17 +843,17 @@
     "the speaker",
     "people like me"
    ],
-   "text": "All software should be free as in freedom, meaning users must possess the essential rights to run, study, modify, and share the programs, regardless of whether money is charged for a copy. While financial transactions are acceptable, the distribution of software must always respect these user freedoms, as the current licensing models that restrict these rights constitute a fundamental mistreatment of the public.",
-   "text_short": "All software must be free as in freedom, ensuring users retain essential rights to run, study, modify, and share programs.",
+   "text": "Just as car manufacturers allow owners to open hoods and modify mechanical parts, software embedded in vehicles and agricultural machinery must be free to allow users to change the underlying programs. Current restrictions on modifying this embedded software are ineffective shackles that deny owners the same fundamental freedoms they possess over physical tools, and therefore such restrictions should not be permitted in the sale of modern vehicles.",
+   "text_short": "Software embedded in vehicles and machinery must be free to allow users to modify it, as current restrictions deny owners the same freedoms they have over physical tools.",
    "char_start": 21136,
    "char_end": 23185,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2632,
+    "rouge2_precision": 0.0455,
     "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "uncertain"
+    "in_text": "yes",
+    "actor_correct": "yes"
    }
   },
   {
@@ -864,14 +875,14 @@
     "the speaker",
     "people like me"
    ],
-   "text": "Making it a crime to distribute non-free software is an ineffective and unjust solution because criminalizing behavior, such as the sale of dangerous drugs, fails to stop the activity and results in mass incarceration without achieving the desired regulatory goals. Instead of relying on criminal penalties that punish individuals for breaking unenforceable laws, the focus should remain on ensuring that all software respects user freedoms through legal and systemic changes.",
-   "text_short": "Criminalizing the distribution of non-free software is ineffective and unjust, as it fails to stop the activity and leads to unnecessary mass incarceration.",
-   "char_start": 21136,
-   "char_end": 23185,
+   "text": "Digital Rights Management systems and laws that restrict the right to repair are fundamentally wrong because they actively prevent users from studying, fixing, and sharing the software in their devices. Consequently, all software embedded in consumer products like cars, tractors, and radios must be free to ensure users retain the freedom to control their own tools, while vague business models like software-as-a-service should be replaced with specific, coherent terms that guarantee user control.",
+   "text_short": "DRM and anti-repair laws are wrong because they prevent user control, so all software in consumer products must be free.",
+   "char_start": 23185,
+   "char_end": 25195,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2,
+    "rouge2_precision": 0.1733,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -896,16 +907,16 @@
     "the speaker",
     "people like me"
    ],
-   "text": "Digital Rights Management systems are fundamentally flawed because they actively prevent users from repairing the devices they own, thereby violating the essential freedom to study and fix hardware that contains proprietary software. This restriction undermines the core principle of the free software movement, which asserts that users must have the right to access source code and modify the programs running their physical tools. Consequently, any technology or legal framework that locks users out of maintaining or fixing their own property should be rejected in favor of systems that guarantee user control and repairability.",
-   "text_short": "Digital Rights Management violates user freedom by preventing device repair and must be eliminated.",
-   "char_start": 23185,
-   "char_end": 25195,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "text": "The term 'service-as-a-software-substitute' accurately describes arrangements where a provider runs a program on a customer's behalf, ensuring the user retains control over the software's execution. In contrast, the industry term 'software-as-a-service' is too broad to be useful for analysis because it encompasses too many varied business models. To guarantee user autonomy, the system must ensure that the underlying program remains free software, allowing the user to run it directly rather than relying on a third party to execute it.",
+   "text_short": "The speaker distinguishes 'service-as-a-software-substitute' as a precise term for third-party program execution, arguing that users must retain control by running free software themselves.",
+   "char_start": 25195,
+   "char_end": 27219,
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0769,
+    "rouge2_precision": 0.2222,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -928,14 +939,14 @@
     "the speaker",
     "people like me"
    ],
-   "text": "When a consumer possesses a physical product for the long term, the software embedded within that device must be free to ensure users retain the freedom to modify and control the program. This stance argues that long-term possession grants users ownership rights that extend to the digital components of the hardware, necessitating that the software respects user freedom rather than restricting it through proprietary licenses. Therefore, manufacturers should be required to provide software that allows users to change the code, ensuring that ownership of the physical object translates into control over the digital functionality it contains.",
-   "text_short": "Long-term possession of hardware requires the embedded software to be free for user control.",
-   "char_start": 23185,
-   "char_end": 25195,
+   "text": "All software must be free, meaning users must possess four essential freedoms: the liberty to run the program for any purpose, the right to study the source code, the ability to modify the code to suit their needs, and the freedom to redistribute exact or modified copies to others. This right to share modified versions is distinct from the traditional concept of reselling a single physical item, as it involves the creation and transfer of new copies rather than the transfer of an original object.",
+   "text_short": "The speaker defines free software by four essential freedoms, emphasizing that the right to share modified copies is a unique liberty distinct from reselling physical goods.",
+   "char_start": 27219,
+   "char_end": 28588,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2857,
+    "rouge2_precision": 0.24,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -943,34 +954,21 @@
   },
   {
    "id": "30-s31",
-   "actor": "Richard Stallman",
+   "actor": "base_author",
    "actor_aliases": [
-    "Richard Stallman",
-    "founder of Free Software Foundation",
-    "you",
-    "I",
-    "we",
-    "your",
-    "our",
-    "they",
-    "their",
-    "us",
-    "me",
-    "my",
-    "the speaker",
-    "people like me"
+    "base_author"
    ],
-   "text": "The business model of software-as-a-service is considered too vague and unhelpful for defining user rights, as it obscures who actually controls the program. Instead, service providers should be required to run free software on the customer's own hardware, ensuring that the user retains direct control over the program's execution and behavior. This approach prioritizes user autonomy over convenience, arguing that customers should not rely on a third party to execute the software if they wish to maintain true ownership and control over their digital tools.",
-   "text_short": "Services should run free software on user hardware to ensure direct user control.",
-   "char_start": 23185,
-   "char_end": 25195,
+   "text": "Corporate entities impose End User License Agreements (EULAs) specifically to restrict user rights and subjugate them, adding an additional layer of oppression to the existing control mechanisms. These contracts are designed to prevent users from exercising their natural rights over the software they possess, effectively treating users as subjects rather than owners.",
+   "text_short": "The speaker asserts that companies impose EULAs to restrict and subjugate users, adding an extra layer of oppression to software control.",
+   "char_start": 28588,
+   "char_end": 30599,
    "valid": false,
-   "rejection_reason": "not found in source text",
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.0899,
+    "rouge2_precision": 0.25,
     "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "yes"
+    "in_text": "yes",
+    "actor_correct": "no"
    }
   },
   {
@@ -992,14 +990,14 @@
     "the speaker",
     "people like me"
    ],
-   "text": "The term 'service-as-a-software-substitute' offers a precise definition for business models where a service consists of running a specific program for a user, distinguishing it from the broader and vaguer concept of software-as-a-service. Under this specific framework, users must be allowed to run the program themselves on their own devices to maintain genuine control, rather than relying on a provider to execute the code remotely. This distinction is crucial because running a non-free program or having a third party execute the code inherently denies the user the freedom to understand and control what the software is doing.",
-   "text_short": "Services running programs for users must allow users to run the programs themselves.",
-   "char_start": 25195,
-   "char_end": 27219,
+   "text": "During the 1970s, non-free software dominated the market, nearly eradicating free software and leaving users without the tools to control their own computing. This historical suppression prompted a concerted effort in the 1980s to re-establish free software and liberate users from proprietary constraints, reversing the trend of corporate dominance over digital tools.",
+   "text_short": "The speaker describes how non-free software dominated the 1970s, nearly eradicating free software, which led to a 1980s movement to re-establish user freedom.",
+   "char_start": 31906,
+   "char_end": 32217,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2039,
+    "rouge2_precision": 0.25,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"
@@ -1007,121 +1005,104 @@
   },
   {
    "id": "30-s33",
-   "actor": "Richard Stallman",
+   "actor": "Unknown",
    "actor_aliases": [
-    "Richard Stallman",
-    "founder of Free Software Foundation",
-    "you",
-    "I",
-    "we",
-    "your",
-    "our",
+    "Unknown",
+    "the seller",
     "they",
-    "their",
-    "us",
-    "me",
-    "my",
-    "the speaker",
-    "people like me"
+    "most people",
+    "a conspiracy of publishers",
+    "browser developers like Firefox and stores",
+    "the users",
+    "people",
+    "most users",
+    "people who share",
+    "artists",
+    "businesses",
+    "copyright system",
+    "Mozilla",
+    "the Free Software Foundation",
+    "SF Conservancy",
+    "the Electronic Frontier Foundation",
+    "a senator",
+    "the w3c",
+    "EME",
+    "Encrypted Media Extensions",
+    "browsers",
+    "digital publishers",
+    "publishers",
+    "the GNU",
+    "GPLv3",
+    "GNU/Linux",
+    "snap",
+    "flatpaks",
+    "software developers",
+    "distributions"
    ],
-   "text": "The practice of leasing software products or selling usage licenses rather than transferring actual ownership constitutes a fundamental mistreatment of the public, as it denies users the control and autonomy inherent in owning their tools. This model must be rejected in favor of systems where long-term possession grants users the right to modify and control the software running on their devices, ensuring they are not held hostage by corporate restrictions.",
-   "text_short": "Software leasing and licensing models are rejected as public mistreatment that denies user control.",
-   "char_start": 25195,
-   "char_end": 27219,
-   "valid": true,
-   "rejection_reason": null,
+   "text": "The current legal framework that criminalizes the distribution of tools capable of bypassing digital locks represents the most severe flaw in the system, effectively forcing users to rely on illicit, underground devices to access their own purchased media. This prohibition creates a situation where legitimate users are pushed into the shadows, unable to legally access the content they have already paid for.",
+   "text_short": "The prohibition on distributing anti-circumvention tools forces users into illegal territory.",
+   "char_start": 32217,
+   "char_end": 32998,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.0571,
+    "rouge2_precision": 0.2727,
     "paraphrased": false,
     "in_text": "yes",
-    "actor_correct": "yes"
+    "actor_correct": "no"
    }
   },
   {
    "id": "30-s34",
-   "actor": "Richard Stallman",
+   "actor": "Unknown",
    "actor_aliases": [
-    "Richard Stallman",
-    "founder of Free Software Foundation",
-    "you",
-    "I",
-    "we",
-    "your",
-    "our",
+    "Unknown",
+    "the seller",
     "they",
-    "their",
-    "us",
-    "me",
-    "my",
-    "the speaker",
-    "people like me"
+    "most people",
+    "a conspiracy of publishers",
+    "browser developers like Firefox and stores",
+    "the users",
+    "people",
+    "most users",
+    "people who share",
+    "artists",
+    "businesses",
+    "copyright system",
+    "Mozilla",
+    "the Free Software Foundation",
+    "SF Conservancy",
+    "the Electronic Frontier Foundation",
+    "a senator",
+    "the w3c",
+    "EME",
+    "Encrypted Media Extensions",
+    "browsers",
+    "digital publishers",
+    "publishers",
+    "the GNU",
+    "GPLv3",
+    "GNU/Linux",
+    "snap",
+    "flatpaks",
+    "software developers",
+    "distributions"
    ],
-   "text": "Any software purchased by a user must be free, ensuring they retain the essential freedom to run, study, modify, and share the program without restriction. This requirement applies universally to protect users from proprietary constraints, regardless of whether the transaction involves a physical copy or a digital download, thereby preventing companies from subjugating customers through restrictive terms.",
-   "text_short": "All purchased software must be free to guarantee users the freedom to run, study, modify, and share it.",
-   "char_start": 25195,
-   "char_end": 27219,
+   "text": "The existing laws that criminalize the creation and sale of devices used to bypass digital restrictions must be abolished entirely, and the legal system should be strengthened further by making it a crime to manufacture, sell, or lease any product containing these restrictive digital locks. This approach aims to remove the legal barriers that prevent users from accessing the technology they own.",
+   "text_short": "Anti-circumvention laws should be eliminated and expanded to criminalize products with digital locks.",
+   "char_start": 32217,
+   "char_end": 32998,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.1176,
+    "rouge2_precision": 0.0769,
     "paraphrased": false,
     "in_text": "no",
-    "actor_correct": "yes"
+    "actor_correct": "no"
    }
   },
   {
    "id": "30-s35",
-   "actor": "Richard Stallman",
-   "actor_aliases": [
-    "Richard Stallman",
-    "founder of Free Software Foundation",
-    "you",
-    "I",
-    "we",
-    "your",
-    "our",
-    "they",
-    "their",
-    "us",
-    "me",
-    "my",
-    "the speaker",
-    "people like me"
-   ],
-   "text": "All software must be free, guaranteeing users four essential freedoms: the right to run the program for any purpose, study the source code to understand and modify it, make exact copies to share, and distribute modified versions to others. These freedoms are non-negotiable prerequisites for ethical software distribution, ensuring that users maintain complete control over the technology they rely on rather than being subjected to proprietary limitations.",
-   "text_short": "Software must be free to guarantee users four essential freedoms: to run, study, modify, and share.",
-   "char_start": 27219,
-   "char_end": 28588,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.2667,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "30-s36",
-   "actor": "base_author",
-   "actor_aliases": [
-    "base_author"
-   ],
-   "text": "Corporations impose End User License Agreements (EULAs) specifically to restrict user rights and subjugate customers, creating an additional layer of oppression that goes beyond standard copyright laws. These contracts are designed to prevent users from exercising basic freedoms, such as sharing copies or modifying software, effectively turning legal ownership into a state of servitude where users are denied control over the products they have paid for.",
-   "text_short": "Businesses apply EULAs to limit and enslave customers, adding another level of control.",
-   "char_start": 28588,
-   "char_end": 30599,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
-   "diagnostics": {
-    "rouge2_precision": 0.0833,
-    "paraphrased": true,
-    "in_text": "yes",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "30-s37",
    "actor": "Unknown",
    "actor_aliases": [
     "Unknown",
@@ -1156,244 +1137,205 @@
     "software developers",
     "distributions"
    ],
-   "text": "While restrictions on proprietary software and restrictions on cars are not exactly analogous, both systems are considered evil because they prevent users from fixing the products themselves. In the case of cars, the seller refuses to allow third-party repairs after a user attempts a fix, whereas with proprietary software, the lack of released source code makes it impossible for users to repair the program even if they are authorized owners. Both scenarios deny users the fundamental right to maintain the tools they own, trapping them in a dependency on the original manufacturer for basic maintenance.",
-   "text_short": "Both proprietary software and car restrictions are condemned as evil systems that deny users the right to repair their own property.",
-   "char_start": 30599,
-   "char_end": 31906,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
-   "diagnostics": {
-    "rouge2_precision": 0.1263,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "30-s38",
-   "actor": "Richard Stallman",
-   "actor_aliases": [
-    "Richard Stallman",
-    "founder of Free Software Foundation",
-    "you",
-    "I",
-    "we",
-    "your",
-    "our",
-    "they",
-    "their",
-    "us",
-    "me",
-    "my",
-    "the speaker",
-    "people like me"
-   ],
-   "text": "During the 1970s, free software almost completely disappeared, resulting in a landscape where nearly all available software was proprietary and non-free. This historical shift occurred before the Free Software Foundation was launched in the 1980s with the specific mission to re-establish free software and liberate users from the dominance of proprietary systems that restrict essential freedoms.",
-   "text_short": "The near-total disappearance of free software in the 1970s necessitated the 1980s launch of the Free Software Foundation to restore user freedoms.",
-   "char_start": 31906,
-   "char_end": 32217,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.2632,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "30-s39",
-   "actor": "Unknown",
-   "actor_aliases": [
-    "Unknown",
-    "the seller",
-    "they",
-    "most people",
-    "a conspiracy of publishers",
-    "browser developers like Firefox and stores",
-    "the users",
-    "people",
-    "most users",
-    "people who share",
-    "artists",
-    "businesses",
-    "copyright system",
-    "Mozilla",
-    "the Free Software Foundation",
-    "SF Conservancy",
-    "the Electronic Frontier Foundation",
-    "a senator",
-    "the w3c",
-    "EME",
-    "Encrypted Media Extensions",
-    "browsers",
-    "digital publishers",
-    "publishers",
-    "the GNU",
-    "GPLv3",
-    "GNU/Linux",
-    "snap",
-    "flatpaks",
-    "software developers",
-    "distributions"
-   ],
-   "text": "The Digital Millennium Copyright Act's Section 1201 creates a severe problem by completely prohibiting the distribution of tools capable of breaking Digital Rights Management (DRM) protections. This legal framework effectively forces users who need to access content, such as video on DVDs or Blu-rays, to rely on underground devices that are circulated without permission, as legitimate tools for accessing this content are forbidden by law.",
-   "text_short": "DMCA Section 1201 forces users to rely on illegal underground devices by banning the distribution of tools that can bypass DRM protections.",
-   "char_start": 32217,
-   "char_end": 32998,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
-   "diagnostics": {
-    "rouge2_precision": 0.0952,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "30-s40",
-   "actor": "Unknown",
-   "actor_aliases": [
-    "Unknown",
-    "the seller",
-    "they",
-    "most people",
-    "a conspiracy of publishers",
-    "browser developers like Firefox and stores",
-    "the users",
-    "people",
-    "most users",
-    "people who share",
-    "artists",
-    "businesses",
-    "copyright system",
-    "Mozilla",
-    "the Free Software Foundation",
-    "SF Conservancy",
-    "the Electronic Frontier Foundation",
-    "a senator",
-    "the w3c",
-    "EME",
-    "Encrypted Media Extensions",
-    "browsers",
-    "digital publishers",
-    "publishers",
-    "the GNU",
-    "GPLv3",
-    "GNU/Linux",
-    "snap",
-    "flatpaks",
-    "software developers",
-    "distributions"
-   ],
-   "text": "Anti-circumvention laws, such as those found in the DMCA, should be eliminated entirely because they function as tools of corporate oppression that stifle user freedom. Furthermore, the legal system should go beyond mere elimination by making the manufacturing, selling, or importing of any product containing DRM a crime, thereby removing the technological barriers that prevent people from sharing and controlling their own digital information.",
-   "text_short": "Anti-circumvention laws must be abolished and products with DRM should be criminalized to eliminate corporate oppression and restore user freedom.",
-   "char_start": 32217,
-   "char_end": 32998,
-   "valid": false,
-   "rejection_reason": "not found in source text",
-   "diagnostics": {
-    "rouge2_precision": 0.05,
-    "paraphrased": false,
-    "in_text": "no",
-    "actor_correct": "no"
-   }
-  },
-  {
-   "id": "30-s41",
-   "actor": "Unknown",
-   "actor_aliases": [
-    "Unknown",
-    "the seller",
-    "they",
-    "most people",
-    "a conspiracy of publishers",
-    "browser developers like Firefox and stores",
-    "the users",
-    "people",
-    "most users",
-    "people who share",
-    "artists",
-    "businesses",
-    "copyright system",
-    "Mozilla",
-    "the Free Software Foundation",
-    "SF Conservancy",
-    "the Electronic Frontier Foundation",
-    "a senator",
-    "the w3c",
-    "EME",
-    "Encrypted Media Extensions",
-    "browsers",
-    "digital publishers",
-    "publishers",
-    "the GNU",
-    "GPLv3",
-    "GNU/Linux",
-    "snap",
-    "flatpaks",
-    "software developers",
-    "distributions"
-   ],
-   "text": "Digital Rights Management (DRM) systems are fundamentally harmful because they prevent users from sharing content, a practice that should be considered a positive right. Consequently, any technology or legal framework that restricts the non-commercial sharing of digital works must be rejected entirely, as such restrictions violate the core principle that people should be free to distribute what they own.",
-   "text_short": "DRM is condemned as evil for restricting user freedom to share content.",
+   "text": "Digital rights management technology is fundamentally harmful and unethical, creating a system that denies users their basic freedoms and consolidates corporate control over information. Consequently, there is an absolute refusal to accept, use, or support any digital content that relies on these restrictive mechanisms, regardless of the convenience they might offer.",
+   "text_short": "DRM is inherently evil and must be rejected entirely by users.",
    "char_start": 32217,
    "char_end": 32998,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
     "rouge2_precision": 0.0,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "30-s36",
+   "actor": "Unknown",
+   "actor_aliases": [
+    "Unknown",
+    "the seller",
+    "they",
+    "most people",
+    "a conspiracy of publishers",
+    "browser developers like Firefox and stores",
+    "the users",
+    "people",
+    "most users",
+    "people who share",
+    "artists",
+    "businesses",
+    "copyright system",
+    "Mozilla",
+    "the Free Software Foundation",
+    "SF Conservancy",
+    "the Electronic Frontier Foundation",
+    "a senator",
+    "the w3c",
+    "EME",
+    "Encrypted Media Extensions",
+    "browsers",
+    "digital publishers",
+    "publishers",
+    "the GNU",
+    "GPLv3",
+    "GNU/Linux",
+    "snap",
+    "flatpaks",
+    "software developers",
+    "distributions"
+   ],
+   "text": "Terms such as 'piracy' and 'protected' are deceptive labels used to shame and insult individuals who simply wish to share information, rather than describing actual criminal behavior. These concepts should be reframed to recognize that sharing is a positive and necessary human activity, while the restriction of such sharing is the true moral failing of the current system.",
+   "text_short": "Terms like 'piracy' are smears used to shame people who share information.",
+   "char_start": 32217,
+   "char_end": 32998,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0175,
     "paraphrased": false,
     "in_text": "no",
     "actor_correct": "uncertain"
    }
   },
   {
-   "id": "30-s42",
-   "actor": "Unknown",
+   "id": "30-s37",
+   "actor": "base_author",
    "actor_aliases": [
-    "Unknown",
-    "the seller",
-    "they",
-    "most people",
-    "a conspiracy of publishers",
-    "browser developers like Firefox and stores",
-    "the users",
-    "people",
-    "most users",
-    "people who share",
-    "artists",
-    "businesses",
-    "copyright system",
-    "Mozilla",
-    "the Free Software Foundation",
-    "SF Conservancy",
-    "the Electronic Frontier Foundation",
-    "a senator",
-    "the w3c",
-    "EME",
-    "Encrypted Media Extensions",
-    "browsers",
-    "digital publishers",
-    "publishers",
-    "the GNU",
-    "GPLv3",
-    "GNU/Linux",
-    "snap",
-    "flatpaks",
-    "software developers",
-    "distributions"
+    "base_author"
    ],
-   "text": "The existing copyright framework is deeply hypocritical because, while it claims to exist to support creative artists, it actually functions to protect corporate businesses that exploit creators. This system has evolved into a mechanism that pays musicians and other artists so little that they are effectively going broke, thereby prioritizing the profits of distributors over the livelihoods of the people who create the work.",
-   "text_short": "The current copyright system hypocritically harms artists to benefit businesses.",
-   "char_start": 32217,
-   "char_end": 32998,
+   "text": "The current legal framework that criminalizes the creation, sale, or distribution of tools capable of bypassing digital restrictions is fundamentally flawed and must be abolished entirely. Instead of framing the issue as a battle against 'piracy' or 'protected' works, the argument posits that users have an inherent right to share copies of art and software non-commercially, a practice that is currently unjustly suppressed by these laws. This approach rejects the existing terminology as a deceptive smear campaign used to insult legitimate sharing, arguing that the system's primary function is to restrict user freedom rather than to protect intellectual property in a meaningful way.",
+   "text_short": "The speaker argues that laws criminalizing the distribution of bypass tools are unjust and must be replaced with a system that protects the right to share non-commercially.",
+   "char_start": 32998,
+   "char_end": 35139,
    "valid": false,
    "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0,
+    "rouge2_precision": 0.0481,
     "paraphrased": false,
     "in_text": "no",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "30-s38",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "The current copyright system has become a scandal because it has evolved to support businesses at the direct expense of the artists it claims to protect. While the system ostensibly exists to help creators, in reality, it has shifted so drastically that musicians and other artists are being driven to financial ruin by streaming services and restrictive business models. Consequently, the argument concludes that attempting to repair this broken system is futile and that the only viable solution is to replace the entire copyright framework with alternative community-based models that prioritize artist support over corporate profit.",
+   "text_short": "The speaker argues that the current copyright system hypocritically harms artists to benefit businesses and must be replaced with alternative community-based models.",
+   "char_start": 32998,
+   "char_end": 35139,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.125,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "no"
+   }
+  },
+  {
+   "id": "30-s39",
+   "actor": "Richard Stallman",
+   "actor_aliases": [
+    "Richard Stallman",
+    "founder of Free Software Foundation",
+    "you",
+    "I",
+    "we",
+    "your",
+    "our",
+    "they",
+    "their",
+    "us",
+    "me",
+    "my",
+    "the speaker",
+    "people like me"
+   ],
+   "text": "Digital Rights Management technology is inherently evil because it surrenders user freedom and forces a false choice between maintaining free software or accepting restricted access to content. By implementing these restrictions in standard web browsers, the technology ensures that only non-free, proprietary browsers can access a significant portion of the internet, effectively trapping users in a cycle of dependency. The stance is clear: one must refuse to accept any copy of a work infected with these restrictions, even if it means sacrificing access to certain digital content, because the loss of freedom is unacceptable.",
+   "text_short": "The speaker argues that DRM is evil because it forces a choice between free software and restricted access, and users must refuse to accept any DRM-infected content.",
+   "char_start": 35139,
+   "char_end": 36061,
+   "valid": true,
+   "rejection_reason": null,
+   "diagnostics": {
+    "rouge2_precision": 0.1111,
+    "paraphrased": false,
+    "in_text": "yes",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "30-s40",
+   "actor": "Richard Stallman",
+   "actor_aliases": [
+    "Richard Stallman",
+    "founder of Free Software Foundation",
+    "you",
+    "I",
+    "we",
+    "your",
+    "our",
+    "they",
+    "their",
+    "us",
+    "me",
+    "my",
+    "the speaker",
+    "people like me"
+   ],
+   "text": "The terms 'piracy' and 'protected' are rejected as deceptive language used to insult people who simply wish to share their work, whereas the reality is that sharing is a positive and necessary activity. The argument asserts that stopping people from sharing is evil, while the current system is hypocritical because it restricts sharing under the guise of protection, ultimately harming artists by prioritizing the interests of businesses. Therefore, the focus should not be on fixing the existing broken system, but rather on replacing it with a new framework that genuinely supports artists and respects the community's right to share.",
+   "text_short": "The speaker argues that terms like 'piracy' are smears against sharing, and the current copyright system hypocritically harms artists to support businesses, necessitating a complete replacement.",
+   "char_start": 35139,
+   "char_end": 36061,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0303,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "uncertain"
+   }
+  },
+  {
+   "id": "30-s41",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Artists and publishers must find ways to sell digital works without imposing Digital Rights Management or requiring individual payments, as it is fundamentally wrong to attempt to stop people from sharing these works. The current system that restricts sharing is a failure, and creators should be allowed to distribute their art freely to wider audiences without fear of legal repercussions for non-commercial sharing.",
+   "text_short": "Creators must adopt distribution models that allow free sharing of digital art rather than relying on restrictive rights management.",
+   "char_start": 35139,
+   "char_end": 36061,
+   "valid": false,
+   "rejection_reason": "not found in source text",
+   "diagnostics": {
+    "rouge2_precision": 0.0952,
+    "paraphrased": false,
+    "in_text": "no",
+    "actor_correct": "yes"
+   }
+  },
+  {
+   "id": "30-s42",
+   "actor": "base_author",
+   "actor_aliases": [
+    "base_author"
+   ],
+   "text": "Allowing Digital Rights Management technologies within web browsers means that free, open-source browsers can no longer support the entire web, forcing users to choose between maintaining digital freedom or surrendering to proprietary restrictions to access specific content. This creates a scenario where users must decide whether to accept software that limits their liberty or remain unable to view certain works.",
+   "text_short": "Integrating rights management into browsers forces a choice between digital freedom and universal web access.",
+   "char_start": 35139,
+   "char_end": 36061,
+   "valid": false,
+   "rejection_reason": "wrong actor attribution",
+   "diagnostics": {
+    "rouge2_precision": 0.0833,
+    "paraphrased": false,
+    "in_text": "yes",
     "actor_correct": "no"
    }
   },
@@ -1403,48 +1345,35 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Anti-circumvention laws that criminalize the creation or sale of tools used to bypass Digital Rights Management (DRM) must be eliminated entirely, as these laws unfairly restrict user access to content. Furthermore, terms like 'piracy' and 'protected' should be rejected as deceptive smears; the former insults people who share content, while the latter masks the reality that the system is designed to restrict freedom rather than protect rights. The solution is to replace the current broken system with one that genuinely supports artists without imposing these oppressive restrictions.",
-   "text_short": "Anti-circumvention laws must be eliminated and harmful terms rejected.",
-   "char_start": 32998,
-   "char_end": 35139,
+   "text": "The majority of users lack a deep understanding of digital freedom, prioritizing immediate access to content over long-term liberty, which allows a coordinated effort by publishers to impose restrictive technologies on the public. This dynamic exploits human psychology to normalize control, convincing people to accept systems that limit their rights under the guise of convenience.",
+   "text_short": "A lack of public understanding regarding digital freedom allows industry groups to successfully impose restrictive technologies on the population.",
+   "char_start": 36061,
+   "char_end": 37226,
    "valid": false,
-   "rejection_reason": "not found in source text",
+   "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.1111,
+    "rouge2_precision": 0.0,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "no"
    }
   },
   {
    "id": "30-s44",
-   "actor": "Richard Stallman",
+   "actor": "base_author",
    "actor_aliases": [
-    "Richard Stallman",
-    "founder of Free Software Foundation",
-    "you",
-    "I",
-    "we",
-    "your",
-    "our",
-    "they",
-    "their",
-    "us",
-    "me",
-    "my",
-    "the speaker",
-    "people like me"
+    "base_author"
    ],
-   "text": "The implementation of web standards that require Digital Rights Management (DRM) creates an impossible choice for users: they must either abandon free, open-source browsers to access restricted content or surrender their digital freedoms. Since DRM can only be supported by proprietary, non-free software, adopting these standards means accepting a system that subjugates users, whereas maintaining free browsers requires rejecting access to DRM-protected works entirely.",
-   "text_short": "Adopting DRM standards forces a choice between free browsers and user freedom.",
-   "char_start": 35139,
-   "char_end": 36061,
-   "valid": true,
-   "rejection_reason": null,
+   "text": "Digital Rights Management is non-free software specifically engineered to prevent users from copying, modifying, and sharing published works, a practice that is morally unjustifiable for artistic expression. While users should be permitted to share art non-commercially, these technologies systematically prohibit such fundamental rights, effectively serving the interests of businesses rather than the creators they claim to protect.",
+   "text_short": "Rights management is an unjustifiable tool designed to restrict user rights and prioritize corporate profit over artistic freedom.",
+   "char_start": 37226,
+   "char_end": 38314,
+   "valid": false,
+   "rejection_reason": "not found in source text",
    "diagnostics": {
-    "rouge2_precision": 0.0909,
+    "rouge2_precision": 0.1897,
     "paraphrased": false,
-    "in_text": "yes",
+    "in_text": "no",
     "actor_correct": "yes"
    }
   },
@@ -1454,17 +1383,17 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "Allowing Encrypted Media Extensions in web browsers forces a choice between maintaining browser freedom or surrendering to Digital Rights Management, as only non-free browsers can support these restrictions. Consequently, the technology must be rejected to preserve the liberty of free software, even if it means losing access to some digital content.",
-   "text_short": "Adopting DRM in browsers sacrifices user freedom for access to restricted content.",
-   "char_start": 35139,
-   "char_end": 36061,
-   "valid": false,
-   "rejection_reason": "wrong actor attribution",
+   "text": "Digital Rights Management systems fundamentally violate user rights by prohibiting the non-commercial sharing of copies, a practice that must be allowed for art and other published works. The current copyright framework, which ostensibly aims to support creators, instead enforces these restrictive barriers that prevent users from distributing modified versions or sharing files freely, thereby undermining the natural freedom of the community.",
+   "text_short": "DRM systems unjustly ban non-commercial sharing, contradicting the essential freedom users need to distribute and modify creative works.",
+   "char_start": 37226,
+   "char_end": 38314,
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1373,
+    "rouge2_precision": 0.0656,
     "paraphrased": false,
     "in_text": "yes",
-    "actor_correct": "no"
+    "actor_correct": "yes"
    }
   },
   {
@@ -1473,14 +1402,14 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The majority of users prioritize short-term desires for accessing copies over the long-term value of digital freedom, a vulnerability that allows publisher conspiracies to impose restrictive Digital Rights Management schemes on the entire industry. This lack of understanding regarding liberty enables the widespread adoption of tools that subjugate users.",
-   "text_short": "User prioritization of short-term access over freedom allows publishers to enforce DRM.",
-   "char_start": 36061,
-   "char_end": 37226,
+   "text": "A truly free operating system must allow users to install non-free software, as the core philosophy of free software is that users must retain the ultimate authority to do whatever they wish with their own computers. Any mechanism that restricts this ability, such as locked-down application containers, contradicts the fundamental definition of freedom and prevents users from verifying or modifying the software they run.",
+   "text_short": "Free operating systems must allow installing non-free software to preserve the user's ultimate control and freedom.",
+   "char_start": 37226,
+   "char_end": 38314,
    "valid": false,
    "rejection_reason": "wrong actor attribution",
    "diagnostics": {
-    "rouge2_precision": 0.0833,
+    "rouge2_precision": 0.1765,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "no"
@@ -1488,25 +1417,6 @@
   },
   {
    "id": "30-s47",
-   "actor": "base_author",
-   "actor_aliases": [
-    "base_author"
-   ],
-   "text": "Digital Rights Management constitutes non-free software specifically engineered to prevent users from copying, modifying, and sharing published works, rendering the practice fundamentally unjustifiable. Users must be permitted to share copies non-commercially, a right that DRM systematically violates.",
-   "text_short": "DRM is an unjustifiable restriction that prevents users from sharing and modifying works.",
-   "char_start": 37226,
-   "char_end": 38314,
-   "valid": true,
-   "rejection_reason": null,
-   "diagnostics": {
-    "rouge2_precision": 0.2895,
-    "paraphrased": false,
-    "in_text": "yes",
-    "actor_correct": "yes"
-   }
-  },
-  {
-   "id": "30-s48",
    "actor": "Richard Stallman",
    "actor_aliases": [
     "Richard Stallman",
@@ -1524,14 +1434,14 @@
     "the speaker",
     "people like me"
    ],
-   "text": "Snap and Flatpak application distribution platforms are fundamentally flawed because they distribute non-free software and prevent users from verifying source code or fixing programs. These mechanisms undermine collective user control and trust, making them an unacceptable approach for software distribution.",
-   "text_short": "Snap and Flatpak platforms undermine user control by distributing untrustworthy, non-free software.",
+   "text": "Application distribution platforms that bundle software in locked containers are fundamentally flawed because they distribute non-free code while simultaneously preventing users from inspecting or fixing the source. This architecture surrenders collective user control over their computing environment, making it impossible for the community to audit or repair software, which is a dangerous regression for digital freedom.",
+   "text_short": "Locked application platforms undermine digital freedom by distributing non-free software and preventing users from verifying or fixing code.",
    "char_start": 38314,
    "char_end": 39332,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1667,
+    "rouge2_precision": 0.1111,
     "paraphrased": false,
     "in_text": "yes",
     "actor_correct": "yes"

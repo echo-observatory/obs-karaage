@@ -5,7 +5,7 @@
  "warnings": [],
  "text_length": 1707,
  "text_sha256": "c7836c555258302a131a14ddf6cbadfdcc6257301b29bc9ed39bc909a93e1861",
- "main_point": "The U.S. Supreme Court ruled that companies intentionally designed to facilitate copyright infringement are liable for users' violations, a strong but legally vague decision that could stifle innovation while offering hope for defendants in lower courts.",
+ "main_point": "The U.S. Supreme Court unanimously ruled that companies intentionally designed to facilitate copyright infringement are liable for the resulting violations, sending a strong message against file-swapping services while leaving the specific legal application to lower courts.",
  "main_point_method": "single",
  "actors": [
   {
@@ -46,16 +46,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Supreme Court has established that companies intentionally designed to facilitate copyright violations must be held legally responsible for the infringing acts of their users, a decision that resolves a long-standing debate but leaves the specific criteria for liability somewhat undefined.",
-   "text_short": "The Supreme Court ruled that intentionally designed copyright facilitators are liable for user infringement, though the legal test remains vague.",
+   "text": "The U.S. Supreme Court has issued a unanimous decision stating that businesses intentionally created to enable copyright violations must be held legally responsible for the resulting infringements, even if the technology itself has lawful applications. This ruling sends a definitive message to the industry that companies designed specifically to promote illegal file-sharing face liability, while the specific legal standards for applying this rule will be determined by lower courts.",
+   "text_short": "The U.S. Supreme Court ruled that companies designed to facilitate copyright infringement are liable for resulting violations.",
    "char_start": 203,
    "char_end": 498,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1579,
+    "rouge2_precision": 0.1765,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -66,15 +66,15 @@
     "David Souter",
     "Justice David Souter"
    ],
-   "text": "Any individual or entity that distributes a technology with the specific intent to encourage copyright infringement, demonstrated through clear statements or active promotional steps beyond simple awareness, is legally liable for the resulting violations committed by third parties, even if the technology has legitimate uses.",
-   "text_short": "Distributing technology with the intent to promote copyright infringement creates liability for all resulting user violations.",
+   "text": "Justice David Souter, speaking on behalf of the U.S. Supreme Court, ruled that distributors face liability for third-party copyright violations if they sell a device knowing it will be used to break copyright laws. This rule applies only when there is obvious proof or active measures encouraging illegal use, not just awareness of possible misuse. Consequently, distributors are held responsible even if the device can also be used legally.",
+   "text_short": "Justice David Souter defined liability for copyright infringement as attaching to those who distribute devices with the intent to promote illegal use.",
    "char_start": 498,
    "char_end": 895,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.1591,
-    "paraphrased": false,
+    "rouge2_precision": 0.1429,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
@@ -85,16 +85,16 @@
    "actor_aliases": [
     "base_author"
    ],
-   "text": "The Supreme Court issued a unanimous decision stating that companies built specifically to enable copyright infringement are subject to liability, delivering a powerful message against such business models while simultaneously creating legal uncertainty regarding the precise boundaries of this new rule.",
-   "text_short": "The Supreme Court's unanimous ruling against copyright-facilitating companies sends a strong message but introduces legal ambiguity.",
+   "text": "The U.S. Supreme Court's unanimous decision against file-swapping services was unexpected, marking the first major Internet copyright case to reach the nation's highest court in many years. This historic unanimity signals a strong, zero-tolerance stance from the Justices toward companies designed to violate copyright law, reinforcing the legal framework for holding such entities accountable for facilitating widespread infringement.",
+   "text_short": "The U.S. Supreme Court's unexpected unanimous ruling against file-swapping services signals zero tolerance for companies designed to violate copyright law.",
    "char_start": 895,
    "char_end": 1266,
-   "valid": false,
-   "rejection_reason": "not found in source text",
+   "valid": true,
+   "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.2941,
+    "rouge2_precision": 0.2903,
     "paraphrased": false,
-    "in_text": "no",
+    "in_text": "yes",
     "actor_correct": "yes"
    }
   },
@@ -105,15 +105,15 @@
     "Fred von Lohmann",
     "senior staff attorney for the EFF"
    ],
-   "text": "Legal experts have criticized the Supreme Court for failing to provide a clear standard for determining when a company induces copyright infringement, warning that this ambiguity could discourage innovators from developing new technologies due to fear of unpredictable legal consequences.",
-   "text_short": "Critics argue the Supreme Court's vague inducement standard risks stifling innovation by creating legal uncertainty for developers.",
+   "text": "Fred von Lohmann, senior staff attorney for the Electronic Frontier Foundation, criticized the U.S. Supreme Court for failing to provide a clear legal test for what constitutes inducement of copyright infringement. He argued that this lack of specific guidance could discourage innovators who are unsure whether their projects might inadvertently violate the law, though he remains optimistic about the specific defendants' chances in lower courts.",
+   "text_short": "Fred von Lohmann expressed disapproval of the U.S. Supreme Court because it does not have a definite inducement test. He worried this would make innovators hesitant to start projects they are not sure are legal.",
    "char_start": 1266,
    "char_end": 1707,
    "valid": true,
    "rejection_reason": null,
    "diagnostics": {
-    "rouge2_precision": 0.0769,
-    "paraphrased": false,
+    "rouge2_precision": 0.2615,
+    "paraphrased": true,
     "in_text": "yes",
     "actor_correct": "yes"
    }
