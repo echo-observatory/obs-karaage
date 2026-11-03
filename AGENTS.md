@@ -33,6 +33,7 @@ This repo will be public, including its history.
 - Versions are `MAJOR.MINOR.PATCH`. MAJOR: the output format breaks. MINOR: any change that can change the extracted statements (code, prompts, parameters, models, dependencies). PATCH: no change to the output.
 - A released version is never changed. Never move or delete a `v*` tag; fix a mistake with a new version.
 - Version history starts at 1.1.0. Earlier versions (up to 1.0.2) are not part of this repo.
+- Releases are made by `.github/workflows/release.yml` from a `v*` tag on `main`; follow "Before tagging a release" in `COMMIT_CHECKLIST.md`.
 
 ## Documentation
 
@@ -40,4 +41,4 @@ This repo will be public, including its history.
 Read it before working here, and keep it up to date as part of every change that affects it.
 Do not repeat that content in this file.
 
-Until 1.1.0 is released, also read `docs/design-1.1.0.md`: it holds the decisions every 1.1.0 issue relies on.
+`docs/design-1.1.0.md` records the decisions behind 1.1.0, and why. Read it before changing anything it settles.

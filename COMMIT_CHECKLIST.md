@@ -17,6 +17,13 @@ Check each item. If one fails, fix it or say so before committing.
 
 - [ ] The version bump follows the rules in `AGENTS.md` (MAJOR, MINOR or PATCH).
 - [ ] The tag `vX.Y.Z` does not exist yet. Existing tags are never moved or deleted.
+- [ ] The tag goes on `main`, on a commit whose CI passed.
+
+## Before publishing a release
+
+- [ ] The release workflow passed and created the draft release, with the wheel, the sdist and the requirements file.
+- [ ] The reference run is attached: the release's version, with the default profile, run live on the test dataset (`karaage run --report`), outputs and reports zipped together.
+- [ ] The release notes list the shipped profiles.
 
 ## Before opening a PR
 
