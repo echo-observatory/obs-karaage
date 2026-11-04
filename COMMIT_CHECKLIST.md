@@ -28,4 +28,7 @@ Check each item. If one fails, fix it or say so before committing.
 ## Before opening a PR
 
 - [ ] The PR description references the issue (`Closes #<number>`).
-- [ ] The diff has been skimmed by the human who is committing. They are responsible for the code.
+
+## Before merging a PR
+
+- [ ] The diff has been skimmed by the human who is committing. They are responsible for it.
