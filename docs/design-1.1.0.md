@@ -186,6 +186,7 @@ All LLM calls go through one client (`karaage.llm`), activated by `setup()`. It:
 - requests JSON output against a schema;
 - retries with backoff through the OpenAI SDK's `max_retries`, replacing the pre-1.1.0 immediate retry;
 - raises a clear error when the answer is cut off by the token limit, instead of failing later on invalid JSON;
+- attaches the answer to any error raised on it (cut off, empty, or not matching the schema), for the output to keep (section 6.3). Errors keep their type and message;
 - falls back to `reasoning_content` when `content` is empty, and strips `<think>` blocks, as LM Studio sometimes requires;
 - records or replays responses for tests, in a mode that only the test suite sets (section 7.1).
 
@@ -281,7 +282,10 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
 ```
 
 - **Text fingerprint:** `text_length` counts code points and `text_sha256` is taken from the UTF-8 text, so a later change to the text can be detected.
-- **Errors:** one object per failure, in step order, e.g. `{"step": "extraction", "excerpt": 3, "statement": null, "message": "RuntimeError: …"}`.
+- **Errors:** one object per failure, in step order, e.g. `{"step": "extraction", "excerpt": 3, "statement": null, "message": "RuntimeError: …", "answer": null}`.
+  - `answer` is the model's answer that the error was raised on: its `content` as returned, before parsing, its `finish_reason`, the `usage` as the backend reports it, and on OpenRouter the `provider` (#41). It is `null` for other errors, such as an HTTP error from the backend. When a rephrasing batch fails, the error of each of its statements holds the batch's answer.
+  - *Reason:* a message says that an answer failed, not why: whether the model looped, reasoned although reasoning was off, or the provider cut the answer.
+  - The answer comes before paraphrasing, so like the HTML report it can hold the source's wording. The report doesn't show it.
   - `step` is one of `segmentation`, `attribution`, `excerpts`, `extraction`, `rephrasing`, `paraphrasing` and `validation`.
   - When only part of a step failed, `excerpt` (numbered from 1, as in the report) or `statement` (a statement id) says which.
   - A failed document has one error: that of the step that failed.

@@ -45,12 +45,29 @@
     "error": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["step", "excerpt", "statement", "message"],
+      "required": ["step", "excerpt", "statement", "message", "answer"],
       "properties": {
         "step": {"$ref": "#/$defs/step", "description": "The step where the error happened."},
         "excerpt": {"type": ["integer", "null"], "minimum": 1, "description": "The excerpt whose statements could not be extracted, numbered from 1 as in the HTML report; null otherwise."},
         "statement": {"type": ["string", "null"], "description": "Id of the statement that could not be rephrased or validated; null otherwise."},
-        "message": {"type": "string", "description": "The error, as raised."}
+        "message": {"type": "string", "description": "The error, as raised."},
+        "answer": {
+          "description": "The model's answer that the error was raised on: cut off by the token limit, empty, or not matching the schema. When a rephrasing batch fails, the error of each of its statements holds the batch's answer. Null for other errors, such as an HTTP error from the backend. It comes before paraphrasing, so like the HTML report it can hold the source's wording.",
+          "oneOf": [
+            {"type": "null"},
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["content", "finish_reason", "usage", "provider"],
+              "properties": {
+                "content": {"type": "string", "description": "The answer's content, as returned, before parsing."},
+                "finish_reason": {"type": ["string", "null"], "description": "Why the model stopped, as the backend reports it."},
+                "usage": {"type": ["object", "null"], "description": "The token counts, as the backend reports them; null if it reports none."},
+                "provider": {"type": ["string", "null"], "description": "On OpenRouter, the provider that served the call; null otherwise."}
+              }
+            }
+          ]
+        }
       }
     },
     "warning": {

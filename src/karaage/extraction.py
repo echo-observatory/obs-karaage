@@ -240,10 +240,11 @@ def analyze_excerpt(excerpts, excerpt_index, main_point,
         print(prompt, "\n\n\n")
 
     t0 = time.perf_counter()
-    content = llm.complete_json(SYSTEM_PROMPT_EXCERPT, prompt, schema, name="ExcerptAnalysis", max_tokens=2000)
+    result = llm.complete_json(SYSTEM_PROMPT_EXCERPT, prompt, schema, name="ExcerptAnalysis", max_tokens=2000,
+                               parse=json.loads)
     elapsed = time.perf_counter() - t0
 
-    return json.loads(content), elapsed
+    return result, elapsed
 
 
 def extract_statements(excerpts: list, main_point: str) -> tuple[list[dict], list[dict]]:
@@ -256,7 +257,7 @@ def extract_statements(excerpts: list, main_point: str) -> tuple[list[dict], lis
             result, elapsed = analyze_excerpt(excerpts, i, main_point)
             all_statements.append({"excerpt_index": i, "statements": result})
         except Exception as e:
-            errors.append({"excerpt_index": i, "error": f"{type(e).__name__}: {e}"})
+            errors.append({"excerpt_index": i, "error": f"{type(e).__name__}: {e}", "answer": llm.answer_of(e)})
             print(f"  Error on excerpt {i}: {e}")
     total = sum(len(stmts) for entry in all_statements for stmts in entry["statements"].values())
     print(f"-> {total} statement{'s' if total != 1 else ''} extracted from {len(all_statements)} excerpt{'s' if len(all_statements) != 1 else ''}, {len(errors)} excerpt{'s' if len(errors) != 1 else ''} failed.")

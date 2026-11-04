@@ -201,7 +201,7 @@ Each document's output is a JSON object, described by the JSON Schema [`src/kara
 | --- | --- |
 | `document_id` | The input id, as a string. |
 | `status` | `ok`, `partial` or `failed` (see below). |
-| `errors` | What failed: `{"step", "excerpt", "statement", "message"}`, with `excerpt` (numbered from 1, as in the report) or `statement` saying which part, when only part of a step failed. |
+| `errors` | What failed: `{"step", "excerpt", "statement", "message", "answer"}`, with `excerpt` (numbered from 1, as in the report) or `statement` saying which part, when only part of a step failed. `answer` is the model's answer that the error was raised on, for an answer that is cut off, empty or doesn't match the schema: `{"content", "finish_reason", "usage", "provider"}`, with `provider` on OpenRouter. When a rephrasing batch fails, the error of each of its statements holds the batch's answer. It is `null` for other errors, such as an HTTP error from the backend. It comes before paraphrasing, so like the HTML report it can hold the source's wording. The report doesn't show it. |
 | `warnings` | Input that looks wrong: `{"code", "message"}`, with the codes `text-not-nfc`, `text-has-carriage-return` and `text-not-english`. Karaage runs anyway. |
 | `text_length`, `text_sha256` | Length of the text in Unicode code points, and SHA-256 of its UTF-8 bytes, to detect a later change to the text. |
 | `main_point` | One sentence stating the central argument of the text. |

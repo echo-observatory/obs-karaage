@@ -93,7 +93,7 @@ def test_partial_output_lists_what_failed():
     rephrasing_failed = {k: v for k, v in statement(3).items()
                          if k not in ("rephrased_statement", "summary", "rouge2_rephrased", "rouge2_summary")}
     data = output(
-        excerpt_errors=[{"excerpt_index": 0, "error": "RuntimeError: backend down"}],
+        excerpt_errors=[{"excerpt_index": 0, "error": "RuntimeError: backend down", "answer": None}],
         statements=[
             statement(2, validation_error="RuntimeError: timeout", in_text=None, actor_correct=None,
                       valid=False, invalid_reason="validation error"),
@@ -103,16 +103,36 @@ def test_partial_output_lists_what_failed():
     )
     assert data["status"] == "partial"
     assert data["errors"] == [
-        {"step": "extraction", "excerpt": 1, "statement": None, "message": "RuntimeError: backend down"},
-        {"step": "rephrasing", "excerpt": None, "statement": "doc-7-s4", "message": "ValueError: cut off"},
-        {"step": "validation", "excerpt": None, "statement": "doc-7-s3", "message": "RuntimeError: timeout"},
+        {"step": "extraction", "excerpt": 1, "statement": None, "message": "RuntimeError: backend down", "answer": None},
+        {"step": "rephrasing", "excerpt": None, "statement": "doc-7-s4", "message": "ValueError: cut off", "answer": None},
+        {"step": "validation", "excerpt": None, "statement": "doc-7-s3", "message": "RuntimeError: timeout", "answer": None},
     ]
     s4 = data["statements"][1]
     assert (s4["text"], s4["text_short"], s4["diagnostics"]["rouge2_precision"]) == (None, None, None)
 
 
+def test_errors_keep_the_answers_they_were_raised_on():
+    answer = {"content": '{"a"', "finish_reason": "length", "usage": {"completion_tokens": 8000}, "provider": "InventedCloud"}
+    rephrasing_failed = {k: v for k, v in statement(3).items()
+                         if k not in ("rephrased_statement", "summary", "rouge2_rephrased", "rouge2_summary")}
+    data = output(
+        excerpt_errors=[{"excerpt_index": 0, "error": "ValueError: cut off", "answer": answer}],
+        statements=[
+            statement(2, validation_error="ValueError: cut off", validation_answer=answer, in_text=None, actor_correct=None,
+                      valid=False, invalid_reason="validation error"),
+            {**rephrasing_failed, "rephrasing_error": "ValueError: cut off", "rephrasing_answer": answer,
+             "in_text": None, "actor_correct": None, "valid": False, "invalid_reason": "rephrasing error"},
+        ],
+    )
+    jsonschema.Draft202012Validator(output_schema()).validate(data)
+    assert [e["answer"] for e in data["errors"]] == [answer] * 3
+    assert all("answer" not in s and "rephrasing_answer" not in s and "validation_answer" not in s
+               for s in data["statements"])
+
+
 def test_failed_output_has_no_results():
-    failure = {"step": "rephrasing", "excerpt": None, "statement": None, "message": "RuntimeError: backend down"}
+    failure = {"step": "rephrasing", "excerpt": None, "statement": None, "message": "RuntimeError: backend down",
+               "answer": None}
     data = output(failure=failure, statements=None)
     assert data["status"] == "failed" and data["errors"] == [failure]
     assert (data["main_point"], data["main_point_method"], data["actors"], data["statements"]) == (None, None, [], [])
@@ -129,3 +149,14 @@ def test_schema_rejects_inconsistent_outputs():
     rejected = {**data["statements"][0], "valid": False, "rejection_reason": "too similar to source"}
     assert not validator.is_valid({**data, "provenance": paraphrase_off, "statements": [rejected]})
     assert validator.is_valid({**data, "provenance": paraphrase_off})
+
+    failed = output(failure={"step": "attribution", "excerpt": None, "statement": None, "message": "M", "answer": None},
+                    statements=None)
+    assert validator.is_valid(failed)
+    def with_error(**fields):
+        return {**failed, "errors": [{"step": "attribution", "excerpt": None, "statement": None, "message": "M", **fields}]}
+    complete = {"content": "{", "finish_reason": "length", "usage": None, "provider": None}
+    assert validator.is_valid(with_error(answer=complete))
+    assert not validator.is_valid(with_error())                                  # an error always says
+    assert not validator.is_valid(with_error(answer={"content": "{"}))           # incomplete
+    assert not validator.is_valid(with_error(answer={**complete, "extra": 1}))

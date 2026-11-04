@@ -23,6 +23,7 @@ import json
 import os
 
 import pytest
+from openai.types.chat import ChatCompletion
 
 import karaage
 from karaage import extraction
@@ -79,12 +80,33 @@ def test_failed_step_gives_a_failed_output(resources, monkeypatch, tmp_path):
     check_output(data, INVENTED_TEXT)
     assert data["document_id"] == "1001" and data["status"] == "failed"
     assert data["errors"] == [{"step": "attribution", "excerpt": None, "statement": None,
-                               "message": "RuntimeError: backend down"}]
+                               "message": "RuntimeError: backend down", "answer": None}]
     assert list(data["provenance"]["step_seconds"]) == ["segmentation", "attribution"]
     assert "RuntimeError: backend down" in result.html_report
 
     karaage.save(result, data_path=tmp_path / "1001.json", html_path=tmp_path / "1001.html")
     assert json.loads((tmp_path / "1001.json").read_text(encoding="utf-8")) == data
+
+
+def test_an_answer_cut_off_reaches_the_output(resources, monkeypatch):
+    content = '{"sources": [{"name": "Invented answer'
+    def cut_off(*args, **kwargs):
+        return ChatCompletion.model_validate({
+            "id": "x", "object": "chat.completion", "created": 0, "model": "m", "provider": "InventedCloud",
+            "choices": [{"index": 0, "finish_reason": "length", "message": {"role": "assistant", "content": content}}],
+            "usage": {"prompt_tokens": 10, "completion_tokens": 3526, "total_tokens": 3536},
+        })
+    monkeypatch.setattr(resources.client, "request", cut_off)
+
+    result = karaage.run({"id": 1002, "text": INVENTED_TEXT}, resources)
+    data = result.data
+    check_output(data, INVENTED_TEXT)
+    assert data["status"] == "failed"
+    error = data["errors"][0]
+    assert error["step"] == "attribution" and error["message"].startswith("ValueError: The answer was cut off by the token limit")
+    assert error["answer"] == {"content": content, "finish_reason": "length", "provider": "InventedCloud",
+                               "usage": {"prompt_tokens": 10, "completion_tokens": 3526, "total_tokens": 3536}}
+    assert "Invented answer" not in result.html_report   # the report lists the error, not the answer
 
 
 def test_failed_excerpt_gives_a_partial_output(articles, resources, monkeypatch):
@@ -102,7 +124,7 @@ def test_failed_excerpt_gives_a_partial_output(articles, resources, monkeypatch)
     check_output(data, articles[19]["text"])
     assert data["status"] == "partial"
     assert data["errors"][0] == {"step": "extraction", "excerpt": 1, "statement": None,
-                                 "message": "RuntimeError: backend down"}
+                                 "message": "RuntimeError: backend down", "answer": None}
 
 
 def test_document_needs_an_id_and_a_text(resources):

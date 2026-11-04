@@ -1,6 +1,6 @@
 """Steps that must carry on when part of their work fails (no LLM needed)."""
 
-from karaage import extraction
+from karaage import extraction, rephrasing, validation
 from karaage.validation import apply_validation_filter, run_validation
 
 
@@ -18,7 +18,7 @@ def test_failed_excerpt_is_returned(monkeypatch):
     monkeypatch.setattr(extraction.llm, "complete_json", failing_call)
     excerpts = [{"text": "x" * 300, "segments": [0], "actor_pcts": {"Ann": 100.0}, "actor_chars": {"Ann": 300}}]
     statements, errors = extraction.extract_statements(excerpts, "main point")
-    assert statements == [] and errors == [{"excerpt_index": 0, "error": "RuntimeError: backend down"}]
+    assert statements == [] and errors == [{"excerpt_index": 0, "error": "RuntimeError: backend down", "answer": None}]
 
 
 def fake_segments_and_excerpts(n_excerpts, chars_per_excerpt):
@@ -69,3 +69,36 @@ def test_paraphrasing_off():
     s.update(in_text="yes", actor_correct="yes")
     assert validate_statement(s) == (False, "too similar to source")
     assert validate_statement(s, check_similarity=False) == (True, None)
+
+
+ANSWER = {"content": '{"a"', "finish_reason": "length", "usage": None, "provider": None}
+
+
+def failing_on_an_answer(*args, **kwargs):
+    error = ValueError("The answer was cut off by the token limit (max_tokens=8000).")
+    error.answer = ANSWER
+    raise error
+
+
+def test_a_failed_excerpt_keeps_its_answer(monkeypatch):
+    monkeypatch.setattr(extraction.llm, "complete_json", failing_on_an_answer)
+    excerpts = [{"text": "x" * 300, "segments": [0], "actor_pcts": {"Ann": 100.0}, "actor_chars": {"Ann": 300}}]
+    _, errors = extraction.extract_statements(excerpts, "main point")
+    assert errors[0]["answer"] == ANSWER
+
+
+def test_each_statement_of_a_failed_rephrasing_batch_keeps_the_answer(monkeypatch):
+    monkeypatch.setattr(rephrasing.llm, "complete_model", failing_on_an_answer)
+    monkeypatch.setattr(rephrasing.llm, "context_tokens", lambda: 8000)
+    statements = [{"id": n, "actor": "Ann", "statement": "S", "excerpt": "P", "excerpt_index": 0} for n in range(3)]
+    monkeypatch.setattr(rephrasing, "make_batch_prompt", lambda batch, excerpts, main_point: "prompt")
+    result = rephrasing.rephrase_statements(statements, [], "main point")
+    assert [s["rephrasing_answer"] for s in result] == [ANSWER] * 3
+    assert all(s["rephrasing_error"].startswith("ValueError: The answer was cut off") for s in result)
+
+
+def test_a_failed_validation_keeps_its_answer(monkeypatch):
+    monkeypatch.setattr(validation.llm, "complete_model", failing_on_an_answer)
+    monkeypatch.setattr(validation.llm, "context_tokens", lambda: 8000)
+    statements = [{"id": 0, "actor": "Ann", "statement": "S", "excerpt": "P", "summary": "A summary."}]
+    assert run_validation(statements)[0]["validation_answer"] == ANSWER
