@@ -119,6 +119,7 @@ def rephrase_statements(statements: list, excerpts: list, main_point: str) -> li
     for s in statements:
         s.pop('rephrased_statement', None)
         s.pop('rephrasing_error', None)
+        s.pop('rephrasing_answer', None)
     batches = [statements[i:i+BATCH_SIZE] for i in range(0, len(statements), BATCH_SIZE)]
     for batch in tqdm(batches, desc="Rephrasing batches"):
         user_prompt = make_batch_prompt(batch, excerpts, main_point)
@@ -133,6 +134,7 @@ def rephrase_statements(statements: list, excerpts: list, main_point: str) -> li
         except Exception as e:
             for s in batch:
                 s['rephrasing_error'] = f"{type(e).__name__}: {e}"
+                s['rephrasing_answer'] = llm.answer_of(e)
     n_ok  = sum(1 for s in statements if 'rephrased_statement' in s)
     n_err = sum(1 for s in statements if 'rephrasing_error'    in s)
     print(f"-> Rephrasing for {n_ok} statement{'s' if n_ok != 1 else ''} succeeded, {n_err} failed.")

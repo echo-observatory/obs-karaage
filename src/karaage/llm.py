@@ -14,6 +14,9 @@ Responses are grouped in one file per recording, e.g. one per test article.
 We call client.chat.completions.create() rather than the SDK's parse helpers,
 because those return nothing when a model mixes reasoning tokens with its JSON
 (an LM Studio quirk); the JSON is extracted and parsed here instead.
+
+An error raised on an answer that the model returned carries it, for the output to keep
+(`answer_of`). Errors keep their type and message: outputs and evals read them as they are.
 """
 
 import hashlib
@@ -209,24 +212,31 @@ class LLMClient:
         path.write_text(json.dumps(responses, indent=1, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
 
     def complete_json(self, system: str, user: str, schema: dict, *, name: str,
-                      strict: bool = True, max_tokens: int | None = None) -> str:
-        """Ask for JSON that matches `schema` and return the JSON text."""
-        choice = self.request(system, user, schema, name=name, strict=strict, max_tokens=max_tokens).choices[0]
+                      strict: bool = True, max_tokens: int | None = None, parse=None):
+        """Ask for JSON that matches `schema` and return the JSON text, or what `parse` makes of it.
+
+        An error raised because the answer is cut off or empty, or by `parse`, carries the answer.
+        """
+        response = self.request(system, user, schema, name=name, strict=strict, max_tokens=max_tokens)
+        choice = response.choices[0]
         # With reasoning on, LM Studio may put the JSON in reasoning_content and leave content empty.
-        content = choice.message.content or getattr(choice.message, "reasoning_content", None) or ""
-        content = _THINK_BLOCK.sub("", content).strip()
-        if choice.finish_reason == "length":
-            raise ValueError(f"The answer was cut off by the token limit (max_tokens={max_tokens}).")
-        if not content:
-            raise ValueError(f"The model returned no content. Full message: {choice.message!r}")
-        return content
+        raw = choice.message.content or getattr(choice.message, "reasoning_content", None) or ""
+        content = _THINK_BLOCK.sub("", raw).strip()
+        try:
+            if choice.finish_reason == "length":
+                raise ValueError(f"The answer was cut off by the token limit (max_tokens={max_tokens}).")
+            if not content:
+                raise ValueError(f"The model returned no content. Full message: {choice.message!r}")
+            return parse(content) if parse else content
+        except Exception as e:
+            e.answer = _answer(response, raw)
+            raise
 
     def complete_model(self, system: str, user: str, model_cls, *,
                        strict: bool = True, max_tokens: int | None = None):
         """Ask for JSON matching a pydantic model and return an instance of it."""
-        content = self.complete_json(system, user, model_cls.model_json_schema(), name=model_cls.__name__,
-                                     strict=strict, max_tokens=max_tokens)
-        return model_cls.model_validate_json(content)
+        return self.complete_json(system, user, model_cls.model_json_schema(), name=model_cls.__name__,
+                                  strict=strict, max_tokens=max_tokens, parse=model_cls.model_validate_json)
 
     def provenance(self) -> dict:
         """What the output records about the model (docs/design-1.1.0.md, section 6.3)."""
@@ -240,6 +250,21 @@ class LLMClient:
             "model_build": self.model_build if self.backend != "openrouter"
                            else {"providers": sorted(self.providers)},
         }
+
+
+def _answer(response, content: str) -> dict:
+    """What the output keeps of an answer that an error was raised on (docs/design-1.1.0.md, section 6.3)."""
+    return {
+        "content": content,
+        "finish_reason": response.choices[0].finish_reason,
+        "usage": response.usage.model_dump(mode="json", exclude_none=True) if response.usage else None,
+        "provider": getattr(response, "provider", None),   # OpenRouter names the provider that served the request
+    }
+
+
+def answer_of(error: Exception) -> dict | None:
+    """The answer that `error` was raised on; None for other errors, such as an HTTP error from the backend."""
+    return getattr(error, "answer", None)
 
 
 def lmstudio_build(base_url: str, model: str) -> dict | None:

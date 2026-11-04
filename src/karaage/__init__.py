@@ -156,7 +156,7 @@ def run(document, resources: Resources, *, paraphrase: bool = True) -> RunResult
         try:
             return fn()
         except Exception as exc:
-            failure = error(name, f"{type(exc).__name__}: {exc}")
+            failure = error(name, f"{type(exc).__name__}: {exc}", answer=llm.answer_of(exc))
             print(f"  ❌ {STEPS[name]} failed: {exc}")
             return (None,) * n_returns
         finally:

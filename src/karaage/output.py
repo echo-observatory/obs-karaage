@@ -74,8 +74,9 @@ def snapshot_kind(kind):
     return kind if kind in ("person", "organisation") else None
 
 
-def error(step: str, message: str, *, excerpt: int | None = None, statement: str | None = None) -> dict:
-    return {"step": step, "excerpt": excerpt, "statement": statement, "message": message}
+def error(step: str, message: str, *, excerpt: int | None = None, statement: str | None = None,
+          answer: dict | None = None) -> dict:
+    return {"step": step, "excerpt": excerpt, "statement": statement, "message": message, "answer": answer}
 
 
 def statement_id(document_id: str, s: dict) -> str:
@@ -121,10 +122,12 @@ def statement_errors(statements: list, document_id: str) -> list[dict]:
     errors = []
     for s in statements:
         if "rephrasing_error" in s:
-            errors.append(error("rephrasing", s["rephrasing_error"], statement=statement_id(document_id, s)))
+            errors.append(error("rephrasing", s["rephrasing_error"], statement=statement_id(document_id, s),
+                                answer=s.get("rephrasing_answer")))
     for s in statements:
         if s.get("validation_error"):
-            errors.append(error("validation", s["validation_error"], statement=statement_id(document_id, s)))
+            errors.append(error("validation", s["validation_error"], statement=statement_id(document_id, s),
+                                answer=s.get("validation_answer")))
     return errors
 
 
@@ -152,7 +155,8 @@ def build_output(
         status, errors = "failed", [failure]
         actors, statements_out, main_point, main_point_method = [], [], None, None
     else:
-        errors = [error("extraction", e["error"], excerpt=e["excerpt_index"] + 1) for e in excerpt_errors]
+        errors = [error("extraction", e["error"], excerpt=e["excerpt_index"] + 1, answer=e.get("answer"))
+                  for e in excerpt_errors]
         errors += statement_errors(statements, document_id)
         status = "partial" if errors else "ok"
         actor_list = list(getattr(attribution, "actors", attribution))

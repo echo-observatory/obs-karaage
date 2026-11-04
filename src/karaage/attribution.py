@@ -175,9 +175,9 @@ def run_attribution(segments: list, start: int, end: int, max_context_tokens: in
     # repetition loop keeps generating until the request times out.
     max_tokens = max(RESERVED_TOKENS_ATTRIBUTION,
                      max_context_tokens - estimate_tokens(SYSTEM_PROMPT_ATTRIBUTION + prompt))
-    content = llm.complete_json(SYSTEM_PROMPT_ATTRIBUTION, prompt, ATTRIBUTION_SCHEMA,
-                                name="AttributionResult", strict=False, max_tokens=max_tokens)
-    return normalize_answer(AttributionResult.model_validate_json(content))
+    return normalize_answer(llm.complete_json(SYSTEM_PROMPT_ATTRIBUTION, prompt, ATTRIBUTION_SCHEMA,
+                                              name="AttributionResult", strict=False, max_tokens=max_tokens,
+                                              parse=AttributionResult.model_validate_json))
 
 
 def normalize_answer(result: AttributionResult) -> AttributionResult:

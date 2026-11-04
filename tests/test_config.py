@@ -1,9 +1,13 @@
 """Settings, profiles, request construction and record/replay (no LLM needed)."""
 
+import json
 import types
 
+import httpx
 import pytest
+from openai import InternalServerError
 from openai.types.chat import ChatCompletion
+from pydantic import BaseModel, ValidationError
 
 from karaage import llm
 from karaage.config import connection, load_settings
@@ -185,6 +189,87 @@ def test_lmstudio_build_is_checked(monkeypatch, capsys):
     fake_lmstudio(monkeypatch, client, None)
     client.check()
     assert "nor checked against the mlx 4bit build" in capsys.readouterr().out
+
+
+USAGE = {"prompt_tokens": 10, "completion_tokens": 8000, "total_tokens": 8010}
+
+
+def invented_answer(content, finish_reason="stop", **extra):
+    return ChatCompletion.model_validate({
+        "id": "x", "object": "chat.completion", "created": 0, "model": "m",
+        "choices": [{"index": 0, "finish_reason": finish_reason, "message": {"role": "assistant", "content": content}}],
+        "usage": USAGE,
+        **extra,
+    })
+
+
+def client_answering(response):
+    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"))
+    fake_backend(client, response)
+    return client
+
+
+def test_an_answer_cut_off_is_kept_with_its_error():
+    client = client_answering(invented_answer('{"a": 1, "b', finish_reason="length"))
+    with pytest.raises(ValueError) as raised:
+        client.complete_json("S", "U", {"type": "object"}, name="X", max_tokens=8000)
+    assert f"{type(raised.value).__name__}: {raised.value}" == "ValueError: The answer was cut off by the token limit (max_tokens=8000)."
+    assert llm.answer_of(raised.value) == {"content": '{"a": 1, "b', "finish_reason": "length", "usage": USAGE, "provider": None}
+
+
+def test_an_empty_answer_is_kept_with_its_error():
+    client = client_answering(invented_answer(None))
+    with pytest.raises(ValueError, match="The model returned no content") as raised:
+        client.complete_json("S", "U", {"type": "object"}, name="X")
+    assert llm.answer_of(raised.value)["content"] == ""
+
+
+def test_an_answer_that_does_not_match_the_schema_is_kept_with_its_error():
+    class Result(BaseModel):
+        a: int
+
+    client = client_answering(invented_answer('{"a": "not a number"}'))
+    with pytest.raises(ValidationError) as raised:
+        client.complete_model("S", "U", Result)
+    assert f"{type(raised.value).__name__}: {raised.value}".startswith("ValidationError: 1 validation error for Result")
+    assert llm.answer_of(raised.value)["content"] == '{"a": "not a number"}'
+
+    # So is one that a step parses itself, through complete_json.
+    with pytest.raises(json.JSONDecodeError) as raised:
+        client_answering(invented_answer('{"a": ')).complete_json("S", "U", {"type": "object"}, name="X", parse=json.loads)
+    assert llm.answer_of(raised.value)["content"] == '{"a": '
+
+
+def test_an_answer_is_kept_as_returned():
+    client = client_answering(invented_answer('<think>Hmm.</think> {"a": ', finish_reason="length"))
+    with pytest.raises(ValueError) as raised:
+        client.complete_json("S", "U", {"type": "object"}, name="X")
+    assert llm.answer_of(raised.value)["content"] == '<think>Hmm.</think> {"a": '
+
+
+def test_an_openrouter_answer_names_its_provider():
+    client = client_answering(invented_answer('{"a"', finish_reason="length", provider="InventedCloud"))
+    with pytest.raises(ValueError) as raised:
+        client.complete_json("S", "U", {"type": "object"}, name="X")
+    assert llm.answer_of(raised.value)["provider"] == "InventedCloud"
+
+
+def test_an_error_with_no_answer_keeps_none():
+    client = LLMClient(load_settings(), load_profile("qwen3.5-9b"))
+    def http_error(**kwargs):
+        raise InternalServerError("backend down", response=httpx.Response(500, request=httpx.Request("POST", "http://x")),
+                                  body=None)
+    client.client = types.SimpleNamespace(chat=types.SimpleNamespace(completions=types.SimpleNamespace(create=http_error)))
+    with pytest.raises(InternalServerError) as raised:
+        client.complete_json("S", "U", {"type": "object"}, name="X")
+    assert llm.answer_of(raised.value) is None
+    assert llm.answer_of(RuntimeError("anything else")) is None
+
+
+def test_an_answer_that_works_is_returned_as_before():
+    client = client_answering(invented_answer('<think>Hmm.</think> {"a": 1} '))
+    assert client.complete_json("S", "U", {"type": "object"}, name="X") == '{"a": 1}'
+    assert client.complete_json("S", "U", {"type": "object"}, name="X", parse=json.loads) == {"a": 1}
 
 
 def test_record_and_replay(tmp_path):
