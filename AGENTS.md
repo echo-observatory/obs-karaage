@@ -14,6 +14,7 @@ Do not copy its content into this repo.
 
 ## Conventions
 
+- Work starts from an issue or a simple and straightforward task. If it looks like there is not much to explain, do not create an issue and document directly in the PR.
 - Branch from `main` as `<issue-number>-short-description`. Never commit directly to `main`.
 - Commit messages are short and imperative. No agent attribution (no `Co-Authored-By`, no "Generated with ..." lines) in commits or PRs.
 - Never commit secrets, `.env` files or raw corpus data (the test datasets below are the exception).
