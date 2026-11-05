@@ -1,5 +1,6 @@
 """Run Karaage on a JSONL file of documents (docs/design-1.1.0.md, sections 5, 6.1 and 6.2)."""
 
+import datetime
 import hashlib
 import json
 import time
@@ -8,6 +9,7 @@ from collections import Counter
 from pathlib import Path
 
 import karaage
+from karaage.output import timestamp
 
 FIELDS = ("id", "text", "title", "published_at")
 MAX_NAME_LENGTH = 200   # characters of an encoded file name, under the usual limit of 255 bytes
@@ -116,7 +118,8 @@ def run_documents(documents: list[dict], output_dir, resources, *, report: bool 
             provenance = previous.get("provenance") or {}
             other_runs += (provenance.get("profile"), provenance.get("version"), provenance.get("paraphrase")) != current
             continue
-        print(f"[{i}/{len(documents)}] Document {document_id}")
+        started = timestamp(datetime.datetime.now(datetime.timezone.utc))
+        print(f"\n[{i}/{len(documents)}] Document {document_id} - {started}")
         t0 = time.perf_counter()
         result = karaage.run(document, resources, paraphrase=paraphrase)
         seconds += time.perf_counter() - t0
