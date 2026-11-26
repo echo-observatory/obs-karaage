@@ -13,24 +13,48 @@
    "aliases": [
     "CEO of First 4 Internet"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     763,
+     884
+    ]
+   ]
   },
   {
    "canonical_name": "Sony BMG Music Entertainment",
    "aliases": [
     "Sony"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     884,
+     1212
+    ]
+   ]
   },
   {
    "canonical_name": "Mark Russinovich",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1212,
+     1418
+    ]
+   ]
   },
   {
    "canonical_name": "Thomas Hesse",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1826,
+     2047
+    ]
+   ]
   }
  ],
  "statements": [

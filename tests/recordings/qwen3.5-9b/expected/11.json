@@ -13,7 +13,45 @@
    "aliases": [
     "leader of the Pirate Party"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     850,
+     1037
+    ],
+    [
+     1427,
+     1521
+    ],
+    [
+     1711,
+     1763
+    ],
+    [
+     4385,
+     4713
+    ],
+    [
+     5482,
+     6077
+    ],
+    [
+     8121,
+     8925
+    ],
+    [
+     9305,
+     9727
+    ],
+    [
+     10289,
+     10419
+    ],
+    [
+     13974,
+     13977
+    ]
+   ]
   },
   {
    "canonical_name": "The Pirate Party",
@@ -22,12 +60,44 @@
     "the party",
     "Pirate Party"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     21,
+     189
+    ],
+    [
+     1040,
+     1427
+    ],
+    [
+     3310,
+     3693
+    ],
+    [
+     3999,
+     4224
+    ],
+    [
+     5128,
+     5300
+    ],
+    [
+     6077,
+     6259
+    ]
+   ]
   },
   {
    "canonical_name": "Wikinews",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     393,
+     414
+    ]
+   ]
   },
   {
    "canonical_name": "The Pirate Bay",
@@ -36,19 +106,45 @@
     "the site",
     "Pirate Bay"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2729,
+     2810
+    ],
+    [
+     3100,
+     3310
+    ]
+   ]
   },
   {
    "canonical_name": "Swedish authorities",
    "aliases": [
     "Swedish authorities"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1524,
+     1646
+    ],
+    [
+     1945,
+     2137
+    ]
+   ]
   },
   {
    "canonical_name": "U.S. interests",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     1658,
+     1708
+    ]
+   ]
   },
   {
    "canonical_name": "The Minister of Justice",
@@ -56,7 +152,17 @@
     "Bodström",
     "his name"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     3796,
+     3999
+    ],
+    [
+     4289,
+     4382
+    ]
+   ]
   },
   {
    "canonical_name": "The media",
@@ -65,42 +171,82 @@
     "national media",
     "media"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     7537,
+     7583
+    ],
+    [
+     10110,
+     10176
+    ]
+   ]
   },
   {
    "canonical_name": "The Department of Justice",
    "aliases": [
     "the Department of Justice"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     10176,
+     10289
+    ]
+   ]
   },
   {
    "canonical_name": "The music industry",
    "aliases": [
     "the music industry"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     11192,
+     11915
+    ]
+   ]
   },
   {
    "canonical_name": "The European Union",
    "aliases": [
     "European Union"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     7855,
+     8073
+    ]
+   ]
   },
   {
    "canonical_name": "The government of Sweden",
    "aliases": [
     "the next government of Sweden"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     6259,
+     6353
+    ]
+   ]
   },
   {
    "canonical_name": "Established politicians",
    "aliases": [
     "established politicians"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     7114,
+     7229
+    ]
+   ]
   },
   {
    "canonical_name": "The United States",
@@ -108,7 +254,13 @@
     "countries",
     "a foreign power"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     9913,
+     9961
+    ]
+   ]
   },
   {
    "canonical_name": "Hollywood studios",
@@ -116,19 +268,37 @@
     "foreign companies",
     "Hollywood studios"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     10576,
+     10759
+    ]
+   ]
   },
   {
    "canonical_name": "The Xerox copier",
    "aliases": [
     "the Xerox copier"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     12845,
+     12908
+    ]
+   ]
   },
   {
    "canonical_name": "Sister link",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     13977,
+     13988
+    ]
+   ]
   }
  ],
  "statements": [

@@ -13,31 +13,69 @@
    "aliases": [
     "Oxford University"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     117
+    ]
+   ]
   },
   {
    "canonical_name": "Computer Services department",
    "aliases": [
     "OUCS"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     117,
+     301
+    ],
+    [
+     1487,
+     1877
+    ]
+   ]
   },
   {
    "canonical_name": "Spotify",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     304,
+     514
+    ],
+    [
+     1877,
+     2085
+    ]
+   ]
   },
   {
    "canonical_name": "Students",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     788,
+     1096
+    ]
+   ]
   },
   {
    "canonical_name": "Spokeswoman",
    "aliases": [
     "university spokeswoman"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1229,
+     1487
+    ]
+   ]
   }
  ],
  "statements": [

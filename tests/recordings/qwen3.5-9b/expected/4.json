@@ -14,21 +14,43 @@
     "the court",
     "the Justices"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     111
+    ],
+    [
+     1266,
+     1403
+    ]
+   ]
   },
   {
    "canonical_name": "Metro-Goldwyn-Mayer Studios Inc. et al. v. Grokster, Ltd. et al.",
    "aliases": [
     "the case"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     111,
+     203
+    ]
+   ]
   },
   {
    "canonical_name": "David Souter",
    "aliases": [
     "Justice David Souter"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     498,
+     895
+    ]
+   ]
   },
   {
    "canonical_name": "Fred von Lohmann",
@@ -36,7 +58,13 @@
     "Fred von Lohmann",
     "senior staff attorney for the EFF"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1406,
+     1707
+    ]
+   ]
   }
  ],
  "statements": [

@@ -14,7 +14,29 @@
     "the company",
     "the Apple iPod"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     319
+    ],
+    [
+     517,
+     627
+    ],
+    [
+     1065,
+     1252
+    ],
+    [
+     2595,
+     2901
+    ],
+    [
+     3083,
+     3252
+    ]
+   ]
   },
   {
    "canonical_name": "Charles Arthur",
@@ -22,14 +44,46 @@
     "technology editor of The Guardian",
     "Arthur"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     716,
+     1065
+    ],
+    [
+     1939,
+     2131
+    ],
+    [
+     2411,
+     2595
+    ],
+    [
+     4033,
+     4097
+    ],
+    [
+     5125,
+     5541
+    ]
+   ]
   },
   {
    "canonical_name": "Mark Mulligan",
    "aliases": [
     "a music and digital media analyst at Forrester Research"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1252,
+     1588
+    ],
+    [
+     4574,
+     4921
+    ]
+   ]
   },
   {
    "canonical_name": "Alex Jacob",
@@ -37,7 +91,21 @@
     "a spokesperson for the International Federation of the Phonographic Industry",
     "Jacob"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1588,
+     1939
+    ],
+    [
+     2242,
+     2411
+    ],
+    [
+     6374,
+     6681
+    ]
+   ]
   },
   {
    "canonical_name": "International Federation of the Phonographic Industry",
@@ -45,26 +113,54 @@
     "the IFPI",
     "the worldwide music industry"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     6160,
+     6278
+    ]
+   ]
   },
   {
    "canonical_name": "Peter Gabriel",
    "aliases": [
     "British singer"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     5541,
+     5653
+    ]
+   ]
   },
   {
    "canonical_name": "Trent Reznor",
    "aliases": [
     "leader of the industrial rock band Nine Inch Nails"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     5671,
+     6102
+    ]
+   ]
   },
   {
    "canonical_name": "Robert",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     6331,
+     6374
+    ],
+    [
+     6681,
+     7099
+    ]
+   ]
   }
  ],
  "statements": [

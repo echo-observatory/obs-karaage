@@ -13,14 +13,42 @@
    "aliases": [
     "Assembly"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     212
+    ],
+    [
+     3848,
+     4016
+    ],
+    [
+     4505,
+     4631
+    ]
+   ]
   },
   {
    "canonical_name": "Renaud Donnedieu de Vabres",
    "aliases": [
     "Minister of Culture"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     643,
+     901
+    ],
+    [
+     3157,
+     3264
+    ],
+    [
+     3637,
+     3848
+    ]
+   ]
   },
   {
    "canonical_name": "European directive on copyright",
@@ -28,7 +56,13 @@
     "2001 European directive on copyright",
     "directive"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     309,
+     473
+    ]
+   ]
   },
   {
    "canonical_name": "Lawmakers",
@@ -41,14 +75,42 @@
     "some UMP and opposition lawmakers",
     "some UMP, UDF and opposition lawmakers"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1843,
+     1975
+    ],
+    [
+     2192,
+     2486
+    ],
+    [
+     2853,
+     3057
+    ],
+    [
+     4109,
+     4224
+    ],
+    [
+     4920,
+     5057
+    ]
+   ]
   },
   {
    "canonical_name": "US news sources",
    "aliases": [
     "US news sources"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2486,
+     2607
+    ]
+   ]
   },
   {
    "canonical_name": "Vivendi Universal",
@@ -56,21 +118,39 @@
     "Vivendi Universal amendment",
     "major entertainment company"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     4255,
+     4399
+    ]
+   ]
   },
   {
    "canonical_name": "Bernard Carayon",
    "aliases": [
     "UMP lawmakers"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     4399,
+     4505
+    ]
+   ]
   },
   {
    "canonical_name": "Jacques Chirac",
    "aliases": [
     "president"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     5155,
+     5219
+    ]
+   ]
   }
  ],
  "statements": [

@@ -13,27 +13,57 @@
    "aliases": [
     "head of BREIN"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1464,
+     1520
+    ]
+   ]
   },
   {
    "canonical_name": "SuprNova.org",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     1767,
+     2847
+    ]
+   ]
   },
   {
    "canonical_name": "TorrentBits.org",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     3537,
+     3758
+    ]
+   ]
   },
   {
    "canonical_name": "Delirium Vault",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     3758,
+     3910
+    ]
+   ]
   },
   {
    "canonical_name": "copyright owners",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     3978,
+     4159
+    ]
+   ]
   },
   {
    "canonical_name": "MPAA",
@@ -41,12 +71,24 @@
     "Motion Picture Association of America",
     "trade association representing the interests of major movie studios based in the United States"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     4858,
+     5282
+    ]
+   ]
   },
   {
    "canonical_name": "MetaMachine",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     5716,
+     6008
+    ]
+   ]
   }
  ],
  "statements": [

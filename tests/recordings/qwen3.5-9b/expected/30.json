@@ -14,40 +14,96 @@
     "Senior Staff Attorney of the Electronic Frontier Foundation (EFF)",
     "EFF's attorney Stoltz"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     204,
+     363
+    ],
+    [
+     1161,
+     1882
+    ],
+    [
+     3320,
+     3392
+    ]
+   ]
   },
   {
    "canonical_name": "Philipp Hagemeister",
    "aliases": [
     "former maintainer of youtube-dl"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1993,
+     2075
+    ]
+   ]
   },
   {
    "canonical_name": "Wikinews",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2075,
+     2205
+    ],
+    [
+     5971,
+     6000
+    ],
+    [
+     6464,
+     6559
+    ]
+   ]
   },
   {
    "canonical_name": "Sergey M",
    "aliases": [
     "one of the maintainers of youtube-dl"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     6245,
+     6461
+    ]
+   ]
   },
   {
    "canonical_name": "GitHub",
    "aliases": [
     "code-sharing and hosting service GitHub"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     122
+    ],
+    [
+     416,
+     554
+    ]
+   ]
   },
   {
    "canonical_name": "Recording Industry Association of America",
    "aliases": [
     "RIAA"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     789,
+     824
+    ]
+   ]
   },
   {
    "canonical_name": "Richard Stallman",
@@ -66,81 +122,223 @@
     "the speaker",
     "people like me"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     6844,
+     7304
+    ],
+    [
+     11928,
+     12303
+    ],
+    [
+     12617,
+     17722
+    ],
+    [
+     17843,
+     18855
+    ],
+    [
+     19379,
+     23436
+    ],
+    [
+     23676,
+     24338
+    ],
+    [
+     24525,
+     26968
+    ],
+    [
+     27178,
+     27823
+    ],
+    [
+     27976,
+     28467
+    ],
+    [
+     28853,
+     29221
+    ],
+    [
+     31906,
+     32217
+    ],
+    [
+     35407,
+     35497
+    ],
+    [
+     35685,
+     36061
+    ],
+    [
+     38314,
+     39332
+    ]
+   ]
   },
   {
    "canonical_name": "YouTube",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2383,
+     2557
+    ],
+    [
+     2851,
+     2977
+    ],
+    [
+     4684,
+     4814
+    ]
+   ]
   },
   {
    "canonical_name": "J. R. R. Tolkien",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     2577,
+     2677
+    ]
+   ]
   },
   {
    "canonical_name": "video2commons",
    "aliases": [
     "a tool"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     4145,
+     4206
+    ]
+   ]
   },
   {
    "canonical_name": "LiveLeak",
    "aliases": [
     "a video-sharing platform for citizen journalism"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     4227,
+     4314
+    ]
+   ]
   },
   {
    "canonical_name": "Creative Commons",
    "aliases": [
     "Creative Commons-licensed"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     4410,
+     4558
+    ]
+   ]
   },
   {
    "canonical_name": "Wikimedia Commons",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     4033,
+     4145
+    ]
+   ]
   },
   {
    "canonical_name": "GitHub Trust and Safety team",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     5608,
+     5690
+    ]
+   ]
   },
   {
    "canonical_name": "Uberspace",
    "aliases": [
     "main website hoster Uberspace"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     3411,
+     3622
+    ]
+   ]
   },
   {
    "canonical_name": "Electronic Frontier Foundation",
    "aliases": [
     "EFF"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     7496,
+     7545
+    ]
+   ]
   },
   {
    "canonical_name": "17 U.S. Code § 1201",
    "aliases": [
     "Circumvention of copyright protection systems"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     694,
+     789
+    ]
+   ]
   },
   {
    "canonical_name": "DMCA",
    "aliases": [
     "Digital Millennium Copyright Act"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     7886,
+     9184
+    ]
+   ]
   },
   {
    "canonical_name": "Interviewer",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     11720,
+     11837
+    ],
+    [
+     12303,
+     12545
+    ]
+   ]
   },
   {
    "canonical_name": "Unknown",
@@ -176,7 +374,25 @@
     "software developers",
     "distributions"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     30731,
+     31800
+    ],
+    [
+     32318,
+     32897
+    ],
+    [
+     33129,
+     33307
+    ],
+    [
+     37169,
+     37226
+    ]
+   ]
   }
  ],
  "statements": [

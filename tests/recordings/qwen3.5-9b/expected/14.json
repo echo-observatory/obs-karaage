@@ -13,12 +13,32 @@
    "aliases": [
     "two of the largest ISPs in North America"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     188,
+     310
+    ],
+    [
+     1892,
+     1945
+    ],
+    [
+     2653,
+     2752
+    ]
+   ]
   },
   {
    "canonical_name": "US Congress",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     505,
+     636
+    ]
+   ]
   },
   {
    "canonical_name": "Free Press",
@@ -26,42 +46,78 @@
     "an advocacy group",
     "that pushes for better oversight of cable operators such as Comcast"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     841,
+     1029
+    ]
+   ]
   },
   {
    "canonical_name": "Ben Scott",
    "aliases": [
     "head of the group"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1029,
+     1199
+    ]
+   ]
   },
   {
    "canonical_name": "Roger Entner",
    "aliases": [
     "a senior vice president from Nielsen IAG"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1199,
+     1550
+    ]
+   ]
   },
   {
    "canonical_name": "Sena Fitzmaurice",
    "aliases": [
     "a Comcast spokesperson"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1550,
+     1748
+    ]
+   ]
   },
   {
    "canonical_name": "Alex Dudley",
    "aliases": [
     "a Time Warner Cable spokesman"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     2348,
+     2530
+    ]
+   ]
   },
   {
    "canonical_name": "Associated Press",
    "aliases": [
     "report"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     2530,
+     2653
+    ]
+   ]
   },
   {
    "canonical_name": "Art Brodsky",
@@ -69,7 +125,13 @@
     "communications director of Public Knowledge",
     "a consumer advocacy group in Washington D.C."
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     2752,
+     3399
+    ]
+   ]
   }
  ],
  "statements": [

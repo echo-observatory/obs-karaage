@@ -14,26 +14,54 @@
     "ORG",
     "Open Rights Group"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     9,
+     519
+    ],
+    [
+     2175,
+     2340
+    ]
+   ]
   },
   {
    "canonical_name": "Cory Doctorow",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     522,
+     1077
+    ]
+   ]
   },
   {
    "canonical_name": "John Buckman",
    "aliases": [
     "John Buckman of Magnatune"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1077,
+     1248
+    ]
+   ]
   },
   {
    "canonical_name": "James Boyle",
    "aliases": [
     "Boyle"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1251,
+     1874
+    ]
+   ]
   }
  ],
  "statements": [

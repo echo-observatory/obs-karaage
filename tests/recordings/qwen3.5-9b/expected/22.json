@@ -14,28 +14,56 @@
     "academic journal repository",
     "JSTOR"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     361,
+     510
+    ],
+    [
+     692,
+     843
+    ]
+   ]
   },
   {
    "canonical_name": "U.S. District Court in Massachusetts",
    "aliases": [
     "U.S. District Court in Massachusetts"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     847,
+     913
+    ]
+   ]
   },
   {
    "canonical_name": "FBI",
    "aliases": [
     "FBI"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1108,
+     1154
+    ]
+   ]
   },
   {
    "canonical_name": "Wikimedia Foundation's Board of Trustees",
    "aliases": [
     "Wikimedia Foundation's Board of Trustees"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1154,
+     1267
+    ]
+   ]
   },
   {
    "canonical_name": "Greg Maxwell",
@@ -43,7 +71,13 @@
     "contributor to Wikipedia and Wikimedia Commons",
     "Maxwell"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1288,
+     1508
+    ]
+   ]
   }
  ],
  "statements": [

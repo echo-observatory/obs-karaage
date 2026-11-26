@@ -13,50 +13,98 @@
    "aliases": [
     "they"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     267,
+     465
+    ]
+   ]
   },
   {
    "canonical_name": "Wikinews",
    "aliases": [
     "Tom Morris"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     465,
+     679
+    ]
+   ]
   },
   {
    "canonical_name": "admins",
    "aliases": [
     "the admins who closed it"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1752,
+     1946
+    ]
+   ]
   },
   {
    "canonical_name": "Geoff Brigham",
    "aliases": [
     "Wikimedia's legal counsel"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     2269,
+     2501
+    ]
+   ]
   },
   {
    "canonical_name": "Italian Wikipedians",
    "aliases": [
     "the Italian Wikipedia"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     3126,
+     3288
+    ]
+   ]
   },
   {
    "canonical_name": "German Wikipedia",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     3288,
+     3395
+    ]
+   ]
   },
   {
    "canonical_name": "Arabic Wikipedia",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     3399,
+     3481
+    ]
+   ]
   },
   {
    "canonical_name": "Jimmy",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1588,
+     1634
+    ]
+   ]
   },
   {
    "canonical_name": "community",
@@ -64,7 +112,13 @@
     "the community",
     "the community consensus"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     4660,
+     4779
+    ]
+   ]
   },
   {
    "canonical_name": "Foundation",
@@ -73,7 +127,13 @@
     "the Wikimedia Foundation",
     "the Wikimedia movement"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     4970,
+     5401
+    ]
+   ]
   }
  ],
  "statements": [

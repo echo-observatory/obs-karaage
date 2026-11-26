@@ -15,17 +15,35 @@
     "The shop",
     "the photocopy service shop"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     165,
+     341
+    ]
+   ]
   },
   {
    "canonical_name": "Pradeep Nandrajog",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     341,
+     440
+    ]
+   ]
   },
   {
    "canonical_name": "Oxford University Press",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     472,
+     693
+    ]
+   ]
   },
   {
    "canonical_name": "Dharam Pal Singh",
@@ -33,7 +51,17 @@
     "Dharam Pal",
     "The owner of the photocopy service shop"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     824,
+     1109
+    ],
+    [
+     1408,
+     1673
+    ]
+   ]
   },
   {
    "canonical_name": "Delhi High Court",
@@ -41,19 +69,41 @@
     "The bench",
     "The High Court"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     165
+    ],
+    [
+     1109,
+     1408
+    ]
+   ]
   },
   {
    "canonical_name": "Justice Rajiv Sahan Endlaw",
    "aliases": [
     "Justice Endlaw"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1871,
+     2391
+    ]
+   ]
   },
   {
    "canonical_name": "Judge Sahani",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1693,
+     1800
+    ]
+   ]
   }
  ],
  "statements": [

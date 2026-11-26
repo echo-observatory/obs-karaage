@@ -14,7 +14,21 @@
     "the police",
     "police"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1138,
+     1280
+    ],
+    [
+     2435,
+     2589
+    ],
+    [
+     3481,
+     3657
+    ]
+   ]
   },
   {
    "canonical_name": "The Pirate Bay",
@@ -23,45 +37,111 @@
     "the site operators",
     "they"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     214
+    ],
+    [
+     377,
+     518
+    ],
+    [
+     879,
+     968
+    ],
+    [
+     2071,
+     2220
+    ],
+    [
+     2366,
+     2432
+    ],
+    [
+     2626,
+     2926
+    ],
+    [
+     3043,
+     3179
+    ]
+   ]
   },
   {
    "canonical_name": "Rickard Falkvinge",
    "aliases": [
     "head of the Swedish Pirate Party"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     518,
+     699
+    ]
+   ]
   },
   {
    "canonical_name": "Ulf Goranzon",
    "aliases": [
     "a police spokesman"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     743,
+     876
+    ]
+   ]
   },
   {
    "canonical_name": "United States media corporations",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     968,
+     1068
+    ]
+   ]
   },
   {
    "canonical_name": "Sveriges Television",
    "aliases": [
     "Swedish public broadcaster"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1068,
+     1138
+    ]
+   ]
   },
   {
    "canonical_name": "Tobias Andersson",
    "aliases": [
     "of Piratbyrån"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1359,
+     1503
+    ]
+   ]
   },
   {
    "canonical_name": "The IFPI",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1280,
+     1319
+    ]
+   ]
   },
   {
    "canonical_name": "Dan Glickman",
@@ -69,14 +149,26 @@
     "CEO of the Motion Picture Association of America",
     "CEO of the MPAA"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1644,
+     1819
+    ]
+   ]
   },
   {
    "canonical_name": "Kori Bernards",
    "aliases": [
     "an MPAA representative"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1819,
+     1915
+    ]
+   ]
   }
  ],
  "statements": [

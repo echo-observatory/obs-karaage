@@ -13,14 +13,26 @@
    "aliases": [
     "plenary session"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     199
+    ]
+   ]
   },
   {
    "canonical_name": "activist groups",
    "aliases": [
     "Pressure and activist groups"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     202,
+     373
+    ]
+   ]
   },
   {
    "canonical_name": "Open Rights Group",
@@ -28,7 +40,13 @@
     "ORG",
     "the UK's Open Rights Group"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     397,
+     664
+    ]
+   ]
   },
   {
    "canonical_name": "Charles Arthur",
@@ -36,40 +54,76 @@
     "The Guardian's technology editor",
     "Arthur"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     983,
+     1683
+    ]
+   ]
   },
   {
    "canonical_name": "Electronic Frontier Foundation",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1683,
+     1921
+    ]
+   ]
   },
   {
    "canonical_name": "Obama administration",
    "aliases": [
     "the Obama administration"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2009,
+     2171
+    ]
+   ]
   },
   {
    "canonical_name": "Sebastian Nerz",
    "aliases": [
     "vice-president of the Pirate Party of Germany"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     2174,
+     2247
+    ]
+   ]
   },
   {
    "canonical_name": "Accessnow.org",
    "aliases": [
     "US-based pressure group Accessnow.org"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2558,
+     2822
+    ]
+   ]
   },
   {
    "canonical_name": "Wikileaks",
    "aliases": [
     "whistleblowing site Wikileaks"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2822,
+     3229
+    ]
+   ]
   }
  ],
  "statements": [

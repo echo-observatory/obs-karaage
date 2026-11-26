@@ -19,12 +19,48 @@
     "this assertion",
     "this moralfag personal army"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1870,
+     1873
+    ],
+    [
+     2046,
+     2135
+    ],
+    [
+     2978,
+     3162
+    ],
+    [
+     4014,
+     4107
+    ],
+    [
+     4340,
+     4520
+    ],
+    [
+     4776,
+     5083
+    ]
+   ]
   },
   {
    "canonical_name": "Wikinews",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     239,
+     262
+    ],
+    [
+     3488,
+     3514
+    ]
+   ]
   },
   {
    "canonical_name": "International Federation of the Phonographic Industry",
@@ -33,28 +69,60 @@
     "this trade body",
     "this trade group"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     307,
+     529
+    ],
+    [
+     1040,
+     1237
+    ],
+    [
+     1873,
+     2011
+    ]
+   ]
   },
   {
    "canonical_name": "MPAA",
    "aliases": [
     "the MPAA's anti-piracy office"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     721,
+     818
+    ]
+   ]
   },
   {
    "canonical_name": "Pirate Party International",
    "aliases": [
     "local pirate parties"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1351,
+     1410
+    ]
+   ]
   },
   {
    "canonical_name": "Dmitriy Guzner",
    "aliases": [
     "aged 18"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     5083,
+     5206
+    ]
+   ]
   }
  ],
  "statements": [

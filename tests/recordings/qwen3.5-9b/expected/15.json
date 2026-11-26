@@ -14,24 +14,48 @@
     "the court",
     "Stockholm district court"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     337,
+     534
+    ]
+   ]
   },
   {
    "canonical_name": "Carl Lundström",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     160,
+     249
+    ]
+   ]
   },
   {
    "canonical_name": "A spokesman for TPB",
    "aliases": [
     "the spokesman"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     802,
+     828
+    ]
+   ]
   },
   {
    "canonical_name": "Investigators",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1097,
+     1194
+    ]
+   ]
   }
  ],
  "statements": [

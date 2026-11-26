@@ -13,33 +13,63 @@
    "aliases": [
     "EFF"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     127,
+     208
+    ]
+   ]
   },
   {
    "canonical_name": "Seth Schoen",
    "aliases": [
     "EFF Staff Technologist"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     208,
+     297
+    ]
+   ]
   },
   {
    "canonical_name": "Annalee Newitz",
    "aliases": [
     "EFF Media Coordinator"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     297,
+     482
+    ]
+   ]
   },
   {
    "canonical_name": "Recording Artists' Coalition",
    "aliases": [
     "RAC"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1154,
+     1269
+    ]
+   ]
   },
   {
    "canonical_name": "US Constitution",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     1458,
+     1702
+    ]
+   ]
   }
  ],
  "statements": [
