@@ -16,7 +16,17 @@
     "YourAnonNews",
     "Another member of Anonymous"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     195,
+     450
+    ],
+    [
+     1286,
+     1411
+    ]
+   ]
   },
   {
    "canonical_name": "Universal Music Group",
@@ -24,14 +34,26 @@
     "Universal Music",
     "www.universalmusic.com"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     739,
+     826
+    ]
+   ]
   },
   {
    "canonical_name": "Recording Industry Association of America",
    "aliases": [
     "RIAA"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     614,
+     673
+    ]
+   ]
   },
   {
    "canonical_name": "Federal Bureau of Investigation",
@@ -39,7 +61,17 @@
     "FBI",
     "www.fbi.gov"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     826,
+     1051
+    ],
+    [
+     1493,
+     1592
+    ]
+   ]
   },
   {
    "canonical_name": "United States Department of Justice",
@@ -48,7 +80,13 @@
     "www.justice.gov",
     "The government"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1164,
+     1286
+    ]
+   ]
   },
   {
    "canonical_name": "Megaupload",
@@ -56,7 +94,17 @@
     "file-sharing website Megaupload",
     "the website"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     1414,
+     1493
+    ],
+    [
+     1789,
+     1986
+    ]
+   ]
   }
  ],
  "statements": [

@@ -19,8 +19,10 @@ expected outputs from a replay instead:
     KARAAGE_UPDATE_EXPECTED=1 uv run pytest tests/test_articles.py
 """
 
+import html
 import json
 import os
+import re
 
 import pytest
 from openai.types.chat import ChatCompletion
@@ -38,7 +40,36 @@ def test_article(article_id, articles, run_article, resources):
     excerpts = {p["text"] for p in result.excerpts}
     assert all(text[s["char_start"]:s["char_end"]] in excerpts for s in data["statements"])
     assert "<link" not in result.html_report   # self-contained
+    assert {a["canonical_name"]: joined(a["spans"]) for a in data["actors"] if a["spans"]} == \
+        report_attribution(result.html_report, text)
     compare_with_expected(str(article_id), data, resources)
+
+
+def joined(spans: list) -> list:
+    """Spans with those that touch joined."""
+    out = []
+    for start, end in sorted(spans):
+        if out and out[-1][1] == start:
+            out[-1][1] = end
+        else:
+            out.append([start, end])
+    return out
+
+
+def report_attribution(report: str, text: str) -> dict:
+    """The spans that the report's attribution section marks, by actor name."""
+    section = report.split('<a name="attribution"></a>')[1].split("<a name=")[0]
+    marked_text = re.findall(r"<p>(.*?)</p>", section, re.DOTALL)[-1]
+    spans, offset = {}, 0
+    for name, marked, unmarked in re.findall(r'<mark class="actor\d+" title="([^"]*)">(.*?)</mark>|<span>(.*?)</span>',
+                                             marked_text, re.DOTALL):
+        segment = html.unescape(marked or unmarked)
+        assert text[offset:offset + len(segment)] == segment
+        if marked:
+            spans.setdefault(html.unescape(name), []).append([offset, offset + len(segment)])
+        offset += len(segment)
+    assert offset == len(text)
+    return {name: joined(s) for name, s in spans.items()}
 
 
 # Short articles where paraphrasing changed statements, run without it too (#28).

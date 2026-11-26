@@ -17,7 +17,25 @@
     "Microsoft's GitHub",
     "the DMCA repository"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     103
+    ],
+    [
+     373,
+     427
+    ],
+    [
+     5189,
+     5310
+    ],
+    [
+     5677,
+     5744
+    ]
+   ]
   },
   {
    "canonical_name": "youtube-dl",
@@ -28,7 +46,41 @@
     "the binary files",
     "the project"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     2764,
+     2824
+    ],
+    [
+     2951,
+     3018
+    ],
+    [
+     3525,
+     3554
+    ],
+    [
+     3779,
+     3863
+    ],
+    [
+     5025,
+     5160
+    ],
+    [
+     6117,
+     6200
+    ],
+    [
+     7318,
+     7409
+    ],
+    [
+     7580,
+     7643
+    ]
+   ]
   },
   {
    "canonical_name": "Recording Industry Association of America",
@@ -37,12 +89,44 @@
     "the RIAA",
     "our member companies"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     187,
+     327
+    ],
+    [
+     1523,
+     1556
+    ],
+    [
+     1725,
+     1846
+    ],
+    [
+     1981,
+     2061
+    ],
+    [
+     5650,
+     5677
+    ],
+    [
+     8948,
+     9020
+    ]
+   ]
   },
   {
    "canonical_name": "Ricardo Garcia",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     427,
+     448
+    ]
+   ]
   },
   {
    "canonical_name": "Creative Commons",
@@ -51,7 +135,13 @@
     "Creative Commons Attribution (CC BY) license",
     "Creative Commons"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2824,
+     2936
+    ]
+   ]
   },
   {
    "canonical_name": "YouTube",
@@ -61,7 +151,37 @@
     "YouTube Movies",
     "YouTube"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     518,
+     606
+    ],
+    [
+     790,
+     1064
+    ],
+    [
+     1222,
+     1444
+    ],
+    [
+     1556,
+     1721
+    ],
+    [
+     1846,
+     1981
+    ],
+    [
+     2289,
+     2357
+    ],
+    [
+     7526,
+     7580
+    ]
+   ]
   },
   {
    "canonical_name": "LiveLeak",
@@ -69,7 +189,13 @@
     "LiveLeak",
     "a video-sharing platform for citizen journalism"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     3018,
+     3105
+    ]
+   ]
   },
   {
    "canonical_name": "users",
@@ -82,12 +208,28 @@
     "multiple GitHub users",
     "One user"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     4672,
+     4795
+    ],
+    [
+     5509,
+     5650
+    ]
+   ]
   },
   {
    "canonical_name": "Wikinews",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     5913,
+     5937
+    ]
+   ]
   },
   {
    "canonical_name": "Sergey M.",
@@ -96,35 +238,77 @@
     "one of the maintainers of youtube-dl script",
     "he"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     6280,
+     6384
+    ],
+    [
+     6503,
+     6622
+    ]
+   ]
   },
   {
    "canonical_name": "Electronic Frontier Foundation",
    "aliases": [
     "EFF"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     6626,
+     6637
+    ],
+    [
+     8674,
+     8768
+    ]
+   ]
   },
   {
    "canonical_name": "Richard Stallman",
    "aliases": [
     "the founder of the Free Software Foundation"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     5744,
+     5913
+    ]
+   ]
   },
   {
    "canonical_name": "Reddit",
    "aliases": [
     "reddit"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     6898,
+     6959
+    ]
+   ]
   },
   {
    "canonical_name": "Internet Relay Chat",
    "aliases": [
     "IRC channel"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     4025,
+     4107
+    ],
+    [
+     6056,
+     6103
+    ]
+   ]
   },
   {
    "canonical_name": "DMCA",
@@ -134,56 +318,112 @@
     "the DMCA repository",
     "the DMCA"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     763,
+     790
+    ],
+    [
+     8231,
+     8341
+    ]
+   ]
   },
   {
    "canonical_name": "Fair use",
    "aliases": [
     "fair use"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     3139,
+     3201
+    ]
+   ]
   },
   {
    "canonical_name": "public domain",
    "aliases": [
     "public domain"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     606,
+     665
+    ],
+    [
+     2631,
+     2703
+    ]
+   ]
   },
   {
    "canonical_name": "Creative Commons Attribution license",
    "aliases": [
     "Creative Commons Attribution (CC BY) license"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     2357,
+     2516
+    ]
+   ]
   },
   {
    "canonical_name": "JavaScript",
    "aliases": [
     "JavaScript"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     3201,
+     3254
+    ]
+   ]
   },
   {
    "canonical_name": "Microsoft",
    "aliases": [
     "Microsoft's GitHub"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     4466,
+     4520
+    ]
+   ]
   },
   {
    "canonical_name": "GitHub account",
    "aliases": [
     "a GitHub account"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     4520,
+     4590
+    ]
+   ]
   },
   {
    "canonical_name": "Raspberry Pi",
    "aliases": [
     "Raspberry Pi"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     7892,
+     8181
+    ]
+   ]
   },
   {
    "canonical_name": "copyrighted material",
@@ -193,19 +433,61 @@
     "copyrighted photos",
     "copyrighted videos"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     1444,
+     1505
+    ],
+    [
+     2093,
+     2200
+    ],
+    [
+     3643,
+     3698
+    ]
+   ]
   },
   {
    "canonical_name": "author",
    "aliases": [
     "the author"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     2516,
+     2631
+    ]
+   ]
   },
   {
    "canonical_name": "you",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     6808,
+     6898
+    ],
+    [
+     7116,
+     7275
+    ],
+    [
+     7751,
+     7871
+    ],
+    [
+     8184,
+     8223
+    ],
+    [
+     8389,
+     8465
+    ]
+   ]
   }
  ],
  "statements": [

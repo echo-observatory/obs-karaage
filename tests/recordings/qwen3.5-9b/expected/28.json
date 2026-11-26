@@ -13,28 +13,52 @@
    "aliases": [
     "the court"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     392
+    ]
+   ]
   },
   {
    "canonical_name": "Peter Tonagh",
    "aliases": [
     "chief executive of copyright holders Foxtel"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     827,
+     1065
+    ]
+   ]
   },
   {
    "canonical_name": "Graham Bruke",
    "aliases": [
     "co-executive of the other copyright holder in the case, Village Roadshow"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1214,
+     1273
+    ]
+   ]
   },
   {
    "canonical_name": "Village Roadshow",
    "aliases": [
     "the other copyright holder in the case"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1273,
+     1334
+    ]
+   ]
   }
  ],
  "statements": [

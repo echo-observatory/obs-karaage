@@ -13,24 +13,68 @@
    "aliases": [
     "Sloncek"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     79,
+     204
+    ],
+    [
+     316,
+     812
+    ],
+    [
+     941,
+     1061
+    ],
+    [
+     1190,
+     1302
+    ],
+    [
+     1575,
+     1635
+    ]
+   ]
   },
   {
    "canonical_name": "BitTorrent protocol",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     1818,
+     2267
+    ]
+   ]
   },
   {
    "canonical_name": "eXeem",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     812,
+     941
+    ],
+    [
+     2576,
+     2952
+    ]
+   ]
   },
   {
    "canonical_name": "Suprnova",
    "aliases": [
     "Suprnova BitTorrent link site"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2952,
+     3150
+    ]
+   ]
   }
  ],
  "statements": [

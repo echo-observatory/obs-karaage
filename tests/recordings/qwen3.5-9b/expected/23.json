@@ -14,19 +14,37 @@
     "online encyclopedia",
     "page"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1848,
+     1911
+    ]
+   ]
   },
   {
    "canonical_name": "Stop Online Piracy Act",
    "aliases": [
     "SOPA"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     0,
+     190
+    ]
+   ]
   },
   {
    "canonical_name": "Wikimedia Foundation",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1545,
+     1692
+    ]
+   ]
   },
   {
    "canonical_name": "Jimmy Wales",
@@ -34,26 +52,50 @@
     "co-founder of Wikipedia",
     "Wales"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1915,
+     2612
+    ]
+   ]
   },
   {
    "canonical_name": "Reddit",
    "aliases": [
     "social media site"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     757,
+     912
+    ]
+   ]
   },
   {
    "canonical_name": "Google",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     912,
+     1002
+    ]
+   ]
   },
   {
    "canonical_name": "Motion Picture Association of America",
    "aliases": [
     "MPAA"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2612,
+     3143
+    ]
+   ]
   }
  ],
  "statements": [

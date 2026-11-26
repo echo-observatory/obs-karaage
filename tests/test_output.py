@@ -3,7 +3,7 @@
 import jsonschema
 
 from karaage.attribution import Actor
-from karaage.output import build_output, output_schema, text_warnings
+from karaage.output import actor_spans, build_output, output_schema, text_warnings
 
 # Invented texts on the same subject, written for these tests.
 ENGLISH = ("The council decided today to build a new school in the north of the town. The mayor said that the "
@@ -77,7 +77,8 @@ def test_ok_output():
     ])
     assert data["status"] == "ok" and data["errors"] == [] and data["warnings"] == []
     assert data["text_length"] == 60 and len(data["text_sha256"]) == 64
-    assert data["actors"] == [{"canonical_name": "Jane Doe", "aliases": ["Doe", "the mayor"], "kind": "person"}]
+    assert data["actors"] == [{"canonical_name": "Jane Doe", "aliases": ["Doe", "the mayor"], "kind": "person",
+                               "spans": [[17, 60]]}]
     valid, rejected = data["statements"]
     assert valid == {
         "id": "doc-7-s1", "actor": "Jane Doe", "actor_aliases": ["Jane Doe", "Doe", "the mayor"],
@@ -87,6 +88,16 @@ def test_ok_output():
     }
     assert (rejected["id"], rejected["actor_aliases"], rejected["valid"], rejected["rejection_reason"]) == (
         "doc-7-s2", ["base_author"], False, "not found in source text")
+
+
+def test_actor_spans_are_sorted_and_clipped_to_the_segments():
+    segments = [{"id": i, "text": "abcd", "start": 4 * i, "end": 4 * i + 4} for i in range(5)]
+    def spans(ranges):
+        return actor_spans(Actor(canonical_name="A", aliases=[], kind=None, segments=ranges), segments)
+    assert spans([[3, 4], [0, 1]]) == [[0, 8], [12, 20]]
+    assert spans([[2, 2]]) == [[8, 12]]
+    assert spans([[4, 9], [-2, 0]]) == [[0, 4], [16, 20]]   # past either end
+    assert spans([[5, 9]]) == []                              # no segment left
 
 
 def test_partial_output_lists_what_failed():

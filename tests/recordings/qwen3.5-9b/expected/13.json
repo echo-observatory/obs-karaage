@@ -13,12 +13,44 @@
    "aliases": [
     "Moore"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     28,
+     117
+    ],
+    [
+     318,
+     357
+    ],
+    [
+     605,
+     759
+    ],
+    [
+     868,
+     936
+    ],
+    [
+     1900,
+     1945
+    ],
+    [
+     2277,
+     2427
+    ]
+   ]
   },
   {
    "canonical_name": "Lionsgate Studios",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     117,
+     199
+    ]
+   ]
   },
   {
    "canonical_name": "Office of Foreign Assets Control",
@@ -27,7 +59,13 @@
     "Office of Foreign Assets Control within the United States Department of the Treasury",
     "Treasury department"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     357,
+     483
+    ]
+   ]
   },
   {
    "canonical_name": "Health insurance companies",
@@ -35,7 +73,13 @@
     "America's Health Insurance Plans",
     "AHIP"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2852,
+     3013
+    ]
+   ]
   }
  ],
  "statements": [

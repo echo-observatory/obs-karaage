@@ -13,7 +13,17 @@
    "aliases": [
     "administrator of the United States Pirate Party"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     190,
+     3605
+    ],
+    [
+     3731,
+     4040
+    ]
+   ]
   }
  ],
  "statements": [

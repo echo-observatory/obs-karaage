@@ -13,7 +13,13 @@
    "aliases": [
     "Pew Internet & American Life Project"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2132,
+     2340
+    ]
+   ]
   },
   {
    "canonical_name": "Sony Corp. v. Universal City Studios",
@@ -21,7 +27,13 @@
     "Betamax decision",
     "Betamax case"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     2340,
+     2413
+    ]
+   ]
   }
  ],
  "statements": [

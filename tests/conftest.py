@@ -79,3 +79,8 @@ def check_output(data: dict, text: str) -> None:
         assert 0 <= s["char_start"] < s["char_end"] <= len(text)
     ids = [s["id"] for s in data["statements"]]
     assert len(ids) == len(set(ids))
+    for actor in data["actors"]:
+        assert actor["spans"] == sorted(actor["spans"])
+        assert all(0 <= start < end <= len(text) for start, end in actor["spans"])
+    spans = sorted(span for actor in data["actors"] for span in actor["spans"])
+    assert all(a[1] <= b[0] for a, b in zip(spans, spans[1:]))   # no overlap, within an actor or across actors

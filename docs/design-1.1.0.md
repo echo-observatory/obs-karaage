@@ -63,11 +63,14 @@ Statements in the text's own voice keep the actor `base_author`. Karaage does no
 Each actor in the output has:
 - `canonical_name`: the full name of a person, the official name of an organisation, or the title of a document;
 - `aliases`: the other names the text uses for it, possibly empty;
-- `kind`: `person`, `organisation` or `null` (documents, unknown). These are the snapshot specification's values, with its spelling. The attribution prompt lets the model choose among `person`, `organisation`, `document` and `unknown`, and the output maps the last two to `null`.
+- `kind`: `person`, `organisation` or `null` (documents, unknown). These are the snapshot specification's values, with its spelling. The attribution prompt lets the model choose among `person`, `organisation`, `document` and `unknown`, and the output maps the last two to `null`;
+- `spans`: the text attributed to it, as sorted `[start, end]` offsets in code points, end excluded (#45). Each segment range left after range resolution gives one span, from the start of its first segment to the end of its last, as the report marks them. Ranges past the text's segments are clipped to them, so the list may be empty. Spans of different actors don't overlap, and text in no span is `base_author`'s.
+  - *Reason:* an eval of attribution needs the text given to each actor, and a statement's offsets give its excerpt, not what its actor said (section 3.2).
+  - The field describes the result, not how it is reached, so it stays the same when the steps change. It holds offsets only, no source text.
 
 The **document author** is not part of 1.1.0. A separate LLM call, given the text (or its beginning and end) and asked who the text presents as its author, named quoted people and interviewees as authors in most of the 30 test articles, which have no bylines. Asking for a quote of the byline did not fix it. It will be revisited once there are evals (milestone "Quality").
 
-There are no character offsets and no `source` field: everything Karaage reports is inferred from the text.
+There is no `source` field: everything Karaage reports is inferred from the text.
 
 ### 3.5 Main point of long documents
 
@@ -249,7 +252,8 @@ The JSON Schema of the output lives in `src/karaage/schemas/` and is the referen
   "main_point": "…",
   "main_point_method": "single",
   "actors": [
-    {"canonical_name": "Jane Doe", "aliases": ["Doe", "the spokesperson"], "kind": "person"}
+    {"canonical_name": "Jane Doe", "aliases": ["Doe", "the spokesperson"], "kind": "person",
+     "spans": [[812, 1040], [1310, 1520]]}
   ],
   "statements": [
     {

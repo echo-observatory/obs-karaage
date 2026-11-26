@@ -206,7 +206,7 @@ Each document's output is a JSON object, described by the JSON Schema [`src/kara
 | `text_length`, `text_sha256` | Length of the text in Unicode code points, and SHA-256 of its UTF-8 bytes, to detect a later change to the text. |
 | `main_point` | One sentence stating the central argument of the text. |
 | `main_point_method` | `single`, or `chunked` when the text did not fit the model's context: its parts were summarised, and the summaries combined. |
-| `actors` | The actors quoted or cited (*inferred actors*, in the snapshot specification's terms): `canonical_name`, `aliases`, and `kind` (`person`, `organisation`, or `null`). |
+| `actors` | The actors quoted or cited (*inferred actors*, in the snapshot specification's terms): `canonical_name`, `aliases`, `kind` (`person`, `organisation`, or `null`), and `spans`: the text attributed to the actor, as sorted `[start, end]` pairs in code points, end excluded. Spans of different actors don't overlap, and text in no span is the text's own voice (`base_author`). |
 | `statements` | Every statement extracted, rejected ones included (below). |
 | `provenance` | Karaage version and commit, profile and its settings, backend, model and its build, whether paraphrasing was on (`paraphrase`), `inferred_at` (UTC, `YYYY-MM-DDTHH:MM:SSZ`), and the duration of each step. |
 

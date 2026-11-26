@@ -16,80 +16,168 @@
     "sweetheart aggregator",
     "provider"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2871,
+     2935
+    ]
+   ]
   },
   {
    "canonical_name": "Warner Brothers",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     44,
+     181
+    ]
+   ]
   },
   {
    "canonical_name": "Time Warner",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     181,
+     305
+    ]
+   ]
   },
   {
    "canonical_name": "John P. Gamboa",
    "aliases": [
     "Dailey Aztec"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1097,
+     1207
+    ]
+   ]
   },
   {
    "canonical_name": "Niklas Zennström",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1207,
+     1323
+    ],
+    [
+     1532,
+     1631
+    ]
+   ]
   },
   {
    "canonical_name": "Fredrik de Wahl",
    "aliases": [
     "Joost chief executive officer"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     2547,
+     2734
+    ]
+   ]
   },
   {
    "canonical_name": "media conglomerates",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2734,
+     2871
+    ]
+   ]
   },
   {
    "canonical_name": "established subscription cable and satellite distribution channels",
    "aliases": [
     "free airwave TV"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2939,
+     3124
+    ]
+   ]
   },
   {
    "canonical_name": "Internet peer-to-peer networking",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     3253,
+     3348
+    ]
+   ]
   },
   {
    "canonical_name": "Kazaa",
    "aliases": [
     "copyright bust"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     1369,
+     1386
+    ]
+   ]
   },
   {
    "canonical_name": "Sharman Networks",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1631,
+     1710
+    ]
+   ]
   },
   {
    "canonical_name": "eBay",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1710,
+     1767
+    ]
+   ]
   },
   {
    "canonical_name": "music record labels",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1767,
+     1828
+    ]
+   ]
   },
   {
    "canonical_name": "telcom carriers",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2117,
+     2267
+    ]
+   ]
   },
   {
    "canonical_name": "users",
@@ -97,19 +185,49 @@
     "Internet users",
     "viewers"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     481,
+     576
+    ],
+    [
+     836,
+     1097
+    ],
+    [
+     1828,
+     2010
+    ],
+    [
+     3947,
+     4055
+    ]
+   ]
   },
   {
    "canonical_name": "music file sharing and telephony implementations",
    "aliases": [
     "bleeding edge"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     1408,
+     1525
+    ]
+   ]
   },
   {
    "canonical_name": "The 'on-demand' feature",
    "aliases": [],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     3348,
+     3508
+    ]
+   ]
   },
   {
    "canonical_name": "It",
@@ -117,7 +235,13 @@
     "middle-man",
     "web broadcaster"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     3508,
+     3822
+    ]
+   ]
   }
  ],
  "statements": [

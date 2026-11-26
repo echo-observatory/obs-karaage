@@ -117,6 +117,21 @@ def build_statement(s: dict, document_id: str, segments_by_id: dict, aliases_by_
     }
 
 
+def actor_spans(actor, segments: list) -> list[list[int]]:
+    """The text given to an actor, as sorted [start, end] offsets, end excluded (docs/design-1.1.0.md, section 3.4).
+
+    Each of its segment ranges is one span. Ranges are clipped to the text's segments,
+    whose ids run from 0, as the report does when it marks them.
+    """
+    last = len(segments) - 1
+    spans = []
+    for first_id, last_id in actor.segments:
+        first_id, last_id = max(first_id, 0), min(last_id, last)
+        if first_id <= last_id:
+            spans.append([segments[first_id]["start"], segments[last_id]["end"]])
+    return sorted(spans)
+
+
 def statement_errors(statements: list, document_id: str) -> list[dict]:
     """Statements whose rephrasing batch or validation call failed."""
     errors = []
@@ -161,7 +176,8 @@ def build_output(
         status = "partial" if errors else "ok"
         actor_list = list(getattr(attribution, "actors", attribution))
         actors = [
-            {"canonical_name": actor.canonical_name, "aliases": list(actor.aliases), "kind": snapshot_kind(actor.kind)}
+            {"canonical_name": actor.canonical_name, "aliases": list(actor.aliases), "kind": snapshot_kind(actor.kind),
+             "spans": actor_spans(actor, segments)}
             for actor in actor_list
         ]
         aliases_by_actor = {actor.canonical_name: list(dict.fromkeys([actor.canonical_name, *actor.aliases])) for actor in actor_list}

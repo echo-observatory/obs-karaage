@@ -13,14 +13,30 @@
    "aliases": [
     "Motion Picture Association of America"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     0,
+     531
+    ],
+    [
+     978,
+     1009
+    ]
+   ]
   },
   {
    "canonical_name": "Joe",
    "aliases": [
     "Joe from Binnews"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     7372,
+     7612
+    ]
+   ]
   },
   {
    "canonical_name": "Binnews",
@@ -28,7 +44,29 @@
     "Binnews.com",
     "BinNews.com"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     682,
+     787
+    ],
+    [
+     2021,
+     2157
+    ],
+    [
+     2978,
+     3136
+    ],
+    [
+     4104,
+     4226
+    ],
+    [
+     5392,
+     5706
+    ]
+   ]
   },
   {
    "canonical_name": "dvdrs.net",
@@ -36,19 +74,73 @@
     "Dvdrs",
     "DVDRS"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     1013,
+     1836
+    ],
+    [
+     2157,
+     2655
+    ],
+    [
+     3703,
+     3969
+    ],
+    [
+     6217,
+     6906
+    ]
+   ]
   },
   {
    "canonical_name": "Descds",
    "aliases": [
     "administrator of dvdrs.net"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     4803,
+     5392
+    ],
+    [
+     8365,
+     8466
+    ]
+   ]
   },
   {
    "canonical_name": "Wikinews",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2905,
+     2978
+    ],
+    [
+     3168,
+     3181
+    ],
+    [
+     3503,
+     3518
+    ],
+    [
+     3969,
+     4104
+    ],
+    [
+     4226,
+     4249
+    ],
+    [
+     8039,
+     8162
+    ]
+   ]
   }
  ],
  "statements": [

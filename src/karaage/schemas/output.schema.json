@@ -82,11 +82,16 @@
     "actor": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["canonical_name", "aliases", "kind"],
+      "required": ["canonical_name", "aliases", "kind", "spans"],
       "properties": {
         "canonical_name": {"type": "string", "minLength": 1, "description": "The full name of a person, the official name of an organisation, or the title of a document."},
         "aliases": {"type": "array", "items": {"type": "string"}, "description": "Other names the text uses for the actor."},
-        "kind": {"enum": ["person", "organisation", null], "description": "As in the snapshot specification; null for documents and unknown kinds."}
+        "kind": {"enum": ["person", "organisation", null], "description": "As in the snapshot specification; null for documents and unknown kinds."},
+        "spans": {
+          "type": "array",
+          "items": {"type": "array", "prefixItems": [{"type": "integer", "minimum": 0}, {"type": "integer", "minimum": 1}], "items": false, "minItems": 2},
+          "description": "The text attributed to the actor, as sorted [start, end] pairs in code points, end excluded. Spans of different actors don't overlap; text in no span is the text's own voice. May be empty."
+        }
       }
     },
     "statement": {

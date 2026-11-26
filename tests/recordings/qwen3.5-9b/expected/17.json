@@ -13,7 +13,33 @@
    "aliases": [
     "Geist"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     0,
+     116
+    ],
+    [
+     2334,
+     2494
+    ],
+    [
+     4189,
+     4238
+    ],
+    [
+     8071,
+     8130
+    ],
+    [
+     8296,
+     8466
+    ],
+    [
+     8637,
+     8669
+    ]
+   ]
   },
   {
    "canonical_name": "David A. Basskin",
@@ -21,36 +47,112 @@
     "Basskin",
     "President and CEO of CMRRA"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     1076,
+     1186
+    ],
+    [
+     1565,
+     1583
+    ],
+    [
+     3197,
+     3239
+    ],
+    [
+     3702,
+     3718
+    ],
+    [
+     4601,
+     4617
+    ],
+    [
+     9102,
+     9263
+    ]
+   ]
   },
   {
    "canonical_name": "Society for Reproduction Rights of Authors (SODRAC)",
    "aliases": [
     "SODRAC"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     695,
+     951
+    ],
+    [
+     5856,
+     5968
+    ],
+    [
+     6695,
+     6709
+    ],
+    [
+     8578,
+     8634
+    ]
+   ]
   },
   {
    "canonical_name": "Canadian Musical Reproduction Rights Agency (CMRRA)",
    "aliases": [
     "CMRRA"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     2975,
+     3079
+    ],
+    [
+     4286,
+     4544
+    ],
+    [
+     9424,
+     9453
+    ]
+   ]
   },
   {
    "canonical_name": "Wikinews",
    "aliases": [],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     7152,
+     7171
+    ]
+   ]
   },
   {
    "canonical_name": "Don Hogarth",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     7791,
+     7841
+    ]
+   ]
   },
   {
    "canonical_name": "Brian McNeil",
    "aliases": [],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     7429,
+     7492
+    ]
+   ]
   },
   {
    "canonical_name": "Barry Sookman",
@@ -59,7 +161,17 @@
     "lobbyist at the Canadian Parliament",
     "lobbyist"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     8954,
+     9102
+    ],
+    [
+     9472,
+     9507
+    ]
+   ]
   },
   {
    "canonical_name": "Canadian Recording Industry Association (CRIA)",
@@ -67,7 +179,33 @@
     "CRIA",
     "the 'majors'' industry body"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     3288,
+     3440
+    ],
+    [
+     4099,
+     4189
+    ],
+    [
+     5968,
+     6061
+    ],
+    [
+     7367,
+     7429
+    ],
+    [
+     7708,
+     7791
+    ],
+    [
+     9859,
+     9955
+    ]
+   ]
   },
   {
    "canonical_name": "Sony BMG Music",
@@ -75,7 +213,13 @@
     "Sony BMG Music",
     "Sony"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     972,
+     1076
+    ]
+   ]
   },
   {
    "canonical_name": "Warner Music Canada",
@@ -83,7 +227,13 @@
     "Warner Music Canada",
     "Warner Brothers Canada"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     7244,
+     7367
+    ]
+   ]
   },
   {
    "canonical_name": "Chet Baker",
@@ -93,35 +243,73 @@
     "Baker's estate",
     "Baker legal team"
    ],
-   "kind": "person"
+   "kind": "person",
+   "spans": [
+    [
+     274,
+     359
+    ],
+    [
+     951,
+     972
+    ],
+    [
+     1186,
+     1427
+    ]
+   ]
   },
   {
    "canonical_name": "The Mechanical Licensing Agreement (MLA)",
    "aliases": [
     "MLA"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     3572,
+     3634
+    ]
+   ]
   },
   {
    "canonical_name": "The Class Proceedings Act of 1992",
    "aliases": [
     "Class Proceedings Act of 1992"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     116,
+     271
+    ]
+   ]
   },
   {
    "canonical_name": "Copyright Act",
    "aliases": [
     "Copyright Act"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     2025,
+     2163
+    ]
+   ]
   },
   {
    "canonical_name": "The Mechanical Licensing Agreement (MLA) between the CMRRA and the CRIA",
    "aliases": [
     "MLA"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     4752,
+     4821
+    ]
+   ]
   },
   {
    "canonical_name": "Basskin's affidavit",
@@ -130,7 +318,17 @@
     "his sworn affidavit",
     "his first encounter with pending lists"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     5053,
+     5156
+    ],
+    [
+     6205,
+     6272
+    ]
+   ]
   },
   {
    "canonical_name": "Lauzon's affidavit",
@@ -138,7 +336,13 @@
     "Lauzon's followup affidavit",
     "his followup affidavit"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     5156,
+     5404
+    ]
+   ]
   },
   {
    "canonical_name": "Sookman's blog post",
@@ -149,14 +353,26 @@
     "a blog entry by Barry Sookman",
     "a posting"
    ],
-   "kind": null
+   "kind": null,
+   "spans": [
+    [
+     7535,
+     7601
+    ]
+   ]
   },
   {
    "canonical_name": "The court",
    "aliases": [
     "the court"
    ],
-   "kind": "organisation"
+   "kind": "organisation",
+   "spans": [
+    [
+     6073,
+     6162
+    ]
+   ]
   }
  ],
  "statements": [
